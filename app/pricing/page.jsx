@@ -204,7 +204,7 @@ export default function Component() {
       </div>
       <div className="text-center mt-6">
         <Link className="text-black" href="#">
-          Compare all plans
+          Compare all plans →
         </Link>
       </div>
       <Addons />
