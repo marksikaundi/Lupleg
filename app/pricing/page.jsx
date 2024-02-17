@@ -202,6 +202,11 @@ export default function Component() {
           </CardFooter>
         </Card>
       </div>
+      <div className="text-center mt-6">
+        <Link className="text-black" href="#">
+          Compare all plans
+        </Link>
+      </div>
       <Addons />
     </div>
   );
