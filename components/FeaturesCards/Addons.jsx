@@ -47,10 +47,10 @@ export default function Component() {
         </Card>
       </div>
       <div className="text-center mt-8">
-        <Link className="text-blue-600 hover:underline" href="#">
+        <Link className="text-[#4F46E5] hover:underline" href="#">
           Connect with our Technical team →
         </Link>
-        <p className="text-xs text-gray-500 mt-2">
+        <p className="text-md text-gray-600 mt-2">
           Add-ons are currently only available on the Growth plan or higher
         </p>
       </div>
