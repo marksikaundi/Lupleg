@@ -88,7 +88,7 @@ export default function Component() {
         </Card>
         <Card className="relative bg-white">
           <Badge
-            className="absolute top-0 right-0 mt-4 mr-4"
+            className="absolute bg-black text-white p-2 top-0 right-0 mt-4 mr-4"
             variant="secondary"
           >
             MOST POPULAR
