@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Cards from "/components/FeaturesCards/Cards.jsx"
 
 export default function Component() {
   return (
@@ -20,7 +21,10 @@ export default function Component() {
         </p>
         <Button className="mt-8 px-8 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50 transition duration-300">
           Get started
-        </Button>
+        </Button><br/>
+      </div>
+      <div className="mt-50">
+      <Cards/>
       </div>
     </div>
   );
