@@ -19,15 +19,15 @@ export default function Header() {
         <nav className="flex space-x-6">
           <Link
             className="text-black dark:text-gray-300 hover:text-gray-600 dark:hover:text-gray-200"
-            href="features"
+            href="products"
           >
-            Features
+            Products
           </Link>
           <Link
             className="text-black dark:text-gray-300 hover:text-gray-600 dark:hover:text-gray-200"
-            href="courses"
+            href="features"
           >
-            Courses
+            Features
           </Link>
           <Link
             className="text-black dark:text-gray-300 hover:text-gray-600 dark:hover:text-gray-200"
@@ -49,9 +49,10 @@ export default function Header() {
           </Link>
         </nav>
       </div>
-      <div className="hidden md:block  bg-black hover:bg-black rounded-md">
-        <Button className="text-white text-md">Apply Now</Button>
+      <div className="hidden p-5 md:block  bg-black hover:bg-black rounded-full text-white text-md">
+        <button>Get Started</button>
       </div>
+
       <Sheet>
         <SheetTrigger asChild>
           <Button className="lg:hidden" size="icon" variant="outline">
@@ -63,15 +64,15 @@ export default function Header() {
           <div className="grid gap-2 py-6">
             <Link
               className="flex w-full items-center py-2 text-lg font-semibold"
-              href="features"
+              href="products"
             >
-              Features
+              Products
             </Link>
             <Link
               className="flex w-full items-center py-2 text-lg font-semibold"
-              href="courses"
+              href="features"
             >
-              Courses
+              Features
             </Link>
             <Link
               className="flex w-full items-center py-2 text-lg font-semibold"
@@ -91,8 +92,8 @@ export default function Header() {
             >
               Events
             </Link>
-            <div className="flex items-center bg-black hover:bg-black rounded-md">
-              <Button className="text-white text-md">Apply Now</Button>
+            <div className="flex items-center  rounded-full">
+              <Button className="text-white text-md">Get Started</Button>
             </div>
           </div>
         </SheetContent>
