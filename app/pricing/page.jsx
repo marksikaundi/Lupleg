@@ -196,7 +196,7 @@ export default function Component() {
             </div>
           </CardContent>
           <CardFooter>
-            <Link className="text-[#4F46E5] hover:text-indigo-500" href="#">
+            <Link className="text-indigo-600 hover:text-indigo-500" href="#">
               Compare all plans
             </Link>
           </CardFooter>
