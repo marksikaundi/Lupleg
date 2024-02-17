@@ -16,7 +16,7 @@ import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import Addons from "@/components/FeaturesCards/Addons";
 
-export default function Component() {
+export default function Pricing() {
   return (
     <div className="bg-[#e0f2fe] px-4 py-16 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl text-center">

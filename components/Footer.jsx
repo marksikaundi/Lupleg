@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Component() {
+export default function Footer() {
   return (
     // <footer className="bg-gradient-to-b from-blue-1000 to-blue-500 text-[#021B38]">
       <footer className="bg-[#FFFFFF]">
