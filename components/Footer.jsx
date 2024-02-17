@@ -2,7 +2,8 @@ import Link from "next/link";
 
 export default function Component() {
   return (
-    <footer className="bg-gradient-to-b from-blue-1000 to-blue-500 text-[#021B38]">
+    // <footer className="bg-gradient-to-b from-blue-1000 to-blue-500 text-[#021B38]">
+      <footer className="bg-[#FFFFFF]">
       <div className="container mx-auto px-4 py-8 ">
         
         <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 md:grid-cols-5 lg:gap-16">

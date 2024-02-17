@@ -3,7 +3,8 @@ import Cards from "/components/FeaturesCards/Cards.jsx"
 
 export default function Component() {
   return (
-    <div className="bg-gradient-to-r from-pink-300 via-red-300 to-yellow-300">
+    // <div className="bg-gradient-to-r from-pink-300 via-red-300 to-yellow-300">
+      <div className="bg-[#FFFFFF]">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 text-center">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-800">
           <span className="block xl:inline">The efficiency of a help</span>{" "}
@@ -22,8 +23,7 @@ export default function Component() {
         <Button className="mt-8 px-8 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50 transition duration-300">
           Get started
         </Button><br/>
-      </div>
-      <div className="mt-50">
+      
       <Cards/>
       </div>
     </div>
