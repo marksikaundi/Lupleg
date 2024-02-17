@@ -24,10 +24,10 @@ export default function Component() {
           Choose your plan to deliver exceptional service
         </h1>
         <div className="mt-8 flex justify-center">
-          <Button className="mr-4 bg-white py-2 px-4 text-sm font-medium text-indigo-600 shadow-sm hover:bg-gray-50">
+          <Button className="mr-4 bg-black py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-black">
             For most businesses
           </Button>
-          <Button className="bg-white py-2 px-4 text-sm font-medium text-indigo-600 shadow-sm hover:bg-gray-50">
+          <Button className="bg-white py-2 px-4 text-sm font-medium text-black shadow-sm hover:bg-gray-50">
             For smaller teams
           </Button>
         </div>
@@ -82,7 +82,7 @@ export default function Component() {
           </CardContent>
           <CardFooter>
             <Link className="text-indigo-600 hover:text-indigo-500" href="#">
-              Compare all plans
+              {/* Compare all plans */}
             </Link>
           </CardFooter>
         </Card>
@@ -145,7 +145,7 @@ export default function Component() {
           </CardContent>
           <CardFooter>
             <Link className="text-indigo-600 hover:text-indigo-500" href="#">
-              Compare all plans
+              {/* Compare all plans */}
             </Link>
           </CardFooter>
         </Card>
@@ -197,7 +197,7 @@ export default function Component() {
           </CardContent>
           <CardFooter>
             <Link className="text-indigo-600 hover:text-indigo-500" href="#">
-              Compare all plans
+              {/* Compare all plans */}
             </Link>
           </CardFooter>
         </Card>
