@@ -157,7 +157,7 @@ export default function Component() {
                   alt="Episode cover"
                   className="aspect-[1/1] rounded-lg object-cover"
                   height="120"
-                  src="/collabo.png"
+                  src="/Lupleg podcast.png"
                   width="120"
                 />
               </div>
@@ -183,7 +183,7 @@ export default function Component() {
                   alt="Episode cover"
                   className="aspect-[1/1] rounded-lg object-cover"
                   height="120"
-                  src="/collabo.png"
+                  src="/Lupleg podcast.png"
                   width="120"
                 />
               </div>
@@ -209,7 +209,7 @@ export default function Component() {
                   alt="Episode cover"
                   className="aspect-[1/1] rounded-lg object-cover"
                   height="120"
-                  src="/collabo.png"
+                  src="/Lupleg podcast.png"
                   width="120"
                 />
               </div>
