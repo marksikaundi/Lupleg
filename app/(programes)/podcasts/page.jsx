@@ -139,13 +139,13 @@ export default function Component() {
               All
             </Button>
             <Button size="sm" variant="outline">
-              News
+              Technology
             </Button>
             <Button size="sm" variant="outline">
-              Comedy
+              Skills
             </Button>
             <Button size="sm" variant="outline">
-              Sports
+              Coding
             </Button>
           </div>
         </div>
@@ -183,7 +183,7 @@ export default function Component() {
                   alt="Episode cover"
                   className="aspect-[1/1] rounded-lg object-cover"
                   height="120"
-                  src="/placeholder.svg"
+                  src="/collabo.png"
                   width="120"
                 />
               </div>
@@ -209,7 +209,7 @@ export default function Component() {
                   alt="Episode cover"
                   className="aspect-[1/1] rounded-lg object-cover"
                   height="120"
-                  src="/placeholder.svg"
+                  src="/collabo.png"
                   width="120"
                 />
               </div>
