@@ -34,9 +34,9 @@ export default function Header() {
           </Link>
           <Link
             className="text-black dark:text-gray-300 hover:text-gray-600 dark:hover:text-gray-200"
-            href="resources"
+            href="academy"
           >
-            Resources
+            Academy
           </Link>
           <Link
             className="text-black dark:text-gray-300 hover:text-gray-600 dark:hover:text-gray-200"
@@ -81,9 +81,9 @@ export default function Header() {
             </Link>
             <Link
               className="flex w-full items-center py-2 text-lg font-semibold"
-              href="resources"
+              href="academy"
             >
-              Resources
+              Academy
             </Link>
             <Link
               className="flex w-full items-center py-2 text-lg font-semibold"
