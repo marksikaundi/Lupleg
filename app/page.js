@@ -20,7 +20,7 @@ export default function Component() {
           Front is a customer operations platform that enables teams to
           streamline communication and deliver exceptional service at scale.
         </p>
-        <Button className="W-15 mt-8 px-8 py-3 text-md bg-[#ED7133] text-white rounded-full p-8 hover:bg-[#ed7133e0] focus:outline-none focus:ring-2 focus:ring-orange focus:ring-opacity-50 transition duration-300">
+        <Button className="W-15 mt-8 px-8 py-3 text-md bg-[#ED7133] text-white rounded-full p-8 hover:bg-black focus:outline-none focus:ring-2 focus:ring-orange focus:ring-opacity-50 transition duration-300">
           Get started
         </Button><br/>
       

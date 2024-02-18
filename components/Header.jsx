@@ -49,7 +49,7 @@ export default function Header() {
           </Link>
         </nav>
       </div>
-      <div className="hidden p-5 md:block  bg-black hover:bg-black rounded-full text-white text-md">
+      <div className="hidden p-4 md:block  bg-black hover:bg-[#ED7133] rounded-full text-white text-md">
         <button>Get Started</button>
       </div>
 
