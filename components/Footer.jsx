@@ -3,9 +3,8 @@ import Link from "next/link";
 export default function Footer() {
   return (
     // <footer className="bg-gradient-to-b from-blue-1000 to-blue-500 text-[#021B38]">
-      <footer className="bg-[#FFFFFF]">
+    <footer className="bg-[#FFFFFF]">
       <div className="container mx-auto px-4 py-8 ">
-        
         <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 md:grid-cols-5 lg:gap-16">
           <div>
             <h5 className="font-bold uppercase mb-4">Product</h5>
@@ -33,7 +32,7 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <h5 className="font-bold uppercase mb-4">Using Front</h5>
+            <h5 className="font-bold uppercase mb-4">Using Lupleg</h5>
             <ul className="space-y-2">
               <li>
                 <Link className="hover:underline" href="#">
@@ -72,12 +71,12 @@ export default function Footer() {
               </li>
               <li>
                 <Link className="hover:underline" href="#">
-                  Front for Customer Support
+                  Customer Support
                 </Link>
               </li>
               <li>
                 <Link className="hover:underline" href="#">
-                  Front for Logistics
+                  Lupleg Open Source
                 </Link>
               </li>
             </ul>
@@ -92,12 +91,12 @@ export default function Footer() {
               </li>
               <li>
                 <Link className="hover:underline" href="#">
-                  Front Community
+                  Lupleg Community
                 </Link>
               </li>
               <li>
                 <Link className="hover:underline" href="#">
-                  Front Academy
+                  Lupleg Academy
                 </Link>
               </li>
               <li>
@@ -117,7 +116,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link className="hover:underline" href="#">
-                  Front Admin Certification
+                  Admin Certification
                 </Link>
               </li>
             </ul>
@@ -143,21 +142,6 @@ export default function Footer() {
               <li>
                 <Link className="hover:underline" href="#">
                   7 best customer service software
-                </Link>
-              </li>
-              <li>
-                <Link className="hover:underline" href="#">
-                  Front’s Support Report
-                </Link>
-              </li>
-              <li>
-                <Link className="hover:underline" href="#">
-                  Front vs. Zendesk
-                </Link>
-              </li>
-              <li>
-                <Link className="hover:underline" href="#">
-                  Front vs. Freshdesk
                 </Link>
               </li>
             </ul>
@@ -187,7 +171,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link className="hover:underline" href="#">
-                  Legal
+                  Affiliates
                 </Link>
               </li>
               <li>
@@ -203,16 +187,16 @@ export default function Footer() {
             <p>© 2024 Lupleg LLC. All rights reserved.</p>
             <div className="flex space-x-4 mt-4 sm:mt-0">
               <Link className="hover:underline" href="#">
-                SaaS Services Agreement
+                SaaS Agreement
               </Link>
               <Link className="hover:underline" href="#">
-                Privacy Notice
+                Privacy Policy
               </Link>
               <Link className="hover:underline" href="#">
-                Cookie Policy
+                Terms of use
               </Link>
               <Link className="hover:underline" href="#">
-                Status
+                Sitemap
               </Link>
             </div>
             <div className="flex space-x-4 mt-4 sm:mt-0">
