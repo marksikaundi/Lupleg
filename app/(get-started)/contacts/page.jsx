@@ -1,0 +1,136 @@
+import { Input } from "@/components/ui/input";
+import {
+  SelectValue,
+  SelectTrigger,
+  SelectItem,
+  SelectContent,
+  Select,
+} from "@/components/ui/select";
+import { Button } from "@/components/ui/button";
+
+export default function Component() {
+  return (
+    <div className="min-h-screen bg-[#1a1a1a] flex justify-center items-center p-4">
+      <div className="bg-[#f3e9e2] rounded-2xl max-w-4xl w-full p-8 relative">
+        <button className="absolute top-4 right-4">
+          <PanelTopCloseIcon className="text-black h-6 w-6" />
+        </button>
+        <h1 className="text-3xl font-bold text-center mb-6">Get started</h1>
+        <h2 className="text-xl font-semibold text-center mb-12">
+          Tell us a bit about you
+        </h2>
+        <form className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">
+          <div>
+            <label
+              className="block text-sm font-medium mb-1"
+              htmlFor="first-name"
+            >
+              First name
+            </label>
+            <Input id="first-name" placeholder="Jamie" />
+          </div>
+          <div>
+            <label
+              className="block text-sm font-medium mb-1"
+              htmlFor="last-name"
+            >
+              Last name
+            </label>
+            <Input id="last-name" placeholder="Smith" />
+          </div>
+          <div>
+            <label
+              className="block text-sm font-medium mb-1"
+              htmlFor="work-email"
+            >
+              Work email
+            </label>
+            <Input id="work-email" placeholder="you@company.com" type="email" />
+          </div>
+          <div>
+            <label
+              className="block text-sm font-medium mb-1"
+              htmlFor="job-title"
+            >
+              Job title
+            </label>
+            <Input id="job-title" placeholder="Director of Operations" />
+          </div>
+          <div>
+            <label className="block text-sm font-medium mb-1" htmlFor="company">
+              Company
+            </label>
+            <Input id="company" placeholder="Your Company" />
+          </div>
+          <div>
+            <label
+              className="block text-sm font-medium mb-1"
+              htmlFor="industry"
+            >
+              Industry
+            </label>
+            <Select>
+              <SelectTrigger id="industry">
+                <SelectValue placeholder="Select one" />
+              </SelectTrigger>
+              <SelectContent position="popper">
+                <SelectItem value="tech">Technology</SelectItem>
+                <SelectItem value="finance">Finance</SelectItem>
+              </SelectContent>
+            </Select>
+          </div>
+          <div>
+            <label
+              className="block text-sm font-medium mb-1"
+              htmlFor="company-size"
+            >
+              Company size
+            </label>
+            <Select>
+              <SelectTrigger id="company-size">
+                <SelectValue placeholder="Select one" />
+              </SelectTrigger>
+              <SelectContent position="popper">
+                <SelectItem value="1-10">1-10</SelectItem>
+                <SelectItem value="11-50">11-50</SelectItem>
+              </SelectContent>
+            </Select>
+          </div>
+          <div>
+            <label
+              className="block text-sm font-medium mb-1"
+              htmlFor="phone-number"
+            >
+              Phone number
+            </label>
+            <Input id="phone-number" placeholder="+1" type="tel" />
+          </div>
+          <div className="md:col-span-2">
+            <Button className="w-full">Submit</Button>
+          </div>
+        </form>
+      </div>
+    </div>
+  );
+}
+
+function PanelTopCloseIcon(props) {
+  return (
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <rect width="18" height="18" x="3" y="3" rx="2" ry="2" />
+      <line x1="3" x2="21" y1="9" y2="9" />
+      <path d="m9 16 3-3 3 3" />
+    </svg>
+  );
+}

@@ -50,7 +50,9 @@ export default function Header() {
         </nav>
       </div>
       <div className="hidden p-4 md:block  bg-black hover:bg-[#ED7133] rounded-full text-white text-md">
-        <button>Get Started</button>
+        <button>
+          <Link href="contacts">Get Started</Link>
+        </button>
       </div>
 
       <Sheet>
@@ -93,7 +95,9 @@ export default function Header() {
               Events
             </Link>
             <div className="flex items-center  rounded-full">
-              <Button className="text-white text-md">Get Started</Button>
+              <Button className="text-white text-md">
+                <Link href="contacts">Get Started</Link>
+              </Button>
             </div>
           </div>
         </SheetContent>

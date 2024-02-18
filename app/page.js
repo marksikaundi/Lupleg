@@ -1,10 +1,11 @@
 import { Button } from "@/components/ui/button";
-import Cards from "/components/FeaturesCards/Cards.jsx"
+import Cards from "/components/FeaturesCards/Cards.jsx";
+import Link from "next/link";
 
 export default function Component() {
   return (
     // <div className="bg-gradient-to-r from-pink-300 via-red-300 to-yellow-300">
-      <div className="bg-[#FFFFFF]">
+    <div className="bg-[#FFFFFF]">
       <div className="max-w-6xl mx-auto pt-25 pb-25 px-4 sm:px-6 lg:px-8 py-12 text-center">
         <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-gray-800">
           <span className="block xl:inline">The efficiency of a help</span>{" "}
@@ -21,10 +22,11 @@ export default function Component() {
           streamline communication and deliver exceptional service at scale.
         </p>
         <Button className="W-15 mt-8 px-8 py-3 text-md bg-[#ED7133] text-white rounded-full p-8 hover:bg-black focus:outline-none focus:ring-2 focus:ring-orange focus:ring-opacity-50 transition duration-300">
-          Get started
-        </Button><br/>
-      
-      <Cards/>
+          <Link href="contacts">Get started</Link>
+        </Button>
+        <br />
+
+        <Cards />
       </div>
     </div>
   );
