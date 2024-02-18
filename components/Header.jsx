@@ -43,9 +43,9 @@ export default function Header() {
           </Link>
           <Link
             className="text-black dark:text-gray-300 hover:text-gray-600 dark:hover:text-gray-200"
-            href="events"
+            href="podcasts"
           >
-            Events
+            Podcasts
           </Link>
         </nav>
       </div>
@@ -90,9 +90,9 @@ export default function Header() {
             </Link>
             <Link
               className="flex w-full items-center py-2 text-lg font-semibold"
-              href="events"
+              href="podcasts"
             >
-              Events
+              Podcasts
             </Link>
             <div className="flex items-center  rounded-full">
               <Button className="text-white text-md">
