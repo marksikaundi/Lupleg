@@ -10,8 +10,8 @@ import { Button } from "@/components/ui/button";
 
 export default function Component() {
   return (
-    <div className="min-h-screen bg-[#1a1a1a] flex justify-center items-center p-4">
-      <div className="bg-[#f3e9e2] rounded-2xl max-w-4xl w-full p-8 relative">
+    <div className="min-h-screen bg-white flex justify-center items-center p-4">
+      <div className="bg-gradient-to-br from-[#fde68a] to-[#fca5a5] rounded-2xl max-w-4xl w-full p-8 relative">
         <button className="absolute top-4 right-4">
           <PanelTopCloseIcon className="text-black h-6 w-6" />
         </button>
@@ -27,7 +27,7 @@ export default function Component() {
             >
               First name
             </label>
-            <Input id="first-name" placeholder="Jamie" />
+            <Input id="first-name" placeholder="Mark" />
           </div>
           <div>
             <label
@@ -36,7 +36,7 @@ export default function Component() {
             >
               Last name
             </label>
-            <Input id="last-name" placeholder="Smith" />
+            <Input id="last-name" placeholder="Sikaundi" />
           </div>
           <div>
             <label
@@ -76,6 +76,8 @@ export default function Component() {
               <SelectContent position="popper">
                 <SelectItem value="tech">Technology</SelectItem>
                 <SelectItem value="finance">Finance</SelectItem>
+                <SelectItem value="education">Education</SelectItem>
+                <SelectItem value="business">Business</SelectItem>
               </SelectContent>
             </Select>
           </div>
@@ -93,6 +95,7 @@ export default function Component() {
               <SelectContent position="popper">
                 <SelectItem value="1-10">1-10</SelectItem>
                 <SelectItem value="11-50">11-50</SelectItem>
+                <SelectItem value="50-700">50-700</SelectItem>
               </SelectContent>
             </Select>
           </div>
@@ -105,8 +108,8 @@ export default function Component() {
             </label>
             <Input id="phone-number" placeholder="+1" type="tel" />
           </div>
-          <div className="md:col-span-2">
-            <Button className="w-full">Submit</Button>
+          <div className="md:col-span-2 ">
+            <Button className="w-full bg-black hover:bg-orange-600 text-md text-white hover:text-black rounded-full">Submit</Button>
           </div>
         </form>
       </div>
