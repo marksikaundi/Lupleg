@@ -38,9 +38,9 @@ export default function Component() {
             </div>
             <div className="mx-auto aspect-w-16 aspect-h-9 overflow-hidden rounded-xl sm:order-last sm:aspect-video">
               <img
-                alt="Course Image"
+                alt="Web Development Course"
                 className="object-cover"
-                src="/collabo.png"
+                src="/web.png"
               />
             </div>
           </div>
@@ -69,9 +69,9 @@ export default function Component() {
             </div>
             <div className="mx-auto aspect-w-16 aspect-h-9 overflow-hidden rounded-xl sm:order-last sm:aspect-video">
               <img
-                alt="Course Image"
+                alt="React Course"
                 className="object-cover"
-                src="/collabo.png"
+                src="/reactjs.png"
               />
             </div>
           </div>
@@ -100,9 +100,9 @@ export default function Component() {
             </div>
             <div className="mx-auto aspect-w-16 aspect-h-9 overflow-hidden rounded-xl sm:order-last sm:aspect-video">
               <img
-                alt="Course Image"
+                alt="Freelancing Course"
                 className="object-cover"
-                src="/collabo.png"
+                src="/freelancing.png"
               />
             </div>
           </div>
@@ -131,9 +131,9 @@ export default function Component() {
             </div>
             <div className="mx-auto aspect-w-16 aspect-h-9 overflow-hidden rounded-xl sm:order-last sm:aspect-video">
               <img
-                alt="Course Image"
+                alt="Git & GitHub Course"
                 className="object-cover"
-                src="/collabo.png"
+                src="/github.png"
               />
             </div>
           </div>
