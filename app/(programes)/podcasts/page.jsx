@@ -37,7 +37,7 @@ export default function Component() {
                 All
               </Button>
               <Button size="sm" variant="outline">
-                Technology
+                Tech
               </Button>
               <Button size="sm" variant="outline">
                 Skills
