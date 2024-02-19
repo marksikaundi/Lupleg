@@ -101,18 +101,39 @@ export default function Component() {
                 <div className="grid gap-1 md:gap-2 md:col-span-2">
                   <div className="space-y-1">
                     <h3 className="text-xl font-bold tracking-tighter sm:text-2xl">
-                      The Power of collaborations
+                      The Benefits of Collaboration
                     </h3>
                     <p className="text-sm text-gray-500 dark:text-gray-400">
                       Episode 02 | 18th February 2024
                     </p>
                   </div>
                   <p className="text-sm text-gray-500 md:text-base/relaxed dark:text-gray-400">
-                    In today's episode, Mark and Hillary will discuss the power of collaborations and how it can help you 
-                    improve your skills. We also talk about the importance of networking and how it can 
-                    help you learn new things from others. With a single technique.
+                    In today's episode, Mark will discuss the The Benefits of
+                    Collaboration and how it can help you improve your skills.
+                    We also talk about the importance of networking and how it
+                    can help you learn new things from others. With a single
+                    technique.
                   </p>
-                  
+                  {/* <iframe
+                    src="https://podcasters.spotify.com/pod/show/mark-sikaundi/embed/episodes/The-Benefits-of-Collaboration-e2fv1lu"
+                    height="102px"
+                    width="400px"
+                    frameborder="0"
+                    scrolling="no"
+                  ></iframe> */}
+                  <iframe
+                    allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
+                    frameborder="0"
+                    height="175"
+                    style={{
+                      width: "100%",
+                      maxWidth: "660px",
+                      overflow: "hidden",
+                      borderRadius: "10px",
+                    }}
+                    sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
+                    src="https://embed.podcasts.apple.com/us/podcast/the-benefits-of-collaboration/id1731008771?i=1000645794643&theme=light"
+                  ></iframe>
                 </div>
               </CardContent>
             </Card>
@@ -140,7 +161,6 @@ export default function Component() {
                     Our team of astronomers and astrophysicists discuss the
                     latest discoveries in space exploration, the search for...
                   </p>
-                  
                 </div>
               </CardContent>
             </Card>
