@@ -10,23 +10,23 @@ export default function Footer() {
             <h5 className="font-bold uppercase mb-4">Product</h5>
             <ul className="space-y-2">
               <li>
-                <Link className="hover:underline" href="#">
-                  Product
+                <Link className="hover:underline" href="academy">
+                  Lupleg Academy
                 </Link>
               </li>
               <li>
                 <Link className="hover:underline" href="#">
-                  Pricing
+                  B2B
+                </Link>
+              </li>
+              <li>
+                <Link className="hover:underline" href="services">
+                  Services
                 </Link>
               </li>
               <li>
                 <Link className="hover:underline" href="#">
-                  Integrations Directory
-                </Link>
-              </li>
-              <li>
-                <Link className="hover:underline" href="#">
-                  Developer Portal
+                  Developer Community
                 </Link>
               </li>
             </ul>
@@ -94,11 +94,7 @@ export default function Footer() {
                   Lupleg Community
                 </Link>
               </li>
-              <li>
-                <Link className="hover:underline" href="#">
-                  Lupleg Academy
-                </Link>
-              </li>
+
               <li>
                 <Link className="hover:underline" href="#">
                   Help Center
@@ -195,21 +191,21 @@ export default function Footer() {
               <Link className="hover:underline" href="#">
                 Terms of use
               </Link>
-              <Link className="hover:underline" href="#">
+              <Link className="hover:underline" href="sitemap">
                 Sitemap
               </Link>
             </div>
             <div className="flex space-x-4 mt-4 sm:mt-0">
-              <Link className="hover:underline" href="#">
+              <Link className="hover:underline" href="https://twitter.com/Lupleg_Dev">
                 <TwitterIcon className="h-6 w-6" />
               </Link>
-              <Link className="hover:underline" href="#">
+              <Link className="hover:underline" href="https://facebook.com/Alisikaundi">
                 <FacebookIcon className="h-6 w-6" />
               </Link>
-              <Link className="hover:underline" href="#">
+              <Link className="hover:underline" href="https://linkedin.com/in/lupleg">
                 <LinkedinIcon className="h-6 w-6" />
               </Link>
-              <Link className="hover:underline" href="#">
+              <Link className="hover:underline" href="https://instagram.com/marksikaundi">
                 <InstagramIcon className="h-6 w-6" />
               </Link>
             </div>
