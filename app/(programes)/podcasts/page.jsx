@@ -62,7 +62,7 @@ export default function Component() {
                 <div className="grid gap-1 md:gap-2 md:col-span-2">
                   <div className="space-y-1">
                     <h3 className="text-xl font-bold tracking-tighter sm:text-2xl">
-                      01 Tech Hacks in Africa
+                      Tech Career - With Mark & Hillary
                     </h3>
                     <p className="text-sm text-gray-500 dark:text-gray-400">
                       Episode 01 | 15th February 2024
@@ -78,11 +78,17 @@ export default function Component() {
                   </p>
 
                   <iframe
-                    src="https://podcasters.spotify.com/pod/show/mark-sikaundi/embed/episodes/Tech-Career---With-Mark--Hillary-e2fpla6"
-                    height="102px"
-                    width="400px"
+                    allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
                     frameborder="0"
-                    scrolling="no"
+                    height="175"
+                    style={{
+                      width: "100%",
+                      maxWidth: "660px",
+                      overflow: "hidden",
+                      borderRadius: "10px",
+                    }}
+                    sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
+                    src="https://embed.podcasts.apple.com/us/podcast/tech-career-with-mark-hillary/id1731008771?i=1000645362050&theme=light"
                   ></iframe>
                 </div>
               </CardContent>
@@ -104,7 +110,7 @@ export default function Component() {
                       The Benefits of Collaboration
                     </h3>
                     <p className="text-sm text-gray-500 dark:text-gray-400">
-                      Episode 02 | 18th February 2024
+                      Episode 02 | 19th February 2024
                     </p>
                   </div>
                   <p className="text-sm text-gray-500 md:text-base/relaxed dark:text-gray-400">
@@ -114,13 +120,7 @@ export default function Component() {
                     can help you learn new things from others. With a single
                     technique.
                   </p>
-                  {/* <iframe
-                    src="https://podcasters.spotify.com/pod/show/mark-sikaundi/embed/episodes/The-Benefits-of-Collaboration-e2fv1lu"
-                    height="102px"
-                    width="400px"
-                    frameborder="0"
-                    scrolling="no"
-                  ></iframe> */}
+
                   <iframe
                     allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
                     frameborder="0"
