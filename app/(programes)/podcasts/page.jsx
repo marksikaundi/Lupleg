@@ -69,12 +69,12 @@ export default function Component() {
                     </p>
                   </div>
                   <p className="text-sm text-gray-500 md:text-base/relaxed dark:text-gray-400">
-                    Welcome to "Tech Hack Africa," the podcast where we dive
-                    deep into the world of tech hacks, uncovering the secrets
-                    behind the digital curtain. Join us as we explore the
-                    ingenious tricks, innovative techniques, and cutting-edge
-                    strategies that shape the technology landscape. You can read
-                    more through our website.
+                    Today's Episode, we delve into the dynamic world of tech
+                    careers, exploring the personal journey of our guest Hillary
+                    as he shares how he navigated through the ever-evolving
+                    landscape of technology. From humble beginnings to
+                    significant milestones, our guest share insights,
+                    challenges, and lessons learned along the way.
                   </p>
 
                   <iframe
