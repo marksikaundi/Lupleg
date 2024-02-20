@@ -10,8 +10,8 @@ export default function Footer() {
             <h5 className="font-bold uppercase mb-4">Product</h5>
             <ul className="space-y-2">
               <li>
-                <Link className="hover:underline" href="academy">
-                  Lupleg Academy
+                <Link className="hover:underline" href="#">
+                  Collaboration
                 </Link>
               </li>
               <li>
@@ -34,11 +34,6 @@ export default function Footer() {
           <div>
             <h5 className="font-bold uppercase mb-4">Using Lupleg</h5>
             <ul className="space-y-2">
-              <li>
-                <Link className="hover:underline" href="#">
-                  Collaboration
-                </Link>
-              </li>
               <li>
                 <Link className="hover:underline" href="#">
                   Workflow automation
@@ -121,8 +116,8 @@ export default function Footer() {
             <h5 className="font-bold uppercase mb-4">Learn</h5>
             <ul className="space-y-2">
               <li>
-                <Link className="hover:underline" href="#">
-                  Guide to 100% CSAT
+                <Link className="hover:underline" href="academy">
+                  Lupleg Academy
                 </Link>
               </li>
               <li>
@@ -196,16 +191,28 @@ export default function Footer() {
               </Link>
             </div>
             <div className="flex space-x-4 mt-4 sm:mt-0">
-              <Link className="hover:underline" href="https://twitter.com/Lupleg_Dev">
+              <Link
+                className="hover:underline"
+                href="https://twitter.com/Lupleg_Dev"
+              >
                 <TwitterIcon className="h-6 w-6" />
               </Link>
-              <Link className="hover:underline" href="https://facebook.com/Lupleg">
+              <Link
+                className="hover:underline"
+                href="https://facebook.com/Lupleg"
+              >
                 <FacebookIcon className="h-6 w-6" />
               </Link>
-              <Link className="hover:underline" href="https://linkedin.com/in/lupleg">
+              <Link
+                className="hover:underline"
+                href="https://linkedin.com/in/lupleg"
+              >
                 <LinkedinIcon className="h-6 w-6" />
               </Link>
-              <Link className="hover:underline" href="https://instagram.com/marksikaundi">
+              <Link
+                className="hover:underline"
+                href="https://instagram.com/marksikaundi"
+              >
                 <InstagramIcon className="h-6 w-6" />
               </Link>
             </div>
