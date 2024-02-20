@@ -151,10 +151,10 @@ export default function Component() {
                 <div className="grid gap-1 md:gap-2 md:col-span-2">
                   <div className="space-y-1">
                     <h3 className="text-xl font-bold tracking-tighter sm:text-2xl">
-                      The Science of Space
+                      Coming Soon(The Science of Space)
                     </h3>
                     <p className="text-sm text-gray-500 dark:text-gray-400">
-                      Comming soon (Episode 08 | 5th April 2023)
+                      Episode 03 | 5th April 2024
                     </p>
                   </div>
                   <p className="text-sm text-gray-500 md:text-base/relaxed dark:text-gray-400">
