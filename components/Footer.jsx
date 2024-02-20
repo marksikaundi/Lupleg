@@ -199,7 +199,7 @@ export default function Footer() {
               <Link className="hover:underline" href="https://twitter.com/Lupleg_Dev">
                 <TwitterIcon className="h-6 w-6" />
               </Link>
-              <Link className="hover:underline" href="https://facebook.com/Alisikaundi">
+              <Link className="hover:underline" href="https://facebook.com/Lupleg">
                 <FacebookIcon className="h-6 w-6" />
               </Link>
               <Link className="hover:underline" href="https://linkedin.com/in/lupleg">
