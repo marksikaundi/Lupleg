@@ -7,11 +7,11 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-8 ">
         <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 md:grid-cols-5 lg:gap-16">
           <div>
-            <h5 className="font-bold uppercase mb-4">Product</h5>
+            <h5 className="font-bold uppercase mb-4">Products</h5>
             <ul className="space-y-2">
               <li>
                 <Link className="hover:underline" href="#">
-                  Collaboration
+                  Artificial Intelligence
                 </Link>
               </li>
               <li>
@@ -20,8 +20,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link className="hover:underline" href="services">
-                  Services
+                <Link className="hover:underline" href="#">
+                  Open Source
                 </Link>
               </li>
               <li>
@@ -36,17 +36,17 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link className="hover:underline" href="#">
-                  Workflow automation
+                  Workflow 
                 </Link>
               </li>
               <li>
                 <Link className="hover:underline" href="#">
-                  Analytics
+                  Research
                 </Link>
               </li>
               <li>
                 <Link className="hover:underline" href="#">
-                  Omnichannel inbox
+                  African Developers
                 </Link>
               </li>
               <li>
@@ -56,7 +56,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link className="hover:underline" href="#">
-                  Live chat
+                  Docs
                 </Link>
               </li>
               <li>
@@ -71,7 +71,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link className="hover:underline" href="#">
-                  Lupleg Open Source
+                  Lupleg Program
                 </Link>
               </li>
             </ul>
@@ -121,18 +121,18 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link className="hover:underline" href="#">
-                  The future of customer operations
+                <Link className="hover:underline" href="podcasts">
+                  Podcasts
                 </Link>
               </li>
               <li>
                 <Link className="hover:underline" href="#">
-                  5 tips to scale customer support with AI
+                  100 Days of Code
                 </Link>
               </li>
               <li>
                 <Link className="hover:underline" href="#">
-                  7 best customer service software
+                  Tech Talks
                 </Link>
               </li>
             </ul>
