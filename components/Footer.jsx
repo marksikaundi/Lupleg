@@ -157,7 +157,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link className="hover:underline" href="#">
-                  Security
+                  Interns
                 </Link>
               </li>
               <li>
