@@ -151,15 +151,18 @@ export default function Component() {
                 <div className="grid gap-1 md:gap-2 md:col-span-2">
                   <div className="space-y-1">
                     <h3 className="text-xl font-bold tracking-tighter sm:text-2xl">
-                      Coming Soon(The Science of Space)
+                      Tech Journey - Mark and Nitin
                     </h3>
                     <p className="text-sm text-gray-500 dark:text-gray-400">
-                      Episode 03 | 5th April 2024
+                      Episode 03 | 55th February 2024
                     </p>
                   </div>
                   <p className="text-sm text-gray-500 md:text-base/relaxed dark:text-gray-400">
-                    Our team of astronomers and astrophysicists discuss the
-                    latest discoveries in space exploration, the search for...
+                    Back again to the episode with our guest Nitin from India
+                    who is currently in his final semester to complete his BSc
+                    in Computer science. Today he shares how he started his
+                    journey as a Software Engineer and many more. Hope you find
+                    it helpful.
                   </p>
                   <iframe
                     allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
