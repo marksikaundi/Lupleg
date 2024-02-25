@@ -159,9 +159,10 @@ export default function Component() {
                   </div>
                   <p className="text-sm text-gray-500 md:text-base/relaxed dark:text-gray-400">
                     Back again to the episode with our guest Nitin from India
-                    who is currently in his final semester to complete his BTech in Computer Science and Engineering. Today he shares how he started his
-                    journey as a Software Engineer and many more. Hope you find
-                    it helpful.
+                    who is currently in his final semester to complete his BTech
+                    in Computer Science and Engineering. Today he shares how he
+                    started his journey as a Software Engineer and many more.
+                    Hope you find it helpful.
                   </p>
                   <iframe
                     allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
