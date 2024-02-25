@@ -161,7 +161,6 @@ export default function Component() {
                     Our team of astronomers and astrophysicists discuss the
                     latest discoveries in space exploration, the search for...
                   </p>
-
                   <iframe
                     allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
                     frameborder="0"
@@ -172,8 +171,8 @@ export default function Component() {
                       overflow: "hidden",
                       borderRadius: "10px",
                     }}
-                    sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
-                    src="https://embed.podcasts.apple.com/zm/podcast/tech-journey-mark-and-nitin/id1731008771?i=1000646751631"
+                    sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+                    src="https://embed.podcasts.apple.com/us/podcast/tech-journey-mark-and-nitin/id1731008771?i=1000646751631&amp;itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=light"
                   ></iframe>
                 </div>
               </CardContent>
