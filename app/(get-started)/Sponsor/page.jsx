@@ -1,9 +1,9 @@
 import React from 'react'
 
-function page() {
+function Sponsor() {
   return (
-    <div>page</div>
+    <div>Sponsor</div>
   )
 }
 
-export default page
+export default Sponsor
