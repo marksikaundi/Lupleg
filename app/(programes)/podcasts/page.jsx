@@ -154,7 +154,7 @@ export default function Component() {
                       Tech Journey - Mark and Nitin
                     </h3>
                     <p className="text-sm text-gray-500 dark:text-gray-400">
-                      Episode 03 | 55th February 2024
+                      Episode 03 | 25th February 2024
                     </p>
                   </div>
                   <p className="text-sm text-gray-500 md:text-base/relaxed dark:text-gray-400">
@@ -177,6 +177,36 @@ export default function Component() {
                     sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
                     src="https://embed.podcasts.apple.com/us/podcast/tech-journey-mark-and-nitin/id1731008771?i=1000646751631&amp;itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=light"
                   ></iframe>
+                </div>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardContent className="grid gap-2 md:grid-cols-3">
+                {/* <div className="flex items-center justify-center p-4 md:col-span-1">
+                  <img
+                    alt="Episode cover"
+                    className="aspect-[1/1] rounded-lg object-cover"
+                    height="120"
+                    src="/Lupleg podcast.png"
+                    width="120"
+                  />
+                </div> */}
+                <div className="grid gap-1 md:gap-2 md:col-span-2">
+                  <div className="space-y-1">
+                    <h3 className="text-xl font-bold tracking-tighter sm:text-2xl">
+                      Coming Soon (Life of Developer in Kenya)
+                    </h3>
+                    <p className="text-sm text-gray-500 dark:text-gray-400">
+                      Episode 04 | 2nd March 2024
+                    </p>
+                  </div>
+                  <p className="text-sm text-gray-500 md:text-base/relaxed dark:text-gray-400">
+                    In this episode, we will be discussing the life of a
+                    developer in Kenya. We will be joined by a guest who will
+                    share their journey and experience as a developer in Kenya.
+                    Stay tuned for the episode.
+                  </p>
+                  
                 </div>
               </CardContent>
             </Card>
