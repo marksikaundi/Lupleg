@@ -21,7 +21,7 @@ export default function Component() {
       </section>
 
       <section className="w-full py-12 md:py-24 lg:py-32">
-        <div className="container px-4 grid gap-6 md:gap-8 lg:gap-10">
+        <div className="container grid gap-6 px-4 md:gap-8 lg:gap-10">
           <div className="space-y-3">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
@@ -59,7 +59,7 @@ export default function Component() {
                     width="120"
                   />
                 </div> */}
-                <div className="grid gap-1 md:gap-2 md:col-span-2">
+                <div className="grid gap-1 md:col-span-2 md:gap-2">
                   <div className="space-y-1">
                     <h3 className="text-xl font-bold tracking-tighter sm:text-2xl">
                       Tech Career - With Mark & Hillary
@@ -104,7 +104,7 @@ export default function Component() {
                     width="120"
                   />
                 </div> */}
-                <div className="grid gap-1 md:gap-2 md:col-span-2">
+                <div className="grid gap-1 md:col-span-2 md:gap-2">
                   <div className="space-y-1">
                     <h3 className="text-xl font-bold tracking-tighter sm:text-2xl">
                       The Benefits of Collaboration
@@ -148,7 +148,7 @@ export default function Component() {
                     width="120"
                   />
                 </div> */}
-                <div className="grid gap-1 md:gap-2 md:col-span-2">
+                <div className="grid gap-1 md:col-span-2 md:gap-2">
                   <div className="space-y-1">
                     <h3 className="text-xl font-bold tracking-tighter sm:text-2xl">
                       Tech Journey - Mark and Nitin
@@ -191,22 +191,22 @@ export default function Component() {
                     width="120"
                   />
                 </div> */}
-                <div className="grid gap-1 md:gap-2 md:col-span-2">
+                <div className="grid gap-1 md:col-span-2 md:gap-2">
                   <div className="space-y-1">
                     <h3 className="text-xl font-bold tracking-tighter sm:text-2xl">
-                      Coming Soon (Life of Developer in Kenya)
+                      From Civil Engineer to Software Developer
                     </h3>
                     <p className="text-sm text-gray-500 dark:text-gray-400">
-                      Episode 04 | 2nd March 2024
+                      Episode 04 | 3rd March 2024
                     </p>
                   </div>
                   <p className="text-sm text-gray-500 md:text-base/relaxed dark:text-gray-400">
-                    In this episode, we will be discussing the life of a
-                    developer in Kenya. We will be joined by a guest who will
-                    share their journey and experience as a developer in Kenya.
-                    Stay tuned for the episode.
+                    Today Mark sits with Raymond in our E04 episodes and Raymond
+                    shares some insights on how he switched from Civil
+                    Engineering to a career in Software Development. We share
+                    some of our experiences and our current being in Tech Hack
+                    Africa.
                   </p>
-                  
                 </div>
               </CardContent>
             </Card>
