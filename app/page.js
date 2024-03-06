@@ -4,7 +4,6 @@ import Link from "next/link";
 
 export default function Component() {
   return (
-    // <div className="bg-gradient-to-r from-pink-300 via-red-300 to-yellow-300">
     <div className="bg-[#FFFFFF]">
       <div className="max-w-6xl mx-auto pt-25 pb-25 px-4 sm:px-6 lg:px-8 py-12 text-center">
         <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-gray-800">
