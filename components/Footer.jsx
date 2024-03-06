@@ -2,12 +2,11 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    // <footer className="bg-gradient-to-b from-blue-1000 to-blue-500 text-[#021B38]">
     <footer className="bg-[#FFFFFF]">
       <div className="container mx-auto px-4 py-8 ">
         <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 md:grid-cols-5 lg:gap-16">
           <div>
-            <h5 className="font-bold uppercase mb-4">Products</h5>
+            <h5 className="mb-4 font-bold uppercase">Products</h5>
             <ul className="space-y-2">
               <li>
                 <Link className="hover:underline" href="#">
@@ -32,11 +31,11 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <h5 className="font-bold uppercase mb-4">Using Lupleg</h5>
+            <h5 className="mb-4 font-bold uppercase">Using Lupleg</h5>
             <ul className="space-y-2">
               <li>
                 <Link className="hover:underline" href="#">
-                  Workflow 
+                  Workflow
                 </Link>
               </li>
               <li>
@@ -77,7 +76,7 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <h5 className="font-bold uppercase mb-4">Resources</h5>
+            <h5 className="mb-4 font-bold uppercase">Resources</h5>
             <ul className="space-y-2">
               <li>
                 <Link className="hover:underline" href="#">
@@ -113,7 +112,7 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <h5 className="font-bold uppercase mb-4">Learn</h5>
+            <h5 className="mb-4 font-bold uppercase">Learn</h5>
             <ul className="space-y-2">
               <li>
                 <Link className="hover:underline" href="academy">
@@ -138,7 +137,7 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <h5 className="font-bold uppercase mb-4">Company</h5>
+            <h5 className="mb-4 font-bold uppercase">Company</h5>
             <ul className="space-y-2">
               <li>
                 <Link className="hover:underline" href="#">
@@ -173,10 +172,10 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className="border-t border-gray-200 mt-8 pt-8 text-sm">
-          <div className="flex flex-col sm:flex-row justify-between items-center">
+        <div className="mt-8 border-t border-gray-200 pt-8 text-sm">
+          <div className="flex flex-col items-center justify-between sm:flex-row">
             <p>© 2024 Lupleg LLC. All rights reserved.</p>
-            <div className="flex space-x-4 mt-4 sm:mt-0">
+            <div className="mt-4 flex space-x-4 sm:mt-0">
               <Link className="hover:underline" href="#">
                 SaaS Agreement
               </Link>
@@ -190,7 +189,7 @@ export default function Footer() {
                 Sitemap
               </Link>
             </div>
-            <div className="flex space-x-4 mt-4 sm:mt-0">
+            <div className="mt-4 flex space-x-4 sm:mt-0">
               <Link
                 className="hover:underline"
                 href="https://twitter.com/Lupleg_Dev"
