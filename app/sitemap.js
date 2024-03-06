@@ -9,7 +9,7 @@ export default function sitemap() {
     {
       url: "https://www.lupleg.website/podcasts",
       lastModified: new Date(),
-      changeFrequency: "yearly",
+      changeFrequency: "monthly",
       priority: 1.9,
     },
     {
