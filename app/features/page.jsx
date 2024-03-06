@@ -1,25 +1,22 @@
-import { Button } from "@/components/ui/button";
+// import { Button } from "@/components/ui/button";
 import Chart from "@/components/FeaturesCards/Chart";
 
 export default function Features() {
   return (
-    <div className="bg-white text-center py-12 px-4 sm:px-6 lg:px-8">
-        
-      <div className="max-w-4xl mx-auto">
-        
-        <h2 className="mt-2 text-3xl leading-9 font-extrabold text-gray-900 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
+    <div className="bg-white px-4 py-12 text-center sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-4xl">
+        <h2 className="md:leading-14 mt-2 text-3xl font-extrabold leading-9 text-gray-900 sm:text-4xl sm:leading-10 md:text-5xl">
           Delight customers with a reimagined way to work together
         </h2>
         <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
           Front helps teams work in sync to be more responsive to customers —
           leaving no message behind.
         </p>
-        
       </div>
-      <div className="mt-12 grid gap-8 grid-cols-1 md:grid-cols-3">
+      <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3">
         <div>
           <PlaneIcon className="mx-auto h-12 w-12 text-gray-400" />
-          <h3 className="mt-5 text-lg leading-6 font-medium text-gray-900">
+          <h3 className="mt-5 text-lg font-medium leading-6 text-gray-900">
             Coordinate with ease
           </h3>
           <p className="mt-2 text-base leading-6 text-gray-500">
@@ -29,7 +26,7 @@ export default function Features() {
         </div>
         <div>
           <LinkIcon className="mx-auto h-12 w-12 text-gray-400" />
-          <h3 className="mt-5 text-lg leading-6 font-medium text-gray-900">
+          <h3 className="mt-5 text-lg font-medium leading-6 text-gray-900">
             Resolve inquiries effectively
           </h3>
           <p className="mt-2 text-base leading-6 text-gray-500">
@@ -39,7 +36,7 @@ export default function Features() {
         </div>
         <div>
           <SmileIcon className="mx-auto h-12 w-12 text-gray-400" />
-          <h3 className="mt-5 text-lg leading-6 font-medium text-gray-900">
+          <h3 className="mt-5 text-lg font-medium leading-6 text-gray-900">
             Make customers feel seen
           </h3>
           <p className="mt-2 text-base leading-6 text-gray-500">
