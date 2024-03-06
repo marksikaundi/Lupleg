@@ -24,7 +24,6 @@ export default function Component() {
           <Link href="contacts">Get started</Link>
         </Button>
         <br />
-
         <Cards />
       </div>
     </div>
