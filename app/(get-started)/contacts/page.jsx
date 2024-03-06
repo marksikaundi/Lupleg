@@ -8,21 +8,21 @@ import {
 } from "@/components/ui/select";
 import { Button } from "@/components/ui/button";
 
-export default function Component() {
+export default function Contact() {
   return (
-    <div className="min-h-screen bg-white flex justify-center items-center p-4">
-      <div className="bg-gradient-to-br from-[#fde68a] to-[#fca5a5] rounded-2xl max-w-4xl w-full p-8 relative">
-        <button className="absolute top-4 right-4">
-          <PanelTopCloseIcon className="text-black h-6 w-6" />
+    <div className="flex min-h-screen items-center justify-center bg-white p-4">
+      <div className="relative w-full max-w-4xl rounded-2xl bg-gradient-to-br from-[#fde68a] to-[#fca5a5] p-8">
+        <button className="absolute right-4 top-4">
+          <PanelTopCloseIcon className="h-6 w-6 text-black" />
         </button>
-        <h1 className="text-3xl font-bold text-center mb-6">Get started</h1>
-        <h2 className="text-xl font-semibold text-center mb-12">
+        <h1 className="mb-6 text-center text-3xl font-bold">Get started</h1>
+        <h2 className="mb-12 text-center text-xl font-semibold">
           Tell us a bit about you
         </h2>
-        <form className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">
+        <form className="grid grid-cols-1 gap-x-8 gap-y-6 md:grid-cols-2">
           <div>
             <label
-              className="block text-sm font-medium mb-1"
+              className="mb-1 block text-sm font-medium"
               htmlFor="first-name"
             >
               First name
@@ -31,7 +31,7 @@ export default function Component() {
           </div>
           <div>
             <label
-              className="block text-sm font-medium mb-1"
+              className="mb-1 block text-sm font-medium"
               htmlFor="last-name"
             >
               Last name
@@ -40,7 +40,7 @@ export default function Component() {
           </div>
           <div>
             <label
-              className="block text-sm font-medium mb-1"
+              className="mb-1 block text-sm font-medium"
               htmlFor="work-email"
             >
               Work email
@@ -49,7 +49,7 @@ export default function Component() {
           </div>
           <div>
             <label
-              className="block text-sm font-medium mb-1"
+              className="mb-1 block text-sm font-medium"
               htmlFor="job-title"
             >
               Job title
@@ -57,14 +57,14 @@ export default function Component() {
             <Input id="job-title" placeholder="Director of Operations" />
           </div>
           <div>
-            <label className="block text-sm font-medium mb-1" htmlFor="company">
+            <label className="mb-1 block text-sm font-medium" htmlFor="company">
               Company
             </label>
             <Input id="company" placeholder="Your Company" />
           </div>
           <div>
             <label
-              className="block text-sm font-medium mb-1"
+              className="mb-1 block text-sm font-medium"
               htmlFor="industry"
             >
               Industry
@@ -83,7 +83,7 @@ export default function Component() {
           </div>
           <div>
             <label
-              className="block text-sm font-medium mb-1"
+              className="mb-1 block text-sm font-medium"
               htmlFor="company-size"
             >
               Company size
@@ -101,7 +101,7 @@ export default function Component() {
           </div>
           <div>
             <label
-              className="block text-sm font-medium mb-1"
+              className="mb-1 block text-sm font-medium"
               htmlFor="phone-number"
             >
               Phone number
@@ -109,7 +109,9 @@ export default function Component() {
             <Input id="phone-number" placeholder="+1" type="tel" />
           </div>
           <div className="md:col-span-2 ">
-            <Button className="w-full bg-black hover:bg-orange-600 text-md text-white hover:text-black rounded-full">Submit</Button>
+            <Button className="text-md w-full rounded-full bg-black text-white hover:bg-orange-600 hover:text-black">
+              Submit
+            </Button>
           </div>
         </form>
       </div>
