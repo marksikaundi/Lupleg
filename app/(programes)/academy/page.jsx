@@ -56,7 +56,7 @@ export default function Academy() {
                   Mastering React with JavaScript
                 </h2>
                 <p className="text-2xl font-bold tracking-tighter text-gray-500 sm:text-3xl dark:text-gray-400">
-                  $99
+                  $10
                 </p>
               </div>
               <p className="mx-auto max-w-md text-gray-500 md:text-xl lg:text-base xl:text-xl dark:text-gray-400">
