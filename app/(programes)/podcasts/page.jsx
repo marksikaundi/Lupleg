@@ -223,6 +223,52 @@ export default function Component() {
                 </div>
               </CardContent>
             </Card>
+
+            <Card>
+              <CardContent className="grid gap-2 md:grid-cols-3">
+                {/* <div className="flex items-center justify-center p-4 md:col-span-1">
+                  <img
+                    alt="Episode cover"
+                    className="aspect-[1/1] rounded-lg object-cover"
+                    height="120"
+                    src="/Lupleg podcast.png"
+                    width="120"
+                  />
+                </div> */}
+                <div className="grid gap-1 md:col-span-2 md:gap-2">
+                  <div className="space-y-1">
+                    <h3 className="text-xl font-bold tracking-tighter sm:text-2xl">
+                      Essential Truths for New Tech Talents
+                    </h3>
+                    <p className="text-sm text-gray-500 dark:text-gray-400">
+                      Episode 05 | 10th March 2024
+                    </p>
+                  </div>
+                  <p className="text-sm text-gray-500 md:text-base/relaxed dark:text-gray-400">
+                    The tech industry is booming, but what's it really like to
+                    work in the field? Join us as Aman and Vikram, final year
+                    BTech students in Computer Science & Engineering, share
+                    their unique perspectives. We'll cut through the hype and
+                    get real about the challenges and rewards of a tech career.
+                    This episode is packed with essential truths for anyone
+                    considering a future in software engineering or development.
+                  </p>
+                  <iframe
+                    allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
+                    frameborder="0"
+                    height="175"
+                    style={{
+                      width: "100%",
+                      maxWidth: "660px",
+                      overflow: "hidden",
+                      borderRadius: "10px",
+                    }}
+                    src="https://embed.podcasts.apple.com/us/podcast/from-civil-engineer-to-software-developer/id1731008771?i=1000647839489&amp;itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=light"
+                    sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+                  ></iframe>
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
