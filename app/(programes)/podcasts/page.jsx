@@ -263,7 +263,7 @@ export default function Component() {
                       overflow: "hidden",
                       borderRadius: "10px",
                     }}
-                    src="https://embed.podcasts.apple.com/us/podcast/from-civil-engineer-to-software-developer/id1731008771?i=1000647839489&amp;itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=light"
+                    src="https://embed.podcasts.apple.com/us/podcast/essential-truths-for-new-tech-talents/id1731008771?i=1000648667621&amp;itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=light"
                     sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
                   ></iframe>
                 </div>
