@@ -122,7 +122,7 @@ export default function Cards() {
             </p>
             <a
               className="mt-6 text-base font-semibold text-indigo-600 hover:text-indigo-500"
-              href="#"
+              href="/hack_code_60"
             >
               Learn more →
             </a>

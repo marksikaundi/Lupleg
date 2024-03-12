@@ -125,8 +125,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link className="hover:underline" href="#">
-                  100 Days of Code
+                <Link className="hover:underline" href="hack_code_60">
+                  Hack Code 60
                 </Link>
               </li>
               <li>
