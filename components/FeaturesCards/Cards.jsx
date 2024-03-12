@@ -27,7 +27,7 @@ export default function Cards() {
           <div className="rounded-xl bg-gradient-to-br from-[#fde68a] to-[#fca5a5] p-8">
             <h2 className="text-3xl font-extrabold text-gray-900">
               <span className="border-20 rounded-full bg-black">❔</span> Ask Me
-              Anything (AMA)
+              Anything
             </h2>
             <p className="mt-4 text-lg text-black">
               Organize{" "}
@@ -122,7 +122,7 @@ export default function Cards() {
           </div>
           <div className="rounded-xl bg-gradient-to-br from-[#fde68a] to-[#fca5a5] p-8">
             <h2 className="text-3xl font-extrabold text-gray-900">
-              ⭐️⭐️⭐️ Join & code ⭐️⭐️⭐️
+              ⭐️⭐️ Join & code ⭐️⭐️
             </h2>
             <p className="mt-4 text-lg text-black">
               Join the challenge and improve your coding skills. You will be
