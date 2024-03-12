@@ -95,7 +95,7 @@ export default function Cards() {
               Code Hack 60
             </h1>
             <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-              <span className="font-bold text-green-900">✅ Code Hack 60:</span>{" "}
+              <span className="font-bold text-green-900">✅ Hack Code 60:</span>{" "}
               is a 60-day coding challenge that will help you improve your
               coding skills through a series of real-world projects. You will be
               given a new project every 2 days, and you will have 2 days to
