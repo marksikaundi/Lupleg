@@ -9,14 +9,14 @@ export default function Cards() {
             </h1>
             <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
               <span className="font-bold text-green-900">
-                In-depth Tutorials:
+                ✅ In-depth Tutorials:
               </span>{" "}
               Create detailed guides on specific technologies, frameworks, or
               coding challenges relevant to your development projects.
             </p>
             <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
               <span className="font-bold text-green-900">
-                Code Examples and Solutions:
+                ✅ Code Examples and Solutions:
               </span>{" "}
               Share code snippets or open-source projects that showcase best
               practices and solutions to common problems.
@@ -30,7 +30,7 @@ export default function Cards() {
             <p className="mt-4 text-lg text-gray-500">
               Organize live Q&A sessions with junior & senior developers on our
               team to answer community questions and provides you with necessary
-              solutions you need.✅ Offer technical write-ups explaining the
+              solutions you need. Offer technical write-ups explaining the
               architecture and design decisions behind your software.
             </p>
             <a
@@ -50,7 +50,7 @@ export default function Cards() {
             </h1>
             <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
               <span className="font-bold text-green-900">
-                Developer Interviews:
+                ✅ Developer Interviews:
               </span>{" "}
               Feature interviews with talented developers from our team or in
               the broader industry, discussing their career paths, experiences,
@@ -58,7 +58,7 @@ export default function Cards() {
             </p>
             <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
               <span className="font-bold text-green-900">
-                Hackathons and Challenges:
+                ✅ Hackathons and Challenges:
               </span>{" "}
               Organize coding challenges or hackathons with specific themes or
               goals, encouraging developers to collaborate and showcase their
@@ -92,12 +92,23 @@ export default function Cards() {
         <div className="grid grid-cols-1 items-center gap-16 lg:grid-cols-2">
           <div>
             <h1 className="text-5xl font-extrabold tracking-tight text-gray-900 sm:text-6xl">
-              It's not or. It's and.
+              Code Hack 60
             </h1>
             <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-              Choosing a customer communication solution is hard — but with
-              Front, it's not. Front is the only inbox built for collaboration,
-              visibility, and efficiency at scale.
+              <span className="font-bold text-green-900">✅ Code Hack 60:</span>{" "}
+              is a 60-day coding challenge that will help you improve your
+              coding skills through a series of real-world projects. You will be
+              given a new project every 2 days, and you will have 2 days to
+              complete it.
+            </p>
+            <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+              <span className="font-bold text-green-900">
+                ✅ How the challenge works:
+              </span>{" "}
+              The projects are designed to help you learn new skills and improve
+              your existing ones. You need also have access to a community of
+              other developers who are also taking the challenge, so you can get
+              help and support from others as you go through the challenge.
             </p>
           </div>
           <div className="rounded-xl bg-gradient-to-br from-[#fde68a] to-[#fca5a5] p-8">
