@@ -177,13 +177,13 @@ export default function Footer() {
             <p>© 2024 Lupleg LLC. All rights reserved.</p>
             <div className="mt-4 flex space-x-4 sm:mt-0">
               <Link className="hover:underline" href="#">
-                SaaS Agreement
+                Agreement
               </Link>
               <Link className="hover:underline" href="#">
-                Privacy Policy
+                Privacy
               </Link>
               <Link className="hover:underline" href="#">
-                Terms of use
+                Terms
               </Link>
               <Link className="hover:underline" href="sitemap">
                 Sitemap
