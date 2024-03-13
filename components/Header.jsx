@@ -28,9 +28,9 @@ export default function Header() {
           </Link>
           <Link
             className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
-            href="pricing"
+            href="for-orgs"
           >
-            Pricing
+            For ORGs
           </Link>
           <Link
             className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
@@ -46,10 +46,8 @@ export default function Header() {
           </Link>
         </nav>
       </div>
-      <div className="text-md hidden rounded-full  bg-black p-4 text-white hover:bg-[#ED7133] md:block">
-        <button>
-          <Link href="contacts">Get Started</Link>
-        </button>
+      <div className="text-md hidden rounded border-2 border-green-700  p-3 text-black  md:block">
+        <Link href="partner">Partner with us</Link>
       </div>
 
       <Sheet>
