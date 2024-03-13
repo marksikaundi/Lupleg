@@ -8,13 +8,7 @@ export default function Services() {
           </h2>
           <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
             From software development to mentorship, we offer a wide range of
-            services to help you succeed. For more{" "}
-            <a
-              className="mt-6 text-base font-semibold text-indigo-600 hover:text-indigo-500"
-              href="mailto:dev@lupleg.website"
-            >
-              Contact →
-            </a>
+            services to help you succeed.
           </p>
         </div>
         <div className="grid w-full grid-cols-1 items-stretch justify-center gap-4 md:grid-cols-2 md:gap-6 lg:gap-8">
@@ -30,6 +24,12 @@ export default function Services() {
                 Let us build your next big idea. Our team of experts will turn
                 your vision into reality.
               </p>
+              <a
+                className="mt-6 text-base font-semibold text-indigo-600 hover:text-indigo-500"
+                href="#"
+              >
+                Read more →
+              </a>
             </div>
           </div>
           <div className="flex flex-col items-center justify-center rounded-lg border border-gray-200 p-4 shadow-sm md:flex-row md:items-start md:justify-start md:gap-4 md:p-6 dark:border-gray-800">
@@ -44,6 +44,12 @@ export default function Services() {
                 Make your website stand out with our WordPress expertise. We'll
                 create a beautiful and functional site for you.
               </p>
+              <a
+                className="mt-6 text-base font-semibold text-indigo-600 hover:text-indigo-500"
+                href="#"
+              >
+                Read more →
+              </a>
             </div>
           </div>
           <div className="flex flex-col items-center justify-center rounded-lg border border-gray-200 p-4 shadow-sm md:flex-row md:items-start md:justify-start md:gap-4 md:p-6 dark:border-gray-800">
@@ -58,6 +64,12 @@ export default function Services() {
                 Our designers are ready to bring your brand to life. From logos
                 to marketing materials, we've got you covered.
               </p>
+              <a
+                className="mt-6 text-base font-semibold text-indigo-600 hover:text-indigo-500"
+                href="#"
+              >
+                Read more →
+              </a>
             </div>
           </div>
           <div className="flex flex-col items-center justify-center rounded-lg border border-gray-200 p-4 shadow-sm md:flex-row md:items-start md:justify-start md:gap-4 md:p-6 dark:border-gray-800">
@@ -72,6 +84,12 @@ export default function Services() {
                 Need a mobile app? Our team is experienced in creating
                 user-friendly and feature-rich applications.
               </p>
+              <a
+                className="mt-6 text-base font-semibold text-indigo-600 hover:text-indigo-500"
+                href="#"
+              >
+                Read more →
+              </a>
             </div>
           </div>
           <div className="flex flex-col items-center justify-center rounded-lg border border-gray-200 p-4 shadow-sm md:flex-row md:items-start md:justify-start md:gap-4 md:p-6 dark:border-gray-800">
@@ -84,6 +102,12 @@ export default function Services() {
                 Learn from the best. Our mentors are here to guide you in your
                 career and help you grow.
               </p>
+              <a
+                className="mt-6 text-base font-semibold text-indigo-600 hover:text-indigo-500"
+                href="#"
+              >
+                Read more →
+              </a>
             </div>
           </div>
           <div className="flex flex-col items-center justify-center rounded-lg border border-gray-200 p-4 shadow-sm md:flex-row md:items-start md:justify-start md:gap-4 md:p-6 dark:border-gray-800">
@@ -96,6 +120,12 @@ export default function Services() {
                 Looking for real-world experience? Our internship programs
                 provide valuable insights and hands-on learning.
               </p>
+              <a
+                className="mt-6 text-base font-semibold text-indigo-600 hover:text-indigo-500"
+                href="#"
+              >
+                Read more →
+              </a>
             </div>
           </div>
         </div>
