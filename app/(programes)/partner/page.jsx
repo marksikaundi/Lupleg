@@ -1,14 +1,14 @@
-import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function Component() {
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-        <div className="lg:text-center">
-          <p className="text-base font-semibold uppercase leading-6 tracking-wide text-indigo-600">
+        <div className="lg:top-0 lg:text-left">
+          <p className="text-sm font-semibold uppercase leading-6 tracking-wide text-green-950">
             Partner With Us
           </p>
-          <h2 className="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl">
+          <h2 className="mt-2 text-2xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl">
             How would you like to partner with us?
           </h2>
         </div>
@@ -34,11 +34,12 @@ export default function Component() {
                       drive tangible results.
                     </p>
                   </div>
-                  <div className="mt-6 rounded-md shadow">
-                    <Button className="flex w-full items-center justify-center rounded-md border border-transparent bg-[#f59e0b] px-8 py-3 text-base font-medium leading-6 text-white hover:bg-[#d97706] md:px-10 md:py-4 md:text-lg">
-                      Organize a Training
-                    </Button>
-                  </div>
+                  <Link
+                    className="text-md w-48 rounded-md border-2 border-green-950 bg-green-950  p-3 text-white  md:block"
+                    href="#"
+                  >
+                    Organize a Training
+                  </Link>
                 </div>
               </div>
             </li>
@@ -62,11 +63,12 @@ export default function Component() {
                       success.
                     </p>
                   </div>
-                  <div className="mt-6 rounded-md shadow">
-                    <Button className="flex w-full items-center justify-center rounded-md border border-transparent bg-[#ef4444] px-8 py-3 text-base font-medium leading-6 text-white hover:bg-[#dc2626] md:px-10 md:py-4 md:text-lg">
-                      Recruit Zuri Talent
-                    </Button>
-                  </div>
+                  <Link
+                    className="text-md w-48 rounded-md border-2 border-green-950 bg-green-950  p-3 text-white  md:block"
+                    href="#"
+                  >
+                    Hire Lupleg Talents
+                  </Link>
                 </div>
               </div>
             </li>
@@ -90,11 +92,13 @@ export default function Component() {
                       industry.
                     </p>
                   </div>
-                  <div className="mt-6 rounded-md shadow">
-                    <Button className="flex w-full items-center justify-center rounded-md border border-transparent bg-[#a855f7] px-8 py-3 text-base font-medium leading-6 text-white hover:bg-[#9333ea] md:px-10 md:py-4 md:text-lg">
-                      Donate to Zuri
-                    </Button>
-                  </div>
+
+                  <Link
+                    className="text-md w-48 rounded-md border-2 border-green-950 bg-green-950  p-3 text-white  md:block"
+                    href="#"
+                  >
+                    Donate to Lupleg
+                  </Link>
                 </div>
               </div>
             </li>
