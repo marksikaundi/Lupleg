@@ -1,4 +1,4 @@
-export default function Documentations() {
+export default function Documentation() {
   return (
     <div className="w-full overflow-hidden bg-gray-50 dark:bg-gray-950">
       <div className="container space-y-6 px-4 py-12 text-center md:space-y-10 md:py-24">
@@ -28,7 +28,7 @@ export default function Documentations() {
                     To install Lupleg, you can use npm or yarn. Run the
                     following command in your terminal:
                   </p>
-                  <div>npm install -g lupleg</div>
+                  <p>npm install -g lupleg</p>
                 </div>
               </div>
               <div className="space-y-2">
@@ -41,7 +41,7 @@ export default function Documentations() {
                     project. Navigate to your project directory and run the
                     following command:
                   </p>
-                  <div>lupleg init</div>
+                  <p>lupleg init</p>
                 </div>
               </div>
               <div className="space-y-2">
@@ -51,11 +51,11 @@ export default function Documentations() {
                 <div className="space-y-2 text-sm leading-loose md:text-base xl:text-lg">
                   <p>
                     Lupleg can be configured using the
-                    <div>lupleg config</div>
+                    <span>lupleg config</span>
                     command. You can set various options such as the theme,
                     language, and behavior of Lupleg.
                   </p>
-                  <div>lupleg config</div>
+                  <p>lupleg config</p>
                 </div>
               </div>
             </div>
@@ -76,7 +76,7 @@ export default function Documentations() {
                     messages, handling prompts, and customizing the behavior of
                     Lupleg.
                   </p>
-                  <div>import LuplegClient from 'lupleg';</div>
+                  <p>import LuplegClient from 'lupleg';</p>
                 </div>
               </div>
               <div className="space-y-2">
@@ -90,7 +90,7 @@ export default function Documentations() {
                     integrations. It provides a set of methods and components
                     for building interactive messages and workflows.
                   </p>
-                  <div>import LuplegAPI from 'lupleg';</div>
+                  <p>import LuplegAPI from 'lupleg';</p>
                 </div>
               </div>
               <div className="space-y-2">
@@ -103,11 +103,11 @@ export default function Documentations() {
                     functions and components for common tasks such as parsing
                     messages, formatting data, and rendering UI elements.
                   </p>
-                  <div>
+                  <p>
                     {`
                                     import '} from '@lupleg/utils';
                                   `}
-                  </div>
+                  </p>
                 </div>
               </div>
             </div>
@@ -130,7 +130,7 @@ export default function Documentations() {
                     prompt that asks the user for their name and then displays a
                     personalized message.
                   </p>
-                  <div>## Welcome to Lupleg Please enter your name:</div>
+                  <p>## Welcome to Lupleg Please enter your name:</p>
                 </div>
               </div>
               <div className="space-y-2">
@@ -146,7 +146,7 @@ export default function Documentations() {
                     with your website so that you can add interactive messages
                     and prompts to your web pages.
                   </p>
-                  <div>{`"<script src="https://cdn.lupleg.com/client.js\"></script>"`}</div>
+                  <p>{`"<script src="https://cdn.lupleg.com/client.js\"></script>"`}</p>
                 </div>
               </div>
               <div className="space-y-2">
@@ -162,10 +162,10 @@ export default function Documentations() {
                     appearance and behavior of the Lupleg UI to match your brand
                     and style.
                   </p>
-                  <div>
+                  <p>
                     import LuplegUI from 'lupleg'; import
                     'lupleg/dist/styles.css';
-                  </div>
+                  </p>
                 </div>
               </div>
             </div>
@@ -186,7 +186,7 @@ export default function Documentations() {
                     automatically detect and load the prompts from these
                     folders.
                   </p>
-                  <div>mkdir prompts touch prompts/hello.js</div>
+                  <p>mkdir prompts touch prompts/hello.js</p>
                 </div>
               </div>
               <div className="space-y-2">
@@ -200,7 +200,7 @@ export default function Documentations() {
                     information provided in the message and know what action to
                     take.
                   </p>
-                  <div>## Welcome to Lupleg Please enter your name:</div>
+                  <p>## Welcome to Lupleg Please enter your name:</p>
                 </div>
               </div>
               <div className="space-y-2">
@@ -216,7 +216,7 @@ export default function Documentations() {
                     workspace, including creating new prompts, editing existing
                     prompts, and publishing prompts to the Lupleg Hub.
                   </p>
-                  <div>lupleg new lupleg edit lupleg publish</div>
+                  <p>lupleg new lupleg edit lupleg publish</p>
                 </div>
               </div>
             </div>
