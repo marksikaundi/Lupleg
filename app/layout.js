@@ -6,18 +6,19 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Lupleg - up your Tech career Journey",
-  description: "Young African developers, launch with #LupLeg!  Master #OpenSource with projects & expert mentors. ‍ Build your skills, join the community, code your future!  #AfricaTech #TechCareers"
+  title: "Building Africa's Tech Future",
+  descriptio:
+    "Join us in shaping the future of technology in Africa! Our developer community empowers Africans with the skills and resources to solve problems, drive innovation, and create a more sustainable future.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Header/>
+        <Header />
         {children}
-        <Footer/>
-        </body>
+        <Footer />
+      </body>
     </html>
   );
 }
