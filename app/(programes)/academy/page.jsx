@@ -10,7 +10,7 @@ export default function Academy() {
               Lupleg Academy
             </h1>
             <p className="mx-auto max-w-md p-5 text-gray-500 md:text-xl lg:text-base xl:text-xl dark:text-gray-400">
-              Learn from the best. Courses taught by industry experts.
+              Master in-demand tech skills and land your dream tech job.
             </p>
           </div>
         </div>
