@@ -16,6 +16,12 @@ export default function Header() {
         <nav className="flex space-x-6">
           <Link
             className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
+            href="services"
+          >
+            Services
+          </Link>
+          <Link
+            className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
             href="features"
           >
             Features
@@ -55,6 +61,12 @@ export default function Header() {
         </SheetTrigger>
         <SheetContent side="left">
           <div className="grid gap-2 py-6">
+            <Link
+              className="flex w-full items-center py-2 text-lg font-semibold"
+              href="services"
+            >
+              Services
+            </Link>
             <Link
               className="flex w-full items-center py-2 text-lg font-semibold"
               href="features"
