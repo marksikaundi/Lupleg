@@ -12,9 +12,6 @@ export default function Contact() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-white p-4">
       <div className="relative w-full max-w-4xl rounded-2xl bg-gradient-to-br from-[#fde68a] to-[#fca5a5] p-8">
-        <button className="absolute right-4 top-4">
-          <PanelTopCloseIcon className="h-6 w-6 text-black" />
-        </button>
         <h1 className="mb-6 text-center text-3xl font-bold">Get started</h1>
         <h2 className="mb-12 text-center text-xl font-semibold">
           Tell us a bit about you
