@@ -35,7 +35,7 @@ export default function Component() {
                     </p>
                   </div>
                   <Link
-                    className="text-md w-48 rounded-md border-2 border-green-950 bg-green-950  p-3 text-white  md:block"
+                    className="text-md w-48 rounded-md border-2 border-green-950 bg-green-950  p-4 text-white  md:block"
                     href="#"
                   >
                     Organize a Training
@@ -64,7 +64,7 @@ export default function Component() {
                     </p>
                   </div>
                   <Link
-                    className="text-md w-48 rounded-md border-2 border-green-950 bg-green-950  p-3 text-white  md:block"
+                    className="text-md w-48 rounded-md border-2 border-green-950 bg-green-950  p-4 text-white  md:block"
                     href="#"
                   >
                     Hire Lupleg Talents
@@ -94,7 +94,7 @@ export default function Component() {
                   </div>
 
                   <Link
-                    className="text-md w-48 rounded-md border-2 border-green-950 bg-green-950  p-3 text-white  md:block"
+                    className="text-md w-48 rounded-md border-2 border-green-950 bg-green-950  p-4 text-white  md:block"
                     href="#"
                   >
                     Donate to Lupleg
@@ -104,6 +104,13 @@ export default function Component() {
             </li>
           </ul>
         </div>
+      </div>
+
+      <div className="">
+        <p className="m-10 mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+          From software development to mentorship, we offer a wide range of
+          services to help you succeed.
+        </p>
       </div>
     </div>
   );
