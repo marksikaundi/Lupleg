@@ -35,17 +35,17 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link className="hover:underline" href="#">
-                  Workflow
+                  Educators
                 </Link>
               </li>
               <li>
                 <Link className="hover:underline" href="#">
-                  Research
+                  Organizations
                 </Link>
               </li>
               <li>
                 <Link className="hover:underline" href="#">
-                  African Developers
+                  Individuals
                 </Link>
               </li>
               <li>
@@ -56,21 +56,6 @@ export default function Footer() {
               <li>
                 <Link className="hover:underline" href="/docs">
                   Docs
-                </Link>
-              </li>
-              <li>
-                <Link className="hover:underline" href="#">
-                  Integrations & API
-                </Link>
-              </li>
-              <li>
-                <Link className="hover:underline" href="#">
-                  Customer Support
-                </Link>
-              </li>
-              <li>
-                <Link className="hover:underline" href="#">
-                  Lupleg Program
                 </Link>
               </li>
             </ul>
