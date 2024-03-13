@@ -1,4 +1,4 @@
-export default function Component() {
+export default function Documentations() {
   return (
     <div className="w-full overflow-hidden bg-gray-50 dark:bg-gray-950">
       <div className="container space-y-6 px-4 py-12 text-center md:space-y-10 md:py-24">
