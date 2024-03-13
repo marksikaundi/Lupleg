@@ -21,13 +21,13 @@ export default function HackCode60() {
           </div>
           <div className="mx-auto flex max-w-sm flex-col gap-2 md:max-w-xl md:flex-row md:gap-4 lg:max-w-3xl lg:gap-4 xl:max-w-4xl xl:gap-6">
             <Link
-              className="inline-flex h-10 w-full items-center justify-center rounded-md border border-gray-200 border-gray-200 bg-white text-sm font-medium shadow-sm md:w-auto 2xl:mx-4 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:text-gray-50"
+              className="inline-flex h-10 w-full items-center justify-center rounded-md border border-gray-200  bg-white text-sm font-medium shadow-sm md:w-auto 2xl:mx-4 dark:border-gray-800  dark:bg-gray-950 dark:text-gray-50"
               href="#"
             >
               View Tasks
             </Link>
             <Link
-              className="inline-flex h-10 w-full items-center justify-center rounded-md border border-gray-200 border-gray-200 bg-white text-sm font-medium shadow-sm md:w-auto 2xl:mx-4 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:text-gray-50"
+              className="inline-flex h-10 w-full items-center justify-center rounded-md border border-gray-200  bg-white text-sm font-medium shadow-sm md:w-auto 2xl:mx-4 dark:border-gray-800  dark:bg-gray-950 dark:text-gray-50"
               href="#"
             >
               Submit Solution
@@ -50,13 +50,13 @@ export default function HackCode60() {
           </div>
           <div className="flex flex-col justify-center gap-2 min-[400px]:flex-row">
             <Link
-              className="inline-flex h-10 w-full items-center justify-center rounded-md border border-gray-200 border-gray-200 bg-white text-sm font-medium shadow-sm md:w-auto 2xl:mx-4 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:text-gray-50"
+              className="inline-flex h-10 w-full items-center justify-center rounded-md border border-gray-200  bg-white text-sm font-medium shadow-sm md:w-auto 2xl:mx-4  dark:border-gray-800 dark:bg-gray-950 dark:text-gray-50"
               href="#"
             >
               View Leaderboard
             </Link>
             <Link
-              className="inline-flex h-10 w-full items-center justify-center rounded-md border border-gray-200 border-gray-200 bg-white text-sm font-medium shadow-sm md:w-auto 2xl:mx-4 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:text-gray-50"
+              className="inline-flex h-10 w-full items-center justify-center rounded-md border border-gray-200  bg-white text-sm font-medium shadow-sm md:w-auto 2xl:mx-4  dark:border-gray-800 dark:bg-gray-950 dark:text-gray-50"
               href="#"
             >
               View Notifications
@@ -94,7 +94,7 @@ export default function HackCode60() {
                 </Label>
               </div>
               <Link
-                className="inline-flex h-8 items-center justify-center rounded-md border border-gray-200 border-gray-200 bg-white px-4 text-xs font-medium shadow-sm hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
+                className="inline-flex h-8 items-center justify-center rounded-md border border-gray-200  bg-white px-4 text-xs font-medium shadow-sm hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 dark:border-gray-800  dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
                 href="#"
               >
                 View Task
@@ -108,7 +108,7 @@ export default function HackCode60() {
                 </Label>
               </div>
               <Link
-                className="inline-flex h-8 items-center justify-center rounded-md border border-gray-200 border-gray-200 bg-white px-4 text-xs font-medium shadow-sm hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
+                className="inline-flex h-8 items-center justify-center rounded-md border border-gray-200 bg-white px-4 text-xs font-medium shadow-sm hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 dark:border-gray-800  dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
                 href="#"
               >
                 View Task
@@ -122,7 +122,7 @@ export default function HackCode60() {
                 </Label>
               </div>
               <Link
-                className="inline-flex h-8 items-center justify-center rounded-md border border-gray-200 border-gray-200 bg-white px-4 text-xs font-medium shadow-sm hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
+                className="inline-flex h-8 items-center justify-center rounded-md border border-gray-200  bg-white px-4 text-xs font-medium shadow-sm hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 dark:border-gray-800  dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
                 href="#"
               >
                 View Task
@@ -136,7 +136,7 @@ export default function HackCode60() {
                 </Label>
               </div>
               <Link
-                className="inline-flex h-8 items-center justify-center rounded-md border border-gray-200 border-gray-200 bg-white px-4 text-xs font-medium shadow-sm hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
+                className="inline-flex h-8 items-center justify-center rounded-md border  border-gray-200 bg-white px-4 text-xs font-medium shadow-sm hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 dark:border-gray-800  dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
                 href="#"
               >
                 View Task
@@ -150,7 +150,7 @@ export default function HackCode60() {
                 </Label>
               </div>
               <Link
-                className="inline-flex h-8 items-center justify-center rounded-md border border-gray-200 border-gray-200 bg-white px-4 text-xs font-medium shadow-sm hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
+                className="inline-flex h-8 items-center justify-center rounded-md border  border-gray-200 bg-white px-4 text-xs font-medium shadow-sm hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 dark:border-gray-800  dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
                 href="#"
               >
                 View Task
@@ -171,13 +171,13 @@ export default function HackCode60() {
           </div>
           <div className="flex flex-col justify-center gap-2 min-[400px]:flex-row">
             <Link
-              className="inline-flex h-10 w-full items-center justify-center rounded-md border border-gray-200 border-gray-200 bg-white text-sm font-medium shadow-sm md:w-auto 2xl:mx-4 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:text-gray-50"
+              className="inline-flex h-10 w-full items-center justify-center rounded-md border  border-gray-200 bg-white text-sm font-medium shadow-sm md:w-auto 2xl:mx-4  dark:border-gray-800 dark:bg-gray-950 dark:text-gray-50"
               href="#"
             >
               Documentation
             </Link>
             <Link
-              className="inline-flex h-10 w-full items-center justify-center rounded-md border border-gray-200 border-gray-200 bg-white text-sm font-medium shadow-sm md:w-auto 2xl:mx-4 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:text-gray-50"
+              className="inline-flex h-10 w-full items-center justify-center rounded-md border  border-gray-200 bg-white text-sm font-medium shadow-sm md:w-auto 2xl:mx-4  dark:border-gray-800 dark:bg-gray-950 dark:text-gray-50"
               href="#"
             >
               Support Channel
