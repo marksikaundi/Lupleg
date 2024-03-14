@@ -10,24 +10,16 @@ export default function Footer() {
           <h5 className="mb-4 font-bold">Lupleg LLC</h5>
           <ul className="space-y-3">
             <li>
-              <a className="hover:underline" href="#">
-                For Businesses
-              </a>
+              <Link href="#">For Businesses</Link>
             </li>
             <li>
-              <a className="hover:underline" href="#">
-                For NGOs
-              </a>
+              <Link href="for-orgs">For NGOs</Link>
             </li>
             <li>
-              <a className="hover:underline" href="#">
-                Trainings
-              </a>
+              <Link href="#">Trainings</Link>
             </li>
             <li>
-              <a className="hover:underline" href="#">
-                Team
-              </a>
+              <Link href="#">Team</Link>
             </li>
           </ul>
         </div>
@@ -35,24 +27,16 @@ export default function Footer() {
           <h5 className="mb-4 font-bold">Links</h5>
           <ul className="space-y-3">
             <li>
-              <a className="hover:underline" href="#">
-                Partner with Us
-              </a>
+              <Link href="partner">Partner with Us</Link>
             </li>
             <li>
-              <a className="hover:underline" href="#">
-                Recruit Talent
-              </a>
+              <Link href="#">Recruit Talent</Link>
             </li>
             <li>
-              <a className="hover:underline" href="#">
-                Partner to train
-              </a>
+              <Link href="#">Partner to train</Link>
             </li>
             <li>
-              <a className="hover:underline" href="#">
-                Tracks
-              </a>
+              <Link href="#">Tracks</Link>
             </li>
           </ul>
         </div>
@@ -60,24 +44,16 @@ export default function Footer() {
           <h5 className="mb-4 font-bold">Resources</h5>
           <ul className="space-y-3">
             <li>
-              <a className="hover:underline" href="#">
-                Articles
-              </a>
+              <Link href="podcasts">Podcasts</Link>
             </li>
             <li>
-              <a className="hover:underline" href="#">
-                Our Why
-              </a>
+              <Link href="#">Our Why</Link>
             </li>
             <li>
-              <a className="hover:underline" href="#">
-                FAQ
-              </a>
+              <Link href="#">FAQ</Link>
             </li>
             <li>
-              <a className="hover:underline" href="#">
-                Youtube Playlist
-              </a>
+              <Link href="#">Youtube Playlist</Link>
             </li>
           </ul>
         </div>
