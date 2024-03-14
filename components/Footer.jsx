@@ -113,7 +113,7 @@ export default function Component() {
           <p>© Copyright 2024, All Rights Reserved</p>
         </div>
       </div>
-      <div className="mt-4 text-center text-xs text-gray-400">
+      <div className="mt-4 text-center text-xs text-white">
         <p>
           Disclaimer: The roles listed on this website are based on real
           positions, but any images or photographs used on this site are stock
