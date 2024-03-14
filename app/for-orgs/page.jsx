@@ -19,10 +19,10 @@ export default function Pricing() {
           Choose your plan to deliver exceptional service
         </h1>
         <div className="mt-8 flex justify-center">
-          <Button className="mr-4 bg-black py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-black">
+          <Button className="mr-4 bg-black px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-black">
             For most businesses
           </Button>
-          <Button className="bg-white py-2 px-4 text-sm font-medium text-black shadow-sm hover:bg-gray-50">
+          <Button className="bg-white px-4 py-2 text-sm font-medium text-black shadow-sm hover:bg-gray-50">
             For smaller teams
           </Button>
         </div>
@@ -83,7 +83,7 @@ export default function Pricing() {
         </Card>
         <Card className="relative bg-white">
           <Badge
-            className="absolute bg-black text-white p-2 top-0 right-0 mt-4 mr-4"
+            className="absolute right-0 top-0 mr-4 mt-4 bg-black p-2 text-white"
             variant="secondary"
           >
             MOST POPULAR
@@ -197,7 +197,7 @@ export default function Pricing() {
           </CardFooter>
         </Card>
       </div>
-      <div className="text-center mt-6">
+      <div className="mt-6 text-center">
         <Link className="text-black" href="#">
           Compare all plans →
         </Link>
