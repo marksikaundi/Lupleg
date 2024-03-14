@@ -93,7 +93,7 @@ export default function Footer() {
           <Link href="https://facebook.com/Lupleg">
             <FacebookIcon className="text-white" />
           </Link>
-          <Link href="https://linkedin.com/in/lupleg">
+          <Link href="https://linkedin.com/company/lupleg">
             <LinkedinIcon className="text-white" />
           </Link>
         </div>
