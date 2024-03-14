@@ -1,9 +1,9 @@
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-// bg-[#370C0C]
+
 export default function Component() {
   return (
-    <footer className="bg-green-950 p-10 text-white">
+    <footer className="bg-[#370C0C] p-10 text-white">
       <div className="mx-auto grid max-w-7xl grid-cols-2 gap-10 md:grid-cols-4">
         <div>
           <h5 className="mb-4 font-bold">Company</h5>
@@ -88,18 +88,18 @@ export default function Component() {
                 className="rounded-md"
                 placeholder="Enter Your Email Here"
               />
-              <Button className="ml-2 bg-orange-700 hover:bg-orange-950">
+              <Button className="ml-2 bg-red-500 hover:bg-red-600">
                 Subscribe
               </Button>
             </div>
           </div>
           <div className="mt-8">
             <h5 className="mb-4 font-bold">Helpdesk</h5>
-            <p>dev@lupleg</p>
+            <p>help-desk@zuriteam</p>
           </div>
           <div className="mt-8">
             <h5 className="mb-4 font-bold">Email US</h5>
-            <p>mark@lupleg.website</p>
+            <p>hello@zuriteam</p>
           </div>
         </div>
       </div>
@@ -113,7 +113,7 @@ export default function Component() {
           <p>© Copyright 2024, All Rights Reserved</p>
         </div>
       </div>
-      <div className="mt-4 text-center text-xs text-white">
+      <div className="mt-4 text-center text-xs text-gray-400">
         <p>
           Disclaimer: The roles listed on this website are based on real
           positions, but any images or photographs used on this site are stock
