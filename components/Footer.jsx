@@ -1,32 +1,25 @@
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 // bg-[#370C0C]
-export default function Component() {
+export default function Footer() {
   return (
     <footer className="bg-green-950 p-10 text-white">
       <div className="mx-auto grid max-w-7xl grid-cols-2 gap-10 md:grid-cols-4">
         <div>
-          <h5 className="mb-4 font-bold">Company</h5>
+          <h5 className="mb-4 font-bold">Lupleg LLC</h5>
           <ul className="space-y-3">
             <li>
-              <a className="hover:underline" href="#">
-                For Businesses
-              </a>
+              <Link href="#">For Businesses</Link>
             </li>
             <li>
-              <a className="hover:underline" href="#">
-                For NGOs
-              </a>
+              <Link href="for-orgs">For NGOs</Link>
             </li>
             <li>
-              <a className="hover:underline" href="#">
-                Trainings
-              </a>
+              <Link href="#">Trainings</Link>
             </li>
             <li>
-              <a className="hover:underline" href="#">
-                Team
-              </a>
+              <Link href="#">Team</Link>
             </li>
           </ul>
         </div>
@@ -34,24 +27,16 @@ export default function Component() {
           <h5 className="mb-4 font-bold">Links</h5>
           <ul className="space-y-3">
             <li>
-              <a className="hover:underline" href="#">
-                Partner with Us
-              </a>
+              <Link href="partner">Partner with Us</Link>
             </li>
             <li>
-              <a className="hover:underline" href="#">
-                Recruit Talent
-              </a>
+              <Link href="#">Recruit Talent</Link>
             </li>
             <li>
-              <a className="hover:underline" href="#">
-                Partner to train
-              </a>
+              <Link href="#">Partner to train</Link>
             </li>
             <li>
-              <a className="hover:underline" href="#">
-                Tracks
-              </a>
+              <Link href="#">Tracks</Link>
             </li>
           </ul>
         </div>
@@ -59,24 +44,16 @@ export default function Component() {
           <h5 className="mb-4 font-bold">Resources</h5>
           <ul className="space-y-3">
             <li>
-              <a className="hover:underline" href="#">
-                Articles
-              </a>
+              <Link href="podcasts">Podcasts</Link>
             </li>
             <li>
-              <a className="hover:underline" href="#">
-                Our Why
-              </a>
+              <Link href="#">Our Why</Link>
             </li>
             <li>
-              <a className="hover:underline" href="#">
-                FAQ
-              </a>
+              <Link href="#">FAQ</Link>
             </li>
             <li>
-              <a className="hover:underline" href="#">
-                Youtube Playlist
-              </a>
+              <Link href="#">Youtube Playlist</Link>
             </li>
           </ul>
         </div>
@@ -95,19 +72,30 @@ export default function Component() {
           </div>
           <div className="mt-8">
             <h5 className="mb-4 font-bold">Helpdesk</h5>
-            <p>dev@lupleg</p>
+            <p>
+              <a href="mailto:dev@lupleg.website">dev@lupleg</a>
+            </p>
           </div>
           <div className="mt-8">
             <h5 className="mb-4 font-bold">Email US</h5>
-            <p>mark@lupleg.website</p>
+            <p>
+              {" "}
+              <a href="mailto:mark@lupleg.website">mark@lupleg.website</a>{" "}
+            </p>
           </div>
         </div>
       </div>
       <div className="mt-10 flex flex-col items-center justify-between border-t border-gray-600 py-6 md:flex-row">
         <div className="flex items-center space-x-4">
-          <TwitterIcon className="text-white" />
-          <FacebookIcon className="text-white" />
-          <LinkedinIcon className="text-white" />
+          <Link href="https://twitter.com/Lupleg_Dev">
+            <TwitterIcon className="text-white" />
+          </Link>
+          <Link href="https://facebook.com/Lupleg">
+            <FacebookIcon className="text-white" />
+          </Link>
+          <Link href="https://linkedin.com/in/lupleg">
+            <LinkedinIcon className="text-white" />
+          </Link>
         </div>
         <div className="mt-4 text-center md:mt-0 md:text-left">
           <p>© Copyright 2024, All Rights Reserved</p>
@@ -115,11 +103,12 @@ export default function Component() {
       </div>
       <div className="mt-4 text-center text-xs text-white">
         <p>
-          Disclaimer: The roles listed on this website are based on real
-          positions, but any images or photographs used on this site are stock
-          photos and do not depict the actual individuals holding these
-          positions. We have taken this measure to protect the privacy and
-          identities of the real people represented on this site.
+          Disclaimer: The programs, courses, and opportunities described on this
+          website are based on real offerings. However, any images or
+          photographs used are for illustrative purposes only and do not
+          represent actual participants or individuals involved. We take this
+          step to protect the privacy of those associated with the programs we
+          offer.
         </p>
       </div>
     </footer>
