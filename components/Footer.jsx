@@ -115,11 +115,12 @@ export default function Component() {
       </div>
       <div className="mt-4 text-center text-xs text-white">
         <p>
-          Disclaimer: The roles listed on this website are based on real
-          positions, but any images or photographs used on this site are stock
-          photos and do not depict the actual individuals holding these
-          positions. We have taken this measure to protect the privacy and
-          identities of the real people represented on this site.
+          Disclaimer: The programs, courses, and opportunities described on this
+          website are based on real offerings. However, any images or
+          photographs used are for illustrative purposes only and do not
+          represent actual participants or individuals involved. We take this
+          step to protect the privacy of those associated with the programs we
+          offer.
         </p>
       </div>
     </footer>
