@@ -1,207 +1,126 @@
-import Link from "next/link";
-
-export default function Footer() {
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
+// bg-[#370C0C]
+export default function Component() {
   return (
-    <footer className="bg-[#FFFFFF]">
-      <div className="container mx-auto px-4 py-8 ">
-        <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 md:grid-cols-5 lg:gap-16">
-          <div>
-            <h5 className="mb-4 font-bold uppercase">Products</h5>
-            <ul className="space-y-2">
-              <li>
-                <Link className="hover:underline" href="#">
-                  Artificial Intelligence
-                </Link>
-              </li>
-              <li>
-                <Link className="hover:underline" href="#">
-                  B2B
-                </Link>
-              </li>
-              <li>
-                <Link className="hover:underline" href="#">
-                  Open Source
-                </Link>
-              </li>
-              <li>
-                <Link className="hover:underline" href="#">
-                  Developer Community
-                </Link>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h5 className="mb-4 font-bold uppercase">Using Lupleg</h5>
-            <ul className="space-y-2">
-              <li>
-                <Link className="hover:underline" href="#">
-                  Educators
-                </Link>
-              </li>
-              <li>
-                <Link className="hover:underline" href="#">
-                  Organizations
-                </Link>
-              </li>
-              <li>
-                <Link className="hover:underline" href="#">
-                  Individuals
-                </Link>
-              </li>
-              <li>
-                <Link className="hover:underline" href="#">
-                  Knowledge Base
-                </Link>
-              </li>
-              <li>
-                <Link className="hover:underline" href="/docs">
-                  Docs
-                </Link>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h5 className="mb-4 font-bold uppercase">Resources</h5>
-            <ul className="space-y-2">
-              <li>
-                <Link className="hover:underline" href="#">
-                  Blog
-                </Link>
-              </li>
-              <li>
-                <Link className="hover:underline" href="#">
-                  Lupleg Community
-                </Link>
-              </li>
-
-              <li>
-                <Link className="hover:underline" href="#">
-                  Help Center
-                </Link>
-              </li>
-              <li>
-                <Link className="hover:underline" href="#">
-                  Customer Stories
-                </Link>
-              </li>
-              <li>
-                <Link className="hover:underline" href="#">
-                  Channel Partnerships
-                </Link>
-              </li>
-              <li>
-                <Link className="hover:underline" href="#">
-                  Admin Certification
-                </Link>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h5 className="mb-4 font-bold uppercase">Learn</h5>
-            <ul className="space-y-2">
-              <li>
-                <Link className="hover:underline" href="academy">
-                  Lupleg Academy
-                </Link>
-              </li>
-              <li>
-                <Link className="hover:underline" href="podcasts">
-                  Podcasts
-                </Link>
-              </li>
-              <li>
-                <Link className="hover:underline" href="hack_code_60">
-                  Hack Code 60
-                </Link>
-              </li>
-              <li>
-                <Link className="hover:underline" href="#">
-                  Tech Talks
-                </Link>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h5 className="mb-4 font-bold uppercase">Company</h5>
-            <ul className="space-y-2">
-              <li>
-                <Link className="hover:underline" href="#">
-                  About Us
-                </Link>
-              </li>
-              <li>
-                <Link className="hover:underline" href="#">
-                  Careers
-                </Link>
-              </li>
-              <li>
-                <Link className="hover:underline" href="#">
-                  Press
-                </Link>
-              </li>
-              <li>
-                <Link className="hover:underline" href="#">
-                  Interns
-                </Link>
-              </li>
-              <li>
-                <Link className="hover:underline" href="affiliates">
-                  Affiliates
-                </Link>
-              </li>
-              <li>
-                <Link className="hover:underline" href="contacts">
-                  Get Started
-                </Link>
-              </li>
-            </ul>
-          </div>
+    <footer className="bg-green-950 p-10 text-white">
+      <div className="mx-auto grid max-w-7xl grid-cols-2 gap-10 md:grid-cols-4">
+        <div>
+          <h5 className="mb-4 font-bold">Company</h5>
+          <ul className="space-y-3">
+            <li>
+              <a className="hover:underline" href="#">
+                For Businesses
+              </a>
+            </li>
+            <li>
+              <a className="hover:underline" href="#">
+                For NGOs
+              </a>
+            </li>
+            <li>
+              <a className="hover:underline" href="#">
+                Trainings
+              </a>
+            </li>
+            <li>
+              <a className="hover:underline" href="#">
+                Team
+              </a>
+            </li>
+          </ul>
         </div>
-        <div className="mt-8 border-t border-gray-200 pt-8 text-sm">
-          <div className="flex flex-col items-center justify-between sm:flex-row">
-            <p>© 2024 Lupleg LLC. All rights reserved.</p>
-            <div className="mt-4 flex space-x-4 sm:mt-0">
-              <Link className="hover:underline" href="#">
-                Agreement
-              </Link>
-              <Link className="hover:underline" href="#">
-                Privacy
-              </Link>
-              <Link className="hover:underline" href="#">
-                Terms
-              </Link>
-              <Link className="hover:underline" href="sitemap">
-                Sitemap
-              </Link>
-            </div>
-            <div className="mt-4 flex space-x-4 sm:mt-0">
-              <Link
-                className="hover:underline"
-                href="https://twitter.com/Lupleg_Dev"
-              >
-                <TwitterIcon className="h-6 w-6" />
-              </Link>
-              <Link
-                className="hover:underline"
-                href="https://facebook.com/Lupleg"
-              >
-                <FacebookIcon className="h-6 w-6" />
-              </Link>
-              <Link
-                className="hover:underline"
-                href="https://linkedin.com/in/lupleg"
-              >
-                <LinkedinIcon className="h-6 w-6" />
-              </Link>
-              <Link
-                className="hover:underline"
-                href="https://instagram.com/marksikaundi"
-              >
-                <InstagramIcon className="h-6 w-6" />
-              </Link>
+        <div>
+          <h5 className="mb-4 font-bold">Links</h5>
+          <ul className="space-y-3">
+            <li>
+              <a className="hover:underline" href="#">
+                Partner with Us
+              </a>
+            </li>
+            <li>
+              <a className="hover:underline" href="#">
+                Recruit Talent
+              </a>
+            </li>
+            <li>
+              <a className="hover:underline" href="#">
+                Partner to train
+              </a>
+            </li>
+            <li>
+              <a className="hover:underline" href="#">
+                Tracks
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5 className="mb-4 font-bold">Resources</h5>
+          <ul className="space-y-3">
+            <li>
+              <a className="hover:underline" href="#">
+                Articles
+              </a>
+            </li>
+            <li>
+              <a className="hover:underline" href="#">
+                Our Why
+              </a>
+            </li>
+            <li>
+              <a className="hover:underline" href="#">
+                FAQ
+              </a>
+            </li>
+            <li>
+              <a className="hover:underline" href="#">
+                Youtube Playlist
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5 className="mb-4 font-bold">Newsletter</h5>
+          <div className="flex flex-col space-y-4">
+            <div className="flex items-center">
+              <Input
+                className="rounded-md"
+                placeholder="Enter Your Email Here"
+              />
+              <Button className="ml-2 bg-orange-700 hover:bg-orange-950">
+                Subscribe
+              </Button>
             </div>
           </div>
+          <div className="mt-8">
+            <h5 className="mb-4 font-bold">Helpdesk</h5>
+            <p>dev@lupleg</p>
+          </div>
+          <div className="mt-8">
+            <h5 className="mb-4 font-bold">Email US</h5>
+            <p>mark@lupleg.website</p>
+          </div>
         </div>
+      </div>
+      <div className="mt-10 flex flex-col items-center justify-between border-t border-gray-600 py-6 md:flex-row">
+        <div className="flex items-center space-x-4">
+          <TwitterIcon className="text-white" />
+          <FacebookIcon className="text-white" />
+          <LinkedinIcon className="text-white" />
+        </div>
+        <div className="mt-4 text-center md:mt-0 md:text-left">
+          <p>© Copyright 2024, All Rights Reserved</p>
+        </div>
+      </div>
+      <div className="mt-4 text-center text-xs text-gray-400">
+        <p>
+          Disclaimer: The roles listed on this website are based on real
+          positions, but any images or photographs used on this site are stock
+          photos and do not depict the actual individuals holding these
+          positions. We have taken this measure to protect the privacy and
+          identities of the real people represented on this site.
+        </p>
       </div>
     </footer>
   );
@@ -222,27 +141,6 @@ function FacebookIcon(props) {
       strokeLinejoin="round"
     >
       <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
-    </svg>
-  );
-}
-
-function InstagramIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
-      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-      <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
     </svg>
   );
 }
