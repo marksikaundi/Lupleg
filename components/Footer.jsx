@@ -47,10 +47,10 @@ export default function Footer() {
               <Link href="podcasts">Podcasts</Link>
             </li>
             <li>
-              <Link href="#">Our Why</Link>
+              <Link href="our-why">Our Why</Link>
             </li>
             <li>
-              <Link href="#">FAQ</Link>
+              <Link href="faq">FAQ</Link>
             </li>
             <li>
               <Link href="#">Youtube Playlist</Link>
