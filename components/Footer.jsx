@@ -30,10 +30,10 @@ export default function Footer() {
               <Link href="partner">Partner with Us</Link>
             </li>
             <li>
-              <Link href="#">Recruit Talent</Link>
+              <Link href="talent">Recruit Talent</Link>
             </li>
             <li>
-              <Link href="#">Partner to train</Link>
+              <Link href="train">Partner to train</Link>
             </li>
             <li>
               <Link href="sponsor">Sponsor</Link>
