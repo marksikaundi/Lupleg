@@ -36,7 +36,7 @@ export default function Footer() {
               <Link href="#">Partner to train</Link>
             </li>
             <li>
-              <Link href="#">Tracks</Link>
+              <Link href="sponsor">Sponsor</Link>
             </li>
           </ul>
         </div>
@@ -53,7 +53,7 @@ export default function Footer() {
               <Link href="faq">FAQ</Link>
             </li>
             <li>
-              <Link href="#">Youtube Playlist</Link>
+              <Link href="https://youtube.com/lupleg">Youtube Playlist</Link>
             </li>
           </ul>
         </div>
