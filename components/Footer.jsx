@@ -19,7 +19,7 @@ export default function Footer() {
               <Link href="#">Trainings</Link>
             </li>
             <li>
-              <Link href="#">Team</Link>
+              <Link href="affiliatesclear">Affiliates</Link>
             </li>
           </ul>
         </div>
