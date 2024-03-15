@@ -10,13 +10,13 @@ export default function Footer() {
           <h5 className="mb-4 font-bold">Lupleg LLC</h5>
           <ul className="space-y-3">
             <li>
-              <Link href="#">For Businesses</Link>
+              <Link href="business">For Businesses</Link>
             </li>
             <li>
               <Link href="for-orgs">For NGOs</Link>
             </li>
             <li>
-              <Link href="#">Trainings</Link>
+              <Link href="trainings">Trainings</Link>
             </li>
             <li>
               <Link href="affiliatesclear">Affiliates</Link>
