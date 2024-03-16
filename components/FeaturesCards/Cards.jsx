@@ -134,7 +134,7 @@ export default function Cards() {
             </p>
             <a
               className="mt-6 text-base font-semibold text-indigo-600 hover:text-indigo-500"
-              href="/hack_code_60"
+              href="/hack-code-60"
             >
               Get started →
             </a>

@@ -10,16 +10,16 @@ export default function Footer() {
           <h5 className="mb-4 font-bold">Lupleg LLC</h5>
           <ul className="space-y-3">
             <li>
-              <Link href="#">For Businesses</Link>
+              <Link href="business">For Businesses</Link>
             </li>
             <li>
               <Link href="for-orgs">For NGOs</Link>
             </li>
             <li>
-              <Link href="#">Trainings</Link>
+              <Link href="trainings">Trainings</Link>
             </li>
             <li>
-              <Link href="#">Team</Link>
+              <Link href="affiliatesclear">Affiliates</Link>
             </li>
           </ul>
         </div>
@@ -30,13 +30,13 @@ export default function Footer() {
               <Link href="partner">Partner with Us</Link>
             </li>
             <li>
-              <Link href="#">Recruit Talent</Link>
+              <Link href="talent">Recruit Talent</Link>
             </li>
             <li>
-              <Link href="#">Partner to train</Link>
+              <Link href="train">Partner to train</Link>
             </li>
             <li>
-              <Link href="#">Tracks</Link>
+              <Link href="sponsor">Sponsor</Link>
             </li>
           </ul>
         </div>
@@ -47,13 +47,13 @@ export default function Footer() {
               <Link href="podcasts">Podcasts</Link>
             </li>
             <li>
-              <Link href="#">Our Why</Link>
+              <Link href="our-why">Our Why</Link>
             </li>
             <li>
-              <Link href="#">FAQ</Link>
+              <Link href="faq">FAQ</Link>
             </li>
             <li>
-              <Link href="#">Youtube Playlist</Link>
+              <Link href="https://youtube.com/lupleg">Youtube Playlist</Link>
             </li>
           </ul>
         </div>
@@ -93,7 +93,7 @@ export default function Footer() {
           <Link href="https://facebook.com/Lupleg">
             <FacebookIcon className="text-white" />
           </Link>
-          <Link href="https://linkedin.com/in/lupleg">
+          <Link href="https://linkedin.com/company/lupleg">
             <LinkedinIcon className="text-white" />
           </Link>
         </div>
