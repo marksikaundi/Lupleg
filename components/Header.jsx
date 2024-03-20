@@ -89,7 +89,7 @@ export default function Header() {
             >
               Podcasts
             </Link>
-            <div className="flex items-center  rounded-full">
+            <div className="w-30 flex   items-center rounded-full">
               <Button className="text-md text-white">
                 <Link href="partner">Partner with us</Link>
               </Button>
