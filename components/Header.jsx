@@ -73,9 +73,9 @@ export default function Header() {
             </Link>
             <Link
               className="flex w-full items-center py-2 text-lg font-semibold"
-              href="pricing"
+              href="for-orgs"
             >
-              Pricing
+              For ORGs
             </Link>
             <Link
               className="flex w-full items-center py-2 text-lg font-semibold"
@@ -89,9 +89,9 @@ export default function Header() {
             >
               Podcasts
             </Link>
-            <div className="flex items-center  rounded-full">
+            <div className="w-30 flex   items-center rounded-full">
               <Button className="text-md text-white">
-                <Link href="contacts">Get Started</Link>
+                <Link href="partner">Partner with us</Link>
               </Button>
             </div>
           </div>
