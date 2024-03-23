@@ -25,7 +25,7 @@ export default function Services() {
                 your vision into reality.
               </p>
               <a
-                className="mt-6 text-base font-semibold text-indigo-600 hover:text-indigo-500"
+                className="mt-6 text-base font-semibold text-green-900 hover:text-orange-500"
                 href="#"
               >
                 Read more →
@@ -45,7 +45,7 @@ export default function Services() {
                 create a beautiful and functional site for you.
               </p>
               <a
-                className="mt-6 text-base font-semibold text-indigo-600 hover:text-indigo-500"
+                className="mt-6 text-base font-semibold text-green-900 hover:text-orange-500"
                 href="#"
               >
                 Read more →
@@ -65,7 +65,7 @@ export default function Services() {
                 to marketing materials, we've got you covered.
               </p>
               <a
-                className="mt-6 text-base font-semibold text-indigo-600 hover:text-indigo-500"
+                className="mt-6 text-base font-semibold text-green-900 hover:text-orange-500"
                 href="#"
               >
                 Read more →
@@ -85,7 +85,7 @@ export default function Services() {
                 user-friendly and feature-rich applications.
               </p>
               <a
-                className="mt-6 text-base font-semibold text-indigo-600 hover:text-indigo-500"
+                className="mt-6 text-base font-semibold text-green-900 hover:text-orange-500"
                 href="#"
               >
                 Read more →
@@ -103,7 +103,7 @@ export default function Services() {
                 career and help you grow.
               </p>
               <a
-                className="mt-6 text-base font-semibold text-indigo-600 hover:text-indigo-500"
+                className="mt-6 text-base font-semibold text-green-900 hover:text-orange-500"
                 href="#"
               >
                 Read more →
@@ -121,7 +121,7 @@ export default function Services() {
                 provide valuable insights and hands-on learning.
               </p>
               <a
-                className="mt-6 text-base font-semibold text-indigo-600 hover:text-indigo-500"
+                className="mt-6 text-base font-semibold text-green-900 hover:text-orange-500"
                 href="#"
               >
                 Read more →
