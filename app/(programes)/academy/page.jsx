@@ -32,7 +32,10 @@ export default function Academy() {
                 This course will introduce you to the world of web development.
                 You will learn HTML, CSS, and JavaScript from scratch.
               </p>
-              <Link href="#" className="btn inline-block w-full md:w-auto">
+              <Link
+                href="#"
+                className="btn inline-block w-full text-green-900 hover:text-orange-500 md:w-auto"
+              >
                 Learn more →
               </Link>
             </div>
@@ -63,7 +66,10 @@ export default function Academy() {
                 Learn React from Facebook engineers. This course will take your
                 React skills to the next level.
               </p>
-              <Link href="#" className="btn inline-block w-full md:w-auto">
+              <Link
+                href="#"
+                className="btn inline-block w-full text-green-900 hover:text-orange-500 md:w-auto"
+              >
                 Learn more →
               </Link>
             </div>
@@ -94,7 +100,10 @@ export default function Academy() {
                 This course will introduce you to Freelancing basics starting
                 from scratch to landing your first client on Upwork. .
               </p>
-              <Link href="#" className="btn inline-block w-full md:w-auto">
+              <Link
+                href="#"
+                className="btn inline-block w-full text-green-900 hover:text-orange-500 md:w-auto"
+              >
                 Learn more →
               </Link>
             </div>
@@ -125,7 +134,10 @@ export default function Academy() {
                 This course will introduce you to how to use git and github for
                 version control and collaboration with other developers.
               </p>
-              <Link href="#" className="btn inline-block w-full md:w-auto">
+              <Link
+                href="#"
+                className="btn inline-block w-full text-green-900 hover:text-orange-500 md:w-auto"
+              >
                 Learn more →
               </Link>
             </div>
