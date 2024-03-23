@@ -33,7 +33,7 @@ export default function Academy() {
                 You will learn HTML, CSS, and JavaScript from scratch.
               </p>
               <Link href="#" className="btn inline-block w-full md:w-auto">
-                Learn more
+                Learn more →
               </Link>
             </div>
             <div className="aspect-w-16 aspect-h-9 mx-auto overflow-hidden rounded-xl sm:order-last sm:aspect-video">
@@ -64,7 +64,7 @@ export default function Academy() {
                 React skills to the next level.
               </p>
               <Link href="#" className="btn inline-block w-full md:w-auto">
-                Learn more
+                Learn more →
               </Link>
             </div>
             <div className="aspect-w-16 aspect-h-9 mx-auto overflow-hidden rounded-xl sm:order-last sm:aspect-video">
@@ -95,7 +95,7 @@ export default function Academy() {
                 from scratch to landing your first client on Upwork. .
               </p>
               <Link href="#" className="btn inline-block w-full md:w-auto">
-                Learn more
+                Learn more →
               </Link>
             </div>
             <div className="aspect-w-16 aspect-h-9 mx-auto overflow-hidden rounded-xl sm:order-last sm:aspect-video">
@@ -126,7 +126,7 @@ export default function Academy() {
                 version control and collaboration with other developers.
               </p>
               <Link href="#" className="btn inline-block w-full md:w-auto">
-                Learn more
+                Learn more →
               </Link>
             </div>
             <div className="aspect-w-16 aspect-h-9 mx-auto overflow-hidden rounded-xl sm:order-last sm:aspect-video">
