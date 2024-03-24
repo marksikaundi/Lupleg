@@ -6,14 +6,15 @@ import { SheetTrigger, SheetContent, Sheet } from "@/components/ui/sheet";
 import Image from "next/image";
 
 export default function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false); // State to track menu open/close
+  // here is where the func is
+  const [isMenuOpen, setIsMenuOpen] = useState(false); 
 
-  // Function to toggle menu state
+  
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  // Function to close menu
+ 
   const closeMenu = () => {
     setIsMenuOpen(false);
   };
@@ -63,6 +64,7 @@ export default function Header() {
         <Link href="partner">Partner with us</Link>
       </div>
 
+{/* Here is the menu for mobile */}
       <Sheet>
         <SheetTrigger asChild>
           <Button
