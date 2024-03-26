@@ -51,7 +51,7 @@ export default function Header() {
         <Link href="partner">Partner with us</Link>
       </div>
 
-      <Sheet>
+       <Sheet>
         <SheetTrigger asChild>
           <Button className="lg:hidden" size="icon" variant="outline">
             <MenuIcon className="h-6 w-6" />
@@ -97,7 +97,7 @@ export default function Header() {
             </div>
           </div>
         </SheetContent>
-      </Sheet>
+      </Sheet> 
     </header>
   );
 }
