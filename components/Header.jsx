@@ -17,32 +17,27 @@ export default function Header() {
         <nav className="flex space-x-6">
           <Link
             className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
-            href="services"
-          >
+            href="services">
             Services
           </Link>
           <Link
             className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
-            href="features"
-          >
+            href="features">
             Features
           </Link>
           <Link
             className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
-            href="for-orgs"
-          >
+            href="for-orgs">
             For ORGs
           </Link>
           <Link
             className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
-            href="academy"
-          >
+            href="academy">
             Academy
           </Link>
           <Link
             className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
-            href="podcasts"
-          >
+            href="podcasts">
             Podcasts
           </Link>
         </nav>
@@ -50,7 +45,7 @@ export default function Header() {
       <div className="text-md hidden rounded border-2 border-green-700  p-3 text-black  md:block">
         <Link href="partner">Partner with us</Link>
       </div>
-{/* mobile view */}
+      {/* mobile view */}
       <Sheet>
         <SheetTrigger asChild>
           <Button className="lg:hidden" size="icon" variant="outline">
@@ -60,39 +55,46 @@ export default function Header() {
         </SheetTrigger>
         <SheetContent side="left">
           <div className="grid gap-2 py-6">
-            <Link
-              className="flex w-full items-center py-2 text-lg font-semibold"
-              href="services"
-            >
-              Services
-            </Link>
-            <Link
-              className="flex w-full items-center py-2 text-lg font-semibold"
-              href="features"
-            >
-              Features
-            </Link>
-            <Link
-              className="flex w-full items-center py-2 text-lg font-semibold"
-              href="for-orgs"
-            >
-              For ORGs
-            </Link>
-            <Link
-              className="flex w-full items-center py-2 text-lg font-semibold"
-              href="academy"
-            >
-              Academy
-            </Link>
-            <Link
-              className="flex w-full items-center py-2 text-lg font-semibold"
-              href="podcasts"
-            >
-              Podcasts
-            </Link>
+            <SheetTrigger asChild>
+              <Link
+                className="flex w-full items-center py-2 text-lg font-semibold"
+                href="services">
+                Services
+              </Link>
+            </SheetTrigger>
+            <SheetTrigger asChild>
+              <Link
+                className="flex w-full items-center py-2 text-lg font-semibold"
+                href="features">
+                Features
+              </Link>
+            </SheetTrigger>
+            <SheetTrigger asChild>
+              <Link
+                className="flex w-full items-center py-2 text-lg font-semibold"
+                href="for-orgs">
+                For ORGs
+              </Link>
+            </SheetTrigger>
+            <SheetTrigger asChild>
+              <Link
+                className="flex w-full items-center py-2 text-lg font-semibold"
+                href="academy">
+                Academy
+              </Link>
+            </SheetTrigger>
+            <SheetTrigger asChild>
+              <Link
+                className="flex w-full items-center py-2 text-lg font-semibold"
+                href="podcasts">
+                Podcasts
+              </Link>
+            </SheetTrigger>
             <div className="w-30 flex   items-center rounded-full">
               <Button className="text-md text-white">
-                <Link href="partner">Partner with us</Link>
+                <SheetTrigger asChild>
+                  <Link href="partner">Partner with us</Link>
+                </SheetTrigger>
               </Button>
             </div>
           </div>
@@ -114,8 +116,7 @@ function MenuIcon(props) {
       stroke="currentColor"
       strokeWidth="2"
       strokeLinecap="round"
-      strokeLinejoin="round"
-    >
+      strokeLinejoin="round">
       <line x1="4" x2="20" y1="12" y2="12" />
       <line x1="4" x2="20" y1="6" y2="6" />
       <line x1="4" x2="20" y1="18" y2="18" />
