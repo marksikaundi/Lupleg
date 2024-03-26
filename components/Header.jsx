@@ -1,24 +1,11 @@
-"use client"
-import { useState } from "react";
+"use client";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { SheetTrigger, SheetContent, Sheet } from "@/components/ui/sheet";
 import Image from "next/image";
+import { useState } from "react";
 
 export default function Header() {
-  // here is where the func is
-  const [isMenuOpen, setIsMenuOpen] = useState(false); 
-
-  
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
-
- 
-  const closeMenu = () => {
-    setIsMenuOpen(false);
-  };
-
   return (
     <header className="flex flex-wrap items-center justify-between bg-white p-6 dark:bg-gray-800">
       <div className="flex items-center space-x-3">
@@ -64,20 +51,14 @@ export default function Header() {
         <Link href="partner">Partner with us</Link>
       </div>
 
-{/* Here is the menu for mobile */}
       <Sheet>
         <SheetTrigger asChild>
-          <Button
-            className="lg:hidden"
-            size="icon"
-            variant="outline"
-            onClick={toggleMenu}
-          >
+          <Button className="lg:hidden" size="icon" variant="outline">
             <MenuIcon className="h-6 w-6" />
             <span className="sr-only">Toggle navigation menu</span>
           </Button>
         </SheetTrigger>
-        <SheetContent side="left" show={isMenuOpen} onItemClick={closeMenu}>
+        <SheetContent side="left">
           <div className="grid gap-2 py-6">
             <Link
               className="flex w-full items-center py-2 text-lg font-semibold"
