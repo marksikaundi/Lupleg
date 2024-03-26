@@ -50,7 +50,7 @@ export default function Header() {
       <div className="text-md hidden rounded border-2 border-green-700  p-3 text-black  md:block">
         <Link href="partner">Partner with us</Link>
       </div>
-
+{/* mobile view */}
       <Sheet>
         <SheetTrigger asChild>
           <Button className="lg:hidden" size="icon" variant="outline">
