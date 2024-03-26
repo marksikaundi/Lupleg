@@ -57,6 +57,7 @@ export default function Footer() {
             </li>
           </ul>
         </div>
+        {/* Newsletter  */}
         <div>
           <h5 className="mb-4 font-bold">Newsletter</h5>
           <div className="flex flex-col space-y-4">
