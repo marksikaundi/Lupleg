@@ -1,7 +1,8 @@
 import CardOrg from "@/components/FeaturesCards/CardOrg";
+import CardOrg2 from "@/components/FeaturesCards/CardOrg2";
 import React from "react";
 
-function page() {
+function Organization() {
   return (
     <div>
       <div className="w-full bg-transparent">
@@ -10,14 +11,22 @@ function page() {
             <p className=" md:text-lg">
               We’re In The Business of Changing Lives
             </p>
-            <h2 className=" font-semibold sm:text-2xl text-xl md:text-xl lg:text-3xl xl:text-4xl 2xl:text-6xl mb-6 md:mb-6 lg:mb-8 xl:mb-10 2xl:mb-12">
-              We are dedicated to transforming lives and making a lasting impact
-            </h2>
+            <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-gray-800 mb-10">
+          <span className="block xl:inline">The efficiency of help and</span>{" "}
+          <span className="block text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-orange-400 xl:inline">
+            Collaboration with
+          </span>{" "}
+          <span className="block xl:inline">Developers</span>{" "}
+          <span className="block text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-500 xl:inline">
+            empowers
+          </span>
+        </h1>
           </div>
           <div className="flex justify-center">
             <img
               src="https://assets-global.website-files.com/63e4cc8d2ac61a3dee9bb0ee/649fc78acaebbe296387ce9f_Screenshot%202023-07-01%20at%2007.25-p-1080.webp"
-              className=" object-cover"></img>
+              className="rounded-md object-cover"
+            ></img>
           </div>
         </div>
       </div>
@@ -29,7 +38,7 @@ function page() {
         imageUrl="https://assets-global.website-files.com/63e4cc8d2ac61a3dee9bb0ee/63e5184308199cf4867fa2ba_Group%20151-p-800.webp"
         learnMoreLink="a"
       />
-      <CardOrg
+      <CardOrg2
         title="Hire Talents from Zuri"
         subtitle="Unlock the Potential of Zuri Graduates for Your Organization"
         description="At Zuri, we are committed to nurturing exceptional talent in the tech industry. Our comprehensive training programs equip individuals with cutting-edge skills and empower them to excel in their careers."
@@ -37,7 +46,7 @@ function page() {
         learnMoreLink="a"
       />
       <CardOrg
-        title="Hire Talents from Zuri"
+        title="Hire Talents from Lupleg"
         subtitle="Unlock the Potential of Zuri Graduates for Your Organization"
         description="At Zuri, we are committed to nurturing exceptional talent in the tech industry. Our comprehensive training programs equip individuals with cutting-edge skills and empower them to excel in their careers."
         imageUrl="https://assets-global.website-files.com/63e4cc8d2ac61a3dee9bb0ee/63e5184308199cf4867fa2ba_Group%20151-p-800.webp"
@@ -47,4 +56,4 @@ function page() {
   );
 }
 
-export default page;
+export default Organization;

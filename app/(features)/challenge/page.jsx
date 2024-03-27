@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
 
-export default function HackCode60() {
+export default function Challenge() {
   return (
     <>
       <section className="w-full py-6 md:py-12">

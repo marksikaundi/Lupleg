@@ -1,9 +1,18 @@
 import React from "react";
 
-const CardOrg = ({ title, subtitle, description, imageUrl, learnMoreLink }) => {
+const CardOrg2 = ({
+  title,
+  subtitle,
+  description,
+  imageUrl,
+  learnMoreLink,
+}) => {
   return (
     <div className="w-full bg-transparent">
       <div className="flex flex-col md:flex-row lg:gap-20 gap-8 md:gap-12 container mx-auto lg:py-28 py-24 px-8">
+        <div className="md:w-1/2">
+          <img src={imageUrl} className="object-cover" alt="Talent Image" />
+        </div>
         <div className="container flex flex-col md:w-1/2 2xl:gap-5 xl:gap-4 lg:gap-3 md:gap-2 gap-3">
           <div>
             <p className="lg:mb-2 xl:mb-3 2xl:mb-4 md:text-lg">{title}</p>
@@ -20,12 +29,9 @@ const CardOrg = ({ title, subtitle, description, imageUrl, learnMoreLink }) => {
             <a href={learnMoreLink} className="text-green-900 hover:text-orange-500">Learn more →</a>
           </div>
         </div>
-        <div className="md:w-1/2">
-          <img src={imageUrl} className="object-cover" alt="Talent Image" />
-        </div>
       </div>
     </div>
   );
 };
 
-export default CardOrg;
+export default CardOrg2;

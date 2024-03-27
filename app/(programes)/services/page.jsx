@@ -12,7 +12,7 @@ export default function Services() {
           </p>
         </div>
         <div className="grid w-full grid-cols-1 items-stretch justify-center gap-4 md:grid-cols-2 md:gap-6 lg:gap-8">
-          <div className="flex flex-col items-center justify-center rounded-lg border border-gray-200 p-4 shadow-sm md:flex-row md:items-start md:justify-start md:gap-4 md:p-6 dark:border-gray-800">
+          <div className="flex flex-col items-center justify-center rounded-lg border border-gray-200 p-4 shadow-sm md:flex-row md:items-start md:justify-start md:gap-4 md:p-14 dark:border-gray-800">
             <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gray-100 md:h-16 md:w-16 dark:bg-gray-950">
               <CodeIcon className="h-6 w-6 fill-gray-500 md:h-8 md:w-8 dark:fill-gray-400" />
             </div>
@@ -32,7 +32,7 @@ export default function Services() {
               </a>
             </div>
           </div>
-          <div className="flex flex-col items-center justify-center rounded-lg border border-gray-200 p-4 shadow-sm md:flex-row md:items-start md:justify-start md:gap-4 md:p-6 dark:border-gray-800">
+          <div className="flex flex-col items-center justify-center rounded-lg border border-gray-200 p-4 shadow-sm md:flex-row md:items-start md:justify-start md:gap-4 md:p-14 dark:border-gray-800">
             <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gray-100 md:h-16 md:w-16 dark:bg-gray-950">
               <UnderlineIcon className="h-6 w-6 fill-gray-500 md:h-8 md:w-8 dark:fill-gray-400" />
             </div>
@@ -52,7 +52,7 @@ export default function Services() {
               </a>
             </div>
           </div>
-          <div className="flex flex-col items-center justify-center rounded-lg border border-gray-200 p-4 shadow-sm md:flex-row md:items-start md:justify-start md:gap-4 md:p-6 dark:border-gray-800">
+          <div className="flex flex-col items-center justify-center rounded-lg border border-gray-200 p-4 shadow-sm md:flex-row md:items-start md:justify-start md:gap-4 md:p-14 dark:border-gray-800">
             <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gray-100 md:h-16 md:w-16 dark:bg-gray-950">
               <PenToolIcon className="h-6 w-6 fill-gray-500 md:h-8 md:w-8 dark:fill-gray-400" />
             </div>
@@ -72,7 +72,7 @@ export default function Services() {
               </a>
             </div>
           </div>
-          <div className="flex flex-col items-center justify-center rounded-lg border border-gray-200 p-4 shadow-sm md:flex-row md:items-start md:justify-start md:gap-4 md:p-6 dark:border-gray-800">
+          <div className="flex flex-col items-center justify-center rounded-lg border border-gray-200 p-4 shadow-sm md:flex-row md:items-start md:justify-start md:gap-4 md:p-14 dark:border-gray-800">
             <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gray-100 md:h-16 md:w-16 dark:bg-gray-950">
               <AppWindowIcon className="h-6 w-6 fill-gray-500 md:h-8 md:w-8 dark:fill-gray-400" />
             </div>
@@ -92,7 +92,7 @@ export default function Services() {
               </a>
             </div>
           </div>
-          <div className="flex flex-col items-center justify-center rounded-lg border border-gray-200 p-4 shadow-sm md:flex-row md:items-start md:justify-start md:gap-4 md:p-6 dark:border-gray-800">
+          <div className="flex flex-col items-center justify-center rounded-lg border border-gray-200 p-4 shadow-sm md:flex-row md:items-start md:justify-start md:gap-4 md:p-14 dark:border-gray-800">
             <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gray-100 md:h-16 md:w-16 dark:bg-gray-950">
               <MilestoneIcon className="h-6 w-6 fill-gray-500 md:h-8 md:w-8 dark:fill-gray-400" />
             </div>
@@ -110,7 +110,7 @@ export default function Services() {
               </a>
             </div>
           </div>
-          <div className="flex flex-col items-center justify-center rounded-lg border border-gray-200 p-4 shadow-sm md:flex-row md:items-start md:justify-start md:gap-4 md:p-6 dark:border-gray-800">
+          <div className="flex flex-col items-center justify-center rounded-lg border border-gray-200 p-4 shadow-sm md:flex-row md:items-start md:justify-start md:gap-4 md:p-14 dark:border-gray-800">
             <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gray-100 md:h-16 md:w-16 dark:bg-gray-950">
               <LinkedinIcon className="h-6 w-6 fill-gray-500 md:h-8 md:w-8 dark:fill-gray-400" />
             </div>

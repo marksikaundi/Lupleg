@@ -101,7 +101,7 @@ export default function Cards() {
         <div className="grid grid-cols-1 items-center gap-16 lg:grid-cols-2">
           <div>
             <h1 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-5xl">
-              Code Hack 60
+            Challenge
             </h1>
             <p className="mt-4 max-w-2xl text-xl text-gray-700 lg:mx-auto">
               <span className="font-bold text-green-900">✅ Hack Code 60:</span>{" "}
@@ -134,7 +134,7 @@ export default function Cards() {
             </p>
             <a
               className="mt-6 text-base font-semibold text-indigo-600 hover:text-indigo-500"
-              href="/hack-code-60"
+              href="challenge"
             >
               Get started →
             </a>

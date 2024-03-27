@@ -22,8 +22,8 @@ export default function Header() {
           </Link>
           <Link
             className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
-            href="features">
-            Features
+            href="challenge">
+          Challenge
           </Link>
           <Link
             className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
@@ -65,8 +65,8 @@ export default function Header() {
             <SheetTrigger asChild>
               <Link
                 className="flex w-full items-center py-2 text-lg font-semibold"
-                href="features">
-                Features
+                href="challenge">
+                Challenge
               </Link>
             </SheetTrigger>
             <SheetTrigger asChild>
