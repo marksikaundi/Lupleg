@@ -5,7 +5,7 @@ function Challenge() {
     <div>
       <div className="min-h-screen flex flex-col items-center mt-10">
         <h1 className="text-3xl md:text-5xl font-bold text-black drop-shadow-lg text-center max-w-3xl">
-          Projects you can build to
+          Challenges you can solve to
           <span className="text-green-600"> improve </span>your
           <span className="text-green-600"> coding </span>skills!
         </h1>
@@ -52,7 +52,7 @@ function Challenge() {
             Join{" "}
             <b>
               <a className="cursor-pointer" href="/stats">
-                38815
+                10240
               </a>
               + developers
             </b>
@@ -247,7 +247,7 @@ function Challenge() {
             </span>
             <h3 className="text-2xl font-bold my-4">Supportive Community</h3>
             <p className="text-lg">
-              Join our Discord community where like-minded developers work
+              Join our Discord community where like-minded developers work & collaboring
               together to tackle the coding challenges.
             </p>
           </div>
