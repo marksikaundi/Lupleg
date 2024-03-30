@@ -8,7 +8,7 @@ function FAQ() {
         <div className="container flex flex-col md:w-3/5 2xl:gap-5 xl:gap-4 lg:gap-3 md:gap-2 gap-3">
           <div>
             <h2 className="font-semibold text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl">
-              Some Frequently Asked{" "}
+              Frequently Encountered{" "}
               <span className=" text-green-600">Questions</span>
             </h2>
           </div>
@@ -18,7 +18,7 @@ function FAQ() {
                 How can you ensure we find the best candidates aligned with our
                 specific needs?{" "}
               </h3>
-              <div className="bg-green-200 text-xs md:text-sm px-4 py-2 rounded-2xl">
+              <div className="bg-green-200 text-green-900  text-xs md:text-sm px-4 py-2 rounded-2xl">
                 For Business
               </div>
             </div>
@@ -37,7 +37,7 @@ function FAQ() {
               <h3 className="md:text-xl lg:text-2xl text-lg font-bold">
                 How do I start as a complete beginner?
               </h3>
-              <div className="bg-green-200 text-xs md:text-sm px-4 py-2 rounded-2xl">
+              <div className="bg-black text-white text-xs md:text-sm px-4 py-2 rounded-2xl">
                 Program
               </div>
             </div>
@@ -70,7 +70,7 @@ function FAQ() {
               <h3 className="md:text-xl lg:text-2xl text-lg font-bold">
                 How much does it cost to use Mentor Management System?
               </h3>
-              <div className="bg-green-200 text-xs md:text-sm px-4 py-2 rounded-2xl">
+              <div className="bg-black text-white text-xs md:text-sm px-4 py-2 rounded-2xl">
                 Products
               </div>
             </div>
