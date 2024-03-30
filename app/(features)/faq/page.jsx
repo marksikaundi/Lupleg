@@ -1,3 +1,4 @@
+import MoreFAQ from "@/components/FeaturesCards/MoreFAQ";
 import React from "react";
 
 function FAQ() {
@@ -89,6 +90,8 @@ function FAQ() {
           />
         </div>
       </div>
+
+      <MoreFAQ />
 
       <div className="flex flex-col py-16">
         <div className="flex flex-col gap-4 md:mb-10 mb-6">

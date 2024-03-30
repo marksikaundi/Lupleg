@@ -1,6 +1,7 @@
 import React from "react";
 import CardSection from "@/components/FeaturesCards/CardSection";
 import CardSections from "@/components/FeaturesCards/CardSections";
+import MoreFAQ from "@/components/FeaturesCards/MoreFAQ";
 
 function Organization() {
   return (
@@ -52,6 +53,8 @@ function Organization() {
         imageUrl="https://assets-global.website-files.com/63e4cc8d2ac61a3dee9bb0ee/63e5184308199cf4867fa2ba_Group%20151-p-800.webp"
         learnMoreLink="a"
       />
+
+      <MoreFAQ />
     </div>
   );
 }
