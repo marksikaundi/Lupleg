@@ -14,7 +14,8 @@ function FAQ() {
           <div className="text-green-900 gap-4 flex flex-col">
             <div className="flex gap-2">
               <h3 className="md:text-xl lg:text-2xl text-lg font-bold">
-                What is the guarantee that we’ll be getting top talents?
+                How can you ensure we find the best candidates aligned with our
+                specific needs?{" "}
               </h3>
               <div className="bg-green-200 text-xs md:text-sm px-4 py-2 rounded-2xl">
                 For Business
@@ -22,11 +23,12 @@ function FAQ() {
             </div>
 
             <p className="lg:text-sm xl:text-lg 2xl:text-xl md:text-xs">
-              Our rigorous vetting, training, and recruiting processes help us
-              effectively filter through the pool of candidates to locate the
-              top talents. At Zuri, we have a proven track record of delivering
-              top-quality candidates to our clients and are confident in our
-              ability to help you find the right talent for your organization.
+              At Lupleg, we don't just fill positions, we build your dream team.
+              Our meticulous vetting, training, and recruiting processes ensure
+              we find the perfect match for your specific needs. With a proven
+              track record of delivering top talent, we're confident we can
+              connect you with the ideal candidate to propel your organization
+              forward.
             </p>
           </div>
           <div className="text-green-900 gap-4 flex flex-col">
@@ -40,15 +42,16 @@ function FAQ() {
             </div>
 
             <p className="lg:text-sm xl:text-lg 2xl:text-xl md:text-xs">
-              To start as a complete beginner on Zuri training, you can sign up
-              for an account and take advantage of our onboarding resources and
-              support.
+              If you're a complete beginner, don't worry! Our programs are
+              designed to meet you where you are and take you where you want to
+              go. Sign up and get started today!
             </p>
           </div>
           <div className="text-green-900 gap-4 flex flex-col">
             <div className="flex gap-2">
               <h3 className="md:text-xl lg:text-2xl text-lg font-bold">
-                Is there a capacity max to the of beneficiaries we can have?
+                Any limitations on people we can assist due to resource
+                constraints?
               </h3>
               <div className="bg-green-200 text-xs md:text-sm px-4 py-2 rounded-2xl">
                 For NGOs
@@ -56,14 +59,15 @@ function FAQ() {
             </div>
 
             <p className="lg:text-sm xl:text-lg 2xl:text-xl md:text-xs">
-              There is no specific capacity max for beneficiaries, it depends on
-              the plan you choose and the needs of your organization.
+              We offer scalable solutions to accommodate any number of
+              beneficiaries, depending on your chosen plan and how many you want
+              to support.
             </p>
           </div>
           <div className="text-green-900 gap-4 flex flex-col">
             <div className="flex gap-2">
               <h3 className="md:text-xl lg:text-2xl text-lg font-bold">
-                How much does it cost to use ZuriBoard?
+                How much does it cost to use Mentor Management System?
               </h3>
               <div className="bg-green-200 text-xs md:text-sm px-4 py-2 rounded-2xl">
                 Products
@@ -71,9 +75,9 @@ function FAQ() {
             </div>
 
             <p className="lg:text-sm xl:text-lg 2xl:text-xl md:text-xs">
-              The cost of using ZuriBoard depends on the specific plan you
-              choose and the size of your organization. We offer a variety of
-              pricing options to meet the needs of different businesses.
+              Lupleg MMS offers a range of flexible pricing plans to match the
+              unique needs of your organization. Whether you're a startup or a
+              large enterprise, we have a solution that scales with you.
             </p>
           </div>
         </div>
@@ -98,7 +102,8 @@ function FAQ() {
           <div className="animated-border after:opacity-100 before:opacity-100 p-0.5 rounded-lg text-green-300 flex justify-center items-center">
             <a
               className="bg-green-800 text-white text-lg font-bold py-4 px-8 cursor-pointer relative w-full rounded-lg group-hover:bg-green-700 z-10"
-              href="/helpdesk">
+              href="/helpdesk"
+            >
               Go to Help Desk
             </a>
           </div>
