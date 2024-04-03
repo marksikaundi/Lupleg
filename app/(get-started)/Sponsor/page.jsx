@@ -66,7 +66,7 @@ export default function SponsorShip() {
         <div className="max-w-3xl mx-auto grid gap-4 lg:gap-6">
           <p className="text-sm text-gray-500 md:text-base/relaxed dark:text-gray-400">
             For more information about our sponsorship packages, contact our
-            team at 
+            team at{" "}
             <Link className="underline" href="mailto:info@lupleg.website">
               info@lupleg.website
             </Link>
