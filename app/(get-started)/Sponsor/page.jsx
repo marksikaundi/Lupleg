@@ -15,8 +15,8 @@ export default function SponsorShip() {
         </div>
         <div className="grid max-w-sm mx-auto gap-4 lg:grid-cols-2 lg:max-w-none lg:gap-6">
           <div className="flex flex-col items-center space-y-2">
-            <div className="rounded-full p-3 bg-gray-100 dark:bg-gray-800">
-              <UsersIcon className="w-6 h-6 text-gray-400 dark:text-gray-600" />
+            <div className="rounded-full p-3 bg-green-900 dark:bg-green-900">
+              <UsersIcon className="w-6 h-6 text-white dark:text-white" />
             </div>
             <div className="space-y-1 text-center">
               <h3 className="text-lg font-bold">Community Supporter</h3>
@@ -27,8 +27,8 @@ export default function SponsorShip() {
             <div className="text-2xl font-bold">$500</div>
           </div>
           <div className="flex flex-col items-center space-y-2">
-            <div className="rounded-full p-3 bg-gray-100 dark:bg-gray-800">
-              <AwardIcon className="w-6 h-6 text-gray-400 dark:text-gray-600" />
+            <div className="rounded-full p-3 bg-green-900 dark:bg-green-900">
+              <AwardIcon className="w-6 h-6 text-white dark:text-white" />
             </div>
             <div className="space-y-1 text-center">
               <h3 className="text-lg font-bold">Gold Sponsor</h3>
@@ -39,8 +39,8 @@ export default function SponsorShip() {
             <div className="text-2xl font-bold">$2000</div>
           </div>
           <div className="flex flex-col items-center space-y-2">
-            <div className="rounded-full p-3 bg-gray-100 dark:bg-gray-800">
-              <ZapIcon className="w-6 h-6 text-gray-400 dark:text-gray-600" />
+            <div className="rounded-full p-3  bg-green-900 dark:bg-green-900">
+              <ZapIcon className="w-6 h-6 text-white dark:text-white" />
             </div>
             <div className="space-y-1 text-center">
               <h3 className="text-lg font-bold">Innovation Partner</h3>
@@ -51,8 +51,8 @@ export default function SponsorShip() {
             <div className="text-2xl font-bold">$10000</div>
           </div>
           <div className="flex flex-col items-center space-y-2">
-            <div className="rounded-full p-3 bg-gray-100 dark:bg-gray-800">
-              <GitBranchIcon className="w-6 h-6 text-gray-400 dark:text-gray-600" />
+            <div className="rounded-full p-3  bg-green-900 dark:bg-green-900">
+              <GitBranchIcon className="w-6 h-6 text-white dark:text-white" />
             </div>
             <div className="space-y-1 text-center">
               <h3 className="text-lg font-bold">Platinum Partner</h3>
@@ -66,7 +66,7 @@ export default function SponsorShip() {
         <div className="max-w-3xl mx-auto grid gap-4 lg:gap-6">
           <p className="text-sm text-gray-500 md:text-base/relaxed dark:text-gray-400">
             For more information about our sponsorship packages, contact our
-            team at
+            team at 
             <Link className="underline" href="mailto:info@lupleg.website">
               info@lupleg.website
             </Link>
