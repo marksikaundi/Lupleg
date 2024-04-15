@@ -10,9 +10,6 @@ export default function Footer() {
           <h5 className="mb-4 font-bold">Company</h5>
           <ul className="space-y-3">
             <li>
-              <Link href="business">For Businesses</Link>
-            </li>
-            <li>
               <Link href="for-orgs">For ORGs</Link>
             </li>
             <li>
@@ -20,6 +17,9 @@ export default function Footer() {
             </li>
             <li>
               <Link href="https://mms.lupleg.website">MMS</Link>
+            </li>
+            <li>
+              <Link href="https://ui.lupleg.website">Templates</Link>
             </li>
           </ul>
         </div>
@@ -90,7 +90,7 @@ export default function Footer() {
           <Link href="https://twitter.com/Lupleg_Dev">
             <TwitterIcon className="text-white" />
           </Link>
-          <Link href="https://facebook.com/Lupleg">
+          <Link href="https://facebook.com/lupleg">
             <FacebookIcon className="text-white" />
           </Link>
           <Link href="https://linkedin.com/company/lupleg">
