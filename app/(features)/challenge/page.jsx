@@ -62,7 +62,7 @@ function Challenge() {
             <div className="animated-border after:opacity-100 before:opacity-100 p-0.5 rounded-lg text-green-300 flex justify-center items-center">
               <a
                 className="bg-green-800 text-white text-lg font-bold py-4 px-8 cursor-pointer relative w-full rounded-lg group-hover:bg-green-700 z-10"
-                href="/login">
+                href="/dashboard">
                 Start coding
               </a>
             </div>
@@ -247,8 +247,8 @@ function Challenge() {
             </span>
             <h3 className="text-2xl font-bold my-4">Supportive Community</h3>
             <p className="text-lg">
-              Join our Discord community where like-minded developers work & collaboring
-              together to tackle the coding challenges.
+              Join our Discord community where like-minded developers work &
+              collaboring together to tackle the coding challenges.
             </p>
           </div>
         </div>
@@ -257,7 +257,7 @@ function Challenge() {
         <h2 className="text-4xl font-bold mb-6">Join the challenge now!</h2>
         <a
           className="inline-block bg-green-600 text-white text-lg font-bold rounded-lg py-4 px-8 cursor-pointer hover:opacity-80"
-          href="/login">
+          href="/sign-in">
           Join challenge
         </a>
       </section>
