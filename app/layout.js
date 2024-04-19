@@ -22,3 +22,6 @@ export default function RootLayout({ children }) {
       </html>
   );
 }
+
+
+// For reference use this link: https://icodethis.com/pro
