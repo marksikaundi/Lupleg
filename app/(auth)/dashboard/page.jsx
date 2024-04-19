@@ -1,15 +1,8 @@
-// import { auth } from "@clerk/nextjs";
 import React from "react";
 
 export default async function page() {
-  // const { userId } = auth();
-  // if (!userId) {
-  //   <div>You are not logged in</div>;
-  // }
-  // const user = await currentUser();
-  // console.log(user);
   return (
-    <main className="flex flex-col items-center container px-4 mx-auto">
+    <main className="flex flex-col items-center container px-4 mx-auto mt-20">
       <div className="flex flex-col-reverse items-center flex-wrap gap-5 w-full lg:flex-row lg:items-start lg:flex-nowrap">
         <div className="flex flex-col gap-6 flex-none w-full lg:max-w-xs">
           <section className="p-2 divide-y divide-green-100/30 h-max">
@@ -69,7 +62,8 @@ export default async function page() {
               <li className="flex items-center gap-2 py-2">
                 <a
                   className="w-14 h-14 md:w-16 md:h-16 -ml-4 transition hover:scale-110"
-                  href="/badges">
+                  href="/badges"
+                >
                   <img
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk6bhH9kDEON9H6KRajt1h2cVdCOqZQwdkU0Ah6hXwXA&s"
                     alt="I Coded These - Bronze"
@@ -79,7 +73,8 @@ export default async function page() {
                   <div className="flex justify-between items-center text-green-900">
                     <a
                       className="font-semibold transition break-words hover:text-green-950"
-                      href="/badges">
+                      href="/badges"
+                    >
                       I Coded These - Bronze
                     </a>
                     <small className="flex-none">0 / 3</small>
@@ -87,14 +82,16 @@ export default async function page() {
                   <div className="bg-green-800 rounded-xl relative h-3 overflow-hidden">
                     <div
                       className="bg-green-600 absolute top-0 left-0 h-full rounded-full"
-                      style={{ width: "0%" }}></div>
+                      style={{ width: "0%" }}
+                    ></div>
                   </div>
                 </div>
               </li>
               <li className="flex items-center gap-2 py-2">
                 <a
                   className="w-14 h-14 md:w-16 md:h-16 -ml-4 transition hover:scale-110"
-                  href="/badges">
+                  href="/badges"
+                >
                   <img
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk6bhH9kDEON9H6KRajt1h2cVdCOqZQwdkU0Ah6hXwXA&s"
                     alt="I Coded These - Bronze"
@@ -104,7 +101,8 @@ export default async function page() {
                   <div className="flex justify-between items-center text-green-900">
                     <a
                       className="font-semibold transition break-words hover:text-green-950"
-                      href="/badges">
+                      href="/badges"
+                    >
                       I Coded These - Bronze
                     </a>
                     <small className="flex-none">0 / 3</small>
@@ -112,14 +110,16 @@ export default async function page() {
                   <div className="bg-green-800 rounded-xl relative h-3 overflow-hidden">
                     <div
                       className="bg-green-600 absolute top-0 left-0 h-full rounded-full"
-                      style={{ width: "0%" }}></div>
+                      style={{ width: "0%" }}
+                    ></div>
                   </div>
                 </div>
               </li>
               <li className="flex items-center gap-2 py-2">
                 <a
                   className="w-14 h-14 md:w-16 md:h-16 -ml-4 transition hover:scale-110"
-                  href="/badges">
+                  href="/badges"
+                >
                   <img
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk6bhH9kDEON9H6KRajt1h2cVdCOqZQwdkU0Ah6hXwXA&s"
                     alt="I Coded These - Bronze"
@@ -129,7 +129,8 @@ export default async function page() {
                   <div className="flex justify-between items-center text-green-900">
                     <a
                       className="font-semibold transition break-words hover:text-green-950"
-                      href="/badges">
+                      href="/badges"
+                    >
                       I Coded These - Bronze
                     </a>
                     <small className="flex-none">0 / 3</small>
@@ -137,14 +138,16 @@ export default async function page() {
                   <div className="bg-green-800 rounded-xl relative h-3 overflow-hidden">
                     <div
                       className="bg-green-600 absolute top-0 left-0 h-full rounded-full"
-                      style={{ width: "0%" }}></div>
+                      style={{ width: "0%" }}
+                    ></div>
                   </div>
                 </div>
               </li>
               <li className="flex items-center gap-2 py-2">
                 <a
                   className="w-14 h-14 md:w-16 md:h-16 -ml-4 transition hover:scale-110"
-                  href="/badges">
+                  href="/badges"
+                >
                   <img
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk6bhH9kDEON9H6KRajt1h2cVdCOqZQwdkU0Ah6hXwXA&s"
                     alt="I Coded These - Bronze"
@@ -154,7 +157,8 @@ export default async function page() {
                   <div className="flex justify-between items-center text-green-900">
                     <a
                       className="font-semibold transition break-words hover:text-green-950"
-                      href="/badges">
+                      href="/badges"
+                    >
                       I Coded These - Bronze
                     </a>
                     <small className="flex-none">0 / 3</small>
@@ -162,14 +166,16 @@ export default async function page() {
                   <div className="bg-green-800 rounded-xl relative h-3 overflow-hidden">
                     <div
                       className="bg-green-600 absolute top-0 left-0 h-full rounded-full"
-                      style={{ width: "0%" }}></div>
+                      style={{ width: "0%" }}
+                    ></div>
                   </div>
                 </div>
               </li>
               <li className="flex items-center gap-2 py-2">
                 <a
                   className="w-14 h-14 md:w-16 md:h-16 -ml-4 transition hover:scale-110"
-                  href="/badges">
+                  href="/badges"
+                >
                   <img
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk6bhH9kDEON9H6KRajt1h2cVdCOqZQwdkU0Ah6hXwXA&s"
                     alt="I Coded These - Bronze"
@@ -179,7 +185,8 @@ export default async function page() {
                   <div className="flex justify-between items-center text-green-900">
                     <a
                       className="font-semibold transition break-words hover:text-green-950"
-                      href="/badges">
+                      href="/badges"
+                    >
                       I Coded These - Bronze
                     </a>
                     <small className="flex-none">0 / 3</small>
@@ -187,14 +194,16 @@ export default async function page() {
                   <div className="bg-green-800 rounded-xl relative h-3 overflow-hidden">
                     <div
                       className="bg-green-600 absolute top-0 left-0 h-full rounded-full"
-                      style={{ width: "0%" }}></div>
+                      style={{ width: "0%" }}
+                    ></div>
                   </div>
                 </div>
               </li>
               <li className="flex items-center gap-2 py-2">
                 <a
                   className="w-14 h-14 md:w-16 md:h-16 -ml-4 transition hover:scale-110"
-                  href="/badges">
+                  href="/badges"
+                >
                   <img
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk6bhH9kDEON9H6KRajt1h2cVdCOqZQwdkU0Ah6hXwXA&s"
                     alt="I Coded These - Bronze"
@@ -204,7 +213,8 @@ export default async function page() {
                   <div className="flex justify-between items-center text-green-900">
                     <a
                       className="font-semibold transition break-words hover:text-green-950"
-                      href="/badges">
+                      href="/badges"
+                    >
                       I Coded These - Bronze
                     </a>
                     <small className="flex-none">0 / 3</small>
@@ -212,7 +222,8 @@ export default async function page() {
                   <div className="bg-green-800 rounded-xl relative h-3 overflow-hidden">
                     <div
                       className="bg-green-600 absolute top-0 left-0 h-full rounded-full"
-                      style={{ width: "0%" }}></div>
+                      style={{ width: "0%" }}
+                    ></div>
                   </div>
                 </div>
               </li>
@@ -237,7 +248,8 @@ export default async function page() {
             <li className="ml-auto">
               <a
                 className="flex items-center gap-1 border-2 p-2 rounded-md font-semibold transition bg-green-700 text-sm border-none md:px-2 hover:bg-green-800"
-                href="c">
+                href="c"
+              >
                 <span className="hidden md:inline-block">Code</span>
               </a>
             </li>
@@ -266,12 +278,14 @@ export default async function page() {
                   <div className="flex flex-col gap-4 md:flex-row">
                     <a
                       className="bg-green-800 w-full border border-transparent block text-center font-semibold p-2 rounded-md grow hover:bg-opacity-60"
-                      href="/modes/design-to-code/39">
+                      href="/modes/design-to-code/39"
+                    >
                       Start
                     </a>
                     <a
                       className="bg-green-800 font-semibold w-full border border-green-900 block text-center p-2 px-4 rounded-md hover:bg-green-700"
-                      href="/modes/design-to-code/39/submissions">
+                      href="/modes/design-to-code/39/submissions"
+                    >
                       Submissions
                     </a>
                   </div>
@@ -290,12 +304,14 @@ export default async function page() {
                   <div className="flex flex-col gap-4 md:flex-row">
                     <a
                       className="bg-green-800 w-full border border-transparent block text-center font-semibold p-2 rounded-md grow hover:bg-opacity-60"
-                      href="/modes/design-to-code/39">
+                      href="/modes/design-to-code/39"
+                    >
                       Start
                     </a>
                     <a
                       className="bg-green-800 font-semibold w-full border border-green-900 block text-center p-2 px-4 rounded-md hover:bg-green-700"
-                      href="/modes/design-to-code/39/submissions">
+                      href="/modes/design-to-code/39/submissions"
+                    >
                       Submissions
                     </a>
                   </div>
@@ -320,12 +336,14 @@ export default async function page() {
                   <div className="flex flex-col gap-4 md:flex-row">
                     <a
                       className="bg-green-800 w-full border border-transparent block text-center font-semibold p-2 rounded-md grow hover:bg-opacity-60"
-                      href="/modes/design-to-code/39">
+                      href="/modes/design-to-code/39"
+                    >
                       Start
                     </a>
                     <a
                       className="bg-green-800 font-semibold w-full border border-green-900 block text-center p-2 px-4 rounded-md hover:bg-green-700"
-                      href="/modes/design-to-code/39/submissions">
+                      href="/modes/design-to-code/39/submissions"
+                    >
                       Submissions
                     </a>
                   </div>
@@ -344,12 +362,14 @@ export default async function page() {
                   <div className="flex flex-col gap-4 md:flex-row">
                     <a
                       className="bg-green-800 w-full border border-transparent block text-center font-semibold p-2 rounded-md grow hover:bg-opacity-60"
-                      href="/modes/design-to-code/39">
+                      href="/modes/design-to-code/39"
+                    >
                       Start
                     </a>
                     <a
                       className="bg-green-800 font-semibold w-full border border-green-900 block text-center p-2 px-4 rounded-md hover:bg-green-700"
-                      href="/modes/design-to-code/39/submissions">
+                      href="/modes/design-to-code/39/submissions"
+                    >
                       Submissions
                     </a>
                   </div>
@@ -368,12 +388,14 @@ export default async function page() {
                   <div className="flex flex-col gap-4 md:flex-row">
                     <a
                       className="bg-green-800 w-full border border-transparent block text-center font-semibold p-2 rounded-md grow hover:bg-opacity-60"
-                      href="/modes/design-to-code/39">
+                      href="/modes/design-to-code/39"
+                    >
                       Start
                     </a>
                     <a
                       className="bg-green-800 font-semibold w-full border border-green-900 block text-center p-2 px-4 rounded-md hover:bg-green-700"
-                      href="/modes/design-to-code/39/submissions">
+                      href="/modes/design-to-code/39/submissions"
+                    >
                       Submissions
                     </a>
                   </div>
@@ -409,7 +431,8 @@ export default async function page() {
               className="hover:opacity-60"
               href="a"
               target="_blank"
-              rel="noreferrer">
+              rel="noreferrer"
+            >
               <svg xmlns="--twitter--" width="24" height="24"></svg>
             </a>
           </li>
@@ -418,7 +441,8 @@ export default async function page() {
               className="hover:opacity-60"
               href="a"
               target="_blank"
-              rel="noreferrer">
+              rel="noreferrer"
+            >
               <svg xmlns="--Discord--" width="24" height="24"></svg>
             </a>
           </li>
