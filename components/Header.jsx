@@ -43,7 +43,7 @@ export default function Header() {
         </nav>
       </div>
       <div className="text-md hidden rounded border-2 border-green-700  p-3 text-black  md:block">
-        <Link href="sign-in">Join Now</Link>
+        <Link href="all-challenges">Join Now</Link>
       </div>
       {/* mobile view */}
       <Sheet>
@@ -93,7 +93,7 @@ export default function Header() {
             <div className="w-30 flex   items-center rounded-full">
               <Button className="text-md text-white">
                 <SheetTrigger asChild>
-                  <Link href="sign-in">Join Now</Link>
+                  <Link href="all-challenges">Join Now</Link>
                 </SheetTrigger>
               </Button>
             </div>

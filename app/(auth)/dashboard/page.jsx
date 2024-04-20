@@ -3,7 +3,7 @@ import React from "react";
 export default async function page() {
   return (
     <main className="flex flex-col items-center container px-4 mx-auto mt-20">
-      <div className="flex flex-col-reverse items-center flex-wrap gap-5 w-full lg:flex-row lg:items-start lg:flex-nowrap">
+      <div className="flex flex-col-reverse items-center flex-wrap gap-5 w-full mb-20 lg:flex-row lg:items-start lg:flex-nowrap">
         <div className="flex flex-col gap-6 flex-none w-full lg:max-w-xs">
           <section className="p-2 divide-y divide-green-100/30 h-max">
             <div className="flex items-center gap-4 pb-6">
@@ -15,7 +15,7 @@ export default async function page() {
               <div className="space-y-2 truncate">
                 <div className="flex pt-1">
                   <p className="text-2xl font-bold tracking-wide truncate">
-                    User
+                    UserId
                   </p>
                 </div>
                 <p className="text-green-900 text-sm xl:text-md">
@@ -248,7 +248,7 @@ export default async function page() {
             <li className="ml-auto">
               <a
                 className="flex items-center gap-1 border-2 p-2 rounded-md font-semibold transition bg-green-700 text-sm border-none md:px-2 hover:bg-green-800"
-                href="c"
+                href="editor"
               >
                 <span className="hidden md:inline-block">Code</span>
               </a>
@@ -408,46 +408,6 @@ export default async function page() {
       <button className="bg-green-600 font-bold text-sm border-none px-4 py-2 rounded-md hover:bg-green-600/60 fixed bottom-16 -right-8 -rotate-90">
         Feedback
       </button>
-      <footer className="container flex flex-col gap-4 md:flex-row items-center justify-around py-12 mx-auto">
-        <svg width="140" height="20">
-          {/* LoGo*/}
-        </svg>
-        <ul className="flex flex-col md:flex-row gap-4 items-center text-green-900">
-          <li>©2024 LupLeg. All rights reserved.</li>
-          <li>
-            <a className="hover:underline" href="/privacy_policy">
-              Privacy Policy
-            </a>
-          </li>
-          <li>
-            <a className="hover:underline" href="/terms">
-              Terms of use
-            </a>
-          </li>
-        </ul>
-        <ul className="flex gap-2 items-center">
-          <li>
-            <a
-              className="hover:opacity-60"
-              href="a"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <svg xmlns="--twitter--" width="24" height="24"></svg>
-            </a>
-          </li>
-          <li>
-            <a
-              className="hover:opacity-60"
-              href="a"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <svg xmlns="--Discord--" width="24" height="24"></svg>
-            </a>
-          </li>
-        </ul>
-      </footer>
     </main>
   );
 }

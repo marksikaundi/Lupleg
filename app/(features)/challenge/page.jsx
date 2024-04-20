@@ -257,7 +257,7 @@ function Challenge() {
         <h2 className="text-4xl font-bold mb-6">Join the challenge now!</h2>
         <a
           className="inline-block bg-green-600 text-white text-lg font-bold rounded-lg py-4 px-8 cursor-pointer hover:opacity-80"
-          href="/sign-in">
+          href="/dashboard">
           Join challenge
         </a>
       </section>
