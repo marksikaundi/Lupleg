@@ -18,7 +18,6 @@ export default function AllChallenges() {
       <section className="bg-gray-100 py-12 md:py-24 lg:py-32 dark:bg-gray-800">
         <div className="container mx-auto px-4">
           <div className="grid gap-6 md:gap-12 lg:grid-cols-2 xl:gap-16">
-            {/* Course 01 */}
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
@@ -52,7 +51,6 @@ export default function AllChallenges() {
       <section className="bg-gray-100 py-12 md:py-24 lg:py-32 dark:bg-gray-800">
         <div className="container mx-auto px-4">
           <div className="grid gap-6 md:gap-12 lg:grid-cols-2 xl:gap-16">
-            {/* Course 02 */}
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
@@ -86,7 +84,6 @@ export default function AllChallenges() {
       <section className="bg-gray-100 py-12 md:py-24 lg:py-32 dark:bg-gray-800">
         <div className="container mx-auto px-4">
           <div className="grid gap-6 md:gap-12 lg:grid-cols-2 xl:gap-16">
-            {/* Course 03 */}
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
@@ -120,7 +117,6 @@ export default function AllChallenges() {
       <section className="bg-gray-100 py-12 md:py-24 lg:py-32 dark:bg-gray-800">
         <div className="container mx-auto px-4">
           <div className="grid gap-6 md:gap-12 lg:grid-cols-2 xl:gap-16">
-            {/* Course 04 */}
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
