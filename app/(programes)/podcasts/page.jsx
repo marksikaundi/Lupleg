@@ -13,7 +13,7 @@ export default function Component() {
             </h1>
             <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
               The best podcast in the world. Tune in for insightful
-              conversations, amazing stories, and thought-provoking interviews
+              conversations, amazing stories, and thought provoking interviews
               with the most interesting people.
             </p>
           </div>
