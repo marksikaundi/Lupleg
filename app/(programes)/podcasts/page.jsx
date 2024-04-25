@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { CardContent, Card } from "@/components/ui/card";
-import Link from "next/link";
 
 export default function Component() {
   return (
@@ -50,15 +49,6 @@ export default function Component() {
           <div className="grid gap-6 md:gap-8 lg:gap-10">
             <Card>
               <CardContent className="grid gap-2 md:grid-cols-3">
-                {/* <div className="flex items-center justify-center p-4 md:col-span-1">
-                  <img
-                    alt="Episode cover"
-                    className="aspect-[1/1] rounded-lg object-cover"
-                    height="120"
-                    src="/Lupleg podcast.png"
-                    width="120"
-                  />
-                </div> */}
                 <div className="grid gap-1 md:col-span-2 md:gap-2">
                   <div className="space-y-1">
                     <h3 className="text-xl font-bold tracking-tighter sm:text-2xl">
@@ -95,15 +85,6 @@ export default function Component() {
             </Card>
             <Card>
               <CardContent className="grid gap-2 md:grid-cols-3">
-                {/* <div className="flex items-center justify-center p-4 md:col-span-1">
-                  <img
-                    alt="Episode cover"
-                    className="aspect-[1/1] rounded-lg object-cover"
-                    height="120"
-                    src="/Lupleg podcast.png"
-                    width="120"
-                  />
-                </div> */}
                 <div className="grid gap-1 md:col-span-2 md:gap-2">
                   <div className="space-y-1">
                     <h3 className="text-xl font-bold tracking-tighter sm:text-2xl">
@@ -139,15 +120,6 @@ export default function Component() {
             </Card>
             <Card>
               <CardContent className="grid gap-2 md:grid-cols-3">
-                {/* <div className="flex items-center justify-center p-4 md:col-span-1">
-                  <img
-                    alt="Episode cover"
-                    className="aspect-[1/1] rounded-lg object-cover"
-                    height="120"
-                    src="/Lupleg podcast.png"
-                    width="120"
-                  />
-                </div> */}
                 <div className="grid gap-1 md:col-span-2 md:gap-2">
                   <div className="space-y-1">
                     <h3 className="text-xl font-bold tracking-tighter sm:text-2xl">
@@ -182,15 +154,6 @@ export default function Component() {
             </Card>
             <Card>
               <CardContent className="grid gap-2 md:grid-cols-3">
-                {/* <div className="flex items-center justify-center p-4 md:col-span-1">
-                  <img
-                    alt="Episode cover"
-                    className="aspect-[1/1] rounded-lg object-cover"
-                    height="120"
-                    src="/Lupleg podcast.png"
-                    width="120"
-                  />
-                </div> */}
                 <div className="grid gap-1 md:col-span-2 md:gap-2">
                   <div className="space-y-1">
                     <h3 className="text-xl font-bold tracking-tighter sm:text-2xl">
@@ -226,15 +189,6 @@ export default function Component() {
 
             <Card>
               <CardContent className="grid gap-2 md:grid-cols-3">
-                {/* <div className="flex items-center justify-center p-4 md:col-span-1">
-                  <img
-                    alt="Episode cover"
-                    className="aspect-[1/1] rounded-lg object-cover"
-                    height="120"
-                    src="/Lupleg podcast.png"
-                    width="120"
-                  />
-                </div> */}
                 <div className="grid gap-1 md:col-span-2 md:gap-2">
                   <div className="space-y-1">
                     <h3 className="text-xl font-bold tracking-tighter sm:text-2xl">
