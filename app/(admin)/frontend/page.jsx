@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function AllChallenges() {
+export default function Frontend() {
   return (
     <div className="flex min-h-screen flex-col">
       <section className="bg-gray-100 py-6 md:py-12 lg:py-20 xl:py-24 dark:bg-gray-800">
