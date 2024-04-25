@@ -62,7 +62,8 @@ function Challenge() {
             <div className="animated-border after:opacity-100 before:opacity-100 p-0.5 rounded-lg text-green-300 flex justify-center items-center">
               <a
                 className="bg-green-800 text-white text-lg font-bold py-4 px-8 cursor-pointer relative w-full rounded-lg group-hover:bg-green-700 z-10"
-                href="/dashboard">
+                href="/dashboard"
+              >
                 Start coding
               </a>
             </div>
@@ -90,7 +91,8 @@ function Challenge() {
                     padding: "0px",
                     position: "absolute",
                     inset: 0,
-                  }}>
+                  }}
+                >
                   <img
                     alt="Challenge Image"
                     sizes="100vw"
@@ -125,7 +127,8 @@ function Challenge() {
                     stroke="currentColor"
                     fill="none"
                     strokeLinecap="round"
-                    strokeLinejoin="round">
+                    strokeLinejoin="round"
+                  >
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                     <path d="M16 4l4 0l0 4"></path>
                     <path d="M14 10l6 -6"></path>
@@ -155,7 +158,8 @@ function Challenge() {
                 stroke="currentColor"
                 fill="none"
                 strokeLinecap="round"
-                strokeLinejoin="round">
+                strokeLinejoin="round"
+              >
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                 <path d="M11.5 17h-7.5a1 1 0 0 1 -1 -1v-12a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v9"></path>
                 <path d="M3 13h18"></path>
@@ -184,7 +188,8 @@ function Challenge() {
                 stroke="currentColor"
                 fill="none"
                 strokeLinecap="round"
-                strokeLinejoin="round">
+                strokeLinejoin="round"
+              >
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                 <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"></path>
                 <path d="M6 8h.01"></path>
@@ -208,7 +213,8 @@ function Challenge() {
                 stroke="currentColor"
                 fill="none"
                 strokeLinecap="round"
-                strokeLinejoin="round">
+                strokeLinejoin="round"
+              >
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                 <path d="M21 12v3a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1v-10a1 1 0 0 1 1 -1h9"></path>
                 <path d="M7 20l10 0"></path>
@@ -218,10 +224,11 @@ function Challenge() {
                 <path d="M16 9l5 -5"></path>
               </svg>
             </span>
-            <h3 className="text-2xl font-bold my-4">Showcase Your Portfolio</h3>
+            <h3 className="text-2xl font-bold my-4">Showcase Your Skills</h3>
             <p className="text-lg">
-              All the projects you're building are available on your profile and
-              you can easily showcase them to a potential client or employer.
+              All the projects you're building will be available on your github
+              profile and you can easily showcase them to a potential client or
+              employer.
             </p>
           </div>
           <div className="text-center">
@@ -235,7 +242,8 @@ function Challenge() {
                 stroke="currentColor"
                 fill="none"
                 strokeLinecap="round"
-                strokeLinejoin="round">
+                strokeLinejoin="round"
+              >
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                 <circle cx="9" cy="12" r="1"></circle>
                 <circle cx="15" cy="12" r="1"></circle>
@@ -257,7 +265,8 @@ function Challenge() {
         <h2 className="text-4xl font-bold mb-6">Join the challenge now!</h2>
         <a
           className="inline-block bg-green-600 text-white text-lg font-bold rounded-lg py-4 px-8 cursor-pointer hover:opacity-80"
-          href="/dashboard">
+          href="/dashboard"
+        >
           Join challenge
         </a>
       </section>
