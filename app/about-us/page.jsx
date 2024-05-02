@@ -13,11 +13,12 @@ export default function AboutUs() {
                   About Lupleg.
                 </h1>
                 <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
-                  Lupleg LLC is a visionary technology company on a mission to
-                  bridge the skills gap and empower individuals and businesses
-                  in the digital age. We believe that knowledge is the key to
-                  unlocking potential, and we're dedicated to providing
-                  innovative educational solutions that make a real difference.
+                  <span className="text-green-900 font-bold">Lupleg</span> is a
+                  visionary technology company on a mission to bridge the skills
+                  gap and empower individuals and businesses in the digital age.
+                  We believe that knowledge is the key to unlocking potential,
+                  and we're dedicated to providing innovative educational
+                  solutions that make a real difference.
                   <br />
                   Our core offering is a comprehensive suite of educational
                   services, delivered through multiple channels to best suit
@@ -27,20 +28,23 @@ export default function AboutUs() {
                   interactive learning experience, allowing you to access
                   courses and connect with qualified mentors at your own pace.
                   <br />
-                  Lupleg goes beyond just education. Our team of passionate
-                  experts is also dedicated to developing cutting-edge software
-                  solutions to help businesses thrive in today's ever-evolving
-                  digital landscape. Whether you're looking to enhance your
-                  workforce's skills with targeted training programs or
-                  streamline your operations through innovative technology,
-                  Lupleg LLC is your trusted partner for achieving success.
+                  <span className="text-green-900 font-bold">Lupleg</span> goes
+                  beyond just education. Our team of passionate experts is also
+                  dedicated to developing cutting-edge software solutions to
+                  help businesses thrive in today's ever-evolving digital
+                  landscape. Whether you're looking to enhance your workforce's
+                  skills with targeted training programs or streamline your
+                  operations through innovative technology,
+                  <span className="text-green-900 font-bold">Lupleg</span> is
+                  your trusted partner for achieving success.
                   <br />
-                  At Lupleg, we believe in fostering a collaborative community
-                  where individuals can learn, grow, and achieve their goals.
-                  We're committed to providing exceptional customer service and
+                  At <span className="text-green-900 font-bold">Lupleg</span>,
+                  we believe in fostering a collaborative community where
+                  individuals can learn, grow, and achieve their goals. We're
+                  committed to providing exceptional customer service and
                   building long-term partnerships with our clients.
                   <br />
-                  Partner with Lupleg LLC and unlock your full potential in the
+                  Partner with Lupleg and unlock your full potential in the
                   digital world!
                 </p>
               </div>
@@ -55,51 +59,63 @@ export default function AboutUs() {
           </div>
         </div>
       </section>
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
+      <section className="w-full py-12 md:py-24 lg:py-32 bg-green-900 dark:bg-green-500">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                 Our Mission and Values
               </h2>
-              <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                At Acme Inc., our mission is to empower businesses with
-                cutting-edge technology solutions that drive growth, efficiency,
-                and innovation. We are guided by a set of core values that shape
-                our culture and decision-making.
+              <p className="max-w-[900px] text-gray-100 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-100">
+                <span className="text-black font-bold">Lupleg</span> is a
+                catalyst for the next generation of tech pioneers. We ignite a
+                passion for innovation by equipping young minds with the cutting
+                edge skills and knowledge they need to thrive in the ever
+                evolving technology sector. Our comprehensive educational
+                programs and industry expert mentors empower these future
+                leaders to drive growth, efficiency, and groundbreaking
+                advancements. Guided by our core values, we foster a dynamic and
+                collaborative environment that fuels creativity, critical
+                thinking, and a relentless pursuit of excellence.{" "}
+                <span className="text-green-900 font-bold">Lupleg</span> is more
+                than just an educational provider; we are architects of the
+                future, one empowered tech pioneer at a time.
               </p>
             </div>
-            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 pt-10 lg:grid-cols-4">
               <div className="flex flex-col items-center justify-center space-y-2">
-                <RocketIcon className="h-8 w-8 text-green-500 dark:text-green-400" />
+                <RocketIcon className="h-8 w-8 text-orange-500 dark:text-orange-400" />
                 <h3 className="text-xl font-bold">Innovation</h3>
-                <p className="text-gray-500 dark:text-gray-400">
-                  We are constantly exploring new technologies and ideas to stay
-                  ahead of the curve.
+                <p className="text-gray-100 dark:text-gray-100">
+                  We're constantly exploring emerging trends in artificial
+                  intelligence and machine learning to develop future-proof
+                  solutions that revolutionize the user experience.
                 </p>
               </div>
               <div className="flex flex-col items-center justify-center space-y-2">
-                <BriefcaseIcon className="h-8 w-8 text-green-500 dark:text-green-400" />
+                <BriefcaseIcon className="h-8 w-8 text-orange-500 dark:text-orange-400" />
                 <h3 className="text-xl font-bold">Expertise</h3>
-                <p className="text-gray-500 dark:text-gray-400">
-                  Our team of experts is dedicated to delivering exceptional
-                  solutions tailored to our clients' needs.
+                <p className="text-gray-100 dark:text-gray-100">
+                  Our team of experts leverages their deep understanding to
+                  craft exceptional solutions tailored to our users' unique
+                  needs.
                 </p>
               </div>
               <div className="flex flex-col items-center justify-center space-y-2">
-                <HeartHandshakeIcon className="h-8 w-8 text-green-500 dark:text-green-400" />
+                <HeartHandshakeIcon className="h-8 w-8 text-orange-500 dark:text-orange-400" />
                 <h3 className="text-xl font-bold">Collaboration</h3>
-                <p className="text-gray-500 dark:text-gray-400">
-                  We believe in fostering strong partnerships with our clients
-                  to achieve mutual success.
+                <p className="text-gray-100 dark:text-gray-100">
+                  We believe in fostering strong partnerships with clients,
+                  colleagues, and stakeholders, built on open communication and
+                  shared goals
                 </p>
               </div>
               <div className="flex flex-col items-center justify-center space-y-2">
-                <FileSignatureIcon className="h-8 w-8 text-green-500 dark:text-green-400" />
+                <FileSignatureIcon className="h-8 w-8 text-orange-500 dark:text-orange-400" />
                 <h3 className="text-xl font-bold">Integrity</h3>
-                <p className="text-gray-500 dark:text-gray-400">
-                  Honesty, transparency, and ethical conduct are the foundation
-                  of our business.
+                <p className="text-gray-100 dark:text-gray-100">
+                  Honesty, transparency, and ethical conduct are the guiding
+                  principles for our personal growth & product development.
                 </p>
               </div>
             </div>
@@ -129,13 +145,13 @@ export default function AboutUs() {
               <div className="flex gap-2">
                 <Link
                   className="text-green-500 hover:text-green-900 dark:text-green-400 dark:hover:text-green-50"
-                  href="#"
+                  href="https://linkedin.com/in/marksikaundi"
                 >
                   <LinkedinIcon className="h-5 w-5" />
                 </Link>
                 <Link
                   className="text-green-500 hover:text-green-900 dark:text-green-400 dark:hover:text-green-50"
-                  href="#"
+                  href="https://twitter.com/Alisikaundi"
                 >
                   <TwitterIcon className="h-5 w-5" />
                 </Link>
