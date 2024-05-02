@@ -12,7 +12,7 @@ export default function AboutUs() {
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
                   About Lupleg.
                 </h1>
-                <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
+                <p className="max-w-[600px] text-gray-600 md:text-xl dark:text-gray-400">
                   <span className="text-green-900 font-bold">Lupleg</span> is a
                   visionary technology company on a mission to bridge the skills
                   gap and empower individuals and businesses in the digital age.
@@ -150,7 +150,7 @@ export default function AboutUs() {
                   <LinkedinIcon className="h-5 w-5" />
                 </Link>
                 <Link
-                  className="text-green-500 hover:text-green-900 dark:text-green-400 dark:hover:text-green-50"
+                  className="text-green-500 hover:text-green-900 dark:text-green-900 dark:hover:text-green-50"
                   href="https://twitter.com/Alisikaundi"
                 >
                   <TwitterIcon className="h-5 w-5" />
@@ -166,13 +166,13 @@ export default function AboutUs() {
               <p className="text-gray-500 dark:text-gray-400">CTO</p>
               <div className="flex gap-2">
                 <Link
-                  className="text-green-500 hover:text-green-900 dark:text-green-400 dark:hover:text-green-50"
+                  className="text-green-500 hover:text-green-900 dark:text-green-900 dark:hover:text-green-50"
                   href="#"
                 >
                   <LinkedinIcon className="h-5 w-5" />
                 </Link>
                 <Link
-                  className="text-green-500 hover:text-green-900 dark:text-green-400 dark:hover:text-green-50"
+                  className="text-green-500 hover:text-green-900 dark:text-green-900 dark:hover:text-green-50"
                   href="#"
                 >
                   <TwitterIcon className="h-5 w-5" />
