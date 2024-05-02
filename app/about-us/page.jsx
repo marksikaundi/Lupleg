@@ -49,7 +49,7 @@ export default function AboutUs() {
               alt="About Us"
               className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last lg:aspect-square"
               height="550"
-              src="/placeholder.svg"
+              src="/web.png"
               width="550"
             />
           </div>
@@ -112,18 +112,19 @@ export default function AboutUs() {
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
               Meet the Team
             </h2>
-            <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+
+            <p className="max-w-[900px] mx-auto space-y-4 text-center text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
               Our talented team of experts is dedicated to delivering
-              exceptional results for our clients.
+              exceptional results for our users.
             </p>
           </div>
           <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
             <div className="flex flex-col items-center justify-center space-y-2">
               <Avatar>
                 <AvatarImage alt="Sofia Davis" src="/avatars/01.png" />
-                <AvatarFallback>SD</AvatarFallback>
+                <AvatarFallback>MS</AvatarFallback>
               </Avatar>
-              <h3 className="text-xl font-bold">Sofia Davis</h3>
+              <h3 className="text-xl font-bold">Mark Sikaundi</h3>
               <p className="text-gray-500 dark:text-gray-400">CEO</p>
               <div className="flex gap-2">
                 <Link
@@ -143,9 +144,9 @@ export default function AboutUs() {
             <div className="flex flex-col items-center justify-center space-y-2">
               <Avatar>
                 <AvatarImage alt="Jackson Lee" src="/avatars/02.png" />
-                <AvatarFallback>JL</AvatarFallback>
+                <AvatarFallback>DJ</AvatarFallback>
               </Avatar>
-              <h3 className="text-xl font-bold">Jackson Lee</h3>
+              <h3 className="text-xl font-bold">David Jiri</h3>
               <p className="text-gray-500 dark:text-gray-400">CTO</p>
               <div className="flex gap-2">
                 <Link
