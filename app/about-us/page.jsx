@@ -77,7 +77,7 @@ export default function AboutUs() {
                 advancements. Guided by our core values, we foster a dynamic and
                 collaborative environment that fuels creativity, critical
                 thinking, and a relentless pursuit of excellence.{" "}
-                <span className="text-green-900 font-bold">Lupleg</span> is more
+                <span className="text-black font-bold">Lupleg</span> is more
                 than just an educational provider; we are architects of the
                 future, one empowered tech pioneer at a time.
               </p>
