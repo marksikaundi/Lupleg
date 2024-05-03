@@ -10,7 +10,7 @@ export default function SponsorShip() {
           </h2>
           <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
             Join us in our mission to inspire and innovate. Your sponsorship
-            helps us make a difference.
+            helps us make a difference towards the work we do.
           </p>
         </div>
         <div className="grid max-w-sm mx-auto gap-4 lg:grid-cols-2 lg:max-w-none lg:gap-6">
