@@ -23,7 +23,9 @@ function Mentorships() {
           </div>
           <div className="flex justify-center">
             <img
-              src="https://assets-global.website-files.com/63e4cc8d2ac61a3dee9bb0ee/649fc78acaebbe296387ce9f_Screenshot%202023-07-01%20at%2007.25-p-1080.webp"
+              src="/Lupleg Mentorship.png"
+              width={850}
+              height={600}
               className="rounded-md object-cover"
             ></img>
           </div>
