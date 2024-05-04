@@ -1,52 +1,52 @@
 export default function sitemap() {
   return [
     {
-      url: "https://www.lupleg.website/challenge",
+      url: "https://www.lupleg.website/mentorships",
       lastModified: new Date(),
       changeFrequency: "yearly",
-      priority: 2,
+      priority: 1,
     },
     {
-      url: "https://www.lupleg.website/academy",
+      url: "https://www.lupleg.website/challenge",
       lastModified: new Date(),
       changeFrequency: "monthly",
-      priority: 1.9,
+      priority: 1.5,
     },
     {
       url: "https://www.lupleg.website/podcasts",
       lastModified: new Date(),
       changeFrequency: "monthly",
-      priority: 0.8,
+      priority: 2,
     },
     {
-      url: "https://www.lupleg.website/for-orgs",
+      url: "https://www.lupleg.website/academy",
       lastModified: new Date(),
       changeFrequency: "weekly",
-      priority: 0.7,
+      priority: 2.5,
     },
     {
       url: "https://www.lupleg.website/affiliates",
       lastModified: new Date(),
       changeFrequency: "weekly",
-      priority: 0.6,
+      priority: 3,
     },
     {
       url: "https://www.lupleg.website/sponsor",
       lastModified: new Date(),
       changeFrequency: "weekly",
-      priority: 0.5,
+      priority: 3.5,
     },
     {
       url: "https://www.lupleg.website/trainigs",
       lastModified: new Date(),
       changeFrequency: "weekly",
-      priority: 0.4,
+      priority: 4,
     },
     {
       url: "https://www.lupleg.website/contacts",
       lastModified: new Date(),
       changeFrequency: "weekly",
-      priority: 0.3,
+      priority: 4.5,
     },
   ];
 }
