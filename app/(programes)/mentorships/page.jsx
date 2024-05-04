@@ -33,23 +33,20 @@ function Mentorships() {
       </div>
 
       <CardSections
-        title="Make life easier for you"
-        subtitle="Unlock the Potential of Lupleg Graduates for Your Organization"
-        description="At Lupleg, we are committed to nurturing exceptional talent in the tech industry. Our comprehensive training programs equip individuals with cutting-edge skills and empower them to excel in their careers."
+        subtitle="FullStack Development Mentorship"
+        description="The Fullstack Development Mentorship is a 6-month program that is designed to help you become a full-fledged developer. You will learn how to build web applications from scratch, using the latest technologies and best practices. You will also learn how to work with a team, manage projects, and communicate effectively with clients. By the end of the program, you will have a portfolio of projects that you can show to potential employers, and the skills and confidence to succeed in the tech industry."
         imageUrl="https://assets-global.website-files.com/63e4cc8d2ac61a3dee9bb0ee/63e5184308199cf4867fa2ba_Group%20151-p-800.webp"
         learnMoreLink="a"
       />
       <CardSection
-        title="Train Smarter, Not Harder"
-        subtitle="Streamlined Programs for Success in the Tech Industry"
-        description="Our training programs are designed to help individuals develop the skills they need to succeed in the tech industry. We have you covered from the basics to advanced topics, ensuring that you are well-prepared for the challenges ahead."
+        subtitle="Frontend Development Mentorship"
+        description="The Frontend Development Mentorship is a 3-month program that is designed to help you become a frontend developer. You will learn how to build beautiful and responsive user interfaces using HTML, CSS, and JavaScript. You will also learn how to work with design tools like Figma, and how to collaborate with backend developers to build fullstack applications. By the end of the program, you will have a portfolio of projects that you can show to potential employers, and the skills and confidence to succeed in the tech industry."
         imageUrl="https://assets-global.website-files.com/63e4cc8d2ac61a3dee9bb0ee/63e5184308199cf4867fa2ba_Group%20151-p-800.webp"
         learnMoreLink="a"
       />
       <CardSections
-        title="Regardless of distance"
-        subtitle="Bridging the gap for clear and effective collaboration"
-        description="Location shouldn't limit learning. Lupleg makes top-notch training accessible to your beneficiaries, anywhere. Our programs bridge the gap, ensuring everyone receives the same high-quality experience, regardless of distance"
+        subtitle="Digital Skills Training Programs"
+        description="The Digital Skills Training Programs are short courses that are designed to help you learn new skills and advance your career. You can choose from a variety of topics, including web development, digital marketing, graphic design, and more. Each course is taught by an expert instructor, and includes hands-on projects and real-world examples. By the end of the course, you will have the skills and confidence to succeed in your chosen field."
         imageUrl="https://assets-global.website-files.com/63e4cc8d2ac61a3dee9bb0ee/63e5184308199cf4867fa2ba_Group%20151-p-800.webp"
         learnMoreLink="a"
       />
