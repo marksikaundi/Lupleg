@@ -134,10 +134,10 @@ export default function AboutUs() {
               exceptional results for our users.
             </p>
           </div>
-          <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+          <div className="mx-auto grid max-w-5xl grid-cols-1 gap-3 py-12 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2">
             <div className="flex flex-col items-center justify-center space-y-2">
               <Avatar>
-                <AvatarImage alt="Sofia Davis" src="/avatars/01.png" />
+                <AvatarImage alt="Mark Sikaundi" src="/avatars/01.png" />
                 <AvatarFallback>MS</AvatarFallback>
               </Avatar>
               <h3 className="text-xl font-bold">Mark Sikaundi</h3>
@@ -159,7 +159,7 @@ export default function AboutUs() {
             </div>
             <div className="flex flex-col items-center justify-center space-y-2">
               <Avatar>
-                <AvatarImage alt="Jackson Lee" src="/avatars/02.png" />
+                <AvatarImage alt="David Jiri" src="/avatars/02.png" />
                 <AvatarFallback>DJ</AvatarFallback>
               </Avatar>
               <h3 className="text-xl font-bold">David Jiri</h3>
@@ -173,54 +173,6 @@ export default function AboutUs() {
                 </Link>
                 <Link
                   className="text-green-500 hover:text-green-900 dark:text-green-900 dark:hover:text-green-50"
-                  href="#"
-                >
-                  <TwitterIcon className="h-5 w-5" />
-                </Link>
-              </div>
-            </div>
-            <div className="flex flex-col items-center justify-center space-y-2">
-              <Avatar>
-                <AvatarImage alt="Olivia Flores" src="/avatars/03.png" />
-                <AvatarFallback>OF</AvatarFallback>
-              </Avatar>
-              <h3 className="text-xl font-bold">Olivia Flores</h3>
-              <p className="text-gray-500 dark:text-gray-400">
-                Head of Product
-              </p>
-              <div className="flex gap-2">
-                <Link
-                  className="text-green-500 hover:text-green-900 dark:text-green-400 dark:hover:text-green-50"
-                  href="#"
-                >
-                  <LinkedinIcon className="h-5 w-5" />
-                </Link>
-                <Link
-                  className="text-green-500 hover:text-green-900 dark:text-green-400 dark:hover:text-green-50"
-                  href="#"
-                >
-                  <TwitterIcon className="h-5 w-5" />
-                </Link>
-              </div>
-            </div>
-            <div className="flex flex-col items-center justify-center space-y-2">
-              <Avatar>
-                <AvatarImage alt="Michael Chen" src="/avatars/04.png" />
-                <AvatarFallback>MC</AvatarFallback>
-              </Avatar>
-              <h3 className="text-xl font-bold">Michael Chen</h3>
-              <p className="text-gray-500 dark:text-gray-400">
-                Head of Engineering
-              </p>
-              <div className="flex gap-2">
-                <Link
-                  className="text-green-500 hover:text-green-900 dark:text-green-400 dark:hover:text-green-50"
-                  href="#"
-                >
-                  <LinkedinIcon className="h-5 w-5" />
-                </Link>
-                <Link
-                  className="text-green-500 hover:text-green-900 dark:text-green-400 dark:hover:text-green-50"
                   href="#"
                 >
                   <TwitterIcon className="h-5 w-5" />
