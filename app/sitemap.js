@@ -36,17 +36,5 @@ export default function sitemap() {
       changeFrequency: "weekly",
       priority: 3.5,
     },
-    {
-      url: "https://www.lupleg.website/trainigs",
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 4,
-    },
-    {
-      url: "https://www.lupleg.website/contacts",
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 4.5,
-    },
   ];
 }
