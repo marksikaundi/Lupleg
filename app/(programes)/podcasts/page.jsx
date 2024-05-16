@@ -27,7 +27,7 @@ export default function Podcasts() {
                 Our Latest Episodes
               </h2>
               <p className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                Listen to the latest episodes from our amazing hosts.
+                Listen to all Tech Hack Africa podcasts from our amazing hosts.
               </p>
             </div>
             <div className="flex items-center space-x-4">
