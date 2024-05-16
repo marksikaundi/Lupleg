@@ -6,11 +6,11 @@ function Challenge() {
       <div className="min-h-screen flex flex-col items-center mt-10">
         <h1 className="text-3xl md:text-5xl font-bold text-black drop-shadow-lg text-center max-w-3xl">
           Challenges you can solve to
-          <span className="text-green-600"> improve </span>your
-          <span className="text-green-600"> coding </span>skills!
+          <span className="text-green-900"> improve </span>your
+          <span className="text-green-900"> coding </span>skills!
         </h1>
         <div className="relative my-16 text-center z-20">
-          <div className="flex justify-center">
+          {/* <div className="flex justify-center">
             <img
               className="border-[3px] border-green-900 w-12 h-12 rounded-full -mr-3"
               src="https://shismqklzntzxworibfn.supabase.co/storage/v1/object/public/avatars/b31bde00-b6db-48e5-9798-1c0f053360d4.jpg"
@@ -47,8 +47,8 @@ function Challenge() {
               alt="User 5"
               loading="lazy"
             />
-          </div>
-          <p className="text-green-600 text-lg mt-4 mb-8 w-96 max-w-full">
+          </div> */}
+          <p className="text-green-950 text-lg mt-4 mb-8 w-96 max-w-full">
             Join{" "}
             <b>
               <a className="cursor-pointer" href="/stats">
@@ -59,9 +59,9 @@ function Challenge() {
             supercharging their coding skills by building projects.
           </p>
           <div className="bg-green-800 rounded-lg transition hover:-translate-y-1 w-max mx-auto group cursor-pointer">
-            <div className="animated-border after:opacity-100 before:opacity-100 p-0.5 rounded-lg text-green-300 flex justify-center items-center">
+            <div className="animated-border after:opacity-100 before:opacity-100 p-0.5 rounded-lg text-green-900 flex justify-center items-center">
               <a
-                className="bg-green-800 text-white text-lg font-bold py-4 px-8 cursor-pointer relative w-full rounded-lg group-hover:bg-green-700 z-10"
+                className="bg-green-900 text-white text-lg font-bold py-4 px-8 cursor-pointer relative w-full rounded-lg group-hover:bg-green-700 z-10"
                 href="/dashboard"
               >
                 Start coding
@@ -71,7 +71,7 @@ function Challenge() {
         </div>
         <div className="bg-green-800 text-white p-4 rounded-md w-full lg:max-w-[800px]">
           <div className="relative h-96 lg:h-[450px] 2xl:h-[600px] pb-12">
-            <div className="bg-green-800 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-3/4 md:scale-[1.5] opacity-75 blur-3xl -z-10 w-96 h-96 rounded-full"></div>
+            <div className="bg-green-950 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-3/4 md:scale-[1.5] opacity-75 blur-3xl -z-10 w-96 h-96 rounded-full"></div>
             <p className="text-lg text-center mb-4">
               <strong>Challenge</strong>
             </p>
@@ -143,7 +143,7 @@ function Challenge() {
       </div>
       <div className="bg-white text-green-900 flex flex-col items-center justify-center pb-24 pt-48 p-4 w-full -mt-24 md:-mt-36">
         <small className="uppercase font-bold">features</small>
-        <h2 className="text-4xl text-center font-bold mt-2">
+        <h2 className="text-4xl text-center font-bold mt-2 text-black">
           What makes LupLeg special
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-8 container mt-24 mx-auto">
@@ -169,10 +169,10 @@ function Challenge() {
                 <path d="M17 17l-2 2l2 2"></path>
               </svg>
             </span>
-            <h3 className="text-2xl font-bold my-4">
+            <h3 className="text-2xl font-bold my-4 text-black">
               Hundreds of Coding Challenges
             </h3>
-            <p className="text-lg">
+            <p className="text-lg text-[#343943]">
               There are hudrends of coding challenge awaiting for you every time
               you want to improve your coding skills.
             </p>
@@ -196,8 +196,10 @@ function Challenge() {
                 <path d="M9 8h.01"></path>
               </svg>
             </span>
-            <h3 className="text-2xl font-bold my-4">In-browser IDE</h3>
-            <p className="text-lg">
+            <h3 className="text-2xl font-bold my-4 text-black">
+              In-browser IDE
+            </h3>
+            <p className="text-lg text-[#343943]">
               We built an in-browser IDE just for you so you can get up and
               running fast!
             </p>
@@ -224,8 +226,10 @@ function Challenge() {
                 <path d="M16 9l5 -5"></path>
               </svg>
             </span>
-            <h3 className="text-2xl font-bold my-4">Showcase Your Skills</h3>
-            <p className="text-lg">
+            <h3 className="text-2xl font-bold my-4 text-black">
+              Showcase Your Skills
+            </h3>
+            <p className="text-lg text-[#343943]">
               All the projects you're building will be available on your github
               profile and you can easily showcase them to a potential client or
               employer.
@@ -253,18 +257,22 @@ function Challenge() {
                 <path d="M8.5 17c0 1 -1.356 3 -1.832 3c-1.429 0 -2.698 -1.667 -3.333 -3c-.635 -1.667 -.476 -5.833 1.428 -11.5c1.388 -1.015 2.782 -1.34 4.237 -1.5l1 2.5"></path>
               </svg>
             </span>
-            <h3 className="text-2xl font-bold my-4">Supportive Community</h3>
-            <p className="text-lg">
+            <h3 className="text-2xl font-bold my-4 text-black">
+              Supportive Community
+            </h3>
+            <p className="text-lg text-[#343943]">
               Join our Discord community where like-minded developers work &
               collaboring together to tackle the coding challenges.
             </p>
           </div>
         </div>
       </div>
-      <section className="bg-white text-green-900 py-12 text-center w-full">
-        <h2 className="text-4xl font-bold mb-6">Join the challenge now!</h2>
+      <section className="bg-white py-12 text-center w-full">
+        <h2 className="text-4xl font-bold mb-6 text-black">
+          Join the challenge now!
+        </h2>
         <a
-          className="inline-block bg-green-600 text-white text-lg font-bold rounded-lg py-4 px-8 cursor-pointer hover:opacity-80"
+          className="inline-block bg-green-900  text-white text-lg font-bold rounded-lg py-4 px-8 cursor-pointer hover:opacity-80"
           href="/dashboard"
         >
           Join challenge
