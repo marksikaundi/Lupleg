@@ -95,8 +95,8 @@ function FAQ() {
 
       <div className="flex flex-col py-16">
         <div className="flex flex-col gap-4 md:mb-10 mb-6">
-          <h3 className="text-center text-green-600">Helpdesk</h3>
-          <p className="text-center text-green-900 md:text-5xl text-3xl font-bold">
+          <h3 className="text-center text-green-900">Helpdesk</h3>
+          <p className="text-center text-black md:text-5xl text-3xl font-bold">
             Need some more help? <br />
             Visit our help desk
           </p>
@@ -105,7 +105,7 @@ function FAQ() {
           <div className="animated-border after:opacity-100 before:opacity-100 p-0.5 rounded-lg text-green-300 flex justify-center items-center">
             <a
               className="bg-green-800 text-white text-lg font-bold py-4 px-8 cursor-pointer relative w-full rounded-lg group-hover:bg-green-700 z-10"
-              href="/helpdesk"
+              href="/#helpdesk"
             >
               Go to Help Desk
             </a>
