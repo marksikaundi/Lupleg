@@ -33,7 +33,7 @@ export default function Footer() {
               <Link href="talent">Recruit Talent</Link>
             </li>
             <li>
-              <Link href="train">Partner to train</Link>
+              <Link href="careers">Careers</Link>
             </li>
             <li>
               <Link href="sponsor">Sponsor</Link>
