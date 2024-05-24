@@ -10,16 +10,16 @@ export default function Footer() {
           <h5 className="mb-4 font-bold">Company</h5>
           <ul className="space-y-3">
             <li>
-              <Link href="for-orgs">For ORGs</Link>
+              <Link href="about-us">About us</Link>
             </li>
             <li>
-              <Link href="challenge">Challenge</Link>
+              <Link href="terms">Terms</Link>
             </li>
             <li>
-              <Link href="https://mms.lupleg.website">MMS</Link>
+              <Link href="privacy-policy">Privacy Policy</Link>
             </li>
             <li>
-              <Link href="https://ui.lupleg.website">Templates</Link>
+              <Link href="faq">FAQ</Link>
             </li>
           </ul>
         </div>
@@ -30,11 +30,12 @@ export default function Footer() {
               <Link href="partner">Partner with Us</Link>
             </li>
             <li>
-              <Link href="talent">Recruit Talent</Link>
+              <Link href="trainings">Trainings</Link>
             </li>
             <li>
-              <Link href="train">Partner to train</Link>
+              <Link href="for-orgs">For ORGs</Link>
             </li>
+
             <li>
               <Link href="sponsor">Sponsor</Link>
             </li>
@@ -47,13 +48,13 @@ export default function Footer() {
               <Link href="podcasts">Podcasts</Link>
             </li>
             <li>
-              <Link href="our-why">Our Why</Link>
+              <Link href="https://mms.lupleg.website">MMS</Link>
+            </li>
+            <li>
+              <Link href="https://ui.lupleg.website">Templates</Link>
             </li>
             <li>
               <Link href="https://docs.lupleg.website">Docs</Link>
-            </li>
-            <li>
-              <Link href="faq">FAQ</Link>
             </li>
           </ul>
         </div>
@@ -66,22 +67,22 @@ export default function Footer() {
               placeholder="Enter Your Email Here"
               type="text"
             />
-            <Button className="w-full md:w-auto bg-orange-700 hover:bg-orange-900">
+            <Button className="w-full md:w-auto bg-orange-700 hover:bg-orange-700">
               Subscribe
             </Button>
           </div>
+
           <div className="mt-8">
-            <h5 className="mb-4 font-bold">Helpdesk</h5>
-            <p>
-              <a href="mailto:dev@lupleg.website">dev@lupleg</a>
-            </p>
-          </div>
-          <div className="mt-8">
-            <h5 className="mb-4 font-bold">Email US</h5>
+            <h5 className="mb-4 font-bold">Support →</h5>
             <p>
               {" "}
               <a href="mailto:mark@lupleg.website">mark@lupleg.website</a>{" "}
             </p>
+          </div>
+          <div className="pt-5 ">
+            <Button className="bg-orange-700 hover:bg-orange-700">
+              <Link href="careers">Careers</Link>
+            </Button>
           </div>
         </div>
       </div>
