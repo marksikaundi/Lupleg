@@ -10,7 +10,7 @@ export default function AboutUs() {
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                  About Lupleg.
+                  About us.
                 </h1>
                 <p className="max-w-[600px] text-gray-600 md:text-xl dark:text-gray-400">
                   <span className="text-green-900 font-bold">Lupleg</span> is a
@@ -59,15 +59,15 @@ export default function AboutUs() {
           </div>
         </div>
       </section>
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-green-900 dark:bg-green-500">
+      <section className="w-full py-12 md:py-24 lg:py-32 bg-[#122E17] dark:bg-[#122E17]">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+              <h2 className="text-3xl font-bold tracking-tighter  text-white sm:text-5xl">
                 Our Mission and Values
               </h2>
               <p className="max-w-[900px] text-gray-100 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-100">
-                <span className="text-black font-bold">Lupleg</span> is a
+                <span className="text-white font-bold">Lupleg</span> is a
                 catalyst for the next generation of tech pioneers. We ignite a
                 passion for innovation by equipping young minds with the cutting
                 edge skills and knowledge they need to thrive in the ever
@@ -77,7 +77,7 @@ export default function AboutUs() {
                 advancements. Guided by our core values, we foster a dynamic and
                 collaborative environment that fuels creativity, critical
                 thinking, and a relentless pursuit of excellence.{" "}
-                <span className="text-black font-bold">Lupleg</span> is more
+                <span className="text-white font-bold">Lupleg</span> is more
                 than just an educational provider; we are architects of the
                 future, one empowered tech pioneer at a time.
               </p>
@@ -85,7 +85,7 @@ export default function AboutUs() {
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 pt-10 lg:grid-cols-4">
               <div className="flex flex-col items-center justify-center space-y-2">
                 <RocketIcon className="h-8 w-8 text-orange-500 dark:text-orange-400" />
-                <h3 className="text-xl font-bold">Innovation</h3>
+                <h3 className="text-xl font-bold text-white ">Innovation</h3>
                 <p className="text-gray-100 dark:text-gray-100">
                   We're constantly exploring emerging trends in artificial
                   intelligence and machine learning to develop future-proof
@@ -94,7 +94,7 @@ export default function AboutUs() {
               </div>
               <div className="flex flex-col items-center justify-center space-y-2">
                 <BriefcaseIcon className="h-8 w-8 text-orange-500 dark:text-orange-400" />
-                <h3 className="text-xl font-bold">Expertise</h3>
+                <h3 className="text-xl font-bold text-white">Expertise</h3>
                 <p className="text-gray-100 dark:text-gray-100">
                   Our team of experts leverages their deep understanding to
                   craft exceptional solutions tailored to our users' unique
@@ -103,7 +103,7 @@ export default function AboutUs() {
               </div>
               <div className="flex flex-col items-center justify-center space-y-2">
                 <HeartHandshakeIcon className="h-8 w-8 text-orange-500 dark:text-orange-400" />
-                <h3 className="text-xl font-bold">Collaboration</h3>
+                <h3 className="text-xl font-bold text-white">Collaboration</h3>
                 <p className="text-gray-100 dark:text-gray-100">
                   We believe in fostering strong partnerships with clients,
                   colleagues, and stakeholders, built on open communication and
@@ -112,7 +112,7 @@ export default function AboutUs() {
               </div>
               <div className="flex flex-col items-center justify-center space-y-2">
                 <FileSignatureIcon className="h-8 w-8 text-orange-500 dark:text-orange-400" />
-                <h3 className="text-xl font-bold">Integrity</h3>
+                <h3 className="text-xl font-bold text-white">Integrity</h3>
                 <p className="text-gray-100 dark:text-gray-100">
                   Honesty, transparency, and ethical conduct are the guiding
                   principles for our personal growth & product development.
