@@ -53,7 +53,7 @@ export default function AboutUs() {
               alt="About Us"
               className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last lg:aspect-square"
               height="550"
-              src="/web.png"
+              src="/Lupleg Banner.png"
               width="550"
             />
           </div>
