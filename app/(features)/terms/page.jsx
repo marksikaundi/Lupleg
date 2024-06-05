@@ -9,7 +9,7 @@ export default function Terms() {
           These Terms and Conditions (&quot;Terms &quot;, &quot;Terms and
           Conditions &quot;) govern your relationship with Lupleg (the
           &quot;Service &quot;) operated by{" "}
-          <span className="font-bold text-green-900">DevCircle Africa</span>{" "}
+          <span className="font-bold text-green-900">Lupleg</span>{" "}
           (&quot;us &quot;, &quot;we &quot;, or &quot;our &quot;).
         </p>
         <h2 className="font-mono font-bold my-6 ">1. Introduction</h2>
@@ -106,7 +106,7 @@ export default function Terms() {
           regarding the Service.
         </p>
         <p className="mb-14 font-mono">
-          <span className="font-bold">Last updated:</span> 30 March 2024.
+          <span className="font-bold">Last updated:</span> 04 June 2024.
         </p>
       </div>
     </div>
