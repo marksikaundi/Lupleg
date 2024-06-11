@@ -1,138 +1,188 @@
 import Link from "next/link";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { Button } from "@/components/ui/button";
 
-export default function Component() {
+export default function Partnership() {
   return (
-    <div className="bg-white">
-      <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-        <div className="lg:top-0 lg:text-left">
-          <p className="text-sm font-semibold uppercase leading-6 tracking-wide text-green-950">
-            Partner With Us
-          </p>
-          <h2 className="mt-2 text-2xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl">
-            How would you like to partner with us?
-          </h2>
+    <main className="flex-1">
+      <section className="w-full pt-12 md:pt-24 lg:pt-32 border-y">
+        <div className="px-4 md:px-6 space-y-10 xl:space-y-16">
+          <div className="grid max-w-[1300px] mx-auto gap-4 px-4 sm:px-6 md:px-10 md:grid-cols-2 md:gap-16">
+            <div>
+              <h1 className="lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem]">
+                Partner with Lupleg EduSaaS
+              </h1>
+              <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
+                Lupleg is a leading provider of educational SaaS solutions. Join
+                our partner network and help schools and districts transform
+                their learning experiences.
+              </p>
+              <div className="space-x-4 mt-6 pb-10">
+                <Link
+                  href="#"
+                  className="inline-flex h-9 items-center justify-center rounded-md bg-[#C24229] px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-[#C24229] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+                  prefetch={false}
+                >
+                  Learn More
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="mt-10">
-          <ul className="md:grid md:grid-cols-3 md:gap-8">
-            <li>
-              <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
-                <div className="flex h-48 w-full flex-shrink-0 items-center justify-center bg-[#fde68a]">
-                  <BarChartIcon className="h-20 w-20 text-[#f59e0b]" />
-                </div>
-                <div className="flex flex-1 flex-col justify-between bg-white p-6">
-                  <div className="flex-1">
-                    <p className="text-xl font-semibold text-gray-900">
-                      Sponsor a training or student
-                    </p>
-                    <p className="mt-3 text-base text-gray-500">
-                      Collaborate with us to organize and manage your training
-                      projects seamlessly. Our team of experts will handle the
-                      intricacies while you focus on your core business
-                      objectives. With our comprehensive approach and
-                      cutting-edge technology, we work closely with you to
-                      develop impactful and engaging training programs that
-                      drive tangible results.
-                    </p>
-                  </div>
-                  <Link
-                    className="text-md w-48 rounded-md border-2 border-green-950 bg-green-950  p-4 text-white  md:block"
-                    href="#"
-                  >
-                    Organize a Training
-                  </Link>
-                </div>
-              </div>
-            </li>
-            <li className="mt-10 md:mt-0">
-              <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
-                <div className="flex h-48 w-full flex-shrink-0 items-center justify-center bg-[#f87171]">
-                  <BarChartIcon className="h-20 w-20 text-[#ef4444]" />
-                </div>
-                <div className="flex flex-1 flex-col justify-between bg-white p-6">
-                  <div className="flex-1">
-                    <p className="text-xl font-semibold text-gray-900">
-                      Hire our graduates
-                    </p>
-                    <p className="mt-3 text-base text-gray-500">
-                      As a leading global talent acquisition company, we
-                      specialize in helping organizations worldwide discover and
-                      hire exceptional talent without straining their budget.
-                      Rely on our expertise and extensive network to find and
-                      onboard the best professionals for your team, ensuring
-                      that you have the right skills and expertise to drive
-                      success.
-                    </p>
-                  </div>
-                  <Link
-                    className="text-md w-48 rounded-md border-2 border-green-950 bg-green-950  p-4 text-white  md:block"
-                    href="#"
-                  >
-                    Hire Lupleg Talents
-                  </Link>
-                </div>
-              </div>
-            </li>
-            <li className="mt-10 md:mt-0">
-              <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
-                <div className="flex h-48 w-full flex-shrink-0 items-center justify-center bg-[#c084fc]">
-                  <BarChartIcon className="h-20 w-20 text-[#a855f7]" />
-                </div>
-                <div className="flex flex-1 flex-col justify-between bg-white p-6">
-                  <div className="flex-1">
-                    <p className="text-xl font-semibold text-gray-900">
-                      Donate to the cause
-                    </p>
-                    <p className="mt-3 text-base text-gray-500">
-                      Join us in creating a thriving ecosystem where African
-                      youth have access to essential resources, opportunities,
-                      and support to excel in the tech industry. You can
-                      contribute by sponsoring training programs or donating to
-                      our scholarship funds. Together, let's empower the next
-                      generation and fuel the transformation in the tech
-                      industry.
-                    </p>
-                  </div>
-
-                  <Link
-                    className="text-md w-48 rounded-md border-2 border-green-950 bg-green-950  p-4 text-white  md:block"
-                    href="#"
-                  >
-                    Donate to Lupleg
-                  </Link>
-                </div>
-              </div>
-            </li>
-          </ul>
+      </section>
+      <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
+        <div className="container space-y-12 px-4 md:px-6">
+          <div className="flex flex-col items-center justify-center space-y-4 text-center">
+            <div className="space-y-2">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                Benefits of Partnering with Lupleg
+              </h2>
+              <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+                Lupleg's partner program offers a range of benefits to help you
+                grow your business and better serve your customers.
+              </p>
+            </div>
+          </div>
+          <div className="mx-auto grid items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3">
+            <div className="grid gap-1">
+              <h3 className="text-lg font-bold">Increased Revenue</h3>
+              <p className="text-sm text-gray-500 dark:text-gray-400">
+                Earn commissions and referral fees by promoting Lupleg's
+                solutions to your customers.
+              </p>
+            </div>
+            <div className="grid gap-1">
+              <h3 className="text-lg font-bold">Exclusive Discounts</h3>
+              <p className="text-sm text-gray-500 dark:text-gray-400">
+                Enjoy special pricing and discounts on Lupleg products and
+                services.
+              </p>
+            </div>
+            <div className="grid gap-1">
+              <h3 className="text-lg font-bold">Dedicated Support</h3>
+              <p className="text-sm text-gray-500 dark:text-gray-400">
+                Receive personalized support and training to help you
+                effectively sell and implement Lupleg solutions.
+              </p>
+            </div>
+            <div className="grid gap-1">
+              <h3 className="text-lg font-bold">Co-Marketing Opportunities</h3>
+              <p className="text-sm text-gray-500 dark:text-gray-400">
+                Collaborate with Lupleg on joint marketing campaigns to reach
+                new customers.
+              </p>
+            </div>
+            <div className="grid gap-1">
+              <h3 className="text-lg font-bold">Access to Resources</h3>
+              <p className="text-sm text-gray-500 dark:text-gray-400">
+                Leverage Lupleg's educational content, sales tools, and
+                technical resources to support your customers.
+              </p>
+            </div>
+            <div className="grid gap-1">
+              <h3 className="text-lg font-bold">Flexible Partnership Models</h3>
+              <p className="text-sm text-gray-500 dark:text-gray-400">
+                Choose from a variety of partnership options to best fit your
+                business needs and goals.
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-
-      <div className="">
-        <p className="m-10 mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-          From software development to mentorship, we offer a wide range of
-          services to help you succeed.
-        </p>
-      </div>
-    </div>
-  );
-}
-
-function BarChartIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <line x1="12" x2="12" y1="20" y2="10" />
-      <line x1="18" x2="18" y1="20" y2="4" />
-      <line x1="6" x2="6" y1="20" y2="16" />
-    </svg>
+      </section>
+      <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
+        <div className="container space-y-12 px-4 md:px-6">
+          <div className="flex flex-col items-center justify-center space-y-4 text-center">
+            <div className="space-y-2">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                Partnership Opportunities
+              </h2>
+              <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+                Lupleg offers a variety of partnership models to fit your
+                business needs and goals.
+              </p>
+            </div>
+          </div>
+          <div className="mx-auto grid items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3">
+            <div className="grid gap-1">
+              <h3 className="text-lg font-bold">Reseller</h3>
+              <p className="text-sm text-gray-500 dark:text-gray-400">
+                Sell Lupleg's solutions directly to your customers and earn
+                commissions on each sale.
+              </p>
+            </div>
+            <div className="grid gap-1">
+              <h3 className="text-lg font-bold">Referral</h3>
+              <p className="text-sm text-gray-500 dark:text-gray-400">
+                Refer customers to Lupleg and earn a percentage of the revenue
+                generated from each sale.
+              </p>
+            </div>
+            <div className="grid gap-1">
+              <h3 className="text-lg font-bold">Technology Partner</h3>
+              <p className="text-sm text-gray-500 dark:text-gray-400">
+                Integrate Lupleg's solutions with your own products and services
+                to provide a seamless experience for your customers.
+              </p>
+            </div>
+            <div className="grid gap-1">
+              <h3 className="text-lg font-bold">Consulting Partner</h3>
+              <p className="text-sm text-gray-500 dark:text-gray-400">
+                Offer implementation, training, and support services to Lupleg
+                customers and earn fees for your expertise.
+              </p>
+            </div>
+            <div className="grid gap-1">
+              <h3 className="text-lg font-bold">Affiliate</h3>
+              <p className="text-sm text-gray-500 dark:text-gray-400">
+                Promote Lupleg's solutions on your website or through your
+                marketing channels and earn a commission on each sale.
+              </p>
+            </div>
+            <div className="grid gap-1">
+              <h3 className="text-lg font-bold">Strategic Partner</h3>
+              <p className="text-sm text-gray-500 dark:text-gray-400">
+                Collaborate with Lupleg on joint go-to-market strategies,
+                product development, and other strategic initiatives.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
+        <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
+          <div className="space-y-3">
+            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
+              Interested in Partnering with Lupleg?
+            </h2>
+            <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+              Fill out the form below to get started.
+            </p>
+          </div>
+          <div className="mx-auto w-full max-w-sm space-y-2">
+            <form className="flex flex-col space-y-4">
+              <Input
+                type="text"
+                placeholder="Company Name"
+                className="max-w-lg"
+              />
+              <Input
+                type="email"
+                placeholder="Email Address"
+                className="max-w-lg"
+              />
+              <Textarea
+                placeholder="Tell us about your business and why you're interested in partnering with Lupleg"
+                className="max-w-lg"
+                rows={4}
+              />
+              <Button type="submit" className="bg-[#C24229] hover:bg-[#000000]">
+                Submit
+              </Button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
   );
 }
