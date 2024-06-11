@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
-import Cards from "/components/FeaturesCards/Cards.jsx";
+// import Cards from "/components/FeaturesCards/Cards.jsx";
+import ProgramSummary from "@/components/FeaturesCards/ProgramSummary";
 import Link from "next/link";
 
 export default function Component() {
@@ -24,8 +25,10 @@ export default function Component() {
           <Link href="contacts">Get started</Link>
         </Button>
         <br />
-        <Cards />
+        {/* <Cards /> */}
+        
       </div>
+      <ProgramSummary />
     </div>
   );
 }
