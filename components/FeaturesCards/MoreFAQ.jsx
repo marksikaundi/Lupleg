@@ -1,103 +1,88 @@
 "use client";
-import React, { useState, useEffect } from "react";
-import { FaPlus, FaMinus } from "react-icons/fa";
 
-const faqData = [
-  {
-    question: "What can I expect from Lupleg?",
-    answer:
-      " Lupleg provides coding challenges that are designed to improve your HTML, CSS, and JavaScript skills. The challenges are varied and range in difficulty levels.  ",
-  },
-  {
-    question: "What level of experience do i need ?",
-    answer:
-      "Our coding challenges are suitable for developers of all experience levels, from beginners to advanced coders. The challenges are designed to be challenging yet accessible.",
-  },
-  {
-    question: "How often are new challenge added?",
-    answer:
-      " We add a new coding challenge every day, so you can constantly improve your coding skills.",
-  },
-  {
-    question: "How do I submit my solution?",
-    answer:
-      "You can submit your solution by clicking the 'Submit Solution' button on the challenge page. You will be prompted to enter your code and submit it for review. Once you submit your solution, you will receive feedback on your code.",
-  },
-  {
-    question: "How do I know if my solution is correct?",
-    answer:
-      "Once you submit your solution, our team of expert reviewers will review your code and provide feedback on your solution. You will receive a score based on the quality of your code.",
-  },
-  {
-    question: "How can I improve my coding skills?",
-    answer:
-      "The best way to improve your coding skills is to practice regularly. Lupleg provides daily coding challenges that are designed to help you improve your coding skills. You can also participate in our coding challenges and receive feedback on your code.",
-  },
-  {
-    question: "How can I contact Lupleg?",
-    answer: "You can contact Lupleg by sending an email to dev@lupleg.website",
-  },
-];
+import { useState, useMemo } from "react";
+import { Input } from "@/components/ui/input";
+import {
+  Accordion,
+  AccordionItem,
+  AccordionTrigger,
+  AccordionContent,
+} from "@/components/ui/accordion";
 
-const MoreFAQ = ({ data }) => {
-  const [isOpen, setIsOpen] = useState(Array(data).fill(false));
-
-  const toggleAnswer = (index) => {
-    setIsOpen((prevOpen) => {
-      const updatedOpen = [...prevOpen];
-      updatedOpen[index] = !prevOpen[index];
-      return updatedOpen;
-    });
-  };
-
-  useEffect(() => {
-    setIsOpen((prevOpen) => {
-      prevOpen[0] = true;
-      return prevOpen;
-    });
-  }, []);
-
+export default function MoreFQA() {
+  const faqs = [
+    {
+      question: "What is the pricing for your SaaS product?",
+      answer:
+        "Our SaaS product offers a range of pricing plans to fit your needs. The basic plan starts at $9 per month, with additional features and support available in our higher-tier plans. You can view all of our pricing options on the Pricing page.",
+    },
+    {
+      question: "What features are included in your SaaS product?",
+      answer:
+        "Our SaaS product includes a comprehensive set of features to help you streamline your workflow and improve productivity. Some of the key features include project management tools, collaboration features, data visualization, and integrations with popular third-party apps. You can find a full list of features on our Features page.",
+    },
+    {
+      question: "How do I get started with your SaaS product?",
+      answer:
+        "Getting started with our SaaS product is easy. Simply sign up for an account on our website, and you'll be guided through the onboarding process. Our onboarding team is available to help you set up your account and customize the platform to fit your specific needs. If you have any questions or need assistance, don't hesitate to reach out to our support team.",
+    },
+    {
+      question: "What kind of support do you offer?",
+      answer:
+        "We pride ourselves on providing excellent customer support. Our support team is available 24/7 to assist you with any questions or issues you may have. You can reach out to us via email, phone, or our online chat feature. We also have a comprehensive knowledge base and FAQ section on our website, where you can find answers to common questions.",
+    },
+    {
+      question:
+        "Do you offer any training or resources for using your SaaS product?",
+      answer:
+        "Absolutely! We understand that getting started with a new SaaS product can be daunting, which is why we offer a variety of training resources to help you get the most out of our platform. This includes on-demand video tutorials, webinars, and a comprehensive user guide. Our team is also available to provide personalized training and support to ensure you're comfortable using all of the features and functionalities.",
+    },
+    {
+      question: "How secure is your SaaS product?",
+      answer:
+        "Security is of the utmost importance to us, and we take extensive measures to protect your data. Our SaaS product is built on a secure, encrypted platform and undergoes regular security audits to ensure compliance with industry standards. We also offer advanced security features, such as two-factor authentication and role-based access controls, to give you peace of mind.",
+    },
+  ];
+  const [searchTerm, setSearchTerm] = useState("");
+  const filteredFaqs = useMemo(() => {
+    return faqs.filter(
+      (faq) =>
+        faq.question.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        faq.answer.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+  }, [searchTerm]);
   return (
-    <div className="bg-green-950 ">
-      <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-        <div className="  overflow-hidden">
-          <div className="flex flex-col items-center justify-center px-4 py-5 sm:p-6 ">
-            <h2 className="  text-3xl md:text-5xl font-bold tracking-tight text-white">
-              Frequently Asked Questions
-            </h2>
-            <div className="mt-6">
-              <dl className="sm:divide-y sm:divide-gray-600">
-                {faqData.map((item, index) => (
-                  <div key={index} className="py-3 sm:py-4">
-                    <div className="flex justify-between items-center">
-                      <dt
-                        className={` lg:text-xl text-lg font-medium text-white cursor-pointer flex items-center ${
-                          isOpen[index] ? "text-white" : ""
-                        }`}
-                        onClick={() => toggleAnswer(index)}
-                      >
-                        {item.question}
-                        {isOpen[index] ? (
-                          <FaMinus className="ml-4" />
-                        ) : (
-                          <FaPlus className="ml-4" />
-                        )}
-                      </dt>
-                    </div>
-                    {isOpen[index] && (
-                      <dd className="mt-2 lg:text-lg text-md text-gray-200">
-                        {item.answer}
-                      </dd>
-                    )}
-                  </div>
-                ))}
-              </dl>
-            </div>
+    <section className="bg-white dark:bg-gray-950 py-12 md:py-16 lg:py-20">
+      <div className="container mx-auto px-4 md:px-6">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-5xl font-bold tracking-tight mb-8 md:mb-10">
+            Frequently Asked Questions
+          </h2>
+          <div className="mb-8 md:mb-10">
+            <Input
+              type="text"
+              placeholder="Search FAQs..."
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+              className="w-full px-4 py-3 rounded-md bg-gray-100 dark:bg-gray-800 dark:text-white"
+            />
           </div>
+          <Accordion type="single" collapsible>
+            {filteredFaqs.map((faq, index) => (
+              <AccordionItem key={index} value={`faq-${index}`}>
+                <AccordionTrigger className="text-lg font-medium">
+                  {faq.question}
+                </AccordionTrigger>
+                <AccordionContent>
+                  <p className="text-gray-500 dark:text-gray-400">
+                    {faq.answer}
+                  </p>
+                </AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
         </div>
       </div>
-    </div>
+    </section>
   );
-};
-
-export default MoreFAQ;
+}
