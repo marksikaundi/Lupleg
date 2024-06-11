@@ -1,3 +1,4 @@
+import MoreAboutUs from "@/components/FeaturesCards/AboutUs";
 import { AvatarImage, AvatarFallback, Avatar } from "@/components/ui/avatar";
 import Link from "next/link";
 
@@ -59,6 +60,7 @@ export default function AboutUs() {
           </div>
         </div>
       </section>
+      <MoreAboutUs/>
       <section className="w-full py-12 md:py-24 lg:py-32 bg-[#122E17] dark:bg-[#122E17]">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
