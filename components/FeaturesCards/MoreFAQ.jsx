@@ -29,13 +29,13 @@ export default function MoreFQA() {
     {
       question: "What kind of support do you offer?",
       answer:
-        "We pride ourselves on providing excellent customer support. Our support team is available 24/7 to assist you with any questions or issues you may have. You can reach out to us via email, phone, or our online chat feature. We also have a comprehensive knowledge base and FAQ section on our website, where you can find answers to common questions.",
+        "We provide excellent customer support. Our support team is available 24/7 to assist you with any questions or issues you may have. You can reach out to us via email, phone, or our online chat feature. We also have a comprehensive knowledge base and FAQ section on our website, where you can find answers to common questions.",
     },
     {
       question:
         "Do you offer any training or resources for using your SaaS product?",
       answer:
-        "Absolutely! We understand that getting started with a new SaaS product can be daunting, which is why we offer a variety of training resources to help you get the most out of our platform. This includes on-demand video tutorials, webinars, and a comprehensive user guide. Our team is also available to provide personalized training and support to ensure you're comfortable using all of the features and functionalities.",
+        "Absolutely! We understand that getting started with a new SaaS product can be daunting, which is why we offer a variety of training resources to help you get the most out of our platform. This includes on-demand video tutorials, webinars, and a comprehensive user guide. Our team is also available to provide personalized training and support to ensure you're comfortable using all of the features and functionalities. For more you can get started from mms.lupleg.website",
     },
     {
       question: "How secure is your SaaS product?",
