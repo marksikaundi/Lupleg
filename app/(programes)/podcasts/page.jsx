@@ -88,7 +88,7 @@ export default function Component() {
                   🎙️
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold">John Doe</h3>
+                  <h3 className="text-lg font-bold">Mark Sikaundi</h3>
                   <p className="text-gray-500 dark:text-gray-400">
                     Tech Enthusiast and Podcast Host
                   </p>
@@ -96,21 +96,22 @@ export default function Component() {
               </div>
               <div className="flex flex-col gap-2">
                 <div className="text-gray-500 dark:text-gray-400">
-                  John Doe is a tech enthusiast and the host of The Tech
-                  Podcast. With over 10 years of experience in the industry, he
-                  shares his insights and interviews with leading experts to
-                  keep you up-to-date on the latest trends and innovations.
+                  Mark Sikaundi is a tech enthusiast and the host of The Tech
+                  Hack Africa Podcast. With over 10 years of experience in the
+                  industry, he shares his insights and interviews with leading
+                  experts to keep you up-to-date on the latest trends and
+                  innovations.
                 </div>
                 <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
                   <TwitterIcon className="w-5 h-5" />
                   <Link href="#" className="hover:underline" prefetch={false}>
-                    @johndoe
+                    @Alisikaundi
                   </Link>
                 </div>
                 <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
                   <LinkedinIcon className="w-5 h-5" />
                   <Link href="#" className="hover:underline" prefetch={false}>
-                    John Doe
+                    Mark Sikaundi
                   </Link>
                 </div>
               </div>
