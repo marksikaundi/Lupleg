@@ -104,13 +104,13 @@ export default function Component() {
                 </div>
                 <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
                   <TwitterIcon className="w-5 h-5" />
-                  <Link href="#" className="hover:underline" prefetch={false}>
+                  <Link href="https://x.com/Alisikaundi" className="hover:underline" prefetch={false}>
                     @Alisikaundi
                   </Link>
                 </div>
                 <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
                   <LinkedinIcon className="w-5 h-5" />
-                  <Link href="#" className="hover:underline" prefetch={false}>
+                  <Link href="https://linkedin.com/in/marksikaundi" className="hover:underline" prefetch={false}>
                     Mark Sikaundi
                   </Link>
                 </div>
@@ -167,13 +167,13 @@ export default function Component() {
               </div>
               <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
                 <TwitterIcon className="w-5 h-5" />
-                <Link href="#" className="hover:underline" prefetch={false}>
+                <Link href="https://x.com/Alisikaundi" className="hover:underline" prefetch={false}>
                   @Alisikaundi
                 </Link>
               </div>
               <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
                 <LinkedinIcon className="w-5 h-5" />
-                <Link href="#" className="hover:underline" prefetch={false}>
+                <Link href="https://linkedin.com/in/marksikaundi" className="hover:underline" prefetch={false}>
                   Mark Sikaundi
                 </Link>
               </div>
@@ -199,19 +199,19 @@ export default function Component() {
             <CardContent className="space-y-2">
               <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
                 <TwitterIcon className="w-5 h-5" />
-                <Link href="#" className="hover:underline" prefetch={false}>
+                <Link href="https://x.com/Alisikaundi" className="hover:underline" prefetch={false}>
                   @lupleg
                 </Link>
               </div>
               <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
                 <InstagramIcon className="w-5 h-5" />
-                <Link href="#" className="hover:underline" prefetch={false}>
+                <Link href="https://intagram.com/marksikaundi" className="hover:underline" prefetch={false}>
                   Lupleg
                 </Link>
               </div>
               <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
                 <YoutubeIcon className="w-5 h-5" />
-                <Link href="#" className="hover:underline" prefetch={false}>
+                <Link href="https://youtube.com/@Lupleg" className="hover:underline" prefetch={false}>
                   Lupleg
                 </Link>
               </div>
