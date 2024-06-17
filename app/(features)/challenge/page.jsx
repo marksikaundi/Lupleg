@@ -51,7 +51,7 @@ function Challenge() {
           <p className="text-green-950 text-lg mt-4 mb-8 w-96 max-w-full">
             Join{" "}
             <b>
-              <a className="cursor-pointer" href="/stats">
+              <a className="cursor-pointer" href="https://app.lupleg.website/profile">
                 10240
               </a>
               + developers
@@ -62,7 +62,7 @@ function Challenge() {
             <div className="animated-border after:opacity-100 before:opacity-100 p-0.5 rounded-lg text-green-900 flex justify-center items-center">
               <a
                 className="bg-green-900 text-white text-lg font-bold py-4 px-8 cursor-pointer relative w-full rounded-lg group-hover:bg-green-700 z-10"
-                href="/dashboard"
+                href="https://app.lupleg.website/dashboard"
               >
                 Start coding
               </a>
