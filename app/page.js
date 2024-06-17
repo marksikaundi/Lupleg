@@ -24,8 +24,6 @@ export default function Home() {
           <Link href="challenge">Get started</Link>
         </Button>
         <br />
-        {/* <Cards /> */}
-        
       </div>
       <ProgramSummary />
     </div>
