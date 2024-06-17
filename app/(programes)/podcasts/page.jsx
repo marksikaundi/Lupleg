@@ -88,7 +88,7 @@ export default function Component() {
                   🎙️
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold">John Doe</h3>
+                  <h3 className="text-lg font-bold">Mark Sikaundi</h3>
                   <p className="text-gray-500 dark:text-gray-400">
                     Tech Enthusiast and Podcast Host
                   </p>
@@ -96,21 +96,30 @@ export default function Component() {
               </div>
               <div className="flex flex-col gap-2">
                 <div className="text-gray-500 dark:text-gray-400">
-                  John Doe is a tech enthusiast and the host of The Tech
-                  Podcast. With over 10 years of experience in the industry, he
-                  shares his insights and interviews with leading experts to
-                  keep you up-to-date on the latest trends and innovations.
+                  Mark Sikaundi is a tech enthusiast and the host of The Tech
+                  Hack Africa Podcast. With over 10 years of experience in the
+                  industry, he shares his insights and interviews with leading
+                  experts to keep you up-to-date on the latest trends and
+                  innovations.
                 </div>
                 <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
                   <TwitterIcon className="w-5 h-5" />
-                  <Link href="#" className="hover:underline" prefetch={false}>
-                    @johndoe
+                  <Link
+                    href="https://x.com/Alisikaundi"
+                    className="hover:underline"
+                    prefetch={false}
+                  >
+                    @Alisikaundi
                   </Link>
                 </div>
                 <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
                   <LinkedinIcon className="w-5 h-5" />
-                  <Link href="#" className="hover:underline" prefetch={false}>
-                    John Doe
+                  <Link
+                    href="https://linkedin.com/in/marksikaundi"
+                    className="hover:underline"
+                    prefetch={false}
+                  >
+                    Mark Sikaundi
                   </Link>
                 </div>
               </div>
@@ -131,13 +140,14 @@ export default function Component() {
             <h2 className="text-2xl font-bold mb-4">Listen to the Podcast</h2>
             <div className="aspect-video rounded-xl overflow-hidden">
               <iframe
-                src="https://open.spotify.com/embed/episode/4XZYRd3dondnKGy9p8YITx?utm_source=generator"
+                src="https://podcasters.spotify.com/pod/dashboard/episode/e2jcugs/qa"
                 width="100%"
                 height="100%"
                 frameBorder="0"
                 allowFullScreen
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
               />
+              
             </div>
           </div>
         </div>
@@ -166,13 +176,21 @@ export default function Component() {
               </div>
               <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
                 <TwitterIcon className="w-5 h-5" />
-                <Link href="#" className="hover:underline" prefetch={false}>
+                <Link
+                  href="https://x.com/Alisikaundi"
+                  className="hover:underline"
+                  prefetch={false}
+                >
                   @Alisikaundi
                 </Link>
               </div>
               <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
                 <LinkedinIcon className="w-5 h-5" />
-                <Link href="#" className="hover:underline" prefetch={false}>
+                <Link
+                  href="https://linkedin.com/in/marksikaundi"
+                  className="hover:underline"
+                  prefetch={false}
+                >
                   Mark Sikaundi
                 </Link>
               </div>
@@ -198,19 +216,31 @@ export default function Component() {
             <CardContent className="space-y-2">
               <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
                 <TwitterIcon className="w-5 h-5" />
-                <Link href="#" className="hover:underline" prefetch={false}>
+                <Link
+                  href="https://x.com/Alisikaundi"
+                  className="hover:underline"
+                  prefetch={false}
+                >
                   @lupleg
                 </Link>
               </div>
               <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
                 <InstagramIcon className="w-5 h-5" />
-                <Link href="#" className="hover:underline" prefetch={false}>
+                <Link
+                  href="https://intagram.com/marksikaundi"
+                  className="hover:underline"
+                  prefetch={false}
+                >
                   Lupleg
                 </Link>
               </div>
               <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
                 <YoutubeIcon className="w-5 h-5" />
-                <Link href="#" className="hover:underline" prefetch={false}>
+                <Link
+                  href="https://youtube.com/@Lupleg"
+                  className="hover:underline"
+                  prefetch={false}
+                >
                   Lupleg
                 </Link>
               </div>
