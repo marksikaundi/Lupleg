@@ -273,7 +273,7 @@ function Challenge() {
         </h2>
         <a
           className="inline-block bg-green-900  text-white text-lg font-bold rounded-lg py-4 px-8 cursor-pointer hover:opacity-80"
-          href="/dashboard"
+          href="https://app.lupleg.website/dashboard"
         >
           Join challenge
         </a>
