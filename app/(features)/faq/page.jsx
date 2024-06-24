@@ -19,7 +19,7 @@ function FAQ() {
                 specific needs?{" "}
               </h3>
               <div className="bg-green-200 text-black  text-xs md:text-sm px-4 py-2 rounded-2xl">
-                For Business
+                Business
               </div>
             </div>
 
@@ -55,7 +55,7 @@ function FAQ() {
                 constraints?
               </h3>
               <div className="bg-green-200 text-black text-xs md:text-sm px-4 py-2 rounded-2xl">
-                For NGOs
+                NGOs
               </div>
             </div>
 
