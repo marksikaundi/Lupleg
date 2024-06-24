@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
-export default function Component() {
+export default function Podcasts() {
   return (
     <div className="w-full">
       <section className="w-full bg-gray-950 py-12 md:py-20 lg:py-28">
