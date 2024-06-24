@@ -11,12 +11,12 @@ export default function Partnership() {
           <div className="grid max-w-[1300px] mx-auto gap-4 px-4 sm:px-6 md:px-10 md:grid-cols-2 md:gap-16">
             <div>
               <h1 className="lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem]">
-                Partner with Lupleg 
+                Partner with Lupleg
               </h1>
               <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                Lupleg is a leading provider of educational solutions. Join
-                our partner network and help schools and districts transform
-                their learning experiences.
+                Lupleg is a leading provider of educational solutions. Join our
+                partner network and help schools and districts transform their
+                learning experiences.
               </p>
               <div className="space-x-4 mt-6 pb-10">
                 <Link
@@ -146,40 +146,6 @@ export default function Partnership() {
                 product development, and other strategic initiatives.
               </p>
             </div>
-          </div>
-        </div>
-      </section>
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
-        <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
-          <div className="space-y-3">
-            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-              Interested in Partnering with Lupleg?
-            </h2>
-            <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              Fill out the form below to get started.
-            </p>
-          </div>
-          <div className="mx-auto w-full max-w-sm space-y-2">
-            <form className="flex flex-col space-y-4">
-              <Input
-                type="text"
-                placeholder="Company Name"
-                className="max-w-lg"
-              />
-              <Input
-                type="email"
-                placeholder="Email Address"
-                className="max-w-lg"
-              />
-              <Textarea
-                placeholder="Tell us about your business and why you're interested in partnering with Lupleg"
-                className="max-w-lg"
-                rows={4}
-              />
-              <Button type="submit" className="bg-[#C24229] hover:bg-[#000000]">
-                Submit
-              </Button>
-            </form>
           </div>
         </div>
       </section>
