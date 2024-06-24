@@ -45,7 +45,7 @@ export default function Footer() {
           <h5 className="mb-4 font-bold">Resources</h5>
           <ul className="space-y-3">
             <li>
-              <Link href="podcasts">Podcasts</Link>
+              <Link href="affiliates">Affiliates</Link>
             </li>
             <li>
               <Link href="https://mms.lupleg.website">MMS</Link>
