@@ -5,9 +5,9 @@ import {
   CardDescription,
   CardContent,
 } from "@/components/ui/card";
-import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 
-export default function Component() {
+export default function Sponsor() {
   return (
     <div className="w-full">
       <section className="w-full py-12 md:py-24 lg:py-32">
