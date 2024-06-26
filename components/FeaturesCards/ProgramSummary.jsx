@@ -31,6 +31,13 @@ function ProgramSummary() {
         imageUrl="https://i.imgur.com/i4Sdm62.jpg"
         learnMoreLink="mentorships"
       />
+
+      <CardSection
+        subtitle="Office Productivity Softwares  "
+        description="The Office Productivity Softwares Training Programs are short courses that are designed to help you learn how to use popular office productivity software like Microsoft Office, Google Workspace, and more. You will learn how to create documents, spreadsheets, presentations, and more, and how to collaborate with others using these tools. Each course is taught by an expert instructor, and includes hands-on projects and real-world examples. By the end of the course, you will have the skills and confidence to succeed in your chosen field."
+        imageUrl="https://i.imgur.com/AOuw4qC.jpg"
+        learnMoreLink="office-productivity-software"
+      />
     </div>
   );
 }
