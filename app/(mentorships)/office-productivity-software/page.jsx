@@ -137,15 +137,8 @@ export default function OfficeProductivity() {
         </p>
 
         <p>
-          Trainer expertise: The program should be led by experienced trainers
-          with strong technical skills and instructional abilities.
-        </p>
-
-        <p>
-          By following this comprehensive layout and incorporating best
-          practices, you can design an office productivity software mentorship
-          program that empowers individuals to become proficient and confident
-          users of these valuable tools.
+          Trainer expertise: The program is led by experienced trainers with
+          strong technical skills and instructional abilities.
         </p>
 
         <p className="mb-14 font-mono">
