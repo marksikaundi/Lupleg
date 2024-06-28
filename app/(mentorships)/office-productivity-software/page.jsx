@@ -149,7 +149,7 @@ export default function OfficeProductivity() {
         </p>
 
         <p className="mb-14 font-mono">
-          <span className="font-bold">Last updated:</span> 04 June 2024.
+          <span className="font-bold">Last updated:</span> 29 June 2024.
         </p>
       </div>
     </div>
