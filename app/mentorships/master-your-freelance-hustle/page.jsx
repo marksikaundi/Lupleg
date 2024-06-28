@@ -1,7 +1,6 @@
 import React from "react";
 import { LuListStart } from "react-icons/lu";
 
-
 export default function FreelanceHustle() {
   return (
     <div class="flex flex-col items-center container px-4 mx-auto">
@@ -68,7 +67,7 @@ export default function FreelanceHustle() {
           </li>
         </ul>
 
-        <h2 className="font-mono font-bold my-6 ">Month 1: <LuListStart/> Foundations</h2>
+        <h2 className="font-mono font-bold my-6 ">Month 1: ⛲️ Foundations</h2>
         <p>
           This month is all about setting yourself up for success as a
           freelancer. You'll solidify your niche, define your goals, and
@@ -97,6 +96,10 @@ export default function FreelanceHustle() {
         <h2 className="font-mono font-bold my-6 ">
           Month 2: 🔩 Building Your Business
         </h2>
+
+        {/* <h2 className="font-mono font-bold my-6 flex items-center">
+          Month 1: <LuListStart className="mx-2" /> Foundations
+        </h2> */}
         <p>
           Now that your foundation is set, Month 2 focuses on attracting
           clients, building strong relationships, and delivering exceptional
