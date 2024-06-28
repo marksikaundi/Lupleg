@@ -29,7 +29,7 @@ export default function Header() {
           </Link>
           <Link
             className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
-            href="mentorships"
+            href="mentorship"
           >
             Mentorships
           </Link>
@@ -79,7 +79,7 @@ export default function Header() {
             <SheetTrigger asChild>
               <Link
                 className="flex w-full items-center py-2 text-lg font-semibold"
-                href="mentorships"
+                href="mentorship"
               >
                 Mentorships
               </Link>
@@ -103,7 +103,9 @@ export default function Header() {
             <div className="w-30 flex   items-center rounded-full">
               <Button className="text-md text-white">
                 <SheetTrigger asChild>
-                  <Link href="https://app.lupleg.website/dashboard">Join Now</Link>
+                  <Link href="https://app.lupleg.website/dashboard">
+                    Join Now
+                  </Link>
                 </SheetTrigger>
               </Button>
             </div>
