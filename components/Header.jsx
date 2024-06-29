@@ -10,7 +10,7 @@ export default function Header() {
     <header className="flex flex-wrap items-center justify-between bg-white p-6 dark:bg-gray-800">
       <div className="flex items-center space-x-3">
         <Link href="/">
-          <Image src="/lupleg.png" alt="Lupleg" width={300} height={200} />
+          <Image src="/lupleg.svg" alt="Lupleg" width={300} height={200} />
         </Link>
       </div>
       <div className="hidden md:block">
