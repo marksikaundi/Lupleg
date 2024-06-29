@@ -96,7 +96,7 @@ function Challenge() {
                   <img
                     alt="Challenge Image"
                     sizes="100vw"
-                    src="https://icodethis.com/_next/image?url=%2Fimages%2Fprojects%2Fmovie_card.png&w=1920&q=75"
+                    src="https://utfs.io/f/8f537474-0d20-4193-b7ee-96cf95a88ea2-u9ii4h.webp"
                     decoding="async"
                     data-nimg="fill"
                     className="object-cover h-auto w-full rounded-md"

@@ -2,6 +2,7 @@ import React from "react";
 import CardSection from "@/components/FeaturesCards/CardSection";
 import CardSections from "@/components/FeaturesCards/CardSections";
 import MoreFAQ from "@/components/FeaturesCards/MoreFAQ";
+import Image from "next/image";
 
 function Organization() {
   return (
@@ -24,10 +25,8 @@ function Organization() {
             </h1>
           </div>
           <div className="flex justify-center">
-            <img
-              src="https://assets-global.website-files.com/63e4cc8d2ac61a3dee9bb0ee/649fc78acaebbe296387ce9f_Screenshot%202023-07-01%20at%2007.25-p-1080.webp"
-              className="rounded-md object-cover"
-            ></img>
+            <Image className="rounded-lg object-cover" src="https://utfs.io/f/2963cb85-bc07-447c-ba8b-c9af9e040989-6i07zd.png" width={900} height={200} alt="presenter"/>
+            
           </div>
         </div>
       </div>
