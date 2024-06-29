@@ -18,6 +18,42 @@ export default function Academy() {
       <section className="bg-gray-100 py-12 md:py-24 lg:py-32 dark:bg-gray-800">
         <div className="container mx-auto px-4">
           <div className="grid gap-6 md:gap-12 lg:grid-cols-2 xl:gap-16">
+            {/* Course 00 */}
+            <div className="flex flex-col justify-center space-y-4">
+              <div className="space-y-2">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
+                  Office Productivity Suite
+                </h2>
+                <p className="text-2xl font-bold tracking-tighter text-gray-500 sm:text-3xl dark:text-gray-400">
+                  $15
+                </p>
+              </div>
+              <p className="mx-auto max-w-md text-gray-500 md:text-xl lg:text-base xl:text-xl dark:text-gray-400">
+                This course will introduce you to the world of office
+                productivity suite. You will learn how to use Microsoft Office,
+                Google Docs, and other productivity tools.
+              </p>
+              <Link
+                href="/office-productivity-software"
+                className="btn inline-block w-full text-green-900 hover:text-orange-500 md:w-auto"
+              >
+                Learn more →
+              </Link>
+            </div>
+            <div className="aspect-w-16 aspect-h-9 mx-auto overflow-hidden rounded-xl sm:order-last sm:aspect-video">
+              <img
+                alt="React Course"
+                className="object-cover"
+                src="https://utfs.io/f/dcdb26ac-4a38-4a3b-affa-2c16d3f5473a-t3524v.png"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-gray-100 py-12 md:py-24 lg:py-32 dark:bg-gray-800">
+        <div className="container mx-auto px-4">
+          <div className="grid gap-6 md:gap-12 lg:grid-cols-2 xl:gap-16">
             {/* Course 01 */}
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">
@@ -90,18 +126,20 @@ export default function Academy() {
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
-                  Freelancing 101
+                  Master Your Freelance Hustle
                 </h2>
                 <p className="text-2xl font-bold tracking-tighter text-gray-500 sm:text-3xl dark:text-gray-400">
-                  $20
+                  $10
                 </p>
               </div>
               <p className="mx-auto max-w-md text-gray-500 md:text-xl lg:text-base xl:text-xl dark:text-gray-400">
-                This course will introduce you to Freelancing basics starting
-                from scratch to landing your first client on Upwork. .
+                The Master Your Freelance Hustle Mentorship is a 3-month program
+                that is designed to help you become a successful freelancer. You
+                will learn how to find clients, negotiate contracts, and deliver
+                high-quality work on time and on budget.
               </p>
               <Link
-                href="#"
+                href="/master-your-freelance-hustle"
                 className="btn inline-block w-full text-green-900 hover:text-orange-500 md:w-auto"
               >
                 Learn more →
@@ -111,7 +149,7 @@ export default function Academy() {
               <img
                 alt="Freelancing Course"
                 className="object-cover"
-                src="/freelancing.png"
+                src="https://utfs.io/f/06caf2fd-5a18-40ce-86c1-57db0534d677-u2t8af.png"
               />
             </div>
           </div>
