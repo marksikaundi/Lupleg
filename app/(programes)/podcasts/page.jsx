@@ -59,6 +59,8 @@ export default function Podcasts() {
           </div>
         </div>
       </section>
+      //Todo: Add the podcast episodes here with the following structure for each episode.
+
       <section className="w-full py-12 md:py-20 lg:py-28">
         <div className="container grid grid-cols-1 gap-8 md:grid-cols-3 md:gap-12">
           {[...Array(6)].map((_, index) => (
@@ -149,7 +151,6 @@ export default function Podcasts() {
                 <img
                   src="https://tools.applemediaservices.com/api/badges/listen-on-apple-podcasts/badge/en-us?size=250x83&amp;releaseDate=1715135040"
                   alt="Listen on Apple Podcasts"
-                  // style="border-radius: 13px; width: 250px; height: 83px;"
                   className="rounded-md w-60 h-20"
                 />
               </Link>
