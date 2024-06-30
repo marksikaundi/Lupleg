@@ -6,23 +6,23 @@ import { Badge } from "@/components/ui/badge";
 export default function Podcasts() {
   return (
     <div className="w-full">
-      <section className="w-full bg-gray-950 py-12 md:py-20 lg:py-28">
+      <section className="w-full py-12 md:py-20 lg:py-28">
         <div className="container grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-16">
           <div className="flex flex-col items-start justify-center space-y-6">
-            <h1 className="text-3xl font-bold tracking-tighter text-gray-50 sm:text-4xl md:text-5xl lg:text-6xl">
+            <h1 className="text-3xl font-bold tracking-tighter text-[#122E17] sm:text-4xl md:text-5xl lg:text-6xl">
               Tech Hack Africa
             </h1>
-            <p className="max-w-[600px] text-gray-400 md:text-xl">
+            <p className="max-w-[600px] text-black md:text-xl">
               Dive into the latest trends, technologies, and innovations shaping
               the tech industry with our informative and engaging podcast.
             </p>
             <div className="flex items-center gap-4">
-              <Button size="lg" className="w-full max-w-[200px] md:w-auto">
+              <Button size="lg" className="w-full bg-[#C24229] hover:bg-[#C24229]  max-w-[200px] md:w-auto">
                 Subscribe
               </Button>
               <Link
                 href="https://youtube.com/@Lupleg"
-                className="text-gray-400 hover:text-gray-50 transition-colors"
+                className="text-[#122E17] hover:text-[#122E17] transition-colors"
                 prefetch={false}
               >
                 <YoutubeIcon className="w-6 h-6" />
@@ -30,7 +30,7 @@ export default function Podcasts() {
               </Link>
               <Link
                 href="https://open.spotify.com/show/24kARiE1lvC1b6GN4AXPmh"
-                className="text-gray-400 hover:text-gray-50 transition-colors"
+                className="text-[#122E17] hover:text-[#122E17] transition-colors"
                 prefetch={false}
               >
                 <AirplayIcon className="w-6 h-6" />
@@ -38,7 +38,7 @@ export default function Podcasts() {
               </Link>
               <Link
                 href="https://podcasts.apple.com/ng/podcast/tech-hacks-in-africa/id1731008771"
-                className="text-gray-400 hover:text-gray-50 transition-colors"
+                className="text-[#122E17] hover:text-[#122E17] transition-colors"
                 prefetch={false}
               >
                 <AppleIcon className="w-6 h-6" />
@@ -140,14 +140,18 @@ export default function Podcasts() {
             <h2 className="text-2xl font-bold mb-4">Listen to the Podcast</h2>
             <div className="aspect-video rounded-xl overflow-hidden">
               <iframe
-                src="https://podcasters.spotify.com/pod/dashboard/episode/e2jcugs/qa"
-                width="100%"
-                height="100%"
-                frameBorder="0"
-                allowFullScreen
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-              />
-              
+                allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
+                frameborder="0"
+                height="175"
+                style={{
+                  width: "100%",
+                  maxWidth: "660px",
+                  overflow: "hidden",
+                  borderRadius: "10px",
+                }}
+                src="https://embed.podcasts.apple.com/ng/podcast/tech-hacks-in-africa/id1731008771"
+                sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+              ></iframe>
             </div>
           </div>
         </div>
