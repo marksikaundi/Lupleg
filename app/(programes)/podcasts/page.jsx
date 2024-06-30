@@ -59,8 +59,7 @@ export default function Podcasts() {
           </div>
         </div>
       </section>
-      //Todo: Add the podcast episodes here with the following structure for each episode.
-
+      //Todo: Add the podcast episodes here with the following structure for
       <section className="w-full py-12 md:py-20 lg:py-28">
         <div className="container grid grid-cols-1 gap-8 md:grid-cols-3 md:gap-12">
           {[...Array(6)].map((_, index) => (
