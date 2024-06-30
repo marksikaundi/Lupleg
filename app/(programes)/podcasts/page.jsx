@@ -21,7 +21,7 @@ export default function Podcasts() {
                 Subscribe
               </Button>
               <Link
-                href="#"
+                href="https://youtube.com/@Lupleg"
                 className="text-gray-400 hover:text-gray-50 transition-colors"
                 prefetch={false}
               >
@@ -29,7 +29,7 @@ export default function Podcasts() {
                 <span className="sr-only">Subscribe on YouTube</span>
               </Link>
               <Link
-                href="#"
+                href="https://open.spotify.com/show/24kARiE1lvC1b6GN4AXPmh"
                 className="text-gray-400 hover:text-gray-50 transition-colors"
                 prefetch={false}
               >
@@ -37,7 +37,7 @@ export default function Podcasts() {
                 <span className="sr-only">Subscribe on Spotify</span>
               </Link>
               <Link
-                href="#"
+                href="https://podcasts.apple.com/ng/podcast/tech-hacks-in-africa/id1731008771"
                 className="text-gray-400 hover:text-gray-50 transition-colors"
                 prefetch={false}
               >
@@ -162,7 +162,7 @@ export default function Podcasts() {
                   🎙️
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold">John Doe</h3>
+                  <h3 className="text-lg font-bold">Mark Sikaundi</h3>
                   <p className="text-gray-500 dark:text-gray-400">
                     Tech Enthusiast and Podcast Host
                   </p>
@@ -172,7 +172,7 @@ export default function Podcasts() {
                 Mark Sikaundi is a tech enthusiast and the host of The Tech
                 Podcast. With over 10 years of experience in the industry, he
                 shares his insights and interviews with leading experts to keep
-                you up-to-date on the latest trends and innovations.
+                you up to date on the latest trends and innovations.
               </div>
               <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
                 <TwitterIcon className="w-5 h-5" />
