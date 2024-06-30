@@ -6,39 +6,42 @@ import { Badge } from "@/components/ui/badge";
 export default function Podcasts() {
   return (
     <div className="w-full">
-      <section className="w-full bg-gray-950 py-12 md:py-20 lg:py-28">
+      <section className="w-full py-12 md:py-20 lg:py-28">
         <div className="container grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-16">
           <div className="flex flex-col items-start justify-center space-y-6">
-            <h1 className="text-3xl font-bold tracking-tighter text-gray-50 sm:text-4xl md:text-5xl lg:text-6xl">
+            <h1 className="text-3xl font-bold tracking-tighter text-[#122E17] sm:text-4xl md:text-5xl lg:text-6xl">
               Tech Hack Africa
             </h1>
-            <p className="max-w-[600px] text-gray-400 md:text-xl">
+            <p className="max-w-[600px] text-black md:text-xl">
               Dive into the latest trends, technologies, and innovations shaping
               the tech industry with our informative and engaging podcast.
             </p>
             <div className="flex items-center gap-4">
-              <Button size="lg" className="w-full max-w-[200px] md:w-auto">
+              <Button
+                size="lg"
+                className="w-full bg-[#C24229] hover:bg-[#C24229]  max-w-[200px] md:w-auto"
+              >
                 Subscribe
               </Button>
               <Link
-                href="#"
-                className="text-gray-400 hover:text-gray-50 transition-colors"
+                href="https://youtube.com/@Lupleg"
+                className="text-[#122E17] hover:text-[#122E17] transition-colors"
                 prefetch={false}
               >
                 <YoutubeIcon className="w-6 h-6" />
                 <span className="sr-only">Subscribe on YouTube</span>
               </Link>
               <Link
-                href="#"
-                className="text-gray-400 hover:text-gray-50 transition-colors"
+                href="https://open.spotify.com/show/24kARiE1lvC1b6GN4AXPmh"
+                className="text-[#122E17] hover:text-[#122E17] transition-colors"
                 prefetch={false}
               >
                 <AirplayIcon className="w-6 h-6" />
                 <span className="sr-only">Subscribe on Spotify</span>
               </Link>
               <Link
-                href="#"
-                className="text-gray-400 hover:text-gray-50 transition-colors"
+                href="https://podcasts.apple.com/ng/podcast/tech-hacks-in-africa/id1731008771"
+                className="text-[#122E17] hover:text-[#122E17] transition-colors"
                 prefetch={false}
               >
                 <AppleIcon className="w-6 h-6" />
@@ -56,6 +59,7 @@ export default function Podcasts() {
           </div>
         </div>
       </section>
+      //Todo: Add the podcast episodes here with the following structure for
       <section className="w-full py-12 md:py-20 lg:py-28">
         <div className="container grid grid-cols-1 gap-8 md:grid-cols-3 md:gap-12">
           {[...Array(6)].map((_, index) => (
@@ -96,7 +100,7 @@ export default function Podcasts() {
               </div>
               <div className="flex flex-col gap-2">
                 <div className="text-gray-500 dark:text-gray-400">
-                  Mark Sikaundi is a tech enthusiast and the host of The Tech
+                  Mark Sikaundi is a Software Engineer and the host of The Tech
                   Hack Africa Podcast. With over 10 years of experience in the
                   industry, he shares his insights and interviews with leading
                   experts to keep you up-to-date on the latest trends and
@@ -139,15 +143,16 @@ export default function Podcasts() {
           <div>
             <h2 className="text-2xl font-bold mb-4">Listen to the Podcast</h2>
             <div className="aspect-video rounded-xl overflow-hidden">
-              <iframe
-                src="https://podcasters.spotify.com/pod/dashboard/episode/e2jcugs/qa"
-                width="100%"
-                height="100%"
-                frameBorder="0"
-                allowFullScreen
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-              />
-              
+              <Link
+                href="https://podcasts.apple.com/us/podcast/tech-hacks-in-africa/id1731008771?itsct=podcast_box_badge&amp;itscg=30200&amp;ls=1"
+                className="inline-block overflow-hidden rounded-lg w-64 h-20"
+              >
+                <img
+                  src="https://tools.applemediaservices.com/api/badges/listen-on-apple-podcasts/badge/en-us?size=250x83&amp;releaseDate=1715135040"
+                  alt="Listen on Apple Podcasts"
+                  className="rounded-md w-60 h-20"
+                />
+              </Link>
             </div>
           </div>
         </div>
@@ -162,17 +167,17 @@ export default function Podcasts() {
                   🎙️
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold">John Doe</h3>
+                  <h3 className="text-lg font-bold">Mark Sikaundi</h3>
                   <p className="text-gray-500 dark:text-gray-400">
-                    Tech Enthusiast and Podcast Host
+                    Software Engineer and Podcast Host
                   </p>
                 </div>
               </div>
               <div className="text-gray-500 dark:text-gray-400">
-                Mark Sikaundi is a tech enthusiast and the host of The Tech
+                Mark Sikaundi is a Software Engineer and the host of The Tech
                 Podcast. With over 10 years of experience in the industry, he
                 shares his insights and interviews with leading experts to keep
-                you up-to-date on the latest trends and innovations.
+                you up to date on the latest trends and innovations.
               </div>
               <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
                 <TwitterIcon className="w-5 h-5" />
