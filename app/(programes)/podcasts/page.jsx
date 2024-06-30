@@ -17,7 +17,10 @@ export default function Podcasts() {
               the tech industry with our informative and engaging podcast.
             </p>
             <div className="flex items-center gap-4">
-              <Button size="lg" className="w-full bg-[#C24229] hover:bg-[#C24229]  max-w-[200px] md:w-auto">
+              <Button
+                size="lg"
+                className="w-full bg-[#C24229] hover:bg-[#C24229]  max-w-[200px] md:w-auto"
+              >
                 Subscribe
               </Button>
               <Link
@@ -96,7 +99,7 @@ export default function Podcasts() {
               </div>
               <div className="flex flex-col gap-2">
                 <div className="text-gray-500 dark:text-gray-400">
-                  Mark Sikaundi is a tech enthusiast and the host of The Tech
+                  Mark Sikaundi is a Software Engineer and the host of The Tech
                   Hack Africa Podcast. With over 10 years of experience in the
                   industry, he shares his insights and interviews with leading
                   experts to keep you up-to-date on the latest trends and
@@ -139,19 +142,17 @@ export default function Podcasts() {
           <div>
             <h2 className="text-2xl font-bold mb-4">Listen to the Podcast</h2>
             <div className="aspect-video rounded-xl overflow-hidden">
-              <iframe
-                allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
-                frameborder="0"
-                height="175"
-                style={{
-                  width: "100%",
-                  maxWidth: "660px",
-                  overflow: "hidden",
-                  borderRadius: "10px",
-                }}
-                src="https://embed.podcasts.apple.com/ng/podcast/tech-hacks-in-africa/id1731008771"
-                sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
-              ></iframe>
+              <Link
+                href="https://podcasts.apple.com/us/podcast/tech-hacks-in-africa/id1731008771?itsct=podcast_box_badge&amp;itscg=30200&amp;ls=1"
+                className="inline-block overflow-hidden rounded-lg w-64 h-20"
+              >
+                <img
+                  src="https://tools.applemediaservices.com/api/badges/listen-on-apple-podcasts/badge/en-us?size=250x83&amp;releaseDate=1715135040"
+                  alt="Listen on Apple Podcasts"
+                  // style="border-radius: 13px; width: 250px; height: 83px;"
+                  className="rounded-md w-60 h-20"
+                />
+              </Link>
             </div>
           </div>
         </div>
@@ -168,12 +169,12 @@ export default function Podcasts() {
                 <div>
                   <h3 className="text-lg font-bold">Mark Sikaundi</h3>
                   <p className="text-gray-500 dark:text-gray-400">
-                    Tech Enthusiast and Podcast Host
+                    Software Engineer and Podcast Host
                   </p>
                 </div>
               </div>
               <div className="text-gray-500 dark:text-gray-400">
-                Mark Sikaundi is a tech enthusiast and the host of The Tech
+                Mark Sikaundi is a Software Engineer and the host of The Tech
                 Podcast. With over 10 years of experience in the industry, he
                 shares his insights and interviews with leading experts to keep
                 you up to date on the latest trends and innovations.
