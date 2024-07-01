@@ -48,7 +48,7 @@ export default function Footer() {
               <Link href="affiliates">Affiliates</Link>
             </li>
             <li>
-              <Link href="https://mms.lupleg.website">MMS</Link>
+              <Link href="https://ac.lupleg.website">Quize</Link>
             </li>
             <li>
               <Link href="https://ui.lupleg.website">Templates</Link>
