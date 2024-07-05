@@ -47,9 +47,15 @@ export default function Header() {
           </Link>
         </nav>
       </div>
-      <div className="text-md hidden rounded border-2 border-green-700  p-3 text-black  md:block">
-        <Link href="https://app.lupleg.website/dashboard">Join Now</Link>
+      <div className="hidden items-center justify-start  space-x-4 text-m font-semibold text-white md:flex">
+        <Link
+          href="premium"
+          className="rounded bg-green-950 border-2 border-green-950 p-3"
+        >
+          Premium
+        </Link>
       </div>
+
       {/* mobile view */}
       <Sheet>
         <SheetTrigger asChild>
@@ -103,9 +109,7 @@ export default function Header() {
             <div className="w-30 flex   items-center rounded-full">
               <Button className="text-md text-white">
                 <SheetTrigger asChild>
-                  <Link href="https://app.lupleg.website/dashboard">
-                    Join Now
-                  </Link>
+                  <Link href="https://app.lupleg.website/premium">Premium</Link>
                 </SheetTrigger>
               </Button>
             </div>
