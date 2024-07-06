@@ -2,30 +2,28 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import podcasts from "@/constants/podcasts";
 
 export default function Podcasts() {
   return (
     <div className="w-full">
-      <section className="w-full py-12 md:py-20 lg:py-28">
-        <div className="container grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-16">
-          <div className="flex flex-col items-start justify-center space-y-6">
-            <h1 className="text-3xl font-bold tracking-tighter text-[#122E17] sm:text-4xl md:text-5xl lg:text-6xl">
+      <section className="w-full bg-podcast-bg bg-cover h-full lg:h-[100vh]">
+        <div className="container grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-16 w-full h-full bg-slate-800 bg-opacity-60">
+          <div className="flex flex-col items-start justify-center space-y-6 py-8 lg:py-0">
+            <h1 className="text-3xl font-bold tracking-tighter text-gray-50 sm:text-4xl md:text-5xl lg:text-6xl">
               Tech Hack Africa
             </h1>
-            <p className="max-w-[600px] text-black md:text-xl">
+            <p className="max-w-[600px] text-gray-400 md:text-xl">
               Dive into the latest trends, technologies, and innovations shaping
               the tech industry with our informative and engaging podcast.
             </p>
             <div className="flex items-center gap-4">
-              <Button
-                size="lg"
-                className="w-full bg-[#C24229] hover:bg-[#C24229]  max-w-[200px] md:w-auto"
-              >
+              <Button size="lg" className="w-full max-w-[200px] md:w-auto bg-[#C24229]">
                 Subscribe
               </Button>
               <Link
                 href="https://youtube.com/@Lupleg"
-                className="text-[#122E17] hover:text-[#122E17] transition-colors"
+                className="text-gray-400 hover:text-gray-50 transition-colors"
                 prefetch={false}
               >
                 <YoutubeIcon className="w-6 h-6" />
@@ -33,7 +31,7 @@ export default function Podcasts() {
               </Link>
               <Link
                 href="https://open.spotify.com/show/24kARiE1lvC1b6GN4AXPmh"
-                className="text-[#122E17] hover:text-[#122E17] transition-colors"
+                className="text-gray-400 hover:text-gray-50 transition-colors"
                 prefetch={false}
               >
                 <AirplayIcon className="w-6 h-6" />
@@ -41,7 +39,7 @@ export default function Podcasts() {
               </Link>
               <Link
                 href="https://podcasts.apple.com/ng/podcast/tech-hacks-in-africa/id1731008771"
-                className="text-[#122E17] hover:text-[#122E17] transition-colors"
+                className="text-gray-400 hover:text-gray-50 transition-colors"
                 prefetch={false}
               >
                 <AppleIcon className="w-6 h-6" />
@@ -49,34 +47,34 @@ export default function Podcasts() {
               </Link>
             </div>
           </div>
-          <div className="relative h-[300px] overflow-hidden rounded-xl md:h-[400px]">
+          {/* TODO: Incase of new plan */}
+          {/* <div className="relative h-[300px] overflow-hidden rounded-xl md:h-[400px]">
             <img
               src="/placeholder.svg"
               alt="Podcast Cover Art"
               fill
               className="object-cover"
             />
-          </div>
+          </div> */}
         </div>
       </section>
-      {/* Todo: Add the podcast episodes here with the following structure for */}
       <section className="w-full py-12 md:py-20 lg:py-28">
         <div className="container grid grid-cols-1 gap-8 md:grid-cols-3 md:gap-12">
-          {[...Array(6)].map((_, index) => (
+          {podcasts.map((podcast, index) => (
             <Card key={index} className="group">
               <div className="relative h-[200px] overflow-hidden rounded-xl">
                 <img
-                  src="/placeholder.svg"
+                  src={podcast.image}
                   alt={`Episode ${index + 1}`}
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <CardContent className="flex flex-col gap-2">
-                <h3 className="text-lg font-bold line-clamp-2">
-                  Episode {index + 1}: The Future of AI in Tech
+                <h3 className="text-lg font-bold line-clamp-2 pt-3">
+                  Episode {index + 1}: {podcast.title}
                 </h3>
-                <div className="text-gray-500 dark:text-gray-400">45 min</div>
+                <div className="text-gray-500 dark:text-gray-400">{podcast.duration}</div>
               </CardContent>
             </Card>
           ))}
@@ -88,19 +86,23 @@ export default function Podcasts() {
             <h2 className="text-2xl font-bold mb-4">About the Host</h2>
             <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
               <div className="flex items-start gap-4">
-                <div className="rounded-full w-16 h-16 bg-gray-100 dark:bg-gray-800 flex items-center justify-center text-4xl">
+                <div className="rounded-full w-16 h-16 bg-gray-100 dark:bg-gray-800 flex items-center justify-center text-4xl ">
                   🎙️
                 </div>
-                <div>
+                <div className="flex flex-col space-y-2 justify-start">
                   <h3 className="text-lg font-bold">Mark Sikaundi</h3>
                   <p className="text-gray-500 dark:text-gray-400">
                     Tech Enthusiast and Podcast Host
                   </p>
+                  <div className="relative h-[150px] overflow-hidden rounded-xl w-[255px]">
+                  <img src="https://utfs.io/f/ff7c57f5-a1b0-4c0c-afde-390ecdf9c87e-6uzm02.jpg" alt="Mark Profile Picture" />
+                  </div>
+
                 </div>
               </div>
               <div className="flex flex-col gap-2">
                 <div className="text-gray-500 dark:text-gray-400">
-                  Mark Sikaundi is a Software Engineer and the host of The Tech
+                  Mark Sikaundi is a tech enthusiast and the host of The Tech
                   Hack Africa Podcast. With over 10 years of experience in the
                   industry, he shares his insights and interviews with leading
                   experts to keep you up-to-date on the latest trends and
@@ -108,21 +110,13 @@ export default function Podcasts() {
                 </div>
                 <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
                   <TwitterIcon className="w-5 h-5" />
-                  <Link
-                    href="https://x.com/Alisikaundi"
-                    className="hover:underline"
-                    prefetch={false}
-                  >
+                  <Link href="https://x.com/Alisikaundi" className="hover:underline" prefetch={false}>
                     @Alisikaundi
                   </Link>
                 </div>
                 <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
                   <LinkedinIcon className="w-5 h-5" />
-                  <Link
-                    href="https://linkedin.com/in/marksikaundi"
-                    className="hover:underline"
-                    prefetch={false}
-                  >
+                  <Link href="https://linkedin.com/in/marksikaundi" className="hover:underline" prefetch={false}>
                     Mark Sikaundi
                   </Link>
                 </div>
@@ -143,16 +137,14 @@ export default function Podcasts() {
           <div>
             <h2 className="text-2xl font-bold mb-4">Listen to the Podcast</h2>
             <div className="aspect-video rounded-xl overflow-hidden">
-              <Link
-                href="https://podcasts.apple.com/us/podcast/tech-hacks-in-africa/id1731008771?itsct=podcast_box_badge&amp;itscg=30200&amp;ls=1"
-                className="inline-block overflow-hidden rounded-lg w-64 h-20"
-              >
-                <img
-                  src="https://tools.applemediaservices.com/api/badges/listen-on-apple-podcasts/badge/en-us?size=250x83&amp;releaseDate=1715135040"
-                  alt="Listen on Apple Podcasts"
-                  className="rounded-md w-60 h-20"
-                />
-              </Link>
+              <iframe
+                src="https://open.spotify.com/embed/episode/4XZYRd3dondnKGy9p8YITx?utm_source=generator"
+                width="100%"
+                height="100%"
+                frameBorder="0"
+                allowFullScreen
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              />
             </div>
           </div>
         </div>
@@ -167,35 +159,27 @@ export default function Podcasts() {
                   🎙️
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold">Mark Sikaundi</h3>
+                  <h3 className="text-lg font-bold">John Doe</h3>
                   <p className="text-gray-500 dark:text-gray-400">
-                    Software Engineer and Podcast Host
+                    Tech Enthusiast and Podcast Host
                   </p>
                 </div>
               </div>
               <div className="text-gray-500 dark:text-gray-400">
-                Mark Sikaundi is a Software Engineer and the host of The Tech
+                Mark Sikaundi is a tech enthusiast and the host of The Tech
                 Podcast. With over 10 years of experience in the industry, he
                 shares his insights and interviews with leading experts to keep
-                you up to date on the latest trends and innovations.
+                you up-to-date on the latest trends and innovations.
               </div>
               <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
                 <TwitterIcon className="w-5 h-5" />
-                <Link
-                  href="https://x.com/Alisikaundi"
-                  className="hover:underline"
-                  prefetch={false}
-                >
+                <Link href="https://x.com/Alisikaundi" className="hover:underline" prefetch={false}>
                   @Alisikaundi
                 </Link>
               </div>
               <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
                 <LinkedinIcon className="w-5 h-5" />
-                <Link
-                  href="https://linkedin.com/in/marksikaundi"
-                  className="hover:underline"
-                  prefetch={false}
-                >
+                <Link href="https://linkedin.com/in/marksikaundi" className="hover:underline" prefetch={false}>
                   Mark Sikaundi
                 </Link>
               </div>
@@ -221,31 +205,19 @@ export default function Podcasts() {
             <CardContent className="space-y-2">
               <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
                 <TwitterIcon className="w-5 h-5" />
-                <Link
-                  href="https://x.com/Alisikaundi"
-                  className="hover:underline"
-                  prefetch={false}
-                >
+                <Link href="https://x.com/Alisikaundi" className="hover:underline" prefetch={false}>
                   @lupleg
                 </Link>
               </div>
               <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
                 <InstagramIcon className="w-5 h-5" />
-                <Link
-                  href="https://intagram.com/marksikaundi"
-                  className="hover:underline"
-                  prefetch={false}
-                >
+                <Link href="https://intagram.com/marksikaundi" className="hover:underline" prefetch={false}>
                   Lupleg
                 </Link>
               </div>
               <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
                 <YoutubeIcon className="w-5 h-5" />
-                <Link
-                  href="https://youtube.com/@Lupleg"
-                  className="hover:underline"
-                  prefetch={false}
-                >
+                <Link href="https://youtube.com/@Lupleg" className="hover:underline" prefetch={false}>
                   Lupleg
                 </Link>
               </div>
