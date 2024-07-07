@@ -18,7 +18,11 @@ export default function Podcasts() {
               the tech industry with our informative and engaging podcast.
             </p>
             <div className="flex items-center gap-4">
-              <Link href="https://podcasts.apple.com/ng/podcast/tech-hacks-in-africa/id1731008771" size="lg" className="w-full max-w-[200px] md:w-auto bg-[#C24229] font-semibold p-4 rounded text-white">
+              <Link
+                href="https://podcasts.apple.com/ng/podcast/tech-hacks-in-africa/id1731008771"
+                size="lg"
+                className="w-full max-w-[200px] md:w-auto bg-[#C24229] font-semibold p-4 rounded text-white"
+              >
                 Subscribe
               </Link>
               <Link
@@ -74,7 +78,9 @@ export default function Podcasts() {
                 <h3 className="text-lg font-bold line-clamp-2 pt-3">
                   Episode {index + 1}: {podcast.title}
                 </h3>
-                <div className="text-gray-500 dark:text-gray-400">{podcast.duration}</div>
+                <div className="text-gray-500 dark:text-gray-400">
+                  {podcast.duration}
+                </div>
               </CardContent>
             </Card>
           ))}
@@ -95,28 +101,38 @@ export default function Podcasts() {
                     Tech Enthusiast and Podcast Host
                   </p>
                   <div className="relative h-[150px] overflow-hidden rounded-xl w-[255px]">
-                  <img src="https://utfs.io/f/ff7c57f5-a1b0-4c0c-afde-390ecdf9c87e-6uzm02.jpg" alt="Mark Profile Picture" />
+                    <img
+                      src="https://utfs.io/f/ff7c57f5-a1b0-4c0c-afde-390ecdf9c87e-6uzm02.jpg"
+                      alt="Mark Profile Picture"
+                    />
                   </div>
-
                 </div>
               </div>
               <div className="flex flex-col gap-2">
                 <div className="text-gray-500 dark:text-gray-400">
-                  Mark Sikaundi is a tech enthusiast and the host of The Tech
-                  Hack Africa Podcast. With over 10 years of experience in the
+                  Mark Sikaundi is a Software Enginer and the host of Tech Hack
+                  Africa Podcast. With over 10 years of experience in the
                   industry, he shares his insights and interviews with leading
                   experts to keep you up-to-date on the latest trends and
                   innovations.
                 </div>
                 <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
                   <TwitterIcon className="w-5 h-5" />
-                  <Link href="https://x.com/Alisikaundi" className="hover:underline" prefetch={false}>
+                  <Link
+                    href="https://x.com/Alisikaundi"
+                    className="hover:underline"
+                    prefetch={false}
+                  >
                     @Alisikaundi
                   </Link>
                 </div>
                 <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
                   <LinkedinIcon className="w-5 h-5" />
-                  <Link href="https://linkedin.com/in/marksikaundi" className="hover:underline" prefetch={false}>
+                  <Link
+                    href="https://linkedin.com/in/marksikaundi"
+                    className="hover:underline"
+                    prefetch={false}
+                  >
                     Mark Sikaundi
                   </Link>
                 </div>
@@ -159,27 +175,36 @@ export default function Podcasts() {
                   🎙️
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold">John Doe</h3>
+                  <h3 className="text-lg font-bold">Mark Sikaundi</h3>
                   <p className="text-gray-500 dark:text-gray-400">
                     Tech Enthusiast and Podcast Host
                   </p>
                 </div>
               </div>
               <div className="text-gray-500 dark:text-gray-400">
-                Mark Sikaundi is a tech enthusiast and the host of The Tech
-                Podcast. With over 10 years of experience in the industry, he
-                shares his insights and interviews with leading experts to keep
-                you up-to-date on the latest trends and innovations.
+                Mark Sikaundi is a Software Enginer and the host of Tech Hack
+                Africa Podcast. With over 10 years of experience in the
+                industry, he shares his insights and interviews with leading
+                experts to keep you up to date on the latest trends and
+                innovations.
               </div>
               <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
                 <TwitterIcon className="w-5 h-5" />
-                <Link href="https://x.com/Alisikaundi" className="hover:underline" prefetch={false}>
+                <Link
+                  href="https://x.com/Alisikaundi"
+                  className="hover:underline"
+                  prefetch={false}
+                >
                   @Alisikaundi
                 </Link>
               </div>
               <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
                 <LinkedinIcon className="w-5 h-5" />
-                <Link href="https://linkedin.com/in/marksikaundi" className="hover:underline" prefetch={false}>
+                <Link
+                  href="https://linkedin.com/in/marksikaundi"
+                  className="hover:underline"
+                  prefetch={false}
+                >
                   Mark Sikaundi
                 </Link>
               </div>
@@ -205,19 +230,31 @@ export default function Podcasts() {
             <CardContent className="space-y-2">
               <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
                 <TwitterIcon className="w-5 h-5" />
-                <Link href="https://x.com/Alisikaundi" className="hover:underline" prefetch={false}>
+                <Link
+                  href="https://x.com/Alisikaundi"
+                  className="hover:underline"
+                  prefetch={false}
+                >
                   @lupleg
                 </Link>
               </div>
               <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
                 <InstagramIcon className="w-5 h-5" />
-                <Link href="https://intagram.com/marksikaundi" className="hover:underline" prefetch={false}>
+                <Link
+                  href="https://intagram.com/marksikaundi"
+                  className="hover:underline"
+                  prefetch={false}
+                >
                   Lupleg
                 </Link>
               </div>
               <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
                 <YoutubeIcon className="w-5 h-5" />
-                <Link href="https://youtube.com/@Lupleg" className="hover:underline" prefetch={false}>
+                <Link
+                  href="https://youtube.com/@Lupleg"
+                  className="hover:underline"
+                  prefetch={false}
+                >
                   Lupleg
                 </Link>
               </div>
