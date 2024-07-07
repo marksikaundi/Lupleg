@@ -98,7 +98,7 @@ export default function Podcasts() {
                 <div className="flex flex-col space-y-2 justify-start">
                   <h3 className="text-lg font-bold">Mark Sikaundi</h3>
                   <p className="text-gray-500 dark:text-gray-400">
-                    Tech Enthusiast and Podcast Host
+                    Software Engineer & Podcast Host
                   </p>
                   <div className="relative h-[150px] overflow-hidden rounded-xl w-[255px]">
                     <img
@@ -116,7 +116,7 @@ export default function Podcasts() {
                   experts to keep you up-to-date on the latest trends and
                   innovations.
                 </div>
-                <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
+                <div className="flex items-center gap-2 text-green-600 dark:text-gray-400">
                   <TwitterIcon className="w-5 h-5" />
                   <Link
                     href="https://x.com/Alisikaundi"
@@ -126,7 +126,7 @@ export default function Podcasts() {
                     @Alisikaundi
                   </Link>
                 </div>
-                <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
+                <div className="flex items-center gap-2 text-green-600 dark:text-gray-400">
                   <LinkedinIcon className="w-5 h-5" />
                   <Link
                     href="https://linkedin.com/in/marksikaundi"
@@ -177,7 +177,7 @@ export default function Podcasts() {
                 <div>
                   <h3 className="text-lg font-bold">Mark Sikaundi</h3>
                   <p className="text-gray-500 dark:text-gray-400">
-                    Tech Enthusiast and Podcast Host
+                    Software Engineer & Podcast Host
                   </p>
                 </div>
               </div>
@@ -188,7 +188,7 @@ export default function Podcasts() {
                 experts to keep you up to date on the latest trends and
                 innovations.
               </div>
-              <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
+              <div className="flex items-center gap-2 text-green-600 dark:text-gray-400">
                 <TwitterIcon className="w-5 h-5" />
                 <Link
                   href="https://x.com/Alisikaundi"
@@ -198,7 +198,7 @@ export default function Podcasts() {
                   @Alisikaundi
                 </Link>
               </div>
-              <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
+              <div className="flex items-center gap-2 text-green-600 dark:text-gray-400">
                 <LinkedinIcon className="w-5 h-5" />
                 <Link
                   href="https://linkedin.com/in/marksikaundi"
@@ -228,7 +228,7 @@ export default function Podcasts() {
               <CardTitle>Follow Us</CardTitle>
             </CardHeader>
             <CardContent className="space-y-2">
-              <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
+              <div className="flex items-center gap-2 text-green-600 dark:text-gray-400">
                 <TwitterIcon className="w-5 h-5" />
                 <Link
                   href="https://x.com/Alisikaundi"
@@ -238,7 +238,7 @@ export default function Podcasts() {
                   @lupleg
                 </Link>
               </div>
-              <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
+              <div className="flex items-center gap-2 text-green-600 dark:text-gray-400">
                 <InstagramIcon className="w-5 h-5" />
                 <Link
                   href="https://intagram.com/marksikaundi"
@@ -248,7 +248,7 @@ export default function Podcasts() {
                   Lupleg
                 </Link>
               </div>
-              <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
+              <div className="flex items-center gap-2 text-green-600 dark:text-gray-400">
                 <YoutubeIcon className="w-5 h-5" />
                 <Link
                   href="https://youtube.com/@Lupleg"
