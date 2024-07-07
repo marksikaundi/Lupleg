@@ -10,7 +10,7 @@ export default function AboutUs() {
           <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">
-                <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
+                <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl pb-10 xl:text-6xl/none">
                   About us.
                 </h1>
                 <p className="max-w-[600px] text-gray-600 md:text-xl dark:text-gray-400">
