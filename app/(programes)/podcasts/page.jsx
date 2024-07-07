@@ -18,9 +18,9 @@ export default function Podcasts() {
               the tech industry with our informative and engaging podcast.
             </p>
             <div className="flex items-center gap-4">
-              <Button size="lg" className="w-full max-w-[200px] md:w-auto bg-[#C24229]">
+              <Link href="https://podcasts.apple.com/ng/podcast/tech-hacks-in-africa/id1731008771" size="lg" className="w-full max-w-[200px] md:w-auto bg-[#C24229] font-semibold p-4 rounded text-white">
                 Subscribe
-              </Button>
+              </Link>
               <Link
                 href="https://youtube.com/@Lupleg"
                 className="text-gray-400 hover:text-gray-50 transition-colors"
