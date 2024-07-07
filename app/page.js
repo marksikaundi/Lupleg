@@ -20,9 +20,9 @@ export default function Home() {
           Lupleg is a community platform that enables teams to streamline and
           help novice scale up their career in tech.
         </p>
-        <Button className="W-15 mt-8 px-8 py-3 text-md bg-[#ED7133] text-white rounded-full p-8 hover:bg-black focus:outline-none focus:ring-2 focus:ring-orange focus:ring-opacity-50 transition duration-300">
-          <Link href="challenge">Get started</Link>
-        </Button>
+        <button className="W-15 mt-8 px-8 py-3 text-md bg-green-950 font-semibold border-2 border-green-950 p-6 text-white rounded  hover:bg-green-950 focus:outline-none focus:ring-2 focus:ring-orange focus:ring-opacity-50 transition duration-300">
+          <Link href="challenge">Register </Link>
+        </button>
         <br />
       </div>
       <ProgramSummary />
