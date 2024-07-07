@@ -10,7 +10,7 @@ export default function MoreAboutUs() {
               <div className="inline-block rounded-lg bg-green-400 px-4 py-4 text-md font-mono text-green-900">
                 Our Services
               </div>
-              <h2 className="text-3xl font-bold tracking-tighter text-gray-900 dark:text-white sm:text-5xl">
+              <h2 className="text-3xl font-bold tracking-tighter text-gray-900 dark:text-white sm:text-5xl py-4">
                 Comprehensive Solutions for Your Business
               </h2>
               <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
@@ -25,7 +25,7 @@ export default function MoreAboutUs() {
             <div className="grid gap-1">
               <div className="flex items-center gap-3">
                 <RocketIcon className="h-8 w-8 text-[#122E17]" />
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white">
+                <h3 className="md:text-xl font-bold text-gray-900 dark:text-white">
                   Strategic Consulting
                 </h3>
               </div>
@@ -38,8 +38,8 @@ export default function MoreAboutUs() {
             <div className="grid gap-1">
               <div className="flex items-center gap-3">
                 <CodeIcon className="h-8 w-8 text-[#122E17]" />
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white">
-                  Software Development
+                <h3 className="md:text-xl font-bold text-gray-900 dark:text-white">
+                  Software Solution
                 </h3>
               </div>
               <p className="text-gray-500 dark:text-gray-400">
@@ -50,7 +50,7 @@ export default function MoreAboutUs() {
             <div className="grid gap-1">
               <div className="flex items-center gap-3">
                 <CloudIcon className="h-8 w-8 text-[#122E17]" />
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white">
+                <h3 className="md:text-xl font-bold text-gray-900 dark:text-white">
                   Cloud Solutions
                 </h3>
               </div>
@@ -62,7 +62,7 @@ export default function MoreAboutUs() {
             <div className="grid gap-1">
               <div className="flex items-center gap-3">
                 <CogIcon className="h-8 w-8 text-[#122E17]" />
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white">
+                <h3 className="md:text-xl font-bold text-gray-900 dark:text-white">
                   IT Support
                 </h3>
               </div>
@@ -74,7 +74,7 @@ export default function MoreAboutUs() {
             <div className="grid gap-1">
               <div className="flex items-center gap-3">
                 <BoltIcon className="h-8 w-8 text-[#122E17]" />
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white">
+                <h3 className="md:text-xl font-bold text-gray-900 dark:text-white">
                   Digital Transformation
                 </h3>
               </div>
@@ -87,7 +87,7 @@ export default function MoreAboutUs() {
             <div className="grid gap-1">
               <div className="flex items-center gap-3">
                 <ShieldIcon className="h-8 w-8 text-[#122E17]" />
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white">
+                <h3 className="md:text-xl font-bold text-gray-900 dark:text-white">
                   Cybersecurity
                 </h3>
               </div>
@@ -117,11 +117,11 @@ export default function MoreAboutUs() {
               </p>
             </div>
           </div>
-          <div className="mx-auto grid max-w-5xl items-start gap-6 py-12 lg:grid-cols-3 lg:gap-12">
+          <div className="mx-auto grid max-w-5xl items-start gap-6 py-16 lg:grid-cols-3 lg:gap-12">
             <div className="grid gap-1">
               <div className="flex items-center gap-3">
                 <StarIcon className="h-8 w-8 text-[#122E17]" />
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white">
+                <h3 className="md:text-xl font-bold text-gray-900 dark:text-white">
                   Industry Expertise
                 </h3>
               </div>
@@ -133,8 +133,8 @@ export default function MoreAboutUs() {
             </div>
             <div className="grid gap-1">
               <div className="flex items-center gap-3">
-                <ThumbsUpIcon className="h-8 w-8 text-[#122E17]" />
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white">
+                <ThumbsUpIcon className="h-8 w-8 text-[#122E17] " />
+                <h3 className="md:text-xl font-bold text-gray-900 dark:text-white">
                   Customer Service
                 </h3>
               </div>
@@ -147,7 +147,7 @@ export default function MoreAboutUs() {
             <div className="grid gap-1">
               <div className="flex items-center gap-3">
                 <BoltIcon className="h-8 w-8 text-[#122E17]" />
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white">
+                <h3 className="md:text-xl font-bold text-gray-900 dark:text-white">
                   Innovative Solutions
                 </h3>
               </div>
