@@ -151,16 +151,28 @@ export default function Podcasts() {
             </div>
           </div>
           <div>
-            <h2 className="text-2xl font-bold mb-4">Listen to the Podcast</h2>
+            <h2 className="text-2xl font-bold mb-4">Podcast Available On</h2>
             <div className="aspect-video rounded-xl overflow-hidden">
-              <iframe
-                src="https://open.spotify.com/embed/episode/4XZYRd3dondnKGy9p8YITx?utm_source=generator"
-                width="100%"
-                height="100%"
-                frameBorder="0"
-                allowFullScreen
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-              />
+              <a
+                href="https://podcasts.apple.com/us/podcast/tech-hacks-in-africa/id1731008771?itsct=podcast_box_badge&amp;itscg=30200&amp;ls=1"
+                style={{
+                  display: "inline-block",
+                  overflow: "hidden",
+                  borderRadius: "13px",
+                  width: "250px",
+                  height: "83px",
+                }}
+              >
+                <img
+                  src="https://tools.applemediaservices.com/api/badges/listen-on-apple-podcasts/badge/en-us?size=250x83&amp;releaseDate=1715135040"
+                  alt="Listen on Apple Podcasts"
+                  style={{
+                    borderRadius: "13px",
+                    width: "250px",
+                    height: "83px",
+                  }}
+                />
+              </a>
             </div>
           </div>
         </div>
