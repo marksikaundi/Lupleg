@@ -33,7 +33,7 @@ export default function Trainings() {
                       Full-Stack Development
                     </h2>
                     <p className="mt-2 max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                      Become a versatile full-stack developer with our
+                      Become a versatile developer with our
                       comprehensive training program.
                     </p>
                   </div>
@@ -118,7 +118,7 @@ export default function Trainings() {
                       Data Engineering
                     </h2>
                     <p className="mt-2 max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                      Unlock the power of data with our comprehensive data
+                     The comprehensive data
                       engineering training program.
                     </p>
                   </div>
@@ -197,8 +197,7 @@ export default function Trainings() {
                       Cloud Engineering
                     </h2>
                     <p className="mt-2 max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                      Become a cloud expert with our comprehensive training
-                      program on cloud infrastructure and architecture.
+                      Become an expert in cloud infrastructure and architecture engineer. 
                     </p>
                   </div>
                   <Link href="#" variant="link">Learn More →</Link>
