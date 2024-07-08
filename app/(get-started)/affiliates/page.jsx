@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Component() {
+export default function Affiliates() {
   return (
     <div className="bg-gray-50 p-10">
       <div className="flex flex-col gap-2 text-center">
