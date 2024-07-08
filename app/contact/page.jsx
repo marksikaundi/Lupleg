@@ -41,7 +41,7 @@ export default function Contact() {
                   placeholder="Enter your message"
                 />
               </div>
-              <Button className="w-full sm:w-auto" type="submit">
+              <Button className="w-full sm:w-auto bg-[#C24229] hover:bg-[#C24229] " type="submit">
                 Submit
               </Button>
             </form>
