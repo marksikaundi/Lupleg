@@ -15,7 +15,7 @@ export default function Premium() {
           </p>
           <Link
             href="#"
-            className="inline-flex items-center justify-center h-10 px-6 rounded-md bg-white text-[#000000] font-medium transition-colors hover:bg-gray-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
+            className="inline-flex items-center justify-center h-10 p-6 rounded-md bg-white text-[#000000] font-bold transition-colors hover:bg-gray-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
             prefetch={false}
           >
             Get Premium
