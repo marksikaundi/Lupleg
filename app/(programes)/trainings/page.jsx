@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function Trainings() {
   return (
@@ -36,7 +37,7 @@ export default function Trainings() {
                       comprehensive training program.
                     </p>
                   </div>
-                  <Button variant="link">Learn More</Button>
+                  <Link href="#" variant="link">Learn More →</Link>
                 </div>
                 <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                   <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
@@ -121,7 +122,7 @@ export default function Trainings() {
                       engineering training program.
                     </p>
                   </div>
-                  <Button variant="link">Learn More</Button>
+                  <Link href="#" variant="link">Learn More →</Link>
                 </div>
                 <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                   <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
@@ -200,7 +201,7 @@ export default function Trainings() {
                       program on cloud infrastructure and architecture.
                     </p>
                   </div>
-                  <Button variant="link">Learn More</Button>
+                  <Link href="#" variant="link">Learn More →</Link>
                 </div>
                 <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                   <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
