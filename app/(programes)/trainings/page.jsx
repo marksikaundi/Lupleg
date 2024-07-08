@@ -47,7 +47,7 @@ export default function Trainings() {
                     <ul className="mt-4 space-y-2 text-sm text-gray-500 dark:text-gray-400">
                       <li>
                         <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
-                        React.js
+                        React.js & Nextjs
                       </li>
                       <li>
                         <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
