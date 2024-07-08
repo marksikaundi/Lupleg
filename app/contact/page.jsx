@@ -41,7 +41,7 @@ export default function Contact() {
                   placeholder="Enter your message"
                 />
               </div>
-              <Button className="w-full sm:w-auto" type="submit">
+              <Button className="w-full sm:w-auto bg-[#C24229] hover:bg-[#C24229] " type="submit">
                 Submit
               </Button>
             </form>
@@ -57,7 +57,7 @@ export default function Contact() {
             </div>
             <div className="space-y-4">
               <div className="flex items-start gap-4">
-                <LocateIcon className="h-6 w-6 text-gray-500 dark:text-gray-400" />
+                <LocateIcon className="h-6 w-6 text-green-950 dark:text-gray-400" />
                 <div className="space-y-1">
                   <h3 className="font-semibold">Office Address</h3>
                   <p className="text-gray-500 dark:text-gray-400">
@@ -66,7 +66,7 @@ export default function Contact() {
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <PhoneIcon className="h-6 w-6 text-gray-500 dark:text-gray-400" />
+                <PhoneIcon className="h-6 w-6 text-green-950 dark:text-gray-400" />
                 <div className="space-y-1">
                   <h3 className="font-semibold">Phone</h3>
                   <p className="text-gray-500 dark:text-gray-400">
@@ -75,7 +75,7 @@ export default function Contact() {
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <MailIcon className="h-6 w-6 text-gray-500 dark:text-gray-400" />
+                <MailIcon className="h-6 w-6 text-green-950 dark:text-gray-400" />
                 <div className="space-y-1">
                   <h3 className="font-semibold">Email</h3>
                   <p className="text-gray-500 dark:text-gray-400">
