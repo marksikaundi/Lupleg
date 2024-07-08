@@ -33,11 +33,11 @@ export default function Trainings() {
                     </h2>
                     <p className="mt-2 max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
                       ✅ Become a versatile developer with our comprehensive
-                      training.
+                      training 
                     </p>
                   </div>
-                  <Link href="#" variant="link">
-                    Learn More →
+                  <Link href="#" variant="link" className="py-12">
+                     →
                   </Link>
                 </div>
                 <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -63,7 +63,9 @@ export default function Trainings() {
                         State Management
                       </li>
                     </ul>
+                    
                   </div>
+                  
                   <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
                     <h3 className="text-lg font-semibold">
                       Back-End Development
@@ -123,7 +125,7 @@ export default function Trainings() {
                     </p>
                   </div>
                   <Link href="#" variant="link">
-                    Learn More →
+                     →
                   </Link>
                 </div>
                 <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -204,7 +206,7 @@ export default function Trainings() {
                     </p>
                   </div>
                   <Link href="#" variant="link">
-                    Learn More →
+                     →
                   </Link>
                 </div>
                 <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
