@@ -15,9 +15,8 @@ export default function Trainings() {
               </div>
               <div className="flex flex-col items-start space-y-4">
                 <p className="mx-auto max-w-[700px] text-black md:text-xl">
-                  Unlock your full potential with Lupleg's comprehensive
-                  training programs. Gain practical expertise and stay ahead of
-                  the curve in the ever-evolving world of software development.
+                  ✅ Gain practical expertise and stay ahead of the curve in the
+                  ever-evolving world of software development.
                 </p>
               </div>
             </div>
@@ -33,11 +32,13 @@ export default function Trainings() {
                       Full-Stack Development
                     </h2>
                     <p className="mt-2 max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                      Become a versatile developer with our
-                      comprehensive training program.
+                      ✅ Become a versatile developer with our comprehensive
+                      training.
                     </p>
                   </div>
-                  <Link href="#" variant="link">Learn More →</Link>
+                  <Link href="#" variant="link">
+                    Learn More →
+                  </Link>
                 </div>
                 <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                   <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
@@ -118,11 +119,12 @@ export default function Trainings() {
                       Data Engineering
                     </h2>
                     <p className="mt-2 max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                     The comprehensive data
-                      engineering training program.
+                      ✅ The comprehensive data engineering training program.
                     </p>
                   </div>
-                  <Link href="#" variant="link">Learn More →</Link>
+                  <Link href="#" variant="link">
+                    Learn More →
+                  </Link>
                 </div>
                 <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                   <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
@@ -197,10 +199,13 @@ export default function Trainings() {
                       Cloud Engineering
                     </h2>
                     <p className="mt-2 max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                      Become an expert in cloud infrastructure and architecture engineer. 
+                      ✅ Become an expert in cloud infrastructure and
+                      architecture engineer.
                     </p>
                   </div>
-                  <Link href="#" variant="link">Learn More →</Link>
+                  <Link href="#" variant="link">
+                    Learn More →
+                  </Link>
                 </div>
                 <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                   <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
