@@ -125,10 +125,15 @@ export default function Sitemap() {
                   placeholder="Enter your email"
                   className="max-w-lg flex-1"
                 />
-                <Button type="submit" className="bg-[#C24229] hover:bg-[#C24229] ">Sign Up</Button>
+                <Button
+                  type="submit"
+                  className="bg-[#C24229] hover:bg-[#C24229] "
+                >
+                  Sign Up
+                </Button>
               </form>
               <p className="text-xs text-gray-500 dark:text-gray-400">
-                Sign up to get notified when we launch.
+                Sign up to get notified for any latest.
                 <Link
                   href="/terms"
                   className="underline underline-offset-2 text-green-700"
