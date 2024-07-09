@@ -10,8 +10,8 @@ export default function Sitemap() {
           <div className="container space-y-12 px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-green-300 p-3 text-sm dark:bg-gray-800">
-                  New Features
+                <div className="inline-block rounded bg-green-300 p-3 text-sm dark:bg-gray-800">
+                  Our Sitemap
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                   Faster iteration. More innovation.
@@ -26,9 +26,7 @@ export default function Sitemap() {
             </div>
             <div className="mx-auto grid items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3">
               <div className="grid gap-1">
-                <h3 className="text-lg font-bold">
-                  Infinite scalability, zero config
-                </h3>
+                <h3 className="text-lg font-bold">Digital Skills Training</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   Enable code to run on-demand without needing to manage your
                   own infrastructure or upgrade hardware.
@@ -36,7 +34,7 @@ export default function Sitemap() {
               </div>
               <div className="grid gap-1">
                 <h3 className="text-lg font-bold">
-                  Real-time insights and controls
+                  Office Productivity Softwares
                 </h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   Get granular, first-party, real-user metrics on site
@@ -45,7 +43,7 @@ export default function Sitemap() {
               </div>
               <div className="grid gap-1">
                 <h3 className="text-lg font-bold">
-                  Personalization at the edge
+                  Master Your Freelance Hustle
                 </h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   Deliver dynamic, personalized content, while ensuring users
@@ -53,18 +51,14 @@ export default function Sitemap() {
                 </p>
               </div>
               <div className="grid gap-1">
-                <h3 className="text-lg font-bold">
-                  Real-time insights and controls
-                </h3>
+                <h3 className="text-lg font-bold">Frontend Development</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   Get granular, first-party, real-user metrics on site
                   performance per deployment.
                 </p>
               </div>
               <div className="grid gap-1">
-                <h3 className="text-lg font-bold">
-                  Personalization at the edge
-                </h3>
+                <h3 className="text-lg font-bold">Backend Development</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   Deliver dynamic, personalized content, while ensuring users
                   only see the best version of your site.
@@ -72,7 +66,7 @@ export default function Sitemap() {
               </div>
               <div className="grid gap-1">
                 <h3 className="text-lg font-bold">
-                  Infinite scalability, zero config
+                  Mastering React with JavaScript
                 </h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   Enable code to run on-demand without needing to manage your
