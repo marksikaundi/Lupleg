@@ -17,10 +17,8 @@ export default function Sitemap() {
                   Faster iteration. More innovation.
                 </h2>
                 <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                  The platform for rapid progress. Let your team focus on
-                  shipping features instead of managing infrastructure with
-                  automated CI/CD, built-in testing, and integrated
-                  collaboration.
+                  Stress free you can easily access all what you looking for from our Sitemap.
+                  All the relevant pages are accessible from here without much stress.
                 </p>
               </div>
             </div>
