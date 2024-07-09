@@ -13,6 +13,9 @@ export default function Footer() {
               <Link href="about-us">About us</Link>
             </li>
             <li>
+              <Link href="sponsor">Sponsor</Link>
+            </li>
+            <li>
               <Link href="terms">Terms</Link>
             </li>
             <li>
@@ -27,6 +30,12 @@ export default function Footer() {
           <h5 className="mb-4 font-bold">Links</h5>
           <ul className="space-y-3">
             <li>
+              <Link href="challenge">Challenge</Link>
+            </li>
+            <li>
+              <Link href="academy">Academy</Link>
+            </li>
+            <li>
               <Link href="partner">Partner with Us</Link>
             </li>
             <li>
@@ -35,10 +44,6 @@ export default function Footer() {
             <li>
               <Link href="for-orgs">For ORGs</Link>
             </li>
-
-            <li>
-              <Link href="sponsor">Sponsor</Link>
-            </li>
           </ul>
         </div>
         <div>
@@ -46,6 +51,9 @@ export default function Footer() {
           <ul className="space-y-3">
             <li>
               <Link href="affiliates">Affiliates</Link>
+            </li>
+            <li>
+              <Link href="sitemap">Sitemap</Link>
             </li>
             <li>
               <Link href="https://ac.lupleg.website">Quize</Link>
@@ -67,7 +75,7 @@ export default function Footer() {
               placeholder="Enter Your Email Here"
               type="text"
             />
-            <Button className="w-full md:w-auto bg-orange-700 hover:bg-orange-700">
+            <Button type="submit" className="w-full md:w-auto bg-orange-700 hover:bg-orange-700">
               Subscribe
             </Button>
           </div>

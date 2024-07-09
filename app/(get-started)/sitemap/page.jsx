@@ -1,210 +1,153 @@
 import Link from "next/link";
-import { CardHeader, CardContent, Card } from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 
 export default function Sitemap() {
   return (
     <div className="flex flex-col min-h-[100dvh]">
       <main className="flex-1">
-        <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48">
-          <div className="container px-4 md:px-6">
-            <div className="flex flex-col items-center space-y-4 text-center">
+        <section className="w-full py-12 md:py-24 lg:py-32">
+          <div className="container space-y-12 px-4 md:px-6">
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-                  Elevate Your Learning Experience
-                </h1>
-                <p className="mx-auto max-w-[700px] text-gray-700 md:text-xl dark:text-gray-400">
-                  Discover the power of our cutting-edge education SaaS
-                  platform, designed to revolutionize the way you learn and
-                  teach.
+                <div className="inline-block rounded bg-green-300 p-3 text-sm dark:bg-gray-800">
+                  Our Sitemap
+                </div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                  Faster iteration. More innovation.
+                </h2>
+                <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+                  Stress free you can easily access all what you looking for
+                  from our Sitemap. All the relevant pages are accessible from
+                  here without much stress.
                 </p>
               </div>
             </div>
-          </div>
-        </section>
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-green-950 dark:bg-green-950">
-          <div className="container px-4 md:px-6">
-            <div className="grid items-center gap-6 lg:grid-cols-[1fr_500px] lg:gap-12 xl:grid-cols-[1fr_550px]">
-              <div className="flex flex-col justify-center space-y-4">
-                <div className="grid grid-cols-2 gap-6">
-                  <div className="space-y-2">
-                    <CircleCheckIcon className="h-6 w-6 text-gray-200 dark:text-gray-50" />
-                    <h3 className="text-lg font-semibold">
-                      Interactive Lessons
-                    </h3>
-                    <p className="text-gray-200 dark:text-gray-200">
-                      Engage with dynamic, multimedia-rich lessons that bring
-                      concepts to life.
-                    </p>
-                  </div>
-                  <div className="space-y-2">
-                    <CircleCheckIcon className="h-6 w-6 text-gray-200 dark:text-gray-50" />
-                    <h3 className="text-lg font-semibold">
-                      Personalized Feedback
-                    </h3>
-                    <p className="text-gray-200 dark:text-gray-200">
-                      Receive tailored feedback to identify strengths and areas
-                      for improvement.
-                    </p>
-                  </div>
-                  <div className="space-y-2">
-                    <CircleCheckIcon className="h-6 w-6 text-gray-200 dark:text-gray-50" />
-                    <h3 className="text-lg font-semibold">
-                      Collaborative Learning
-                    </h3>
-                    <p className="text-gray-200 dark:text-gray-200">
-                      Engage with peers and instructors in real-time discussions
-                      and group projects.
-                    </p>
-                  </div>
-                  <div className="space-y-2">
-                    <CircleCheckIcon className="h-6 w-6 text-gray-200 dark:text-gray-50" />
-                    <h3 className="text-lg font-semibold">
-                      Adaptive Assessments
-                    </h3>
-                    <p className="text-gray-200 dark:text-gray-200">
-                      Receive personalized assessments that adapt to your
-                      learning progress.
-                    </p>
-                  </div>
-                </div>
+            <div className="mx-auto grid items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3">
+              <div className="grid gap-1">
+                <h3 className="text-lg font-bold">
+                  <Link href="/digital-skills-training">
+                    {" "}
+                    Digital Skills Training
+                  </Link>
+                </h3>
+                <p className="text-sm text-gray-500 dark:text-gray-400">
+                  The Digital Skills Training Programs are short courses that
+                  are designed to help you learn new skills and advance your
+                  career.
+                </p>
               </div>
-              <img
-                alt="Features"
-                className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
-                height="310"
-                src="/placeholder.svg"
-                width="550"
-              />
+              <div className="grid gap-1">
+                <h3 className="text-lg font-bold">
+                  <Link href="/office-productivity-software">
+                    Office Productivity Softwares
+                  </Link>
+                </h3>
+                <p className="text-sm text-gray-500 dark:text-gray-400">
+                  The Office Productivity Softwares Training Programs are short
+                  courses that are designed to help you learn how to use popular
+                  office productivity software.
+                </p>
+              </div>
+              <div className="grid gap-1">
+                <h3 className="text-lg font-bold">
+                  <Link href="/master-your-freelance-hustle">
+                    Master Your Freelance Hustle
+                  </Link>
+                </h3>
+                <p className="text-sm text-gray-500 dark:text-gray-400">
+                  The Master Your Freelance Hustle Mentorship is a 3-month
+                  program that is designed to help you become a successful
+                  freelancer.
+                </p>
+              </div>
+              <div className="grid gap-1">
+                <h3 className="text-lg font-bold">
+                  <Link href="/frontend-development">Frontend Development</Link>
+                </h3>
+                <p className="text-sm text-gray-500 dark:text-gray-400">
+                  The Frontend Development Mentorship is a 3-month program that
+                  is designed to help you become a frontend developer.
+                </p>
+              </div>
+              <div className="grid gap-1">
+                <h3 className="text-lg font-bold">
+                  <Link href="/backend-development">Backend Development</Link>
+                </h3>
+                <p className="text-sm text-gray-500 dark:text-gray-400">
+                  The Backend Development Mentorship is a 3-month program that
+                  is designed to help you become a backend developer.
+                </p>
+              </div>
+              <div className="grid gap-1">
+                <h3 className="text-lg font-bold">
+                  <Link href="/academy">Mastering React with JavaScript</Link>
+                </h3>
+                <p className="text-sm text-gray-500 dark:text-gray-400">
+                  Learn React from Facebook engineers. This course will take
+                  your React skills to the next level.
+                </p>
+              </div>
+            </div>
+            <div className="flex justify-center flex-col sm:flex-row items-start gap-4">
+              <Link
+                href="contact"
+                className="inline-flex h-10 items-center justify-center rounded-md bg-[#C24229] px-8 text-sm font-medium text-gray-50 shadow transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+                prefetch={false}
+              >
+                Contact Sales
+              </Link>
+              <Link
+                href="https://app.lupleg.website/dashboard"
+                className="inline-flex h-10 items-center justify-center rounded-md border border-gray-200 bg-white px-8 text-sm font-medium shadow-sm transition-colors hover:bg-green-900 hover:text-white focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
+                prefetch={false}
+              >
+                Tour the Platform
+              </Link>
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32">
-          <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6 lg:gap-10">
+        <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
+          <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
             <div className="space-y-3">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                What Our Users Say
+              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
+                Experience the workflow the best frontend teams love.
               </h2>
-              <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                Hear from our satisfied customers about their experience with
-                our education SaaS platform.
+              <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+                Let your team focus on bussiness prospects instead of managing
+                development and managing infrastructures
               </p>
             </div>
-            <div className="grid w-full grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
-              <Card>
-                <CardHeader>
-                  <div className="flex items-center space-x-4">
-                    <img
-                      alt="Avatar"
-                      className="rounded-full"
-                      height="48"
-                      src="/placeholder.svg"
-                      style={{
-                        aspectRatio: "48/48",
-                        objectFit: "cover",
-                      }}
-                      width="48"
-                    />
-                    <div>
-                      <h4 className="text-lg font-semibold">Jane Doe</h4>
-                      <p className="text-sm text-gray-500 dark:text-gray-400">
-                        Student
-                      </p>
-                    </div>
-                  </div>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-gray-500 dark:text-gray-400">
-                    "The interactive lessons and personalized feedback have
-                    transformed my learning experience. I've seen a significant
-                    improvement in my understanding and grades."
-                  </p>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardHeader>
-                  <div className="flex items-center space-x-4">
-                    <img
-                      alt="Avatar"
-                      className="rounded-full"
-                      height="48"
-                      src="/placeholder.svg"
-                      style={{
-                        aspectRatio: "48/48",
-                        objectFit: "cover",
-                      }}
-                      width="48"
-                    />
-                    <div>
-                      <h4 className="text-lg font-semibold">John Smith</h4>
-                      <p className="text-sm text-gray-500 dark:text-gray-400">
-                        Instructor
-                      </p>
-                    </div>
-                  </div>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-gray-500 dark:text-gray-400">
-                    "The collaborative learning tools have made it easier for me
-                    to engage with my students and foster a more interactive
-                    classroom environment."
-                  </p>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardHeader>
-                  <div className="flex items-center space-x-4">
-                    <img
-                      alt="Avatar"
-                      className="rounded-full"
-                      height="48"
-                      src="/placeholder.svg"
-                      style={{
-                        aspectRatio: "48/48",
-                        objectFit: "cover",
-                      }}
-                      width="48"
-                    />
-                    <div>
-                      <h4 className="text-lg font-semibold">Sarah Johnson</h4>
-                      <p className="text-sm text-gray-500 dark:text-gray-400">
-                        Administrator
-                      </p>
-                    </div>
-                  </div>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-gray-500 dark:text-gray-400">
-                    "The adaptive assessments and real-time analytics have
-                    streamlined our institution's evaluation process and helped
-                    us identify areas for improvement."
-                  </p>
-                </CardContent>
-              </Card>
+            <div className="mx-auto w-full max-w-sm space-y-2">
+              <form className="flex space-x-2">
+                <Input
+                  type="email"
+                  placeholder="Enter your email"
+                  className="max-w-lg flex-1"
+                />
+                <Button
+                  type="submit"
+                  className="bg-[#C24229] hover:bg-[#C24229] "
+                >
+                  Sign Up
+                </Button>
+              </form>
+              <p className="text-xs text-gray-500 dark:text-gray-400">
+                Sign up to get notified for any latest.
+                <Link
+                  href="/terms"
+                  className="underline underline-offset-2 text-green-700"
+                  prefetch={false}
+                >
+                  Terms &amp; Conditions
+                </Link>
+              </p>
             </div>
           </div>
         </section>
+
+        <section className="w-" />
       </main>
     </div>
-  );
-}
-
-function CircleCheckIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <circle cx="12" cy="12" r="10" />
-      <path d="m9 12 2 2 4-4" />
-    </svg>
   );
 }
