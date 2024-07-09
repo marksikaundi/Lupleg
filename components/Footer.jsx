@@ -75,7 +75,7 @@ export default function Footer() {
               placeholder="Enter Your Email Here"
               type="text"
             />
-            <Button className="w-full md:w-auto bg-orange-700 hover:bg-orange-700">
+            <Button type="submit" className="w-full md:w-auto bg-orange-700 hover:bg-orange-700">
               Subscribe
             </Button>
           </div>
