@@ -19,19 +19,19 @@ export default function sitemap() {
       priority: 2,
     },
     {
-      url: "https://www.lupleg.website/academy",
+      url: "https://www.lupleg.website/office-productivity-software",
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 2.5,
     },
     {
-      url: "https://www.lupleg.website/affiliates",
+      url: "https://www.lupleg.website/frontend-development",
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 3,
     },
     {
-      url: "https://www.lupleg.website/sponsor",
+      url: "https://www.lupleg.website/backend-development",
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 3.5,
