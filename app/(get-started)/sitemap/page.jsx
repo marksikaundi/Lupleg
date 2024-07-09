@@ -17,8 +17,9 @@ export default function Sitemap() {
                   Faster iteration. More innovation.
                 </h2>
                 <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                  Stress free you can easily access all what you looking for from our Sitemap.
-                  All the relevant pages are accessible from here without much stress.
+                  Stress free you can easily access all what you looking for
+                  from our Sitemap. All the relevant pages are accessible from
+                  here without much stress.
                 </p>
               </div>
             </div>
@@ -26,8 +27,9 @@ export default function Sitemap() {
               <div className="grid gap-1">
                 <h3 className="text-lg font-bold">Digital Skills Training</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  Enable code to run on-demand without needing to manage your
-                  own infrastructure or upgrade hardware.
+                  The Digital Skills Training Programs are short courses that
+                  are designed to help you learn new skills and advance your
+                  career.
                 </p>
               </div>
               <div className="grid gap-1">
@@ -35,8 +37,9 @@ export default function Sitemap() {
                   Office Productivity Softwares
                 </h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  Get granular, first-party, real-user metrics on site
-                  performance per deployment.
+                  The Office Productivity Softwares Training Programs are short
+                  courses that are designed to help you learn how to use popular
+                  office productivity software.
                 </p>
               </div>
               <div className="grid gap-1">
@@ -44,22 +47,23 @@ export default function Sitemap() {
                   Master Your Freelance Hustle
                 </h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  Deliver dynamic, personalized content, while ensuring users
-                  only see the best version of your site.
+                  The Master Your Freelance Hustle Mentorship is a 3-month
+                  program that is designed to help you become a successful
+                  freelancer.
                 </p>
               </div>
               <div className="grid gap-1">
                 <h3 className="text-lg font-bold">Frontend Development</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  Get granular, first-party, real-user metrics on site
-                  performance per deployment.
+                  The Frontend Development Mentorship is a 3-month program that
+                  is designed to help you become a frontend developer.
                 </p>
               </div>
               <div className="grid gap-1">
                 <h3 className="text-lg font-bold">Backend Development</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  Deliver dynamic, personalized content, while ensuring users
-                  only see the best version of your site.
+                  The Backend Development Mentorship is a 3-month program that
+                  is designed to help you become a backend developer.
                 </p>
               </div>
               <div className="grid gap-1">
@@ -67,8 +71,8 @@ export default function Sitemap() {
                   Mastering React with JavaScript
                 </h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  Enable code to run on-demand without needing to manage your
-                  own infrastructure or upgrade hardware.
+                  Learn React from Facebook engineers. This course will take
+                  your React skills to the next level.
                 </p>
               </div>
             </div>
