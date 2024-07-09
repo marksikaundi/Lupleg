@@ -7,13 +7,13 @@ export default function sitemap() {
       priority: 1,
     },
     {
-      url: "https://www.lupleg.website/challenge",
+      url: "https://www.lupleg.website/master-your-freelance-hustle",
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 1.5,
     },
     {
-      url: "https://www.lupleg.website/podcasts",
+      url: "https://www.lupleg.website/office-productivity-software",
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 2,
