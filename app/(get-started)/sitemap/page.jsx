@@ -25,7 +25,9 @@ export default function Sitemap() {
             </div>
             <div className="mx-auto grid items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3">
               <div className="grid gap-1">
-                <h3 className="text-lg font-bold">Digital Skills Training</h3>
+                <h3 className="text-lg font-bold">
+                  <Link href=""> Digital Skills Training</Link>
+                </h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   The Digital Skills Training Programs are short courses that
                   are designed to help you learn new skills and advance your
@@ -34,7 +36,7 @@ export default function Sitemap() {
               </div>
               <div className="grid gap-1">
                 <h3 className="text-lg font-bold">
-                  Office Productivity Softwares
+                  <Link href="">Office Productivity Softwares</Link>
                 </h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   The Office Productivity Softwares Training Programs are short
@@ -44,7 +46,7 @@ export default function Sitemap() {
               </div>
               <div className="grid gap-1">
                 <h3 className="text-lg font-bold">
-                  Master Your Freelance Hustle
+                  <Link href="">Master Your Freelance Hustle</Link>
                 </h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   The Master Your Freelance Hustle Mentorship is a 3-month
@@ -53,14 +55,18 @@ export default function Sitemap() {
                 </p>
               </div>
               <div className="grid gap-1">
-                <h3 className="text-lg font-bold">Frontend Development</h3>
+                <h3 className="text-lg font-bold">
+                  <Link href="">Frontend Development</Link>
+                </h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   The Frontend Development Mentorship is a 3-month program that
                   is designed to help you become a frontend developer.
                 </p>
               </div>
               <div className="grid gap-1">
-                <h3 className="text-lg font-bold">Backend Development</h3>
+                <h3 className="text-lg font-bold">
+                  <Link href="">Backend Development</Link>
+                </h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   The Backend Development Mentorship is a 3-month program that
                   is designed to help you become a backend developer.
@@ -68,7 +74,7 @@ export default function Sitemap() {
               </div>
               <div className="grid gap-1">
                 <h3 className="text-lg font-bold">
-                  Mastering React with JavaScript
+                  <Link href="">Mastering React with JavaScript</Link>
                 </h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   Learn React from Facebook engineers. This course will take
