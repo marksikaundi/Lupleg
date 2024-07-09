@@ -4,6 +4,8 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import podcasts from "@/constants/podcasts";
 
+// IMAGES BLOCKEN
+
 export default function Podcasts() {
   return (
     <div className="w-full">
