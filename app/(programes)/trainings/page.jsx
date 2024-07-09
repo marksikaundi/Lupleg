@@ -220,7 +220,7 @@ export default function Trainings() {
                       </li>
                       <li>
                         <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
-                        Cloud Service Models (IaaS, PaaS, SaaS)
+                        Cloud Service Models ( PaaS, SaaS)
                       </li>
                       <li>
                         <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
