@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import ProgramSummary from "@/components/FeaturesCards/ProgramSummary";
 import Link from "next/link";
 
@@ -16,10 +15,12 @@ export default function Home() {
             empowers
           </span>
         </h1>
-        <p className="mt-4 pt-12 pb-8 text-base sm:text-lg md:text-2xl text-gray-600">
+
+        {/* TODO: For future uncomment this code */}
+        {/* <p className="mt-4 p-12 text-base sm:text-lg md:text-2xl text-gray-600">
           Lupleg is a community platform that enables teams to streamline and
           help novice scale up their career in tech.
-        </p>
+        </p> */}
         <button className="W-15 mt-8 px-8 py-3 text-md bg-green-950 font-semibold border-2 border-green-950 p-6 text-white rounded  hover:bg-green-950 focus:outline-none focus:ring-2 focus:ring-orange focus:ring-opacity-50 transition duration-300">
           <Link href="challenge">Register </Link>
         </button>
