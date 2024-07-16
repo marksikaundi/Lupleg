@@ -96,7 +96,9 @@ export default function FrontendDevelopment() {
         <h2 className="font-mono font-bold my-6 ">
           Month 2: Advanced Concepts and Frameworks
         </h2>
-        <h2>Week 5-6: Advanced JavaScript and ES6+</h2>
+        <h2 className="font-mono font-bold my-6 ">
+          Week 5-6: Advanced JavaScript and ES6+
+        </h2>
         <ul className="py-6 list-disc">
           <li>Arrow functions, destructuring, spread operator</li>
           <li>Classes, modules, promises, async/await</li>
