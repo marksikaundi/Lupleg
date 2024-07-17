@@ -22,30 +22,60 @@ export default function Affiliates() {
           <div className="flex flex-col overflow-hidden rounded-lg border  border-gray-200 bg-white shadow-sm  dark:border-gray-800 dark:bg-gray-950">
             <div className="border-b border-gray-200  px-4 py-4  dark:border-gray-800">
               <h3 className="text-xl font-semibold tracking-wide">
-                Shared Hosting
+                Web Hosting
               </h3>
               <p className="text-sm text-gray-500 dark:text-gray-400">
-                The perfect starting point for your website.
+                Level-up with more power and enhanced features
               </p>
             </div>
             <div className="grid items-start gap-2 p-4">
               <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2">
+                  <CheckIcon className="h-4 w-4" />
+                  <span className="text-sm">100 websites</span>
+                </div>
                 <CheckIcon className="h-4 w-4" />
                 <span className="text-sm">Free domain & SSL</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckIcon className="h-4 w-4" />
-                <span className="text-sm">99.9% Uptime Guarantee</span>
+                <span className="text-sm">Free Pre-Built Templates</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckIcon className="h-4 w-4" />
-                <span className="text-sm">24/7/365 Support</span>
+                <span className="text-sm">200 GB NVMe Storage</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckIcon className="h-4 w-4" />
+                <span className="text-sm">
+                  Free Automatic Website Migration
+                </span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckIcon className="h-4 w-4" />
+                <span className="text-sm">Free Email</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckIcon className="h-4 w-4" />
+                <span className="text-sm">WordPress Staging Tool</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckIcon className="h-4 w-4" />
+                <span className="text-sm">Daily And On-Demand Backups</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckIcon className="h-4 w-4" />
+                <span className="text-sm">WordPress Staging Tool</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckIcon className="h-4 w-4" />
+                <span className="text-sm">WordPress AI Tools</span>
               </div>
             </div>
             <div className="flex flex-col gap-1 border-t  border-gray-200 p-4">
-              <span className="text-2xl font-semibold">$1.39/mo</span>
+              <span className="text-2xl font-semibold">$3.99/mo</span>
               <span className="text-xs text-gray-500 dark:text-gray-400">
-                Renewal $2.99/mo
+                Renewal $8.99/mo
               </span>
             </div>
             <div className="p-4">
@@ -58,37 +88,67 @@ export default function Affiliates() {
             </div>
             <div className="border-t border-gray-200 p-4  dark:border-gray-800">
               <p className="text-sm text-gray-500 dark:text-gray-400">
-                Affiliates: Buy through and get up to 20% discount.
+                Affiliates: Buy through and get up to 71% discount.
               </p>
             </div>
           </div>
           <div className="flex flex-col overflow-hidden rounded-lg border-2  border-green-950 bg-green-950 shadow-lg  dark:border-gray-100 dark:bg-gray-950">
             <div className="border-b border-white  px-4 py-4">
               <h3 className="text-xl font-semibold  text-white tracking-wide">
-                VPS Hosting
+                Cloud Hosting
               </h3>
               <p className="text-sm text-gray-300 dark:text-gray-400">
-                More power, more control, more features.
+                Optimized for scaling professional websites
               </p>
             </div>
             <div className="grid items-start gap-2 p-4">
               <div className="flex text-white items-center gap-2">
                 <CheckIcon className="h-4 w-4" />
-                <span className="text-sm">2x Speed</span>
+                <span className="text-sm">300 Websites</span>
               </div>
               <div className="flex text-white items-center gap-2">
                 <CheckIcon className="h-4 w-4" />
-                <span className="text-sm">Dedicated IP</span>
+                <span className="text-sm">250 GB NVMe Storage</span>
               </div>
               <div className="flex text-white items-center gap-2">
                 <CheckIcon className="h-4 w-4" />
-                <span className="text-sm">Root Access</span>
+                <span className="text-sm">6 GB RAM</span>
+              </div>
+              <div className="flex text-white items-center gap-2">
+                <CheckIcon className="h-4 w-4" />
+                <span className="text-sm">4 CPU Cores</span>
+              </div>
+              <div className="flex text-white items-center gap-2">
+                <CheckIcon className="h-4 w-4" />
+                <span className="text-sm">Daily Backups ($25.08 Value)</span>
+              </div>
+              <div className="flex text-white items-center gap-2">
+                <CheckIcon className="h-4 w-4" />
+                <span className="text-sm">Free Email</span>
+              </div>
+              <div className="flex text-white items-center gap-2">
+                <CheckIcon className="h-4 w-4" />
+                <span className="text-sm">Unlimited Free SSL</span>
+              </div>
+              <div className="flex text-white items-center gap-2">
+                <CheckIcon className="h-4 w-4" />
+                <span className="text-sm">Unlimited Bandwidth</span>
+              </div>
+              <div className="flex text-white items-center gap-2">
+                <CheckIcon className="h-4 w-4" />
+                <span className="text-sm">Free Domain ($9.99 Value)</span>
+              </div>
+              <div className="flex text-white items-center gap-2">
+                <CheckIcon className="h-4 w-4" />
+                <span className="text-sm">Dedicated IP Address</span>
               </div>
             </div>
             <div className="flex flex-col gap-1 border-t  border-white p-4">
-              <span className="text-2xl text-white font-semibold">$3.95/mo</span>
+              <span className="text-2xl text-white font-semibold">
+                $14.99/mo
+              </span>
               <span className="text-xs text-gray-300 dark:text-gray-400">
-                Renewal $8.99/mo
+                Renewal $32.99/mo
               </span>
             </div>
             <div className="p-4">
@@ -103,30 +163,34 @@ export default function Affiliates() {
           <div className="flex flex-col overflow-hidden rounded-lg border  border-gray-200 bg-white shadow-sm  dark:border-gray-800 dark:bg-gray-950">
             <div className="border-b border-gray-200  px-4 py-4  dark:border-gray-800">
               <h3 className="text-xl font-semibold tracking-wide">
-                Cloud Hosting
+                VPS Hosting
               </h3>
               <p className="text-sm text-gray-500 dark:text-gray-400">
-                High-performance cloud platform.
+                High-performance VPS Hosting.
               </p>
             </div>
             <div className="grid items-start gap-2 p-4">
               <div className="flex items-center gap-2">
                 <CheckIcon className="h-4 w-4" />
-                <span className="text-sm">Unlimited Bandwidth</span>
+                <span className="text-sm">2 vCPU Cores</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckIcon className="h-4 w-4" />
-                <span className="text-sm">Unlimited Databases</span>
+                <span className="text-sm">8 GB RAM</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckIcon className="h-4 w-4" />
-                <span className="text-sm">Free Domain</span>
+                <span className="text-sm">100 GB NVMe Disk Space</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckIcon className="h-4 w-4" />
+                <span className="text-sm">8 TB Bandwidth</span>
               </div>
             </div>
             <div className="flex flex-col gap-1 border-t border-gray-200  p-4">
-              <span className="text-2xl font-semibold">$9.99/mo</span>
+              <span className="text-2xl font-semibold">$6.99 /mo</span>
               <span className="text-xs text-gray-500 dark:text-gray-400">
-                Renewal $15.99/mo
+                Renewal $10.99/mo
               </span>
             </div>
             <div className="p-4">
