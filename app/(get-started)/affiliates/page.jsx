@@ -87,7 +87,7 @@ export default function Affiliates() {
             </div>
             <div className="border-t border-gray-200 p-4  dark:border-gray-800">
               <p className="text-sm text-gray-500 dark:text-gray-400">
-                Affiliates: Buy through and get up to 20% discount.
+                Affiliates: Buy through and get up to 71% discount.
               </p>
             </div>
           </div>
