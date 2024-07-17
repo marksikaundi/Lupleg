@@ -22,30 +22,59 @@ export default function Affiliates() {
           <div className="flex flex-col overflow-hidden rounded-lg border  border-gray-200 bg-white shadow-sm  dark:border-gray-800 dark:bg-gray-950">
             <div className="border-b border-gray-200  px-4 py-4  dark:border-gray-800">
               <h3 className="text-xl font-semibold tracking-wide">
-                Shared Hosting
+                Web Hosting
               </h3>
               <p className="text-sm text-gray-500 dark:text-gray-400">
-                The perfect starting point for your website.
+                Level-up with more power and enhanced features
               </p>
             </div>
             <div className="grid items-start gap-2 p-4">
               <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2">
+                <CheckIcon className="h-4 w-4" />
+                <span className="text-sm">100 websites</span>
+              </div>
                 <CheckIcon className="h-4 w-4" />
                 <span className="text-sm">Free domain & SSL</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckIcon className="h-4 w-4" />
-                <span className="text-sm">99.9% Uptime Guarantee</span>
+                <span className="text-sm">Free Pre-Built Templates</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckIcon className="h-4 w-4" />
-                <span className="text-sm">24/7/365 Support</span>
+                <span className="text-sm">200 GB NVMe Storage</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckIcon className="h-4 w-4" />
+                <span className="text-sm">Free Automatic Website Migration</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckIcon className="h-4 w-4" />
+                <span className="text-sm">Free Email</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckIcon className="h-4 w-4" />
+                <span className="text-sm">WordPress Staging Tool</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckIcon className="h-4 w-4" />
+                <span className="text-sm">Daily And On-Demand Backups</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckIcon className="h-4 w-4" />
+                <span className="text-sm">WordPress Staging Tool</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckIcon className="h-4 w-4" />
+                <span className="text-sm">WordPress AI Tools</span>
               </div>
             </div>
             <div className="flex flex-col gap-1 border-t  border-gray-200 p-4">
-              <span className="text-2xl font-semibold">$1.39/mo</span>
+              <span className="text-2xl font-semibold">$3.99/mo</span>
               <span className="text-xs text-gray-500 dark:text-gray-400">
-                Renewal $2.99/mo
+                Renewal $8.99/mo 
+
               </span>
             </div>
             <div className="p-4">
