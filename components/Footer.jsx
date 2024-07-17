@@ -13,9 +13,6 @@ export default function Footer() {
               <Link href="about-us">About us</Link>
             </li>
             <li>
-              <Link href="sponsor">Sponsor</Link>
-            </li>
-            <li>
               <Link href="terms">Terms</Link>
             </li>
             <li>

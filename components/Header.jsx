@@ -109,7 +109,7 @@ export default function Header() {
             <div className="w-30 flex   items-center rounded-full">
               <Button className="text-md text-white">
                 <SheetTrigger asChild>
-                  <Link href="https://app.lupleg.website/premium">Premium</Link>
+                  <Link href="premium">Premium</Link>
                 </SheetTrigger>
               </Button>
             </div>

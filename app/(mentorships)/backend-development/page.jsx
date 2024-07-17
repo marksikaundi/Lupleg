@@ -1,11 +1,11 @@
 import React from "react";
 import { LuListStart } from "react-icons/lu";
 
-export default function FrontendDevelopment() {
+export default function BackendDevelopment() {
   return (
     <div class="flex flex-col items-center container px-4 mx-auto">
       <h1 class="text-black text-center text-4xl font-bold tracking-tight md:text-5xl mt-10 mb-12">
-        Frontend Development Mentorship
+        Backend Development
       </h1>
       <div class=" max-w-2xl ml-4 flex-1 [&amp;&gt;p]:mb-12 [&amp;&gt;h2]:text-xl [&amp;&gt;h2]:font-bold">
         <p>
