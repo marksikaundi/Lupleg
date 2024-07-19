@@ -1,4 +1,5 @@
 import ProgramSummary from "@/components/FeaturesCards/ProgramSummary";
+import ShortMentorships from "@/components/HeroCards/ShortMentorships";
 import Link from "next/link";
 
 export default function Home() {
@@ -26,6 +27,11 @@ export default function Home() {
         </button>
         <br />
       </div>
+      <ShortMentorships />
+      <div className="my-8">
+        <hr className="border-t-2 border-gray-300" />
+      </div>
+
       <ProgramSummary />
     </div>
   );
