@@ -9,7 +9,7 @@ export default function Mentorships() {
       <div className="w-full bg-transparent">
         <div className="flex flex-col container mx-auto lg:py-24 py-20 px-8 w-7/10 justify-center">
           <div className="flex flex-col gap-4 text-center ">
-            <p className=" md:text-lg">Through Mentorship, We</p>
+            <p className=" md:text-lg"> →</p>
             <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-gray-800 mb-10">
               <span className="block xl:inline">Empower Individuals </span>{" "}
               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-orange-400 xl:inline">
@@ -20,14 +20,6 @@ export default function Mentorships() {
                 Developers
               </span>
             </h1>
-          </div>
-          <div className="flex justify-center">
-            <img
-              src="/Lupleg Mentorship.png"
-              width={850}
-              height={600}
-              className="rounded-md object-cover"
-            ></img>
           </div>
         </div>
       </div>
