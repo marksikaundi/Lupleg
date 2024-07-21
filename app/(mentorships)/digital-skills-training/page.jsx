@@ -143,28 +143,81 @@ export default function DigitalSkills() {
         </ul>
 
         <h2 className="font-mono font-bold my-6 ">
-          Month 2: Backend Frameworks and Databases
+          Month 2: Specialization Tracks (Weeks 5-8)
         </h2>
-        <h2 className="font-mono font-bold my-6 ">
-          Week 5-6: Backend Frameworks
-        </h2>
+        <p>
+          Choose one specialization track to delve deeper into a specific
+          skillset:
+        </p>
+        <h2 className="font-mono font-bold my-6 ">Track A: Data Analysis</h2>
         <ul className="py-6 list-disc">
           <li>
-            Choose a framework (e.g., Django for Python, Express for Node.js,
-            Spring for Java){" "}
+            Data Analysis Fundamentals: Introduction to data analysis concepts
           </li>
-          <li>Setup and project structure</li>
-          <li>Routing and middleware</li>
-          <li>Authentication and authorization</li>
+          <li>
+            Data Visualization: Creating visualizations and dashboards to convey
+            insights from data sets.
+          </li>
+          <li>
+            Statistical Analysis: Applying statistical methods to analyze and
+            interpret data.
+          </li>
+          <li>
+            Machine Learning: Introduction to machine learning algorithms and
+            models.
+          </li>
+          <li>
+            Python for Data Analysis: Using Python libraries like Pandas and
+            NumPy for data manipulation and analysis.
+          </li>
+          <li>SQL for Data Analysis: Querying and analyzing data using SQL.</li>
+          <li>
+            Data Analysis Tools: Working with tools like Excel, Tableau, and
+            Power BI for data analysis.
+          </li>
+          <li>
+            Data Analysis Projects: Hands-on projects to apply data analysis
+            skills to real-world data sets.
+          </li>
         </ul>
 
-        <h2 className="font-mono font-bold my-6 ">Week 7-8: Databases</h2>
+        <h2 className="font-mono font-bold my-6 ">Track B: Graphic Design</h2>
+
         <ul className="py-6 list-disc">
-          <li>Relational vs. Non-relational databases</li>
-          <li>SQL basics and database design</li>
-          <li>ORM (Object-Relational Mapping) concepts</li>
-          <li>Database operations and optimization</li>
+          <li>
+            Graphic Design Fundamentals: Introduction to design principles and
+            concepts.
+          </li>
+          <li>
+            Adobe Photoshop: Image editing, retouching, and manipulation in
+            Photoshop.
+          </li>
+          <li>
+            Adobe Illustrator: Creating vector graphics and illustrations in
+            Illustrator.
+          </li>
+          <li>
+            Adobe InDesign: Designing layouts and publications in InDesign.
+          </li>
+          <li>
+            UI/UX Design: User interface and user experience design principles.
+          </li>
+          <li>
+            Branding and Identity: Creating brand assets and visual identities.
+          </li>
+          <li>
+            Graphic Design Tools: Working with tools like Canva, Sketch, and
+            Figma.
+          </li>
+          <li>
+            Graphic Design Projects: Hands-on projects to apply graphic design
+            skills.
+          </li>
         </ul>
+
+        <h2 className="font-mono font-bold my-6 ">
+          Track C: Coding Fundamentals
+        </h2>
 
         <h2 className="font-mono font-bold my-6 ">
           Month 3: Advanced Topics and Project
