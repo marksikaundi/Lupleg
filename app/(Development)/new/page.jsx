@@ -8,6 +8,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import React from "react";
+import { SelectCategory } from "../components/SelectCategory";
 
 export default function New() {
   return (
@@ -25,6 +26,10 @@ export default function New() {
             <div className="flex flex-col gap-y-2">
               <Label>Name</Label>
               <Input type="text" placeholder="Name what you looking for" />
+            </div>
+            <div className="flex flex-col gap-y-2">
+              <Label>Category</Label>
+              <SelectCategory />
             </div>
           </CardContent>
         </form>
