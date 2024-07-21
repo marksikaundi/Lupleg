@@ -1,3 +1,5 @@
+import Publications from "@/components/LastUpdated/Publications";
+
 export default function OfficeProductivity() {
   return (
     <div class="flex flex-col items-center container px-4 mx-auto">
@@ -141,9 +143,7 @@ export default function OfficeProductivity() {
           strong technical skills and instructional abilities.
         </p>
 
-        <p className="my-6 font-mono">
-          <span className="font-bold">Last updated:</span> 29 June 2024.
-        </p>
+        <Publications />
       </div>
     </div>
   );
