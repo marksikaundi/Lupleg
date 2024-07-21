@@ -1,20 +1,58 @@
-import Image from "next/image";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
 import React from "react";
-import Link from "next/link";
+import { SelectCategory } from "../components/SelectCategory";
+import { Textarea } from "@/components/ui/textarea";
+import { TipTapEditor } from "@/components/TextEdit/Editor";
 
-export default function Hero() {
+export default function New() {
   return (
-    <div className="relative w-full h-screen">
-      {/* Bottom Right Image */}
-      <Image
-        src="https://utfs.io/f/ff7c57f5-a1b0-4c0c-afde-390ecdf9c87e-6uzm02.jpg"
-        width={300}
-        height={300}
-        alt="Mark Sikaundi"
-        className="rounded-full object-cover h-48 w-48 absolute bottom-0 right-0 mb-20 mr-20"
-      />
+    <section className="max-w-7xl mx-auto  my-20 px-4 md:px-8">
+      <Card>
+        <form>
+          <CardHeader>
+            <CardTitle>View all Our challenges</CardTitle>
+            <CardDescription>
+              Please describe what you looking for in detailed so that you can
+              view
+            </CardDescription>
+          </CardHeader>
+          <CardContent className="flex flex-col gap-y-10">
+            <div className="flex flex-col gap-y-2">
+              <Label>Name</Label>
+              <Input type="text" placeholder="Name what you looking for" />
+            </div>
+            <div className="flex flex-col gap-y-2">
+              <Label>Category</Label>
+              <SelectCategory />
+            </div>
+            <div className="flex flex-col gap-y-2">
+              <Label>Price</Label>
+              <Input type="number" placeholder="$29" />
+            </div>
+            <div className="flex flex-col gap-y-2">
+              <Label>Short Description</Label>
+              <Textarea placeholder="Please describe your product shortly right here....." />
+            </div>
 
-      <div>Hello work</div>
-    </div>
+           <div className="flex flex-col gap-y-2">
+              <Label>Long Description</Label>
+              <TipTapEditor/>
+           </div>
+
+
+
+            {/* <div className="flex flex-col gap-y-2"></div> */}
+          </CardContent>
+        </form>
+      </Card>
+    </section>
   );
 }
