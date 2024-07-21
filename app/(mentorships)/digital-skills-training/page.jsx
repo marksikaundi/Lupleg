@@ -10,12 +10,15 @@ export default function DigitalSkills() {
       </h1>
       <div class=" max-w-2xl ml-4 flex-1 [&amp;&gt;p]:mb-12 [&amp;&gt;h2]:text-xl [&amp;&gt;h2]:font-bold">
         <p>
-          The Digital Skills Training Program is designed to help you develop a
-          strong foundation in backend development and acquire the skills needed
-          to succeed in the tech industry. The program is structured to provide
-          you with a comprehensive understanding of backend technologies,
-          frameworks, and best practices, as well as hands-on experience
-          building real-world projects.
+          The Digital Skills Training program is designed to equip you with the
+          knowledge and skills needed to succeed in the tech industry. Whether
+          you're looking to start a career in data analysis, graphic design, or
+          web development, this program will provide you with the foundational
+          skills and hands-on experience to kickstart your journey as a digital
+          professional. The program is led by an experienced mentor who will
+          guide you through the curriculum, provide personalized coaching, and
+          support you in developing a strong portfolio of projects to showcase
+          your skills to potential employers.
         </p>
         <h2 className="font-mono font-bold my-6 ">Program Structure:</h2>
         <p>
@@ -259,25 +262,140 @@ export default function DigitalSkills() {
         </ul>
 
         <h2 className="font-mono font-bold my-6 ">
-          Week 11-12: Final Project and Deployment
+          Week 10-11: Project Development
         </h2>
         <ul className="py-6 list-disc">
-          <li>Design and implement a full-stack application</li>
-          <li>Server management and deployment </li>
-          <li>Continuous Integration/Continuous Deployment (CI/CD) </li>
-          <li>Monitoring and logging</li>
+          <li>Implement the project plan and work on developing the project</li>
+          <li>
+            Collaborate with the mentor and fellow participants for feedback and
+            support
+          </li>
+          <li>
+            Iterate on the project based on feedback and make necessary
+            adjustments
+          </li>
+          <li>Document the project development process and challenges faced</li>
+          <li>
+            Prepare a project presentation and demo to showcase the project
+          </li>
+          <li>
+            Review and refine the project based on feedback from the mentor and
+            peers
+          </li>
+          <li>
+            Finalize the project and prepare it for inclusion in your portfolio
+          </li>
+          <li>
+            Update your resume, LinkedIn profile, and portfolio with the project
+            details
+          </li>
+          <li>
+            Prepare for job interviews and showcase your project during
+            networking events
+          </li>
+          <li>
+            Reflect on the project development process and identify areas for
+            improvement
+          </li>
+          <li>
+            Share your project and portfolio with the mentor and fellow
+            participants for feedback and support
+          </li>
+        </ul>
+
+        <h2 className="font-mono font-bold my-6 ">
+          Week 12: Portfolio Building & Career Preparation:
+        </h2>
+
+        <ul className="py-6 list-disc">
+          <li>
+            Develop a professional portfolio showcasing your projects and skills
+          </li>
+          <li>
+            Create a personal brand and online presence to attract potential
+            employers
+          </li>
+          <li>
+            Prepare for job interviews, networking events, and career fairs to
+            land your dream job.
+          </li>
+          <li>
+            Review and refine your resume, cover letter, and LinkedIn profile to
+            stand out to employers
+          </li>
+          <li>
+            Practice interview questions and scenarios to build confidence and
+            improve your communication skills
+          </li>
+          <li>
+            Develop a job search strategy and apply to relevant job openings in
+            your field
+          </li>
+          <li>
+            Connect with industry professionals and build your network to
+            increase your job prospects
+          </li>
+          <li>
+            Reflect on your learning journey and celebrate your achievements and
+            growth throughout the program
+          </li>
+          <li>
+            Share your portfolio and career goals with the mentor and fellow
+            participants for feedback and support
+          </li>
+        </ul>
+
+        <h2 className="font-mono font-bold my-6">Benefits:</h2>
+        <ul className="py-6 list-disc">
+          <li>
+            Gain practical skills and hands-on experience in digital skills.
+          </li>
+          <li>
+            Build a strong portfolio of projects to showcase your skills to
+            potential employers
+          </li>
+          <li>
+            Receive personalized coaching and support from an experienced mentor
+          </li>
+          <li>
+            Connect with industry professionals and expand your professional
+            network
+          </li>
+          <li>
+            Develop a job search strategy and prepare for interviews and
+            networking events
+          </li>
+          <li>
+            Join a community of like-minded individuals and share your learning
+            journey
+          </li>
+          <li>
+            Gain confidence in your abilities and take the next step in your
+            career as a backend developer
+          </li>
         </ul>
 
         <h2 className="font-mono font-bold my-6 "> Additional Resources:</h2>
         <p>
-          This program is designed to take a mentee from basic programming
-          knowledge to a job-ready backend developer. The curriculum can be
-          adjusted based on the mentee's prior experience and learning pace.
-          Would you like me to elaborate on any specific part of this mentorship
-          program?
+          The following resources are recommended to supplement your learning
+          and deepen your understanding of digital skills: <br />
+          <span className="font-bold">Books:</span> "Cracking the Coding
+          Interview" by Gayle Laakmann McDowell, "Design for Hackers" by David
+          Kadavy, "Data Science for Business" by Foster Provost and Tom Fawcett.{" "}
+          <br />
+          <span className="font-bold">Online Courses:</span> Coursera, Udemy,
+          and Codecademy offer a wide range of courses on digital skills, data
+          analysis, graphic design, and coding. <br />
+          <span className="font-bold">Blogs and Articles:</span> Medium, Towards
+          Data Science, and Smashing Magazine are great resources for reading up
+          on the latest trends and best practices in digital skills. <br />
+          <span className="font-bold">Communities:</span> Join online
+          communities like Stack Overflow, GitHub, and Reddit to connect with
+          other developers and designers, ask questions, and share your
+          knowledge.{" "}
         </p>
 
-        <p className="mb-14 font-mono">
+        <p className="my-6 font-mono">
           <span className="font-bold">Last updated:</span> 21 July 2024.
         </p>
       </div>
