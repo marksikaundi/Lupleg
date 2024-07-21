@@ -10,6 +10,7 @@ import { Label } from "@/components/ui/label";
 import React from "react";
 import { SelectCategory } from "../components/SelectCategory";
 import { Textarea } from "@/components/ui/textarea";
+import { TipTapEditor } from "@/components/TextEdit/Editor";
 
 export default function New() {
   return (
@@ -41,7 +42,10 @@ export default function New() {
               <Textarea placeholder="Please describe your product shortly right here....." />
             </div>
 
-           
+           <div className="flex flex-col gap-y-2">
+              <Label>Long Description</Label>
+              <TipTapEditor/>
+           </div>
 
 
 
