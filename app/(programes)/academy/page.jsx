@@ -10,7 +10,7 @@ export default function Academy() {
               Lupleg Academy
             </h1>
             <p className="my-10 py-5 text-md md:text-xl lg:text-base xl:text-xl">
-              Master in-demand tech skills and land your dream tech job.
+            ⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️
             </p>
           </div>
         </div>
