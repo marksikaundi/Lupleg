@@ -9,6 +9,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import React from "react";
 import { SelectCategory } from "../components/SelectCategory";
+import { Textarea } from "@/components/ui/textarea";
 
 export default function New() {
   return (
@@ -31,6 +32,20 @@ export default function New() {
               <Label>Category</Label>
               <SelectCategory />
             </div>
+            <div className="flex flex-col gap-y-2">
+              <Label>Price</Label>
+              <Input type="number" placeholder="$29" />
+            </div>
+            <div className="flex flex-col gap-y-2">
+              <Label>Short Description</Label>
+              <Textarea placeholder="Please describe your product shortly right here....." />
+            </div>
+
+           
+
+
+
+            {/* <div className="flex flex-col gap-y-2"></div> */}
           </CardContent>
         </form>
       </Card>
