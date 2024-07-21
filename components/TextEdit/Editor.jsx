@@ -46,6 +46,28 @@ export const MenuBar = ({ editor }) => {
       >
         H4
       </Button>
+
+      <Button
+        onClick={() => editor.chain().focus().toggleBold().run()}
+        variant={editor.isActive("bold") ? "primary" : "secondary"}
+        type="button"
+      >
+        Bold
+      </Button>
+      <Button
+        onClick={() => editor.chain().focus().toggleItalic().run()}
+        variant={editor.isActive("italic") ? "primary" : "secondary"}
+        type="button"
+      >
+        Italic
+      </Button>
+      <Button
+        onClick={() => editor.chain().focus().toggleStrike().run()}
+        variant={editor.isActive("strike") ? "primary" : "secondary"}
+        type="button"
+      >
+        Strike
+      </Button>
     </div>
   );
 };
