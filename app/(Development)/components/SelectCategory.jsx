@@ -25,7 +25,7 @@ export function SelectCategory() {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
       {categoryItems.map((item) => (
-        <Card onClick={() => setSelectedCategory(item.name)}>
+        <Card className={selectedCategory === item.name ? 'border-green-950 border-2' : "border-2 border-primary/10"} onClick={() => setSelectedCategory(item.name)}>
           <CardHeader>
             {item.image}
             <h3 className="text-md font-semibold">{item.title}</h3>
