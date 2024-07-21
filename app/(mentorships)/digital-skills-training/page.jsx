@@ -5,7 +5,7 @@ export default function DigitalSkills() {
   return (
     <div class="flex flex-col items-center container px-4 mx-auto">
       <h1 class="text-black text-center text-4xl font-bold tracking-tight md:text-5xl mt-10 mb-12">
-        Digital Skills
+        Digital Skills Training
       </h1>
       <div class=" max-w-2xl ml-4 flex-1 [&amp;&gt;p]:mb-12 [&amp;&gt;h2]:text-xl [&amp;&gt;h2]:font-bold">
         <p>
@@ -29,53 +29,60 @@ export default function DigitalSkills() {
           <li>Month 2: Specialization Tracks (Weeks 5-8)</li>
           <li>Month 3: Project & Portfolio Development (Weeks 9-12)</li>
         </ul>
+        <hr className="my-10" />
 
         <h2 className="font-mono font-bold my-6 ">Weekly Breakdown:</h2>
         <ul className="px-6 py-2 list-disc">
           <li>
             {" "}
-            Workshops: Interactive sessions led by the mentor covering key
-            topics relevant to the program theme for that month.
-            (e.g.,Hackathons, APIs, RESTful services, Database operations and
-            optimization, Containerization with Docker)
+            <span className="font-bold">Workshops:</span> Interactive sessions
+            led by the mentor covering key topics relevant to the program theme
+            for that month. Workshops will be a mix of theory and hands-on
+            exercises.
           </li>
           <li>
-            Group Discussions: Opportunities to connect with fellow program
-            participants, share experiences, and ask questions in a supportive
-            environment.
+            <span className="font-bold">Group Discussions:</span> Opportunities
+            to connect with fellow program participants, share experiences, and
+            ask questions in a supportive environment.
           </li>
           <li>
-            Guest Speaker Sessions: Learn from established freelancers and
-            industry experts who will share their insights and practical advice.
+            <span className="font-bold">Guest Speaker Sessions:</span> Learn
+            from established freelancers and industry experts who will share
+            their insights and practical advice.
           </li>
           <li>
-            Action Steps: Weekly takeaways to ensure you're implementing the
-            learnings and making progress towards your goals.
+            <span className="font-bold">Action Steps:</span> Weekly takeaways to
+            ensure you're implementing the learnings and making progress towards
+            your goals.
           </li>
           <li>
-            One-on-One Coaching: Regular individual coaching sessions with the
-            mentor to address your specific needs and challenges, and develop a
-            personalized action plan.
+            <span className="font-bold">One on One Coaching:</span> Regular
+            individual coaching sessions with the mentor to address your
+            specific needs and challenges, and develop a personalized action
+            plan.
           </li>
         </ul>
 
         <ul className="px-6 py-2 list-disc">
           <li>
             {" "}
-            Mentorship Program Overview: This document provides an overview of
+            <span className="font-bold">Mentorship Program Overview:</span> This document provides an overview of
             the mentorship program structure, curriculum, and additional
-            resources to help you succeed as a backend developer.
+            resources to help you succeed as a digital Skills.
           </li>
           <li>
-            Weekly Breakdown: A detailed breakdown of the weekly activities and
+          <span className="font-bold">Weekly Breakdown:</span> A detailed breakdown of the weekly activities and
             learning objectives for each month of the program.
           </li>
           <li>
-            Additional Resources: Links to external resources, tools, and
+          <span className="font-bold">Additional Resources:</span> Links to external resources, tools, and
             articles to supplement your learning and deepen your understanding
-            of backend development.
+            of digital skills.
           </li>
         </ul>
+
+
+
 
         <h2 className="font-mono font-bold my-6 ">
           Month 1: Foundations and Basic Web Development
