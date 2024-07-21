@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { LuListStart } from "react-icons/lu";
 
@@ -67,7 +68,7 @@ export default function DigitalSkills() {
           <li>
             {" "}
             <span className="font-bold">Mentorship Program Overview:</span> This
-            document provides an overview of the mentorship program structure,
+            document provides an overview of the <Link href="/mentorships" className="text-green-700">mentorship program</Link> structure,
             curriculum, and additional resources to help you succeed as a
             digital Skills.
           </li>
@@ -84,13 +85,14 @@ export default function DigitalSkills() {
         </ul>
 
         <h2 className="font-mono font-bold my-6 ">
-          Month 1: Foundations and Basic Web Development
+          Month 1: Foundational Digital Skills
         </h2>
         <p>
-          This month is all about setting yourself up for success as a backend
-          developer. You'll learn the core concepts of programming, version
-          control, and basic web development technologies to build a strong
-          foundation for the rest of the program.
+          The first month of the program focuses on building a strong foundation
+          in digital skills, including microsoft office, google suite, social
+          media marketing, and <Link href="/frontend-development" className="text-green-700">basic programming concepts</Link> . The goal is to equip
+          you with the essential knowledge and skills needed to succeed in the
+          tech industry.
         </p>
         <h2 className="font-mono font-bold my-6 ">
           {" "}
