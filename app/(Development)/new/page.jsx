@@ -13,6 +13,8 @@ export default function Hero() {
         alt="Mark Sikaundi"
         className="rounded-full object-cover h-48 w-48 absolute bottom-0 right-0 mb-20 mr-20"
       />
+
+      <div>Hello work</div>
     </div>
   );
 }
