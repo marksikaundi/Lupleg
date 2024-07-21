@@ -75,10 +75,17 @@ export const MenuBar = ({ editor }) => {
 export function TipTapEditor() {
   const editor = useEditor({
     extensions: [StarterKit],
+    content: <p>Hello World</p>,
+    editorProps: {
+      attributes: {
+        class: "focus:outline-none min-h-[150px] p-2",
+      },
+    },
   });
   return (
     <div>
       <MenuBar editor={editor} />
+      <EditorContent editor={editor} className="rounded-lg border p-2 min-h-[150px] mt-4"/>
     </div>
   );
 }
