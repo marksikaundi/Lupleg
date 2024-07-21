@@ -27,7 +27,7 @@ export default function New() {
           <CardContent className="flex flex-col gap-y-10">
             <div className="flex flex-col gap-y-2">
               <Label>Name</Label>
-              <Input type="text" placeholder="Name what you looking for" />
+              <Input type="text" placeholder="Name what you selling" />
             </div>
             <div className="flex flex-col gap-y-2">
               <Label>Category</Label>
