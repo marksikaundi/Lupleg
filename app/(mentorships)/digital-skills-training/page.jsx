@@ -68,9 +68,12 @@ export default function DigitalSkills() {
           <li>
             {" "}
             <span className="font-bold">Mentorship Program Overview:</span> This
-            document provides an overview of the <Link href="/mentorships" className="text-green-700">mentorship program</Link> structure,
-            curriculum, and additional resources to help you succeed as a
-            digital Skills.
+            document provides an overview of the{" "}
+            <Link href="/mentorships" className="text-green-700">
+              mentorship program
+            </Link>{" "}
+            structure, curriculum, and additional resources to help you succeed
+            as a digital Skills.
           </li>
           <li>
             <span className="font-bold">Weekly Breakdown:</span> A detailed
@@ -90,35 +93,52 @@ export default function DigitalSkills() {
         <p>
           The first month of the program focuses on building a strong foundation
           in digital skills, including microsoft office, google suite, social
-          media marketing, and <Link href="/frontend-development" className="text-green-700">basic programming concepts</Link> . The goal is to equip
-          you with the essential knowledge and skills needed to succeed in the
-          tech industry.
+          media marketing, and{" "}
+          <Link href="/frontend-development" className="text-green-700">
+            basic programming concepts
+          </Link>{" "}
+          . The goal is to equip you with the essential knowledge and skills
+          needed to succeed in the tech industry.
         </p>
         <h2 className="font-mono font-bold my-6 ">
           {" "}
-          Week 1-2: Programming Fundamentals
+          Week 1-2: Microsoft Office and Google Suite
         </h2>
         <ul className="py-6 list-disc">
           <li>
-            Review core programming concepts (variables, data types, control
-            structures){" "}
+            Microsoft Word: Formatting, editing, and creating professional
+            documents and reports in Word.
           </li>
-          <li>Object-Oriented Programming principles</li>
-          <li>Version control with Git and GitHub</li>
-          <li>Command line basics</li>
+          <li>
+            Microsoft Excel: Basic formulas, functions, and data analysis in
+            Excel.
+          </li>
+          <li>
+            Microsoft PowerPoint: Designing engaging presentations and
+            slideshows in PowerPoint.
+          </li>
         </ul>
 
         <h2 className="font-mono font-bold my-6 ">
-          Week 3-4: Web Development Basics
+          Week 3-4: Google Suite and Social Media Marketing
         </h2>
         <ul className="py-6 list-disc">
-          <li>HTTP protocol and request-response cycle</li>
-          <li>Introduction to APIs and RESTful services</li>
           <li>
-            Basic frontend technologies (HTML, CSS, JavaScript) for context
+            Google Docs, Sheets, and Slides: Collaborating and sharing
+            documents, spreadsheets, and presentations using Google Suite.
           </li>
           <li>
-            Introduction to backend languages (e.g., Python, Node.js, Java)
+            Google Drive: Organizing and managing files and folders in Google
+            Drive.
+          </li>
+          <li>
+            Google Calendar: Scheduling and managing events and appointments in
+            Google Calendar.
+          </li>
+          <li>Gmail: Managing emails, contacts, and tasks in Gmail.</li>
+          <li>
+            Social Media Marketing: Understanding social media platforms,
+            content creation, and engagement strategies.
           </li>
         </ul>
 
