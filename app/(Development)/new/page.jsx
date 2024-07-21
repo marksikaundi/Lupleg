@@ -12,7 +12,7 @@ import { SelectCategory } from "../components/SelectCategory";
 
 export default function New() {
   return (
-    <section className="max-w-7xl mx-auto px-4 md:px-8">
+    <section className="max-w-7xl mx-auto  my-20 px-4 md:px-8">
       <Card>
         <form>
           <CardHeader>
