@@ -166,7 +166,7 @@ export default function BackendDevelopment() {
           program?
         </p>
 
-        <p className="mb-14 font-mono">
+        <p className="my-6 font-mono">
           <span className="font-bold">Last updated:</span> 16 July 2024.
         </p>
       </div>
