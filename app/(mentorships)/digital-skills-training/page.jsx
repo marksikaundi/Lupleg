@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
-import { LuListStart } from "react-icons/lu";
 
 export default function DigitalSkills() {
   return (
