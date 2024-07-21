@@ -18,16 +18,16 @@ export default function New() {
       <Card>
         <form>
           <CardHeader>
-            <CardTitle>View all Our challenges</CardTitle>
+            <CardTitle>Sell your products with easy</CardTitle>
             <CardDescription>
-              Please describe what you looking for in detailed so that you can
-              view
+              Please describe your product in detail, so that customers can buy
+              it easily.
             </CardDescription>
           </CardHeader>
           <CardContent className="flex flex-col gap-y-10">
             <div className="flex flex-col gap-y-2">
               <Label>Name</Label>
-              <Input type="text" placeholder="Name what you looking for" />
+              <Input type="text" placeholder="Name what you selling" />
             </div>
             <div className="flex flex-col gap-y-2">
               <Label>Category</Label>
@@ -42,12 +42,10 @@ export default function New() {
               <Textarea placeholder="Please describe your product shortly right here....." />
             </div>
 
-           <div className="flex flex-col gap-y-2">
-              <Label>Long Description</Label>
-              <TipTapEditor/>
-           </div>
-
-
+            <div className="flex flex-col gap-y-2">
+              <Label>Description</Label>
+              <TipTapEditor />
+            </div>
 
             {/* <div className="flex flex-col gap-y-2"></div> */}
           </CardContent>
