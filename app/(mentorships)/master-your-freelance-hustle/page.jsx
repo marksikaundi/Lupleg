@@ -165,7 +165,7 @@ export default function FreelanceHustle() {
           helpful materials to support your learning journey.
         </p>
 
-        <p className="mb-14 font-mono">
+        <p className="my-6 font-mono">
           <span className="font-bold">Last updated:</span> 29 June 2024.
         </p>
       </div>
