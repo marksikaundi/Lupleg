@@ -66,23 +66,22 @@ export default function DigitalSkills() {
         <ul className="px-6 py-2 list-disc">
           <li>
             {" "}
-            <span className="font-bold">Mentorship Program Overview:</span> This document provides an overview of
-            the mentorship program structure, curriculum, and additional
-            resources to help you succeed as a digital Skills.
+            <span className="font-bold">Mentorship Program Overview:</span> This
+            document provides an overview of the mentorship program structure,
+            curriculum, and additional resources to help you succeed as a
+            digital Skills.
           </li>
           <li>
-          <span className="font-bold">Weekly Breakdown:</span> A detailed breakdown of the weekly activities and
-            learning objectives for each month of the program.
+            <span className="font-bold">Weekly Breakdown:</span> A detailed
+            breakdown of the weekly activities and learning objectives for each
+            month of the program.
           </li>
           <li>
-          <span className="font-bold">Additional Resources:</span> Links to external resources, tools, and
-            articles to supplement your learning and deepen your understanding
-            of digital skills.
+            <span className="font-bold">Additional Resources:</span> Links to
+            external resources, tools, and articles to supplement your learning
+            and deepen your understanding of digital skills.
           </li>
         </ul>
-
-
-
 
         <h2 className="font-mono font-bold my-6 ">
           Month 1: Foundations and Basic Web Development
