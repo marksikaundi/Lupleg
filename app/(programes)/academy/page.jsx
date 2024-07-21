@@ -1,3 +1,4 @@
+import MoreFQA from "@/components/FeaturesCards/MoreFAQ";
 import Link from "next/link";
 
 export default function Academy() {
@@ -190,6 +191,7 @@ export default function Academy() {
           </div>
         </div>
       </section>
+      <MoreFQA/>
     </div>
   );
 }
