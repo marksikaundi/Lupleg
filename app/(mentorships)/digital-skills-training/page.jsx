@@ -1,3 +1,4 @@
+import Publications from "@/components/LastUpdated/Publications";
 import Link from "next/link";
 import React from "react";
 
@@ -394,9 +395,7 @@ export default function DigitalSkills() {
           knowledge.{" "}
         </p>
 
-        <p className="my-6 font-mono">
-          <span className="font-bold">Last updated:</span> 21 July 2024.
-        </p>
+        <Publications />
       </div>
     </div>
   );

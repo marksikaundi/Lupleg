@@ -2,10 +2,10 @@
 module.exports = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{js,jsx}',
-    './components/**/*.{js,jsx}',
-    './app/**/*.{js,jsx}',
-    './src/**/*.{js,jsx}',
+    "./pages/**/*.{js,jsx}",
+    "./components/**/*.{js,jsx}",
+    "./app/**/*.{js,jsx}",
+    "./src/**/*.{js,jsx}",
   ],
   prefix: "",
   theme: {
@@ -53,7 +53,12 @@ module.exports = {
         },
       },
       backgroundImage: {
-        "podcast-bg": "url('https://media.istockphoto.com/id/1657153873/photo/background-with-a-professional-microphone.webp?b=1&s=170667a&w=0&k=20&c=UYAwE0CwcAp4dYom58AkVISNavXjf_3DNgwHuL71Nxs=')",
+        "podcast-bg":
+          "url('https://media.istockphoto.com/id/1657153873/photo/background-with-a-professional-microphone.webp?b=1&s=170667a&w=0&k=20&c=UYAwE0CwcAp4dYom58AkVISNavXjf_3DNgwHuL71Nxs=')",
+        "academy-bg":
+          "url('https://utfs.io/f/877dcd68-6d55-4388-80d3-e028d63855f2-gu8pw0.jpg')",
+        academy:
+          "url('https://utfs.io/f/8aebb468-7659-49b9-88a9-006b903a7566-n1gzrv.png')",
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -77,4 +82,4 @@ module.exports = {
     },
   },
   plugins: [require("tailwindcss-animate")],
-}
+};

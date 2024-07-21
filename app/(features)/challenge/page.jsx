@@ -1,3 +1,4 @@
+import MoreFQA from "@/components/FeaturesCards/MoreFAQ";
 import Link from "next/link";
 import React from "react";
 
@@ -244,6 +245,7 @@ function Challenge() {
           Join challenge
         </a>
       </section>
+      <MoreFQA />
     </div>
   );
 }

@@ -1,3 +1,4 @@
+import Publications from "@/components/LastUpdated/Publications";
 import React from "react";
 import { LuListStart } from "react-icons/lu";
 
@@ -165,9 +166,7 @@ export default function FreelanceHustle() {
           helpful materials to support your learning journey.
         </p>
 
-        <p className="mb-14 font-mono">
-          <span className="font-bold">Last updated:</span> 29 June 2024.
-        </p>
+        <Publications />
       </div>
     </div>
   );

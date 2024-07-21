@@ -1,3 +1,4 @@
+import Publications from "@/components/LastUpdated/Publications";
 import React from "react";
 import { LuListStart } from "react-icons/lu";
 
@@ -151,9 +152,7 @@ export default function FrontendDevelopment() {
           like me to elaborate on any specific part of this mentorship plan?
         </p>
 
-        <p className="mb-14 font-mono">
-          <span className="font-bold">Last updated:</span> 16 July 2024.
-        </p>
+        <Publications />
       </div>
     </div>
   );
