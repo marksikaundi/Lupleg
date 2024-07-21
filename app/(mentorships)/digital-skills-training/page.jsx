@@ -218,18 +218,44 @@ export default function DigitalSkills() {
         <h2 className="font-mono font-bold my-6 ">
           Track C: Coding Fundamentals
         </h2>
+        <ul className="py-6 list-disc">
+          <li>
+            Programming Fundamentals: Introduction to programming concepts
+          </li>
+          <li>
+            HTML and CSS: Building and styling web pages with HTML and CSS
+          </li>
+          <li>
+            JavaScript: Adding interactivity and functionality with JavaScript
+          </li>
+          <li>Version Control: Using Git and GitHub for version control</li>
+          <li>
+            Web Development Tools: Working with tools like VS Code and Chrome
+            DevTools
+          </li>
+          <li>
+            Responsive Design: Creating responsive and mobile-friendly websites
+          </li>
+          <li>
+            Web Development Projects: Hands-on projects to apply web development
+            skills
+          </li>
+        </ul>
 
         <h2 className="font-mono font-bold my-6 ">
-          Month 3: Advanced Topics and Project
+          Month 3: Project & Portfolio Development (Weeks 9-12)
         </h2>
         <h2 className="font-mono font-bold my-6 ">
-          Week 9-10: Advanced Backend Concepts
+          Week 9: Project Selection & Planning:
         </h2>
         <ul className="py-6 list-disc">
-          <li>API design and documentation</li>
-          <li>Caching strategies</li>
-          <li>Message queues and background jobs</li>
-          <li>Containerization with Docker</li>
+          <li>Identify a project idea based on your specialization track</li>
+          <li>Define project scope, requirements, and timeline</li>
+          <li>Create a project plan and outline key milestones</li>
+          <li>Set up project management tools and version control systems</li>
+          <li>
+            Develop a project proposal and present it to the mentor for feedback
+          </li>
         </ul>
 
         <h2 className="font-mono font-bold my-6 ">
