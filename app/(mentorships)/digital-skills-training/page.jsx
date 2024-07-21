@@ -23,11 +23,11 @@ export default function DigitalSkills() {
           become progressively more challenging, allowing you to build on your
           knowledge and skills as you progress through the program.
         </p>
-        <hr className="my-10"/>
+        <hr className="my-10" />
         <ul className="px-6 py-2 list-disc">
-          <li>Month 1: Fundamentals and Basic Web Development</li>
-          <li>Month 2: Backend Frameworks and Databases</li>
-          <li>Month 3: Advanced Topics and Project</li>
+          <li>Month 1: Foundational Skills (Weeks 1-4)</li>
+          <li>Month 2: Specialization Tracks (Weeks 5-8)</li>
+          <li>Month 3: Project & Portfolio Development (Weeks 9-12)</li>
         </ul>
 
         <h2 className="font-mono font-bold my-6 ">Weekly Breakdown:</h2>
