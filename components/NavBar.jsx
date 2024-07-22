@@ -1,4 +1,6 @@
 import React from "react";
+import NavbarLinks from "./NavbarLinks";
+import Link from "next/link";
 
 export default function NavBar() {
   return (
@@ -8,6 +10,7 @@ export default function NavBar() {
           <h1 className="text-2xl font-semibold">Marshal <span className="text-violet-500">UI</span></h1>
         </Link>
       </div>
+      <NavbarLinks/>
     </nav>
   );
 }
