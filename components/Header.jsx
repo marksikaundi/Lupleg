@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { SheetTrigger, SheetContent, Sheet } from "@/components/ui/sheet";
 import Image from "next/image";
 import { useState } from "react";
+import { LoginLink, RegisterLink } from "@kinde-oss/kinde-auth-nextjs/components";
 
 export default function Header() {
   return (
@@ -57,8 +58,8 @@ export default function Header() {
       </div> */}
 
       <div className="md:flex hidden items-center gap-x-2 ms-auto md:col-span-3">
-        <Button className="bg-green-950 hover:bg-green-950">Login</Button>
-        <Button variant="secondary">Register</Button>
+        <Button asChild className="bg-green-950 hover:bg-green-950"> <LoginLink>Login</LoginLink> </Button>
+        <Button asChild variant="secondary">  <RegisterLink>Register</RegisterLink> </Button>
 
       </div>
 
