@@ -58,8 +58,8 @@ export default function Header() {
       </div> */}
 
       <div className="md:flex hidden items-center gap-x-2 ms-auto md:col-span-3">
-        <Button asChild className="bg-green-950 hover:bg-green-950"> <LoginLink>Login</LoginLink> </Button>
-        <Button asChild variant="secondary">  <RegisterLink>Register</RegisterLink> </Button>
+        <Button  className="bg-green-950 hover:bg-green-950"> <LoginLink>Login</LoginLink> </Button>
+        <Button  variant="secondary">  <RegisterLink>Register</RegisterLink> </Button>
 
       </div>
 
