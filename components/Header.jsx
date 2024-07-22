@@ -47,13 +47,19 @@ export default function Header() {
           </Link>
         </nav>
       </div>
-      <div className="hidden items-center justify-start  space-x-4 text-m font-semibold text-white md:flex">
+      {/* <div className="hidden items-center justify-start  space-x-4 text-m font-semibold text-white md:flex">
         <Link
           href="premium"
           className="rounded bg-green-950 border-2 border-green-950 p-3"
         >
           Premium
         </Link>
+      </div> */}
+
+      <div className="md:flex hidden items-center gap-x-2 ms-auto md:col-span-3">
+        <Button className="bg-green-950 hover:bg-green-950">Login</Button>
+        <Button variant="secondary">Register</Button>
+
       </div>
 
       {/* mobile view */}
@@ -109,7 +115,8 @@ export default function Header() {
             <div className="w-30 flex   items-center rounded-full">
               <Button className="text-md text-white">
                 <SheetTrigger asChild>
-                  <Link href="premium">Premium</Link>
+                  {/* <Link href="premium">Sign In</Link> */}
+                  <Button>Sign In</Button>
                 </SheetTrigger>
               </Button>
             </div>
