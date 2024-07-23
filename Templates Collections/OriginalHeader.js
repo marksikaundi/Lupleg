@@ -9,8 +9,6 @@ import {
 } from "@kinde-oss/kinde-auth-nextjs/components";
 import UserNav from "@/components/UserNav";
 
-
-
 export function HeaderClient({ user }) {
   return (
     <header className="flex items-center justify-between bg-white p-6 dark:bg-gray-800">
@@ -19,16 +17,40 @@ export function HeaderClient({ user }) {
           <Image src="/lupleg.svg" alt="Lupleg" width={150} height={100} />
         </Link>
       </div>
-      <div className="hidden md:flex ">
-        <nav className="flex space-x-6 md:flex  text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200">
-          <Link href="about-us">About</Link>
-          <Link href="challenge">Challenge</Link>
-          <Link href="mentorships">Mentorships</Link>
-          <Link href="academy">Academy</Link>
-          <Link href="podcasts">Podcasts</Link>
+      <div className="flex-1 flex justify-center">
+        <nav className="hidden md:flex space-x-6">
+          <Link
+            className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
+            href="about-us"
+          >
+            About
+          </Link>
+          <Link
+            className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
+            href="challenge"
+          >
+            Challenge
+          </Link>
+          <Link
+            className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
+            href="mentorships"
+          >
+            Mentorships
+          </Link>
+          <Link
+            className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
+            href="academy"
+          >
+            Academy
+          </Link>
+          <Link
+            className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
+            href="podcasts"
+          >
+            Podcasts
+          </Link>
         </nav>
       </div>
-
       <div className="hidden md:flex items-center gap-x-2">
         {user ? (
           <UserNav
@@ -49,11 +71,11 @@ export function HeaderClient({ user }) {
           </div>
         )}
       </div>
-
+      
       {/* mobile view */}
       <Sheet>
         <SheetTrigger asChild>
-          <Button className="lg:hidden"  size="icon" variant="outline">
+          <Button className="lg:hidden" size="icon" variant="outline">
             <MenuIcon className="h-6 w-6" />
             <span className="sr-only">Toggle navigation menu</span>
           </Button>
