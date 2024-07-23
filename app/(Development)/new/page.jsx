@@ -11,6 +11,7 @@ import React from "react";
 import { SelectCategory } from "../components/SelectCategory";
 import { Textarea } from "@/components/ui/textarea";
 import { TipTapEditor } from "@/components/TextEdit/Editor";
+import { UploadDropzone } from "@/lib/uploadthing";
 
 export default function New() {
   return (
@@ -45,6 +46,11 @@ export default function New() {
             <div className="flex flex-col gap-y-2">
               <Label>Description</Label>
               <TipTapEditor />
+            </div>
+            <div className="flex flex-col gap-y-2">
+              <Label> Product Images</Label>
+              <UploadDropzone endpoint="imageUploader" />
+
             </div>
 
             {/* <div className="flex flex-col gap-y-2"></div> */}
