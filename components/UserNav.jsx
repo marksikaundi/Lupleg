@@ -32,10 +32,10 @@ export default function UserNav({ email, name, userImage }) {
         </DropdownMenuLabel>
         <DropdownMenuSeparator />
         <DropdownMenu>
-          <DropdownMenuItem href="/account">Account</DropdownMenuItem>
-          <DropdownMenuItem href="/settings">Settings</DropdownMenuItem>
-          <DropdownMenuItem href="/settings">Settings</DropdownMenuItem>
-          <DropdownMenuItem href="/settings">Settings</DropdownMenuItem>
+          <DropdownMenuItem href="#">Account</DropdownMenuItem>
+          <DropdownMenuItem href="#">Earnings</DropdownMenuItem>
+          <DropdownMenuItem href="#">Sold</DropdownMenuItem>
+          <DropdownMenuItem href="#">Settings</DropdownMenuItem>
         </DropdownMenu>
         <DropdownMenuSeparator />
         <DropdownMenuItem>
