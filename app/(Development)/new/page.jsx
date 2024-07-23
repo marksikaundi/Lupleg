@@ -13,6 +13,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { TipTapEditor } from "@/components/TextEdit/Editor";
 import { UploadDropzone } from "@/lib/uploadthing";
 
+
 export default function New() {
   return (
     <section className="max-w-7xl mx-auto  my-20 px-4 md:px-8">
@@ -50,7 +51,11 @@ export default function New() {
             <div className="flex flex-col gap-y-2">
               <Label> Product Images</Label>
               <UploadDropzone endpoint="imageUploader" />
+            </div>
 
+            <div className="flex flex-col gap-2">
+              <Label>Product Files</Label>
+              <UploadDropzone endpoint="productFileUpload" />
             </div>
 
             {/* <div className="flex flex-col gap-y-2"></div> */}
