@@ -17,21 +17,21 @@ export default function Header() {
         <nav className="flex space-x-6">
           <Link
             className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
-            href="services"
+            href="about-us"
           >
-            Services
+            About
           </Link>
           <Link
             className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
-            href="features"
+            href="challenge"
           >
-            Features
+            Challenges
           </Link>
           <Link
             className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
-            href="for-orgs"
+            href="mentorships"
           >
-            For ORGs
+            Mentorships
           </Link>
           <Link
             className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
@@ -47,10 +47,13 @@ export default function Header() {
           </Link>
         </nav>
       </div>
-      <div className="text-md hidden rounded border-2 border-green-700  p-3 text-black  md:block">
-        <Link href="partner">Partner with us</Link>
+      <div className="hidden rounded p-3  md:block">
+        <Button className="text-md text-bold text-white py-6 bg-green-950 hover:bg-green-950">
+          <Link href="https://app.lupleg.website">Register</Link>
+        </Button>
       </div>
-{/* mobile view */}
+
+      {/* mobile view */}
       <Sheet>
         <SheetTrigger asChild>
           <Button className="lg:hidden" size="icon" variant="outline">
@@ -62,21 +65,21 @@ export default function Header() {
           <div className="grid gap-2 py-6">
             <Link
               className="flex w-full items-center py-2 text-lg font-semibold"
-              href="services"
+              href="about-us"
             >
-              Services
+              About
             </Link>
             <Link
               className="flex w-full items-center py-2 text-lg font-semibold"
-              href="features"
+              href="challenge"
             >
-              Features
+              Challenges
             </Link>
             <Link
               className="flex w-full items-center py-2 text-lg font-semibold"
-              href="for-orgs"
+              href="mentorships"
             >
-              For ORGs
+              Mentorships
             </Link>
             <Link
               className="flex w-full items-center py-2 text-lg font-semibold"
@@ -91,8 +94,8 @@ export default function Header() {
               Podcasts
             </Link>
             <div className="w-30 flex   items-center rounded-full">
-              <Button className="text-md text-white">
-                <Link href="partner">Partner with us</Link>
+              <Button className="text-md  text-white  bg-green-950 hover:bg-green-950">
+                <Link href="https://app.lupleg.website">Register</Link>
               </Button>
             </div>
           </div>
