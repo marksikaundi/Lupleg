@@ -7,7 +7,7 @@ import {
   LoginLink,
   RegisterLink,
 } from "@kinde-oss/kinde-auth-nextjs/components";
-import UserNav from "@/components/UserNav";
+import UserNav from "@/Templates Collections/kinde/UserNav";
 
 export function HeaderClient({ user }) {
   return (
@@ -71,7 +71,7 @@ export function HeaderClient({ user }) {
           </div>
         )}
       </div>
-      
+
       {/* mobile view */}
       <Sheet>
         <SheetTrigger asChild>

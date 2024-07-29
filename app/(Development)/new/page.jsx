@@ -11,8 +11,7 @@ import React from "react";
 import { SelectCategory } from "../components/SelectCategory";
 import { Textarea } from "@/components/ui/textarea";
 import { TipTapEditor } from "@/components/TextEdit/Editor";
-import { UploadDropzone } from "@/lib/uploadthing";
-
+import { UploadDropzone } from "@/Templates Collections/kinde/uploadthing";
 
 export default function New() {
   return (

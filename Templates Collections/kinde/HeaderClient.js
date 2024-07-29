@@ -7,9 +7,7 @@ import {
   LoginLink,
   RegisterLink,
 } from "@kinde-oss/kinde-auth-nextjs/components";
-import UserNav from "@/components/UserNav";
-
-
+import UserNav from "@/Templates Collections/kinde/UserNav";
 
 export function HeaderClient({ user }) {
   return (
@@ -53,7 +51,7 @@ export function HeaderClient({ user }) {
       {/* mobile view */}
       <Sheet>
         <SheetTrigger asChild>
-          <Button className="lg:hidden"  size="icon" variant="outline">
+          <Button className="lg:hidden" size="icon" variant="outline">
             <MenuIcon className="h-6 w-6" />
             <span className="sr-only">Toggle navigation menu</span>
           </Button>
