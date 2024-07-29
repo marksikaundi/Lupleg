@@ -41,14 +41,14 @@ export default function Header() {
           </Link>
           <Link
             className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
-            href="podcasts"
+            href="premium"
           >
-            Podcasts
+            Premium
           </Link>
         </nav>
       </div>
       <div className="hidden rounded p-3  md:block">
-        <Button className="text-md text-bold text-white py-6 bg-green-950 hover:bg-green-950">
+        <Button className="text-md font-semibold text-white py-6 bg-green-950 hover:bg-green-950">
           <Link href="https://app.lupleg.website">Register</Link>
         </Button>
       </div>
@@ -89,9 +89,9 @@ export default function Header() {
             </Link>
             <Link
               className="flex w-full items-center py-2 text-lg font-semibold"
-              href="podcasts"
+              href="premium"
             >
-              Podcasts
+              Premium
             </Link>
             <div className="w-30 flex   items-center rounded-full">
               <Button className="text-md  text-white  bg-green-950 hover:bg-green-950">
