@@ -1,4 +1,4 @@
-import { ourFileRouter } from "@/app/api/uploadthing/core";
+import { ourFileRouter } from "@/Templates Collections/kinde/api/uploadthing/core";
 import {
     generateUploadButton,
     generateUploadDropzone,
