@@ -26,7 +26,7 @@ export default function Plan() {
               </p>
             </div>
             <div className="flex items-end gap-2">
-              <span className="text-4xl font-bold">$9</span>
+              <span className="text-4xl font-bold">$19</span>
               <span className="text-muted-foreground">
                 /Billed every month.
               </span>
