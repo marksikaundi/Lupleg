@@ -9,8 +9,8 @@ export default function Terms() {
           These Terms and Conditions (&quot;Terms &quot;, &quot;Terms and
           Conditions &quot;) govern your relationship with Lupleg (the
           &quot;Service &quot;) operated by{" "}
-          <span className="font-bold text-green-900">Lupleg</span>{" "}
-          (&quot;us &quot;, &quot;we &quot;, or &quot;our &quot;).
+          <span className="font-bold text-green-900">Lupleg</span> (&quot;us
+          &quot;, &quot;we &quot;, or &quot;our &quot;).
         </p>
         <h2 className="font-mono font-bold my-6 ">1. Introduction</h2>
         <p>
@@ -30,12 +30,12 @@ export default function Terms() {
         <p>
           You will be able to use all (or some of) the PRO features after you
           purchase a PRO tier. The details of the PRO features are available on
-          the pro page.
+          the premium page.
         </p>
         <h2 className="font-mono font-bold my-6 ">4. Refund Policy </h2>
         <p>
-          We allow refunds within 14 days of purchase. Contact us at
-          info@lupleg.website or in our Discord channel and we will give you a
+          We allow refunds within 14 days of purchase. Contact us via email at
+          payment@lupleg.website or in our Slack Cmmunity and we will give you a
           refund.
         </p>
         <h2 className="font-mono font-bold my-6 ">5. Product usage</h2>
@@ -105,9 +105,9 @@ export default function Terms() {
           supersede and replace any prior agreements we might have between us
           regarding the Service.
         </p>
-        <p className="mb-14 font-mono">
-          <span className="font-bold">Last updated:</span> 04 June 2024.
-        </p>
+        <br />
+        <hr />
+        <p className="font-semibold py-4">Last Updated: 30 July, 2024</p>
       </div>
     </div>
   );
