@@ -1,3 +1,4 @@
+
 export default function PrivacyPolicy() {
   return (
     <div className="bg-white flex flex-col items-center container px-4 mx-auto">
@@ -40,9 +41,9 @@ export default function PrivacyPolicy() {
           questions about how we handle user data and personal information, feel
           free to contact us. <br />
           <br />
-          This policy is effective as of 29 January 2024. <br />
-          <br />
         </p>
+        <hr />
+        <p className="font-semibold py-4">Last Updated: 30 July, 2024</p>
       </section>
     </div>
   );

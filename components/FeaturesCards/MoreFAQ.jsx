@@ -12,19 +12,19 @@ import {
 export default function MoreFQA() {
   const faqs = [
     {
-      question: "What is the pricing for your Lupleg product?",
+      question: "What is the pricing for Lupleg Mentorship?",
       answer:
-        "Our Lupleg product offers a range of pricing plans to fit your needs. The basic plan starts at $9 per month, with additional features and support available in our higher-tier plans. You can view all of our pricing options on the Pricing page.",
+        "Our mentorship varies with range of pricing plans to fit your needs. The basic plan starts at $19 per month, with additional features and support available in our higher-tier plans. You can view all of our pricing options on the Premium page.",
     },
     {
-      question: "What features are included in your Lupleg product?",
+      question: "What features are included in Lupleg mentorship?",
       answer:
-        "Our Lupleg product includes a comprehensive set of features to help you streamline your workflow and improve productivity. Some of the key features include project management tools, collaboration features, data visualization, and integrations with popular third-party apps. You can find a full list of features on our Features page.",
+        "Comes with includes a comprehensive set of features to help you streamline your workflow and improve your productivity. Some of the key features include project management tools, collaboration features, data visualization, and integrations with popular third-party apps. You can find a full list of features on our Features page.",
     },
     {
-      question: "How do I get started with your Lupleg product?",
+      question: "How do I get started with the program?",
       answer:
-        "Getting started with our Lupleg product is easy. Simply sign up for an account on our website, and you'll be guided through the onboarding process. Our onboarding team is available to help you set up your account and customize the platform to fit your specific needs. If you have any questions or need assistance, don't hesitate to reach out to our support team.",
+        "Getting started our program its easy. Simply sign up for an account on our website, and you'll be guided through the onboarding process. Our onboarding team is available to help you set up your account and customize the platform to fit your specific needs. If you have any questions or need assistance, don't hesitate to reach out to our support team.",
     },
     {
       question: "What kind of support do you offer?",
@@ -33,14 +33,14 @@ export default function MoreFQA() {
     },
     {
       question:
-        "Do you offer any training or resources for using your Lupleg product?",
+        "Do you offer any training or resources for free?",
       answer:
-        "Absolutely! We understand that getting started with a new Lupleg product can be daunting, which is why we offer a variety of training resources to help you get the most out of our platform. This includes on-demand video tutorials, webinars, and a comprehensive user guide. Our team is also available to provide personalized training and support to ensure you're comfortable using all of the features and functionalities. For more you can get started from mms.lupleg.website",
+      "Yes, we offer a range of free resources to help you get started with our program. We have a library of video tutorials, blog posts, and webinars that cover a wide range of topics, from basic setup and configuration to advanced features and best practices. We also offer a free trial of our platform, so you can try it out risk-free before committing to a subscription.",
     },
     {
-      question: "How secure is your Lupleg product?",
+      question: "How are programs offered?",
       answer:
-        "Security is of the utmost importance to us, and we take extensive measures to protect your data. Our Lupleg product is built on a secure, encrypted platform and undergoes regular security audits to ensure compliance with industry standards. We also offer advanced security features, such as two-factor authentication and role-based access controls, to give you peace of mind.",
+        "Our programs are offered on a subscription basis, with monthly and annual plans available. You can choose the plan that best fits your needs and budget, and you can cancel or upgrade your plan at any time. We also plan to offer a 14-day free trial, so you can try out our platform risk-free before committing to a subscription.",
     },
   ];
   const [searchTerm, setSearchTerm] = useState("");
