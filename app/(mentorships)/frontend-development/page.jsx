@@ -153,9 +153,30 @@ export default function FrontendDevelopment() {
           like me to elaborate on any specific part of this mentorship plan?
         </p>
         <p>
-          <Link href="https://developer.mozilla.org/en-US/docs/Web/HTML">Web Docs - HTML</Link> <br/>
-          <Link href="https://developer.mozilla.org/en-US/docs/Web/CSS">Web Docs - CSS</Link><br/>
-
+          <Link href="https://developer.mozilla.org/en-US/docs/Learn/HTML">
+            {" "}
+            MDN Web Docs - HTML
+          </Link>{" "}
+          <br />
+          <Link href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+            Web Docs - HTML
+          </Link>{" "}
+          <br />
+          <Link href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+            Web Docs - CSS
+          </Link>
+          <br />
+          <Link href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+            Web Docs - JavaScript
+          </Link>
+          <br />
+          <Link href="https://reactjs.org/docs/getting-started.html">
+            React Docs
+          </Link>
+          <br />
+        </p>
+        <p>
+          <Link href="/resources/FullStack Dev Roadmap.pdf">Download Roadmap</Link>
         </p>
 
         <Publications />
