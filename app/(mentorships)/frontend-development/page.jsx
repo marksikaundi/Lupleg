@@ -1,4 +1,5 @@
 import Publications from "@/components/LastUpdated/Publications";
+import Link from "next/link";
 import React from "react";
 import { LuListStart } from "react-icons/lu";
 
@@ -150,6 +151,11 @@ export default function FrontendDevelopment() {
           to adapt to the mentee's pace and learning style while ensuring steady
           progress towards becoming a proficient frontend developer. Would you
           like me to elaborate on any specific part of this mentorship plan?
+        </p>
+        <p>
+          <Link href="https://developer.mozilla.org/en-US/docs/Web/HTML">Web Docs - HTML</Link> <br/>
+          <Link href="https://developer.mozilla.org/en-US/docs/Web/CSS">Web Docs - CSS</Link><br/>
+
         </p>
 
         <Publications />
