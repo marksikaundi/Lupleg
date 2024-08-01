@@ -14,7 +14,7 @@ export default function Header() {
         </Link>
       </div>
       <div className="hidden md:block">
-        <nav className="flex space-x-6 text-xl font-bold">
+        <nav className="flex space-x-6 text-xl ">
           <Link
             className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
             href="about-us"
