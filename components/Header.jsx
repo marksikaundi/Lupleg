@@ -14,7 +14,7 @@ export default function Header() {
         </Link>
       </div>
       <div className="hidden md:block">
-        <nav className="flex space-x-6 text-xl ">
+        <nav className="flex space-x-6 text-md ">
           <Link
             className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
             href="about-us"
@@ -48,7 +48,7 @@ export default function Header() {
         </nav>
       </div>
       <div className="hidden rounded p-3  md:block">
-        <Button className="text-xl font-semibold text-white py-6 bg-green-950 hover:bg-green-950">
+        <Button className="text-md font-semibold text-white py-6 bg-green-950 hover:bg-green-950">
           <Link href="https://app.lupleg.website">Register</Link>
         </Button>
       </div>
