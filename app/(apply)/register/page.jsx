@@ -17,7 +17,8 @@ export default function Register() {
       <main className="w-full max-w-2xl bg-white p-8 my-8 shadow-lg rounded-lg">
         <h2 className="text-2xl font-bold text-center">Personal Information</h2>
         <p className="text-center text-muted-foreground mb-8">
-          Fill out the information below, then click Next to continue.
+          Fill out the information below, then our team will reach. For further
+          information we shall contact you. Selection towards the program is fair.
         </p>
         <form className="space-y-6">
           <div className="space-y-2">
