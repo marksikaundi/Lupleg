@@ -20,6 +20,7 @@ export default function Register() {
           Fill out the information below, then our team will reach. For further
           information we shall contact you. Selection towards the program is fair.
         </p>
+        <hr className="my-8"/>
         <form className="space-y-6">
           <div className="space-y-2">
             <Label
