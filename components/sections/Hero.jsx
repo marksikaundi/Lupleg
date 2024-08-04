@@ -31,7 +31,7 @@ export default function Hero() {
             <Image
               src={CogImage}
               alt="cog"
-              className="md:absolute md:h-full md:w-auto md:max-w-none md:-left-6 "
+              className="md:absolute md:h-full md:w-auto md:max-w-none md:-left-6 lg:left-0 "
             />
 
             <Image
@@ -40,6 +40,13 @@ export default function Hero() {
               className="hidden md:block -top-8 -left-32 md:absolute  "
               width={220}
               height={220}
+            />
+
+            <Image
+            src={NoodleImage}
+            width={220}
+            alt="noodle"
+            className="hidden lg:block absolute top-[524px] left-[448px] "
             />
           </div>
         </div>
