@@ -2,6 +2,8 @@ import Image from "next/image";
 import React from "react";
 import CylinderImage from "@/assets/cylinder.png";
 import CogImage from "@/assets/cog.png";
+import NoodleImage from "@/assets/noodle.png";
+
 
 export default function Hero() {
   return (
