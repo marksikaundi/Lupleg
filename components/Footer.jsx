@@ -72,7 +72,10 @@ export default function Footer() {
               placeholder="Enter Your Email Here"
               type="text"
             />
-            <Button type="submit" className="w-full md:w-auto bg-orange-700 hover:bg-orange-700">
+            <Button
+              type="submit"
+              className="w-full md:w-auto bg-orange-700 hover:bg-orange-700"
+            >
               Subscribe
             </Button>
           </div>
@@ -86,7 +89,13 @@ export default function Footer() {
           </div>
           <div className="pt-5 ">
             <Button className="bg-orange-700 hover:bg-orange-700">
-              <Link href="careers">Careers</Link>
+              <Link href="careers" className="p-2">
+                Careers
+              </Link>
+              <span class="relative flex h-4 w-4">
+                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                <span class="relative inline-flex rounded-full h-4 w-4 bg-green-500"></span>
+              </span>
             </Button>
           </div>
         </div>
