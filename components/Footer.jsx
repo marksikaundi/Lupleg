@@ -4,7 +4,8 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-green-950 p-10 text-white">
+    <div className="pt-28">
+      <footer className="bg-green-950 p-10 text-white">
       <div className="mx-auto grid max-w-7xl grid-cols-2 gap-10 md:grid-cols-4">
         <div>
           <h5 className="mb-4 font-bold">Company</h5>
@@ -127,6 +128,7 @@ export default function Footer() {
         </p>
       </div>
     </footer>
+    </div>
   );
 }
 
