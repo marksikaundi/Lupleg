@@ -2,10 +2,10 @@ import Link from "next/link";
 
 export default function Affiliates() {
   return (
-    <div className="bg-gray-50 p-10">
+    <div className=" p-10">
       <div className="flex flex-col gap-2 text-center">
         <div className="space-y-2">
-          <div className="mt-10 inline-block rounded bg-green-300 px-3 py-2 text-sm dark:bg-gray-800">
+          <div className="mt-10 inline-block rounded bg-green-100 px-3 py-2 text-sm dark:bg-gray-800">
             Affordable Plans
           </div>
           <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
@@ -19,8 +19,8 @@ export default function Affiliates() {
       </div>
       <div className="container px-4 py-8 md:px-6 lg:py-12">
         <div className="grid gap-8 lg:grid-cols-2 lg:gap-12 xl:grid-cols-3">
-          <div className="flex flex-col overflow-hidden rounded-lg border  border-gray-200 bg-white shadow-sm  dark:border-gray-800 dark:bg-gray-950">
-            <div className="border-b border-gray-200  px-4 py-4  dark:border-gray-800">
+          <div className="flex flex-col overflow-hidden rounded-lg border  border-gray-700 bg-white shadow-sm  dark:border-gray-800 dark:bg-gray-950">
+            <div className="border-b border-gray-700  px-4 py-4  dark:border-gray-800">
               <h3 className="text-xl font-semibold tracking-wide">
                 Web Hosting
               </h3>
@@ -72,7 +72,7 @@ export default function Affiliates() {
                 <span className="text-sm">WordPress AI Tools</span>
               </div>
             </div>
-            <div className="flex flex-col gap-1 border-t  border-gray-200 p-4">
+            <div className="flex flex-col gap-1 border-t  border-gray-500 p-4">
               <span className="text-2xl font-semibold">$3.99/mo</span>
               <span className="text-xs text-gray-500 dark:text-gray-400">
                 Renewal $8.99/mo
@@ -86,7 +86,7 @@ export default function Affiliates() {
                 Choose Plan
               </Link>
             </div>
-            <div className="border-t border-gray-200 p-4  dark:border-gray-800">
+            <div className="border-t border-gray-500 p-4  dark:border-gray-800">
               <p className="text-sm text-gray-500 dark:text-gray-400">
                 Affiliates: Buy through and get up to 71% discount.
               </p>
@@ -153,15 +153,15 @@ export default function Affiliates() {
             </div>
             <div className="p-4">
               <Link
-                className="inline-flex w-full items-center justify-center rounded-b-md border  border-gray-200  bg-white px-4 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
+                className="inline-flex w-full items-center justify-center rounded-b-md border  border-gray-100  bg-white px-4 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
                 href="https://hostinger.com?REFERRALCODE=1EMMANUELMA82"
               >
                 Choose Plan
               </Link>
             </div>
           </div>
-          <div className="flex flex-col overflow-hidden rounded-lg border  border-gray-200 bg-white shadow-sm  dark:border-gray-800 dark:bg-gray-950">
-            <div className="border-b border-gray-200  px-4 py-4  dark:border-gray-800">
+          <div className="flex flex-col overflow-hidden rounded-lg border  border-gray-500 bg-white shadow-sm  dark:border-gray-800 dark:bg-gray-950">
+            <div className="border-b border-gray-500  px-4 py-4  dark:border-gray-800">
               <h3 className="text-xl font-semibold tracking-wide">
                 VPS Hosting
               </h3>
@@ -187,7 +187,7 @@ export default function Affiliates() {
                 <span className="text-sm">8 TB Bandwidth</span>
               </div>
             </div>
-            <div className="flex flex-col gap-1 border-t border-gray-200  p-4">
+            <div className="flex flex-col gap-1 border-t border-gray-500  p-4">
               <span className="text-2xl font-semibold">$6.99 /mo</span>
               <span className="text-xs text-gray-500 dark:text-gray-400">
                 Renewal $10.99/mo
