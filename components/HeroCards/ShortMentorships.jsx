@@ -16,11 +16,11 @@ export default function ShortCourseCard() {
               more.
             </p>
           </div>
-          <div className="bg-gradient-to-br from-[#fde68a] to-[#fca5a5] p-8 rounded-xl border border-green-950 ">
+          <div className="bg-gradient-to-br from-[#fde68a] to-[#fca5a5] p-8 rounded-xl border-green-950 border-4 ">
             <h2 className="text-3xl font-extrabold text-gray-900">
               At your own pace or with a mentor
             </h2>
-            <p className="mt-4 text-lg text-gray-500">
+            <p className="mt-4 text-lg text-gray-900">
               Our courses are designed to be taken at your own pace, but you can
               also get a mentor to help you along the way. Our mentors are
               experts in their fields and are here to help you.
