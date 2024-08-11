@@ -3,7 +3,6 @@ import CardSection from "@/components/FeaturesCards/CardSection";
 import CardSections from "@/components/FeaturesCards/CardSections";
 
 export default function ProgramSummary() {
-  // TODO: Uploadthing bucket needed for images and other assets
   return (
     <div>
       <CardSections
