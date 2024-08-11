@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Card, CardHeader, CardContent } from "@/components/ui/card";
 import MoreFQA from "@/components/FeaturesCards/MoreFAQ";
+import AboutMentor from "@/components/HeroCards/AboutMentor";
 
 export default function MentorInfo() {
   return (
@@ -24,7 +25,11 @@ export default function MentorInfo() {
             </Link>
           </div>
         </div>
+        
       </section>
+      <div>
+            <AboutMentor/>
+        </div>
       <section className="w-full py-12 md:py-24 lg:py-32">
         <div className="container grid grid-cols-1 md:grid-cols-3 gap-6 px-4 md:px-6">
           <Card>
