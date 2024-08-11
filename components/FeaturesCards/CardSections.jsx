@@ -21,7 +21,7 @@ const CardSections = ({ title, subtitle, description, imageUrl, learnMoreLink })
           </div>
         </div>
         <div className="md:w-1/2">
-          <img src={imageUrl} className="object-cover" alt="Courses" />
+          <img src={imageUrl} className="object-cover border-l-4 border-green-900 rounded-lg" alt="Courses" />
         </div>
       </div>
     </div>

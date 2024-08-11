@@ -16,7 +16,7 @@ export default function ShortCourseCard() {
               more.
             </p>
           </div>
-          <div className="bg-gradient-to-br from-[#fde68a] to-[#fca5a5] p-8 rounded-xl border-green-950 border-4 ">
+          <div className="bg-gradient-to-br from-[#fde68a] to-[#fca5a5] p-8 rounded-xl border-green-950 border-b-8 ">
             <h2 className="text-3xl font-extrabold text-gray-900">
               At your own pace or with a mentor
             </h2>
