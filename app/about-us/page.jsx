@@ -4,11 +4,12 @@ import React from "react";
 export default function AboutUs() {
   return (
     <div class="flex flex-col items-center container px-4 mx-auto">
-      <h1 class="text-black text-center text-4xl font-bold tracking-tight md:text-5xl mt-10 mb-12">
+      <h1 class="text-black text-center text-4xl font-bold tracking-tight md:text-5xl mt-16 mb-12">
         About us
+        <hr className="m-6"/>
       </h1>
-      <div class=" max-w-2xl ml-4 flex-1 [&amp;&gt;p]:mb-12 [&amp;&gt;h2]:text-xl [&amp;&gt;h2]:font-bold">
-        <p >
+      <div class=" max-w-2xl ml-4 flex-1 [&amp;&gt;p]:mb-12 [&amp;&gt;h2]:text-4xl [&amp;&gt;h2]:font-bold">
+        <p>
           Lupleg is a visionary technology company on a mission to bridge the
           skills gap and empower individuals and businesses in the digital age.
           We believe that knowledge is the key to unlocking potential, and we're
@@ -39,6 +40,23 @@ export default function AboutUs() {
           <br />
           Partner with Lupleg and unlock your full potential in the digital
           world!
+        </p>
+
+        <h2 className="font-mono font-bold my-6 ">
+          ℹ️ Our Mission and Values
+        </h2>
+
+        <p>
+          Lupleg is a catalyst for the next generation of tech pioneers. We
+          ignite a passion for innovation by equipping young minds with the
+          cutting edge skills and knowledge they need to thrive in the ever
+          evolving technology sector. Our comprehensive educational programs and
+          industry expert mentors empower these future leaders to drive growth,
+          efficiency, and groundbreaking advancements. Guided by our core
+          values, we foster a dynamic and collaborative environment that fuels
+          creativity, critical thinking, and a relentless pursuit of excellence.{" "}
+          Lupleg is more than just an educational provider; we are architects of
+          the future, one empowered tech pioneer at a time.
         </p>
 
         <Publications />
