@@ -10,7 +10,7 @@ export default function Sitemap() {
           <div className="container space-y-12 px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <div className="inline-block rounded bg-green-300 p-3 text-sm dark:bg-gray-800">
+                <div className="inline-block rounded bg-green-100 p-3 text-sm dark:bg-gray-800">
                   Our Sitemap
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
