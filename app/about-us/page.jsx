@@ -4,9 +4,9 @@ import React from "react";
 export default function AboutUs() {
   return (
     <div class="flex flex-col items-center container px-4 mx-auto">
-      <h1 class="text-black text-center text-4xl font-bold tracking-tight md:text-5xl mt-16 mb-12">
+      <h1 class="text-black text-center text-4xl font-bold tracking-tight md:text-5xl mt-16 mb-12 ">
         About us
-        <hr className="m-6"/>
+        <hr className="m-6 border-green-950 border-b-2"/>
       </h1>
       <div class=" max-w-2xl ml-4 flex-1 [&amp;&gt;p]:mb-12 [&amp;&gt;h2]:text-4xl [&amp;&gt;h2]:font-bold">
         <p>
