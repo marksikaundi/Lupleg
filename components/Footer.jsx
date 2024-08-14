@@ -75,7 +75,7 @@ export default function Footer() {
             />
             <Button
               type="submit"
-              className="w-full md:w-auto bg-orange-700 hover:bg-orange-700"
+              className="w-full md:w-auto bg-[#F3A833] hover:bg-[#F3A833]"
             >
               Subscribe
             </Button>
@@ -89,7 +89,7 @@ export default function Footer() {
             </p>
           </div>
           <div className="pt-5 ">
-            <Button className="bg-orange-700 hover:bg-orange-700">
+            <Button className="bg-[#F3A833] hover:bg-[#F3A833]">
               <Link href="careers" className="p-2">
                 Careers
               </Link>
