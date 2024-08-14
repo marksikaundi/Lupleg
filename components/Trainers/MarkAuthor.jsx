@@ -6,7 +6,7 @@ export default function MarkAuthor() {
     <Card className="w-full max-w-md p-6 grid gap-6">
       <div className="flex items-start gap-6">
         <Avatar className="w-20 h-20">
-          <AvatarImage src="/mark.jpg" alt="Coach Avatar" />
+          <AvatarImage src="/mark.jpg" alt="Mark Sikaundi" />
           <AvatarFallback>MS</AvatarFallback>
         </Avatar>
         <div className="grid gap-2">
