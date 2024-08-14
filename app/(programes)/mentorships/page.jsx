@@ -2,11 +2,13 @@ import React from "react";
 import CardSection from "@/components/FeaturesCards/CardSection";
 import CardSections from "@/components/FeaturesCards/CardSections";
 import MoreFAQ from "@/components/FeaturesCards/MoreFAQ";
+import MentorHeader from "@/components/HeroCards/MentorHeader";
 
 export default function Mentorships() {
   return (
     <div>
-      <div className="w-full bg-transparent">
+      <MentorHeader />
+      {/* <div className="w-full bg-transparent">
         <div className="flex flex-col container mx-auto lg:py-24 py-20 px-8 w-7/10 justify-center">
           <div className="flex flex-col gap-4 text-center ">
             <p className=" md:text-lg"> →</p>
@@ -22,7 +24,7 @@ export default function Mentorships() {
             </h1>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <CardSections
         subtitle="Digital Skills Training"
