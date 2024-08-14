@@ -1,21 +1,11 @@
 import MoreFQA from "@/components/FeaturesCards/MoreFAQ";
+import AcademyHeader from "@/components/HeroCards/AcademyHeader";
 import Link from "next/link";
 
 export default function Academy() {
   return (
     <div className="flex min-h-screen flex-col">
-      <section className="bg-academy-bg bg-cover py-6 md:py-12 lg:py-20 xl:py-24">
-        <div className="container mx-auto px-4">
-          <div className="text-left my-10">
-            <h1 className="text-3xl font-bold text-white tracking-tighter sm:text-5xl xl:text-6xl/none">
-              Lupleg Academy
-            </h1>
-            <p className="my-10 py-5 text-md md:text-xl lg:text-base xl:text-xl">
-            ⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️
-            </p>
-          </div>
-        </div>
-      </section>
+      <AcademyHeader />
 
       <section className="bg-gray-100 py-12 md:py-24 lg:py-32 dark:bg-gray-800">
         <div className="container mx-auto px-4">
@@ -191,7 +181,7 @@ export default function Academy() {
           </div>
         </div>
       </section>
-      <MoreFQA/>
+      <MoreFQA />
     </div>
   );
 }
