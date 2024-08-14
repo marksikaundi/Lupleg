@@ -1,12 +1,12 @@
 import { Card } from "@/components/ui/card";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
-export default function Component() {
+export default function MarkAuthor() {
   return (
     <Card className="w-full max-w-md p-6 grid gap-6">
       <div className="flex items-start gap-6">
         <Avatar className="w-20 h-20">
-          <AvatarImage src="/placeholder-user.jpg" alt="Coach Avatar" />
+          <AvatarImage src="/mark.jpg" alt="Coach Avatar" />
           <AvatarFallback>MS</AvatarFallback>
         </Avatar>
         <div className="grid gap-2">

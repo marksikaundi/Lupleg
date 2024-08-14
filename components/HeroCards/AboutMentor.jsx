@@ -40,12 +40,10 @@ export default function AboutMentorship() {
           projects that will help you learn and understand the key concepts of
           software development.
         </p>
-
-        
       </div>
-      <div className="pt-10">
-      <MarkAuthor />
 
+      <div className="pt-10">
+        <MarkAuthor />
       </div>
     </div>
   );
