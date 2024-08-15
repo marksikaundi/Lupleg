@@ -3,11 +3,10 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { SheetTrigger, SheetContent, Sheet } from "@/components/ui/sheet";
 import Image from "next/image";
-import { useState } from "react";
 
 export default function Header() {
   return (
-    <header className="flex flex-wrap items-center justify-between bg-white p-6 dark:bg-gray-800">
+    <header className="flex flex-wrap sticky top-0  items-center justify-between bg-white p-6 dark:bg-gray-800">
       <div className="flex items-center space-x-3">
         <Link href="/">
           <Image src="/lupleg.svg" alt="Lupleg" width={150} height={100} />
