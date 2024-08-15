@@ -26,7 +26,7 @@ const CardSection = ({
             </p>
           </div>
           <div>
-            <a href={learnMoreLink} className="text-green-900 hover:text-orange-500">Learn more →</a>
+            <a href={learnMoreLink} className="text-green-900 hover:text-[#F3A833]">Learn more →</a>
           </div>
         </div>
       </div>
