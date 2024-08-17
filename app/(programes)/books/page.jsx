@@ -35,7 +35,7 @@ export default function Books() {
             prefetch={false}
           >
             <img
-              src="/placeholder.svg"
+              src="https://utfs.io/f/32b680fb-938c-4691-a7fa-e86cce77bed3-ond1v6.webp"
               width="200"
               height="300"
               alt="Book Cover"
@@ -64,7 +64,7 @@ export default function Books() {
             prefetch={false}
           >
             <img
-              src="/placeholder.svg"
+              src="https://utfs.io/f/a5a51940-bf1e-4f96-8708-61ef007a241c-ezevmk.webp"
               width="200"
               height="300"
               alt="Book Cover"
@@ -90,7 +90,7 @@ export default function Books() {
             prefetch={false}
           >
             <img
-              src="/placeholder.svg"
+              src="https://utfs.io/f/0cdae5d7-c0e5-47d0-965b-9553b9b957db-23i38l.webp"
               width="200"
               height="300"
               alt="Book Cover"
@@ -118,7 +118,7 @@ export default function Books() {
             prefetch={false}
           >
             <img
-              src="/placeholder.svg"
+              src="https://utfs.io/f/3c9c5be1-76c6-47cb-aab1-ff7e7b5be4d3-xnutaq.webp"
               width="200"
               height="300"
               alt="Book Cover"
@@ -145,7 +145,7 @@ export default function Books() {
             prefetch={false}
           >
             <img
-              src="/placeholder.svg"
+              src="https://utfs.io/f/0155c1ca-e93b-474b-99fb-1e93aa85f555-oq6guq.webp"
               width="200"
               height="300"
               alt="Book Cover"
@@ -173,7 +173,7 @@ export default function Books() {
             prefetch={false}
           >
             <img
-              src="/placeholder.svg"
+              src="https://utfs.io/f/f5670f55-5bfa-4860-8a37-fac50c26d3f8-p8rrp4.webp"
               width="200"
               height="300"
               alt="Book Cover"
@@ -200,7 +200,7 @@ export default function Books() {
             prefetch={false}
           >
             <img
-              src="/placeholder.svg"
+              src="https://utfs.io/f/279cfeb3-af75-4d2a-af8d-cde382d3eb3d-24z6.webp"
               width="200"
               height="300"
               alt="Book Cover"
@@ -229,7 +229,7 @@ export default function Books() {
             prefetch={false}
           >
             <img
-              src="/placeholder.svg"
+              src="https://utfs.io/f/745e5253-5d61-40be-9783-e92fa855c66a-2bcb.webp"
               width="200"
               height="300"
               alt="Book Cover"
