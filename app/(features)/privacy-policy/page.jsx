@@ -1,15 +1,15 @@
-
 export default function PrivacyPolicy() {
   return (
     <div className="bg-white flex flex-col items-center container px-4 mx-auto">
       <section className="py-12 md:py-16 lg:py-20 xl:py-24">
         <h1 class="text-black text-center text-4xl font-bold tracking-tight md:text-5xl mb-12">
           Privacy Policy
+          <hr className="m-6 border-green-950 border-b-1" />
         </h1>
         <p class="max-w-2xl items-center justify-center flex-1">
           Your privacy is important to us. It is Lupleg &#x27;s policy to
           respect your privacy regarding any information we may collect from you
-          across our website, https://lupleg.website, and other sites we own and
+          across our website, <a href="https://lupleg.website"className="text-green-950" >Lupleg</a> , and other sites we own and
           operate. <br />
           <br />
           We only ask for personal information when we truly need it to provide
