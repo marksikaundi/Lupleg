@@ -20,12 +20,12 @@ export default function Header() {
           >
             About
           </Link>
-          <Link
+          {/* <Link
             className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
             href="challenge"
           >
             Challenges
-          </Link>
+          </Link> */}
           <Link
             className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
             href="mentorships"
@@ -43,6 +43,12 @@ export default function Header() {
             href="premium"
           >
             Premium
+          </Link>
+          <Link
+            className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
+            href="books"
+          >
+            Books
           </Link>
         </nav>
       </div>
@@ -68,12 +74,12 @@ export default function Header() {
             >
               About
             </Link>
-            <Link
+            {/* <Link
               className="flex w-full items-center py-2 text-lg font-semibold"
               href="challenge"
             >
               Challenges
-            </Link>
+            </Link> */}
             <Link
               className="flex w-full items-center py-2 text-lg font-semibold"
               href="mentorships"
@@ -91,6 +97,12 @@ export default function Header() {
               href="premium"
             >
               Premium
+            </Link>
+            <Link
+              className="flex w-full items-center py-2 text-lg font-semibold"
+              href="books"
+            >
+              Books
             </Link>
             <div className="w-30 flex   items-center rounded-full">
               <Button className="text-md  text-white  bg-green-950 hover:bg-green-950">
