@@ -16,7 +16,8 @@ export default function Books() {
               developer, you'll find something here to help you grow.
             </p>
             <Link
-              href="#"
+              href="#books"
+              id=""
               className="inline-flex h-10 items-center justify-center rounded-md bg-green-950 px-8 py-6 text-sm font-medium text-white shadow transition-colors hover:bg-green-950 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
               prefetch={false}
             >
@@ -27,7 +28,11 @@ export default function Books() {
       </section>
 
       <section id="books" className="w-full py-12 md:py-24 lg:py-32">
-        <h2 className="pl-10 pb-6 font-bold text-2xl">Books Collaction</h2>
+        <hr className="pb-6" />
+
+        <h2 className="pl-10 pb-6 font-bold text-2xl" id="books">
+          Books Collaction
+        </h2>
         <div className="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4 md:px-6">
           <Link
             href="https://uploadthing-prod-sea1.s3.us-west-2.amazonaws.com/91bac156-2d77-492e-a8d2-4e4d3037bbf2-fhteex.epub"
