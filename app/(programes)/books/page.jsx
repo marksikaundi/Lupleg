@@ -27,10 +27,10 @@ export default function Books() {
       </section>
 
       <section id="books" className="w-full py-12 md:py-24 lg:py-32">
-        <h2 className="pl-10 pb-6 font-bold text-2xl">Books Collaction</h2> 
+        <h2 className="pl-10 pb-6 font-bold text-2xl">Books Collaction</h2>
         <div className="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4 md:px-6">
           <Link
-            href="#"
+            href="https://uploadthing-prod-sea1.s3.us-west-2.amazonaws.com/91bac156-2d77-492e-a8d2-4e4d3037bbf2-fhteex.epub"
             className="group rounded-lg overflow-hidden shadow-lg transition-all hover:scale-[1.02] hover:shadow-xl"
             prefetch={false}
           >
@@ -59,7 +59,7 @@ export default function Books() {
             </div>
           </Link>
           <Link
-            href="#"
+            href="https://uploadthing-prod-sea1.s3.us-west-2.amazonaws.com/77db03e4-f720-483d-939d-b8875ab7dcf0-iq0r9.epub"
             className="group rounded-lg overflow-hidden shadow-lg transition-all hover:scale-[1.02] hover:shadow-xl"
             prefetch={false}
           >
@@ -85,7 +85,7 @@ export default function Books() {
             </div>
           </Link>
           <Link
-            href="#"
+            href="https://uploadthing-prod-sea1.s3.us-west-2.amazonaws.com/376ebc15-7a71-45a1-9dd8-16d15ddf7092-qxhmmm.pdf"
             className="group rounded-lg overflow-hidden shadow-lg transition-all hover:scale-[1.02] hover:shadow-xl"
             prefetch={false}
           >
@@ -113,7 +113,7 @@ export default function Books() {
             </div>
           </Link>
           <Link
-            href="#"
+            href="https://uploadthing-prod-sea1.s3.us-west-2.amazonaws.com/062df017-beee-421b-9641-5469cff939ab-uu822i.epub"
             className="group rounded-lg overflow-hidden shadow-lg transition-all hover:scale-[1.02] hover:shadow-xl"
             prefetch={false}
           >
@@ -140,7 +140,7 @@ export default function Books() {
             </div>
           </Link>
           <Link
-            href="#"
+            href="https://uploadthing-prod-sea1.s3.us-west-2.amazonaws.com/d1c82b91-cd5f-4df2-b9d4-2c59847b1e4c-pmat2m.epub"
             className="group rounded-lg overflow-hidden shadow-lg transition-all hover:scale-[1.02] hover:shadow-xl"
             prefetch={false}
           >
@@ -168,7 +168,7 @@ export default function Books() {
             </div>
           </Link>
           <Link
-            href="#"
+            href="https://uploadthing-prod-sea1.s3.us-west-2.amazonaws.com/d2784363-087b-493b-bc41-f1a43817c164-1o8n63.epub"
             className="group rounded-lg overflow-hidden shadow-lg transition-all hover:scale-[1.02] hover:shadow-xl"
             prefetch={false}
           >
@@ -182,12 +182,12 @@ export default function Books() {
             />
             <div className="p-4 bg-card text-card-foreground">
               <h3 className="text-lg font-semibold group-hover:underline">
-                The Lean Startup
+                Soft Skills: The Software Developer’s Life Manual
               </h3>
-              <p className="text-sm text-muted-foreground">Eric Ries</p>
+              <p className="text-sm text-muted-foreground"> Sonmez, John </p>
               <p className="line-clamp-2 text-sm text-muted-foreground">
-                A guide to building and launching successful startups using a
-                lean methodology.
+                The Software Developer’s Life Manual is a guide to a
+                well-rounded, fulfilling life as a technology professional.
               </p>
               <Button variant="link" className="mt-2">
                 Learn More
@@ -195,7 +195,7 @@ export default function Books() {
             </div>
           </Link>
           <Link
-            href="#"
+            href="https://uploadthing-prod-sea1.s3.us-west-2.amazonaws.com/4f15476d-ca1d-416f-b533-c82d951684e8-lqickg.epub"
             className="group rounded-lg overflow-hidden shadow-lg transition-all hover:scale-[1.02] hover:shadow-xl"
             prefetch={false}
           >
@@ -209,14 +209,14 @@ export default function Books() {
             />
             <div className="p-4 bg-card text-card-foreground">
               <h3 className="text-lg font-semibold group-hover:underline">
-                The Pragmatic Programmer
+                Data Structures and Algorithms
               </h3>
               <p className="text-sm text-muted-foreground">
-                Andrew Hunt, David Thomas
+                Dr. Basant Agarwal
               </p>
               <p className="line-clamp-2 text-sm text-muted-foreground">
-                A classic book that provides practical advice for becoming a
-                better programmer.
+                Python teaches you the essential data structures and algorithms
+                you need to solve complex problems in software development.
               </p>
               <Button variant="link" className="mt-2">
                 Learn More
@@ -224,7 +224,7 @@ export default function Books() {
             </div>
           </Link>
           <Link
-            href="#"
+            href="https://uploadthing-prod-sea1.s3.us-west-2.amazonaws.com/09f3db58-ae01-40c7-b1c9-372d800ce2f1-2ir75x.pdf"
             className="group rounded-lg overflow-hidden shadow-lg transition-all hover:scale-[1.02] hover:shadow-xl"
             prefetch={false}
           >
@@ -238,11 +238,12 @@ export default function Books() {
             />
             <div className="p-4 bg-card text-card-foreground">
               <h3 className="text-lg font-semibold group-hover:underline">
-                Clean Code
+                Modern Full Stack Development
               </h3>
-              <p className="text-sm text-muted-foreground">Robert C. Martin</p>
+              <p className="text-sm text-muted-foreground">Frank Zammetti</p>
               <p className="line-clamp-2 text-sm text-muted-foreground">
-                A comprehensive guide to writing clean, maintainable code.
+                Modern Full-Stack Development is a guide to building web
+                applications using modern tools and technologies.
               </p>
               <Button variant="link" className="mt-2">
                 Learn More
