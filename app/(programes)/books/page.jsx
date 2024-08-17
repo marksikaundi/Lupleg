@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
-export default function Component() {
+export default function Books() {
   return (
     <div className="flex flex-col min-h-dvh">
       <section className="w-full py-12 md:py-24 lg:py-32 ">
