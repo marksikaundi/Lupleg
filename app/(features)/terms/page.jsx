@@ -3,7 +3,9 @@ export default function Terms() {
     <div class="flex flex-col items-center container px-4 mx-auto">
       <h1 class="text-black text-center text-4xl font-bold tracking-tight md:text-5xl mt-10 mb-12">
         Terms and Conditions
+        <hr className="m-6 border-green-950 border-b-1" />
       </h1>
+
       <div class=" max-w-2xl ml-4 flex-1 [&amp;&gt;p]:mb-12 [&amp;&gt;h2]:text-xl [&amp;&gt;h2]:font-bold">
         <p>
           These Terms and Conditions (&quot;Terms &quot;, &quot;Terms and
