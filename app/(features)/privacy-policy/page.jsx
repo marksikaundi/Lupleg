@@ -9,7 +9,7 @@ export default function PrivacyPolicy() {
         <p class="max-w-2xl items-center justify-center flex-1">
           Your privacy is important to us. It is Lupleg &#x27;s policy to
           respect your privacy regarding any information we may collect from you
-          across our website, <a href="https://lupleg.website"className="bg-green-950" >Lupleg</a> , and other sites we own and
+          across our website, <a href="https://lupleg.website"className="text-green-950" >Lupleg</a> , and other sites we own and
           operate. <br />
           <br />
           We only ask for personal information when we truly need it to provide
