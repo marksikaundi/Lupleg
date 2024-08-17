@@ -25,7 +25,9 @@ export default function Books() {
           </div>
         </div>
       </section>
+
       <section id="books" className="w-full py-12 md:py-24 lg:py-32">
+        <h2 className="pl-10 pb-6 font-bold text-2xl">Books Collaction</h2> 
         <div className="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4 md:px-6">
           <Link
             href="#"
