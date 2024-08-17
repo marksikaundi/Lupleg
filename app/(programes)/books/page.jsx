@@ -27,7 +27,7 @@ export default function Books() {
       </section>
 
       <section id="books" className="w-full py-12 md:py-24 lg:py-32">
-        <hr className="pb-6" />
+        <hr className="pb-2" />
 
         <h2 className="pl-10 pb-6 font-bold text-2xl" id="books">
           Books Collaction
