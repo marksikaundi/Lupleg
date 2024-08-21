@@ -5,7 +5,7 @@ export default function Publications() {
     <div>
       <div class=" ">
         <hr className="my-8" />
-        <h2 className="font-mono font-bold text-xl my-6 ">Publications 📢:</h2>
+        <h2 className="font-mono font-bold text-2xl my-6 ">Publications 📢:</h2>
         <p>
           We are committed to keeping our publications up to date. We review our
           publications every 3 months to ensure that the information is accurate
