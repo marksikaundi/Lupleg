@@ -10,8 +10,15 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { ChevronDownIcon } from "lucide-react";
+import { useState } from "react";
 
 export default function Header() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const closeDropdown = () => {
+    setIsOpen(false);
+  };
+
   return (
     <header className="flex flex-wrap sticky top-0  items-center justify-between bg-white p-6 dark:bg-gray-800">
       <div className="flex items-center space-x-3">
@@ -27,24 +34,56 @@ export default function Header() {
           >
             About
           </Link>
-          {/* <Link
-            className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
-            href="challenge"
-          >
-            Challenges
-          </Link> */}
-          <Link
-            className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
-            href="mentorships"
-          >
-            Mentorships
-          </Link>
-          <Link
-            className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
-            href="academy"
-          >
-            Academy
-          </Link>
+          <DropdownMenu open={isOpen} onOpenChange={setIsOpen}>
+            <DropdownMenuTrigger asChild>
+              <button className="text-black hover:text-black dark:text-gray-300 dark:hover:text-gray-200 flex items-center outline-none">
+                Trainings <ChevronDownIcon className="ml-1 h-4 w-4" />
+              </button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="end">
+              <DropdownMenuItem onSelect={closeDropdown}>
+                <Link href="mentorships" className="w-full">
+                  Mentorships
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem onSelect={closeDropdown}>
+                <Link href="academy" className="w-full">
+                  Academy
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem onSelect={closeDropdown}>
+                <Link href="challenge" className="w-full">
+                  Challenges
+                </Link>
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <button className="text-black hover:text-black dark:text-gray-300 dark:hover:text-gray-200 flex items-center outline-none">
+                Machine Learning <ChevronDownIcon className="ml-1 h-4 w-4" />
+              </button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="end">
+              <DropdownMenuItem>
+                <Link href="#" className="w-full">
+                  TensorFlow Basics
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Link href="#" className="w-full">
+                  Pytorch for Beginner
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Link href="#" className="w-full">
+                  ML Challenges
+                </Link>
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+
           <Link
             className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
             href="premium"
@@ -57,37 +96,6 @@ export default function Header() {
           >
             Books
           </Link>
-          <DropdownMenu>
-            <DropdownMenuTrigger asChild>
-              <Button
-                variant="ghost"
-                className="text-muted-foreground hover:text-primary px-3 py-2 rounded-md text-sm font-medium"
-              >
-                More <ChevronDownIcon className="ml-1 h-4 w-4" />
-              </Button>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent align="end">
-              <DropdownMenuItem>
-                <Link href="/blog" className="flex w-full" prefetch={false}>
-                  Blog
-                </Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                <Link href="/careers" className="flex w-full" prefetch={false}>
-                  Careers
-                </Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                <Link
-                  href="/resources"
-                  className="flex w-full"
-                  prefetch={false}
-                >
-                  Resources
-                </Link>
-              </DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
         </nav>
       </div>
       <div className="hidden rounded p-3  md:block">
