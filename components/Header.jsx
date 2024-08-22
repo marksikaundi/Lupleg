@@ -3,6 +3,13 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { SheetTrigger, SheetContent, Sheet } from "@/components/ui/sheet";
 import Image from "next/image";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { ChevronDownIcon } from "lucide-react";
 
 export default function Header() {
   return (
@@ -50,6 +57,37 @@ export default function Header() {
           >
             Books
           </Link>
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <Button
+                variant="ghost"
+                className="text-muted-foreground hover:text-primary px-3 py-2 rounded-md text-sm font-medium"
+              >
+                More <ChevronDownIcon className="ml-1 h-4 w-4" />
+              </Button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="end">
+              <DropdownMenuItem>
+                <Link href="/blog" className="flex w-full" prefetch={false}>
+                  Blog
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Link href="/careers" className="flex w-full" prefetch={false}>
+                  Careers
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Link
+                  href="/resources"
+                  className="flex w-full"
+                  prefetch={false}
+                >
+                  Resources
+                </Link>
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
         </nav>
       </div>
       <div className="hidden rounded p-3  md:block">
