@@ -3,8 +3,22 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { SheetTrigger, SheetContent, Sheet } from "@/components/ui/sheet";
 import Image from "next/image";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { ChevronDownIcon } from "lucide-react";
+import { useState } from "react";
 
 export default function Header() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const closeDropdown = () => {
+    setIsOpen(false);
+  };
+
   return (
     <header className="flex flex-wrap sticky top-0  items-center justify-between bg-white p-6 dark:bg-gray-800">
       <div className="flex items-center space-x-3">
@@ -20,24 +34,56 @@ export default function Header() {
           >
             About
           </Link>
-          {/* <Link
-            className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
-            href="challenge"
-          >
-            Challenges
-          </Link> */}
-          <Link
-            className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
-            href="mentorships"
-          >
-            Mentorships
-          </Link>
-          <Link
-            className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
-            href="academy"
-          >
-            Academy
-          </Link>
+          <DropdownMenu open={isOpen} onOpenChange={setIsOpen}>
+            <DropdownMenuTrigger asChild>
+              <button className="text-black hover:text-black dark:text-gray-300 dark:hover:text-gray-200 flex items-center outline-none">
+                Trainings <ChevronDownIcon className="ml-1 h-4 w-4" />
+              </button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="end">
+              <DropdownMenuItem onSelect={closeDropdown}>
+                <Link href="mentorships" className="w-full">
+                  Mentorships
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem onSelect={closeDropdown}>
+                <Link href="academy" className="w-full">
+                  Academy
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem onSelect={closeDropdown}>
+                <Link href="challenge" className="w-full">
+                  Challenges
+                </Link>
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <button className="text-black hover:text-black dark:text-gray-300 dark:hover:text-gray-200 flex items-center outline-none">
+                Machine Learning <ChevronDownIcon className="ml-1 h-4 w-4" />
+              </button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="end">
+              <DropdownMenuItem>
+                <Link href="#" className="w-full">
+                  TensorFlow Basics
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Link href="#" className="w-full">
+                  Pytorch for Beginner
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Link href="#" className="w-full">
+                  ML Challenges
+                </Link>
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+
           <Link
             className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
             href="premium"
