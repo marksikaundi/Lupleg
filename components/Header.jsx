@@ -27,7 +27,7 @@ export default function Header() {
         </Link>
       </div>
       <div className="hidden md:block">
-        <nav className="flex space-x-6 text-md ">
+        <nav className="flex space-x-6 text-lg ">
           <Link
             className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
             href="about-us"
@@ -42,17 +42,17 @@ export default function Header() {
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end">
               <DropdownMenuItem onSelect={closeDropdown}>
-                <Link href="mentorships" className="w-full">
+                <Link href="mentorships" className="w-full text-lg">
                   Mentorships
                 </Link>
               </DropdownMenuItem>
               <DropdownMenuItem onSelect={closeDropdown}>
-                <Link href="academy" className="w-full">
+                <Link href="academy" className="w-full text-lg">
                   Academy
                 </Link>
               </DropdownMenuItem>
               <DropdownMenuItem onSelect={closeDropdown}>
-                <Link href="challenge" className="w-full">
+                <Link href="challenge" className="w-full text-lg">
                   Challenges
                 </Link>
               </DropdownMenuItem>
@@ -67,17 +67,17 @@ export default function Header() {
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end">
               <DropdownMenuItem>
-                <Link href="#" className="w-full">
+                <Link href="#" className="w-full text-lg">
                   TensorFlow Basics
                 </Link>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <Link href="#" className="w-full">
+                <Link href="#" className="w-full text-lg">
                   Pytorch for Beginner
                 </Link>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <Link href="#" className="w-full">
+                <Link href="#" className="w-full text-lg">
                   ML Challenges
                 </Link>
               </DropdownMenuItem>
