@@ -18,7 +18,7 @@ import {
 } from "@/components/ui/select";
 import { Button } from "@/components/ui/button";
 
-export default function Avalability() {
+export default function BookSession() {
   return (
     <div className="px-4 py-12 md:px-6 md:py-16">
       <div className="space-y-4 md:space-y-6">
