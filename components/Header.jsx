@@ -1,181 +1,145 @@
-"use client";
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
-import { SheetTrigger, SheetContent, Sheet } from "@/components/ui/sheet";
-import Image from "next/image";
+"use client"
+import { useState } from 'react'
+import Link from 'next/link'
+import { ChevronDown, Menu } from 'lucide-react'
+
+import { Button } from "@/components/ui/button"
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-import { ChevronDownIcon } from "lucide-react";
-import { useState } from "react";
+} from "@/components/ui/dropdown-menu"
+import {
+  Sheet,
+  SheetContent,
+  SheetTrigger,
+} from "@/components/ui/sheet"
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion"
+import Image from 'next/image'
 
-export default function Header() {
-  const [isOpen, setIsOpen] = useState(false);
+export default function Component() {
+  const [activeDropdown, setActiveDropdown] = useState(null)
+  const [isSheetOpen, setIsSheetOpen] = useState(false)
 
-  const closeDropdown = () => {
-    setIsOpen(false);
-  };
+  const navItems = [
+    { 
+      name: 'Mentorships', 
+      link: '/mentorships',
+      items: [
+        { name: 'Backend Development', link: '/mentorships/backend-development' },
+        { name: 'Frontend Development', link: '/mentorships/frontend-development' },
+        { name: 'Master Freelancing', link: '/mentorships/master-your-freelance-hustle' },
+        { name: 'Digital Skills', link: '/mentorships/digital-skills-training' },
+        { name: 'Office Productivity', link: '/mentorships/office-productivity-software' },
+      ] 
+    },
+    { 
+      name: 'Developers', 
+      link: '/developers',
+      items: [
+        { name: 'Docs', link: '/developers/docs' },
+        { name: 'API', link: '/developers/api' },
+        { name: 'SDKs', link: '/developers/sdks' },
+      ] 
+    },
+    { 
+      name: 'Resources', 
+      link: '#resources',
+      items: [
+        { name: 'Books', link: '/resources/books' },
+        { name: 'Podcasts', link: '/resources/podcasts' },
+        { name: 'Book Session', link: '/resources/session' },
+        { name: 'Case Studies', link: '/resources/case-studies' },
+        { name: 'Webinars', link: '/resources/webinars' },
+      ] 
+    },
+    { name: 'Pricing', link: '/premium', items: [] },
+  ]
+
+  const handleLinkClick = () => {
+    setIsSheetOpen(false)
+  }
 
   return (
-    <header className="flex flex-wrap sticky top-0  items-center justify-between bg-white p-2 dark:bg-gray-800">
-      <div className="flex items-center space-x-3">
-        <Link href="/">
-          <Image src="/lupleg.svg" alt="Lupleg" width={150} height={100} />
-        </Link>
-      </div>
-      <div className="hidden md:block">
-        <nav className="flex space-x-6 text-md ">
-          <Link
-            className="text-green-950 hover:text-green-950 dark:text-gray-300 dark:hover:text-gray-200"
-            href="about-us"
-          >
-            About
-          </Link>
-
-          <Link
-            className="text-green-950 hover:text-green-950 dark:text-gray-300 dark:hover:text-gray-200"
-            href="mentorships"
-          >
-            Mentorships
-          </Link>
-
-          <Link
-            className="text-green-950 hover:text-green-950 dark:text-gray-300 dark:hover:text-gray-200"
-            href="academy"
-          >
-            Academy
-          </Link>
-
-          <Link
-            className="text-green-950 hover:text-green-950 dark:text-gray-300 dark:hover:text-gray-200"
-            href="challenge"
-          >
-            Challenges
-          </Link>
-
-          <DropdownMenu>
+    <header className="flex items-center justify-between sticky top-0 px-6 py-4 bg-white border-b border-gray-200">
+      <Link href="/" className="flex items-center">
+      <Image src="/lupleg.svg" alt="Lupleg Logo" width={150} height={100} />
+      </Link>
+      <nav className="hidden md:flex space-x-6">
+        {navItems.map((item) => (
+          <DropdownMenu key={item.name} onOpenChange={(open) => open ? setActiveDropdown(item.name) : setActiveDropdown(null)}>
             <DropdownMenuTrigger asChild>
-              <button className="text-green-950 hover:text-green-950 dark:text-gray-300 dark:hover:text-gray-200 flex items-center outline-none">
-                Machine Learning <ChevronDownIcon className="ml-1 h-4 w-4" />
-              </button>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent align="end">
-              <DropdownMenuItem>
-                <Link href="#" className="w-full text-md text-green-950">
-                  TensorFlow Basics
+              <Button variant="ghost" className={`text-gray-600 hover:text-gray-900 ${activeDropdown === item.name ? 'text-gray-900' : ''}`}>
+                <Link href={item.link} className="flex items-center">
+                  {item.name}
+                  {item.items.length > 0 && <ChevronDown className="ml-1 h-4 w-4" />}
                 </Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                <Link href="#" className="w-full text-md text-green-950">
-                  Pytorch for Beginner
-                </Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                <Link href="#" className="w-full text-md text-green-950">
-                  ML Challenges
-                </Link>
-              </DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
-
-          <Link
-            className="text-green-950 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
-            href="premium"
-          >
-            Premium
-          </Link>
-          <Link
-            className="text-green-950 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
-            href="books"
-          >
-            Books
-          </Link>
-        </nav>
-      </div>
-      <div className="hidden rounded p-3  md:block">
-        <Button className="text-md text-white py-6 bg-green-950 hover:bg-green-950">
-          <Link href="https://app.lupleg.website">Register</Link>
-        </Button>
-      </div>
-
-      {/* mobile view */}
-      <Sheet>
-        <SheetTrigger asChild>
-          <Button className="lg:hidden" size="icon" variant="outline">
-            <MenuIcon className="h-6 w-6" />
-            <span className="sr-only">Toggle navigation menu</span>
-          </Button>
-        </SheetTrigger>
-        <SheetContent side="left">
-          <div className="grid gap-2 py-6">
-            <Link
-              className="flex w-full items-center py-2 text-lg font-semibold"
-              href="about-us"
-            >
-              About
-            </Link>
-            {/* <Link
-              className="flex w-full items-center py-2 text-lg font-semibold"
-              href="challenge"
-            >
-              Challenges
-            </Link> */}
-            <Link
-              className="flex w-full items-center py-2 text-lg font-semibold"
-              href="mentorships"
-            >
-              Mentorships
-            </Link>
-            <Link
-              className="flex w-full items-center py-2 text-lg font-semibold"
-              href="academy"
-            >
-              Academy
-            </Link>
-            <Link
-              className="flex w-full items-center py-2 text-lg font-semibold"
-              href="premium"
-            >
-              Premium
-            </Link>
-            <Link
-              className="flex w-full items-center py-2 text-lg font-semibold"
-              href="books"
-            >
-              Books
-            </Link>
-            <div className="w-30 flex   items-center rounded-full">
-              <Button className="text-md  text-white  bg-green-950 hover:bg-green-950">
-                <Link href="https://app.lupleg.website">Register</Link>
               </Button>
-            </div>
-          </div>
-        </SheetContent>
-      </Sheet>
+            </DropdownMenuTrigger>
+            {item.items.length > 0 && (
+              <DropdownMenuContent>
+                {item.items.map((subItem) => (
+                  <DropdownMenuItem key={subItem.name}>
+                    <Link href={subItem.link} className="w-full">
+                      {subItem.name}
+                    </Link>
+                  </DropdownMenuItem>
+                ))}
+              </DropdownMenuContent>
+            )}
+          </DropdownMenu>
+        ))}
+      </nav>
+      <div className="flex items-center space-x-4">
+        <Link href="https://app.lupleg.website/sign-in" className="hidden md:block">
+          <Button className="bg-green-950 hover:bg-green-950 text-white">Sign in</Button>
+        </Link>
+        <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
+          <SheetTrigger asChild>
+            <Button variant="ghost" size="icon" className="md:hidden">
+              <Menu className="h-6 w-6" />
+              <span className="sr-only">Toggle menu</span>
+            </Button>
+          </SheetTrigger>
+          <SheetContent side="right">
+            <nav className="flex flex-col space-y-4">
+              <Accordion type="single" collapsible className="w-full">
+                {navItems.map((item) => (
+                  <AccordionItem value={item.name} key={item.name}>
+                    {item.items.length > 0 ? (
+                      <>
+                        <AccordionTrigger>{item.name}</AccordionTrigger>
+                        <AccordionContent>
+                          <div className="flex flex-col space-y-2">
+                            {item.items.map((subItem) => (
+                              <Link href={subItem.link} key={subItem.name} className="text-sm text-gray-600 hover:text-gray-900" onClick={handleLinkClick}>
+                                {subItem.name}
+                              </Link>
+                            ))}
+                          </div>
+                        </AccordionContent>
+                      </>
+                    ) : (
+                      <Link href={item.link} className="py-4 text-sm font-medium text-gray-600 hover:text-gray-900" onClick={handleLinkClick}>
+                        {item.name}
+                      </Link>
+                    )}
+                  </AccordionItem>
+                ))}
+              </Accordion>
+              <Link href="https://app.lupleg.website/sign-in">
+                <Button className="w-full bg-green-950 hover:bg-green-950 text-white" onClick={handleLinkClick}>Sign in</Button>
+              </Link>
+            </nav>
+          </SheetContent>
+        </Sheet>
+      </div>
     </header>
-  );
-}
-
-function MenuIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <line x1="4" x2="20" y1="12" y2="12" />
-      <line x1="4" x2="20" y1="6" y2="6" />
-      <line x1="4" x2="20" y1="18" y2="18" />
-    </svg>
-  );
+  )
 }
