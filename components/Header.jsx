@@ -20,44 +20,41 @@ export default function Header() {
   };
 
   return (
-    <header className="flex flex-wrap sticky top-0  items-center justify-between bg-white p-6 dark:bg-gray-800">
+    <header className="flex flex-wrap sticky top-0  items-center justify-between bg-white p-2 dark:bg-gray-800">
       <div className="flex items-center space-x-3">
         <Link href="/">
           <Image src="/lupleg.svg" alt="Lupleg" width={150} height={100} />
         </Link>
       </div>
       <div className="hidden md:block">
-        <nav className="flex space-x-6 text-lg ">
+        <nav className="flex space-x-6 text-md ">
           <Link
             className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
             href="about-us"
           >
             About
           </Link>
-          <DropdownMenu open={isOpen} onOpenChange={setIsOpen}>
-            <DropdownMenuTrigger asChild>
-              <button className="text-black hover:text-black dark:text-gray-300 dark:hover:text-gray-200 flex items-center outline-none">
-                Trainings <ChevronDownIcon className="ml-1 h-4 w-4" />
-              </button>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent align="end">
-              <DropdownMenuItem onSelect={closeDropdown}>
-                <Link href="mentorships" className="w-full text-lg">
-                  Mentorships
-                </Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem onSelect={closeDropdown}>
-                <Link href="academy" className="w-full text-lg">
-                  Academy
-                </Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem onSelect={closeDropdown}>
-                <Link href="challenge" className="w-full text-lg">
-                  Challenges
-                </Link>
-              </DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
+
+          <Link
+            className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
+            href="mentorships"
+          >
+            Mentorships
+          </Link>
+
+          <Link
+            className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
+            href="academy"
+          >
+            Academy
+          </Link>
+
+          <Link
+            className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
+            href="challenge"
+          >
+            Challenges
+          </Link>
 
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
@@ -67,17 +64,17 @@ export default function Header() {
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end">
               <DropdownMenuItem>
-                <Link href="#" className="w-full text-lg">
+                <Link href="#" className="w-full text-md text-black">
                   TensorFlow Basics
                 </Link>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <Link href="#" className="w-full text-lg">
+                <Link href="#" className="w-full text-md text-black">
                   Pytorch for Beginner
                 </Link>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <Link href="#" className="w-full text-lg">
+                <Link href="#" className="w-full text-md text-black">
                   ML Challenges
                 </Link>
               </DropdownMenuItem>
@@ -99,7 +96,7 @@ export default function Header() {
         </nav>
       </div>
       <div className="hidden rounded p-3  md:block">
-        <Button className="text-md font-semibold text-white py-6 bg-green-950 hover:bg-green-950">
+        <Button className="text-md text-white py-6 bg-green-950 hover:bg-green-950">
           <Link href="https://app.lupleg.website">Register</Link>
         </Button>
       </div>
