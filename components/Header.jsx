@@ -29,28 +29,28 @@ export default function Header() {
       <div className="hidden md:block">
         <nav className="flex space-x-6 text-md ">
           <Link
-            className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
+            className="text-green-950 hover:text-green-950 dark:text-gray-300 dark:hover:text-gray-200"
             href="about-us"
           >
             About
           </Link>
 
           <Link
-            className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
+            className="text-green-950 hover:text-green-950 dark:text-gray-300 dark:hover:text-gray-200"
             href="mentorships"
           >
             Mentorships
           </Link>
 
           <Link
-            className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
+            className="text-green-950 hover:text-green-950 dark:text-gray-300 dark:hover:text-gray-200"
             href="academy"
           >
             Academy
           </Link>
 
           <Link
-            className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
+            className="text-green-950 hover:text-green-950 dark:text-gray-300 dark:hover:text-gray-200"
             href="challenge"
           >
             Challenges
@@ -58,23 +58,23 @@ export default function Header() {
 
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
-              <button className="text-black hover:text-black dark:text-gray-300 dark:hover:text-gray-200 flex items-center outline-none">
+              <button className="text-green-950 hover:text-green-950 dark:text-gray-300 dark:hover:text-gray-200 flex items-center outline-none">
                 Machine Learning <ChevronDownIcon className="ml-1 h-4 w-4" />
               </button>
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end">
               <DropdownMenuItem>
-                <Link href="#" className="w-full text-md text-black">
+                <Link href="#" className="w-full text-md text-green-950">
                   TensorFlow Basics
                 </Link>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <Link href="#" className="w-full text-md text-black">
+                <Link href="#" className="w-full text-md text-green-950">
                   Pytorch for Beginner
                 </Link>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <Link href="#" className="w-full text-md text-black">
+                <Link href="#" className="w-full text-md text-green-950">
                   ML Challenges
                 </Link>
               </DropdownMenuItem>
@@ -82,13 +82,13 @@ export default function Header() {
           </DropdownMenu>
 
           <Link
-            className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
+            className="text-green-950 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
             href="premium"
           >
             Premium
           </Link>
           <Link
-            className="text-black hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
+            className="text-green-950 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200"
             href="books"
           >
             Books
