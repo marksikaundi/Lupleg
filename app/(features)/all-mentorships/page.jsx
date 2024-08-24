@@ -4,7 +4,7 @@ import CardSections from "@/components/FeaturesCards/CardSections";
 import MoreFAQ from "@/components/FeaturesCards/MoreFAQ";
 import MentorHeader from "@/components/HeroCards/MentorHeader";
 
-export default function Mentorships() {
+export default function AllMentorships() {
   return (
     <div>
       <MentorHeader />
