@@ -21,10 +21,10 @@ export default function Blogs() {
       category: "Guides",
       date: "Aug 22, 2024",
       authors: [
-        { name: "John Doe", avatar: "/placeholder-user.jpg" },
-        { name: "Jane Smith", avatar: "/placeholder-user.jpg" },
+        { name: "John Doe", avatar: "#" },
+        { name: "Jane Smith", avatar: "#" },
       ],
-      image: "/placeholder.svg?height=400&width=800",
+      image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
       link: "/blogs/articles/the-future-of-ai-in-web-development",
     },
     {
@@ -34,8 +34,8 @@ export default function Blogs() {
         "Artificial Intelligence is revolutionizing the way we approach web development. From automated coding assistants to intelligent design systems, AI is reshaping the landscape of web creation. This post explores the current state of AI in web development and predicts future trends.",
       category: "Technology",
       date: "Aug 18, 2024",
-      authors: [{ name: "Alice Johnson", avatar: "/placeholder-user.jpg" }],
-      image: "/placeholder.svg?height=400&width=800",
+      authors: [{ name: "Alice Johnson", avatar: "#" }],
+      image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
       link: "/blogs/articles/the-future-of-ai-in-web-development",
     },
     {
@@ -46,10 +46,10 @@ export default function Blogs() {
       category: "Development",
       date: "Aug 15, 2024",
       authors: [
-        { name: "Bob Williams", avatar: "/placeholder-user.jpg" },
-        { name: "Carol Davis", avatar: "/placeholder-user.jpg" },
+        { name: "Bob Williams", avatar: "#" },
+        { name: "Carol Davis", avatar: "#" },
       ],
-      image: "/placeholder.svg?height=400&width=800",
+      image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
       link: "/blogs/articles/optimizing-react-performance",
     },
     {
@@ -59,8 +59,8 @@ export default function Blogs() {
         "Serverless architecture is gaining traction in the world of cloud computing. This post examines the benefits and challenges of serverless, and how it's changing the way developers build and deploy applications. We'll also look at some real-world use cases and best practices.",
       category: "Cloud",
       date: "Aug 10, 2024",
-      authors: [{ name: "David Brown", avatar: "/placeholder-user.jpg" }],
-      image: "/placeholder.svg?height=400&width=800",
+      authors: [{ name: "David Brown", avatar: "#" }],
+      image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
       link: "/blogs/articles/the-rise-of-serverless-architecture",
     },
     {
@@ -71,10 +71,10 @@ export default function Blogs() {
       category: "Design",
       date: "Aug 5, 2024",
       authors: [
-        { name: "Emma Wilson", avatar: "/placeholder-user.jpg" },
-        { name: "Frank Thomas", avatar: "/placeholder-user.jpg" },
+        { name: "Emma Wilson", avatar: "#" },
+        { name: "Frank Thomas", avatar: "#" },
       ],
-      image: "/placeholder.svg?height=400&width=800",
+      image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
       link: "/blogs/articles/accessibility-in-web-design",
     },
     {
@@ -84,8 +84,8 @@ export default function Blogs() {
         "Remote work has become the new norm for many companies around the world. This post explores the latest trends and statistics in the remote work landscape, including the rise of hybrid work models, the impact on employee productivity, and the future of remote work post-pandemic.",
       category: "Business",
       date: "Aug 1, 2024",
-      authors: [{ name: "George Wilson", avatar: "/placeholder-user.jpg" }],
-      image: "/placeholder.svg?height=400&width=800",
+      authors: [{ name: "George Wilson", avatar: "#" }],
+      image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
       link: "/blogs/articles/the-state-of-remote-work",
     },
   ];
