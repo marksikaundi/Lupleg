@@ -2,11 +2,15 @@ import ProgramSummary from "@/components/FeaturesCards/ProgramSummary";
 import ShortMentorships from "@/components/HeroCards/ShortMentorships";
 import Link from "next/link";
 import WelcomeHero from "@/components/NewHero/WelcomeHero";
+import WhatWeDo from "@/components/NewHero/WhatWeDo";
+import DemoView from "@/components/NewHero/DemoView";
 
 export default function Home() {
   return (
     <div className="bg-[#FFFFFF]">
             <WelcomeHero />
+            <WhatWeDo />
+            <DemoView />
 
       {/* <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-8 text-center">
         <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-gray-800">
