@@ -20,11 +20,9 @@ export default function Blogs() {
         "For high-growth startups, time is the single most important resource. It's so important that months of delay in shipping SSO and SCIM can result in a potential revenue loss of $7.95M compared to using a pre-built solution. The ROI difference is staggering too: 9% for a homegrown solution vs. 1,954% for a pre-built one. This article explains the methodologies used to calculate these numbers.",
       category: "Guides",
       date: "Aug 22, 2024",
-      authors: [
-        { name: "John Doe", avatar: "/placeholder-user.jpg" },
-        { name: "Jane Smith", avatar: "/placeholder-user.jpg" },
-      ],
-      image: "/placeholder.svg?height=400&width=800",
+      authors: [{ name: "Mark Sikaundi", avatar: "/mark.jpg" }],
+      image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
+      link: "/blogs/articles/the-future-of-ai-in-web-development",
     },
     {
       id: 2,
@@ -33,8 +31,9 @@ export default function Blogs() {
         "Artificial Intelligence is revolutionizing the way we approach web development. From automated coding assistants to intelligent design systems, AI is reshaping the landscape of web creation. This post explores the current state of AI in web development and predicts future trends.",
       category: "Technology",
       date: "Aug 18, 2024",
-      authors: [{ name: "Alice Johnson", avatar: "/placeholder-user.jpg" }],
-      image: "/placeholder.svg?height=400&width=800",
+      authors: [{ name: "Mark Sikaundi", avatar: "/mark.jpg" }],
+      image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
+      link: "/blogs/articles/the-future-of-ai-in-web-development",
     },
     {
       id: 3,
@@ -43,11 +42,9 @@ export default function Blogs() {
         "React applications can sometimes suffer from performance issues as they grow in complexity. This guide dives deep into advanced optimization techniques, including memoization, code splitting, and efficient state management, to help you build lightning-fast React apps.",
       category: "Development",
       date: "Aug 15, 2024",
-      authors: [
-        { name: "Bob Williams", avatar: "/placeholder-user.jpg" },
-        { name: "Carol Davis", avatar: "/placeholder-user.jpg" },
-      ],
-      image: "/placeholder.svg?height=400&width=800",
+      authors: [{ name: "Mark Sikaundi", avatar: "/mark.jpg" }],
+      image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
+      link: "/blogs/articles/optimizing-react-performance",
     },
     {
       id: 4,
@@ -56,8 +53,9 @@ export default function Blogs() {
         "Serverless architecture is gaining traction in the world of cloud computing. This post examines the benefits and challenges of serverless, and how it's changing the way developers build and deploy applications. We'll also look at some real-world use cases and best practices.",
       category: "Cloud",
       date: "Aug 10, 2024",
-      authors: [{ name: "David Brown", avatar: "/placeholder-user.jpg" }],
-      image: "/placeholder.svg?height=400&width=800",
+      authors: [{ name: "Mark Sikaundi", avatar: "/mark.jpg" }],
+      image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
+      link: "/blogs/articles/the-rise-of-serverless-architecture",
     },
     {
       id: 5,
@@ -66,11 +64,9 @@ export default function Blogs() {
         "Creating accessible websites is not just a legal requirement, it's a moral imperative. This comprehensive guide covers everything from WCAG guidelines to practical implementation techniques, helping you make your web applications usable by everyone, regardless of their abilities.",
       category: "Design",
       date: "Aug 5, 2024",
-      authors: [
-        { name: "Emma Wilson", avatar: "/placeholder-user.jpg" },
-        { name: "Frank Thomas", avatar: "/placeholder-user.jpg" },
-      ],
-      image: "/placeholder.svg?height=400&width=800",
+      authors: [{ name: "Mark Sikaundi", avatar: "/mark.jpg" }],
+      image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
+      link: "/blogs/articles/accessibility-in-web-design",
     },
     {
       id: 6,
@@ -79,8 +75,9 @@ export default function Blogs() {
         "Remote work has become the new norm for many companies around the world. This post explores the latest trends and statistics in the remote work landscape, including the rise of hybrid work models, the impact on employee productivity, and the future of remote work post-pandemic.",
       category: "Business",
       date: "Aug 1, 2024",
-      authors: [{ name: "George Wilson", avatar: "/placeholder-user.jpg" }],
-      image: "/placeholder.svg?height=400&width=800",
+      authors: [{ name: "Mark Sikaundi", avatar: "/mark.jpg" }],
+      image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
+      link: "/blogs/articles/the-state-of-remote-work",
     },
   ];
 
@@ -132,7 +129,11 @@ export default function Blogs() {
                     </Avatar>
                   ))}
                 </div>
-                <Link href="#" className="text-blue-600 hover:underline">
+
+                <Link
+                  href={post.link || ""}
+                  className="text-green-800 hover:underline"
+                >
                   Read more
                 </Link>
               </div>
