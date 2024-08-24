@@ -37,7 +37,6 @@ export default function Home() {
         <br />
       </div> */}
       <ShortMentorships />
-
       {/* <ProgramSummary /> */}
     </div>
   );

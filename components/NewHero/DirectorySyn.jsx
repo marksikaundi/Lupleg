@@ -26,7 +26,7 @@ export default function Component() {
             <div className="absolute top-4 right-4 w-12 h-12 bg-green-800 rounded-full flex items-center justify-center">
               <UserIcon className="text-white w-6 h-6" />
             </div>
-            <div className="absolute bottom-24 right-48 w-16 h-16 bg-[#F3A833] rounded-full flex items-center justify-center">
+            <div className="absolute bottom-24 right-48 w-12 h-12 bg-[#F3A833] rounded-full flex items-center justify-center">
               <Users className="text-white w-8 h-8" />
             </div>
           </div>
