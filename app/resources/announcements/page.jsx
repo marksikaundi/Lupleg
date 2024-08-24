@@ -15,7 +15,7 @@ export default function Announcements() {
       </Link>
 
       <h1 className="text-4xl font-bold text-gray-900 mb-6">
-        Lupleg  gives Warrant
+        Lupleg gives Warrant
       </h1>
 
       <div className="flex items-center mb-6">
@@ -33,10 +33,18 @@ export default function Announcements() {
       </div>
 
       <p className="text-gray-700 mb-8">
-        Today, we are excited to announce the acquisition of Warrant, the Fine
-        Grained Authorization (FGA) service for developers. This is a major step
-        in WorkOS' vision to become the world's best platform for identity,
-        authentication, and authorization.
+        Once you join Lupleg learning community, you will have access to a wide
+        range of resources and support to help you achieve your goals. We offer
+        a range of services to help you succeed, including:{" "}
+        <Link href="/all-mentorships">
+          <span className="text-[#F3A833]">
+            mentorships, tutoring, academic & career advising
+          </span>
+        </Link>
+        , and more. We also offer a range of workshops and events to help you
+        develop your skills and build your network. Our goal is to help you
+        succeed in your studies and achieve your goals. We look forward to
+        welcoming you to our community!
       </p>
 
       <div className="flex justify-center space-x-2 mb-8">
@@ -64,19 +72,19 @@ export default function Announcements() {
       </div>
 
       <p className="text-gray-700 mb-4">
-        Today we are thrilled to announce that WorkOS has acquired Warrant, the
-        Fine Grained Authorization (FGA) service.
+        Today we are excited to announce that Lupleg soon is opening some
+        scholarship opportunities for students who are interested in learning
+        more about technology and software development. We are partnering with
+        Warrant to provide scholarships to students who are passionate about
+        technology and want to learn more about software development.{" "}
       </p>
 
       <p className="text-gray-700 mb-8">
-        FGA allows developers to implement precise access controls within their
-        applications, ensuring robust security and data compliance. In other
-        words, it determines who has access to what and what they can do within
-        an app. Warrant's product is based on a groundbreaking authorization
-        system called Zanzibar, which was originally developed by Google to
-        power Google Docs and YouTube. This enables fast authorization checks at
-        enormous scale while maintaining a flexible model that can be adapted to
-        any application.
+        The scholarships will cover the cost of tuition for the Lupleg learning
+        community, as well as provide additional support and resources to help
+        students succeed. We are excited to partner with Warrant to provide
+        these scholarships, and we look forward to welcoming students to our
+        community.
       </p>
 
       <AnnounceCard />

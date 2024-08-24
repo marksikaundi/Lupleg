@@ -30,8 +30,8 @@ export default function AnnounceCard() {
             <h3 className="text-lg font-semibold text-green-900">About us</h3>
           </div>
           <p className="text-gray-600 mb-4">
-            WorkOS builds developer tools for quickly adding enterprise features
-            to applications.
+            Find out more about our company, our team, and our mission.
+           
           </p>
           <Link
             href="/about-us"
