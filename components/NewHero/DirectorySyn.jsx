@@ -5,8 +5,8 @@ import { UserIcon, Users } from "lucide-react";
 
 export default function Component() {
   return (
-    <div className="bg-white  p-8 md:p-16 lg:p-24">
-      <div className="">
+    <div className="bg-white p-8 md:p-16 lg:p-24 relative z-0">
+      <div className="max-w-7xl mx-auto">
         <div className="relative mb-24">
           <h3 className="text-green-900 font-semibold mb-4">Directory Sync</h3>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-6">
@@ -18,7 +18,7 @@ export default function Component() {
             Quickly enable full user lifecycle management by syncing your app
             with dozens of enterprise employee directory systems.
           </p>
-          <Button className="bg-green-950 hover:bg-green-950 text-white px-6 py-3 rounded-full text-md font-thin">
+          <Button className="bg-green-950 hover:bg-green-900 text-white px-6 py-3 rounded-full text-md font-thin">
             Get Started
           </Button>
 
