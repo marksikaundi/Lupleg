@@ -38,8 +38,8 @@ export default function WhatWeDo() {
             market-proven solution for your customers.
           </p>
           <Link href="">
-            <Button className="bg-green-950 hover:bg-green-800 shadow-md shadow-black text-white px-6 py-3 font-thin rounded-full text-lg">
-              Add Single Sign-On to your app
+            <Button className="bg-green-950 hover:bg-green-800 text-white px-6 py-3 font-thin rounded-full text-lg">
+              Learn More
             </Button>
           </Link>
         </div>
