@@ -33,11 +33,12 @@ export default function WhatWeDo() {
             (and a whole lot more)
           </h1>
           <p className="text-xl text-gray-600 max-w-xl mb-6">
-            WorkOS is a set of building blocks for quickly adding enterprise
-            features to your app. You'll be shipping quickly with a
-            market-proven solution for your customers.
+            Lupleg is a community platform that enables teams to streamline and
+            help novice scale up their career in tech. We provide a complete set
+            of tools to help you build secure, reliable, and scalable
+            software durring our programs.
           </p>
-          <Link href="">
+          <Link href="https://app.lupleg.website">
             <Button className="bg-green-950 hover:bg-green-800 text-white px-6 py-3 font-thin rounded-full text-lg">
               Learn More
             </Button>
@@ -45,7 +46,7 @@ export default function WhatWeDo() {
         </div>
         <div className="md:w-1/2">
           <img
-            src="/wedo.png"
+            src="/teaching.svg"
             alt="What We Do Illustration"
             className="w-full h-auto"
           />

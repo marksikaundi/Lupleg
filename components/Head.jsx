@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { ArrowRight, CheckCircle } from 'lucide-react'
 import { Button } from "@/components/ui/button"
+import Link from 'next/link'
 
 export default function Component() {
   const [mounted, setMounted] = useState(false)
@@ -17,7 +18,7 @@ export default function Component() {
         <div className="grid gap-6 lg:grid-cols-[1fr_500px] lg:gap-12 xl:grid-cols-[1fr_550px]">
           <div className="flex flex-col justify-center space-y-4">
             <div className="space-y-2">
-              <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
+              <h1 className="text-3xl font-bold tracking-tighter text-green-950 sm:text-5xl xl:text-6xl/none">
                 Streamline Your Workflow with Our SaaS Solution
               </h1>
               <p className="max-w-[600px] text-muted-foreground md:text-xl">
@@ -25,13 +26,21 @@ export default function Component() {
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
-              <Button className="inline-flex h-10 items-center justify-center rounded-full bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90">
+              
+
+              <Link href="https://app.lupleg.website">
+              <Button className="inline-flex h-10 items-center justify-center rounded-full bg-green-950 px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-green-950">
                 Get Started
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
+              </Link>
+              
+
+              <Link href="resources/session">
               <Button variant="outline" className="inline-flex h-10 items-center justify-center rounded-full border border-input px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground">
                 Book a Demo
               </Button>
+              </Link>
             </div>
             <div className="flex items-center space-x-4 text-sm">
               <CheckCircle className="text-green-500" />

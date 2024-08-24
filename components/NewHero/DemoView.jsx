@@ -17,11 +17,11 @@ export default function DemoView() {
             A unified platform with modern APIs
           </h1>
           <p className="text-gray-400 mb-6">
-            WorkOS provides a single, elegant interface that abstracts dozens of
+            Lupleg provides a single, elegant interface that abstracts dozens of
             enterprise integrations.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Link href="#">
+            <Link href="https://docs.lupleg.website">
               <Button className="bg-[#F3A833] text-green-950 hover:bg-[#F3A833] w-full sm:w-auto">
                 Read the docs
               </Button>
@@ -32,6 +32,7 @@ export default function DemoView() {
                 variant="outline"
                 className="text-green-950 hover:text-green-950 w-full sm:w-auto"
               >
+                {/* TODO: API implementation */}
                 Get your API key
                 <ArrowUpRight className="ml-2 h-4 w-4" />
               </Button>
