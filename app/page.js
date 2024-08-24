@@ -4,13 +4,15 @@ import Link from "next/link";
 import WelcomeHero from "@/components/NewHero/WelcomeHero";
 import WhatWeDo from "@/components/NewHero/WhatWeDo";
 import DemoView from "@/components/NewHero/DemoView";
+import DirectorySyn from "@/components/NewHero/DirectorySyn";
 
 export default function Home() {
   return (
     <div className="bg-[#FFFFFF]">
-            <WelcomeHero />
-            <WhatWeDo />
-            <DemoView />
+      <WelcomeHero />
+      <WhatWeDo />
+      <DemoView />
+      <DirectorySyn />
 
       {/* <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-8 text-center">
         <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-gray-800">
@@ -24,22 +26,18 @@ export default function Home() {
           </span>
         </h1> */}
 
-        {/* TODO: For future uncomment this code */}
-        {/* <p className="mt-4 p-12 text-base sm:text-lg md:text-2xl text-gray-600">
+      {/* TODO: For future uncomment this code */}
+      {/* <p className="mt-4 p-12 text-base sm:text-lg md:text-2xl text-gray-600">
           Lupleg is a community platform that enables teams to streamline and
           help novice scale up their career in tech.
         </p> */}
-        {/* <button className="W-15 mt-16 px-8 py-3 text-md  font-semibold border-2 border-green-950 p-6 text-green-950 rounded  hover:bg-green-950 hover:text-white focus:outline-none focus:ring-2 focus:ring-orange focus:ring-opacity-50 transition duration-300">
+      {/* <button className="W-15 mt-16 px-8 py-3 text-md  font-semibold border-2 border-green-950 p-6 text-green-950 rounded  hover:bg-green-950 hover:text-white focus:outline-none focus:ring-2 focus:ring-orange focus:ring-opacity-50 transition duration-300">
           <Link href="mentorships">Get Started </Link>
         </button>
         <br />
       </div> */}
       <ShortMentorships />
-      <div className="my-8">
-        <hr className="border-t-2 border-gray-300" />
-      </div>
-
-      <ProgramSummary />
+      {/* <ProgramSummary /> */}
     </div>
   );
 }

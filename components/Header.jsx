@@ -43,9 +43,9 @@ export default function Component() {
       name: 'Developers', 
       link: '/developers',
       items: [
-        { name: 'Docs', link: '/developers/docs' },
-        { name: 'API', link: '/developers/api' },
-        { name: 'SDKs', link: '/developers/sdks' },
+        { name: 'Labs', link: 'https://app.lupleg.website' },
+        { name: 'Docs', link: 'https://docs.lupleg.website' },
+        { name: 'API', link: '#' },
       ] 
     },
     { 

@@ -123,9 +123,9 @@ client.sso.get_profile_and_token('01E295MCHPKBSQZ2SRDAP23X23')`}
     "id": "prof_01DRA1XNSJDKGKM68ZFGGJXKXJ",
     "connection_id": "conn_01E4ZCR3K6J08K1ZX8XZWH6HDC",
     "connection_type": "okta",
-    "email": "alan@foo-corp.com",
-    "first_name": "Alan",
-    "last_name": "Turing",
+    "email": "mark@lupleg-corp.com",
+    "first_name": "Mark",
+    "last_name": "Sikaundi",
     "idp_id": "00ujl29u0le5T6Aj10h7",
     "object": "profile",
     "raw_attributes": { ... }
