@@ -25,6 +25,7 @@ export default function Blogs() {
         { name: "Jane Smith", avatar: "/placeholder-user.jpg" },
       ],
       image: "/placeholder.svg?height=400&width=800",
+      link: "/blogs/articles/the-future-of-ai-in-web-development",
     },
     {
       id: 2,
@@ -35,6 +36,7 @@ export default function Blogs() {
       date: "Aug 18, 2024",
       authors: [{ name: "Alice Johnson", avatar: "/placeholder-user.jpg" }],
       image: "/placeholder.svg?height=400&width=800",
+      link: "/blogs/articles/the-future-of-ai-in-web-development",
     },
     {
       id: 3,
@@ -48,6 +50,7 @@ export default function Blogs() {
         { name: "Carol Davis", avatar: "/placeholder-user.jpg" },
       ],
       image: "/placeholder.svg?height=400&width=800",
+      link: "/blogs/articles/optimizing-react-performance",
     },
     {
       id: 4,
@@ -58,6 +61,7 @@ export default function Blogs() {
       date: "Aug 10, 2024",
       authors: [{ name: "David Brown", avatar: "/placeholder-user.jpg" }],
       image: "/placeholder.svg?height=400&width=800",
+      link: "/blogs/articles/the-rise-of-serverless-architecture",
     },
     {
       id: 5,
@@ -71,6 +75,7 @@ export default function Blogs() {
         { name: "Frank Thomas", avatar: "/placeholder-user.jpg" },
       ],
       image: "/placeholder.svg?height=400&width=800",
+      link: "/blogs/articles/accessibility-in-web-design",
     },
     {
       id: 6,
@@ -81,6 +86,7 @@ export default function Blogs() {
       date: "Aug 1, 2024",
       authors: [{ name: "George Wilson", avatar: "/placeholder-user.jpg" }],
       image: "/placeholder.svg?height=400&width=800",
+      link: "/blogs/articles/the-state-of-remote-work",
     },
   ];
 
@@ -132,7 +138,11 @@ export default function Blogs() {
                     </Avatar>
                   ))}
                 </div>
-                <Link href="#" className="text-blue-600 hover:underline">
+
+                <Link
+                  href={post.link || ""}
+                  className="text-green-800 hover:underline"
+                >
                   Read more
                 </Link>
               </div>
