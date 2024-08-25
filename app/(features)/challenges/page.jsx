@@ -2,7 +2,7 @@ import MoreFQA from "@/components/FeaturesCards/MoreFAQ";
 import Link from "next/link";
 import React from "react";
 
-function Challenge() {
+function Challenges() {
   return (
     <div>
       <div className="min-h-screen flex flex-col items-center mt-10">
@@ -15,10 +15,7 @@ function Challenge() {
           <p className="text-green-950 text-lg mt-4 mb-8 w-96 max-w-full">
             Join{" "}
             <b>
-              <a
-                className="cursor-pointer"
-                href="https://app.lupleg.website/profile"
-              >
+              <a className="cursor-pointer" href="/challenges/frontend">
                 10240
               </a>
               + developers
@@ -29,7 +26,7 @@ function Challenge() {
             <div className="animated-border after:opacity-100 before:opacity-100 p-0.5 rounded-lg text-green-900 flex justify-center items-center">
               <Link
                 className="bg-[#C24229] text-white text-lg font-bold py-4 px-8 cursor-pointer relative w-full rounded-lg group-hover:bg-[#C24229] z-10"
-                href="https://app.lupleg.website/dashboard"
+                href="/challenges/frontend"
               >
                 Start coding
               </Link>
@@ -240,7 +237,7 @@ function Challenge() {
         </h2>
         <a
           className="inline-block bg-[#C24229]  text-white text-lg font-bold rounded-lg py-4 px-8 cursor-pointer hover:opacity-80"
-          href="https://app.lupleg.website/dashboard"
+          href="/challenges/frontend"
         >
           Join challenge
         </a>
@@ -250,4 +247,4 @@ function Challenge() {
   );
 }
 
-export default Challenge;
+export default Challenges;

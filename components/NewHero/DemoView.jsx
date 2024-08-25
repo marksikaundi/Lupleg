@@ -70,11 +70,11 @@ export default function DemoView() {
                       {`# Get a user's access token and
 # profile data from an Identity Provider
 
-import workos
-from workos import client
+import lupleg
+from lupleg import client
 
-workos.api_key = 'sk_example_123456789'
-workos.client_id = 'client_123456789'
+lupleg.api_key = 'sk_example_123456789'
+lupleg.client_id = 'client_123456789'
 
 client.sso.get_profile_and_token('01E295MCHPKBSQZ2SRDAP23X23')`}
                     </code>
@@ -92,7 +92,7 @@ client.sso.get_profile_and_token('01E295MCHPKBSQZ2SRDAP23X23')`}
             />
             <FeatureItem
               icon={<Layers className="h-6 w-6" />}
-              title="Dashboard seamlessly integrates WorkOS into your application"
+              title="Dashboard seamlessly integrates Lupleg into your application"
             />
             <FeatureItem
               icon={<Bell className="h-6 w-6" />}

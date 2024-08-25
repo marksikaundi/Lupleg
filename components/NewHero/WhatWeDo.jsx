@@ -35,10 +35,10 @@ export default function WhatWeDo() {
           <p className="text-xl text-gray-600 max-w-xl mb-6">
             Lupleg is a community platform that enables teams to streamline and
             help novice scale up their career in tech. We provide a complete set
-            of tools to help you build secure, reliable, and scalable
-            software durring our programs.
+            of tools to help you build secure, reliable, and scalable software
+            durring our programs.
           </p>
-          <Link href="https://app.lupleg.website">
+          <Link href="/lupleg-features">
             <Button className="bg-green-950 hover:bg-green-800 text-white px-6 py-3 font-thin rounded-full text-lg">
               Learn More
             </Button>
@@ -56,33 +56,33 @@ export default function WhatWeDo() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <FeatureItem
           icon={<LockKeyhole className="w-12 h-12 text-green-950 mb-10 " />}
-          title="Auth for all SSO providers"
-          description="Support any SAML or OIDC identity provider with a single integration"
+          title="Privacy and Security"
+          description="We do make sure you learn everything from privacy to security in tech"
         />
         <FeatureItem
           icon={<Users className="w-12 h-12 text-green-950 mb-10" />}
-          title="Complete User Management"
-          description="Manage users and organizations, set policies, and support all auth types"
+          title="Collaboration and Community"
+          description="We provide a platform for you to collaborate with other learners and mentors"
         />
         <FeatureItem
           icon={<LogIn className="w-12 h-12 text-green-950 mb-10" />}
-          title="Social authentication"
-          description="Sign in to your app with Microsoft, Google, and more"
+          title="Network and Connect"
+          description="During our programs, you get to network with industry professionals"
         />
         <FeatureItem
           icon={<Fingerprint className="w-12 h-12 text-green-950 mb-10" />}
-          title="AuthKit"
-          description="Flexible authentication UI powered by WorkOS and Radix"
+          title="Unlocked Potential"
+          description="We help you unlock your potential and scale up your career in tech"
         />
         <FeatureItem
           icon={<KeyRound className="w-12 h-12 text-green-950 mb-10" />}
-          title="Magic Auth"
-          description="Passwordless auth with a six-digit code sent via email"
+          title="Everywhere Access"
+          description="Access to our platform from anytime, anywhere, and using any device"
         />
         <FeatureItem
           icon={<ShieldCheck className="w-12 h-12 text-green-950 mb-10" />}
-          title="Multi-Factor Auth"
-          description="Manage users and organizations, set policies, and support all auth types"
+          title="Manage and Support"
+          description="We provide support and help you manage your learning journey"
         />
       </div>
     </div>
