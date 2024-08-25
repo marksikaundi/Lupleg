@@ -21,6 +21,7 @@ const challenges = [
       "Create a responsive navigation bar that collapses into a hamburger menu on mobile devices.",
     difficulty: "Beginner",
     image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
+    link: "/challenges/frontend/nav-bar",
   },
   {
     title: "Interactive Pricing Component",
@@ -28,6 +29,7 @@ const challenges = [
       "Build an interactive pricing component with a toggle for monthly/yearly billing.",
     difficulty: "Intermediate",
     image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
+    link: "/challenges/frontend/pricing-card",
   },
   {
     title: "Dark Mode Toggle",
@@ -35,6 +37,7 @@ const challenges = [
       "Implement a dark mode toggle that switches between light and dark themes.",
     difficulty: "Intermediate",
     image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
+    link: "/challenges/frontend/dark-mode-toggle",
   },
   {
     title: "Drag and Drop Kanban Board",
@@ -42,6 +45,7 @@ const challenges = [
       "Create a Kanban board with drag and drop functionality for task management.",
     difficulty: "Advanced",
     image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
+    link: "/challenges/frontend/drag-and-drop",
   },
   {
     title: "Animated Page Transitions",
@@ -49,6 +53,7 @@ const challenges = [
       "Implement smooth page transitions using CSS animations or a animation library.",
     difficulty: "Advanced",
     image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
+    link: "/challenges/frontend/animation",
   },
   {
     title: "Custom Video Player",
@@ -56,6 +61,7 @@ const challenges = [
       "Build a custom video player with play, pause, seek, and volume controls.",
     difficulty: "Intermediate",
     image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
+    link: "/challenges/frontend/video-player",
   },
 ];
 
@@ -84,10 +90,12 @@ export default function UIOview() {
                     <Badge variant="secondary">{challenge.difficulty}</Badge>
                   </CardContent>
                   <CardFooter>
-                    <Button className="w-full">
-                      Start Challenge
-                      <ArrowRight className="w-4 h-4 ml-2" />
-                    </Button>
+                    <Link href={challenge.link || "#"}>
+                      <Button className="w-full bg-green-950 hover:bg-green-950">
+                        Start Challenge
+                        <ArrowRight className="w-4 h-4 ml-2" />
+                      </Button>
+                    </Link>
                   </CardFooter>
                 </Card>
               ))}
