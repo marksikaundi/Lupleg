@@ -39,10 +39,12 @@ export default function Component() {
         { name: 'Office Productivity', link: '/mentorships/office-productivity-software' },
       ] 
     },
+    { name: 'Challenges', link: '/challenges', items: [] },
     { 
       name: 'Developers', 
       link: '/developers',
       items: [
+        { name: 'Features', link: '/lupleg-features' },
         { name: 'Labs', link: 'https://app.lupleg.website' },
         { name: 'Docs', link: 'https://docs.lupleg.website' },
         { name: 'API', link: '#' },

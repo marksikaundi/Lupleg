@@ -38,7 +38,7 @@ export default function WhatWeDo() {
             of tools to help you build secure, reliable, and scalable software
             durring our programs.
           </p>
-          <Link href="https://app.lupleg.website">
+          <Link href="/lupleg-features">
             <Button className="bg-green-950 hover:bg-green-800 text-white px-6 py-3 font-thin rounded-full text-lg">
               Learn More
             </Button>
