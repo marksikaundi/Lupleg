@@ -3,7 +3,7 @@ import { ArrowRight, Copy, Check } from "lucide-react";
 import { useState } from "react";
 import Link from "next/link";
 
-export default function Component() {
+export default function New() {
   const [copied, setCopied] = useState(false);
 
   const copyCommand = () => {
@@ -23,9 +23,9 @@ export default function Component() {
               href="https://app.lupleg.website"
               className="flex items-center hover:underline whitespace-nowrap"
             >
-              <span className="sm:hidden">New API</span>
+              <span className="sm:hidden">Public Beta</span>
               <span className="hidden sm:inline">
-                New experimental Content Layer API
+                New experimental learning platform
               </span>
               <ArrowRight className="ml-1 h-3 w-3 sm:h-4 sm:w-4 flex-shrink-0" />
             </Link>
