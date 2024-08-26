@@ -17,7 +17,7 @@ export default function New() {
       <div className="max-w-4xl mx-auto">
         <div className="mb-8 flex justify-center">
           <div className="bg-green-700 text-white text-xs sm:text-sm font-medium px-3 py-2 rounded-full flex flex-wrap items-center justify-center gap-2 max-w-full">
-            <span className="whitespace-nowrap">Labs 4.14</span>
+            <span className="whitespace-nowrap">Beta 1.1</span>
             <div className="hidden sm:block w-px h-4 bg-green-500"></div>
             <Link
               href="https://app.lupleg.website"
@@ -34,15 +34,13 @@ export default function New() {
 
         <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
           The platform for learning,
-          <br />
-          & build  websites and apps
+          <br />& build websites and apps
         </h1>
 
         <p className="text-base sm:text-lg md:text-xl text-purple-200 mb-8">
           Lupleg is a platform where you can learn, build, and collaborate
-
-              <br className="hidden sm:inline" /> on websites, blogs, e-commerce websites,
-          and more.
+          <br className="hidden sm:inline" /> on websites, blogs, e-commerce
+          websites, and more.
         </p>
 
         <div className="flex flex-col items-center space-y-4">
