@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ChevronRight, Dumbbell, HashIcon } from "lucide-react";
+import WhyMentorship from "./WhyMentorship";
 
 const languages = [
   { name: "Python", icon: "🐍", students: 463956, color: "bg-blue-100" },
@@ -77,6 +78,7 @@ export default function Programming() {
           </p>
         </div>
       </div>
+      <WhyMentorship />
     </div>
   );
 }
