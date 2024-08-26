@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { ChevronRight } from "lucide-react";
+import { ChevronRight, Dumbbell, HashIcon } from "lucide-react";
 
 const languages = [
   { name: "Python", icon: "🐍", students: 463956, color: "bg-blue-100" },
@@ -54,6 +54,28 @@ export default function Programming() {
           See all 71 Language Tracks
           <ChevronRight className="ml-2 h-4 w-4" />
         </Button>
+      </div>
+      <div className="flex flex-col md:flex-row items-center mt-20 justify-between bg-purple-50 rounded-lg p-8">
+        <div className="md:w-1/2 mb-6 md:mb-0">
+          <img
+            src="/mms.svg?height=300&width=400"
+            alt="Mentoring illustration"
+            className="w-full h-auto"
+          />
+        </div>
+        <div className="md:w-1/2 md:pl-8">
+          <div className="flex items-center mb-4">
+            <HashIcon className="w-8 h-8 text-green-600 mr-2  border rounded-full" />
+            <h2 className="text-2xl font-bold text-green-950">
+              Deepen your knowledge with human mentoring, for free.
+            </h2>
+          </div>
+          <p className="text-gray-700 mb-4">
+            Discover new and exciting ways to approach an exercise by getting
+            mentored on it. Become more familiar with the conventions, idioms
+            and opinions of a particular programming language.
+          </p>
+        </div>
       </div>
     </div>
   );
