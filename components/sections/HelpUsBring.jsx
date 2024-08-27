@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 export default function HelpUsBring() {
   return (
-    <Card className="bg-blue-50 border-none shadow-none">
+    <Card className="bg-blue-50 mt-10 border-none shadow-none">
       <CardContent className="p-6 flex flex-col md:flex-row items-center gap-6">
         <div className="flex-1 space-y-4">
           <div className="flex items-center gap-2">
