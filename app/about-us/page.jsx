@@ -1,6 +1,7 @@
 import { ArrowRight, Square } from "lucide-react";
 import Link from "next/link";
 import AboutSection from "@/components/sections/AboutSection";
+import AboutPurpose from "@/components/sections/AboutPurpose";
 
 export default function About() {
   return (
@@ -59,6 +60,7 @@ export default function About() {
         </Link>
       </div>
       <AboutSection />
+      <AboutPurpose/>
     </div>
   );
 }
