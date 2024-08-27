@@ -1,6 +1,9 @@
 import { ArrowRight, Square } from "lucide-react";
 import Link from "next/link";
 import AboutSection from "@/components/sections/AboutSection";
+import AboutPurpose from "@/components/sections/AboutPurpose";
+import HowLupleg from "@/components/sections/HowLupleg";
+import HelpUsBring from "@/components/sections/HelpUsBring";
 
 export default function About() {
   return (
@@ -59,6 +62,9 @@ export default function About() {
         </Link>
       </div>
       <AboutSection />
+      <AboutPurpose />
+      <HowLupleg />
+      <HelpUsBring />
     </div>
   );
 }
