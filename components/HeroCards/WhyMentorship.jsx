@@ -3,7 +3,7 @@ import { MessageCircleIcon, QuoteIcon, PenLine } from "lucide-react";
 export default function WhyMentorship() {
   return (
     <div className=" px-4 py-12">
-      <h2 className="text-3xl font-bold text-center text-purple-900 mb-2">
+      <h2 className="text-3xl font-bold text-center text-green-950 mb-2">
         Why mentoring?
       </h2>
       <div className="flex justify-center mb-12">
@@ -24,10 +24,10 @@ export default function WhyMentorship() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="flex flex-col items-start">
-          <div className="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center mb-4">
-            <QuoteIcon className="w-6 h-6 text-purple-600" />
+          <div className="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center mb-4">
+            <QuoteIcon className="w-6 h-6 text-green-600" />
           </div>
-          <h3 className="text-xl font-semibold text-purple-900 mb-2">
+          <h3 className="text-xl font-semibold text-green-950 mb-2">
             You don't know what you don't know
           </h3>
           <p className="text-gray-600">
@@ -38,10 +38,10 @@ export default function WhyMentorship() {
           </p>
         </div>
         <div className="flex flex-col items-start">
-          <div className="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center mb-4">
-            <PenLine className="w-6 h-6 text-purple-600" />
+          <div className="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center mb-4">
+            <PenLine className="w-6 h-6 text-green-600" />
           </div>
-          <h3 className="text-xl font-semibold text-purple-900 mb-2">
+          <h3 className="text-xl font-semibold text-greeb-950 mb-2">
             Learn language-specific conventions
           </h3>
           <p className="text-gray-600">
@@ -52,10 +52,10 @@ export default function WhyMentorship() {
           </p>
         </div>
         <div className="flex flex-col items-start">
-          <div className="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center mb-4">
-            <MessageCircleIcon className="w-6 h-6 text-purple-600" />
+          <div className="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center mb-4">
+            <MessageCircleIcon className="w-6 h-6 text-green-600" />
           </div>
-          <h3 className="text-xl font-semibold text-purple-900 mb-2">
+          <h3 className="text-xl font-semibold text-green-950 mb-2">
             Learning with others is fun
           </h3>
           <p className="text-gray-600">

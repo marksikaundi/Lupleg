@@ -1,66 +1,64 @@
-import Publications from "@/components/LastUpdated/Publications";
-import React from "react";
+import { ArrowRight, Square } from "lucide-react";
+import Link from "next/link";
+import AboutSection from "@/components/sections/AboutSection";
 
-export default function AboutUs() {
+export default function About() {
   return (
-    <div class="flex flex-col items-center container px-4 mx-auto">
-      <h1 class="text-black text-center text-4xl font-bold tracking-tight md:text-5xl mt-16 mb-12 ">
-        About us
-        <hr className="m-6 border-green-950 border-b-2"/>
-      </h1>
-      <div class=" max-w-2xl ml-4 flex-1 [&amp;&gt;p]:mb-12 [&amp;&gt;h2]:text-4xl [&amp;&gt;h2]:font-bold">
-        <p>
-          Lupleg is a visionary technology company on a mission to bridge the
-          skills gap and empower individuals and businesses in the digital age.
-          We believe that knowledge is the key to unlocking potential, and we're
-          dedicated to providing innovative educational solutions that make a
-          real difference.
-          <br />
-          Our core offering is a comprehensive suite of educational services,
-          delivered through multiple channels to best suit your needs. This
-          includes traditional on-site instruction, as well as a user-friendly
-          online platform called the Mentor Management System (MMS). The MMS
-          provides a flexible and interactive learning experience, allowing you
-          to access courses and connect with qualified mentors at your own pace.
-          <br />
-        </p>
-        <hr className="my-8" />
-        <p>
-          Lupleg goes beyond just education. Our team of passionate experts is
-          also dedicated to developing cutting-edge software solutions to help
-          businesses thrive in today's ever-evolving digital landscape. Whether
-          you're looking to enhance your workforce's skills with targeted
-          training programs or streamline your operations through innovative
-          technology, Lupleg is your trusted partner for achieving success.
-          <br />
-          At Lupleg, we believe in fostering a collaborative community where
-          individuals can learn, grow, and achieve their goals. We're committed
-          to providing exceptional customer service and building long-term
-          partnerships with our clients.
-          <br />
-          Partner with Lupleg and unlock your full potential in the digital
-          world!
-        </p>
-
-        <h2 className="font-mono font-bold my-6 ">
-          ℹ️ Our Mission and Values
-        </h2>
-
-        <p>
-          Lupleg is a catalyst for the next generation of tech pioneers. We
-          ignite a passion for innovation by equipping young minds with the
-          cutting edge skills and knowledge they need to thrive in the ever
-          evolving technology sector. Our comprehensive educational programs and
-          industry expert mentors empower these future leaders to drive growth,
-          efficiency, and groundbreaking advancements. Guided by our core
-          values, we foster a dynamic and collaborative environment that fuels
-          creativity, critical thinking, and a relentless pursuit of excellence.{" "}
-          Lupleg is more than just an educational provider; we are architects of
-          the future, one empowered tech pioneer at a time.
-        </p>
-
-        <Publications />
+    <div className="bg-white min-h-screen flex flex-col items-center justify-center p-4 mt-16 relative">
+      {/* Decorative elements */}
+      <div className="absolute top-4 left-4 w-6 h-6 border-2 border-cyan-400 rotate-45"></div>
+      <div className="absolute top-8 left-8 w-4 h-1 bg-green-900 -rotate-45"></div>
+      <div className="absolute top-4 right-4 w-4 h-4 bg-yellow-400"></div>
+      <div className="absolute top-8 right-8 w-6 h-6">
+        <Square className="text-green-900" />
       </div>
+
+      {/* Main content */}
+      <div className="text-center max-w-2xl">
+        {/* Logo */}
+        <div className="mb-4 flex justify-center">
+          <div className="text-4xl text-green-950 font-bold">
+            {"{"}
+            <span className="inline-block -mt-2">^</span>
+            <span className="inline-block -mt-2 transform scale-y-[-1]">^</span>
+            {"}"}
+          </div>
+        </div>
+
+        <h1 className="text-5xl font-bold text-green-950 mb-4">Lupleg</h1>
+
+        {/* Wavy line */}
+        <div className="flex justify-center mb-6">
+          <svg
+            width="60"
+            height="10"
+            viewBox="0 0 60 10"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1 5C10 -1.66667 20 -1.66667 29 5C38 11.6667 48 11.6667 57 5"
+              stroke="#4C1D95"
+              strokeWidth="2"
+            />
+          </svg>
+        </div>
+
+        <p className="text-xl text-black-900 mb-8">
+          We're building a place where anyone can learn and master
+          <br />
+          programming for free, without ever feeling lost or stupid.
+        </p>
+
+        {/* Integrate with any platform for sponsor */}
+        <Link href="mailto:payment@lupleg.website">
+          <button className="bg-green-950 text-white px-6 py-3 rounded-full text-lg font-semibold flex items-center justify-center transition-all hover:bg-green-950 hover:shadow-lg">
+            Donate to Lupleg
+            <ArrowRight className="ml-2" />
+          </button>
+        </Link>
+      </div>
+      <AboutSection />
     </div>
   );
 }
