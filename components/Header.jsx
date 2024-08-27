@@ -81,7 +81,7 @@ export default function Component() {
   };
 
   return (
-    <header className="flex items-center justify-between  px-6 py-4 bg-white border-b border-gray-200">
+    <header className="flex items-center sticky top-0 justify-between  px-6 py-4 bg-white border-b border-gray-200">
       <Link href="/" className="flex items-center">
         <Image src="/lupleg.svg" alt="Lupleg Logo" width={150} height={100} />
       </Link>
