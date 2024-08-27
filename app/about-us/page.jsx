@@ -62,9 +62,9 @@ export default function About() {
         </Link>
       </div>
       <AboutSection />
-      <AboutPurpose/>
-      <HowLupleg/>
-      <HelpUsBring/>
+      <AboutPurpose />
+      <HowLupleg />
+      <HelpUsBring />
     </div>
   );
 }
