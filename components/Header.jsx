@@ -1,86 +1,110 @@
-"use client"
-import { useState } from 'react'
-import Link from 'next/link'
-import { ChevronDown, Menu } from 'lucide-react'
+"use client";
+import { useState } from "react";
+import Link from "next/link";
+import { ChevronDown, Menu } from "lucide-react";
 
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
-import {
-  Sheet,
-  SheetContent,
-  SheetTrigger,
-} from "@/components/ui/sheet"
+} from "@/components/ui/dropdown-menu";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion"
-import Image from 'next/image'
+} from "@/components/ui/accordion";
+import Image from "next/image";
 
 export default function Component() {
-  const [activeDropdown, setActiveDropdown] = useState(null)
-  const [isSheetOpen, setIsSheetOpen] = useState(false)
+  const [activeDropdown, setActiveDropdown] = useState(null);
+  const [isSheetOpen, setIsSheetOpen] = useState(false);
 
   const navItems = [
-    { 
-      name: 'Mentorships', 
-      link: '/mentorships',
+    {
+      name: "Mentorships",
+      link: "/mentorships",
       items: [
-        { name: 'Backend Development', link: '/mentorships/backend-development' },
-        { name: 'Frontend Development', link: '/mentorships/frontend-development' },
-        { name: 'Master Freelancing', link: '/mentorships/master-your-freelance-hustle' },
-        { name: 'Digital Skills', link: '/mentorships/digital-skills-training' },
-        { name: 'Office Productivity', link: '/mentorships/office-productivity-software' },
-      ] 
+        {
+          name: "Backend Development",
+          link: "/mentorships/backend-development",
+        },
+        {
+          name: "Frontend Development",
+          link: "/mentorships/frontend-development",
+        },
+        {
+          name: "Master Freelancing",
+          link: "/mentorships/master-your-freelance-hustle",
+        },
+        {
+          name: "Digital Skills",
+          link: "/mentorships/digital-skills-training",
+        },
+        {
+          name: "Office Productivity",
+          link: "/mentorships/office-productivity-software",
+        },
+      ],
     },
-    { name: 'Challenges', link: '/challenges', items: [] },
-    { 
-      name: 'Developers', 
-      link: '/developers',
+    { name: "Mentoring", link: "/mentorships/mentoring", items: [] },
+    { name: "Challenges", link: "/challenges", items: [] },
+    {
+      name: "Developers",
+      link: "/developers",
       items: [
-        { name: 'Features', link: '/lupleg-features' },
-        { name: 'Labs', link: 'https://app.lupleg.website' },
-        { name: 'Docs', link: 'https://docs.lupleg.website' },
-        { name: 'API', link: '#' },
-      ] 
+        { name: "Features", link: "/lupleg-features" },
+        { name: "Labs", link: "https://app.lupleg.website" },
+        { name: "Docs", link: "https://docs.lupleg.website" },
+        { name: "API", link: "#" },
+      ],
     },
-    { 
-      name: 'Resources', 
-      link: '#resources',
+    {
+      name: "Resources",
+      link: "#resources",
       items: [
-        { name: 'Books', link: '/resources/books' },
-        { name: 'Podcasts', link: '/resources/podcasts' },
-        { name: 'Book Session', link: '/resources/session' },
-        { name: 'Case Studies', link: '/resources/case-studies' },
-        { name: 'Webinars', link: '/resources/webinars' },
-      ] 
+        { name: "Books", link: "/resources/books" },
+        { name: "Podcasts", link: "/resources/podcasts" },
+        { name: "Book Session", link: "/resources/session" },
+        { name: "Case Studies", link: "/resources/case-studies" },
+        { name: "Webinars", link: "/resources/webinars" },
+      ],
     },
-    { name: 'Pricing', link: '/premium', items: [] },
-  ]
+    { name: "Pricing", link: "/premium", items: [] },
+  ];
 
   const handleLinkClick = () => {
-    setIsSheetOpen(false)
-  }
+    setIsSheetOpen(false);
+  };
 
   return (
-    <header className="flex items-center justify-between sticky top-0 px-6 py-4 bg-white border-b border-gray-200">
+    <header className="flex items-center justify-between  px-6 py-4 bg-white border-b border-gray-200">
       <Link href="/" className="flex items-center">
-      <Image src="/lupleg.svg" alt="Lupleg Logo" width={150} height={100} />
+        <Image src="/lupleg.svg" alt="Lupleg Logo" width={150} height={100} />
       </Link>
       <nav className="hidden md:flex space-x-6">
         {navItems.map((item) => (
-          <DropdownMenu key={item.name} onOpenChange={(open) => open ? setActiveDropdown(item.name) : setActiveDropdown(null)}>
+          <DropdownMenu
+            key={item.name}
+            onOpenChange={(open) =>
+              open ? setActiveDropdown(item.name) : setActiveDropdown(null)
+            }
+          >
             <DropdownMenuTrigger asChild>
-              <Button variant="ghost" className={`text-gray-600 hover:text-gray-900 ${activeDropdown === item.name ? 'text-gray-900' : ''}`}>
+              <Button
+                variant="ghost"
+                className={`text-gray-600 hover:text-gray-900 ${
+                  activeDropdown === item.name ? "text-gray-900" : ""
+                }`}
+              >
                 <Link href={item.link} className="flex items-center">
                   {item.name}
-                  {item.items.length > 0 && <ChevronDown className="ml-1 h-4 w-4" />}
+                  {item.items.length > 0 && (
+                    <ChevronDown className="ml-1 h-4 w-4" />
+                  )}
                 </Link>
               </Button>
             </DropdownMenuTrigger>
@@ -99,8 +123,13 @@ export default function Component() {
         ))}
       </nav>
       <div className="flex items-center space-x-4">
-        <Link href="https://app.lupleg.website/sign-in" className="hidden md:block">
-          <Button className="bg-green-950 hover:bg-green-950 text-white">Sign in</Button>
+        <Link
+          href="https://app.lupleg.website/sign-in"
+          className="hidden md:block"
+        >
+          <Button className="bg-green-950 hover:bg-green-950 text-white">
+            Sign in
+          </Button>
         </Link>
         <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
           <SheetTrigger asChild>
@@ -120,7 +149,12 @@ export default function Component() {
                         <AccordionContent>
                           <div className="flex flex-col space-y-2">
                             {item.items.map((subItem) => (
-                              <Link href={subItem.link} key={subItem.name} className="text-sm text-gray-600 hover:text-gray-900" onClick={handleLinkClick}>
+                              <Link
+                                href={subItem.link}
+                                key={subItem.name}
+                                className="text-sm text-gray-600 hover:text-gray-900"
+                                onClick={handleLinkClick}
+                              >
                                 {subItem.name}
                               </Link>
                             ))}
@@ -128,7 +162,11 @@ export default function Component() {
                         </AccordionContent>
                       </>
                     ) : (
-                      <Link href={item.link} className="py-4 text-sm font-medium text-gray-600 hover:text-gray-900" onClick={handleLinkClick}>
+                      <Link
+                        href={item.link}
+                        className="py-4 text-sm font-medium text-gray-600 hover:text-gray-900"
+                        onClick={handleLinkClick}
+                      >
                         {item.name}
                       </Link>
                     )}
@@ -136,12 +174,17 @@ export default function Component() {
                 ))}
               </Accordion>
               <Link href="https://app.lupleg.website/sign-in">
-                <Button className="w-full bg-green-950 hover:bg-green-950 text-white" onClick={handleLinkClick}>Sign in</Button>
+                <Button
+                  className="w-full bg-green-950 hover:bg-green-950 text-white"
+                  onClick={handleLinkClick}
+                >
+                  Sign in
+                </Button>
               </Link>
             </nav>
           </SheetContent>
         </Sheet>
       </div>
     </header>
-  )
+  );
 }
