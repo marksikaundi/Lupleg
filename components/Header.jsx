@@ -25,7 +25,7 @@ export default function Component() {
 
   const navItems = [
     {
-      name: "Mentorships",
+      name: "Learn",
       link: "/mentorships",
       items: [
         {
@@ -50,8 +50,8 @@ export default function Component() {
         },
       ],
     },
-    { name: "Mentoring", link: "/mentorships/mentoring", items: [] },
-    { name: "Challenges", link: "/challenges", items: [] },
+    { name: "HackerX", link: "/challenges/frontend", items: [] },
+    { name: "Contributing", link: "/contributing", items: [] },
     {
       name: "Developers",
       link: "/developers",
@@ -66,6 +66,7 @@ export default function Component() {
       name: "Resources",
       link: "#resources",
       items: [
+        { name: "Mentoring", link: "/mentorships/mentoring" },
         { name: "Books", link: "/resources/books" },
         { name: "Podcasts", link: "/resources/podcasts" },
         { name: "Book Session", link: "/resources/session" },
