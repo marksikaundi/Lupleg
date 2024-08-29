@@ -15,7 +15,7 @@ export default function Component() {
   const [textColor, setTextColor] = useState('#ffffff')
   const [strokeColor, setStrokeColor] = useState('#000000')
   const [fontFamily, setFontFamily] = useState('Impact')
-  const canvasRef = useRef<HTMLCanvasElement>(null)
+  const canvasRef = useRef(null)
 
   const fontOptions = [
     'Impact',
