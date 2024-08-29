@@ -18,7 +18,7 @@ const footerData = [
     links: [
       { name: "Challenge", path: "/challenge" },
       { name: "Academy", path: "/academy" },
-      { name: "Partner with Us", path: "/partner" },
+      { name: "Partner with Us", path: "/resources/supporting/partner" },
       { name: "Trainings", path: "/trainings" },
       { name: "For ORGs", path: "/for-orgs" },
     ],
