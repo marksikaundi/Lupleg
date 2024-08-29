@@ -2,6 +2,7 @@ import React from "react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Mail, ChevronRight } from "lucide-react";
+import Link from "next/link";
 
 export default function BottomSection() {
   return (
@@ -18,7 +19,7 @@ export default function BottomSection() {
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
-            className="text-purple-600"
+            className="text-green-600"
           >
             <path d="M18 8h1a4 4 0 0 1 0 8h-1" />
             <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z" />
@@ -27,10 +28,10 @@ export default function BottomSection() {
             <line x1="14" y1="1" x2="14" y2="4" />
           </svg>
         </div>
-        <h2 className="text-2xl font-bold text-purple-900 sm:text-3xl">
+        <h2 className="text-2xl font-bold text-green-900 sm:text-3xl">
           Exercism is also supported by
         </h2>
-        <p className="text-4xl font-bold text-purple-900 sm:text-5xl">
+        <p className="text-4xl font-bold text-green-900 sm:text-5xl">
           4054 generous individuals
         </p>
         <div className="flex justify-center">
@@ -47,7 +48,7 @@ export default function BottomSection() {
         </div>
         <Button
           variant="link"
-          className="text-purple-600 hover:text-purple-800"
+          className="text-green-600 hover:text-green-800"
         >
           See all of our individual supporters
           <ChevronRight className="ml-1 h-4 w-4" />
@@ -69,17 +70,19 @@ export default function BottomSection() {
           />
           <div>
             <h3 className="text-lg font-semibold">
-              Want to discuss how you can help Exercism?
+              Want to discuss how you can help Lupleg?
             </h3>
             <p className="text-sm text-gray-500">
-              Get in touch with Jeremy Walker, Exercism's CEO.
+              Get in touch with Jeremy Walker, Lupleg's CEO.
             </p>
           </div>
         </div>
-        <Button className="w-full sm:w-auto bg-purple-600 hover:bg-purple-700 text-white">
-          <Mail className="mr-2 h-4 w-4" />
-          jeremy@exercism.org
-        </Button>
+        <Link href="mailto:mark@lupleg.website">
+              <Button className="w-full sm:w-auto bg-green-950 hover:bg-green-950 text-white">
+                <Mail className="mr-2 h-4 w-4" />
+                mark@lupleg.website
+              </Button>
+            </Link>
       </Card>
     </div>
   );
