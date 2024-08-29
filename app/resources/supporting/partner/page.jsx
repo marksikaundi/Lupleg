@@ -4,6 +4,7 @@ import { Card } from "@/components/ui/card";
 import { Target, Mail } from "lucide-react";
 import Link from "next/link";
 import TopSection from "@/components/support/TopSection";
+import BottomSection from "@/components/support/BottomSection";
 
 export default function Partner() {
   return (
@@ -76,6 +77,7 @@ export default function Partner() {
           </div>
         </div>
       </div>
+      <BottomSection />
     </div>
   );
 }
