@@ -67,6 +67,7 @@ export default function Component() {
       link: "#resources",
       items: [
         { name: "Mentoring", link: "/mentorships/mentoring" },
+        { name: "Articles", link: "/blogs" },
         { name: "Books", link: "/resources/books" },
         { name: "Podcasts", link: "/resources/podcasts" },
         { name: "Book Session", link: "/resources/session" },
