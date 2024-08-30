@@ -7,9 +7,9 @@ import HelpUsBring from "@/components/sections/HelpUsBring";
 
 export default function About() {
   return (
-    <div className="bg-white min-h-screen flex flex-col items-center justify-center p-4 mt-16 relative">
+    <div className="bg-white min-h-screen flex flex-col items-center justify-center p-4 mt-16 relative ">
       {/* Decorative elements */}
-      <div className="absolute top-4 left-4 w-6 h-6 border-2 border-cyan-400 rotate-45"></div>
+      <div className="absolute top-4 left-4 w-16 h-6 border-2 border-cyan-400 rotate-45"></div>
       <div className="absolute top-8 left-8 w-4 h-1 bg-green-900 -rotate-45"></div>
       <div className="absolute top-4 right-4 w-4 h-4 bg-yellow-400"></div>
       <div className="absolute top-8 right-8 w-6 h-6">

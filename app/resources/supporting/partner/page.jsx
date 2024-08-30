@@ -19,7 +19,6 @@ export default function Partner() {
               width={80}
               height={80}
               className="rounded-full w-20 h-20 mr-3 sm:mr-6"
-              // className="rounded-full my-4 sm:mb-0 sm:mr-6 border-2 border-purple-300"
             />
             <div className="flex-grow text-center sm:text-left mb-4 sm:mb-0">
               <h2 className="text-2xl font-bold text-green-950">

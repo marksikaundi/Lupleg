@@ -41,7 +41,7 @@ export default function Component() {
           link: "/mentorships/master-your-freelance-hustle",
         },
         {
-          name: "Digital Skills",
+          name: "Digital Skills Training",
           link: "/mentorships/digital-skills-training",
         },
         {
@@ -50,11 +50,10 @@ export default function Component() {
         },
       ],
     },
-    { name: "HackerX", link: "/challenges/frontend", items: [] },
-    { name: "Contributing", link: "/contributing", items: [] },
+    { name: "Challenges", link: "/challenges/frontend", items: [] },
     {
       name: "Developers",
-      link: "/developers",
+      link: "#developers",
       items: [
         { name: "Features", link: "/lupleg-features" },
         { name: "Labs", link: "https://app.lupleg.website" },
@@ -62,6 +61,7 @@ export default function Component() {
         { name: "API", link: "#" },
       ],
     },
+    { name: "Contributing", link: "/contributing", items: [] },
     {
       name: "Resources",
       link: "#resources",

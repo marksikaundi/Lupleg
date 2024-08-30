@@ -17,10 +17,10 @@ const footerData = [
     title: "Links",
     links: [
       { name: "Challenge", path: "/challenge" },
-      { name: "Academy", path: "/academy" },
+      { name: "Academy", path: "/resources/academy" },
       { name: "Partner with Us", path: "/resources/supporting/partner" },
       { name: "Trainings", path: "/trainings" },
-      { name: "For ORGs", path: "/for-orgs" },
+      { name: "Research", path: "/resources/machine-learning" },
     ],
   },
   {
@@ -48,7 +48,11 @@ export default function Footer() {
                   <li key={idx}>
                     {/* Use Link for internal paths */}
                     {link.path.startsWith("http") ? (
-                      <a href={link.path} target="_blank" rel="noopener noreferrer">
+                      <a
+                        href={link.path}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         {link.name}
                       </a>
                     ) : (
