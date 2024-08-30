@@ -25,7 +25,7 @@ export default function Component() {
 
   const navItems = [
     {
-      name: "Learn",
+      name: "Programs",
       link: "/mentorships",
       items: [
         {
