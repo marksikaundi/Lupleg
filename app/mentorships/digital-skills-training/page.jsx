@@ -72,7 +72,7 @@ export default function DigitalSkills() {
             {" "}
             <span className="font-bold">Mentorship Program Overview:</span> This
             document provides an overview of the{" "}
-            <Link href="/mentorships" className="text-green-700">
+            <Link href="#" className="text-green-700">
               mentorship program
             </Link>{" "}
             structure, curriculum, and additional resources to help you succeed
@@ -97,7 +97,7 @@ export default function DigitalSkills() {
           The first month of the program focuses on building a strong foundation
           in digital skills, including microsoft office, google suite, social
           media marketing, and{" "}
-          <Link href="/frontend-development" className="text-green-700">
+          <Link href="#" className="text-green-700">
             basic programming concepts
           </Link>{" "}
           . The goal is to equip you with the essential knowledge and skills

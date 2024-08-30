@@ -46,10 +46,7 @@ export default function BottomSection() {
             <path d="M28 1L32 8L36 1" stroke="#9333EA" strokeWidth="2" />
           </svg>
         </div>
-        <Button
-          variant="link"
-          className="text-green-600 hover:text-green-800"
-        >
+        <Button variant="link" className="text-green-600 hover:text-green-800">
           See all of our individual supporters
           <ChevronRight className="ml-1 h-4 w-4" />
         </Button>
@@ -73,16 +70,16 @@ export default function BottomSection() {
               Want to discuss how you can help Lupleg?
             </h3>
             <p className="text-sm text-gray-500">
-              Get in touch with Jeremy Walker, Lupleg's CEO.
+              Get in touch with Mark Sikaundi, Lupleg's CEO.
             </p>
           </div>
         </div>
         <Link href="mailto:mark@lupleg.website">
-              <Button className="w-full sm:w-auto bg-green-950 hover:bg-green-950 text-white">
-                <Mail className="mr-2 h-4 w-4" />
-                mark@lupleg.website
-              </Button>
-            </Link>
+          <Button className="w-full sm:w-auto bg-green-950 hover:bg-green-950 text-white">
+            <Mail className="mr-2 h-4 w-4" />
+            mark@lupleg.website
+          </Button>
+        </Link>
       </Card>
     </div>
   );
