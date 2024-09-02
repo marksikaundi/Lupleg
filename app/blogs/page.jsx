@@ -36,7 +36,7 @@ export default function Blogs() {
     },
     {
       id: 3,
-      title: "Optimizing React Performance: Advanced Techniques",
+      title: "Optimizing React Performance",
       excerpt:
         "React applications can sometimes suffer from performance issues as they grow in complexity. This guide dives deep into advanced optimization techniques, including memoization, code splitting, and efficient state management, to help you build lightning-fast React apps.",
       category: "Development",
