@@ -1,7 +1,3 @@
-
-
-
-
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
@@ -19,7 +15,7 @@ export default function Announcements() {
       </Link>
 
       <h1 className="text-4xl font-bold text-gray-900 mb-6">
-        Lupleg gives Warrant
+        Comparison between homegrown and pre-built solutions
       </h1>
 
       <div className="flex items-center mb-6">
@@ -37,9 +33,12 @@ export default function Announcements() {
       </div>
 
       <p className="text-gray-700 mb-8">
-        Once you join Lupleg learning community, you will have access to a wide
-        range of resources and support to help you achieve your goals. We offer
-        a range of services to help you succeed, including:{" "}
+        For high-growth startups, time is the single most important resource.
+        It's so important that months of delay in shipping SSO and SCIM can
+        result in a potential revenue loss of $7.95M compared to using a
+        pre-built solution. The ROI difference is staggering too: 9% for a
+        homegrown solution vs. 1,954% for a pre-built one. This article explains
+        the methodologies used to calculate these numbers.
         <Link href="/all-mentorships">
           <span className="text-[#F3A833]">
             mentorships, tutoring, academic & career advising

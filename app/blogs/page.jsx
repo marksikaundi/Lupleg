@@ -14,8 +14,7 @@ export default function Blogs() {
   const blogPosts = [
     {
       id: 1,
-      title:
-        "Build vs. buy part II: ROI comparison between homegrown and pre-built solutions",
+      title: "Comparison between homegrown and pre-built solutions",
       excerpt:
         "For high-growth startups, time is the single most important resource. It's so important that months of delay in shipping SSO and SCIM can result in a potential revenue loss of $7.95M compared to using a pre-built solution. The ROI difference is staggering too: 9% for a homegrown solution vs. 1,954% for a pre-built one. This article explains the methodologies used to calculate these numbers.",
       category: "Guides",
