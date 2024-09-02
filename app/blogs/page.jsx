@@ -21,7 +21,7 @@ export default function Blogs() {
       date: "Aug 22, 2024",
       authors: [{ name: "Mark Sikaundi", avatar: "/mark.jpg" }],
       image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
-      link: "/blogs/articles/the-future-of-ai-in-web-development",
+      link: "/blogs/articles/comparison-between-homegrown-and-pre-built-solutions",
     },
     {
       id: 2,
