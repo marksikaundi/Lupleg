@@ -15,7 +15,7 @@ export default function Announcements() {
       </Link>
 
       <h1 className="text-4xl font-bold text-gray-900 mb-6">
-        Lupleg gives Warrant
+        Accessibility in Web Design
       </h1>
 
       <div className="flex items-center mb-6">
@@ -33,18 +33,18 @@ export default function Announcements() {
       </div>
 
       <p className="text-gray-700 mb-8">
-        Once you join Lupleg learning community, you will have access to a wide
-        range of resources and support to help you achieve your goals. We offer
-        a range of services to help you succeed, including:{" "}
+        In today's digital age, having an accessible website is not just a good
+        practice, it's a legal requirement. Accessibility in web design ensures
+        that all individuals, regardless of their abilities, can access and use
+        a website effectivel.
         <Link href="/all-mentorships">
           <span className="text-[#F3A833]">
-            mentorships, tutoring, academic & career advising
+            pending to add backlinks to this blog
           </span>
         </Link>
-        , and more. We also offer a range of workshops and events to help you
-        develop your skills and build your network. Our goal is to help you
-        succeed in your studies and achieve your goals. We look forward to
-        welcoming you to our community!
+        , From those with visual or hearing impairments to those with motor
+        disabilities, it's important to make sure your website is inclusive to
+        all users.
       </p>
 
       <div className="flex justify-center space-x-2 mb-8">
@@ -71,20 +71,57 @@ export default function Announcements() {
         </div>
       </div>
 
-      <p className="text-gray-700 mb-4">
-        Today we are excited to announce that Lupleg soon is opening some
-        scholarship opportunities for students who are interested in learning
-        more about technology and software development. We are partnering with
-        Warrant to provide scholarships to students who are passionate about
-        technology and want to learn more about software development.{" "}
-      </p>
+      <div className="border-l-8 border-green-900 bg-green-300">
+        <ul className="text-gray-700 mb-8 list-none ml-2 my-6">
+          <li>
+            ✅ Use clear and simple language: Avoid using jargon or complex
+            terms that may confuse users. Keep your content concise and easy to
+            understand.
+          </li>
+          <li>
+            ✅ Use alt text for images: Alt text provides a text alternative for
+            images on a website. This is important for individuals who are
+            visually impaired and use screen readers to navigate a website.
+          </li>
+          <li>
+            ✅ Provide keyboard navigation: Make sure your website can be easily
+            navigated using only a keyboard. This is especially important for
+            users with motor disabilities who may have difficulty using a mouse.
+          </li>
+          <li>
+            ✅ Use proper heading structures: Use headings to organize your
+            content and make it easier for users to navigate. Headings also help
+            users with screen readers understand the structure of the page.
+          </li>
+          <li>
+            ✅ Ensure color contrast: Make sure there is enough contrast between
+            text and background colors to ensure readability for all users,
+            including those with visual impairments.
+          </li>
+          <li>
+            ✅ Provide captions for videos: Captioning videos ensures that users
+            who are deaf or hard of hearing can access the content. It also
+            benefits users who may be watching videos in a loud environment or
+            without sound.
+          </li>
+
+          <li>
+            ✅ Test your website: Use accessibility tools and conduct user
+            testing to ensure your website is accessible to all users. Get
+            feedback from individuals with disabilities to identify any barriers
+            to access.
+          </li>
+        </ul>
+      </div>
 
       <p className="text-gray-700 mb-8">
-        The scholarships will cover the cost of tuition for the Lupleg learning
-        community, as well as provide additional support and resources to help
-        students succeed. We are excited to partner with Warrant to provide
-        these scholarships, and we look forward to welcoming students to our
-        community.
+        By following these tips and guidelines, you can create a website that is
+        accessible to everyone. Accessibility in web design not only benefits
+        individuals with disabilities but also improves usability for all users.
+        Remember, creating an inclusive website is not only the right thing to
+        do, but it's also good for business. Make accessibility a priority in
+        your web design process and ensure that your website is welcoming to all
+        users.
       </p>
 
       <AnnounceCard />
