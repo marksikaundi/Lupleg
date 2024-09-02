@@ -69,7 +69,7 @@ export default function Blogs() {
     },
     {
       id: 6,
-      title: "The State of Remote Work: Key Trends and Statistics",
+      title: "The State of Remote Work in 2024",
       excerpt:
         "Remote work has become the new norm for many companies around the world. This post explores the latest trends and statistics in the remote work landscape, including the rise of hybrid work models, the impact on employee productivity, and the future of remote work post-pandemic.",
       category: "Business",

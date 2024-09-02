@@ -1,7 +1,3 @@
-
-
-
-
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
@@ -19,7 +15,7 @@ export default function Announcements() {
       </Link>
 
       <h1 className="text-4xl font-bold text-gray-900 mb-6">
-        Lupleg gives Warrant
+        The State of Remote Work in 2024
       </h1>
 
       <div className="flex items-center mb-6">
@@ -37,18 +33,27 @@ export default function Announcements() {
       </div>
 
       <p className="text-gray-700 mb-8">
-        Once you join Lupleg learning community, you will have access to a wide
-        range of resources and support to help you achieve your goals. We offer
-        a range of services to help you succeed, including:{" "}
+        In the year 2024, the landscape of work has drastically changed, with
+        remote work becoming the new norm for many organizations around the
+        world. The COVID-19 pandemic served as a catalyst for this shift, as
+        companies were forced to adapt to a remote work model in order to
+        continue business operations. However,
         <Link href="/all-mentorships">
-          <span className="text-[#F3A833]">
-            mentorships, tutoring, academic & career advising
-          </span>
+          <span className="text-[#F3A833]">as time progressed</span>
         </Link>
-        , and more. We also offer a range of workshops and events to help you
-        develop your skills and build your network. Our goal is to help you
-        succeed in your studies and achieve your goals. We look forward to
-        welcoming you to our community!
+        , both employers and employees began to see the benefits of remote work,
+        leading to its widespread adoption even after the pandemic subsided.
+      </p>
+
+      <p className="text-gray-700 mb-8">
+        One of the key reasons for the popularity of remote work is its
+        flexibility. Employees have the freedom to work from any location,
+        whether it be from home, a co-working space, or even a coffee shop. This
+        flexibility allows for a better work-life balance, as employees no
+        longer have to commute long distances or adhere to strict office hours.
+        Additionally, remote work opens up opportunities for individuals who may
+        not have access to traditional office jobs, such as those with
+        disabilities or caretaking responsibilities.
       </p>
 
       <div className="flex justify-center space-x-2 mb-8">
@@ -76,19 +81,29 @@ export default function Announcements() {
       </div>
 
       <p className="text-gray-700 mb-4">
-        Today we are excited to announce that Lupleg soon is opening some
-        scholarship opportunities for students who are interested in learning
-        more about technology and software development. We are partnering with
-        Warrant to provide scholarships to students who are passionate about
-        technology and want to learn more about software development.{" "}
+        In terms of productivity, many companies have found that their employees
+        are actually more productive when working remotely. Without the
+        distractions of a busy office environment, employees are able to focus
+        on their tasks and complete them in a more efficient manner. This has
+        led to a shift in mindset for many employers, who are now more focused
+        on results rather than where and how the work is being done.
       </p>
 
       <p className="text-gray-700 mb-8">
-        The scholarships will cover the cost of tuition for the Lupleg learning
-        community, as well as provide additional support and resources to help
-        students succeed. We are excited to partner with Warrant to provide
-        these scholarships, and we look forward to welcoming students to our
-        community.
+        That being said, remote work is not without its challenges.
+        Communication and collaboration can be more difficult in a remote
+        setting, as there is often a lack of face-to-face interaction. However,
+        advancements in technology have made it easier than ever to stay
+        connected, with virtual meetings, project management tools, and instant
+        messaging platforms becoming the norm in remote work environments.
+      </p>
+      <p className="text-gray-700 mb-8">
+        Overall, the state of remote work in 2024 is one of adaptation and
+        evolution. Companies are embracing this new way of working and reaping
+        the benefits of increased flexibility and productivity. As we look
+        towards the future, it is clear that remote work is here to stay,
+        reshaping the way we think about work and challenging traditional
+        notions of the workplace.
       </p>
 
       <AnnounceCard />
