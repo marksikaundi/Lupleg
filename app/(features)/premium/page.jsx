@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Plan from "@/components/FeaturesCards/Plan";
 import MoreFQA from "@/components/FeaturesCards/MoreFAQ";
+import Pro from "@/components/FeaturesCards/Pro";
 
 export default function Premium() {
   return (
@@ -22,6 +23,8 @@ export default function Premium() {
           </Link>
         </div>
       </section>
+
+      {/* <Pro /> */}
 
       <Plan />
       <MoreFQA />

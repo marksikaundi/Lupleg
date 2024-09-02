@@ -13,11 +13,9 @@ export default function Announcements() {
         <ArrowLeft className="mr-2 h-4 w-4" />
         Blog
       </Link>
-
       <h1 className="text-4xl font-bold text-gray-900 mb-6">
-        Lupleg gives Warrant
+        Optimizing React Performance
       </h1>
-
       <div className="flex items-center mb-6">
         <Image
           src="/mark.jpg"
@@ -31,28 +29,34 @@ export default function Announcements() {
           <p className="text-sm text-gray-500">August 24, 2024</p>
         </div>
       </div>
-
       <p className="text-gray-700 mb-8">
-        Once you join Lupleg learning community, you will have access to a wide
-        range of resources and support to help you achieve your goals. We offer
-        a range of services to help you succeed, including:{" "}
+        React is a powerful JavaScript library that allows developers to create
+        dynamic and responsive user interfaces. However, as your application
+        grows in complexity, you may notice a decrease in performance. In order
+        to optimize the performance of your React application, there are several
+        advanced techniques that you can implement.
         <Link href="/all-mentorships">
-          <span className="text-[#F3A833]">
-            mentorships, tutoring, academic & career advising
-          </span>
+          <span className="text-[#F3A833]"> pending to add the backlink </span>
         </Link>
-        , and more. We also offer a range of workshops and events to help you
-        develop your skills and build your network. Our goal is to help you
-        succeed in your studies and achieve your goals. We look forward to
-        welcoming you to our community!
       </p>
-
+      <p className="text-gray-700 mb-4">
+        One of the first techniques to consider is code splitting. This involves
+        breaking up your code into smaller chunks so that only the necessary
+        parts are loaded when needed. This can significantly improve the loading
+        time of your application and reduce the overall bundle size.
+      </p>
+      <p className="text-gray-700 mb-4">
+        Another technique to improve performance is memoization. Memoization is
+        the process of storing the results of expensive function calls and
+        returning the cached result when the same inputs occur again. This can
+        help reduce unnecessary re-renders and improve the efficiency of your
+        application.
+      </p>
       <div className="flex justify-center space-x-2 mb-8">
         <div className="w-2 h-2 bg-[#F3A833] rounded-full"></div>
         <div className="w-2 h-2 bg-[#F3A833] rounded-full"></div>
         <div className="w-2 h-2 bg-[#F3A833] rounded-full"></div>
       </div>
-
       <div className="bg-purple-100 p-8 rounded-lg mb-8">
         <div className="flex justify-center items-center space-x-8">
           <div className="bg-white p-4 rounded-full shadow-lg">
@@ -71,22 +75,25 @@ export default function Announcements() {
         </div>
       </div>
 
-      <p className="text-gray-700 mb-4">
-        Today we are excited to announce that Lupleg soon is opening some
-        scholarship opportunities for students who are interested in learning
-        more about technology and software development. We are partnering with
-        Warrant to provide scholarships to students who are passionate about
-        technology and want to learn more about software development.{" "}
-      </p>
-
       <p className="text-gray-700 mb-8">
-        The scholarships will cover the cost of tuition for the Lupleg learning
-        community, as well as provide additional support and resources to help
-        students succeed. We are excited to partner with Warrant to provide
-        these scholarships, and we look forward to welcoming students to our
-        community.
+        Furthermore, you can utilize pure components to help prevent unnecessary
+        re-renders. By making sure that your components only re-render when
+        their props or state change, you can optimize the performance of your
+        application.
       </p>
-
+      <p className="text-gray-700 mb-4">
+        Additionally, it is important to utilize tools such as React profiler to
+        identify performance bottlenecks in your application. By using these
+        tools, you can pinpoint areas that need improvement and make the
+        necessary optimizations.
+      </p>
+      <p className="text-gray-700 mb-4">
+        Overall, optimizing the performance of your React application requires a
+        combination of techniques such as code splitting, memoization, pure
+        components, and utilizing performance tools. By implementing these
+        advanced techniques, you can improve the speed and efficiency of your
+        application, providing a better user experience for your users.
+      </p>
       <AnnounceCard />
     </div>
   );

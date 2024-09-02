@@ -14,15 +14,14 @@ export default function Blogs() {
   const blogPosts = [
     {
       id: 1,
-      title:
-        "Build vs. buy part II: ROI comparison between homegrown and pre-built solutions",
+      title: "Comparison between homegrown and pre-built solutions",
       excerpt:
         "For high-growth startups, time is the single most important resource. It's so important that months of delay in shipping SSO and SCIM can result in a potential revenue loss of $7.95M compared to using a pre-built solution. The ROI difference is staggering too: 9% for a homegrown solution vs. 1,954% for a pre-built one. This article explains the methodologies used to calculate these numbers.",
       category: "Guides",
       date: "Aug 22, 2024",
       authors: [{ name: "Mark Sikaundi", avatar: "/mark.jpg" }],
       image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
-      link: "/blogs/articles/the-future-of-ai-in-web-development",
+      link: "/blogs/articles/comparison-between-homegrown-and-pre-built-solutions",
     },
     {
       id: 2,
@@ -37,7 +36,7 @@ export default function Blogs() {
     },
     {
       id: 3,
-      title: "Optimizing React Performance: Advanced Techniques",
+      title: "Optimizing React Performance",
       excerpt:
         "React applications can sometimes suffer from performance issues as they grow in complexity. This guide dives deep into advanced optimization techniques, including memoization, code splitting, and efficient state management, to help you build lightning-fast React apps.",
       category: "Development",
@@ -70,7 +69,7 @@ export default function Blogs() {
     },
     {
       id: 6,
-      title: "The State of Remote Work: Key Trends and Statistics",
+      title: "The State of Remote Work in 2024",
       excerpt:
         "Remote work has become the new norm for many companies around the world. This post explores the latest trends and statistics in the remote work landscape, including the rise of hybrid work models, the impact on employee productivity, and the future of remote work post-pandemic.",
       category: "Business",
@@ -88,7 +87,10 @@ export default function Blogs() {
           <h1 className="text-4xl  font-bold text-green-900">Blogs</h1>
           <p className="text-sm text-gray-500 font-thin border mr-9 border-gray-200 rounded-full p-2">
             Subscribe via{" "}
-            <Link href="#" className="text-green-900 hover:underline">
+            <Link
+              href="mailto:writer@lupleg.website"
+              className="text-green-900 hover:underline"
+            >
               email
             </Link>{" "}
             or{" "}
