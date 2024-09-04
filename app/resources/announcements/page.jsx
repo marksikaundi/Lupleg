@@ -14,7 +14,7 @@ export default function Announcements() {
         Blog
       </Link>
 
-      <h1 className="text-4xl font-bold text-gray-900 mb-6">
+      <h1 className="text-4xl font-bold text-green-950 mb-6">
         Scholarships at Lupleg
       </h1>
 
@@ -104,7 +104,7 @@ export default function Announcements() {
         Therefore you are encouraged to actively participate during the program.
       </p>
 
-      <h1 className="text-2xl font-bold text-gray-900 mb-6">
+      <h1 className="text-2xl font-bold text-green-950 mb-6">
         What if you want to drop out of the program
       </h1>
       <p className="text-gray-700 mb-8">
@@ -120,7 +120,7 @@ export default function Announcements() {
         your interest in our scholarships, and we hope to see you soon!{" "}
       </p>
 
-      <h1 className="text-2xl font-bold text-gray-900 mb-6">
+      <h1 className="text-2xl font-bold text-green-950 mb-6">
         If you fail to meet the requirements
       </h1>
       <p className="text-gray-700 mb-8">
