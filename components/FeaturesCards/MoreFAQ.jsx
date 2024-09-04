@@ -14,33 +14,47 @@ export default function MoreFQA() {
     {
       question: "What is the pricing for Lupleg Mentorship?",
       answer:
-        "Our mentorship varies with range of pricing plans to fit your needs. The basic plan starts at $19 per month, with additional features and support available in our higher-tier plans. You can view all of our pricing options on the Premium page.",
+        "Our mentorship varies with range of pricing plans to fit your needs. The basic plan starts at $20 per month, with additional features and support available in our higher-tier plans. You can view all of our pricing options on the Premium page.",
     },
     {
       question: "What features are included in Lupleg mentorship?",
       answer:
-        "Comes with includes a comprehensive set of features to help you streamline your workflow and improve your productivity. Some of the key features include project management tools, collaboration features, data visualization, and integrations with popular third-party apps. You can find a full list of features on our Features page.",
+        "Our mentorship includes a wide range of features to help you improve your coding skills and advance your career. Some of the key features include access to all coding challenges, video tutorials, project-based roadmaps, and live call mentorship. We also offer job search support and 24/7 customer support to help you succeed.",
     },
     {
       question: "How do I get started with the program?",
       answer:
-        "Getting started our program its easy. Simply sign up for an account on our website, and you'll be guided through the onboarding process. Our onboarding team is available to help you set up your account and customize the platform to fit your specific needs. If you have any questions or need assistance, don't hesitate to reach out to our support team.",
+        "To get started with our program, simply sign up for a free account on our website. Once you have created an account, you can choose a pricing plan that fits your needs and budget. You can then access all of our features and resources, and start improving your coding skills right away.",
     },
     {
       question: "What kind of support do you offer?",
       answer:
-        "We provide excellent customer support. Our support team is available 24/7 to assist you with any questions or issues you may have. You can reach out to us via email, phone, or our online chat feature. We also have a comprehensive knowledge base and FAQ section on our website, where you can find answers to common questions.",
+        "We offer a range of support options to help you succeed with our program. Our customer support team is available 24/7 to answer any questions you may have and help you resolve any issues you encounter. We also offer job search support to help you find your dream job, and live call mentorship to provide personalized guidance and feedback.",
     },
     {
-      question:
-        "Do you offer any training or resources for free?",
+      question: "Do you offer any training or resources for free?",
       answer:
-      "Yes, we offer a range of free resources to help you get started with our program. We have a library of video tutorials, blog posts, and webinars that cover a wide range of topics, from basic setup and configuration to advanced features and best practices. We also offer a free trial of our platform, so you can try it out risk-free before committing to a subscription.",
+        "Yes, we offer a range of free resources to help you improve your coding skills and advance your career. Some of our free resources include coding challenges, video tutorials, and project-based roadmaps. We also offer a 3-day free trial of our premium program, so you can try out all of our features and resources before committing to a subscription.",
     },
     {
       question: "How are programs offered?",
       answer:
-        "Our programs are offered on a subscription basis, with monthly and annual plans available. You can choose the plan that best fits your needs and budget, and you can cancel or upgrade your plan at any time. We also plan to offer a 14-day free trial, so you can try out our platform risk-free before committing to a subscription.",
+        "Our programs are offered online, so you can access all of our features and resources from anywhere in the world. You can complete coding challenges, watch video tutorials, and work on project-based roadmaps at your own pace, and receive personalized feedback and guidance through live call mentorship. Our programs are designed to be flexible and convenient, so you can learn on your own schedule and from the comfort of your own home.",
+    },
+    {
+      question: "Can I cancel my subscription at any time?",
+      answer:
+        "Yes, you can cancel your subscription at any time. If you cancel within the first 15 days of signing up, you will receive a full refund. After the first 30 days, you can cancel your subscription at any time, and you will not be charged for the following month. You can cancel your subscription through deactivating or deleting your account, and you will not be charged for the following month.",
+    },
+    {
+      question: "How do I contact customer support?",
+      answer:
+        "You can contact our customer support team at any time by emailing  ",
+    },
+    {
+      question: "Where can i make payment from?",
+      answer:
+        "To make your payment you can simply reachout to us via payment@lupleg.website and you will be provided with relevants details for belling",
     },
   ];
   const [searchTerm, setSearchTerm] = useState("");

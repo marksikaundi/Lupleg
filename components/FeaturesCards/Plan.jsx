@@ -1,6 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
+import { MdOutlineClose } from "react-icons/md";
 
 export default function Plan() {
   return (
@@ -26,7 +27,7 @@ export default function Plan() {
               </p>
             </div>
             <div className="flex items-end gap-2">
-              <span className="text-4xl font-bold">$19</span>
+              <span className="text-4xl font-bold">$20</span>
               <span className="text-muted-foreground">
                 /Billed every month.
               </span>
@@ -47,7 +48,23 @@ export default function Plan() {
               </div>
               <div className="flex items-center gap-2">
                 <CheckIcon className="w-5 h-5 fill-primary" />
-                <span>Live call mentorship</span>
+                <span>2 Days Live call mentorship</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <MdOutlineClose className="w-5 h-5 fill-primary" />
+                <span> Job search support</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <MdOutlineClose className="w-5 h-5 fill-primary" />
+                <span>24/7 Support</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <MdOutlineClose className="w-5 h-5 fill-primary" />
+                <span>Technical Interviews</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <MdOutlineClose className="w-5 h-5 fill-primary" />
+                <span>Resume/CV Review</span>
               </div>
             </div>
             <Link
@@ -66,9 +83,9 @@ export default function Plan() {
               </p>
             </div>
             <div className="flex items-end gap-2">
-              <span className="text-4xl font-bold">$79</span>
+              <span className="text-4xl font-bold">$39.99</span>
               <span className="text-primary-foreground">
-                /Pay once. Own forever
+                /Billed every month.
               </span>
             </div>
             <Separator />
@@ -90,8 +107,24 @@ export default function Plan() {
                 <span>Access to 2 UI templates</span>
               </div>
               <div className="flex items-center gap-2">
-                <CheckIcon className="w-5 h-5 fill-primary" />
-                <span>Live call mentorship</span>
+                <CheckIcon className="w-5 h-5 fill-primary-foreground" />
+                <span>3 Days Live call mentorship</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckIcon className="w-5 h-5 fill-primary-foreground" />
+                <span>Job search support</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckIcon className="w-5 h-5 fill-primary-foreground" />
+                <span>24/7 Support</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckIcon className="w-5 h-5 fill-primary-foreground" />
+                <span>Technical Interviews</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckIcon className="w-5 h-5 fill-primary-foreground" />
+                <span>Resume/CV Review</span>
               </div>
             </div>
             <Link
@@ -110,9 +143,9 @@ export default function Plan() {
               </p>
             </div>
             <div className="flex items-end gap-2">
-              <span className="text-4xl font-bold">$139</span>
+              <span className="text-4xl font-bold">$79.99</span>
               <span className="text-muted-foreground">
-                /Pay once. Own forever
+                /Billed every month.
               </span>
             </div>
             <Separator />
@@ -135,7 +168,23 @@ export default function Plan() {
               </div>
               <div className="flex items-center gap-2">
                 <CheckIcon className="w-5 h-5 fill-primary" />
-                <span>Live call mentorship</span>
+                <span>5 Days Live call mentorship</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckIcon className="w-5 h-5 fill-primary" />
+                <span>Job search support</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckIcon className="w-5 h-5 fill-primary" />
+                <span>24/7 Support</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckIcon className="w-5 h-5 fill-primary" />
+                <span>Technical Interviews</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckIcon className="w-5 h-5 fill-primary" />
+                <span>Resume/CV Review</span>
               </div>
             </div>
             <Link

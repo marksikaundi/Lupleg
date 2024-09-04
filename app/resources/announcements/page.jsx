@@ -14,8 +14,8 @@ export default function Announcements() {
         Blog
       </Link>
 
-      <h1 className="text-4xl font-bold text-gray-900 mb-6">
-        Lupleg gives Warrant
+      <h1 className="text-4xl font-bold text-green-950 mb-6">
+        Scholarships at Lupleg
       </h1>
 
       <div className="flex items-center mb-6">
@@ -28,23 +28,26 @@ export default function Announcements() {
         />
         <div>
           <p className="font-medium text-gray-900">Mark Sikaundi </p>
-          <p className="text-sm text-gray-500">August 24, 2024</p>
+          <p className="text-sm text-gray-500">September 03, 2024</p>
         </div>
       </div>
 
       <p className="text-gray-700 mb-8">
-        Once you join Lupleg learning community, you will have access to a wide
-        range of resources and support to help you achieve your goals. We offer
-        a range of services to help you succeed, including:{" "}
-        <Link href="/all-mentorships">
+        We are pleased to announce, that we are rolling out some scholarship to
+        20 Students. The scholarship will let the student gain and aquire in
+        demand skills in the ecosystem of technology. So if you someone who can
+        revelage this opportunity, you can reachout or email us once the program
+        is rolled out. To apply simply follow this link here:{" "}
+        <Link href="mailto:writer@lupleg.website">
           <span className="text-[#F3A833]">
-            mentorships, tutoring, academic & career advising
+            Apply now to join our Mentorships25
           </span>
         </Link>
-        , and more. We also offer a range of workshops and events to help you
-        develop your skills and build your network. Our goal is to help you
-        succeed in your studies and achieve your goals. We look forward to
-        welcoming you to our community!
+        , and gain skills that are on demand. During the program, we shall also
+        offer a wide range of workshops and events to help you develop your
+        skills and build your network. Our goal is to help you succeed in your
+        studies and achieve your goals. We look forward to welcoming you to our
+        Mentorship24!
       </p>
 
       <div className="flex justify-center space-x-2 mb-8">
@@ -72,11 +75,15 @@ export default function Announcements() {
       </div>
 
       <p className="text-gray-700 mb-4">
-        Today we are excited to announce that Lupleg soon is opening some
-        scholarship opportunities for students who are interested in learning
-        more about technology and software development. We are partnering with
-        Warrant to provide scholarships to students who are passionate about
-        technology and want to learn more about software development.{" "}
+        It's a huge opportunity not for one but to all. Do keep in mind that we
+        have some slight requirements you may need to have: Now because of it
+        being done entirely online, you will need to have access to a{" "}
+        <span className="text-black">Computer</span>
+        where all learning will be done from, you are also required to have
+        access to the internet{" "}
+        <span className="text-black">("Speed can be moderate")</span> and last
+        but not least, you must be able to commute to{" "}
+        <span className="text-black">10hrs in a week</span>.
       </p>
 
       <p className="text-gray-700 mb-8">
@@ -85,6 +92,47 @@ export default function Announcements() {
         students succeed. We are excited to partner with Warrant to provide
         these scholarships, and we look forward to welcoming students to our
         community.
+      </p>
+
+      <p className="text-gray-700 mb-8">
+        Now because this is fully funded and you will not pay a single dollar,
+        we do have some rules and laws which you will need to adhere or else you
+        will be dismiss: ofcourse you are required to join and actively
+        participate during the program. If you are asigned to work in groups, do
+        as it has been prepared. If you happen to refrain from following simple
+        instructions, we do not have a choice but to revork your scholarship.
+        Therefore you are encouraged to actively participate during the program.
+      </p>
+
+      <h1 className="text-2xl font-bold text-green-950 mb-6">
+        What if you want to drop out of the program
+      </h1>
+      <p className="text-gray-700 mb-8">
+        If you decide to drop out of the program, you will need to inform us
+        immediately. If you do not inform us, we will assume that you are still
+        participating in the program. If you drop out of the program, you will
+        not be able to rejoin at a later date. We will also not be able to
+        provide you with a refund for any tuition or fees that you have paid. If
+        you have any questions about the program or the scholarships, please do
+        not hesitate to contact us. We are here to help you succeed and achieve
+        your goals. We look forward to welcoming you to our community and
+        helping you develop your skills and build your network. Thank you for
+        your interest in our scholarships, and we hope to see you soon!{" "}
+      </p>
+
+      <h1 className="text-2xl font-bold text-green-950 mb-6">
+        If you fail to meet the requirements
+      </h1>
+      <p className="text-gray-700 mb-8">
+        If you fail to meet the requirements of the scholarships, you will be
+        dismissed from the program. You will not be able to rejoin at a later
+        date. We will also not be able to provide you with a refund for any
+        tuition or fees that you have paid. If you have any questions about the
+        program or the scholarships, please do not hesitate to contact us. We
+        are here to help you succeed and achieve your goals. We look forward to
+        welcoming you to our community and helping you develop your skills and
+        build your network. Thank you for your interest in our scholarships, and
+        we hope to see you soon!{" "}
       </p>
 
       <AnnounceCard />
