@@ -108,9 +108,32 @@ export default function Announcements() {
         What if you want to drop out of the program
       </h1>
       <p className="text-gray-700 mb-8">
-        
+        If you decide to drop out of the program, you will need to inform us
+        immediately. If you do not inform us, we will assume that you are still
+        participating in the program. If you drop out of the program, you will
+        not be able to rejoin at a later date. We will also not be able to
+        provide you with a refund for any tuition or fees that you have paid. If
+        you have any questions about the program or the scholarships, please do
+        not hesitate to contact us. We are here to help you succeed and achieve
+        your goals. We look forward to welcoming you to our community and
+        helping you develop your skills and build your network. Thank you for
+        your interest in our scholarships, and we hope to see you soon!{" "}
       </p>
 
+      <h1 className="text-2xl font-bold text-gray-900 mb-6">
+        If you fail to meet the requirements
+      </h1>
+      <p className="text-gray-700 mb-8">
+        If you fail to meet the requirements of the scholarships, you will be
+        dismissed from the program. You will not be able to rejoin at a later
+        date. We will also not be able to provide you with a refund for any
+        tuition or fees that you have paid. If you have any questions about the
+        program or the scholarships, please do not hesitate to contact us. We
+        are here to help you succeed and achieve your goals. We look forward to
+        welcoming you to our community and helping you develop your skills and
+        build your network. Thank you for your interest in our scholarships, and
+        we hope to see you soon!{" "}
+      </p>
 
       <AnnounceCard />
     </div>
