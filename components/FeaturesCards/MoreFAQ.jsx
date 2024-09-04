@@ -51,6 +51,11 @@ export default function MoreFQA() {
       answer:
         "You can contact our customer support team at any time by emailing  ",
     },
+    {
+      question: "Where can i make payment from?",
+      answer:
+        "To make your payment you can simply reachout to us via payment@lupleg.website and you will be provided with relevants details for belling",
+    },
   ];
   const [searchTerm, setSearchTerm] = useState("");
   const filteredFaqs = useMemo(() => {

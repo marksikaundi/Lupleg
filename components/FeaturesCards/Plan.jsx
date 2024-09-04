@@ -83,7 +83,7 @@ export default function Plan() {
               </p>
             </div>
             <div className="flex items-end gap-2">
-              <span className="text-4xl font-bold">$79</span>
+              <span className="text-4xl font-bold">$39.99</span>
               <span className="text-primary-foreground">
                 /Billed every month.
               </span>
@@ -123,7 +123,7 @@ export default function Plan() {
                 <span>Technical Interviews</span>
               </div>
               <div className="flex items-center gap-2">
-              <CheckIcon className="w-5 h-5 fill-primary-foreground" />
+                <CheckIcon className="w-5 h-5 fill-primary-foreground" />
                 <span>Resume/CV Review</span>
               </div>
             </div>
@@ -143,7 +143,7 @@ export default function Plan() {
               </p>
             </div>
             <div className="flex items-end gap-2">
-              <span className="text-4xl font-bold">$139</span>
+              <span className="text-4xl font-bold">$79.99</span>
               <span className="text-muted-foreground">
                 /Billed every month.
               </span>
@@ -167,23 +167,23 @@ export default function Plan() {
                 <span>Access to all UI templates</span>
               </div>
               <div className="flex items-center gap-2">
-              <CheckIcon className="w-5 h-5 fill-primary" />
+                <CheckIcon className="w-5 h-5 fill-primary" />
                 <span>5 Days Live call mentorship</span>
               </div>
               <div className="flex items-center gap-2">
-              <CheckIcon className="w-5 h-5 fill-primary" />
+                <CheckIcon className="w-5 h-5 fill-primary" />
                 <span>Job search support</span>
               </div>
               <div className="flex items-center gap-2">
-              <CheckIcon className="w-5 h-5 fill-primary" />
+                <CheckIcon className="w-5 h-5 fill-primary" />
                 <span>24/7 Support</span>
               </div>
               <div className="flex items-center gap-2">
-              <CheckIcon className="w-5 h-5 fill-primary" />
+                <CheckIcon className="w-5 h-5 fill-primary" />
                 <span>Technical Interviews</span>
               </div>
               <div className="flex items-center gap-2">
-              <CheckIcon className="w-5 h-5 fill-primary" />
+                <CheckIcon className="w-5 h-5 fill-primary" />
                 <span>Resume/CV Review</span>
               </div>
             </div>
