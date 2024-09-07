@@ -4,7 +4,7 @@ import { ArrowLeft } from "lucide-react";
 import Help from "@/components/FeaturesCards/Help";
 import DarkMode from "@/components/UIPreviews/DarkMode";
 
-export default function Navbar() {
+export default function DarkModeSwitcher() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-8">
       <Link
