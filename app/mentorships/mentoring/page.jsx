@@ -2,6 +2,7 @@ import { LightbulbIcon, SquareIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import LuplegMentoring from "@/components/sections/LuplegMentoring";
 import WhyBecomeMentor from "@/components/sections/WhyBecomeMentor";
+import Link from "next/link";
 
 export default function Component() {
   return (
@@ -45,15 +46,19 @@ export default function Component() {
 
         {/* Buttons */}
         <div className="flex justify-center space-x-4">
-          <Button className="bg-green-950 hover:bg-green-950 text-white px-6 py-2 rounded-full">
-            Sign up to try mentoring
-          </Button>
-          <Button
-            variant="outline"
-            className="border-green-950 text-green-950 hover:bg-green-50 px-6 py-2 rounded-full"
-          >
-            Log in
-          </Button>
+          <Link href="https://app.lupleg.website/sign-up">
+            <Button className="bg-green-950 hover:bg-green-950 text-white px-6 py-2 rounded-full">
+              Sign up to try mentoring
+            </Button>
+          </Link>
+          <Link href="https://app.lupleg.website/sign-in">
+            <Button
+              variant="outline"
+              className="border-green-950 text-green-950 hover:bg-green-50 px-6 py-2 rounded-full"
+            >
+              Log in
+            </Button>
+          </Link>
         </div>
 
         {/* Lightbulb icon */}
