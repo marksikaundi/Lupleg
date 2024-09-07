@@ -2,8 +2,17 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import Help from "@/components/FeaturesCards/Help";
+import PricePreview from "@/components/UIPreviews/PricePreview";
 
-export default function Navbar() {
+const pricingTiers = [
+  { pageviews: "10K", price: 8 },
+  { pageviews: "50K", price: 12 },
+  { pageviews: "100K", price: 16 },
+  { pageviews: "500K", price: 24 },
+  { pageviews: "1M", price: 36 },
+];
+
+export default function PricingCard() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-8">
       <Link
@@ -14,7 +23,9 @@ export default function Navbar() {
         Back
       </Link>
 
-      <h1 className="text-4xl font-bold text-gray-900 mb-6">Navbar UI 001</h1>
+      <h1 className="text-4xl font-bold text-gray-900 mb-6">
+        Interactive Pricing Card 002
+      </h1>
 
       <div className="flex items-center mb-6">
         <Image
@@ -31,18 +42,66 @@ export default function Navbar() {
       </div>
 
       <p className="text-gray-700 mb-8">
-        Once you join Lupleg learning community, you will have access to a wide
-        range of resources and support to help you achieve your goals. We offer
-        a range of services to help you succeed, including:{" "}
-        <Link href="/all-mentorships">
-          <span className="text-[#F3A833]">
-            mentorships, tutoring, academic & career advising
-          </span>
-        </Link>
-        , and more. We also offer a range of workshops and events to help you
-        develop your skills and build your network. Our goal is to help you
-        succeed in your studies and achieve your goals. We look forward to
-        welcoming you to our community!
+        Create an Interactive Pricing Component using React and Tailwind CSS.
+        This pricing component should have interactive pricing cards that change
+        the pricing based on the user's selection. The pricing component should
+        include the following features:
+      </p>
+
+      <h2 className="text-2xl font-bold text-gray-900 mb-4">
+        This Interactive Pricing Component includes the following features:
+      </h2>
+      <ul className="list-disc list-inside text-gray-700 mb-8">
+        <li>A slider to select different pageview tiers</li>
+        <li>A toggle switch to choose between monthly and yearly billing</li>
+        <li>
+          Dynamic price calculation based on the selected tier and billing
+          frequency
+        </li>
+        <li>A 25% discount applied for yearly billing</li>
+        <li>Responsive design for various screen sizes</li>
+        <li>A list of included features</li>
+        <li>A call-to-action button</li>
+      </ul>
+
+      <code className="text-gray-700 mb-8">
+        <p className="text-black font-bold mb-2">USE THIS DATA</p>
+        {JSON.stringify(pricingTiers, null, 2)}
+      </code>
+
+      <h2 className="text-2xl font-bold text-gray-900 my-6">
+        The component uses the following shadcn/ui components:
+      </h2>
+      <ul className="list-disc list-inside text-gray-700 mb-8">
+        <li>
+          {" "}
+          <b>`Slider`</b> for selecting the pageview tier
+        </li>
+        <li>
+          {" "}
+          <b>`Switch`</b> for toggling between monthly and yearly billing
+        </li>
+        <li>
+          <b>`Button`</b> for the call-to-action
+        </li>
+        <li>
+          <b>`Tooltip`</b> for displaying additional information about yearly
+          billing savings
+        </li>
+      </ul>
+
+      <h2 className="text-2xl font-bold text-gray-900 mb-4">
+        Here's a preview of Price Card:
+      </h2>
+
+      <PricePreview />
+      <h2 className="text-2xl font-bold text-gray-900 my-4">Note:</h2>
+      <p className="text-gray-700 mb-8">
+        The component should use Tailwind CSS for styling, making it easy to
+        customize colors, spacing, and other design aspects. The pricing
+        component should be interactive and update the pricing in real-time
+        based on the user's selection. The component should be responsive and
+        adapt to different screen sizes.
       </p>
 
       <div className="flex justify-center space-x-2 mb-8">
@@ -68,22 +127,6 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-
-      <p className="text-gray-700 mb-4">
-        Today we are excited to announce that Lupleg soon is opening some
-        scholarship opportunities for students who are interested in learning
-        more about technology and software development. We are partnering with
-        Warrant to provide scholarships to students who are passionate about
-        technology and want to learn more about software development.{" "}
-      </p>
-
-      <p className="text-gray-700 mb-8">
-        The scholarships will cover the cost of tuition for the Lupleg learning
-        community, as well as provide additional support and resources to help
-        students succeed. We are excited to partner with Warrant to provide
-        these scholarships, and we look forward to welcoming students to our
-        community.
-      </p>
 
       <Help />
     </div>

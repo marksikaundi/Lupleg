@@ -2,8 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import Help from "@/components/FeaturesCards/Help";
+import VideoPreview from "@/components/UIPreviews/VideoPreview";
 
-export default function Navbar() {
+export default function VideoPlayer() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-8">
       <Link
@@ -14,7 +15,9 @@ export default function Navbar() {
         Back
       </Link>
 
-      <h1 className="text-4xl font-bold text-gray-900 mb-6">Navbar UI 001</h1>
+      <h1 className="text-4xl font-bold text-gray-900 mb-6">
+        Custom Video Player 006
+      </h1>
 
       <div className="flex items-center mb-6">
         <Image
@@ -31,58 +34,54 @@ export default function Navbar() {
       </div>
 
       <p className="text-gray-700 mb-8">
-        Once you join Lupleg learning community, you will have access to a wide
-        range of resources and support to help you achieve your goals. We offer
-        a range of services to help you succeed, including:{" "}
-        <Link href="/all-mentorships">
-          <span className="text-[#F3A833]">
-            mentorships, tutoring, academic & career advising
-          </span>
-        </Link>
-        , and more. We also offer a range of workshops and events to help you
-        develop your skills and build your network. Our goal is to help you
-        succeed in your studies and achieve your goals. We look forward to
-        welcoming you to our community!
+        Create a custom video player using React and Tailwind CSS. The video
+        player should have all the components of a standard video player,
+        including play and pause functionality, volume control, progress bar
+        with scrubbing functionality, and fullscreen mode. The video player
+        should be fully responsive and work on all screen sizes. The video
+        player should have a custom design using Tailwind CSS classes. The video
+        player should be fully functional and ready to be integrated into your
+        project. Feel free to customize the design and functionality to suit
+        your needs. Happy coding!
       </p>
 
-      <div className="flex justify-center space-x-2 mb-8">
-        <div className="w-2 h-2 bg-[#F3A833] rounded-full"></div>
-        <div className="w-2 h-2 bg-[#F3A833] rounded-full"></div>
-        <div className="w-2 h-2 bg-[#F3A833] rounded-full"></div>
-      </div>
+      <h2 className="text-2xl font-bold text-gray-900 mb-4">
+        This Video Player includes the following features:
+      </h2>
 
-      <div className="bg-purple-100 p-8 rounded-lg mb-8">
-        <div className="flex justify-center items-center space-x-8">
-          <div className="bg-white p-4 rounded-full shadow-lg">
-            <div className="w-16 h-16 bg-[#F3A833] rounded-full flex items-center justify-center">
-              <div className="w-8 h-8 bg-white rounded-sm transform rotate-45"></div>
-            </div>
-          </div>
-          <div className="text-4xl font-bold text-[#F3A833]">+</div>
-          <div className="bg-white p-4 rounded-full shadow-lg">
-            <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center">
-              <div className="w-10 h-8 bg-[#F3A833] rounded-sm flex items-center justify-center">
-                <div className="w-6 h-1 bg-white rounded-full"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <ul className="list-disc list-inside text-gray-700 mb-8">
+        <li>Play and pause functionality.</li>
+        <li>Volume control.</li>
+        <li>Progress bar with scrubbing functionality.</li>
+        <li>Fullscreen mode.</li>
+      </ul>
 
-      <p className="text-gray-700 mb-4">
-        Today we are excited to announce that Lupleg soon is opening some
-        scholarship opportunities for students who are interested in learning
-        more about technology and software development. We are partnering with
-        Warrant to provide scholarships to students who are passionate about
-        technology and want to learn more about software development.{" "}
-      </p>
+      <h2 className="text-2xl font-bold text-gray-900 mb-4">
+        Here's a breakdown of the component:
+      </h2>
 
       <p className="text-gray-700 mb-8">
-        The scholarships will cover the cost of tuition for the Lupleg learning
-        community, as well as provide additional support and resources to help
-        students succeed. We are excited to partner with Warrant to provide
-        these scholarships, and we look forward to welcoming students to our
-        community.
+        You will use the <b>`useState`</b> hook to manage the video player state
+        and the <b>`useRef`</b> hook to reference the video element. The
+        component will handle the <b>`play`</b>, <b>`pause`</b>, <b>`volume`</b>
+        , <b>`progress`</b>, and <b>`fullscreen`</b> functionality. The video
+        player will include a custom design using Tailwind CSS. The video player
+        should be responsive and work on all screen sizes.
+      </p>
+
+      <h2 className="text-2xl font-bold text-gray-900 mb-4">
+        Here's a preview of the video player:
+      </h2>
+      <VideoPreview />
+    
+
+      <h2 className="text-2xl font-bold text-gray-900 mb-4">Note:</h2>
+      <p className="text-gray-700 mb-8">
+        This component is styled using Tailwind CSS classes for a clean,
+        responsive design. The video player includes custom controls and
+        functionality for a seamless user experience. The video player is fully
+        functional and ready to be integrated into your project. Feel free to
+        customize the design and functionality to suit your needs. Happy coding!
       </p>
 
       <Help />

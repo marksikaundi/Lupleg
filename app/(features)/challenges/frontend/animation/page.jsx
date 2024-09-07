@@ -2,8 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import Help from "@/components/FeaturesCards/Help";
+import AnimatedPreview from "@/components/UIPreviews/AnimatedPreview";
 
-export default function Navbar() {
+export default function AnimatedTransitions() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-8">
       <Link
@@ -14,7 +15,9 @@ export default function Navbar() {
         Back
       </Link>
 
-      <h1 className="text-4xl font-bold text-gray-900 mb-6">Navbar UI 001</h1>
+      <h1 className="text-4xl font-bold text-gray-900 mb-6">
+        Animated Page Transitions 005
+      </h1>
 
       <div className="flex items-center mb-6">
         <Image
@@ -31,18 +34,76 @@ export default function Navbar() {
       </div>
 
       <p className="text-gray-700 mb-8">
-        Once you join Lupleg learning community, you will have access to a wide
-        range of resources and support to help you achieve your goals. We offer
-        a range of services to help you succeed, including:{" "}
-        <Link href="/all-mentorships">
-          <span className="text-[#F3A833]">
-            mentorships, tutoring, academic & career advising
-          </span>
-        </Link>
-        , and more. We also offer a range of workshops and events to help you
-        develop your skills and build your network. Our goal is to help you
-        succeed in your studies and achieve your goals. We look forward to
-        welcoming you to our community!
+        Create animated transitions using React and Framer Motion. Framer Motion
+        is a popular library for creating smooth animations in React
+        applications. The animated transitions should include the following
+        features:
+      </p>
+      <h2 className="text-xl font-bold text-gray-900 mb-4">
+        This component demonstrates three types of animated transitions:
+      </h2>
+      <ul className="list-disc list-inside text-gray-700 mb-8">
+        <li>
+          Fade Transition: The first element fades in and out using opacity.
+        </li>
+        <li>Scale Transition: The second element scales in and out.</li>
+        <li>
+          Slide Transition: The third element slides in and out from the right.
+        </li>
+      </ul>
+
+      <h2 className="text-2xl font-bold text-gray-900 mb-4">
+        Here's a breakdown of the key features:
+      </h2>
+
+      <ul className="list-disc list-inside text-gray-700 mb-8">
+        <li>
+          {" "}
+          We use the <b>`useState`</b> hook to manage the visibility state of
+          the elements.
+        </li>
+        <li>
+          {" "}
+          The <b>`AnimatePresence`</b> component from Framer Motion is used to
+          handle exit animations.
+        </li>
+        <li>
+          {" "}
+          Each <b>`motion.div`</b> has <b>`initial`</b>, <b>`animate`</b>, and{" "}
+          <b>`exit`</b> props that define the animation states.
+        </li>
+        <li>
+          {" "}
+          The slide transition uses a spring animation for a more dynamic
+          effect.
+        </li>
+        <li>
+          {" "}
+          The layout is responsive, using a grid that adjusts from 1 column on
+          mobile to 3 columns on larger screens.
+        </li>
+        <li>
+          {" "}
+          We're using the <b>`Button`</b> component from the shadcn/ui library
+          for consistency with the Vercel design system.
+        </li>
+      </ul>
+
+      <h2 className="text-2xl font-bold text-gray-900 mb-4">
+        Here's a preview of the Animated page:
+      </h2>
+
+      <AnimatedPreview />
+
+      <h2 className="text-2xl font-bold text-gray-900 my-6">Note:</h2>
+      <p className="text-gray-700 mb-8">
+        This example provides a good starting point for creating animated
+        transitions in your React application. You can further customize the
+        animations by adjusting the properties in the <b>`initial`</b>,{" "}
+        <b>`animate`</b>, and
+        <b>`exit`</b> objects, or by using different animation types provided by
+        Framer Motion. Feel free to experiment with different animations and
+        styles to create unique transitions for your project. Happy coding!
       </p>
 
       <div className="flex justify-center space-x-2 mb-8">
@@ -68,22 +129,6 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-
-      <p className="text-gray-700 mb-4">
-        Today we are excited to announce that Lupleg soon is opening some
-        scholarship opportunities for students who are interested in learning
-        more about technology and software development. We are partnering with
-        Warrant to provide scholarships to students who are passionate about
-        technology and want to learn more about software development.{" "}
-      </p>
-
-      <p className="text-gray-700 mb-8">
-        The scholarships will cover the cost of tuition for the Lupleg learning
-        community, as well as provide additional support and resources to help
-        students succeed. We are excited to partner with Warrant to provide
-        these scholarships, and we look forward to welcoming students to our
-        community.
-      </p>
 
       <Help />
     </div>

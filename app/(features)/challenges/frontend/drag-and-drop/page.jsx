@@ -2,8 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import Help from "@/components/FeaturesCards/Help";
+import DragDrop from "@/components/UIPreviews/DragDrop";
 
-export default function Navbar() {
+export default function DragAndDrop() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-8">
       <Link
@@ -14,7 +15,9 @@ export default function Navbar() {
         Back
       </Link>
 
-      <h1 className="text-4xl font-bold text-gray-900 mb-6">Navbar UI 001</h1>
+      <h1 className="text-4xl font-bold text-gray-900 mb-6">
+        Drag & Drop Area 004
+      </h1>
 
       <div className="flex items-center mb-6">
         <Image
@@ -31,58 +34,52 @@ export default function Navbar() {
       </div>
 
       <p className="text-gray-700 mb-8">
-        Once you join Lupleg learning community, you will have access to a wide
-        range of resources and support to help you achieve your goals. We offer
-        a range of services to help you succeed, including:{" "}
-        <Link href="/all-mentorships">
-          <span className="text-[#F3A833]">
-            mentorships, tutoring, academic & career advising
-          </span>
-        </Link>
-        , and more. We also offer a range of workshops and events to help you
-        develop your skills and build your network. Our goal is to help you
-        succeed in your studies and achieve your goals. We look forward to
-        welcoming you to our community!
+        Create a Drag & Drop Area using React and Tailwind CSS. This drag & drop
+        area should allow users to drag and drop files on a website. The drag &
+        drop area should include the following features:
       </p>
 
-      <div className="flex justify-center space-x-2 mb-8">
-        <div className="w-2 h-2 bg-[#F3A833] rounded-full"></div>
-        <div className="w-2 h-2 bg-[#F3A833] rounded-full"></div>
-        <div className="w-2 h-2 bg-[#F3A833] rounded-full"></div>
-      </div>
+      <h2 className="text-2xl font-bold text-gray-900 mb-4">
+        This Drag & Drop Area includes the following features:
+      </h2>
 
-      <div className="bg-purple-100 p-8 rounded-lg mb-8">
-        <div className="flex justify-center items-center space-x-8">
-          <div className="bg-white p-4 rounded-full shadow-lg">
-            <div className="w-16 h-16 bg-[#F3A833] rounded-full flex items-center justify-center">
-              <div className="w-8 h-8 bg-white rounded-sm transform rotate-45"></div>
-            </div>
-          </div>
-          <div className="text-4xl font-bold text-[#F3A833]">+</div>
-          <div className="bg-white p-4 rounded-full shadow-lg">
-            <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center">
-              <div className="w-10 h-8 bg-[#F3A833] rounded-sm flex items-center justify-center">
-                <div className="w-6 h-1 bg-white rounded-full"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <ul className="list-disc list-inside text-gray-700 mb-8">
+        <li>A visually distinct area for dragging and dropping files.</li>
+        <li>Visual feedback when files are being dragged over the area.</li>
+        <li>Ability to handle multiple file drops.</li>
+        <li>Display of dropped file names.</li>
+      </ul>
 
-      <p className="text-gray-700 mb-4">
-        Today we are excited to announce that Lupleg soon is opening some
-        scholarship opportunities for students who are interested in learning
-        more about technology and software development. We are partnering with
-        Warrant to provide scholarships to students who are passionate about
-        technology and want to learn more about software development.{" "}
-      </p>
+      <h2 className="text-2xl font-bold text-gray-900 mb-4">
+        Here's a breakdown of the component:
+      </h2>
 
       <p className="text-gray-700 mb-8">
-        The scholarships will cover the cost of tuition for the Lupleg learning
-        community, as well as provide additional support and resources to help
-        students succeed. We are excited to partner with Warrant to provide
-        these scholarships, and we look forward to welcoming students to our
-        community.
+        You will use the <b>`useState`</b> hook to manage the dragging state and
+        the list of dropped files. The <b>`useCallback`</b> hook is used to
+        memoize the event handler functions, optimizing performance. The
+        component handles <b>`onDragOver`</b>, <b>`onDragLeave`</b>, and{" "}
+        <b>`onDrop`</b> events to provide visual feedback and process dropped
+        files. When files are dropped, they are added to the `files` state
+        array. The component displays an upload icon and instructional text in
+        the drop area. Below the drop area, it lists the names of all dropped
+        files.
+      </p>
+
+      <h2 className="text-2xl font-bold text-gray-900 mb-4">
+        Here's a preview of the DragDrop:
+      </h2>
+
+      <DragDrop />
+
+      <h2 className="text-2xl font-bold text-gray-900 mb-4">Note:</h2>
+      <p className="text-gray-700 mb-8">
+        This component is styled using Tailwind CSS classes for a clean,
+        responsive design. The drop area changes its appearance when files are
+        being dragged over it, providing clear visual feedback to the user. The
+        component is fully functional and ready to be integrated into your
+        project. Feel free to customize the design and functionality to suit
+        your needs. Happy coding!
       </p>
 
       <Help />
