@@ -2,9 +2,17 @@
 
 import { Button } from "@/components/ui/button";
 import { Overlay } from "@radix-ui/react-dialog";
-import { Play, Pause, Volume2, VolumeX, Maximize, Minimize } from "lucide-react";
+import {
+  Play,
+  Pause,
+  Volume2,
+  VolumeX,
+  Maximize,
+  Minimize,
+} from "lucide-react";
 import React, { useState, useRef, useEffect } from "react";
 import Overview from "@/components/ml/Overview";
+import Link from "next/link";
 
 export default function Component() {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -79,38 +87,41 @@ export default function Component() {
   const formatTime = (time) => {
     const minutes = Math.floor(time / 60);
     const seconds = Math.floor(time % 60);
-    return `${minutes}:${seconds.toString().padStart(2, '0')}`;
+    return `${minutes}:${seconds.toString().padStart(2, "0")}`;
   };
 
   return (
-   <div>
-     <div className="relative min-h-screen overflow-hidden bg-teal-800">
-      <video
-        ref={videoRef}
-        className="absolute inset-0 object-cover w-full h-full z-0"
-        src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-        
-        autoPlay
-        loop
-        muted
-      />
-      <div className="absolute inset-0 bg-teal-800 opacity-50 z-10"></div>
-      <main className="relative z-20 flex items-center justify-center min-h-screen">
-        <div className="text-center text-white px-4">
-          <span className="inline-block bg-[#F3A833] text-xs font-semibold px-2 py-1 rounded mb-4">TECHNOLOGY</span>
-          <h1 className="text-4xl md:text-6xl font-bold mb-4 max-w-4xl mx-auto">
-            The future of technology is here, we are introducing ML at Lupleg. 
-          </h1>
-          <Button className="bg-green-950 hover:bg-green-950 text-white font-bold py-2 px-4 rounded">
-            Learn more
-          </Button>
-        </div>
-      </main>
+    <div>
+      <div className="relative min-h-screen overflow-hidden bg-teal-800">
+        <video
+          ref={videoRef}
+          className="absolute inset-0 object-cover w-full h-full z-0"
+          src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+          autoPlay
+          loop
+          muted
+        />
+        <div className="absolute inset-0 bg-teal-800 opacity-50 z-10"></div>
+        <main className="relative z-20 flex items-center justify-center min-h-screen">
+          <div className="text-center text-white px-4">
+            <span className="inline-block bg-[#F3A833] text-xs font-semibold px-2 py-1 rounded mb-4">
+              TECHNOLOGY
+            </span>
+            <h1 className="text-4xl md:text-6xl font-bold mb-4 max-w-4xl mx-auto">
+              The future of technology is here, we are introducing ML at Lupleg.
+            </h1>
+            <Link href="/resources/machine-learning">
+              <Button className="bg-green-950 hover:bg-green-950 text-white font-bold py-2 px-4 mt-6 rounded">
+                Learn more
+              </Button>
+            </Link>
+          </div>
+        </main>
+      </div>
+
+      <div className="my-10">
+        <Overview />
+      </div>
     </div>
-    
-    <div className="my-10">
-    <Overview/>
-    </div>
-   </div>
   );
 }
