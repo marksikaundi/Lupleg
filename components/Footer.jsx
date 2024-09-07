@@ -20,7 +20,7 @@ const footerData = [
       { name: "Academy", path: "/resources/academy" },
       { name: "Partner with Us", path: "/resources/supporting/partner" },
       { name: "Trainings", path: "/trainings" },
-      { name: "Research", path: "/resources/machine-learning" },
+      { name: "Research", path: "/research" },
     ],
   },
   {

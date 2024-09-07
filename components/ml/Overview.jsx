@@ -11,6 +11,7 @@ const newsItems = [
       "New AI system designs proteins that successfully bind to target molecules, with...",
     date: "5 SEPTEMBER 2024",
     image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
+    link: "/research/machine-learning/1",
   },
   {
     category: "RESEARCH",
@@ -19,6 +20,7 @@ const newsItems = [
       "Using deep learning to solve fundamental problems in computational quantum...",
     date: "22 AUGUST 2024",
     image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
+    link: "/research/machine-learning/2",
   },
   {
     category: "COMPANY",
@@ -28,6 +30,7 @@ const newsItems = [
       "Food security, healthcare and exploring the cosmos are among the ways students of a...",
     date: "5 AUGUST 2024",
     image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
+    link: "/research/machine-learning/3",
   },
 ];
 
@@ -60,12 +63,12 @@ export default function LatestNews() {
               <p className="text-sm font-semibold text-gray-600 mb-2">
                 {item.category}
               </p>
-              <h3 className="text-xl font-bold mb-2">{item.title}</h3>
+              <h3 className="text-xl font-bold mb-2 text-green-950">{item.title}</h3>
               <p className="text-gray-600 mb-4">{item.description}</p>
               <div className="flex justify-between items-center">
                 <p className="text-sm text-gray-500">{item.date}</p>
                 <Link
-                  href={`/news/${index}`}
+                  href={item.link}
                   className="text-blue-600 hover:underline"
                 >
                   <ArrowRightIcon className="w-5 h-5" />
