@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import Help from "@/components/FeaturesCards/Help";
+import AnimatedPreview from "@/components/UIPreviews/AnimatedPreview";
 
 export default function AnimatedTransitions() {
   return (
@@ -88,7 +89,13 @@ export default function AnimatedTransitions() {
         </li>
       </ul>
 
-      <h2 className="text-2xl font-bold text-gray-900 mb-4">Note:</h2>
+      <h2 className="text-2xl font-bold text-gray-900 mb-4">
+        Here's a preview of the Animated page:
+      </h2>
+
+      <AnimatedPreview />
+
+      <h2 className="text-2xl font-bold text-gray-900 my-6">Note:</h2>
       <p className="text-gray-700 mb-8">
         This example provides a good starting point for creating animated
         transitions in your React application. You can further customize the
