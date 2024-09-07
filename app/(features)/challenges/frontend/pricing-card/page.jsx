@@ -24,7 +24,7 @@ export default function PricingCard() {
       </Link>
 
       <h1 className="text-4xl font-bold text-gray-900 mb-6">
-        Interactive Pricing UI 002
+        Interactive Pricing Card 002
       </h1>
 
       <div className="flex items-center mb-6">
@@ -95,7 +95,7 @@ export default function PricingCard() {
       </h2>
 
       <PricePreview />
-      <h2 className="text-2xl font-bold text-gray-900 mb-4">Note:</h2>
+      <h2 className="text-2xl font-bold text-gray-900 my-4">Note:</h2>
       <p className="text-gray-700 mb-8">
         The component should use Tailwind CSS for styling, making it easy to
         customize colors, spacing, and other design aspects. The pricing

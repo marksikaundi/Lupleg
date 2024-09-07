@@ -85,7 +85,7 @@ export default function InteractivePricing() {
               ),
             )}
           </ul>
-          <Button className="w-full">Start my trial</Button>
+          <Button className="w-full">Start free trial</Button>
         </div>
       </div>
     </div>
