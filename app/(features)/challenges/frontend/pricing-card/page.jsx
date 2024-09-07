@@ -24,7 +24,7 @@ export default function PricingCard() {
       </Link>
 
       <h1 className="text-4xl font-bold text-gray-900 mb-6">
-        Interactive Pricing Card 002
+        Interactive Pricing Card 
       </h1>
 
       <div className="flex items-center mb-6">

@@ -16,7 +16,7 @@ export default function DragAndDrop() {
       </Link>
 
       <h1 className="text-4xl font-bold text-gray-900 mb-6">
-        Drag & Drop Area 004
+        Drag & Drop Area 
       </h1>
 
       <div className="flex items-center mb-6">

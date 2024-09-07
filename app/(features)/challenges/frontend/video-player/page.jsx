@@ -16,7 +16,7 @@ export default function VideoPlayer() {
       </Link>
 
       <h1 className="text-4xl font-bold text-gray-900 mb-6">
-        Custom Video Player 006
+        Custom Video Player
       </h1>
 
       <div className="flex items-center mb-6">

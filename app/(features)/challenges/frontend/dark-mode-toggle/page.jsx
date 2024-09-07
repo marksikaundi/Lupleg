@@ -15,7 +15,7 @@ export default function DarkModeSwitcher() {
       </Link>
 
       <h1 className="text-4xl font-bold text-gray-900 mb-6">
-        Dark Mode Toggle 003
+        Dark Mode Toggle Switcher
       </h1>
 
       <div className="flex items-center mb-6">
