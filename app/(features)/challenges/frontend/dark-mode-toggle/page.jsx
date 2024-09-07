@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import Help from "@/components/FeaturesCards/Help";
+import DarkMode from "@/components/UIPreviews/DarkMode";
 
 export default function Navbar() {
   return (
@@ -120,6 +121,12 @@ export default function Navbar() {
         the theme state. The <b>useTheme</b> hook provides a <b>theme</b> object
         with the following properties:
       </p>
+
+      <h2 className="text-2xl font-bold text-gray-900 mb-4">
+        Here's a preview of the Dark Mode Switcher:
+      </h2>
+
+      <DarkMode />
 
       <h2 className="text-2xl font-bold text-gray-900 mb-4">Note:</h2>
       <p className="text-gray-700 mb-8">
