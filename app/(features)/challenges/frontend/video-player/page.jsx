@@ -16,7 +16,7 @@ export default function VideoPlayer() {
       </Link>
 
       <h1 className="text-4xl font-bold text-gray-900 mb-6">
-        Custom Video Player 006
+        Custom Video Player
       </h1>
 
       <div className="flex items-center mb-6">
@@ -73,9 +73,8 @@ export default function VideoPlayer() {
         Here's a preview of the video player:
       </h2>
       <VideoPreview />
-    
 
-      <h2 className="text-2xl font-bold text-gray-900 mb-4">Note:</h2>
+      <h2 className="text-2xl font-bold text-gray-900 my-6">Note:</h2>
       <p className="text-gray-700 mb-8">
         This component is styled using Tailwind CSS classes for a clean,
         responsive design. The video player includes custom controls and

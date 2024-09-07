@@ -15,7 +15,7 @@ export default function Navbar() {
         Back
       </Link>
 
-      <h1 className="text-4xl font-bold text-gray-900 mb-6">Navbar UI 001</h1>
+      <h1 className="text-4xl font-bold text-gray-900 mb-6"> Responsive Navigation bar   </h1>
 
       <div className="flex items-center mb-6">
         <Image

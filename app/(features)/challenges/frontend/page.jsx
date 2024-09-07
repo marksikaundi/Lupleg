@@ -40,9 +40,9 @@ const challenges = [
     link: "/challenges/frontend/dark-mode-toggle",
   },
   {
-    title: "Drag and Drop Kanban Board",
+    title: "Drag and Drop Area",
     description:
-      "Create a Kanban board with drag and drop functionality for task management.",
+      "Create a drag and drop Area with functionality displaying name of file uploaded.",
     difficulty: "Advanced",
     image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
     link: "/challenges/frontend/drag-and-drop",
