@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import Help from "@/components/FeaturesCards/Help";
-import DarkMode from "@/components/UIPreviews/DarkMode";
 
 export default function DarkModeSwitcher() {
   return (
