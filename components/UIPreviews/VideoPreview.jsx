@@ -1,91 +1,137 @@
-"use client";
-import React, { useRef, useState } from 'react';
-import { FaPlay, FaPause, FaVolumeUp, FaVolumeMute, FaExpand, FaCompress } from 'react-icons/fa';
+"use client"
+import React, { useState, useRef, useEffect } from 'react';
+import { Play, Pause, Volume2, VolumeX, Maximize, Minimize } from 'lucide-react';
 
-const VideoPlayer = () => {
-  const videoRef = useRef(null);
+export default function QuickTimePlayer() {
   const [isPlaying, setIsPlaying] = useState(false);
-  const [isMuted, setIsMuted] = useState(false);
   const [volume, setVolume] = useState(1);
-  const [progress, setProgress] = useState(0);
+  const [currentTime, setCurrentTime] = useState(0);
+  const [duration, setDuration] = useState(0);
   const [isFullscreen, setIsFullscreen] = useState(false);
+  const videoRef = useRef(null);
+  const playerRef = useRef(null);
 
-  const handlePlayPause = () => {
-    if (videoRef.current.paused) {
-      videoRef.current.play();
-      setIsPlaying(true);
-    } else {
-      videoRef.current.pause();
-      setIsPlaying(false);
+  useEffect(() => {
+    const video = videoRef.current;
+    if (video) {
+      video.addEventListener('timeupdate', handleTimeUpdate);
+      video.addEventListener('loadedmetadata', handleLoadedMetadata);
+      return () => {
+        video.removeEventListener('timeupdate', handleTimeUpdate);
+        video.removeEventListener('loadedmetadata', handleLoadedMetadata);
+      };
+    }
+  }, []);
+
+  const togglePlay = () => {
+    if (videoRef.current) {
+      if (isPlaying) {
+        videoRef.current.pause();
+      } else {
+        videoRef.current.play();
+      }
+      setIsPlaying(!isPlaying);
     }
   };
 
   const handleVolumeChange = (e) => {
-    const volume = e.target.value;
-    setVolume(volume);
-    videoRef.current.volume = volume;
-    setIsMuted(volume === 0);
-  };
-
-  const handleProgressChange = (e) => {
-    const progress = e.target.value;
-    setProgress(progress);
-    videoRef.current.currentTime = (videoRef.current.duration * progress) / 100;
-  };
-
-  const handleFullscreenToggle = () => {
-    if (videoRef.current.requestFullscreen) {
-      if (isFullscreen) {
-        document.exitFullscreen();
-      } else {
-        videoRef.current.requestFullscreen();
-      }
-      setIsFullscreen(!isFullscreen);
+    const newVolume = parseFloat(e.target.value);
+    setVolume(newVolume);
+    if (videoRef.current) {
+      videoRef.current.volume = newVolume;
     }
   };
 
+  const handleTimeUpdate = () => {
+    if (videoRef.current) {
+      setCurrentTime(videoRef.current.currentTime);
+    }
+  };
+
+  const handleLoadedMetadata = () => {
+    if (videoRef.current) {
+      setDuration(videoRef.current.duration);
+    }
+  };
+
+  const handleProgressChange = (e) => {
+    const time = parseFloat(e.target.value);
+    setCurrentTime(time);
+    if (videoRef.current) {
+      videoRef.current.currentTime = time;
+    }
+  };
+
+  const toggleFullscreen = () => {
+    if (!document.fullscreenElement) {
+      playerRef.current?.requestFullscreen();
+      setIsFullscreen(true);
+    } else {
+      document.exitFullscreen();
+      setIsFullscreen(false);
+    }
+  };
+
+  const formatTime = (time) => {
+    const minutes = Math.floor(time / 60);
+    const seconds = Math.floor(time % 60);
+    return `${minutes}:${seconds.toString().padStart(2, '0')}`;
+  };
+
   return (
-    <div className={`relative ${isFullscreen ? 'w-screen h-screen' : 'w-full max-w-2xl'} mx-auto`}>
-      <video
-        ref={videoRef}
-        className="w-full h-full"
-        src="your-video-source.mp4" // replace with your video source
-        onTimeUpdate={() => setProgress((videoRef.current.currentTime / videoRef.current.duration) * 100)}
-      ></video>
-
-      <div className="absolute bottom-0 left-0 w-full bg-gray-900 bg-opacity-60 text-white flex items-center justify-between px-4 py-2">
-        <button onClick={handlePlayPause} className="p-2">
-          {isPlaying ? <FaPause /> : <FaPlay />}
-        </button>
-
-        <input
-          type="range"
-          min="0"
-          max="100"
-          value={progress}
-          onChange={handleProgressChange}
-          className="flex-1 mx-2"
+    <div ref={playerRef} className="max-w-3xl mx-auto bg-gray-900 rounded-lg overflow-hidden shadow-lg">
+      <div className="relative">
+        <video
+          ref={videoRef}
+          className="w-full h-auto"
+          src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
         />
-
-        <button onClick={() => setIsMuted(!isMuted)} className="p-2">
-          {isMuted ? <FaVolumeMute /> : <FaVolumeUp />}
-        </button>
-        <input
-          type="range"
-          min="0"
-          max="1"
-          step="0.01"
-          value={volume}
-          onChange={handleVolumeChange}
-          className="w-24 mx-2"
-        />
-
-        <button onClick={handleFullscreenToggle} className="p-2">
-          {isFullscreen ? <FaCompress /> : <FaExpand />}
-        </button>
+        <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
+          <div className="flex items-center justify-between text-white">
+            <button
+              className="p-2 hover:bg-white/20 rounded-full transition-colors"
+              onClick={togglePlay}
+            >
+              {isPlaying ? <Pause size={24} /> : <Play size={24} />}
+            </button>
+            <div className="flex items-center space-x-2">
+              <button
+                className="p-2 hover:bg-white/20 rounded-full transition-colors"
+                onClick={() => setVolume(volume > 0 ? 0 : 1)}
+              >
+                {volume > 0 ? <Volume2 size={24} /> : <VolumeX size={24} />}
+              </button>
+              <input
+                type="range"
+                min="0"
+                max="1"
+                step="0.1"
+                value={volume}
+                onChange={handleVolumeChange}
+                className="w-20"
+              />
+            </div>
+            <button
+              className="p-2 hover:bg-white/20 rounded-full transition-colors"
+              onClick={toggleFullscreen}
+            >
+              {isFullscreen ? <Minimize size={24} /> : <Maximize size={24} />}
+            </button>
+          </div>
+          <div className="mt-2 flex items-center space-x-2">
+            <span className="text-sm text-white">{formatTime(currentTime)}</span>
+            <input
+              type="range"
+              min="0"
+              max={duration}
+              value={currentTime}
+              onChange={handleProgressChange}
+              className="flex-grow"
+            />
+            <span className="text-sm text-white">{formatTime(duration)}</span>
+          </div>
+        </div>
       </div>
     </div>
   );
-};
-
-export default VideoPlayer;
+}
