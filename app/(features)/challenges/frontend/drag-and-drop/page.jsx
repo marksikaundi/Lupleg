@@ -2,8 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import Help from "@/components/FeaturesCards/Help";
+import DragDrop from "@/components/UIPreviews/DragDrop";
 
-export default function DragDrop() {
+export default function DragAndDrop() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-8">
       <Link
@@ -64,6 +65,12 @@ export default function DragDrop() {
         the drop area. Below the drop area, it lists the names of all dropped
         files.
       </p>
+
+      <h2 className="text-2xl font-bold text-gray-900 mb-4">
+        Here's a preview of the DragDrop:
+      </h2>
+
+      <DragDrop />
 
       <h2 className="text-2xl font-bold text-gray-900 mb-4">Note:</h2>
       <p className="text-gray-700 mb-8">
