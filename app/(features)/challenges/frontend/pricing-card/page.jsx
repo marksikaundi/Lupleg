@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import Help from "@/components/FeaturesCards/Help";
+import PricePreview from "@/components/UIPreviews/PricePreview";
 
 const pricingTiers = [
   { pageviews: "10K", price: 8 },
@@ -11,7 +12,7 @@ const pricingTiers = [
   { pageviews: "1M", price: 36 },
 ];
 
-export default function PricingUI() {
+export default function PricingCard() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-8">
       <Link
@@ -89,6 +90,11 @@ export default function PricingUI() {
         </li>
       </ul>
 
+      <h2 className="text-2xl font-bold text-gray-900 mb-4">
+        Here's a preview of Price Card:
+      </h2>
+
+      <PricePreview />
       <h2 className="text-2xl font-bold text-gray-900 mb-4">Note:</h2>
       <p className="text-gray-700 mb-8">
         The component should use Tailwind CSS for styling, making it easy to
