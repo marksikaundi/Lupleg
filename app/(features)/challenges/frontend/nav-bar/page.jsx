@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import Help from "@/components/FeaturesCards/Help";
+import NavbarPreview from "@/components/UIPreviews/NavbarPreview";
 
 export default function Navbar() {
   return (
@@ -56,6 +57,12 @@ export default function Navbar() {
         <li>Smooth transitions for the mobile menu using React state.</li>
         <li>Accessible design with proper aria labels and semantic HTML.</li>
       </ul>
+
+      <h2 className="text-2xl font-bold text-gray-900 mb-4">
+        Here's a preview of Navbar:
+      </h2>
+      <NavbarPreview />
+
       <h2 className="text-2xl font-bold text-gray-900 mb-4">Note:</h2>
       <p className="text-gray-700 mb-8">
         The component should use Tailwind CSS for styling, making it easy to
