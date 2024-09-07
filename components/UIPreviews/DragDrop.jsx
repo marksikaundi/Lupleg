@@ -1,26 +1,42 @@
-import React, { useState, useCallback } from "react";
+"use client";
+import React, { useState, useCallback, useRef } from "react";
 import { Upload } from "lucide-react";
 
 export default function DragAndDrop() {
   const [isDragging, setIsDragging] = useState(false);
-  const [files, setFiles] = useState<File[]>([]);
+  const [files, setFiles] = useState([]);
+  const fileInputRef = useRef(null);
 
-  const onDragOver = useCallback((event: React.DragEvent<HTMLDivElement>) => {
+  // Handle file selection via input
+  const handleFileSelect = (event) => {
+    const selectedFiles = Array.from(event.target.files);
+    setFiles((prevFiles) => [...prevFiles, ...selectedFiles]);
+  };
+
+  // Handle drag over event
+  const onDragOver = useCallback((event) => {
     event.preventDefault();
     setIsDragging(true);
   }, []);
 
-  const onDragLeave = useCallback((event: React.DragEvent<HTMLDivElement>) => {
+  // Handle drag leave event
+  const onDragLeave = useCallback((event) => {
     event.preventDefault();
     setIsDragging(false);
   }, []);
 
-  const onDrop = useCallback((event: React.DragEvent<HTMLDivElement>) => {
+  // Handle file drop event
+  const onDrop = useCallback((event) => {
     event.preventDefault();
     setIsDragging(false);
     const droppedFiles = Array.from(event.dataTransfer.files);
     setFiles((prevFiles) => [...prevFiles, ...droppedFiles]);
   }, []);
+
+  // Open file dialog when the drop area is clicked
+  const handleClick = () => {
+    fileInputRef.current.click();
+  };
 
   return (
     <div className="w-full max-w-md mx-auto p-4">
@@ -31,12 +47,21 @@ export default function DragAndDrop() {
         onDragOver={onDragOver}
         onDragLeave={onDragLeave}
         onDrop={onDrop}
+        onClick={handleClick} // Allow file selection when the drop area is clicked
       >
         <Upload className="mx-auto h-12 w-12 text-gray-400" />
         <p className="mt-2 text-sm text-gray-600">
           Drag and drop files here, or click to select files
         </p>
       </div>
+      {/* Hidden file input element */}
+      <input
+        type="file"
+        ref={fileInputRef}
+        onChange={handleFileSelect}
+        multiple
+        className="hidden"
+      />
       {files.length > 0 && (
         <div className="mt-4">
           <h3 className="text-lg font-semibold mb-2">Dropped Files:</h3>
