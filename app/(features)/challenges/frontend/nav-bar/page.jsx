@@ -31,18 +31,41 @@ export default function Navbar() {
       </div>
 
       <p className="text-gray-700 mb-8">
-        Once you join Lupleg learning community, you will have access to a wide
-        range of resources and support to help you achieve your goals. We offer
-        a range of services to help you succeed, including:{" "}
-        <Link href="/all-mentorships">
-          <span className="text-[#F3A833]">
-            mentorships, tutoring, academic & career advising
-          </span>
-        </Link>
-        , and more. We also offer a range of workshops and events to help you
-        develop your skills and build your network. Our goal is to help you
-        succeed in your studies and achieve your goals. We look forward to
-        welcoming you to our community!
+        Create a responsive navigation bar using React and Tailwind CSS. This
+        navigation bar should be mobile-friendly with a hamburger menu for
+        smaller screens and a full menu for larger screens.
+      </p>
+      <p>
+        This responsive navigation bar component should includes the following
+        features:
+      </p>
+      <ul className="list-disc list-inside text-gray-700 mb-8">
+        <li>A logo placeholder on the left side.</li>
+        <li>
+          Navigation links that are visible on larger screens (md breakpoint and
+          above).
+        </li>
+        <li>
+          A hamburger menu button that appears on smaller screens (below md
+          breakpoint).
+        </li>
+        <li>
+          A dropdown menu for mobile views that toggles when the hamburger menu
+          is clicked.
+        </li>
+        <li>Smooth transitions for the mobile menu using React state.</li>
+        <li>Accessible design with proper aria labels and semantic HTML.</li>
+      </ul>
+      <h2 className="text-2xl font-bold text-gray-900 mb-4">Note:</h2>
+      <p className="text-gray-700 mb-8">
+        The component should use Tailwind CSS for styling, making it easy to
+        customize colors, spacing, and other design aspects. The navigation bar
+        must be responsive and adapts to different screen sizes: the full menu
+        should be able to be displayed on larger screens, while a hamburger menu
+        is shown on smaller screens. The dropdown menu should be implemented
+        using React state to toggle visibility when the hamburger menu is
+        clicked. The design is accessible and uses semantic HTML for proper
+        screen reader support.
       </p>
 
       <div className="flex justify-center space-x-2 mb-8">
@@ -68,22 +91,6 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-
-      <p className="text-gray-700 mb-4">
-        Today we are excited to announce that Lupleg soon is opening some
-        scholarship opportunities for students who are interested in learning
-        more about technology and software development. We are partnering with
-        Warrant to provide scholarships to students who are passionate about
-        technology and want to learn more about software development.{" "}
-      </p>
-
-      <p className="text-gray-700 mb-8">
-        The scholarships will cover the cost of tuition for the Lupleg learning
-        community, as well as provide additional support and resources to help
-        students succeed. We are excited to partner with Warrant to provide
-        these scholarships, and we look forward to welcoming students to our
-        community.
-      </p>
 
       <Help />
     </div>
