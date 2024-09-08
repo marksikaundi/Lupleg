@@ -112,7 +112,7 @@ export default function TsCard() {
                   web applications.
                 </p>
                 <div className="flex justify-center sm:justify-start">
-                  <Link href="/">
+                  <Link href="/typescript/beginners-typescript">
                     <Button variant="secondary" size="sm">
                       View →
                     </Button>
@@ -151,7 +151,7 @@ export default function TsCard() {
                   exercises that will help you level up.
                 </p>
                 <div className="flex justify-center sm:justify-start">
-                  <Link href="/">
+                  <Link href="/typescript/zod">
                     <Button variant="secondary" size="sm">
                       View →
                     </Button>
