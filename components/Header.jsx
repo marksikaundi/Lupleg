@@ -30,16 +30,7 @@ export default function Component() {
       items: [],
     },
     { name: "Challenges", link: "/challenges/frontend", items: [] },
-    {
-      name: "Tutorials",
-      link: "#tutorials",
-      items: [
-        { name: "TypeScript", link: "/typescript" },
-        { name: "JavaScript", link: "#" },
-        { name: "React", link: "#" },
-        { name: "Node.js", link: "#" },
-      ],
-    },
+
     { name: "Contributing", link: "/contributing", items: [] },
     {
       name: "Resources",
