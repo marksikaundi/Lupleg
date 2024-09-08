@@ -22,7 +22,7 @@ export default function Component() {
   );
 
   return (
-    <div className="relative min-h-screen  text-white">
+    <div className="relative min-h-screen mb-20 text-white">
       {/* Fixed header */}
       <header className="fixed top-0 left-0 right-0 bg-black p-4 z-50 shadow-md">
         <div className="max-w-4xl mx-auto flex items-center">
