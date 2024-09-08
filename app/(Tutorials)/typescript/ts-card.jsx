@@ -136,7 +136,7 @@ export default function TsCard() {
               <div>
                 <div className="flex flex-col sm:flex-row items-center sm:items-start mb-2">
                   <h2 className="text-xl sm:text-2xl text-white font-bold mb-2 sm:mb-0 sm:mr-3 text-center sm:text-left">
-                    Solving TypeScript Errors
+                    Zod Tutorial
                   </h2>
                   <span className="bg-green-500 text-black text-xs font-bold px-2 py-1 rounded">
                     NEW
