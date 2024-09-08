@@ -26,29 +26,8 @@ export default function Component() {
   const navItems = [
     {
       name: "Programs",
-      link: "/mentorships",
-      items: [
-        {
-          name: "Backend Development",
-          link: "/mentorships/backend-development",
-        },
-        {
-          name: "Frontend Development",
-          link: "/mentorships/frontend-development",
-        },
-        {
-          name: "Master Freelancing",
-          link: "/mentorships/master-your-freelance-hustle",
-        },
-        {
-          name: "Digital Skills Training",
-          link: "/mentorships/digital-skills-training",
-        },
-        {
-          name: "Office Productivity",
-          link: "/mentorships/office-productivity-software",
-        },
-      ],
+      link: "/programs",
+      items: [],
     },
     { name: "Challenges", link: "/challenges/frontend", items: [] },
     {
@@ -59,7 +38,6 @@ export default function Component() {
         { name: "JavaScript", link: "#" },
         { name: "React", link: "#" },
         { name: "Node.js", link: "#" },
-        
       ],
     },
     { name: "Contributing", link: "/contributing", items: [] },
