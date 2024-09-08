@@ -71,7 +71,7 @@ export default function PsCard() {
                   becoming a TypeScript Wizard.
                 </p>
                 <div className="flex justify-center sm:justify-start">
-                  <Link href="/programs/typescript">
+                  <Link href="/programs/#typescript">
                     <Button variant="secondary" size="sm">
                       View →
                     </Button>
@@ -109,7 +109,7 @@ export default function PsCard() {
                   a Python black bet .
                 </p>
                 <div className="flex justify-center sm:justify-start">
-                  <Link href="/programs/python-pro">
+                  <Link href="/programs/#python-pro">
                     <Button variant="secondary" size="sm">
                       View →
                     </Button>
