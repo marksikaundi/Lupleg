@@ -27,7 +27,7 @@ export default function TsHero() {
       <div className="relative z-10 max-w-6xl mx-auto flex justify-between items-center">
         <div className="space-y-6">
           <a
-            href="#"
+            href="/typescript"
             className="text-green-400 hover:text-green-300 transition-colors"
           >
             ← All Tutorials
