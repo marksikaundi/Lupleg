@@ -1,16 +1,14 @@
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
 import TsCard from "./ts-card";
 import MoreFQA from "@/components/FeaturesCards/MoreFAQ";
 
-export default function Tutorials() {
+export default function TypeScript() {
   return (
     <div>
       <div className="min-h-screen bg-[#0A0A1B] text-white p-4 sm:p-6 md:p-8 flex flex-col items-center">
         <div className="w-full max-w-4xl">
           <div className="text-center mb-8 sm:mb-12">
             <img
-              src="/placeholder.svg?height=80&width=80"
+              src="/ts.webp"
               alt="Glowing potion bottle"
               className="mx-auto mb-6 w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28"
               width={80}
