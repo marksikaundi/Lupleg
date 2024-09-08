@@ -94,7 +94,7 @@ export default function STError() {
             </Card>
             <Card className="bg-gray-800 border-gray-700">
               <CardHeader>
-                <CardTitle className="text-green-400">Certificate</CardTitle>
+                <CardTitle className="text-green-400">Coming Soon</CardTitle>
               </CardHeader>
               <CardContent className="flex flex-col items-center justify-center h-[200px] bg-gradient-to-br from-blue-900 to-purple-900 rounded-lg">
                 <LockIcon className="w-10 h-10 text-green-500 mb-4" />
