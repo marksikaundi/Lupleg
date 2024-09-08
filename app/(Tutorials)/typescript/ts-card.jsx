@@ -73,7 +73,7 @@ export default function TsCard() {
                   props to useRef.
                 </p>
                 <div className="flex justify-center sm:justify-start">
-                  <Link href="/">
+                  <Link href="/typescript/react-with-typescript">
                     <Button variant="secondary" size="sm">
                       View →
                     </Button>
