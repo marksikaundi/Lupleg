@@ -39,7 +39,7 @@ export default function LatestNews() {
     <div className="container mx-auto px-4 py-8">
       <div className="flex justify-between items-center mb-6">
         <h2 className="text-3xl font-bold">Latest news</h2>
-        <Link href="/all-posts" className="text-green-600 hover:underline">
+        <Link href="#/all-posts" className="text-green-600 hover:underline">
           View all posts
         </Link>
       </div>
@@ -69,7 +69,7 @@ export default function LatestNews() {
                 <p className="text-sm text-gray-500">{item.date}</p>
                 <Link
                   href={item.link}
-                  className="text-blue-600 hover:underline"
+                  className="text-green-600 hover:underline"
                 >
                   <ArrowRightIcon className="w-5 h-5" />
                 </Link>
