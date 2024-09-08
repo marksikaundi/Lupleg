@@ -76,8 +76,8 @@ export default function STError() {
                 <CardTitle className="text-green-400">Contents</CardTitle>
               </CardHeader>
               <CardContent>
-                <ScrollArea className="h-[300px] pr-4">
-                  <ol className="list-decimal list-inside space-y-2">
+                <ScrollArea className="h-[300px] pr-6">
+                  <ol className="list-decimal text-white list-inside space-y-2">
                     <li>Fixing "X Is Not Assignable To Y"</li>
                     <li>Fixing "Property Does Not Exist On Type"</li>
                     <li>Fixing "X is Possibly Null Or Undefined"</li>
@@ -97,8 +97,8 @@ export default function STError() {
                 <CardTitle className="text-green-400">Certificate</CardTitle>
               </CardHeader>
               <CardContent className="flex flex-col items-center justify-center h-[200px] bg-gradient-to-br from-blue-900 to-purple-900 rounded-lg">
-                <LockIcon className="w-16 h-16 text-gray-500 mb-4" />
-                <p className="text-center text-sm">
+                <LockIcon className="w-10 h-10 text-green-500 mb-4" />
+                <p className="text-center text-white text-sm">
                   Complete all lessons to unlock this certificate.
                 </p>
               </CardContent>
