@@ -1,27 +1,28 @@
-'use client';
+"use client";
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 import { Input } from "@/components/ui/input";
 import { Card } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { SearchIcon } from "lucide-react";
-import changelogData from './data'; // Ensure this path is correct
+import changelogData from "./data"; // Ensure this path is correct
 
 export default function Component() {
-  const [searchTerm, setSearchTerm] = useState('');
+  const [searchTerm, setSearchTerm] = useState("");
   const [data, setData] = useState([]);
 
   useEffect(() => {
     setData(changelogData);
   }, []);
 
-  const filteredChangelog = data.filter(item =>
-    item.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    item.content.toLowerCase().includes(searchTerm.toLowerCase())
+  const filteredChangelog = data.filter(
+    (item) =>
+      item.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      item.content.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   return (
-    <div className="relative min-h-screen bg-green-950 text-white">
+    <div className="relative min-h-screen  text-white">
       {/* Fixed header */}
       <header className="fixed top-0 left-0 right-0 bg-black p-4 z-50 shadow-md">
         <div className="max-w-4xl mx-auto flex items-center">
@@ -40,36 +41,31 @@ export default function Component() {
       </header>
 
       {/* Main content */}
-      <main className="pt-20 pb-8 overflow-auto"> {/* Adjust padding-top to account for fixed header */}
+      <main className="pt-20 pb-8 overflow-auto">
+        {" "}
+        {/* Adjust padding-top to account for fixed header */}
         <div className="relative">
           <div className="absolute left-4 top-0 bottom-0 w-px bg-black"></div>
-          
+
           <div className="space-y-12 ml-12">
             {filteredChangelog.map((item) => (
               <div key={item.id} className="relative">
                 <div className="absolute -left-[37px] top-0 w-3 h-3 bg-black rounded"></div>
                 {item.id === 1 ? (
-                  <Card className="bg-gray-900 p-4 border-gray-900">
-                    <h2 className="text-lg font-semibold text-white mb-2">{item.title}</h2>
-                    <p className="text-black mb-4">{item.content}</p>
-                    {/* <div className="flex space-x-2 mb-4">
-                      {[...Array(5)].map((_, i) => (
-                        <div key={i} className="w-10 h-10 bg-gray-500 rounded"></div>
-                      ))}
-                    </div> */}
+                  <Card className="bg-black mr-4 p-4 border-gray-900">
+                    <h2 className="text-lg font-semibold text-[#F3A833] mb-2">
+                      Progress: {item.title}
+                    </h2>
+                    <p className="text-white mb-4">{item.content}</p>
+                    <p className="text-white text-sm mb-4">{item.date}</p>
                   </Card>
                 ) : (
                   <div>
-                    {/* <div className="flex items-center mb-2">
-                      {[...Array(item.avatars)].map((_, i) => (
-                        <Avatar key={i} className="mr-2">
-                          <AvatarImage src={`/placeholder.svg?height=32&width=32&text=${i + 1}`} />
-                          <AvatarFallback>V</AvatarFallback>
-                        </Avatar>
-                      ))}
-                    </div> */}
-                    <h2 className="text-lg font-semibold text-black mb-2">{item.title}</h2>
+                    <h2 className="text-lg font-semibold text-black mb-2">
+                      {item.title}
+                    </h2>
                     <p className="text-black mb-4">{item.content}</p>
+                    <p className="text-black text-sm mb-4">{item.date}</p>
                   </div>
                 )}
               </div>
