@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaGithub } from "react-icons/fa6";
 
-export default function STError() {
+export default function BgTypescript() {
   return (
     <div className="min-h-screen bg-gray-900 text-gray-100">
       <header className="relative overflow-hidden">
@@ -23,7 +23,7 @@ export default function STError() {
           <div className="md:flex md:justify-between md:items-center">
             <div>
               <h1 className="text-4xl md:text-5xl font-bold mb-4">
-                TypeScript Error Handling Tutorial
+              Beginner's TypeScript
               </h1>
               <div className="flex items-center mb-6">
                 <Image

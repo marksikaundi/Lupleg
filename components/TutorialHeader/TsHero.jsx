@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function TsHero() {
   return (
-    <div className="relative bg-gray-900 text-white p-8 overflow-hidden">
+    <div className=" relative bg-gray-900 text-white p-8 overflow-hidden">
       {/* Background stars */}
       <div className="absolute inset-0 overflow-hidden">
         {[...Array(50)].map((_, i) => (

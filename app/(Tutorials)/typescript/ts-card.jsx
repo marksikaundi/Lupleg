@@ -73,7 +73,7 @@ export default function TsCard() {
                   props to useRef.
                 </p>
                 <div className="flex justify-center sm:justify-start">
-                  <Link href="/">
+                  <Link href="/typescript/react-with-typescript">
                     <Button variant="secondary" size="sm">
                       View →
                     </Button>
@@ -112,7 +112,7 @@ export default function TsCard() {
                   web applications.
                 </p>
                 <div className="flex justify-center sm:justify-start">
-                  <Link href="/">
+                  <Link href="/typescript/beginners-typescript">
                     <Button variant="secondary" size="sm">
                       View →
                     </Button>
@@ -136,7 +136,7 @@ export default function TsCard() {
               <div>
                 <div className="flex flex-col sm:flex-row items-center sm:items-start mb-2">
                   <h2 className="text-xl sm:text-2xl text-white font-bold mb-2 sm:mb-0 sm:mr-3 text-center sm:text-left">
-                    Solving TypeScript Errors
+                    Zod Tutorial
                   </h2>
                   <span className="bg-green-500 text-black text-xs font-bold px-2 py-1 rounded">
                     NEW
@@ -151,7 +151,7 @@ export default function TsCard() {
                   exercises that will help you level up.
                 </p>
                 <div className="flex justify-center sm:justify-start">
-                  <Link href="/">
+                  <Link href="/typescript/zod">
                     <Button variant="secondary" size="sm">
                       View →
                     </Button>
