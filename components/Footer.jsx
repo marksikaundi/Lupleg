@@ -19,7 +19,7 @@ const footerData = [
       { name: "Challenge", path: "/challenge" },
       { name: "Academy", path: "/resources/academy" },
       { name: "Partner with Us", path: "/resources/supporting/partner" },
-      { name: "Trainings", path: "/trainings" },
+      { name: "ChangeLogs", path: "/changelogs" },
       { name: "Research", path: "/research" },
     ],
   },
