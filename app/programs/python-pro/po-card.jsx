@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Link from "next/link";
 
-export default function TsCard() {
+export default function PoCard() {
   return (
     <div className="min-h-screen  text-white p-4 sm:p-6 md:p-8 flex flex-col items-center">
       <div className="w-full max-w-4xl">
@@ -34,7 +34,7 @@ export default function TsCard() {
                   solve these for swift progress.
                 </p>
                 <div className="flex justify-center sm:justify-start">
-                  <Link href="/typescript/solving-typescript-errors">
+                  <Link href="/programs/typescript/solving-typescript-errors">
                     <Button variant="secondary" size="sm">
                       View →
                     </Button>
@@ -73,7 +73,7 @@ export default function TsCard() {
                   props to useRef.
                 </p>
                 <div className="flex justify-center sm:justify-start">
-                  <Link href="/typescript/react-with-typescript">
+                  <Link href="/programs/typescript/react-with-typescript">
                     <Button variant="secondary" size="sm">
                       View →
                     </Button>
@@ -97,7 +97,7 @@ export default function TsCard() {
               <div>
                 <div className="flex flex-col sm:flex-row items-center sm:items-start mb-2">
                   <h2 className="text-xl sm:text-2xl text-white font-bold mb-2 sm:mb-0 sm:mr-3 text-center sm:text-left">
-                    Beginner's TypeScript
+                    Python for Beginner's
                   </h2>
                   <span className="bg-green-500 text-black text-xs font-bold px-2 py-1 rounded">
                     NEW
@@ -112,7 +112,7 @@ export default function TsCard() {
                   web applications.
                 </p>
                 <div className="flex justify-center sm:justify-start">
-                  <Link href="/typescript/beginners-typescript">
+                  <Link href="/programs/python-pro/python-beginners">
                     <Button variant="secondary" size="sm">
                       View →
                     </Button>
@@ -151,7 +151,7 @@ export default function TsCard() {
                   exercises that will help you level up.
                 </p>
                 <div className="flex justify-center sm:justify-start">
-                  <Link href="/typescript/zod">
+                  <Link href="/programs/typescript/zod">
                     <Button variant="secondary" size="sm">
                       View →
                     </Button>

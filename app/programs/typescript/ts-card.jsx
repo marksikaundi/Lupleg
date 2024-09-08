@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Link from "next/link";
 
-export default function PsCard() {
+export default function TsCard() {
   return (
     <div className="min-h-screen  text-white p-4 sm:p-6 md:p-8 flex flex-col items-center">
       <div className="w-full max-w-4xl">
@@ -19,22 +19,22 @@ export default function PsCard() {
               <div>
                 <div className="flex flex-col sm:flex-row items-center sm:items-start mb-2">
                   <h2 className="text-xl sm:text-2xl text-white font-bold mb-2 sm:mb-0 sm:mr-3 text-center sm:text-left">
-                    Software Development
+                    Solving TypeScript Errors
                   </h2>
                   <span className="bg-green-500 text-black text-xs font-bold px-2 py-1 rounded">
                     NEW
                   </span>
                 </div>
                 <p className="text-green-400 text-sm mb-3 text-center sm:text-left">
-                  6 Months Program
+                  10 EXERCISES
                 </p>
                 <p className="text-sm text-gray-300 mb-4 text-center sm:text-left">
-                  A complete guide to becoming a software developer. Learn the
-                  basics of programming, web development, and software
-                  engineering.
+                  TypeScript boosts productivity but faces pitfalls like type
+                  mismatches, null values, & puzzling errors. Learn to spot &
+                  solve these for swift progress.
                 </p>
                 <div className="flex justify-center sm:justify-start">
-                  <Link href="/programs/software-development">
+                  <Link href="/programs/typescript/solving-typescript-errors">
                     <Button variant="secondary" size="sm">
                       View →
                     </Button>
@@ -58,22 +58,22 @@ export default function PsCard() {
               <div>
                 <div className="flex flex-col sm:flex-row items-center sm:items-start mb-2">
                   <h2 className="text-xl sm:text-2xl text-white font-bold mb-2 sm:mb-0 sm:mr-3 text-center sm:text-left">
-                    Applied Digital Skills
+                    React with TypeScript
                   </h2>
                   <span className="bg-green-500 text-black text-xs font-bold px-2 py-1 rounded">
                     NEW
                   </span>
                 </div>
                 <p className="text-green-400 text-sm mb-3 text-center sm:text-left">
-                  3 Months Program
+                  21 EXERCISES
                 </p>
                 <p className="text-sm text-gray-300 mb-4 text-center sm:text-left">
-                  A practical guide to learning digital skills. Learn how to use
-                  productivity tools to improve your work delivery and
-                  collaboration.
+                  Get productive building applications with React and TypeScript
+                  with our interactive guide on React's types - from component
+                  props to useRef.
                 </p>
                 <div className="flex justify-center sm:justify-start">
-                  <Link href="/programs/digital-skills">
+                  <Link href="/programs/typescript/react-with-typescript">
                     <Button variant="secondary" size="sm">
                       View →
                     </Button>
@@ -97,21 +97,22 @@ export default function PsCard() {
               <div>
                 <div className="flex flex-col sm:flex-row items-center sm:items-start mb-2">
                   <h2 className="text-xl sm:text-2xl text-white font-bold mb-2 sm:mb-0 sm:mr-3 text-center sm:text-left">
-                    TypeScript Pro Essentials
+                    Beginner's TypeScript
                   </h2>
                   <span className="bg-green-500 text-black text-xs font-bold px-2 py-1 rounded">
                     NEW
                   </span>
                 </div>
                 <p className="text-green-400 text-sm mb-3 text-center sm:text-left">
-                  3 Months Program
+                  18 EXERCISES
                 </p>
                 <p className="text-sm text-gray-300 mb-4 text-center sm:text-left">
-                  Total TypeScript Pro Essentials is the ultimate guide to
-                  becoming a TypeScript Wizard.
+                  Free interactive video tutorial that will help you get started
+                  with TypeScript. Learn the basics and start building your own
+                  web applications.
                 </p>
                 <div className="flex justify-center sm:justify-start">
-                  <Link href="/programs/typescript">
+                  <Link href="/programs/typescript/beginners-typescript">
                     <Button variant="secondary" size="sm">
                       View →
                     </Button>
@@ -135,22 +136,22 @@ export default function PsCard() {
               <div>
                 <div className="flex flex-col sm:flex-row items-center sm:items-start mb-2">
                   <h2 className="text-xl sm:text-2xl text-white font-bold mb-2 sm:mb-0 sm:mr-3 text-center sm:text-left">
-                    Python Pro Essentials
+                    Zod Tutorial
                   </h2>
                   <span className="bg-green-500 text-black text-xs font-bold px-2 py-1 rounded">
                     NEW
                   </span>
                 </div>
                 <p className="text-green-400 text-sm mb-3 text-center sm:text-left">
-                  3 Months Program
+                  10 EXERCISES
                 </p>
                 <p className="text-sm text-gray-300 mb-4 text-center sm:text-left">
-                  Total Python Pro Essentials is the ultimate guide to becoming a
-                  Python black bet .
-                  
+                  Zod is a TypeScript-first schema declaration and validation
+                  library. In this tutorial, Mark Sikaundi has prepared a set of
+                  exercises that will help you level up.
                 </p>
                 <div className="flex justify-center sm:justify-start">
-                  <Link href="/programs/python-pro">
+                  <Link href="/programs/typescript/zod">
                     <Button variant="secondary" size="sm">
                       View →
                     </Button>
