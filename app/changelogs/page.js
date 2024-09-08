@@ -51,7 +51,7 @@ export default function Component() {
             {filteredChangelog.map((item) => (
               <div key={item.id} className="relative">
                 <div className="absolute -left-[37px] top-0 w-3 h-3 bg-black rounded"></div>
-                {item.id === 1 ? (
+                {item.id === 0 ? (
                   <Card className="bg-black mr-4 p-4 border-gray-900">
                     <h2 className="text-lg font-semibold text-[#F3A833] mb-2">
                       Progress: {item.title}
