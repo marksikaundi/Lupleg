@@ -34,7 +34,7 @@ export default function TsCard() {
                   solve these for swift progress.
                 </p>
                 <div className="flex justify-center sm:justify-start">
-                  <Link href="/">
+                  <Link href="/typescript/solving-typescript-errors">
                     <Button variant="secondary" size="sm">
                       View →
                     </Button>
