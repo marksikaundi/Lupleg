@@ -52,13 +52,14 @@ export default function Component() {
     },
     { name: "Challenges", link: "/challenges/frontend", items: [] },
     {
-      name: "Developers",
-      link: "#developers",
+      name: "Tutorials",
+      link: "#tutorials",
       items: [
-        { name: "Features", link: "/lupleg-features" },
-        { name: "Labs", link: "https://app.lupleg.website" },
-        { name: "Docs", link: "https://docs.lupleg.website" },
-        { name: "API", link: "#" },
+        { name: "TypeScript", link: "/typescript" },
+        { name: "JavaScript", link: "#" },
+        { name: "React", link: "#" },
+        { name: "Node.js", link: "#" },
+        
       ],
     },
     { name: "Contributing", link: "/contributing", items: [] },
