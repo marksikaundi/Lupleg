@@ -6,6 +6,7 @@ import { Card } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { SearchIcon } from "lucide-react";
 import changelogData from "./data"; // Ensure this path is correct
+import Link from "next/link";
 
 export default function Component() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -26,6 +27,7 @@ export default function Component() {
       {/* Fixed header */}
       <header className="fixed top-0 left-0 right-0 bg-black p-4 z-50 shadow-md">
         <div className="max-w-4xl mx-auto flex items-center">
+          <Link href="/" className="text-2xl font-bold text-white mr-4">Home </Link>
           <h1 className="text-2xl font-bold text-white">Changelog</h1>
           <div className="relative ml-4 flex-grow">
             <SearchIcon className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
