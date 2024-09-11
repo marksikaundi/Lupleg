@@ -16,7 +16,7 @@ export default function WhyMentorship() {
         >
           <path
             d="M1 11L11 1L21 11L31 1L41 11L51 1L59 11"
-            stroke="#6B46C1"
+            stroke="#122E17"
             strokeWidth="2"
             strokeLinecap="round"
           />
