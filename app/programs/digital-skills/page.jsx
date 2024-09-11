@@ -15,7 +15,7 @@ export default function DigitalSkills() {
           <Link href="/programs">
             <Button variant="link" className="text-green-400 p-0">
               <ArrowLeft className="mr-2 h-4 w-4" />
-              All Pro Workshops
+              All Pro Essentials
             </Button>
           </Link>
         </div>
@@ -38,7 +38,7 @@ export default function DigitalSkills() {
               <span>Mark Sikaundi</span>
             </div>
             <div className="space-x-4 mb-8">
-              <Link href="https://app.lupleg.website">
+              <Link href="https://lab.lupleg.org">
                 <Button className="bg-green-500 hover:bg-green-600">
                   Preview
                   <ArrowLeft className="ml-2 h-4 w-4 rotate-180" />
@@ -52,15 +52,14 @@ export default function DigitalSkills() {
               </Link>
             </div>
             <p className="mb-6">
-              Total TypeScript Pro Essentials is the ultimate guide to becoming
-              a TypeScript Wizard.
+              A collection of professional, exercise-driven, in-depth,
+              self-paced digital skills workshops for you to achieve digital
+              skills wizardry.
             </p>
             <p>
-              Pro Essentials requires zero TypeScript knowledge to get started.
-              We'll start with setting up your IDE and understanding
-              TypeScript's place in the build process. We'll cover everything
-              you need to go from a good JavaScript developer to a great
-              TypeScript developer.
+              Whether you're picking up digital skills for the first time, or
+              want to deepen your knowledge, Pro Essentials is the course for
+              you. Here's what's included: 
             </p>
           </div>
           <div className="order-first md:order-last mb-8 md:mb-0">
@@ -90,7 +89,7 @@ export default function DigitalSkills() {
                   <h3 className="text-xl text-white font-bold">
                     Complete Volume
                   </h3>
-                  <p className="text-gray-200">Includes 5 workshops.</p>
+                  <p className="text-gray-200">Includes 5 projects.</p>
                 </div>
               </div>
               <span className="bg-yellow-400 text-black text-xs font-bold px-2 py-1 rounded">

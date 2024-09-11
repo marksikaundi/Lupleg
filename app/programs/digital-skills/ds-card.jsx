@@ -14,17 +14,14 @@ export default function DsCard() {
         <div className="mt-12 grid md:grid-cols-2 gap-8">
           <div>
             <p className="mb-6">
-              But we won't stop there. The material goes all the way up to
-              advanced topics like generics, type guards and building shared
-              utilities. If you feel like you never really learned TypeScript,
-              now's your chance.
+              You will learning the basics of digital skills, from the core
+              benefits and concepts of digital skills: From working with
+              microsoft 365, google workspace, and other digital tools.
             </p>
             <p className="mb-6">
-              We don't believe in sitting back and learning passively. With over{" "}
-              <strong>200 lessons in 17 sections</strong>, the Pro Essentials
-              workshop is a practical course. The material has been tested in
-              several in-person workshops and refined with feedback from
-              hundreds of students.
+              Whether you're picking up digital skills for the first time, or
+              want to deepen your knowledge, Pro Essentials is the course for
+              you. Here's what's included:
             </p>
             <p className="mb-6">
               Whether you're picking up TypeScript for the first time, or want

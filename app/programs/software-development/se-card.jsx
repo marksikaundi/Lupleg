@@ -57,7 +57,7 @@ export default function SECard() {
               </h3>
               <div className="flex items-baseline mb-4">
                 <span className="text-sm text-gray-200 mr-1">US</span>
-                <span className="text-4xl text-white font-bold">$250</span>
+                <span className="text-4xl text-white font-bold">$25</span>
                 <span className="text-sm text-gray-400 ml-1">.00</span>
               </div>
               <p className="text-green-400 mb-4">Full access</p>
@@ -67,7 +67,7 @@ export default function SECard() {
                 <span>For my team</span>
               </div>
               <Link href="/premium">
-                <Button className="w-full bg-[#F3A833] hover:bg-[#F3A833] text-green-950 mb-4">
+                <Button className="w-full bg-[#F3A833] cursor-default hover:bg-[#F3A833] text-green-950 mb-4">
                   Buy Now
                 </Button>
               </Link>

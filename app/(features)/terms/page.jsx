@@ -70,7 +70,7 @@ export default function Terms() {
           representation (unless fraudulent), or any implied warranty, condition
           or other term, or any duty at common law, for any loss of profit or
           any indirect, special or consequential loss, damage, costs, expenses
-          or other claims (whether caused by iCodeThis &#x27;s negligence or the
+          or other claims (whether caused by Lupleg &#x27;s negligence or the
           negligence of its servants or agents or otherwise) which arise out of
           or in connection with the provision of any goods or services by
           lupleg.website. lupleg.website shall not be liable or deemed to be in

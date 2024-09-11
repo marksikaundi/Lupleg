@@ -28,7 +28,7 @@ export default function WhatWeDo() {
             The all-in-one solution
           </h2>
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Enterprise SSO
+            What we do
             <br />
             (and a whole lot more)
           </h1>

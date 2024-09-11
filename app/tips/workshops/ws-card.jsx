@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Component() {
   return (
-    <div className="min-h-screen bg-gray-900 text-white p-4 sm:p-8">
+    <div className="min-h-screen bg-[#13132B] text-white p-4 sm:p-8">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-8 sm:mb-16">
           <Image
@@ -21,7 +21,7 @@ export default function Component() {
           </p>
         </div>
 
-        <div className="bg-gray-800 rounded-lg p-4 sm:p-8">
+        <div className="bg-[#13132B] rounded-lg p-4 sm:p-8">
           <div className="flex flex-col sm:flex-row items-center mb-4 sm:mb-6">
             <Image
               src="/placeholder.svg?height=100&width=100"

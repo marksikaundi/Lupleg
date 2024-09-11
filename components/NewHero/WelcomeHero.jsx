@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
-export default function Home() {
+export default function WelcomeHero() {
   return (
     <div className="flex flex-col lg:flex-row ml-6 items-center justify-between p-4 sm:p-8 bg-white">
       <div className="w-full lg:max-w-2xl mt-20 mb-8 pt-10 lg:mb-0">
@@ -18,13 +18,13 @@ export default function Home() {
           Get started with our mentorship program today.
         </p>
         <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-6 sm:space-y-0 sm:space-x-4 mb-6 sm:mb-8">
-          <Link href="all-mentorships">
+          <Link href="/programs">
             <Button className="w-full sm:w-auto bg-green-950 hover:bg-green-950 text-white px-6 py-3 rounded-full text-md">
               Get started
             </Button>
           </Link>
           <Link
-            href="#"
+            href="mailto:mark@lupleg.org"
             className="text-gray-600 hover:text-gray-800 flex items-center hover:underline"
           >
             Talk to an expert

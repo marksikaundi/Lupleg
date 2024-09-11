@@ -1,5 +1,6 @@
 import { ShareIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import BackCard from "../backCard";
 
 export default function Component() {
   return (
@@ -58,6 +59,7 @@ export default function Component() {
           accelerate our understanding of biological processes, and aid the
           discovery of new drugs, the development of biosensors and more.
         </p>
+        <BackCard />
       </div>
     </div>
   );
