@@ -16,6 +16,10 @@ export default function Component() {
         Protein Design and Wei Lab teams
       </div>
       <div className="flex justify-center mb-8">
+        <div className="mr-4 ">
+          <BackCard className="bg-transparent hover:bg-transparent" />
+        </div>
+
         <Button variant="outline" size="sm">
           <ShareIcon className="w-4 h-4 mr-2" />
           Share
@@ -63,7 +67,6 @@ export default function Component() {
           quantum physics and chemistry, and paves the way for a new era of
           discovery and innovation.
         </p>
-        <BackCard />
       </div>
     </div>
   );

@@ -16,6 +16,9 @@ export default function Component() {
         Protein Design and Wei Lab teams
       </div>
       <div className="flex justify-center mb-8">
+        <div className="mr-4 ">
+          <BackCard className="bg-transparent hover:bg-transparent" />
+        </div>
         <Button variant="outline" size="sm">
           <ShareIcon className="w-4 h-4 mr-2" />
           Share
@@ -58,7 +61,6 @@ export default function Component() {
           system has the potential to bring life-saving medical care to
           communities that lack access to trained medical professionals.
         </p>
-        <BackCard />
       </div>
     </div>
   );
