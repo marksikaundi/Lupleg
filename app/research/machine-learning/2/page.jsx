@@ -1,5 +1,6 @@
 import { ShareIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import BackCard from "../backCard";
 
 export default function Component() {
   return (
@@ -62,6 +63,7 @@ export default function Component() {
           quantum physics and chemistry, and paves the way for a new era of
           discovery and innovation.
         </p>
+        <BackCard />
       </div>
     </div>
   );
