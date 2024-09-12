@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { Button } from "@/components/ui/button";
-import {  Linkedin, Link, X } from "lucide-react";
+import {  Linkedin, Link } from "lucide-react";
 import { toast } from "@/components/ui/toast";
 import { FaFacebook } from 'react-icons/fa6';
 import { IoReturnUpBack } from "react-icons/io5";
