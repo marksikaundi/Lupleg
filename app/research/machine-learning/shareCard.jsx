@@ -1,27 +1,43 @@
 "use client";
 
-import { useState } from 'react';
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import {  Linkedin, Link } from "lucide-react";
+import { Linkedin, Link } from "lucide-react";
 import { toast } from "@/components/ui/toast";
-import { FaFacebook } from 'react-icons/fa6';
+import { FaFacebook } from "react-icons/fa6";
 import { IoReturnUpBack } from "react-icons/io5";
 import { FaXTwitter } from "react-icons/fa6";
-import { useRouter } from 'next/navigation';
+import { useRouter } from "next/navigation";
 
-export default function SharePost({ title = 'Check out this post!', url = 'https://lupleg.org/research' }) {
+export default function SharePost({
+  title = "Check out this post!",
+  url = "https://lupleg.org/research",
+}) {
   const [isCopied, setIsCopied] = useState(false);
 
   const shareOnX = () => {
-    window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(title)}&url=${encodeURIComponent(url)}`, '_blank');
+    window.open(
+      `https://twitter.com/intent/tweet?text=${encodeURIComponent(
+        title
+      )}&url=${encodeURIComponent(url)}`,
+      "_blank"
+    );
   };
 
   const shareOnFacebook = () => {
-    window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank');
+    window.open(
+      `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`,
+      "_blank"
+    );
   };
 
   const shareOnLinkedIn = () => {
-    window.open(`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(url)}&title=${encodeURIComponent(title)}`, '_blank');
+    window.open(
+      `https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(
+        url
+      )}&title=${encodeURIComponent(title)}`,
+      "_blank"
+    );
   };
 
   const router = useRouter();
@@ -43,9 +59,11 @@ export default function SharePost({ title = 'Check out this post!', url = 'https
 
   return (
     <div className="flex flex-col items-center space-y-4 p-4 bg-background rounded-lg shadow">
-      <h2 className="text-xl font-semibold mb-2 text-green-800">Share this post</h2>
+      <h2 className="text-xl font-semibold mb-2 text-green-800">
+        Share this post
+      </h2>
       <div className="flex space-x-2">
-      <Button onClick={handleBack} size="icon" variant="outline">
+        <Button onClick={handleBack} size="icon" variant="outline">
           <IoReturnUpBack className="h-4 w-4" />
           <span className="sr-only">Return</span>
         </Button>
@@ -67,7 +85,9 @@ export default function SharePost({ title = 'Check out this post!', url = 'https
         </Button>
       </div>
       {isCopied && (
-        <p className="text-sm text-muted-foreground">Link copied to clipboard!</p>
+        <p className="text-sm text-muted-foreground">
+          Link copied to clipboard!
+        </p>
       )}
     </div>
   );
