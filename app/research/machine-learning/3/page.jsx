@@ -1,6 +1,8 @@
 import { ShareIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import BackCard from "../backCard";
+import SharePost from "../shareCard";
+
 
 export default function Component() {
   return (
@@ -16,10 +18,7 @@ export default function Component() {
         Protein Design and Wei Lab teams
       </div>
       <div className="flex justify-center mb-8">
-        <Button variant="outline" size="sm">
-          <ShareIcon className="w-4 h-4 mr-2" />
-          Share
-        </Button>
+        <SharePost className="w-4 h-4 mr-2" />
       </div>
       <img
         src="/placeholder.svg?height=400&width=800"
@@ -58,7 +57,6 @@ export default function Component() {
           system has the potential to bring life-saving medical care to
           communities that lack access to trained medical professionals.
         </p>
-        <BackCard />
       </div>
     </div>
   );
