@@ -1,67 +1,73 @@
-"use client"
+"use client";
 
-import { useState } from 'react'
-import { Share2, Facebook, Twitter, Link } from 'lucide-react'
-import { Button } from "@/components/ui/button"
-import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
-import { toast } from "@/components/ui/use-toast"
+import { useState } from 'react';
+import { Button } from "@/components/ui/button";
+import {  Linkedin, Link } from "lucide-react";
+import { toast } from "@/components/ui/toast";
+import { FaFacebook, FaTwitter } from 'react-icons/fa6';
+import { IoReturnUpBack } from "react-icons/io5";
+import { useRouter } from 'next/navigation';
 
+export default function SharePost({ title = 'Check out this post!', url = 'https://lupleg.org/research' }) {
+  const [isCopied, setIsCopied] = useState(false);
 
+  const shareOnTwitter = () => {
+    window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(title)}&url=${encodeURIComponent(url)}`, '_blank');
+  };
 
-export default function SharePost({ title, text, url }) {
-  const [isOpen, setIsOpen] = useState(false)
+  const shareOnFacebook = () => {
+    window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank');
+  };
 
-  const handleShare = async () => {
-    if (navigator.share) {
-      try {
-        await navigator.share({ title, text, url })
-        toast({
-          title: "Shared successfully",
-          description: "The post has been shared.",
-        })
-      } catch (error) {
-        console.error("Error sharing:", error)
-      }
-    } else {
-      setIsOpen(true)
-    }
-  }
+  const shareOnLinkedIn = () => {
+    window.open(`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(url)}&title=${encodeURIComponent(title)}`, '_blank');
+  };
 
-  const handleCopyLink = () => {
-    navigator.clipboard.writeText(url)
-    toast({
-      title: "Link copied",
-      description: "The link has been copied to your clipboard.",
-    })
-    setIsOpen(false)
-  }
+  const router = useRouter();
+
+  const handleBack = () => {
+    router.push("/research");
+  };
+
+  const copyToClipboard = () => {
+    navigator.clipboard.writeText(url).then(() => {
+      setIsCopied(true);
+      toast({
+        title: "Link copied!",
+        description: "The post URL has been copied to your clipboard.",
+      });
+      setTimeout(() => setIsCopied(false), 2000);
+    });
+  };
 
   return (
-    <Popover open={isOpen} onOpenChange={setIsOpen}>
-      <PopoverTrigger asChild>
-        <Button variant="outline" size="icon" onClick={handleShare}>
-          <Share2 className="h-4 w-4" />
+    <div className="flex flex-col items-center space-y-4 p-4 bg-background rounded-lg shadow">
+      <h2 className="text-xl font-semibold mb-2">Share this post</h2>
+      <div className="flex space-x-2">
+      <Button onClick={handleBack} size="icon" variant="outline">
+          <IoReturnUpBack className="h-4 w-4" />
+          <span className="sr-only">Return</span>
         </Button>
-      </PopoverTrigger>
-      <PopoverContent className="w-56">
-        <div className="grid gap-4">
-          <h4 className="font-medium leading-none">Share post</h4>
-          <div className="grid grid-cols-2 gap-2">
-            <Button variant="outline" size="sm" className="w-full" onClick={() => window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank')}>
-              <Facebook className="mr-2 h-4 w-4" />
-              Facebook
-            </Button>
-            <Button variant="outline" size="sm" className="w-full" onClick={() => window.open(`https://twitter.com/intent/tweet?url=${encodeURIComponent(url)}&text=${encodeURIComponent(text)}`, '_blank')}>
-              <Twitter className="mr-2 h-4 w-4" />
-              Twitter
-            </Button>
-            <Button variant="outline" size="sm" className="w-full col-span-2" onClick={handleCopyLink}>
-              <Link className="mr-2 h-4 w-4" />
-              Copy link
-            </Button>
-          </div>
-        </div>
-      </PopoverContent>
-    </Popover>
-  )
+        <Button onClick={shareOnTwitter} size="icon" variant="outline">
+          <FaTwitter className="h-4 w-4" />
+          <span className="sr-only">Share on Twitter</span>
+        </Button>
+        <Button onClick={shareOnFacebook} size="icon" variant="outline">
+          <FaFacebook className="h-4 w-4" />
+          <span className="sr-only">Share on Facebook</span>
+        </Button>
+        <Button onClick={shareOnLinkedIn} size="icon" variant="outline">
+          <Linkedin className="h-4 w-4" />
+          <span className="sr-only">Share on LinkedIn</span>
+        </Button>
+        <Button onClick={copyToClipboard} size="icon" variant="outline">
+          <Link className="h-4 w-4" />
+          <span className="sr-only">Copy link</span>
+        </Button>
+      </div>
+      {isCopied && (
+        <p className="text-sm text-muted-foreground">Link copied to clipboard!</p>
+      )}
+    </div>
+  );
 }
