@@ -84,7 +84,7 @@ export default function Footer() {
             <div className="mt-8">
               <h5 className="mb-4 font-bold">Support →</h5>
               <p>
-                <a href="mailto:mark@lupleg.website">mark@lupleg.website</a>
+                <a href="mailto:mark@lupleg.org">mark@lupleg.org</a>
               </p>
             </div>
             <div className="pt-5">
