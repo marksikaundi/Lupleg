@@ -24,7 +24,7 @@ export default function PricingCard() {
       </Link>
 
       <h1 className="text-4xl font-bold text-gray-900 mb-6">
-        Interactive Pricing Card 
+        Interactive Pricing Card
       </h1>
 
       <div className="flex items-center mb-6">
@@ -103,30 +103,6 @@ export default function PricingCard() {
         based on the user's selection. The component should be responsive and
         adapt to different screen sizes.
       </p>
-
-      <div className="flex justify-center space-x-2 mb-8">
-        <div className="w-2 h-2 bg-[#F3A833] rounded-full"></div>
-        <div className="w-2 h-2 bg-[#F3A833] rounded-full"></div>
-        <div className="w-2 h-2 bg-[#F3A833] rounded-full"></div>
-      </div>
-
-      <div className="bg-purple-100 p-8 rounded-lg mb-8">
-        <div className="flex justify-center items-center space-x-8">
-          <div className="bg-white p-4 rounded-full shadow-lg">
-            <div className="w-16 h-16 bg-[#F3A833] rounded-full flex items-center justify-center">
-              <div className="w-8 h-8 bg-white rounded-sm transform rotate-45"></div>
-            </div>
-          </div>
-          <div className="text-4xl font-bold text-[#F3A833]">+</div>
-          <div className="bg-white p-4 rounded-full shadow-lg">
-            <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center">
-              <div className="w-10 h-8 bg-[#F3A833] rounded-sm flex items-center justify-center">
-                <div className="w-6 h-1 bg-white rounded-full"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
       <Help />
     </div>

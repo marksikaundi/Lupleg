@@ -11,7 +11,6 @@ const footerData = [
       { name: "Terms", path: "/terms" },
       { name: "Privacy Policy", path: "/privacy-policy" },
       { name: "FAQ", path: "/faq" },
-      { name: "Changelog", path: "/changelogs" },
     ],
   },
   {
@@ -21,6 +20,7 @@ const footerData = [
       { name: "Academy", path: "/resources/academy" },
       { name: "Partner with Us", path: "/resources/supporting/partner" },
       { name: "Research", path: "/research" },
+      { name: "Changelog", path: "/changelogs" },
     ],
   },
   {
