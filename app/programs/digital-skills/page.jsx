@@ -7,6 +7,7 @@ import Link from "next/link";
 import DsCard from "./ds-card";
 import DsFQ from "./ds-fq";
 import SDCard from "./sd-card";
+import DataFlow from "./flow.data";
 
 export default function DigitalSkills() {
   return (
@@ -106,6 +107,7 @@ export default function DigitalSkills() {
       </div>
       <DsCard />
       <SDCard/>
+      <DataFlow/>
       <DsFQ />
     </div>
   );
