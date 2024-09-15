@@ -6,6 +6,7 @@ import { FaGithub } from "react-icons/fa6";
 import Link from "next/link";
 import DsCard from "./ds-card";
 import DsFQ from "./ds-fq";
+import SDCard from "./sd-card";
 
 export default function DigitalSkills() {
   return (
@@ -52,14 +53,18 @@ export default function DigitalSkills() {
               </Link>
             </div>
             <p className="mb-6">
-              A collection of professional, exercise-driven, in-depth,
-              self-paced digital skills workshops for you to achieve digital
-              skills wizardry.
+              The Digital Skills Training program is designed to equip you with
+              the knowledge and skills needed to succeed in the tech industry.
+              Whether you're looking to start a career in data analysis, graphic
+              design, or web development, this program will provide you with the
+              foundational skills and hands-on experience to kickstart your
+              journey as a digital professional.
             </p>
             <p>
-              Whether you're picking up digital skills for the first time, or
-              want to deepen your knowledge, Pro Essentials is the course for
-              you. Here's what's included:
+              The program is led by an experienced mentor who will guide you
+              through the curriculum, provide personalized coaching, and support
+              you in developing a strong portfolio of projects to showcase your
+              skills to potential employers.
             </p>
           </div>
           <div className="order-first md:order-last mb-8 md:mb-0">
@@ -100,6 +105,7 @@ export default function DigitalSkills() {
         </div>
       </div>
       <DsCard />
+      <SDCard/>
       <DsFQ />
     </div>
   );

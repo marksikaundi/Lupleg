@@ -13,39 +13,36 @@ export default function DsCard() {
         {/* New content starts here */}
         <div className="mt-12 grid md:grid-cols-2 gap-8">
           <div>
+            <h2 className="text-2xl font-bold mb-4">Program Structure:</h2>
             <p className="mb-6">
-              You will learning the basics of digital skills, from the core
-              benefits and concepts of digital skills: From working with
-              microsoft 365, google workspace, and other digital tools.
+              The program is divided into three months, each focusing on a
+              different aspect of digital skills training. The curriculum is
+              designed to become progressively more challenging, allowing you to
+              build on your knowledge and skills as you progress through the
+              program.
             </p>
+            <ul className="list-disc pl-6 mb-6">
+              <li>Month 1: Foundational Skills (Weeks 1-4)</li>
+              <li>Month 2: Specialization Tracks (Weeks 5-8)</li>
+              <li>Month 3: Project & Portfolio Development (Weeks 9-12)</li>
+            </ul>
+
+            <h2 className="text-2xl font-bold mb-4"> Weekly Breakdown:</h2>
+
+            <p className="mb-6"></p>
+            <p className="mb-6"></p>
+            <p className="mb-6">Month 1: Foundational Digital Skills</p>
             <p className="mb-6">
-              Whether you're picking up digital skills for the first time, or
-              want to deepen your knowledge, Pro Essentials is the course for
-              you. Here's what's included:
+              The first month of the program focuses on building a strong
+              foundation in digital skills, including microsoft office, google
+              suite, social media marketing, and basic programming concepts .
+              The goal is to equip you with the essential knowledge and skills
+              needed to succeed in the tech industry.
             </p>
-            <p className="mb-6">
-              Whether you're picking up TypeScript for the first time, or want
-              to deepen your knowledge, Pro Essentials is the course for you.
-            </p>
-            <p className="mb-6">Here's what's included:</p>
-            <h2 className="text-2xl font-bold mb-4">
-              Introduction to TypeScript
-            </h2>
-            <p className="mb-4">
-              Kickstart your TypeScript setup with a refresher on the core
-              benefits and concepts of TypeScript: initial configuration, the
-              TypeScript compiler, and type inference.
-            </p>
-            <p className="mb-4">
-              Follow the recommended setup and extensions for your editor, with
-              a focus on Visual Studio Code, and become familiar with features
-              like navigation, autocompletion, refactoring, and writing
-              self-documenting code.
-            </p>
-            <p>
-              Understand TypeScript's role in the build process, and why
-              browsers can't run TypeScript directly.
-            </p>
+            <h2 className="text-2xl font-bold mb-4"></h2>
+            <p className="mb-4"></p>
+            <p className="mb-4"></p>
+            <p></p>
           </div>
           <div>
             <Card className="bg-[#13132B] p-6">
