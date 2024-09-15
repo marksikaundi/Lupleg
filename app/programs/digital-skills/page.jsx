@@ -59,12 +59,12 @@ export default function DigitalSkills() {
             <p>
               Whether you're picking up digital skills for the first time, or
               want to deepen your knowledge, Pro Essentials is the course for
-              you. Here's what's included: 
+              you. Here's what's included:
             </p>
           </div>
           <div className="order-first md:order-last mb-8 md:mb-0">
             <Image
-              src="/ts.webp"
+              src="/ps/setup.svg"
               alt="TypeScript Course"
               width={400}
               height={400}
