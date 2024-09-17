@@ -28,10 +28,10 @@ export default function Partner() {
                 Get in touch with Mark Sikaundi, Lupleg's CEO.
               </p>
             </div>
-            <Link href="mailto:mark@lupleg.website">
+            <Link href="mailto:mark@lupleg.org">
               <Button className="w-full sm:w-auto bg-green-950 hover:bg-green-950 text-white">
                 <Mail className="mr-2 h-4 w-4" />
-                mark@lupleg.website
+                mark@lupleg.org
               </Button>
             </Link>
           </div>
@@ -60,8 +60,8 @@ export default function Partner() {
               <p>
                 In order to fund this core team and these products we rely on
                 grant funding from companies or organisation that wish to
-                contribute to our vision of helping providing free programming
-                education for everyone.
+                contribute to our vision of helping providing some free programming
+                education for everyone while reserved other programs paid.
               </p>
             </div>
           </div>
