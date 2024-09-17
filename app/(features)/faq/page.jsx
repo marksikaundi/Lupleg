@@ -98,16 +98,16 @@ function FAQ() {
           <h3 className="text-center text-green-900">Helpdesk</h3>
           <p className="text-center text-black md:text-5xl text-3xl font-bold">
             Need some more help? <br />
-            Visit our help desk
+            Visit our help support
           </p>
         </div>
         <div className="bg-green-800 rounded-lg transition hover:-translate-y-1 w-max mx-auto group cursor-pointer">
           <div className="animated-border after:opacity-100 before:opacity-100 p-0.5 rounded-lg text-green-300 flex justify-center items-center">
             <a
-              className="bg-green-800 text-white text-lg font-bold py-4 px-8 cursor-pointer relative w-full rounded-lg group-hover:bg-green-700 z-10"
-              href="/#helpdesk"
+              className="bg-green-800 text-white text-lg font-bold py-2 px-8 cursor-pointer relative w-full rounded-lg group-hover:bg-green-700 z-10"
+              href="https://github.com/orgs/Lupleg/discussions/categories/q-a"
             >
-              Go to Help Desk
+              Go to Help Support
             </a>
           </div>
         </div>
