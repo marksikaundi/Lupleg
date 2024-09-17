@@ -29,7 +29,7 @@ export default function BottomSection() {
           </svg>
         </div>
         <h2 className="text-2xl font-bold text-green-900 sm:text-3xl">
-          Exercism is also supported by
+          Lupleg is also supported by
         </h2>
         <p className="text-4xl font-bold text-green-900 sm:text-5xl">
           4054 generous individuals
@@ -42,8 +42,8 @@ export default function BottomSection() {
             viewBox="0 0 64 16"
             fill="none"
           >
-            <path d="M0 8H64" stroke="#D1D5DB" strokeWidth="2" />
-            <path d="M28 1L32 8L36 1" stroke="#9333EA" strokeWidth="2" />
+            <path d="M0 8H64" stroke="#122E17" strokeWidth="2" />
+            <path d="M28 1L32 8L36 1" stroke="#122E17" strokeWidth="2" />
           </svg>
         </div>
         <Button variant="link" className="text-green-600 hover:text-green-800">
@@ -55,7 +55,7 @@ export default function BottomSection() {
       <Card className="p-6 flex flex-col sm:flex-row items-center justify-between space-y-4 sm:space-y-0 sm:space-x-4">
         <div className="flex items-center space-x-4">
           <img
-            alt="Profile picture"
+            alt="Mark Sikaundi"
             className="rounded-full"
             height="64"
             src="/mark.jpg"
@@ -74,10 +74,10 @@ export default function BottomSection() {
             </p>
           </div>
         </div>
-        <Link href="mailto:mark@lupleg.website">
+        <Link href="mailto:mark@lupleg.org">
           <Button className="w-full sm:w-auto bg-green-950 hover:bg-green-950 text-white">
             <Mail className="mr-2 h-4 w-4" />
-            mark@lupleg.website
+            mark@lupleg.org
           </Button>
         </Link>
       </Card>
