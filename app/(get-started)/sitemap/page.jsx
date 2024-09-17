@@ -26,7 +26,7 @@ export default function Sitemap() {
             <div className="mx-auto grid items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3">
               <div className="grid gap-1">
                 <h3 className="text-lg font-bold">
-                  <Link href="/digital-skills-training">
+                  <Link href="/programs">
                     {" "}
                     Digital Skills Training
                   </Link>
@@ -39,7 +39,7 @@ export default function Sitemap() {
               </div>
               <div className="grid gap-1">
                 <h3 className="text-lg font-bold">
-                  <Link href="/office-productivity-software">
+                  <Link href="/programs">
                     Office Productivity Softwares
                   </Link>
                 </h3>
@@ -51,7 +51,7 @@ export default function Sitemap() {
               </div>
               <div className="grid gap-1">
                 <h3 className="text-lg font-bold">
-                  <Link href="/master-your-freelance-hustle">
+                  <Link href="/programs">
                     Master Your Freelance Hustle
                   </Link>
                 </h3>
@@ -63,7 +63,7 @@ export default function Sitemap() {
               </div>
               <div className="grid gap-1">
                 <h3 className="text-lg font-bold">
-                  <Link href="/frontend-development">Frontend Development</Link>
+                  <Link href="/programs">Frontend Development</Link>
                 </h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   The Frontend Development Mentorship is a 3-month program that
@@ -72,7 +72,7 @@ export default function Sitemap() {
               </div>
               <div className="grid gap-1">
                 <h3 className="text-lg font-bold">
-                  <Link href="/backend-development">Backend Development</Link>
+                  <Link href="/programs">Backend Development</Link>
                 </h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   The Backend Development Mentorship is a 3-month program that
@@ -81,7 +81,7 @@ export default function Sitemap() {
               </div>
               <div className="grid gap-1">
                 <h3 className="text-lg font-bold">
-                  <Link href="/academy">Mastering React with JavaScript</Link>
+                  <Link href="/programs">Mastering React with JavaScript</Link>
                 </h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   Learn React from Facebook engineers. This course will take
@@ -98,7 +98,7 @@ export default function Sitemap() {
                 Contact Sales
               </Link>
               <Link
-                href="https://app.lupleg.website/dashboard"
+                href="https://lab.lupleg.org"
                 className="inline-flex h-10 items-center justify-center rounded-md border border-gray-200 bg-white px-8 text-sm font-medium shadow-sm transition-colors hover:bg-green-900 hover:text-white focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
                 prefetch={false}
               >
