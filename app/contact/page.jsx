@@ -41,7 +41,10 @@ export default function Contact() {
                   placeholder="Enter your message"
                 />
               </div>
-              <Button className="w-full sm:w-auto bg-[#F3A833] hover:bg-[#F3A833] " type="submit">
+              <Button
+                className="w-full sm:w-auto bg-[#F3A833] hover:bg-[#F3A833] "
+                type="submit"
+              >
                 Submit
               </Button>
             </form>
@@ -79,20 +82,12 @@ export default function Contact() {
                 <div className="space-y-1">
                   <h3 className="font-semibold">Email</h3>
                   <p className="text-gray-500 dark:text-gray-400">
-                    dev@lupleg.website
+                    support@lupleg.org
                   </p>
                 </div>
               </div>
             </div>
-            <div className="rounded-lg border border-gray-200 dark:border-gray-800">
-              {/* <img
-                alt="Map"
-                className="aspect-[2/1] w-full rounded-lg object-cover"
-                height="400"
-                src="/placeholder.svg"
-                width="800"
-              /> */}
-            </div>
+            <div className="rounded-lg border border-gray-200 dark:border-gray-800"></div>
           </div>
         </div>
       </section>
