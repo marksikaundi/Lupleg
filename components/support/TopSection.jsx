@@ -21,10 +21,10 @@ export default function TopSection() {
       </div>
       
       <div className="flex flex-wrap justify-center items-center gap-8 mb-12">
-        <Image src="/mark.jpg" alt="Mozilla" width={150} height={50} className="h-8 md:h-12 w-auto" />
-        <Image src="/mark.jpg" alt="Packt" width={150} height={50} className="h-8 md:h-12 w-auto" />
-        <Image src="/mark.jpg" alt="Codiga" width={80} height={50} className="h-12 md:h-16 w-auto" />
-        <Image src="/mark.jpg" alt="The University of Chicago" width={200} height={50} className="h-8 md:h-12 w-auto" />
+        <Image src="/supports/devc.webp" alt="DevCircle Africa" width={150} height={50} className="h-8 md:h-12 w-auto" />
+        <Image src="/supports/vercel.jpg" alt="Vercel" width={150} height={50} className="h-8 md:h-12 w-auto" />
+        <Image src="/supports/hostinger.svg" alt="Hostinger" width={80} height={50} className="h-12 md:h-16 w-auto" />
+        <Image src="/supports/github.png" alt="Github" width={200} height={50} className="h-8 md:h-12 w-auto" />
       </div>
       
       
