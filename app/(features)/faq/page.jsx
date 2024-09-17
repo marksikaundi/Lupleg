@@ -104,7 +104,7 @@ function FAQ() {
         <div className="bg-green-800 rounded-lg transition hover:-translate-y-1 w-max mx-auto group cursor-pointer">
           <div className="animated-border after:opacity-100 before:opacity-100 p-0.5 rounded-lg text-green-300 flex justify-center items-center">
             <a
-              className="bg-green-800 text-white text-lg font-bold py-4 px-8 cursor-pointer relative w-full rounded-lg group-hover:bg-green-700 z-10"
+              className="bg-green-800 text-white text-lg font-bold py-2 px-8 cursor-pointer relative w-full rounded-lg group-hover:bg-green-700 z-10"
               href="https://github.com/orgs/Lupleg/discussions/categories/q-a"
             >
               Go to Help Support
