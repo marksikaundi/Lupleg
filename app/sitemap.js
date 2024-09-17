@@ -1,37 +1,37 @@
 export default function sitemap() {
   return [
     {
-      url: "https://www.lupleg.website/mentorships",
+      url: "https://www.lupleg.org",
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 1,
     },
     {
-      url: "https://www.lupleg.website/master-your-freelance-hustle",
+      url: "https://www.lupleg.org/challenges/frontend",
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 1.5,
     },
     {
-      url: "https://www.lupleg.website/office-productivity-software",
+      url: "https://www.lupleg.org/programs",
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 2,
     },
     {
-      url: "https://www.lupleg.website/office-productivity-software",
+      url: "https://www.lupleg.org/resources/machine-learning",
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 2.5,
     },
     {
-      url: "https://www.lupleg.website/frontend-development",
+      url: "https://www.lupleg.org/blogs",
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 3,
     },
     {
-      url: "https://www.lupleg.website/backend-development",
+      url: "https://www.lupleg.org/affiliates",
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 3.5,
