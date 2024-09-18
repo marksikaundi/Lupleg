@@ -12,7 +12,6 @@ import { ArrowRight, Code2 } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 import FrontendHero from "@/components/sections/FrontendHero";
-import { FaArrowDownLong } from "react-icons/fa6";
 
 const challenges = [
   {
@@ -62,6 +61,14 @@ const challenges = [
     difficulty: "Intermediate",
     image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
     link: "/challenges/frontend/video-player",
+  },
+  {
+    title: "Pay Card Form",
+    description:
+      "Create a credit card form with card number, expiry date, and CVC code.",
+    difficulty: "Advanced",
+    image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
+    link: "/challenges/frontend/pay",
   },
 ];
 
