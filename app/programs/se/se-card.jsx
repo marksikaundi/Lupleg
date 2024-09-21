@@ -87,7 +87,7 @@ export default function SeCard() {
           <CardContent className="p-4 sm:p-6">
             <div className="flex flex-col sm:flex-row items-center">
               <img
-                src="/ts.webp"
+                src="/frontend/db.png"
                 alt="TypeScript logo with glowing effect"
                 className="mb-4 sm:mb-0 sm:mr-6 w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32"
                 width={120}
@@ -110,7 +110,7 @@ export default function SeCard() {
                   started with the Database Development Program today.
                 </p>
                 <div className="flex justify-center sm:justify-start">
-                  <Link href="/programs/typescript/beginners-typescript">
+                  <Link href="/programs/se/databases">
                     <Button variant="secondary" size="sm">
                       View →
                     </Button>
