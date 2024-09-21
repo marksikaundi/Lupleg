@@ -79,7 +79,13 @@ export default function Pay() {
 
       <h2 className="text-2xl font-bold text-gray-900 my-6">Note:</h2>
       <p className="text-gray-700 mb-8">
-        This Credit Card Form 
+        This challenge is designed to test your skills in building a credit card
+        form with input validation and error handling. You will use React hooks
+        to manage the form state and handle form submission. The form should be
+        responsive and work on all screen sizes. The form should include a
+        submit button that displays a success message when the form is submitted
+        successfully. Feel free to customize the design and functionality to
+        suit your needs
         
       </p>
 
