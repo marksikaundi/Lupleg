@@ -96,7 +96,7 @@ export default function Component() {
       </nav>
       <div className="flex items-center space-x-4">
         <Link
-          href="https://lab.lupleg.website/sign-in"
+          href="https://lab.lupleg.org/sign-in"
           className="hidden md:block"
         >
           <Button className="bg-green-950 hover:bg-green-950 text-white">
@@ -145,7 +145,7 @@ export default function Component() {
                   </AccordionItem>
                 ))}
               </Accordion>
-              <Link href="https://lab.lupleg.website/sign-in">
+              <Link href="https://lab.lupleg.org/sign-in">
                 <Button
                   className="w-full bg-green-950 hover:bg-green-950 text-white"
                   onClick={handleLinkClick}
