@@ -51,7 +51,7 @@ export default function Contributing() {
               <span>Getting Started</span>
             </button>
           </Link>
-          <Link href="#">
+          <Link href="/contributing/tasks">
             <button className="flex items-center space-x-2 text-gray-600 font-semibold">
               <FileText size={20} />
               <span>Explore tasks</span>
@@ -61,7 +61,7 @@ export default function Contributing() {
             </button>
           </Link>
 
-          <Link href="#">
+          <Link href="#contri">
             <button className="flex items-center space-x-2 text-gray-600 font-semibold">
               <Users size={20} />
               <span>Contributors</span>
@@ -71,7 +71,7 @@ export default function Contributing() {
             </button>
           </Link>
 
-          <Link href="#">
+          <Link href="https://github.com/lupleg">
             <button className="flex items-center space-x-2 text-gray-600 font-semibold">
               <HelpCircle size={20} />
               <span>Contributing Help</span>
