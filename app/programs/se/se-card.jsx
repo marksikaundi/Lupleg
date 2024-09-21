@@ -103,7 +103,7 @@ export default function SeCard() {
                   </span>
                 </div>
                 <p className="text-green-400 text-sm mb-3 text-center sm:text-left">
-                  18 EXERCISES
+                  02 Modules
                 </p>
                 <p className="text-sm text-gray-300 mb-4 text-center sm:text-left">
                   Learn how to build database applications with MongoDB. Get

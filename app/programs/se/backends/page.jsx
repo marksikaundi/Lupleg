@@ -140,38 +140,28 @@ export default function Backend() {
                   </div>
                 </div>
                 <div className="mt-4 flex justify-between items-center">
-                  <span>
-                    <span>Database</span>
-                  </span>
+                  <span>Database</span>
+                  <ChevronDown className="w-5 h-5" />
+                </div>
+                <div className="mt-4 flex justify-between items-center">
+                  <span>Authentication</span>
+                  <ChevronDown className="w-5 h-5" />
+                </div>
+                <div className="mt-4 flex justify-between items-center">
+                  <span>Authorization</span>
+                  <ChevronDown className="w-5 h-5" />
+                </div>
+                <div className="mt-4 flex justify-between items-center">
+                  <span>CD/CI</span>
+                  <ChevronDown className="w-5 h-5" />
+                </div>
+                <div className="mt-4 flex justify-between items-center">
+                  <span>Testing</span>
                   <ChevronDown className="w-5 h-5" />
                 </div>
                 <div className="mt-4 flex justify-between items-center">
                   <span>
-                    <span>Authentication</span>
-                  </span>
-                  <ChevronDown className="w-5 h-5" />
-                </div>
-                <div className="mt-4 flex justify-between items-center">
-                  <span>
-                    <span>Authorization</span>
-                  </span>
-                  <ChevronDown className="w-5 h-5" />
-                </div>
-                <div className="mt-4 flex justify-between items-center">
-                  <span>
-                    <span>CD/CI</span>
-                  </span>
-                  <ChevronDown className="w-5 h-5" />
-                </div>
-                <div className="mt-4 flex justify-between items-center">
-                  <span>
-                    <span>Testing</span>
-                  </span>
-                  <ChevronDown className="w-5 h-5" />
-                </div>
-                <div className="mt-4 flex justify-between items-center">
-                  <span>
-                    <span>Deployment</span>
+                  Deployment
                   </span>
                   <ChevronDown className="w-5 h-5" />
                 </div>
