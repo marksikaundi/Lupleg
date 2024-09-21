@@ -10,8 +10,8 @@ export default function SeCard() {
           <CardContent className="p-4 sm:p-6">
             <div className="flex flex-col sm:flex-row items-center">
               <img
-                src="/frontend/component.svg"
-                alt="Frontend Development"
+                src="/frontend/html.svg"
+                alt="Frontend Development logo"
                 className="mb-4 sm:mb-0 sm:mr-6 w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32"
                 width={120}
                 height={120}
@@ -49,8 +49,8 @@ export default function SeCard() {
           <CardContent className="p-4 sm:p-6">
             <div className="flex flex-col sm:flex-row items-center">
               <img
-                src="/ts.webp"
-                alt="TypeScript logo with glowing effect"
+                src="/frontend/server.svg"
+                alt="Backend Development with Node.js"
                 className="mb-4 sm:mb-0 sm:mr-6 w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32"
                 width={120}
                 height={120}
@@ -65,7 +65,7 @@ export default function SeCard() {
                   </span>
                 </div>
                 <p className="text-green-400 text-sm mb-3 text-center sm:text-left">
-                  21 EXERCISES
+                  04 Modules
                 </p>
                 <p className="text-sm text-gray-300 mb-4 text-center sm:text-left">
                   Learn how to build backend applications with Node.js. Get

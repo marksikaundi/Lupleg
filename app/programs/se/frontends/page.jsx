@@ -53,7 +53,7 @@ export default function Frontend() {
               </div>
               <div className="hidden md:block">
                 <Image
-                  src="/frontend/component.svg"
+                  src="/frontend/html.svg"
                   alt="Frontend Development"
                   width={300}
                   height={300}
@@ -132,12 +132,12 @@ export default function Frontend() {
                     <ChevronDown className="w-5 h-5" />
                   </div>
                   <div className="pl-4 space-y-2 text-gray-400">
-                    <p>1. What is TypeScript?</p>
-                    <p>2. Why use TypeScript with React?</p>
-                    <p>3. Adding React to a TypeScript Project</p>
-                    <p>4. TypeScript in React Frameworks</p>
+                    <p>1. What is JavaScript?</p>
+                    <p>2. Why use JavaScript with React?</p>
+                    <p>3. Adding React to a JavaScript Project</p>
+                    <p>4. JavaScript in React Frameworks</p>
                     <p>5. Navigating JSX Types</p>
-                    <p>6. TypeScript and React Hooks</p>
+                    <p>6. JavaScript and React Hooks</p>
                   </div>
                 </div>
                 <div className="mt-4 flex justify-between items-center">
