@@ -1,6 +1,7 @@
-import { Users, FileText, HelpCircle } from "lucide-react"
-import GetStarted from "@/components/contribute/GetStarted"
-import ExploreTasks from "@/components/contribute/ExploreTasks"
+import { Users, FileText, HelpCircle } from "lucide-react";
+import GetStarted from "@/components/contribute/GetStarted";
+import ExploreTasks from "@/components/contribute/ExploreTasks";
+import Link from "next/link";
 
 export default function Contributing() {
   return (
@@ -23,9 +24,15 @@ export default function Contributing() {
               Let's build the best coding education platform, together
             </h1>
             <p className="text-gray-600 mb-4">
-              Lupleg is an <span className="text-green-600">open source, not-for-profit project</span> built by people from all backgrounds.
-              With over one hundred dedicated maintainers and thousands of contributors, our goal is
-              to create the best, free, code learning platform on the web.
+              Lupleg is a{" "}
+              <span className="text-green-600">
+                platform entirely developed, to help
+              </span>{" "}
+              people from all backgrounds with Tech skills. With over one
+              hundred dedicated maintainers and thousands of contributors, our
+              goal is to create the best, affordable, code learning platform on
+              the web. All of our code is open source and we love to have you
+              help us build it.
             </p>
           </div>
           <div className="md:w-1/2 flex justify-center">
@@ -38,24 +45,38 @@ export default function Contributing() {
         </div>
 
         <nav className="flex flex-wrap justify-between items-center border-b border-gray-200 pb-4 mb-8">
-          <button className="flex items-center space-x-2 text-green-600 font-semibold pb-4 border-b-2 border-green-600">
-            <FileText size={20} />
-            <span>Getting Started</span>
-          </button>
-          <button className="flex items-center space-x-2 text-gray-600 font-semibold">
-            <FileText size={20} />
-            <span>Explore tasks</span>
-            <span className="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-xs">425</span>
-          </button>
-          <button className="flex items-center space-x-2 text-gray-600 font-semibold">
-            <Users size={20} />
-            <span>Contributors</span>
-            <span className="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-xs">14,811</span>
-          </button>
-          <button className="flex items-center space-x-2 text-gray-600 font-semibold">
-            <HelpCircle size={20} />
-            <span>Contributing Help</span>
-          </button>
+          <Link href="#">
+            <button className="flex items-center space-x-2 text-green-600 font-semibold pb-4 border-b-2 border-green-600">
+              <FileText size={20} />
+              <span>Getting Started</span>
+            </button>
+          </Link>
+          <Link href="#">
+            <button className="flex items-center space-x-2 text-gray-600 font-semibold">
+              <FileText size={20} />
+              <span>Explore tasks</span>
+              <span className="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-xs">
+                425
+              </span>
+            </button>
+          </Link>
+
+          <Link href="#">
+            <button className="flex items-center space-x-2 text-gray-600 font-semibold">
+              <Users size={20} />
+              <span>Contributors</span>
+              <span className="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-xs">
+                14,811
+              </span>
+            </button>
+          </Link>
+
+          <Link href="#">
+            <button className="flex items-center space-x-2 text-gray-600 font-semibold">
+              <HelpCircle size={20} />
+              <span>Contributing Help</span>
+            </button>
+          </Link>
         </nav>
 
         <section>
@@ -64,13 +85,19 @@ export default function Contributing() {
           </h2>
           <div className="flex justify-center">
             <svg viewBox="0 0 100 20" className="w-24">
-              <path d="M0 10 Q25 20 50 10 T100 10" fill="none" stroke="currentColor" strokeWidth="2" className="text-purple-600" />
+              <path
+                d="M0 10 Q25 20 50 10 T100 10"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                className="text-purple-600"
+              />
             </svg>
           </div>
         </section>
       </main>
-      <GetStarted/>
-      <ExploreTasks/>
+      <GetStarted />
+      <ExploreTasks />
     </div>
-  )
+  );
 }
