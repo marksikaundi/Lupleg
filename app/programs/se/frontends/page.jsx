@@ -15,13 +15,13 @@ export default function Frontend() {
             <div className="absolute inset-0 bg-gradient-to-b from-transparent to-gray-900"></div>
           </div>
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
-            <a
-              href="/se"
+            <Link
+              href="/programs/se"
               className="inline-flex items-center text-sm text-green-400 mb-6"
             >
               <ArrowLeft className="w-4 h-4 mr-2" />
               All Programs
-            </a>
+            </Link>
             <div className="md:flex md:justify-between md:items-center">
               <div>
                 <h1 className="text-4xl md:text-5xl font-bold mb-4">
@@ -185,7 +185,7 @@ export default function Frontend() {
           </div>
         </div>
       </div>
-      <FAQCard/>
+      <FAQCard />
     </div>
   );
 }

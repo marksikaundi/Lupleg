@@ -10,8 +10,8 @@ export default function SeCard() {
           <CardContent className="p-4 sm:p-6">
             <div className="flex flex-col sm:flex-row items-center">
               <img
-                src="/ts.webp"
-                alt="TypeScript logo with glowing effect"
+                src="/frontend/component.svg"
+                alt="Frontend Development"
                 className="mb-4 sm:mb-0 sm:mr-6 w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32"
                 width={120}
                 height={120}
@@ -26,7 +26,7 @@ export default function SeCard() {
                   </span>
                 </div>
                 <p className="text-green-400 text-sm mb-3 text-center sm:text-left">
-                  10 EXERCISES
+                  06 Modules
                 </p>
                 <p className="text-sm text-gray-300 mb-4 text-center sm:text-left">
                   Learn the basics to advanced of frontend development with our
