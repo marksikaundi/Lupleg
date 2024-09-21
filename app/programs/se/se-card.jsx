@@ -10,8 +10,8 @@ export default function SeCard() {
           <CardContent className="p-4 sm:p-6">
             <div className="flex flex-col sm:flex-row items-center">
               <img
-                src="/ts.webp"
-                alt="TypeScript logo with glowing effect"
+                src="/frontend/html.svg"
+                alt="Frontend Development logo"
                 className="mb-4 sm:mb-0 sm:mr-6 w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32"
                 width={120}
                 height={120}
@@ -26,7 +26,7 @@ export default function SeCard() {
                   </span>
                 </div>
                 <p className="text-green-400 text-sm mb-3 text-center sm:text-left">
-                  10 EXERCISES
+                  06 Modules
                 </p>
                 <p className="text-sm text-gray-300 mb-4 text-center sm:text-left">
                   Learn the basics to advanced of frontend development with our
@@ -49,8 +49,8 @@ export default function SeCard() {
           <CardContent className="p-4 sm:p-6">
             <div className="flex flex-col sm:flex-row items-center">
               <img
-                src="/ts.webp"
-                alt="TypeScript logo with glowing effect"
+                src="/frontend/server.svg"
+                alt="Backend Development with Node.js"
                 className="mb-4 sm:mb-0 sm:mr-6 w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32"
                 width={120}
                 height={120}
@@ -65,7 +65,7 @@ export default function SeCard() {
                   </span>
                 </div>
                 <p className="text-green-400 text-sm mb-3 text-center sm:text-left">
-                  21 EXERCISES
+                  04 Modules
                 </p>
                 <p className="text-sm text-gray-300 mb-4 text-center sm:text-left">
                   Learn how to build backend applications with Node.js. Get
@@ -87,7 +87,7 @@ export default function SeCard() {
           <CardContent className="p-4 sm:p-6">
             <div className="flex flex-col sm:flex-row items-center">
               <img
-                src="/ts.webp"
+                src="/frontend/db.png"
                 alt="TypeScript logo with glowing effect"
                 className="mb-4 sm:mb-0 sm:mr-6 w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32"
                 width={120}
@@ -103,14 +103,14 @@ export default function SeCard() {
                   </span>
                 </div>
                 <p className="text-green-400 text-sm mb-3 text-center sm:text-left">
-                  18 EXERCISES
+                  02 Modules
                 </p>
                 <p className="text-sm text-gray-300 mb-4 text-center sm:text-left">
                   Learn how to build database applications with MongoDB. Get
                   started with the Database Development Program today.
                 </p>
                 <div className="flex justify-center sm:justify-start">
-                  <Link href="/programs/typescript/beginners-typescript">
+                  <Link href="/programs/se/databases">
                     <Button variant="secondary" size="sm">
                       View →
                     </Button>
@@ -125,8 +125,8 @@ export default function SeCard() {
           <CardContent className="p-4 sm:p-6">
             <div className="flex flex-col sm:flex-row items-center">
               <img
-                src="/ts.webp"
-                alt="TypeScript logo with glowing effect"
+                src="/frontend/cloud.svg"
+                alt="DevOps for Beginners"
                 className="mb-4 sm:mb-0 sm:mr-6 w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32"
                 width={120}
                 height={120}
@@ -134,14 +134,14 @@ export default function SeCard() {
               <div>
                 <div className="flex flex-col sm:flex-row items-center sm:items-start mb-2">
                   <h2 className="text-xl sm:text-2xl text-white font-bold mb-2 sm:mb-0 sm:mr-3 text-center sm:text-left">
-                    DevOps with AWS
+                    DevOps for Beginners
                   </h2>
                   <span className="bg-green-500 text-black text-xs font-bold px-2 py-1 rounded">
                     NEW
                   </span>
                 </div>
                 <p className="text-green-400 text-sm mb-3 text-center sm:text-left">
-                  10 EXERCISES
+                  04 Modules
                 </p>
                 <p className="text-sm text-gray-300 mb-4 text-center sm:text-left">
                   Learn how to build DevOps applications with AWS. Get started

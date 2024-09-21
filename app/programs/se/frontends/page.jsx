@@ -15,13 +15,13 @@ export default function Frontend() {
             <div className="absolute inset-0 bg-gradient-to-b from-transparent to-gray-900"></div>
           </div>
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
-            <a
-              href="/se"
+            <Link
+              href="/programs/se"
               className="inline-flex items-center text-sm text-green-400 mb-6"
             >
               <ArrowLeft className="w-4 h-4 mr-2" />
               All Programs
-            </a>
+            </Link>
             <div className="md:flex md:justify-between md:items-center">
               <div>
                 <h1 className="text-4xl md:text-5xl font-bold mb-4">
@@ -53,7 +53,7 @@ export default function Frontend() {
               </div>
               <div className="hidden md:block">
                 <Image
-                  src="/frontend/component.svg"
+                  src="/frontend/html.svg"
                   alt="Frontend Development"
                   width={300}
                   height={300}
@@ -132,12 +132,12 @@ export default function Frontend() {
                     <ChevronDown className="w-5 h-5" />
                   </div>
                   <div className="pl-4 space-y-2 text-gray-400">
-                    <p>1. What is TypeScript?</p>
-                    <p>2. Why use TypeScript with React?</p>
-                    <p>3. Adding React to a TypeScript Project</p>
-                    <p>4. TypeScript in React Frameworks</p>
+                    <p>1. What is JavaScript?</p>
+                    <p>2. Why use JavaScript with React?</p>
+                    <p>3. Adding React to a JavaScript Project</p>
+                    <p>4. JavaScript in React Frameworks</p>
                     <p>5. Navigating JSX Types</p>
-                    <p>6. TypeScript and React Hooks</p>
+                    <p>6. JavaScript and React Hooks</p>
                   </div>
                 </div>
                 <div className="mt-4 flex justify-between items-center">
@@ -185,7 +185,7 @@ export default function Frontend() {
           </div>
         </div>
       </div>
-      <FAQCard/>
+      <FAQCard />
     </div>
   );
 }
