@@ -5,6 +5,7 @@ import DemoView from "@/components/NewHero/DemoView";
 import Head from "@/components/Head";
 import New from "@/components/NewHero/New";
 import Programming from "@/components/HeroCards/Programming";
+// import CardChallenge from "@/components/challenges/CardChallenge";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <New />
       <Programming/>
       <Head />
+      {/* <CardChallenge /> */}
       <WelcomeHero />
       <WhatWeDo />
       <DemoView />
