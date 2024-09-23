@@ -30,7 +30,7 @@ export default function Component() {
               <div className="flex justify-between items-start">
                 <div>
                   <h2 className="text-lg font-bold mb-2">
-                    Bring LeetCode to Your School
+                    Bring Lupleg to Your School
                   </h2>
                   <p className="text-sm mb-2">$60 OFF Annual</p>
                 </div>
@@ -44,7 +44,7 @@ export default function Component() {
           <Card className="bg-green-600 text-white">
             <CardContent className="p-4">
               <h2 className="text-xl font-bold mb-2">
-                LeetCode's Interview Crash Course:
+                Lupleg's Interview Crash Course:
               </h2>
               <p className="text-sm mb-4">
                 System Design for Interviews and Beyond
@@ -57,7 +57,7 @@ export default function Component() {
           <Card className="bg-purple-600 text-white">
             <CardContent className="p-4">
               <h2 className="text-xl font-bold mb-2">
-                LeetCode's Interview Crash Course:
+                Lupleg's Interview Crash Course:
               </h2>
               <p className="text-sm mb-4">Data Structures and Algorithms</p>
               <Button variant="secondary" size="sm">
