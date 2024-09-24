@@ -5,13 +5,9 @@ import { Card, CardContent } from "@/components/ui/card";
 import {
   ChevronLeft,
   ChevronRight,
-  Code,
-  Database,
-  GitBranch,
-  Terminal,
 } from "lucide-react";
 
-export default function Component() {
+export default function Problemsets() {
   return (
     <div>
       <div className="bg-[#0A0A1B] text-white min-h-screen p-6">
