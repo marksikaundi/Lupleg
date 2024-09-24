@@ -81,11 +81,11 @@ export default function PMCard() {
                 <CardTitle className="text-sm sm:text-base font-semibold">
                   {course.title}
                 </CardTitle>
-                <CardDescription className="text-xs sm:text-sm text-gray-300">
+                <CardDescription className="text-xs sm:text-sm mb-6 text-gray-300">
                   {course.description}
                 </CardDescription>
-                <div className="mt-6">
-                  <Button>Learn more {course.link}</Button>
+                <div className="mt-6 ">
+                  <Button className="bg-white hover:bg-white text-green-950">Learn more {course.link}</Button>
                 </div>
               </div>
             </CardHeader>
