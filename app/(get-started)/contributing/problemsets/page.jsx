@@ -2,25 +2,12 @@ import PMCard from "@/components/sections/PMCard";
 import PMQcard from "@/components/sections/PMQcard";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import {
-  ChevronLeft,
-  ChevronRight,
-} from "lucide-react";
 
 export default function Problemsets() {
   return (
     <div>
       <div className="bg-[#0A0A1B] text-white min-h-screen p-6">
-        <div className="flex justify-end space-x-2 mb-4">
-          <Button variant="ghost" size="icon">
-            <ChevronLeft className="h-4 w-4" />
-          </Button>
-          <Button variant="ghost" size="icon">
-            <ChevronRight className="h-4 w-4" />
-          </Button>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-8">
           <Card className="bg-gradient-to-r from-yellow-700 to-yellow-600 text-white">
             <CardContent className="p-4">
               <div className="flex justify-between items-start">
