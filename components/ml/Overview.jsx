@@ -40,7 +40,7 @@ export default function LatestNews() {
       <div className="flex justify-between items-center mb-6">
         <h2 className="text-3xl font-bold">Latest news</h2>
         <Link href="#/all-posts" className="text-green-600 hover:underline">
-          View all posts
+          View all
         </Link>
       </div>
       <p className="text-gray-600 mb-8">
@@ -63,7 +63,7 @@ export default function LatestNews() {
               <p className="text-sm font-semibold text-gray-600 mb-2">
                 {item.category}
               </p>
-              <h3 className="text-xl font-bold mb-2 text-green-950">{item.title}</h3>
+              <h3 className="text-xl mb-2 text-black">{item.title}</h3>
               <p className="text-gray-600 mb-4">{item.description}</p>
               <div className="flex justify-between items-center">
                 <p className="text-sm text-gray-500">{item.date}</p>
