@@ -20,7 +20,8 @@ export default function Blogs() {
       category: "Guides",
       date: "Aug 22, 2024",
       authors: [{ name: "Mark Sikaundi", avatar: "/mark.jpg" }],
-      image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
+      image:
+        "https://utfs.io/f/7VIvQ6butVFYMLEIhAUWpDyXQwsIS92qUJ0HGmONublYKPz7",
       link: "/blogs/articles/comparison-between-homegrown-and-pre-built-solutions",
     },
     {
@@ -31,7 +32,8 @@ export default function Blogs() {
       category: "Technology",
       date: "Aug 21, 2024",
       authors: [{ name: "Mark Sikaundi", avatar: "/mark.jpg" }],
-      image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
+      image:
+        "https://utfs.io/f/7VIvQ6butVFYMLEIhAUWpDyXQwsIS92qUJ0HGmONublYKPz7",
       link: "/blogs/articles/the-future-of-ai-in-web-development",
     },
     {
@@ -42,7 +44,8 @@ export default function Blogs() {
       category: "Development",
       date: "Aug 15, 2024",
       authors: [{ name: "Mark Sikaundi", avatar: "/mark.jpg" }],
-      image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
+      image:
+        "https://utfs.io/f/7VIvQ6butVFYMLEIhAUWpDyXQwsIS92qUJ0HGmONublYKPz7",
       link: "/blogs/articles/optimizing-react-performance",
     },
     {
@@ -53,7 +56,8 @@ export default function Blogs() {
       category: "Cloud",
       date: "Aug 10, 2024",
       authors: [{ name: "Mark Sikaundi", avatar: "/mark.jpg" }],
-      image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
+      image:
+        "https://utfs.io/f/7VIvQ6butVFYMLEIhAUWpDyXQwsIS92qUJ0HGmONublYKPz7",
       link: "/blogs/articles/the-rise-of-serverless-architecture",
     },
     {
@@ -64,7 +68,8 @@ export default function Blogs() {
       category: "Design",
       date: "Aug 5, 2024",
       authors: [{ name: "Mark Sikaundi", avatar: "/mark.jpg" }],
-      image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
+      image:
+        "https://utfs.io/f/7VIvQ6butVFYMLEIhAUWpDyXQwsIS92qUJ0HGmONublYKPz7",
       link: "/blogs/articles/accessibility-in-web-design",
     },
     {
@@ -75,7 +80,8 @@ export default function Blogs() {
       category: "Business",
       date: "Aug 1, 2024",
       authors: [{ name: "Mark Sikaundi", avatar: "/mark.jpg" }],
-      image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
+      image:
+        "https://utfs.io/f/7VIvQ6butVFYMLEIhAUWpDyXQwsIS92qUJ0HGmONublYKPz7",
       link: "/blogs/articles/the-state-of-remote-work",
     },
   ];
@@ -108,7 +114,7 @@ export default function Blogs() {
               src={post.image}
               alt={post.title}
               width={800}
-              height={400}
+              height={700}
               className="object-cover w-full h-48"
             />
             <CardHeader>

@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { ChevronRight, Dumbbell, HashIcon } from "lucide-react";
+import { ChevronRight, HashIcon } from "lucide-react";
 import WhyMentorship from "./WhyMentorship";
 
 const languages = [
@@ -23,7 +23,7 @@ export default function Programming() {
     <div className="container mx-auto px-4 py-12">
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold my-4">Explore and get fluent in</h1>
-        <h2 className="text-3xl font-bold mb-6">71 programming languages</h2>
+        <h2 className="text-3xl font-bold mb-6">12 programming languages</h2>
         <div className="flex justify-center">
           <svg className="w-24 h-6" viewBox="0 0 100 20">
             <path
@@ -52,7 +52,7 @@ export default function Programming() {
 
       <div className="flex justify-center mt-12">
         <Button variant="outline" className="text-primary">
-          See all 71 Language Tracks
+          See all 12 Language Tracks
           <ChevronRight className="ml-2 h-4 w-4" />
         </Button>
       </div>
