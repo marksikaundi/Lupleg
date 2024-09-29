@@ -29,7 +29,7 @@ export default function Blogs() {
       excerpt:
         "Artificial Intelligence is revolutionizing the way we approach web development. From automated coding assistants to intelligent design systems, AI is reshaping the landscape of web creation. This post explores the current state of AI in web development and predicts future trends.",
       category: "Technology",
-      date: "Aug 18, 2024",
+      date: "Aug 21, 2024",
       authors: [{ name: "Mark Sikaundi", avatar: "/mark.jpg" }],
       image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
       link: "/blogs/articles/the-future-of-ai-in-web-development",
