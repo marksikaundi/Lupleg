@@ -20,7 +20,7 @@ export default function New() {
             <span className="whitespace-nowrap">Beta 1.1</span>
             <div className="hidden sm:block w-px h-4 bg-green-500"></div>
             <Link
-              href="https://app.lupleg.website"
+              href="https://lab.lupleg.org"
               className="flex items-center hover:underline whitespace-nowrap"
             >
               <span className="sm:hidden">Public Beta</span>
@@ -45,7 +45,7 @@ export default function New() {
 
         <div className="flex flex-col items-center space-y-4">
           <Link
-            href="/all-mentorships"
+            href="/programs"
             className="bg-white text-green-950 font-semibold px-6 sm:px-8 py-2 sm:py-3 rounded-full text-base sm:text-lg hover:bg-purple-100 transition duration-300"
           >
             Get Started
