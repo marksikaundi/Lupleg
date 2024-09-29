@@ -10,7 +10,6 @@ export default function Home() {
     <div className="bg-[#FFFFFF]">
       <New />
       <Programming />
-
       <WelcomeHero />
       <WhatWeDo />
       <DemoView />

@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { ChevronRight, Dumbbell, HashIcon } from "lucide-react";
+import { ChevronRight, HashIcon } from "lucide-react";
 import WhyMentorship from "./WhyMentorship";
 
 const languages = [
