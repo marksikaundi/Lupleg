@@ -18,7 +18,7 @@ export default function CodeEditor() {
   </head>
   <body class="bg-purple-100 flex justify-center items-center min-h-screen">
     <div class="bg-white text-[#181028] p-8 space-y-6 shadow-lg rounded-xl max-w-md md:max-w-lg">
-      <img class="w-44" src="https://icodethis.com/images/logo.svg" alt="Lupleg logo" />
+      <img class="w-44" src="https://www.lupleg.org/lupleg.svg alt="Lupleg logo" />
       <p class="text-lg">Welcome to the <strong>FREE</strong> editor!</p>
       <p class="flex gap-2 font-medium text-lg">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" strokeWidth="3" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -43,7 +43,7 @@ body {
   `);
   const [jsCode, setJsCode] = useState(`
 // Add your JavaScript here
-console.log('Hello from iCodeThis!');
+console.log('Hello from Lupleg!');
   `);
   const [output, setOutput] = useState("");
   const [layout, setLayout] = useState('triple');
@@ -278,7 +278,7 @@ console.log('Hello from iCodeThis!');
     <div className="h-screen flex flex-col bg-[#1e1e1e] text-white">
       <header className="flex items-center justify-between p-4 bg-[#2d2d2d]">
         {/* <div className="flex items-center space-x-4">
-          <img src="https://icodethis.com/images/logo.svg" alt="iCodeThis logo" className="h-8" />
+          <img src="https://www.lupleg.org/lupleg.svg alt="Lupleg logo" className="h-8" />
           <h1 className="text-xl font-bold">Lupleg Editor</h1>
         </div> */}
         {/* <div className="hidden md:flex space-x-2">
