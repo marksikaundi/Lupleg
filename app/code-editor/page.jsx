@@ -18,7 +18,7 @@ export default function CodeEditor() {
   </head>
   <body class="bg-purple-100 flex justify-center items-center min-h-screen">
     <div class="bg-white text-[#181028] p-8 space-y-6 shadow-lg rounded-xl max-w-md md:max-w-lg">
-      <img class="w-44" src="https://www.lupleg.org/lupleg.svg alt="Lupleg logo" />
+      <img class="w-44" src="https://www.lupleg.org/lupleg.svg" alt="Lupleg logo" />
       <p class="text-lg">Welcome to the <strong>FREE</strong> editor!</p>
       <p class="flex gap-2 font-medium text-lg">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" strokeWidth="3" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
