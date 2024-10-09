@@ -25,7 +25,7 @@ const footerData = [
   {
     title: "Resources",
     links: [
-      { name: "Web Editor", path: "/code-editor" },
+      { name: "Web Editor", path: "https://web.lupleg.org" },
       { name: "Sitemap", path: "/sitemap" },
       { name: "Quize", path: "https://play.lupleg.org" },
       { name: "Templates", path: "https://pro.lupleg.org" },
