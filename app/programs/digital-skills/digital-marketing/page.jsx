@@ -2,8 +2,14 @@ import { Button } from "@/components/ui/button";
 import { ChevronDown, Lock, ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaGithub } from "react-icons/fa6";
+import {
+  FaCreativeCommonsNcEu,
+  FaGithub,
+  FaSimplybuilt,
+  FaTeamspeak,
+} from "react-icons/fa6";
 import FAQCard from "../faq-card";
+import { MdCardMembership } from "react-icons/md";
 
 export default function DigitalMarketing() {
   return (
@@ -38,15 +44,15 @@ export default function DigitalMarketing() {
                   <span>Mark Sikaundi</span>
                 </div>
                 <div className="flex space-x-4">
-                  <Link href="https://lab.lupleg.org">
+                  <Link href="https://forum.devcircleafrica.com/forum/digital-marketing/">
                     <Button className="bg-green-400 hover:bg-green-500 text-green-900">
-                      Start Learning
+                      Learn More
                     </Button>
                   </Link>
                   <Link href="https://github.com/Lupleg">
                     <Button className=" border border-green-500 text-white hover:bg-gray-800">
-                      <FaGithub className="mr-2 h-4 w-4" />
-                      Code
+                      <FaSimplybuilt className="mr-2 h-4 w-4" />
+                      Join Community
                     </Button>
                   </Link>
                 </div>
@@ -69,8 +75,8 @@ export default function DigitalMarketing() {
             <div className="space-y-6">
               <p>
                 The Digital Marketing program is designed to help you learn how
-                to use Digital Marketing applications. Get started with the
-                Digital Marketing Module today.
+                to use Digital Marketing navigate around the digital space. Get
+                started today with our use to use learning approach.
               </p>
               <p>
                 The program will cover the basics of Digital Marketing and
@@ -81,7 +87,7 @@ export default function DigitalMarketing() {
                 The program is designed for beginners and will cover the basics
                 of Digital Marketing. You will learn how to use Digital
                 Marketing applications and tools to create and manage your own
-                Digital Marketing campaigns.
+                Digital Marketing campaigns and many more.
               </p>
 
               <h2 className="text-xl font-semibold">What you will learn:</h2>
@@ -90,6 +96,7 @@ export default function DigitalMarketing() {
                 <li>SEO and SEM</li>
                 <li>Email Marketing</li>
                 <li>Social Media Marketing</li>
+                <li>Technical Writing</li>
                 <li>Content Marketing</li>
                 <li>Google Analytics</li>
               </ul>
