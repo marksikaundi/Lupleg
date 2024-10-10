@@ -2,14 +2,8 @@ import { Button } from "@/components/ui/button";
 import { ChevronDown, Lock, ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import {
-  FaCreativeCommonsNcEu,
-  FaGithub,
-  FaSimplybuilt,
-  FaTeamspeak,
-} from "react-icons/fa6";
 import FAQCard from "../faq-card";
-import { MdCardMembership } from "react-icons/md";
+import { FaSimplybuilt } from "react-icons/fa6";
 
 export default function DigitalMarketing() {
   return (
