@@ -97,8 +97,8 @@ export default function DigitalMarketing() {
 
               <h2 className="text-xl font-semibold">Prerequisites:</h2>
               <p>
-                No prior knowledge of backend development is required. However,
-                a basic understanding of programming concepts will be helpful.
+                No prior knowledge of digital marketing is required. However,
+                a basic understanding of digital concepts will be helpful.
                 You should also have access to a computer with an internet
                 connection.
               </p>
@@ -107,14 +107,14 @@ export default function DigitalMarketing() {
                 Who should take this program:
               </h2>
               <ul className="list-disc list-inside space-y-2">
-                <li>Beginner web developers</li>
+                <li>Beginner in digital marketing</li>
                 <li>Students</li>
-                <li>Professionals looking to switch to frontend development</li>
-                <li>Anyone interested in learning frontend development</li>
+                <li>Professionals looking to switch career</li>
+                <li>Anyone interested in learning digital marketing</li>
               </ul>
 
               <h2 className="text-xl font-semibold">Duration:</h2>
-              <p>12 weeks</p>
+              <p>04 weeks</p>
             </div>
             <div className="space-y-6">
               <div className="bg-gray-800 rounded-lg p-4">
