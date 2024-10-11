@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ChevronDown, Lock, ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaGithub } from "react-icons/fa6";
+import { FaSimplybuilt } from "react-icons/fa6";
 import FAQCard from "../faq-card";
 
 export default function DevOps() {
@@ -43,10 +43,10 @@ export default function DevOps() {
                       Start Learning
                     </Button>
                   </Link>
-                  <Link href="https://github.com/Lupleg">
+                  <Link href="https://forum.devcircleafrica.com/forum/programming/">
                     <Button className=" border border-green-500 text-white hover:bg-gray-800">
-                      <FaGithub className="mr-2 h-4 w-4" />
-                      Code
+                      <FaSimplybuilt className="mr-2 h-4 w-4" />
+                      Join Community
                     </Button>
                   </Link>
                 </div>
@@ -54,7 +54,7 @@ export default function DevOps() {
               <div className="hidden md:block">
                 <Image
                   src="/frontend/devops.webp"
-                  alt="DevOps for Beginners"
+                  alt="DevOps for Beginners at Lupleg"
                   width={300}
                   height={300}
                   className="object-contain"
@@ -98,10 +98,13 @@ export default function DevOps() {
 
               <h2 className="text-xl font-semibold">Prerequisites:</h2>
               <p>
-                No prior knowledge of backend development is required. However,
-                a basic understanding of programming concepts will be helpful.
-                You should also have access to a computer with an internet
-                connection.
+                No prior knowledge of{" "}
+                <Link className="text-orange-400" href="/programs/se/backends">
+                  backend development
+                </Link>{" "}
+                is required. However, a basic understanding of programming
+                concepts will be helpful. You should also have access to a
+                computer with an internet connection.
               </p>
 
               <h2 className="text-xl font-semibold">
@@ -158,7 +161,6 @@ export default function DevOps() {
                   <span>Real-world projects</span>
                   <ChevronDown className="w-5 h-5" />
                 </div>
-                
               </div>
               <div className="bg-gray-800 rounded-lg p-4">
                 <h2 className="text-xl font-semibold mb-4">Coming soon</h2>
