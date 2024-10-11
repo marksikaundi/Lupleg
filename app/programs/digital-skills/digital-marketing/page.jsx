@@ -38,12 +38,12 @@ export default function DigitalMarketing() {
                   <span>Mark Sikaundi</span>
                 </div>
                 <div className="flex space-x-4">
-                  <Link href="https://forum.devcircleafrica.com/forum/digital-marketing/">
+                  <Link href="https://lab.lupleg.org">
                     <Button className="bg-green-400 hover:bg-green-500 text-green-900">
-                      Learn More
+                      Start Learning
                     </Button>
                   </Link>
-                  <Link href="https://github.com/Lupleg">
+                  <Link href="https://forum.devcircleafrica.com/forum/digital-marketing/">
                     <Button className=" border border-green-500 text-white hover:bg-gray-800">
                       <FaSimplybuilt className="mr-2 h-4 w-4" />
                       Join Community
@@ -97,9 +97,9 @@ export default function DigitalMarketing() {
 
               <h2 className="text-xl font-semibold">Prerequisites:</h2>
               <p>
-                No prior knowledge of digital marketing is required. However,
-                a basic understanding of digital concepts will be helpful.
-                You should also have access to a computer with an internet
+                No prior knowledge of digital marketing is required. However, a
+                basic understanding of digital concepts will be helpful. You
+                should also have access to a computer with an internet
                 connection.
               </p>
 

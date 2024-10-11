@@ -38,12 +38,12 @@ export default function Freelance() {
                   <span>Mark Sikaundi</span>
                 </div>
                 <div className="flex space-x-4">
-                  <Link href="https://forum.devcircleafrica.com/forum/freelancing-gigs/">
+                <Link href="https://lab.lupleg.org">
                     <Button className="bg-green-400 hover:bg-green-500 text-green-900">
-                      Learn More
+                      Start Learning
                     </Button>
                   </Link>
-                  <Link href="https://github.com/Lupleg">
+                  <Link href="https://forum.devcircleafrica.com/forum/freelancing-gigs/">
                     <Button className=" border border-green-500 text-white hover:bg-gray-800">
                       <FaSimplybuilt className="mr-2 h-4 w-4" />
                       Join Community
