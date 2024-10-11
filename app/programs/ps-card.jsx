@@ -28,14 +28,13 @@ export default function PsCard() {
                   6 Months Program
                 </p>
                 <p className="text-sm text-gray-300 mb-4 text-center sm:text-left">
-                  A complete guide to becoming a software developer. Learn the
-                  basics of programming, web development, and software
-                  engineering.
+                  A complete practical course to become a software developer.
+                  From learning basic programming to building softwares. 
                 </p>
                 <div className="flex justify-center sm:justify-start">
                   <Link href="/programs/se">
                     <Button variant="secondary" size="sm">
-                      View →
+                      Learn More →
                     </Button>
                   </Link>
                 </div>
@@ -73,7 +72,7 @@ export default function PsCard() {
                 <div className="flex justify-center sm:justify-start">
                   <Link href="/programs/#typescript">
                     <Button variant="secondary" size="sm">
-                      View →
+                      Learn More →
                     </Button>
                   </Link>
                 </div>
@@ -111,7 +110,7 @@ export default function PsCard() {
                 <div className="flex justify-center sm:justify-start">
                   <Link href="/programs/#python-pro">
                     <Button variant="secondary" size="sm">
-                      View →
+                      Learn More →
                     </Button>
                   </Link>
                 </div>
@@ -140,7 +139,7 @@ export default function PsCard() {
                   </span>
                 </div>
                 <p className="text-green-400 text-sm mb-3 text-center sm:text-left">
-                  3 Months Program
+                  4 Months Program
                 </p>
                 <p className="text-sm text-gray-300 mb-4 text-center sm:text-left">
                   A practical guide to learning digital skills. Learn how to use
@@ -150,7 +149,7 @@ export default function PsCard() {
                 <div className="flex justify-center sm:justify-start">
                   <Link href="/programs/digital-skills">
                     <Button variant="secondary" size="sm">
-                      View →
+                      Learn More →
                     </Button>
                   </Link>
                 </div>
