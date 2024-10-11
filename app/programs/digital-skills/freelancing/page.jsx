@@ -101,8 +101,8 @@ export default function Freelance() {
 
               <h2 className="text-xl font-semibold">Prerequisites:</h2>
               <p>
-                No prior knowledge of backend development is required. However,
-                a basic understanding of programming concepts will be helpful.
+                No prior knowledge of freelancing is required. However,
+                a basic understanding or some concepts in freelancing will be helpful.
                 You should also have access to a computer with an internet
                 connection.
               </p>
