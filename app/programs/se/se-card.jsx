@@ -11,7 +11,7 @@ export default function SeCard() {
             <div className="flex flex-col sm:flex-row items-center">
               <img
                 src="/frontend/html.svg"
-                alt="Frontend Development logo"
+                alt="Frontend Development at Lupleg"
                 className="mb-4 sm:mb-0 sm:mr-6 w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32"
                 width={120}
                 height={120}
@@ -19,7 +19,7 @@ export default function SeCard() {
               <div>
                 <div className="flex flex-col sm:flex-row items-center sm:items-start mb-2">
                   <h2 className="text-xl sm:text-2xl text-white font-bold mb-2 sm:mb-0 sm:mr-3 text-center sm:text-left">
-                    Frontend with TypeScript
+                    Frontend with JavaScript
                   </h2>
                   <span className="bg-green-500 text-black text-xs font-bold px-2 py-1 rounded">
                     NEW
@@ -30,8 +30,7 @@ export default function SeCard() {
                 </p>
                 <p className="text-sm text-gray-300 mb-4 text-center sm:text-left">
                   Learn the basics to advanced of frontend development with our
-                  interactive guide. Get started with the Frontend Development
-                  Program today.
+                  interactive guide. Get started today from zero to advanced.
                 </p>
                 <div className="flex justify-center sm:justify-start">
                   <Link href="/programs/se/frontends">
@@ -68,8 +67,8 @@ export default function SeCard() {
                   04 Modules
                 </p>
                 <p className="text-sm text-gray-300 mb-4 text-center sm:text-left">
-                  Learn how to build backend applications with Node.js. Get
-                  started with the Backend Development Program today.
+                  Learn how to build backend applications with Node.js. All
+                  content are beginner friend you will get along with no time.
                 </p>
                 <div className="flex justify-center sm:justify-start">
                   <Link href="/programs/se/backends">
@@ -88,7 +87,7 @@ export default function SeCard() {
             <div className="flex flex-col sm:flex-row items-center">
               <img
                 src="/frontend/db.png"
-                alt="TypeScript logo with glowing effect"
+                alt="Database with MongoDB at Lupleg"
                 className="mb-4 sm:mb-0 sm:mr-6 w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32"
                 width={120}
                 height={120}
@@ -106,8 +105,8 @@ export default function SeCard() {
                   02 Modules
                 </p>
                 <p className="text-sm text-gray-300 mb-4 text-center sm:text-left">
-                  Learn how to build database applications with MongoDB. Get
-                  started with the Database Development Program today.
+                  Learn everything about MongoDB. This program covers all core
+                  concept with its usecase in modern development.
                 </p>
                 <div className="flex justify-center sm:justify-start">
                   <Link href="/programs/se/databases">
@@ -126,7 +125,7 @@ export default function SeCard() {
             <div className="flex flex-col sm:flex-row items-center">
               <img
                 src="/frontend/cloud.svg"
-                alt="DevOps for Beginners"
+                alt="DevOps for Beginners at Lupleg"
                 className="mb-4 sm:mb-0 sm:mr-6 w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32"
                 width={120}
                 height={120}
@@ -144,8 +143,9 @@ export default function SeCard() {
                   04 Modules
                 </p>
                 <p className="text-sm text-gray-300 mb-4 text-center sm:text-left">
-                  Learn how to build DevOps applications with AWS. Get started
-                  with the DevOps Development Program today.
+                  Learn how platform like AWS, GCP & Azure are used for
+                  deploying applications during development with our easy step
+                  by step.
                 </p>
                 <div className="flex justify-center sm:justify-start">
                   <Link href="/programs/se/devops">

@@ -8,8 +8,8 @@ export default function SoftwareEngineering() {
         <div className="w-full max-w-4xl">
           <div className="text-center mb-8 sm:mb-12">
             <img
-              src="/ts.webp"
-              alt="Glowing potion bottle"
+              src="/ps/dev.svg"
+              alt="Software Engineering at Lupleg"
               className="mx-auto mb-6 w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28"
               width={80}
               height={80}
@@ -20,7 +20,6 @@ export default function SoftwareEngineering() {
             <p className="text-gray-400 text-sm sm:text-base max-w-xl sm:max-w-2xl mx-auto px-4">
               Learn the basics of programming, web development, and software
               engineering. Get started with the Software Engineering Program.
-
             </p>
           </div>
 
