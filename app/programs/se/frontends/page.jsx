@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ChevronDown, Lock, ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaGithub } from "react-icons/fa6";
+import { FaGithub, FaSimplybuilt } from "react-icons/fa6";
 import FAQCard from "../faq-card";
 
 export default function Frontend() {
@@ -38,15 +38,15 @@ export default function Frontend() {
                   <span>Mark Sikaundi</span>
                 </div>
                 <div className="flex space-x-4">
-                  <Link href="https://lab.lupleg.org">
+                <Link href="https://lab.lupleg.org">
                     <Button className="bg-green-400 hover:bg-green-500 text-green-900">
                       Start Learning
                     </Button>
                   </Link>
-                  <Link href="https://github.com/Lupleg">
+                  <Link href="https://forum.devcircleafrica.com/forum/programming/">
                     <Button className=" border border-green-500 text-white hover:bg-gray-800">
-                      <FaGithub className="mr-2 h-4 w-4" />
-                      Code
+                      <FaSimplybuilt className="mr-2 h-4 w-4" />
+                      Join Community
                     </Button>
                   </Link>
                 </div>
@@ -54,7 +54,7 @@ export default function Frontend() {
               <div className="hidden md:block">
                 <Image
                   src="/frontend/html.svg"
-                  alt="Frontend Development"
+                  alt="Frontend Development at Lupleg"
                   width={300}
                   height={300}
                   className="object-contain"
