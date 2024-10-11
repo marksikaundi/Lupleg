@@ -53,7 +53,7 @@ export default function DevOps() {
               </div>
               <div className="hidden md:block">
                 <Image
-                  src="/frontend/devops.webp"
+                  src="/frontend/cloud.svg"
                   alt="DevOps for Beginners at Lupleg"
                   width={300}
                   height={300}
