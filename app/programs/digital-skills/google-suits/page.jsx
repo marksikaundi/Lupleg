@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ChevronDown, Lock, ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaGithub } from "react-icons/fa6";
+import { FaGithub, FaSimplybuilt } from "react-icons/fa6";
 import FAQCard from "../faq-card";
 
 export default function GSuits() {
@@ -25,7 +25,7 @@ export default function GSuits() {
             <div className="md:flex md:justify-between md:items-center">
               <div>
                 <h1 className="text-4xl md:text-5xl font-bold mb-4">
-                  Google Workspace
+                  Google Workspace 101
                 </h1>
                 <div className="flex items-center mb-6">
                   <Image
@@ -43,10 +43,10 @@ export default function GSuits() {
                       Start Learning
                     </Button>
                   </Link>
-                  <Link href="https://github.com/Lupleg">
+                  <Link href="https://forum.devcircleafrica.com/forum/office365/">
                     <Button className=" border border-green-500 text-white hover:bg-gray-800">
-                      <FaGithub className="mr-2 h-4 w-4" />
-                      Code
+                      <FaSimplybuilt className="mr-2 h-4 w-4" />
+                      Join Community
                     </Button>
                   </Link>
                 </div>
@@ -81,7 +81,7 @@ export default function GSuits() {
                 conferencing.
               </p>
               <p>
-                The program is designed to be hands-on and project-based. You
+                The program is designed to be hands-on and proctical. You
                 will learn by doing, with practical exercises and real-world
                 projects that will help you build your skills and confidence.
               </p>
@@ -108,14 +108,14 @@ export default function GSuits() {
                 Who should take this program:
               </h2>
               <ul className="list-disc list-inside space-y-2">
-                <li>Beginner web developers</li>
+                <li>Beginners</li>
                 <li>Students</li>
-                <li>Professionals looking to switch to frontend development</li>
-                <li>Anyone interested in learning frontend development</li>
+                <li>Professionals </li>
+                <li>Anyone interested in Google Workspace</li>
               </ul>
 
               <h2 className="text-xl font-semibold">Duration:</h2>
-              <p>12 weeks</p>
+              <p>04 weeks</p>
             </div>
             <div className="space-y-6">
               <div className="bg-gray-800 rounded-lg p-4">

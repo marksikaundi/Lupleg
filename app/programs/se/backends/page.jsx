@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ChevronDown, Lock, ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaGithub } from "react-icons/fa6";
+import { FaGithub, FaSimplybuilt } from "react-icons/fa6";
 import FAQCard from "../faq-card";
 
 export default function Backend() {
@@ -43,10 +43,10 @@ export default function Backend() {
                       Start Learning
                     </Button>
                   </Link>
-                  <Link href="https://github.com/Lupleg">
+                  <Link href="https://forum.devcircleafrica.com/forum/programming/">
                     <Button className=" border border-green-500 text-white hover:bg-gray-800">
-                      <FaGithub className="mr-2 h-4 w-4" />
-                      Code
+                      <FaSimplybuilt className="mr-2 h-4 w-4" />
+                      Join Community
                     </Button>
                   </Link>
                 </div>
@@ -54,7 +54,7 @@ export default function Backend() {
               <div className="hidden md:block">
                 <Image
                   src="/frontend/server.svg"
-                  alt="Backend Development"
+                  alt="Backend Development at Lupleg"
                   width={300}
                   height={300}
                   className="object-contain"
@@ -76,9 +76,16 @@ export default function Backend() {
               </p>
               <p>
                 In this program, you will learn how to build scalable and secure
-                backend applications using Node.js, Express, and MongoDB. You
-                will also learn how to deploy your applications to the cloud
-                using services like Heroku and AWS.
+                backend applications using Node.js, Express, and{" "}
+                <Link className="text-orange-400" href="/programs/se/databases">
+                  MongoDB
+                </Link>{" "}
+                . You will also learn how to deploy your applications to the
+                cloud using services like{" "}
+                <Link className="text-orange-400" href="/programs/se/devops">
+                  Heroku and AWS
+                </Link>
+                .
               </p>
               <p>
                 By the end of the program, you will have built several backend
@@ -108,10 +115,10 @@ export default function Backend() {
                 Who should take this program:
               </h2>
               <ul className="list-disc list-inside space-y-2">
-                <li>Beginner web developers</li>
+                <li>Beginners to backend development</li>
                 <li>Students</li>
-                <li>Professionals looking to switch to frontend development</li>
-                <li>Anyone interested in learning frontend development</li>
+                <li>Professionals looking to switch to backend development</li>
+                <li>Anyone interested in learning backend development</li>
               </ul>
 
               <h2 className="text-xl font-semibold">Duration:</h2>
@@ -160,9 +167,7 @@ export default function Backend() {
                   <ChevronDown className="w-5 h-5" />
                 </div>
                 <div className="mt-4 flex justify-between items-center">
-                  <span>
-                  Deployment
-                  </span>
+                  <span>Deployment</span>
                   <ChevronDown className="w-5 h-5" />
                 </div>
               </div>

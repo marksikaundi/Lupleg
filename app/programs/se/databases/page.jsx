@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ChevronDown, Lock, ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaGithub } from "react-icons/fa6";
+import { FaGithub, FaSimplybuilt } from "react-icons/fa6";
 import FAQCard from "../faq-card";
 
 export default function Database() {
@@ -43,10 +43,10 @@ export default function Database() {
                       Start Learning
                     </Button>
                   </Link>
-                  <Link href="https://github.com/Lupleg">
+                  <Link href="https://forum.devcircleafrica.com/forum/programming/">
                     <Button className=" border border-green-500 text-white hover:bg-gray-800">
-                      <FaGithub className="mr-2 h-4 w-4" />
-                      Code
+                      <FaSimplybuilt className="mr-2 h-4 w-4" />
+                      Join Community
                     </Button>
                   </Link>
                 </div>
@@ -54,7 +54,7 @@ export default function Database() {
               <div className="hidden md:block">
                 <Image
                   src="/frontend/db.png"
-                  alt="Database Development"
+                  alt="Database Development at Lupleg"
                   width={300}
                   height={300}
                   className="object-contain"
@@ -102,20 +102,23 @@ export default function Database() {
 
               <h2 className="text-xl font-semibold">Prerequisites:</h2>
               <p>
-                No prior knowledge of backend development is required. However,
-                a basic understanding of programming concepts will be helpful.
-                You should also have access to a computer with an internet
-                connection.
+                No prior knowledge of{" "}
+                <Link className="text-orange-400" href="/programs/se/backends">
+                  backend development
+                </Link>{" "}
+                is required. However, a basic understanding of nosql database
+                concepts will be helpful. You should also have access to a
+                computer with an internet connection.
               </p>
 
               <h2 className="text-xl font-semibold">
                 Who should take this program:
               </h2>
               <ul className="list-disc list-inside space-y-2">
-                <li>Beginner web developers</li>
+                <li>Beginner to Databases</li>
                 <li>Students</li>
-                <li>Professionals looking to switch to frontend development</li>
-                <li>Anyone interested in learning frontend development</li>
+                <li>Professionals looking to switch to mongoDB</li>
+                <li>Anyone interested in learning mongoDB</li>
               </ul>
 
               <h2 className="text-xl font-semibold">Duration:</h2>

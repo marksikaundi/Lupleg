@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ChevronDown, Lock, ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaGithub } from "react-icons/fa6";
+import { FaGithub, FaSimplybuilt } from "react-icons/fa6";
 import FAQCard from "../faq-card";
 
 export default function Freelance() {
@@ -38,15 +38,15 @@ export default function Freelance() {
                   <span>Mark Sikaundi</span>
                 </div>
                 <div className="flex space-x-4">
-                  <Link href="https://lab.lupleg.org">
+                <Link href="https://lab.lupleg.org">
                     <Button className="bg-green-400 hover:bg-green-500 text-green-900">
                       Start Learning
                     </Button>
                   </Link>
-                  <Link href="https://github.com/Lupleg">
+                  <Link href="https://forum.devcircleafrica.com/forum/freelancing-gigs/">
                     <Button className=" border border-green-500 text-white hover:bg-gray-800">
-                      <FaGithub className="mr-2 h-4 w-4" />
-                      Code
+                      <FaSimplybuilt className="mr-2 h-4 w-4" />
+                      Join Community
                     </Button>
                   </Link>
                 </div>
@@ -71,14 +71,16 @@ export default function Freelance() {
                 Learn how to start freelancing and build a successful career as
                 a freelancer. This program will teach you the skills you need to
                 succeed as a freelancer, including how to find clients, manage
-                projects, and build a portfolio.
+                projects & how to apply for gigs.
               </p>
               <p>
-                The program is designed to be hands-on and project-based. You
-                will learn by building real-world projects and working on
-                practical assignments. You will also have access to a mentor who
-                will guide you through the program and provide feedback on your
-                projects.
+                The program is designed for everyone from the beginners
+                perspective to advanced level. The core skills you will gain
+                from this program, will give you 100% success career as a
+                freelancer. You will learn by doing and working on practical
+                assignments. You will also have access to a mentor who will
+                guide you through the program and provide feedback on your
+                proctical assessments.
               </p>
               <p>
                 By the end of the program, you will have the skills and
@@ -99,8 +101,8 @@ export default function Freelance() {
 
               <h2 className="text-xl font-semibold">Prerequisites:</h2>
               <p>
-                No prior knowledge of backend development is required. However,
-                a basic understanding of programming concepts will be helpful.
+                No prior knowledge of freelancing is required. However,
+                a basic understanding or some concepts in freelancing will be helpful.
                 You should also have access to a computer with an internet
                 connection.
               </p>
@@ -109,14 +111,14 @@ export default function Freelance() {
                 Who should take this program:
               </h2>
               <ul className="list-disc list-inside space-y-2">
-                <li>Beginner web developers</li>
+                <li>Beginners who want to be freelancers</li>
                 <li>Students</li>
-                <li>Professionals looking to switch to frontend development</li>
-                <li>Anyone interested in learning frontend development</li>
+                <li>Professionals looking to start freelancing</li>
+                <li>Anyone interested in freelancing</li>
               </ul>
 
               <h2 className="text-xl font-semibold">Duration:</h2>
-              <p>12 weeks</p>
+              <p>04 weeks</p>
             </div>
             <div className="space-y-6">
               <div className="bg-gray-800 rounded-lg p-4">
@@ -133,7 +135,6 @@ export default function Freelance() {
                     <p>What is Freelancing?</p>
                     <p>Why Freelancing?</p>
                     <p>How to get started with Freelancing</p>
-
                   </div>
                 </div>
                 <div className="mt-4 flex justify-between items-center">
@@ -157,7 +158,6 @@ export default function Freelance() {
                   <span>Real-world projects</span>
                   <ChevronDown className="w-5 h-5" />
                 </div>
-               
               </div>
               <div className="bg-gray-800 rounded-lg p-4">
                 <h2 className="text-xl font-semibold mb-4">Coming soon</h2>

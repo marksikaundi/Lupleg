@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ChevronDown, Lock, ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaGithub } from "react-icons/fa6";
+import { FaGithub, FaSimplybuilt } from "react-icons/fa6";
 import FAQCard from "../faq-card";
 
 export default function Office365() {
@@ -43,10 +43,10 @@ export default function Office365() {
                       Start Learning
                     </Button>
                   </Link>
-                  <Link href="https://github.com/Lupleg">
+                  <Link href="https://forum.devcircleafrica.com/forum/office365/">
                     <Button className=" border border-green-500 text-white hover:bg-gray-800">
-                      <FaGithub className="mr-2 h-4 w-4" />
-                      Code
+                      <FaSimplybuilt className="mr-2 h-4 w-4" />
+                      Join Community
                     </Button>
                   </Link>
                 </div>
@@ -108,14 +108,14 @@ export default function Office365() {
                 Who should take this program:
               </h2>
               <ul className="list-disc list-inside space-y-2">
-                <li>Beginner web developers</li>
+                <li>Beginner to office365</li>
                 <li>Students</li>
-                <li>Professionals looking to switch to frontend development</li>
-                <li>Anyone interested in learning frontend development</li>
+                <li>Professionals looking to switch to office365</li>
+                <li>Anyone interested in learning office365</li>
               </ul>
 
               <h2 className="text-xl font-semibold">Duration:</h2>
-              <p>12 weeks</p>
+              <p>04 weeks</p>
             </div>
             <div className="space-y-6">
               <div className="bg-gray-800 rounded-lg p-4">
@@ -131,7 +131,6 @@ export default function Office365() {
                   <div className="pl-4 space-y-2 text-gray-400">
                     <p>What is Office 365?</p>
                     <p>Why use Office 365?</p>
-
                   </div>
                 </div>
                 <div className="mt-4 flex justify-between items-center">
@@ -161,7 +160,7 @@ export default function Office365() {
                 <div className="mt-4 flex justify-between items-center">
                   <span>Collaboration and communication</span>
                   <ChevronDown className="w-5 h-5" />
-                  </div>
+                </div>
               </div>
               <div className="bg-gray-800 rounded-lg p-4">
                 <h2 className="text-xl font-semibold mb-4">Coming soon</h2>

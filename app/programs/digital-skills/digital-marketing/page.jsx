@@ -2,8 +2,8 @@ import { Button } from "@/components/ui/button";
 import { ChevronDown, Lock, ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaGithub } from "react-icons/fa6";
 import FAQCard from "../faq-card";
+import { FaSimplybuilt } from "react-icons/fa6";
 
 export default function DigitalMarketing() {
   return (
@@ -43,10 +43,10 @@ export default function DigitalMarketing() {
                       Start Learning
                     </Button>
                   </Link>
-                  <Link href="https://github.com/Lupleg">
+                  <Link href="https://forum.devcircleafrica.com/forum/digital-marketing/">
                     <Button className=" border border-green-500 text-white hover:bg-gray-800">
-                      <FaGithub className="mr-2 h-4 w-4" />
-                      Code
+                      <FaSimplybuilt className="mr-2 h-4 w-4" />
+                      Join Community
                     </Button>
                   </Link>
                 </div>
@@ -69,8 +69,8 @@ export default function DigitalMarketing() {
             <div className="space-y-6">
               <p>
                 The Digital Marketing program is designed to help you learn how
-                to use Digital Marketing applications. Get started with the
-                Digital Marketing Module today.
+                to use Digital Marketing navigate around the digital space. Get
+                started today with our use to use learning approach.
               </p>
               <p>
                 The program will cover the basics of Digital Marketing and
@@ -81,7 +81,7 @@ export default function DigitalMarketing() {
                 The program is designed for beginners and will cover the basics
                 of Digital Marketing. You will learn how to use Digital
                 Marketing applications and tools to create and manage your own
-                Digital Marketing campaigns.
+                Digital Marketing campaigns and many more.
               </p>
 
               <h2 className="text-xl font-semibold">What you will learn:</h2>
@@ -90,15 +90,16 @@ export default function DigitalMarketing() {
                 <li>SEO and SEM</li>
                 <li>Email Marketing</li>
                 <li>Social Media Marketing</li>
+                <li>Technical Writing</li>
                 <li>Content Marketing</li>
                 <li>Google Analytics</li>
               </ul>
 
               <h2 className="text-xl font-semibold">Prerequisites:</h2>
               <p>
-                No prior knowledge of backend development is required. However,
-                a basic understanding of programming concepts will be helpful.
-                You should also have access to a computer with an internet
+                No prior knowledge of digital marketing is required. However, a
+                basic understanding of digital concepts will be helpful. You
+                should also have access to a computer with an internet
                 connection.
               </p>
 
@@ -106,14 +107,14 @@ export default function DigitalMarketing() {
                 Who should take this program:
               </h2>
               <ul className="list-disc list-inside space-y-2">
-                <li>Beginner web developers</li>
+                <li>Beginner in digital marketing</li>
                 <li>Students</li>
-                <li>Professionals looking to switch to frontend development</li>
-                <li>Anyone interested in learning frontend development</li>
+                <li>Professionals looking to switch career</li>
+                <li>Anyone interested in learning digital marketing</li>
               </ul>
 
               <h2 className="text-xl font-semibold">Duration:</h2>
-              <p>12 weeks</p>
+              <p>04 weeks</p>
             </div>
             <div className="space-y-6">
               <div className="bg-gray-800 rounded-lg p-4">
