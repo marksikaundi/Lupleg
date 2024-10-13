@@ -71,7 +71,7 @@ export default function LatestNews() {
                   href={item.link}
                   className="text-green-600 hover:underline"
                 >
-                  <ArrowRightIcon className="w-5 h-5" />
+                  <p className="">Read more</p>
                 </Link>
               </div>
             </div>
