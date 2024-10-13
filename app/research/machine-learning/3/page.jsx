@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import BackCard from "../backCard";
 import SharePost from "../shareCard";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Component() {
   return (
@@ -21,9 +22,9 @@ export default function Component() {
       <div className="flex justify-center mb-8">
         <SharePost className="w-4 h-4 mr-2" />
       </div>
-      <img
+      <Image
         src="/ml/new.webp"
-        alt="FermiNet: Quantum physics and chemistry from first principles"
+        alt="A new generation of African talent brings cutting-edge AI to scientific challenges"
         height="400"
         width="800"
         className="w-full rounded-lg mb-8"
@@ -38,12 +39,14 @@ export default function Component() {
           of artificial intelligence (AI) leaders to help build a stronger, more
           diverse and inclusive global AI community. This includes increasing
           access to AI and science through education.
-          <br />
+        </p>{" "}
+        <p>
           Last year, we partnered with the African Institute for Mathematical
           Sciences (AIMS), Africa’s first network of centers of excellence in
           mathematical sciences, to launch an AI for Science Master’s program,
           with a $4.5M grant from Google DeepMind.
-          <br />
+        </p>{" "}
+        <p>
           This funding helps AIMS provide full scholarships, equipment and
           compute to talented local students, giving them access to advanced
           studies in mathematics, AI and machine learning from world-class
@@ -61,7 +64,8 @@ export default function Component() {
           that will benefit both people and the planet by integrating principles
           of renewable energy, precision farming, and ecological preservation in
           my work,” he says.
-          <br />
+        </p>{" "}
+        <p>
           “Beyond agriculture, AI offers significant potential to enhance the
           resilience of Africa's natural environments,” Béria adds. “By
           implementing AI-powered monitoring and decision-support systems, we
@@ -80,14 +84,16 @@ export default function Component() {
           mathematical sciences is crucial for driving progress in areas such as
           healthcare, climate science and technology — and I’m eager to be at
           the forefront of these advancements.”
-          <br />
+        </p>{" "}
+        <p>
           Originally from Benin, Olivier now looks to apply this approach to
           data from African countries to help understand the spread of dengue
           fever. “Using advanced AI techniques, I hope to create more accurate
           prediction models to inform public health strategies and
           interventions, ultimately contributing to the control and prevention
           of this viral disease.”
-          <br />
+        </p>{" "}
+        <p>
           Discussing the personal impact of his scholarship, Olivier recounts,
           “Without it, pursuing advanced studies at such a prestigious
           institution would have been financially unattainable for me. This
@@ -96,17 +102,16 @@ export default function Component() {
           professors and peers, and contribute meaningfully to research
           projects.”
         </p>
-
         <h2 className="my-4 font-bold">
           {" "}
           Diffo: Unraveling the secrets of our universe
         </h2>
-
         <p>
           Diffo, from Cameroon, is fascinated by the big questions beyond Earth
           — which is what drew her to the Square Kilometre Array (SKA), the
           largest and most sensitive radio telescope on the planet.
-          <br />
+        </p>{" "}
+        <p>
           “Understanding the 21cm line provides insights into the early
           universe, the formation of the first stars and galaxies, and the
           structure of the cosmos,” Diffo explains. “By applying Markov chain
@@ -114,7 +119,8 @@ export default function Component() {
           efficiency of extracting these faint signals from SKA data,
           potentially leading to more precise cosmological models and a deeper
           understanding of the future evolution of the universe.”
-          <br />
+        </p>{" "}
+        <p>
           For those considering similar studies, Diffo offers a few words of
           advice: “Stay curious, be persistent and embrace interdisciplinary
           learning. Engaging in hands-on projects, collaborating with peers, and
@@ -131,7 +137,8 @@ export default function Component() {
           and additional educational funding, which has been used by three
           further African universities to offer a total of over 40 postgraduate
           scholarships since 2020.
-          <br />
+        </p>{" "}
+        <p>
           Increasing representation in the field of AI research offers a
           much-needed opportunity to bring diverse values, perspectives, and
           concerns into conversations about the design and deployment of this
