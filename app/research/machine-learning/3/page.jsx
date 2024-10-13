@@ -11,7 +11,8 @@ export default function Component() {
         RESEARCH
       </div>
       <h1 className="text-4xl font-bold mb-2 text-center">
-        FermiNet: Quantum physics and chemistry from first principles
+        A new generation of African talent brings cutting-edge AI to scientific
+        challenges
       </h1>
       <div className="text-center text-gray-500 mb-4">5 AUGUST 2024</div>
       <div className="text-center text-gray-700 mb-6">
