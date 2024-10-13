@@ -38,9 +38,9 @@ export default function LatestNews() {
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="flex justify-between items-center mb-6">
-        <h2 className="text-3xl font-bold">Latest news</h2>
+        <h2 className="text-3xl font-bold">Latest updates</h2>
         <Link href="#/all-posts" className="text-green-600 hover:underline">
-          View all
+          Repository
         </Link>
       </div>
       <p className="text-gray-600 mb-8">
