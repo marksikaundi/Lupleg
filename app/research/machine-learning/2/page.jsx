@@ -313,7 +313,6 @@ export default function Component() {
         </Button>
 
         <div>
-          <h2></h2>
           <p>
             Credit source from:
             <Link
