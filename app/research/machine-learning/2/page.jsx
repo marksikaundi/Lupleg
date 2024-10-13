@@ -42,19 +42,22 @@ export default function Component() {
           uses in the future, allowing researchers to prototype new materials
           and chemical syntheses using computer simulation before trying to make
           them in the lab.
-          <br />
+        </p>
+        <p>
           Our neural network architecture, FermiNet (Fermionic Neural Network),
           is well-suited to modeling the quantum state of large collections of
           electrons, the fundamental building blocks of chemical bonds. We
           released the code from this study so computational physics and
           chemistry communities can build on our work and apply it to a wide
           range of problems.
-          <br />
+        </p>
+        <p>
           FermiNet was the first demonstration of deep learning for computing
           the energy of atoms and molecules from first principles that was
           accurate enough to be useful, and Psiformer, our novel architecture
           based on self-attention, remains the most accurate AI method to date.
-          <br />
+        </p>
+        <p>
           We hope the tools and ideas developed in our artificial intelligence
           (AI) research can help solve fundamental scientific problems, and
           FermiNet joins our work on protein folding, glassy dynamics, lattice
@@ -70,14 +73,16 @@ export default function Component() {
           confusion than anything else. The phrase conjures up images of
           Schrödinger’s cat, which can paradoxically be both alive and dead, and
           fundamental particles that are also, somehow, waves.
-          <br />
+        </p>
+        <p>
           In quantum systems, a particle such as an electron doesn’t have an
           exact location, as it would in a classical description. Instead, its
           position is described by a probability cloud — it’s smeared out in all
           places it’s allowed to be. This counterintuitive state of affairs led
           Richard Feynman to declare: “If you think you understand quantum
           mechanics, you don’t understand quantum mechanics.”
-          <br />
+        </p>
+        <p>
           Despite this spooky weirdness, the meat of the theory can be reduced
           down to just a few straightforward equations. The most famous of
           these, the Schrödinger equation, describes the behavior of particles
@@ -87,7 +92,8 @@ export default function Component() {
           head-scratching, the math is much easier to work with, leading to the
           common exhortation from professors to “shut up and calculate” when
           pressed with thorny philosophical questions from students.
-          <br />
+        </p>
+        <p>
           These equations are sufficient to describe the behavior of all the
           familiar matter we see around us at the level of atoms and nuclei.
           Their counterintuitive nature leads to all sorts of exotic phenomena:
@@ -95,7 +101,8 @@ export default function Component() {
           possible because of quantum effects. But even the humble covalent bond
           — the basic building block of chemistry — is a consequence of the
           quantum interactions of electrons.
-          <br />
+        </p>
+        <p>
           Once these rules were worked out in the 1920s, scientists realized
           that, for the first time, they had a detailed theory of how chemistry
           works. In principle, they could just set up these equations for
@@ -127,7 +134,8 @@ export default function Component() {
           molecular bonds and other chemical phenomena. These methods started
           from an approximate description of how electrons behave that may be
           familiar from introductory chemistry.
-          <br />
+        </p>
+        <p>
           In this description, each electron is assigned to a particular
           orbital, which gives the probability of a single electron being found
           at any point near an atomic nucleus. The shape of each orbital then
@@ -136,20 +144,23 @@ export default function Component() {
           orbital, it’s a very incomplete picture of how electrons actually
           behave. Nevertheless, it’s enough to estimate the total energy of a
           molecule with only about 0.5% error.
-          <br />
+        </p>
+        <p>
           Unfortunately, 0.5% error still isn’t enough to be useful to the
           working chemist. The energy in molecular bonds is just a tiny fraction
           of the total energy of a system, and correctly predicting whether a
           molecule is stable can often depend on just 0.001% of the total energy
           of a system, or about 0.2% of the remaining “correlation” energy.
-          <br />
+        </p>
+        <p>
           For instance, while the total energy of the electrons in a butadiene
           molecule is almost 100,000 kilocalories per mole, the difference in
           energy between different possible shapes of the molecule is just 1
           kilocalorie per mole. That means that if you want to correctly predict
           butadiene’s natural shape, then the same level of precision is needed
           as measuring the width of a football field down to the millimeter.
-          <br />
+        </p>
+        <p>
           With the advent of digital computing after World War II, scientists
           developed a wide range of computational methods that went beyond this
           mean field description of electrons. While these methods come in a
@@ -172,7 +183,8 @@ export default function Component() {
           for even the most approximate methods, while classical chemical
           calculation techniques like molecular dynamics can handle millions of
           atoms.
-          <br />
+        </p>
+        <p>
           The state of a classical system can be described easily — we just have
           to track the position and momentum of each particle. Representing the
           state of a quantum system is far more challenging. A probability has
@@ -181,26 +193,30 @@ export default function Component() {
           negative number to every configuration of electrons, and the
           wavefunction squared gives the probability of finding the system in
           that configuration.
-          <br />
+        </p>
+        <p>
           The space of all possible configurations is enormous — if you tried to
           represent it as a grid with 100 points along each dimension, then the
           number of possible electron configurations for the silicon atom would
           be larger than the number of atoms in the universe. This is exactly
           where we thought deep neural networks could help.
-          <br />
+        </p>
+        <p>
           In the last several years, there have been huge advances in
           representing complex, high-dimensional probability distributions with
           neural networks. We now know how to train these networks efficiently
           and scalably. We guessed that, given these networks have already
           proven their ability to fit high-dimensional functions in AI problems,
           maybe they could be used to represent quantum wavefunctions as well.
-          <br />
+        </p>
+        <p>
           Researchers such as Giuseppe Carleo, Matthias Troyer and others have
           shown how modern deep learning could be used for solving idealized
           quantum problems. We wanted to use deep neural networks to tackle more
           realistic problems in chemistry and condensed matter physics, and that
           meant including electrons in our calculations.
-          <br />
+        </p>
+        <p>
           There is just one wrinkle when dealing with electrons. Electrons must
           obey the Pauli exclusion principle, which means that they can’t be in
           the same space at the same time. This is because electrons are a type
@@ -210,21 +226,24 @@ export default function Component() {
           electrons, the wavefunction gets multiplied by -1. That means that if
           two electrons are on top of each other, the wavefunction (and the
           probability of that configuration) will be zero.
-          <br />
+        </p>
+        <p>
           This meant we had to develop a new type of neural network that was
           antisymmetric with respect to its inputs, which we called FermiNet. In
           most quantum chemistry methods, antisymmetry is introduced using a
           function called the determinant. The determinant of a matrix has the
           property that if you swap two rows, the output gets multiplied by -1,
           just like a wavefunction for fermions.
-          <br />
+        </p>
+        <p>
           So, you can take a bunch of single-electron functions, evaluate them
           for every electron in your system, and pack all of the results into
           one matrix. The determinant of that matrix is then a properly
           antisymmetric wavefunction. The major limitation of this approach is
           that the resulting function — known as a Slater determinant — is not
           very general.
-          <br />
+        </p>
+        <p>
           Wavefunctions of real systems are usually far more complicated. The
           typical way to improve on this is to take a large linear combination
           of Slater determinants — sometimes millions or more — and add some
@@ -239,14 +258,16 @@ export default function Component() {
           Our research proposes a solution to one of the most difficult
           challenges in computational quantum chemistry: understanding how
           molecules transition to and from excited states when stimulated.
-          <br />
+        </p>
+        <p>
           FermiNet originally focused on the ground states of molecules, the
           lowest energy configuration of electrons around a given set of nuclei.
           But when molecules and materials are stimulated by a large amount of
           energy, like being exposed to light or high temperatures, the
           electrons might get kicked into a higher energy configuration — an
           excited state.
-          <br />
+        </p>
+        <p>
           Excited states are fundamental for understanding how matter interacts
           with light. The exact amount of energy absorbed and released creates a
           unique fingerprint for different molecules and materials, which
@@ -254,7 +275,8 @@ export default function Component() {
           LEDs to semiconductors, photocatalysts and more. They also play a
           critical role in biological processes involving light, like
           photosynthesis and vision.
-          <br />
+        </p>
+        <p>
           Accurately computing the energy of excited states is significantly
           more challenging than computing ground state energies. Even gold
           standard methods for ground state chemistry, like coupled cluster,
@@ -262,7 +284,8 @@ export default function Component() {
           large. While we wanted to extend our work on FermiNet to excited
           states, existing methods didn't work well enough for neural networks
           to compete with state-of-the-art approaches.
-          <br />
+        </p>
+        <p>
           We developed a novel approach to computing excited states that’s more
           robust and general than prior methods. Our approach can be applied to
           any kind of mathematical model, including FermiNet and other neural
@@ -278,7 +301,8 @@ export default function Component() {
           challenging systems in computational chemistry, where two electrons
           are excited simultaneously, and found we were within around 0.1 eV of
           the most demanding, complex calculations done to date.
-          <br />
+        </p>
+        <p>
           Today, we’re open sourcing our latest work, and hope the research
           community will build upon our methods to explore the unexpected ways
           matter interacts with light.
