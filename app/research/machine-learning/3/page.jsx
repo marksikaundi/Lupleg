@@ -16,8 +16,6 @@ export default function Component() {
       <div className="text-center text-gray-500 mb-4">5 AUGUST 2024</div>
       <div className="text-center text-gray-700 mb-6">
         Obum Ekeke OBE, Head of Education Partnerships
-
-
       </div>
       <div className="flex justify-center mb-8">
         <SharePost className="w-4 h-4 mr-2" />
@@ -35,7 +33,6 @@ export default function Component() {
       </p>
       <div className="space-y-4 text-gray-700">
         <p>
-          
           At Google DeepMind, we’re committed to supporting the next generation
           of artificial intelligence (AI) leaders to help build a stronger, more
           diverse and inclusive global AI community. This includes increasing
