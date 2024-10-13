@@ -10,7 +10,7 @@ const newsItems = [
     description:
       "New AI system designs proteins that successfully bind to target molecules, with...",
     date: "5 SEPTEMBER 2024",
-    image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
+    image: "https://www.lupleg.org/ml/alpha.webp",
     link: "/research/machine-learning/1",
   },
   {
@@ -19,7 +19,7 @@ const newsItems = [
     description:
       "Using deep learning to solve fundamental problems in computational quantum...",
     date: "22 AUGUST 2024",
-    image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
+    image: "https://www.lupleg.org/ml/FermiNet.webp",
     link: "/research/machine-learning/2",
   },
   {
@@ -29,7 +29,7 @@ const newsItems = [
     description:
       "Food security, healthcare and exploring the cosmos are among the ways students of a...",
     date: "5 AUGUST 2024",
-    image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
+    image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
     link: "/research/machine-learning/3",
   },
 ];
