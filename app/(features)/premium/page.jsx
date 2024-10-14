@@ -11,21 +11,33 @@ import {
 
 
 const freePlanFeatures = [
-  { name: "Basic features", description: "Access to core functionality", included: true },
-  { name: "Limited storage", description: "Up to 5GB of storage space", included: true },
-  { name: "Email support", description: "Get help via email within 48 hours", included: true },
-  { name: "Access to community", description: "Join our user community forum", included: true },
-  { name: "Advanced features", description: "Access to premium tools and integrations", included: false },
-  { name: "Priority support", description: "Get help via email within 24 hours", included: false },
+    { name: "All Free Plan features", description: "Everything in the Free Plan, plus more", included: true },
+    { name: "Priority email support", description: "Get help via email within 24 hours", included: true },
+    { name: "Access to community", description: "Join our user community forum", included: true },
+    { name: "Coding challenges", description: " All coding challenges available ", included: true },
+    { name: "2hrs Mentroship call ", description: "Join me from Monday to Friday mentorship", included: false },
+    { name: "Access to all solutions", description: "Solution avaialable to our challenges", included: false },
+    { name: "Practical technical interviews", description: "We help you be accessed for the interview", included: false },
+    { name: "Internship opportunity", description: "Earn your intership to work with real world products", included: false },
+    { name: "Resume/CV review", description: "After completing will review your resume", included: false },
 ]
 
 const proPlanFeatures = [
   { name: "All Free Plan features", description: "Everything in the Free Plan, plus more", included: true },
-  { name: "Unlimited storage", description: "Store as much as you need", included: true },
   { name: "Priority email support", description: "Get help via email within 24 hours", included: true },
   { name: "Access to community", description: "Join our user community forum", included: true },
-  { name: "Advanced features", description: "Access to premium tools and integrations", included: true },
-  { name: "Priority support", description: "Get help via email within 12 hours", included: true },
+  { name: "Coding challenges", description: " All coding challenges available ", included: true },
+  { name: "2hrs Mentroship call ", description: "Join me from Monday to Friday mentorship", included: true },
+  { name: "Access to all solutions", description: "Solution avaialable to our challenges", included: true },
+  { name: "Practical technical interviews", description: "We help you be accessed for the interview", included: true },
+  { name: "Internship opportunity", description: "Earn your intership to work with real world products", included: true },
+  { name: "Resume/CV review", description: "After completing will review your resume", included: true },
+
+
+
+
+
+
 ]
 
 function FeatureItem({ feature }) {
