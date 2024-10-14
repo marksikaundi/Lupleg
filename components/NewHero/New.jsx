@@ -7,7 +7,7 @@ export default function New() {
   const [copied, setCopied] = useState(false);
 
   const copyCommand = () => {
-    navigator.clipboard.writeText("npm create astro@latest");
+    navigator.clipboard.writeText("mark@lupleg.org");
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -17,10 +17,10 @@ export default function New() {
       <div className="max-w-4xl mx-auto">
         <div className="mb-8 flex justify-center">
           <div className="bg-green-700 text-white text-xs sm:text-sm font-medium px-3 py-2 rounded-full flex flex-wrap items-center justify-center gap-2 max-w-full">
-            <span className="whitespace-nowrap">Beta 1.1</span>
+            <span className="whitespace-nowrap">Beta</span>
             <div className="hidden sm:block w-px h-4 bg-green-500"></div>
             <Link
-              href="https://lab.lupleg.org"
+              href="https://menter.lupleg.org"
               className="flex items-center hover:underline whitespace-nowrap"
             >
               <span className="sm:hidden">Public Beta</span>
@@ -34,13 +34,14 @@ export default function New() {
 
         <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
           The platform for learning,
-          <br />& build websites and apps
+          <br />
+          build and connect
         </h1>
 
         <p className="text-base sm:text-lg md:text-xl text-purple-200 mb-8">
           Lupleg is a platform where you can learn, build, and collaborate
-          <br className="hidden sm:inline" /> on websites, blogs, e-commerce
-          websites, and more.
+          <br className="hidden sm:inline" /> on websites, blogs, e-commerce ,
+          hackathons and more.
         </p>
 
         <div className="flex flex-col items-center space-y-4">
@@ -53,7 +54,7 @@ export default function New() {
 
           <div className="bg-green-800 rounded-lg p-2 flex items-center space-x-2 max-w-full overflow-x-auto">
             <code className="text-purple-200 font-mono text-xs sm:text-sm whitespace-nowrap">
-              writer@lupleg.website
+              mark@lupleg.org
             </code>
             <button
               onClick={copyCommand}
