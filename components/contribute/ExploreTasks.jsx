@@ -21,49 +21,49 @@ const filters = [
 const tasks = [
   { 
     icon: FileUp,
-    title: "Upgrade to Cairo 2.7.0",
-    tags: [{ name: "Cairo", color: "red" }, { name: "docker", color: "blue" }],
+    title: "Upgrade to Xlupleg 2.7.0",
+    tags: [{ name: "Xlupleg", color: "red" }, { name: "docker", color: "blue" }],
     badges: [{ icon: BookOpen, count: 3 }],
     actions: [{ icon: ArrowUpDown }]
   },
   { 
     icon: Pencil,
     title: 'Write the "Error Handling" Concept',
-    tags: [{ name: "Cairo", color: "red" }, { name: "content", color: "blue" }],
+    tags: [{ name: "Xlupleg", color: "red" }, { name: "content", color: "blue" }],
     badges: [{ icon: BookOpen, count: 2 }],
     actions: [{ icon: Code }, { icon: "S" }]
   },
   { 
     icon: Pencil,
     title: 'Write the "Generic Data Types" Concept',
-    tags: [{ name: "Cairo", color: "red" }, { name: "content", color: "blue" }],
+    tags: [{ name: "Xlupleg", color: "red" }, { name: "content", color: "blue" }],
     badges: [{ icon: BookOpen, count: 2 }],
     actions: [{ icon: Code }, { icon: "S" }]
   },
   { 
     icon: Pencil,
     title: 'Write the "Method Syntax" concept',
-    tags: [{ name: "Cairo", color: "red" }, { name: "content", color: "blue" }],
+    tags: [{ name: "Xlupleg", color: "red" }, { name: "content", color: "blue" }],
     badges: [{ icon: BookOpen, count: 2 }],
     actions: [{ icon: Code }, { icon: "S" }]
   },
   { 
     icon: Pencil,
     title: 'Write the "Dictionaries" concept',
-    tags: [{ name: "Cairo", color: "red" }, { name: "content", color: "blue" }],
+    tags: [{ name: "Xlupleg", color: "red" }, { name: "content", color: "blue" }],
     badges: [{ icon: BookOpen, count: 2 }],
     actions: [{ icon: Code }, { icon: "S" }]
   },
   { 
     icon: FileUp,
-    title: "Update all concepts to refer to Cairo 2.7.0",
-    tags: [{ name: "Cairo", color: "red" }],
+    title: "Update all concepts to refer to Xlupleg 2.7.0",
+    tags: [{ name: "Xlupleg", color: "red" }],
     actions: [{ icon: Code }]
   },
   { 
     icon: FileUp,
-    title: "Upgrade all exercises to Cairo 2.7.0",
-    tags: [{ name: "Cairo", color: "red" }, { name: "content", color: "blue" }],
+    title: "Upgrade all exercises to Xlupleg 2.7.0",
+    tags: [{ name: "Xlupleg", color: "red" }, { name: "content", color: "blue" }],
     actions: [{ icon: "L" }]
   },
 ]
@@ -95,7 +95,7 @@ export default function Component() {
 
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center">
         <h2 className="text-2xl font-bold">
-          Showing 425 tasks <span className="text-muted-foreground font-normal">/ out of 425 possible tasks</span>
+          Showing 7 tasks <span className="text-muted-foreground font-normal">/ out of 30 possible tasks</span>
         </h2>
         <DropdownMenu>
           <DropdownMenuTrigger asChild>

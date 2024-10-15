@@ -1,6 +1,7 @@
 import { Heart, Clock, Share2 } from "lucide-react";
+import Image from "next/image";
 
-export default function Component() {
+export default function LuplegMentoring() {
   return (
     <div className="max-w-3xl mx-auto p-4">
       <div className="relative mb-8">
@@ -28,23 +29,14 @@ export default function Component() {
           </button>
         </div>
         <div className="aspect-video bg-gray-200 rounded-lg overflow-hidden">
-          <img
+          <Image
             src="/mark.jpg"
             height={480}
             width={854}
             alt="Mark Sikaundi"
             className="w-full h-full object-cover"
           />
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/QMCkP7DbGCs?si=3JMW3Rsoi31ur63q"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
+          
           <div className="absolute bottom-4 left-4 right-4">
             <div className="bg-yellow-400 text-black text-xl font-bold py-1 px-4 rounded-full inline-block">
               Mark Sikaundi

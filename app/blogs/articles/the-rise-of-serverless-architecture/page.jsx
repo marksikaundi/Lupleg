@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import AnnounceCard from "@/components/FeaturesCards/AnnounceCard";
 
-export default function Announcements() {
+export default function ServerlessArchitecture() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-8">
       <Link
@@ -45,12 +45,8 @@ export default function Announcements() {
         allows developers to build and deploy applications without the need to
         worry about server infrastructure. Instead of provisioning and managing
         servers, developers can focus on writing code that is executed in
-        response to events or triggers
-        <Link href="/all-mentorships">
-          <span className="text-[#F3A833]"> Pending adding a backlink </span>
-        </Link>
-        . This leads to more efficient use of resources and faster
-        time-to-market for applications.
+        response to events or triggers . This leads to more efficient use of
+        resources and faster time-to-market for applications.
       </p>
 
       <p className="text-gray-700 mb-4">

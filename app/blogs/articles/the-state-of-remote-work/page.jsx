@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import AnnounceCard from "@/components/FeaturesCards/AnnounceCard";
 
-export default function Announcements() {
+export default function StateWorkRemote() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-8">
       <Link
@@ -38,7 +38,7 @@ export default function Announcements() {
         world. The COVID-19 pandemic served as a catalyst for this shift, as
         companies were forced to adapt to a remote work model in order to
         continue business operations. However,
-        <Link href="/all-mentorships">
+        <Link href="#">
           <span className="text-[#F3A833]">as time progressed</span>
         </Link>
         , both employers and employees began to see the benefits of remote work,

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import AnnounceCard from "@/components/FeaturesCards/AnnounceCard";
 
-export default function Announcements() {
+export default function WebDevelopment() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-8">
       <Link
@@ -39,9 +39,8 @@ export default function Announcements() {
         integral part of the web development process. From enhancing user
         experience to optimizing performance, AI is set to transform the way
         websites are created and maintained.
-        <Link href="/all-mentorships">
-          <span className="text-[#F3A833]"> pending to add backlinks </span>
-        </Link>
+      </p>
+      <p className="text-gray-700 mb-4">
         One of the key areas where AI is making a significant impact in web
         development is in the realm of personalization. With AI-powered
         algorithms, websites can now tailor content and recommendations based on

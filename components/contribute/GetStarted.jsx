@@ -25,8 +25,8 @@ const contributionOptions = [
     level: "Intermediary",
     description:
       "Fix bugs and make improvements to concepts and exercise across Lupleg. Help students have a smooth and error-free experience.",
-    issuesCount: 57,
-    exploreLink: "Explore 57 issues",
+    issuesCount: 0,
+    exploreLink: "Explore  issues",
     languages: ["Cairo", "Delphi Pascal", "Bash", "Nim"],
   },
   {
@@ -35,8 +35,8 @@ const contributionOptions = [
     level: "Advanced",
     description:
       "Build out a new exercise or concept based on a track's roadmap. Have fun making interactive content that millions of people will use.",
-    issuesCount: 41,
-    exploreLink: "Explore 41 issues",
+    issuesCount: 0,
+    exploreLink: "Explore  issues",
     languages: ["Elixir", "Java", "Julia", "F#"],
   },
   {
@@ -45,8 +45,8 @@ const contributionOptions = [
     level: "Project",
     description:
       "Test runners power our online editor. All tracks have basic test runners, but many need more advanced features and functionality adding.",
-    issuesCount: 81,
-    exploreLink: "Explore 81 issues",
+    issuesCount: 0,
+    exploreLink: "Explore  issues",
     languages: ["Fortran", "Gleam", "Lisp Flavoured Erlang", "D"],
   },
   {
@@ -55,8 +55,8 @@ const contributionOptions = [
     level: "Project",
     description:
       "Analyzers give automated feedback to students through ASTs analysis. These are complex and deeply interesting pieces of software to develop.",
-    issuesCount: 48,
-    exploreLink: "Explore 48 issues",
+    issuesCount: 0,
+    exploreLink: "Explore  issues",
     languages: ["Ballerina", "Fortran", "Nim", "Clojure"],
   },
   {
@@ -65,8 +65,8 @@ const contributionOptions = [
     level: "Project",
     description:
       "Representers help us spot identical solutions so that we can reuse feedback. Simpler than analyzers but fun and interesting to reason about.",
-    issuesCount: 32,
-    exploreLink: "Explore 32 issues",
+    issuesCount: 0,
+    exploreLink: "Explore  issues",
     languages: ["Go", "CFML", "Groovy", "ReasonML"],
   },
 ];
