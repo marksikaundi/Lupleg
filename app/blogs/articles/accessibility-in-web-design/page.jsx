@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import AnnounceCard from "@/components/FeaturesCards/AnnounceCard";
 
-export default function Announcements() {
+export default function AccessibilityWeb() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-8">
       <Link
@@ -36,15 +36,9 @@ export default function Announcements() {
         In today's digital age, having an accessible website is not just a good
         practice, it's a legal requirement. Accessibility in web design ensures
         that all individuals, regardless of their abilities, can access and use
-        a website effectivel.
-        <Link href="/all-mentorships">
-          <span className="text-[#F3A833]">
-            pending to add backlinks to this blog
-          </span>
-        </Link>
-        , From those with visual or hearing impairments to those with motor
-        disabilities, it's important to make sure your website is inclusive to
-        all users.
+        a website effectivel. , From those with visual or hearing impairments to
+        those with motor disabilities, it's important to make sure your website
+        is inclusive to all users.
       </p>
 
       <div className="flex justify-center space-x-2 mb-8">
@@ -71,7 +65,7 @@ export default function Announcements() {
         </div>
       </div>
 
-      <div className="border-l-8 border-green-900 bg-green-300">
+      <div className="border-l-4 border-green-900 ">
         <ul className="text-gray-700 mb-8 list-none ml-2 my-6">
           <li>
             ✅ Use clear and simple language: Avoid using jargon or complex
