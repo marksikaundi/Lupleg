@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import AnnounceCard from "@/components/FeaturesCards/AnnounceCard";
 
-export default function Announcements() {
+export default function PreBuilts() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-8">
       <Link
@@ -33,18 +33,15 @@ export default function Announcements() {
       </div>
 
       <p className="text-gray-700 mb-8">
-        For high-growth startups, time is the single most important resource.
+        For high growth startups, time is the single most important resource.
         It's so important that months of delay in shipping SSO and SCIM can
         result in a potential revenue loss of $7.95M compared to using a
         pre-built solution. The ROI difference is staggering too: 9% for a
         homegrown solution vs. 1,954% for a pre-built one. This article explains
-        the methodologies used to calculate these numbers.
-        <Link href="/all-mentorships">
-          <span className="text-[#F3A833]"> pending to add backlinks </span>
-        </Link>
-        As the popularity of Software as a Service (SaaS) continues to grow,
-        businesses are faced with the decision of whether to invest in pre-built
-        solutions or develop their own homegrown SaaS platforms.
+        the methodologies used to calculate these numbers. As the popularity of
+        Software as a Service (SaaS) continues to grow, businesses are faced
+        with the decision of whether to invest in pre-built solutions or develop
+        their own homegrown SaaS platforms.
         <br />
         Both options have their advantages and disadvantages, making it
         essential for companies to carefully consider their unique needs and
