@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import AnnounceCard from "@/components/FeaturesCards/AnnounceCard";
 
-export default function Announcements() {
+export default function OptimizingReact() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-8">
       <Link
@@ -35,9 +35,6 @@ export default function Announcements() {
         grows in complexity, you may notice a decrease in performance. In order
         to optimize the performance of your React application, there are several
         advanced techniques that you can implement.
-        <Link href="/all-mentorships">
-          <span className="text-[#F3A833]"> pending to add the backlink </span>
-        </Link>
       </p>
       <p className="text-gray-700 mb-4">
         One of the first techniques to consider is code splitting. This involves
