@@ -1,7 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 
-export default function Workshops() {
+export default function ProMaterial() {
   return (
     <div className="min-h-screen bg-[#0A0A1B] text-white p-4 sm:p-8">
       <div className="max-w-4xl mx-auto">
@@ -15,7 +15,7 @@ export default function Workshops() {
           />
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2 sm:mb-4">
             Professional
-            <br className="sm:hidden" /> Lupleg Workshops
+            <br className="sm:hidden" /> Lupleg Materials
           </h1>
           <p className="text-sm sm:text-base md:text-xl text-gray-400 max-w-2xl mx-auto">
             A collection of professional, exercise-driven, in-depth, self-paced
