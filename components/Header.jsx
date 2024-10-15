@@ -32,6 +32,7 @@ export default function Component() {
     { name: "Challenges", link: "/challenges/frontend", items: [] },
 
     { name: "Contributing", link: "/contributing", items: [] },
+    { name: "Learning", link: "/learning", items: [] },
     {
       name: "Resources",
       link: "#resources",
@@ -92,12 +93,9 @@ export default function Component() {
         ))}
       </nav>
       <div className="flex items-center space-x-4">
-        <Link
-          href="https://lab.lupleg.org/sign-in"
-          className="hidden md:block"
-        >
+        <Link href="https://mentor.lupleg.org/" className="hidden md:block">
           <Button className="bg-green-950 hover:bg-green-950 text-white">
-            Sign in
+            Get Started
           </Button>
         </Link>
         <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
@@ -142,12 +140,12 @@ export default function Component() {
                   </AccordionItem>
                 ))}
               </Accordion>
-              <Link href="https://lab.lupleg.org/sign-in">
+              <Link href="https://mentor.lupleg.org">
                 <Button
                   className="w-full bg-green-950 hover:bg-green-950 text-white"
                   onClick={handleLinkClick}
                 >
-                  Sign in
+                  Get Started
                 </Button>
               </Link>
             </nav>
