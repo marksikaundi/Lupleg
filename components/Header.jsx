@@ -32,7 +32,6 @@ export default function Component() {
     { name: "Challenges", link: "/challenges/frontend", items: [] },
 
     { name: "Contributing", link: "/contributing", items: [] },
-    { name: "Learning", link: "/learning", items: [] },
     {
       name: "Resources",
       link: "#resources",
@@ -93,7 +92,9 @@ export default function Component() {
         ))}
       </nav>
       <div className="flex items-center space-x-4">
-        <Link href="https://mentor.lupleg.org/" className="hidden md:block">
+        {/* <Link href="https://mentor.lupleg.org/" className="hidden md:block"> TODO */}
+        <Link href="/programs" className="hidden md:block">
+
           <Button className="bg-green-950 hover:bg-green-950 text-white">
             Get Started
           </Button>
@@ -140,7 +141,7 @@ export default function Component() {
                   </AccordionItem>
                 ))}
               </Accordion>
-              <Link href="https://mentor.lupleg.org">
+              <Link href="/programs">
                 <Button
                   className="w-full bg-green-950 hover:bg-green-950 text-white"
                   onClick={handleLinkClick}
