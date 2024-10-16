@@ -38,7 +38,7 @@ export default function Frontend() {
                   <span>Mark Sikaundi</span>
                 </div>
                 <div className="flex space-x-4">
-                <Link href="/programs/se/sources/1">
+                  <Link href="/learning/frontend">
                     <Button className="bg-green-400 hover:bg-green-500 text-green-900">
                       Start Learning
                     </Button>
@@ -161,10 +161,7 @@ export default function Frontend() {
                   <span>Routing</span>
                   <ChevronDown className="w-5 h-5" />
                 </div>
-                <div className="mt-4 flex justify-between items-center">
-                  <span>Authentication</span>
-                  <ChevronDown className="w-5 h-5" />
-                </div>
+
                 <div className="mt-4 flex justify-between items-center">
                   <span>Deployment</span>
                   <ChevronDown className="w-5 h-5" />
