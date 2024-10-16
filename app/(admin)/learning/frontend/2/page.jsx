@@ -1,11 +1,20 @@
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
-import { PlayCircle,  } from "lucide-react"
-import Image from "next/image"
-import { FaTwitter } from "react-icons/fa6"
+"use client";
+
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { PlayCircle } from "lucide-react";
+import Image from "next/image";
+import { useRouter } from "next/navigation";
+import { SiSlack } from "react-icons/si";
+import { BsTwitterX } from "react-icons/bs";
 
 export default function Component() {
+  const router = useRouter();
+
+  const handleRedirect = () => {
+    router.push("https://mentor.lupleg.org");
+  };
   return (
     <div className="container mx-auto p-4 space-y-6">
       <div className="grid gap-6 md:grid-cols-3">
@@ -17,9 +26,9 @@ export default function Component() {
                   <PlayCircle className="w-16 h-16 text-white opacity-50" />
                 </div>
               </div>
-              <h2 className="text-2xl font-bold mb-2">Announcing TypeScript 5.1 Beta</h2>
+              <h2 className="text-2xl font-bold mb-2"> HTML/CSS Basics </h2>
               <div className="flex items-center space-x-4 mb-4">
-              <Image
+                <Image
                   src="/mark.jpg"
                   alt="Mark Sikaundi"
                   width={40}
@@ -28,22 +37,25 @@ export default function Component() {
                 />
                 <div>
                   <p className="font-semibold">Mark Sikaundi</p>
-                  <p className="text-sm text-zinc-400">July 18th, 2024 | 21:1 | 0</p>
+                  <p className="text-sm text-zinc-400">
+                    October 16th, 2024 | 21:1 | 0
+                  </p>
                 </div>
               </div>
               <p className="mb-4">
-                Today we're announcing our beta release of TypeScript 5.1!
+                In this tutorial, we will cover the basics of HTML and CSS. We
+                will learn how to create a simple webpage.
               </p>
               <p className="mb-4">
-                To get started using the beta, you can get it through NuGet or through npm with the
-                following command:
+                To get started, we shall explore the basic tags and attributes
+                in HTML.
               </p>
               <div className="flex space-x-2">
-                <Button variant="outline" size="sm">
-                  <FaTwitter className="w-4 h-4 mr-2" />
+                <Button variant="outline" size="sm" className="text-black">
+                  <BsTwitterX className="w-4 h-4 mr-2" />
                   Tweet
                 </Button>
-                <Button variant="outline" size="sm">
+                <Button variant="outline" size="sm" className="text-black">
                   Share
                 </Button>
               </div>
@@ -51,41 +63,77 @@ export default function Component() {
           </Card>
           <Card>
             <CardHeader>
-              <CardTitle>TypeScript 5.1 Beta is OUT!</CardTitle>
+              <CardTitle>
+                {" "}
+                Here is a catch, if you have some challenges{" "}
+              </CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-sm text-zinc-600 mb-4">
-                TypeScript 5.1 unblocks React Server Components, brings some nice usability updates to
-                functions returning undefined, and some perf improvements.
+                You can easily connect with other people in our community, where
+                you can get direct support from our team and others. Everything
+                is done on one easy join now ⤵️
               </p>
-              <Button variant="outline" size="sm">
-                <FaTwitter className="w-4 h-4 mr-2" />
-                Discuss on Twitter
+              <Button
+                onClick={handleRedirect}
+                variant="outline"
+                size="sm"
+                className="border border-green-950"
+              >
+                <SiSlack className="w-4 h-4 mr-2" />
+                Discuss on Community
               </Button>
             </CardContent>
           </Card>
           <Card>
             <CardHeader>
-              <CardTitle>Transcript</CardTitle>
+              <CardTitle>HTML 101</CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
               <p className="text-sm">
-                <span className="font-semibold">0:00</span> What's up, Wizards? The TypeScript 5.1 Beta is out. My neighbors are building
-                something in their back garden, so apologies for the noise, but I have to get this out
-                right now. There are two main things that come from this release. The first one is
-                undefined-returning functions.
+                <span className="font-semibold">0:00</span> What's up, Wizards?
+                In this module we shall cover basics of html and its use case.
               </p>
               <p className="text-sm">
-                <span className="font-semibold">0:14</span> Functions that don't return anything in JavaScript just return undefined. In
-                TypeScript, they're inferred as void. This one here, for instance, this function that's just
-                returning absolutely nothing, is inferred as a function with no parameters that just
+                <span className="font-semibold">0:14</span> Functions that don't
+                return anything in JavaScript just return undefined. In
+                TypeScript, they're inferred as void. This one here, for
+                instance, this function that's just returning absolutely
+                nothing, is inferred as a function with no parameters that just
                 returns void.
               </p>
               <p className="text-sm">
-                <span className="font-semibold">0:28</span> What if the type of the function that you're passing in or the type that's expected
-                actually returns undefined? This, currently, in TypeScript 5, will be an error. There are
-                a bunch of these different cases here. This actually makes it less usable than you
-                might expect...
+                <span className="font-semibold">0:28</span> What if the type of
+                the function that you're passing in or the type that's expected
+                actually returns undefined? This, currently, in TypeScript 5,
+                will be an error. There are a bunch of these different cases
+                here. This actually makes it less usable than you might
+                expect...
+              </p>
+            </CardContent>
+            <CardHeader>
+              <CardTitle>CSS Basics</CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              <p className="text-sm">
+                <span className="font-semibold">0:00</span> What's up, Wizards?
+                In this module we shall cover basics of html and its use case.
+              </p>
+              <p className="text-sm">
+                <span className="font-semibold">0:14</span> Functions that don't
+                return anything in JavaScript just return undefined. In
+                TypeScript, they're inferred as void. This one here, for
+                instance, this function that's just returning absolutely
+                nothing, is inferred as a function with no parameters that just
+                returns void.
+              </p>
+              <p className="text-sm">
+                <span className="font-semibold">0:28</span> What if the type of
+                the function that you're passing in or the type that's expected
+                actually returns undefined? This, currently, in TypeScript 5,
+                will be an error. There are a bunch of these different cases
+                here. This actually makes it less usable than you might
+                expect...
               </p>
             </CardContent>
           </Card>
@@ -93,7 +141,7 @@ export default function Component() {
         <div className="space-y-6">
           <Card>
             <CardHeader>
-              <CardTitle>More Tips</CardTitle>
+              <CardTitle>Table of Contents</CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="flex items-center space-x-4">
@@ -113,7 +161,9 @@ export default function Component() {
               <div className="flex items-center space-x-4">
                 <PlayCircle className="w-8 h-8 text-zinc-500" />
                 <div>
-                  <p className="font-semibold">Don't use return types, unless...</p>
+                  <p className="font-semibold">
+                    Don't use return types, unless...
+                  </p>
                   <p className="text-sm text-zinc-600">5 mins</p>
                 </div>
               </div>
@@ -127,28 +177,36 @@ export default function Component() {
               <div className="flex items-center space-x-4">
                 <PlayCircle className="w-8 h-8 text-zinc-500" />
                 <div>
-                  <p className="font-semibold">Conform a Derived Type Without Losing Its Literal Values</p>
+                  <p className="font-semibold">
+                    Conform a Derived Type Without Losing Its Literal Values
+                  </p>
                   <p className="text-sm text-zinc-600">1 min</p>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
                 <PlayCircle className="w-8 h-8 text-zinc-500" />
                 <div>
-                  <p className="font-semibold">Conform a Derived Type Without Losing Its Literal Values</p>
+                  <p className="font-semibold">
+                    Conform a Derived Type Without Losing Its Literal Values
+                  </p>
                   <p className="text-sm text-zinc-600">1 min</p>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
                 <PlayCircle className="w-8 h-8 text-zinc-500" />
                 <div>
-                  <p className="font-semibold">Conform a Derived Type Without Losing Its Literal Values</p>
+                  <p className="font-semibold">
+                    Conform a Derived Type Without Losing Its Literal Values
+                  </p>
                   <p className="text-sm text-zinc-600">1 min</p>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
                 <PlayCircle className="w-8 h-8 text-zinc-500" />
                 <div>
-                  <p className="font-semibold">Conform a Derived Type Without Losing Its Literal Values</p>
+                  <p className="font-semibold">
+                    Conform a Derived Type Without Losing Its Literal Values
+                  </p>
                   <p className="text-sm text-zinc-600">1 min</p>
                 </div>
               </div>
@@ -156,16 +214,20 @@ export default function Component() {
           </Card>
           <Card>
             <CardContent className="p-4">
-              <h3 className="font-semibold mb-2">New TypeScript tips delivered to your inbox:</h3>
+              <h3 className="font-semibold mb-2">
+                Tech tips delivered direct to your inbox:
+              </h3>
               <div className="flex space-x-2">
                 <Input placeholder="Preferred name" className="flex-grow" />
                 <Input placeholder="you@example.com" className="flex-grow" />
               </div>
-              <Button className="w-full mt-2">Subscribe for TypeScript tips</Button>
+              <Button className="w-full mt-2 bg-green-950">
+                Subscribe to LuplegX for more tips
+              </Button>
             </CardContent>
           </Card>
         </div>
       </div>
     </div>
-  )
+  );
 }
