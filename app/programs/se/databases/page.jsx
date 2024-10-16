@@ -38,7 +38,7 @@ export default function Database() {
                   <span>Mark Sikaundi</span>
                 </div>
                 <div className="flex space-x-4">
-                  <Link href="https://lab.lupleg.org">
+                <Link href="/programs/se/sources/3">
                     <Button className="bg-green-400 hover:bg-green-500 text-green-900">
                       Start Learning
                     </Button>
