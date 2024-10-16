@@ -38,7 +38,7 @@ export default function Freelance() {
                   <span>Mark Sikaundi</span>
                 </div>
                 <div className="flex space-x-4">
-                <Link href="https://lab.lupleg.org">
+                <Link href="/programs/digital-skills/sources/4">
                     <Button className="bg-green-400 hover:bg-green-500 text-green-900">
                       Start Learning
                     </Button>
