@@ -95,20 +95,83 @@ export default function Component() {
                 In this module we shall cover basics of html and its use case.
               </p>
               <p className="text-sm">
-                <span className="font-semibold">0:14</span> Functions that don't
-                return anything in JavaScript just return undefined. In
-                TypeScript, they're inferred as void. This one here, for
-                instance, this function that's just returning absolutely
-                nothing, is inferred as a function with no parameters that just
-                returns void.
+                <span className="font-semibold">0:14</span>
+                What are HTML tags and how do they work? This is a question that
+                many beginners ask when they are first learning HTML. In this
+                module, we will explore the basics of HTML tags and how they
+                work. We will also discuss some common HTML tags and their uses.
               </p>
               <p className="text-sm">
-                <span className="font-semibold">0:28</span> What if the type of
-                the function that you're passing in or the type that's expected
-                actually returns undefined? This, currently, in TypeScript 5,
-                will be an error. There are a bunch of these different cases
-                here. This actually makes it less usable than you might
-                expect...
+                <span className="font-semibold">0:28</span>
+                What are HTML attributes and how do they work? This is another
+                question that many beginners ask when they are first learning
+                HTML. In this module, we will explore the basics of HTML
+                attributes and how they work. We will also discuss some common
+                HTML attributes and their uses.
+              </p>
+
+              <p className="text-sm">
+                <span className="font-semibold">0:42</span>
+                What are HTML elements and how do they work? This is yet another
+                question that many beginners ask when they are first learning
+                HTML. In this module, we will explore the basics of HTML
+                elements and how they work. We will also discuss some common
+                HTML elements and their uses.
+              </p>
+
+              <p className="text-sm">
+                <span className="font-semibold">0:56</span>
+                What are HTML forms and how do they work? This is a question
+                that many beginners ask when they are first learning HTML. In
+                this module, we will explore the basics of HTML forms and how
+                they work. We will also discuss some common HTML form elements
+                and their uses. We will also discuss some common HTML form tags
+                and their uses. We will also discuss some common HTML form
+                attributes and their uses. We will also discuss some common HTML
+                form elements and their uses.
+              </p>
+
+              <p className="text-sm">
+                <span className="font-semibold">1:10</span> What are HTML tables
+                and how do they work? This is a question that many beginners ask
+                when they are first learning HTML. In this module, we will
+                explore the basics of HTML tables and how they work. We will
+                also discuss some common HTML table elements and their uses. We
+                will also discuss some common HTML table tags and their uses. We
+                will also discuss some common HTML table attributes and their
+                uses. We will also discuss some common HTML table elements and
+                their uses.
+              </p>
+
+              <p className="text-sm">
+                <span className="font-semibold">1:24</span> What are HTML links
+                and how do they work? This is a question that many beginners ask
+                when they are first learning HTML. In this module, we will
+                explore the basics of HTML links and how they work. We will also
+                discuss some common HTML link elements and their uses. We will
+                also discuss some common HTML link tags and their uses. We will
+                also discuss some common HTML link attributes and their uses. We
+                will also discuss some common HTML link elements and their uses.
+                We will also discuss some common HTML link tags and their uses.
+                We will also discuss some common HTML link attributes and their
+                uses.
+              </p>
+
+              <p className="text-sm">
+                <span className="font-semibold">1:38</span> What are HTML images
+                and how do they work? This is a question that many beginners ask
+                when they are first learning HTML. In this module, we will
+                explore the basics of HTML images and how they work. We will
+                also discuss some common HTML image elements and their uses. We
+                will also discuss some common HTML image tags and their uses. We
+                will also discuss some common HTML image attributes and their
+                uses. We will also discuss some common HTML image elements and
+                their uses. We will also discuss some common HTML image tags and
+                their uses. We will also discuss some common HTML image
+                attributes and their uses. We will also discuss some common HTML
+                image elements and their uses. We will also discuss some common
+                HTML image tags and their uses. We will also discuss some common
+                HTML image attributes and their uses.
               </p>
             </CardContent>
             <CardHeader>
