@@ -111,6 +111,52 @@ function processValueAssert(val: unknown): string {
   // Note: Be careful with type assertions, as they can lead to runtime errors
 }`,
   },
+  {
+    id: 6,
+    title: 'Fixing "X Is Of Type Unknown"',
+    content:
+      'The "unknown" type is a type-safe counterpart of "any". You can\'t use a value of type "unknown" without first asserting or narrowing to a more specific type. To fix this, you need to perform type checking or type assertion.',
+    code: `function processValue(val: unknown): string {
+  return val.toLowerCase(); // Error: 'val' is of type 'unknown'
+}
+
+// Fix using type guard:
+function processValueSafe(val: unknown): string {
+  if (typeof val === "string") {
+    return val.toLowerCase();
+  }
+  return "Not a string";
+}
+
+// Fix using type assertion:
+function processValueAssert(val: unknown): string {
+  return (val as string).toLowerCase();
+  // Note: Be careful with type assertions, as they can lead to runtime errors
+}`,
+  },
+  {
+    id: 7,
+    title: 'Fixing "X Is Of Type Unknown"',
+    content:
+      'The "unknown" type is a type-safe counterpart of "any". You can\'t use a value of type "unknown" without first asserting or narrowing to a more specific type. To fix this, you need to perform type checking or type assertion.',
+    code: `function processValue(val: unknown): string {
+  return val.toLowerCase(); // Error: 'val' is of type 'unknown'
+}
+
+// Fix using type guard:
+function processValueSafe(val: unknown): string {
+  if (typeof val === "string") {
+    return val.toLowerCase();
+  }
+  return "Not a string";
+}
+
+// Fix using type assertion:
+function processValueAssert(val: unknown): string {
+  return (val as string).toLowerCase();
+  // Note: Be careful with type assertions, as they can lead to runtime errors
+}`,
+  },
 ];
 
 export default function Component() {
