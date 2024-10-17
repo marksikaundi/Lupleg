@@ -8,6 +8,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { SiSlack } from "react-icons/si";
 import { BsTwitterX } from "react-icons/bs";
+import Link from "next/link";
 
 export default function Component() {
   const router = useRouter();
@@ -70,9 +71,8 @@ export default function Component() {
             </CardHeader>
             <CardContent>
               <p className="text-sm text-zinc-600 mb-4">
-                You can easily connect with other people in our community, where
-                you can get direct support from our team and others. Everything
-                is done on one easy join now ⤵️
+                If you have any challenges, feel free to ask for help from the
+                community.
               </p>
               <Button
                 onClick={handleRedirect}
@@ -179,24 +179,67 @@ export default function Component() {
             </CardHeader>
             <CardContent className="space-y-4">
               <p className="text-sm">
-                <span className="font-semibold">0:00</span> What's up, Wizards?
-                In this module we shall cover basics of html and its use case.
+                <span className="font-semibold">0:00</span>
+                What's up, Wizards? In this module we shall cover basics of css
+                and its use case.
               </p>
               <p className="text-sm">
-                <span className="font-semibold">0:14</span> Functions that don't
-                return anything in JavaScript just return undefined. In
-                TypeScript, they're inferred as void. This one here, for
-                instance, this function that's just returning absolutely
-                nothing, is inferred as a function with no parameters that just
-                returns void.
+                <span className="font-semibold">0:14</span>
+                What is CSS and how does it work? This is a question that many
+                beginners ask when they are first learning CSS. In this module,
+                we will explore the basics of CSS and how it works. We will also
+                discuss some common CSS properties and their uses.
               </p>
               <p className="text-sm">
-                <span className="font-semibold">0:28</span> What if the type of
-                the function that you're passing in or the type that's expected
-                actually returns undefined? This, currently, in TypeScript 5,
-                will be an error. There are a bunch of these different cases
-                here. This actually makes it less usable than you might
-                expect...
+                <span className="font-semibold">0:28</span>
+                What are CSS selectors and how do they work? This is another
+                question that many beginners ask when they are first learning
+                CSS. In this module, we will explore the basics of CSS selectors
+                and how they work. We will also discuss some common CSS
+                selectors and their uses.
+              </p>
+
+              <p className="text-sm">
+                <span className="font-semibold">0:42</span>
+                What are CSS classes and how do they work? This is yet another
+                question that many beginners ask when they are first learning
+                CSS. In this module, we will explore the basics of CSS classes
+                and how they work. We will also discuss some common CSS classes
+                and their uses.
+              </p>
+
+              <p className="text-sm">
+                <span className="font-semibold">0:56</span>
+                What are CSS IDs and how do they work? This is a question that
+                many beginners ask when they are first learning CSS. In this
+                module, we will explore the basics of CSS IDs and how they work.
+                We will also discuss some common CSS IDs and their uses.
+              </p>
+
+              <p className="text-sm">
+                <span className="font-semibold">1:10</span>
+                What are CSS properties and how do they work? This is a question
+                that many beginners ask when they are first learning CSS. In
+                this module, we will explore the basics of CSS properties and
+                how they work. We will also discuss some common CSS properties
+                and their uses.
+              </p>
+
+              <p className="text-sm">
+                <span className="font-semibold">1:24</span>
+                What are CSS values and how do they work? This is a question
+                that many beginners ask when they are first learning CSS. In
+                this module, we will explore the basics of CSS values and how
+                they work. We will also discuss some common CSS values and their
+                uses.
+              </p>
+
+              <p className="text-sm">
+                <span className="font-semibold">1:38</span>
+                What are CSS units and how do they work? This is a question that
+                many beginners ask when they are first learning CSS. In this
+                module, we will explore the basics of CSS units and how they
+                work. We will also discuss some common CSS units and their uses.
               </p>
             </CardContent>
           </Card>
@@ -210,67 +253,85 @@ export default function Component() {
               <div className="flex items-center space-x-4">
                 <PlayCircle className="w-8 h-8 text-zinc-500" />
                 <div>
-                  <p className="font-semibold">Type Predicates</p>
-                  <p className="text-sm text-zinc-600">1 min</p>
+                  <Link href="/learning/frontend/details">
+                    <p className="font-semibold">Type Predicates</p>
+                    <p className="text-sm text-zinc-600">1 min</p>
+                  </Link>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
                 <PlayCircle className="w-8 h-8 text-zinc-500" />
                 <div>
-                  <p className="font-semibold">How to Name your Types</p>
-                  <p className="text-sm text-zinc-600">4 mins</p>
+                  <Link href="/learning/frontend/details">
+                    <p className="font-semibold">How to Name your Types</p>
+                    <p className="text-sm text-zinc-600">4 mins</p>
+                  </Link>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
                 <PlayCircle className="w-8 h-8 text-zinc-500" />
                 <div>
-                  <p className="font-semibold">
-                    Don't use return types, unless...
-                  </p>
-                  <p className="text-sm text-zinc-600">5 mins</p>
+                  <Link href="/learning/frontend/details">
+                    <p className="font-semibold">
+                      Don't use return types, unless...
+                    </p>
+                    <p className="text-sm text-zinc-600">5 mins</p>
+                  </Link>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
                 <PlayCircle className="w-8 h-8 text-zinc-500" />
                 <div>
-                  <p className="font-semibold">TypeScript 5.0 Beta Deep Dive</p>
-                  <p className="text-sm text-zinc-600">6 mins</p>
+                  <Link href="/learning/frontend/details">
+                    <p className="font-semibold">
+                      TypeScript 5.0 Beta Deep Dive
+                    </p>
+                    <p className="text-sm text-zinc-600">6 mins</p>
+                  </Link>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
                 <PlayCircle className="w-8 h-8 text-zinc-500" />
                 <div>
-                  <p className="font-semibold">
-                    Conform a Derived Type Without Losing Its Literal Values
-                  </p>
-                  <p className="text-sm text-zinc-600">1 min</p>
+                  <Link href="/learning/frontend/details">
+                    <p className="font-semibold">
+                      Conform a Derived Type Without Losing Its Literal Values
+                    </p>
+                    <p className="text-sm text-zinc-600">1 min</p>
+                  </Link>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
                 <PlayCircle className="w-8 h-8 text-zinc-500" />
                 <div>
-                  <p className="font-semibold">
-                    Conform a Derived Type Without Losing Its Literal Values
-                  </p>
-                  <p className="text-sm text-zinc-600">1 min</p>
+                  <Link href="/learning/frontend/details">
+                    <p className="font-semibold">
+                      Conform a Derived Type Without Losing Its Literal Values
+                    </p>
+                    <p className="text-sm text-zinc-600">1 min</p>
+                  </Link>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
                 <PlayCircle className="w-8 h-8 text-zinc-500" />
                 <div>
-                  <p className="font-semibold">
-                    Conform a Derived Type Without Losing Its Literal Values
-                  </p>
-                  <p className="text-sm text-zinc-600">1 min</p>
+                  <Link href="/learning/frontend/details">
+                    <p className="font-semibold">
+                      Conform a Derived Type Without Losing Its Literal Values
+                    </p>
+                    <p className="text-sm text-zinc-600">1 min</p>
+                  </Link>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
                 <PlayCircle className="w-8 h-8 text-zinc-500" />
                 <div>
-                  <p className="font-semibold">
-                    Conform a Derived Type Without Losing Its Literal Values
-                  </p>
-                  <p className="text-sm text-zinc-600">1 min</p>
+                  <Link href="/learning/frontend/details">
+                    <p className="font-semibold">
+                      Conform a Derived Type Without Losing Its Literal Values
+                    </p>
+                    <p className="text-sm text-zinc-600">1 min</p>
+                  </Link>
                 </div>
               </div>
             </CardContent>

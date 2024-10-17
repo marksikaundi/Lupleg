@@ -1,161 +1,224 @@
 "use client";
 
 import { useState } from "react";
-import { ChevronRight, Github, Menu, X } from "lucide-react";
+import { ChevronRight, Menu, X } from "lucide-react";
 import { FaGithub } from "react-icons/fa6";
 
 const tutorials = [
   {
     id: 1,
-    title: 'Fixing "X Is Not Assignable To Y"',
+    title: 'Understanding "HTML Skeleton"',
     content:
-      "This error occurs when you try to assign a value to a variable or parameter of an incompatible type. To fix this, ensure that the types match or use type assertions when necessary.",
-    code: `let x: number = 5;
-let y: string = x; // Error: Type 'number' is not assignable to type 'string'
-
-// Fix:
-let z: string = x.toString(); // Convert number to string`,
+      "The HTML skeleton is the basic structure of an HTML document. It includes the DOCTYPE declaration, html, head, and body elements. This structure provides the foundation for building web pages.",
+    code: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuplegX 101</title>
+</head>
+<body>
+    
+</body>
+</html>`,
   },
   {
     id: 2,
-    title: 'Fixing "Property Does Not Exist On Type"',
+    title: 'HTML tags',
     content:
-      "This error happens when you try to access a property that doesn't exist on the given type. To resolve this, make sure you're using the correct property names or extend the type to include the missing property.",
-    code: `interface Person {
-  name: string;
-}
-
-let person: Person = { name: "Alice" };
-console.log(person.age); // Error: Property 'age' does not exist on type 'Person'
-
-// Fix:
-interface PersonWithAge extends Person {
-  age?: number;
-}
-
-let personWithAge: PersonWithAge = { name: "Alice", age: 30 };
-console.log(personWithAge.age); // OK`,
+      "HTML tags are used to define the structure and content of a web page. They are enclosed in angle brackets and come in pairs: opening and closing tags. The opening tag contains the tag name, and the closing tag has a forward slash before the tag name.",
+    code: `<!DOCTYPE html> DOCTYPE tag
+<html lang="en"> HTML tag
+  <head> Head tag
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title> Title tag
+  </head> Head tag
+  <body> Body tag
+    HTML TAGS HERE
+    <h1>Sample</h1> Heading tag which ranges from h1 to h6
+    <p>Sample</p> Paragraph tag
+    <span>Here am</span> Span tag
+    <div> Div tag
+      <p>Sample</p>
+    </div>
+    <canvas></canvas> Canvas tag
+    <script> console.log("Hello World"); </script> Script tag
+    <button>Click me</button> Button tag
+    <style> body { background-color: #f1f1f1; } </style> Style tag
+    <link rel="stylesheet" href="style.css" /> Link tag
+    <img src="image.jpg" alt="Image" /> Image tag
+    <a href="https://www.lupleg.org">Go to Lupleg Website</a> Anchor tag
+    <ul> Unordered list
+      <li>Item 1</li> List item
+      <li>Item 2</li>
+    </ul>
+    <ol> Ordered list
+      <li>Item 1</li> List item
+      <li>Item 2</li>
+    </ol>
+    <table> Table tag
+      <tr> Table row
+        <td>Table data</td> Table data
+        <td>Table data</td>
+      </tr>
+    </table>
+    </body> Body tag
+You can explore more tags on the W3Schools website.`,
   },
   {
     id: 3,
-    title: 'Fixing "X is Possibly Null Or Undefined"',
+    title: 'HTML attributes',
     content:
-      "This error occurs when you try to use a value that might be null or undefined. To fix this, you can use optional chaining, nullish coalescing, or type guards.",
-    code: `function getLength(str: string | null): number {
-  return str.length; // Error: 'str' is possibly 'null'
-}
-
-// Fix using optional chaining:
-function getLengthSafe(str: string | null): number | undefined {
-  return str?.length;
-}
-
-// Fix using nullish coalescing:
-function getLengthWithDefault(str: string | null): number {
-  return str?.length ?? 0;
-}
-
-// Fix using type guard:
-function getLengthChecked(str: string | null): number {
-  if (str === null) {
-    return 0;
-  }
-  return str.length;
-}`,
+      "HTML attributes provide additional information about an element. They are always included in the opening tag and are written as name-value pairs. The attribute name is followed by an equal sign and the attribute value in double or single quotes.",
+    code: `
+    HTML Attributes
+    
+    <body>
+          <h1 style="color: red;">Hello World</h1> Style attribute
+          <img src="image.jpg" alt="Image" width="200" height="200" /> Width and height attributes
+          <a href="https://www.lupleg.org" target="_blank">Go to Lupleg Website</a> Target attribute
+          <input type="text" placeholder="Enter your name" /> Placeholder attribute
+          <button onclick="alert('Hello')">Click me</button> Onclick attribute
+          <a href="mailto:[email protected]?subject=Feedback">Send email</a> Mailto attribute
+          <a href="tel:+1234567890">Call us</a> Tel attribute
+          <a href="#section">Go to section</a> ID attribute
+          <a href="https://www.lupleg.org" title="Visit Lupleg">Go to Lupleg Website</a> Title attribute
+    </body>
+   `,
   },
   {
     id: 4,
-    title: 'Fixing "Types Of Property Are Incompatible"',
+    title: 'What are HTML elements',
     content:
-      "This error happens when you try to assign an object to a variable of a type with incompatible property types. To fix this, ensure that all properties have compatible types.",
-    code: `interface Animal {
-  name: string;
-  age: number;
-}
+      "HTML elements are the building blocks of a web page. They are defined by tags and can contain text, images, links, and other elements. Elements can be nested inside other elements to create a hierarchical structure.",
+    code: `  <body>
+    <h1>Hello World</h1> Heading element
+    <p>This is a paragraph.</p>
+    Paragraph element
+    <a href="https://www.lupleg.org">Go to Lupleg Website</a> Anchor element
+    <img src="image.jpg" alt="Image" /> Image element
+        <div>
+        <p>This is a div element.</p>
+        </div> Division element
+    <span>This is a span element.</span> Span element
+            <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            </ul> Unordered list element
 
-const cat = {
-  name: "Whiskers",
-  age: "5" // Error: Type 'string' is not assignable to type 'number'
-};
+            <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            </ol> Ordered list element
 
-let animal: Animal = cat; // Error: Types of property 'age' are incompatible
+    <table>
+            <tr>
+                <td>Row 1, Cell 1</td>
+                <td>Row 1, Cell 2</td>
+            </tr>
+            <tr>
+                <td>Row 2, Cell 1</td>
+                <td>Row 2, Cell 2</td>
+            </tr>
+    </table> Table element
+    
+  </body>
 
-// Fix:
-const fixedCat = {
-  name: "Whiskers",
-  age: 5 // Changed to number
-};
-
-let fixedAnimal: Animal = fixedCat; // OK`,
+You can explore more elements on the W3Schools website. 
+      `,
   },
   {
     id: 5,
-    title: 'Fixing "X Is Of Type Unknown"',
+    title: 'HTML forms',
     content:
-      'The "unknown" type is a type-safe counterpart of "any". You can\'t use a value of type "unknown" without first asserting or narrowing to a more specific type. To fix this, you need to perform type checking or type assertion.',
-    code: `function processValue(val: unknown): string {
-  return val.toLowerCase(); // Error: 'val' is of type 'unknown'
-}
+      'HTML forms are used to collect user input. They contain various form elements such as input fields, checkboxes, radio buttons, and buttons. When a user submits a form, the data is sent to a server for processing.',
+    code: `
+    <body>
+            <form action="/submit" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+    </body>
+                
+    You can explore more form elements on the W3Schools website.`,
 
-// Fix using type guard:
-function processValueSafe(val: unknown): string {
-  if (typeof val === "string") {
-    return val.toLowerCase();
-  }
-  return "Not a string";
-}
-
-// Fix using type assertion:
-function processValueAssert(val: unknown): string {
-  return (val as string).toLowerCase();
-  // Note: Be careful with type assertions, as they can lead to runtime errors
-}`,
   },
   {
     id: 6,
-    title: 'Fixing "X Is Of Type Unknown"',
+    title: 'HTML tables',
     content:
-      'The "unknown" type is a type-safe counterpart of "any". You can\'t use a value of type "unknown" without first asserting or narrowing to a more specific type. To fix this, you need to perform type checking or type assertion.',
-    code: `function processValue(val: unknown): string {
-  return val.toLowerCase(); // Error: 'val' is of type 'unknown'
-}
+      'HTML tables are used to display data in rows and columns. They consist of table rows (tr), table headers (th), and table data cells (td). Tables can be styled using CSS to improve their appearance.',
+    code: `HTML Tables
+<body>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Mark Sikaundi</td>
+            <td>30</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>25</td>
+            <td>UK</td>
+        </tr>
+    </table>
+</body>
 
-// Fix using type guard:
-function processValueSafe(val: unknown): string {
-  if (typeof val === "string") {
-    return val.toLowerCase();
-  }
-  return "Not a string";
-}
 
-// Fix using type assertion:
-function processValueAssert(val: unknown): string {
-  return (val as string).toLowerCase();
-  // Note: Be careful with type assertions, as they can lead to runtime errors
-}`,
+You can explore more table elements on the W3Schools website.
+    `,
   },
   {
     id: 7,
-    title: 'Fixing "X Is Of Type Unknown"',
+    title: 'HTML links, Images',
     content:
-      'The "unknown" type is a type-safe counterpart of "any". You can\'t use a value of type "unknown" without first asserting or narrowing to a more specific type. To fix this, you need to perform type checking or type assertion.',
-    code: `function processValue(val: unknown): string {
-  return val.toLowerCase(); // Error: 'val' is of type 'unknown'
-}
-
-// Fix using type guard:
-function processValueSafe(val: unknown): string {
-  if (typeof val === "string") {
-    return val.toLowerCase();
-  }
-  return "Not a string";
-}
-
-// Fix using type assertion:
-function processValueAssert(val: unknown): string {
-  return (val as string).toLowerCase();
-  // Note: Be careful with type assertions, as they can lead to runtime errors
-}`,
+      'HTML links are used to navigate between web pages. They are created using the anchor (a) element and can link to other pages, files, or websites. Images are inserted using the image (img) element and can be styled using CSS.',
+    code: `
+    <body>
+        <a href="https://www.lupleg.org">Go to Lupleg Website</a>
+        <br>
+        <img src="image.jpg" alt="Image">
+    </body>
+    
+    You can explore more link and image elements on the W3Schools website.`,
+  },
+  {
+    id: 8,
+    title: 'Practical HTML Projects',
+    content:
+      'In this module, we will build several practical HTML projects to apply the concepts we have learned. These projects will include a personal portfolio, a blog, and a landing page. By working on these projects, you will gain hands-on experience and improve your HTML skills.',
+    code: `
+    <body>
+        <h1>Personal Portfolio</h1>
+        <p>Welcome to my personal portfolio. Here you can learn more about me and my work.</p>
+        <h2>About Me</h2>
+        <p>I am a web developer with a passion for creating beautiful and functional websites.</p>
+        <h2>My Work</h2>
+        <ul>
+            <li>Project 1</li>
+            <li>Project 2</li>
+            <li>Project 3</li>
+        </ul>
+        <h2>Contact Me</h2>
+        <p>If you have any questions or would like to work together, feel free to contact me.</p>   
+    </body>
+    
+    `,
   },
 ];
 
@@ -170,7 +233,7 @@ export default function Component() {
       {/* Mobile Header */}
       <div className="md:hidden flex items-center justify-between p-4 bg-[#0f1117]">
         <div className="flex items-center space-x-2">
-          <h1 className="text-lg font-bold">TypeScript Tutorials</h1>
+          <h1 className="text-lg font-bold">HTML Tutorials</h1>
         </div>
         <button onClick={toggleSidebar} className="text-white">
           {isSidebarOpen ? (
@@ -217,7 +280,7 @@ export default function Component() {
       {/* Main Content */}
       <div className="flex-1 p-4 md:p-8 overflow-y-auto">
         <div className="mb-8">
-          <span className="text-[#00ffff] text-sm">SOLUTION</span>
+          <span className="text-[#00ffff] text-sm">MODULE</span>
           <h2 className="text-2xl md:text-4xl font-bold mt-2">
             {selectedTutorial.title}
           </h2>
@@ -226,13 +289,13 @@ export default function Component() {
           <div className="flex items-center space-x-2 mb-4">
             <FaGithub className="w-5 h-5 md:w-6 md:h-6" />
             <span className="font-semibold text-sm md:text-base">
-              error-messages-tutorial
+              Web technologies / HTML
             </span>
           </div>
           <p className="text-[#8b8b8b] text-xs md:text-sm">
             /src/{selectedTutorial.id.toString().padStart(3, "0")}-
             {selectedTutorial.title.toLowerCase().replace(/[^a-z0-9]+/g, "-")}
-            .solution.1.ts
+            solution.html
           </p>
         </div>
         <div className="space-y-4">
