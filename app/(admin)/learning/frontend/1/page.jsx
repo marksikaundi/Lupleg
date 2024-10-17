@@ -254,7 +254,7 @@ export default function Component() {
                 <PlayCircle className="w-8 h-8 text-zinc-500" />
                 <div>
                   <Link href="/learning/frontend/details">
-                    <p className="font-semibold">Type Predicates</p>
+                    <p className="font-semibold"> Introductions </p>
                     <p className="text-sm text-zinc-600">1 min</p>
                   </Link>
                 </div>
@@ -263,7 +263,7 @@ export default function Component() {
                 <PlayCircle className="w-8 h-8 text-zinc-500" />
                 <div>
                   <Link href="/learning/frontend/details">
-                    <p className="font-semibold">How to Name your Types</p>
+                    <p className="font-semibold">HTML Tags </p>
                     <p className="text-sm text-zinc-600">4 mins</p>
                   </Link>
                 </div>
@@ -272,9 +272,7 @@ export default function Component() {
                 <PlayCircle className="w-8 h-8 text-zinc-500" />
                 <div>
                   <Link href="/learning/frontend/details">
-                    <p className="font-semibold">
-                      Don't use return types, unless...
-                    </p>
+                    <p className="font-semibold">HTML attributes</p>
                     <p className="text-sm text-zinc-600">5 mins</p>
                   </Link>
                 </div>
@@ -283,9 +281,7 @@ export default function Component() {
                 <PlayCircle className="w-8 h-8 text-zinc-500" />
                 <div>
                   <Link href="/learning/frontend/details">
-                    <p className="font-semibold">
-                      TypeScript 5.0 Beta Deep Dive
-                    </p>
+                    <p className="font-semibold">What are HTML elements</p>
                     <p className="text-sm text-zinc-600">6 mins</p>
                   </Link>
                 </div>
@@ -294,9 +290,16 @@ export default function Component() {
                 <PlayCircle className="w-8 h-8 text-zinc-500" />
                 <div>
                   <Link href="/learning/frontend/details">
-                    <p className="font-semibold">
-                      Conform a Derived Type Without Losing Its Literal Values
-                    </p>
+                    <p className="font-semibold">What are HTML forms</p>
+                    <p className="text-sm text-zinc-600">1 min</p>
+                  </Link>
+                </div>
+              </div>
+              <div className="flex items-center space-x-4">
+                <PlayCircle className="w-8 h-8 text-zinc-500" />
+                <div>
+                  <Link href="/learning/frontend/details">
+                    <p className="font-semibold">What are HTML tables</p>
                     <p className="text-sm text-zinc-600">1 min</p>
                   </Link>
                 </div>
@@ -306,7 +309,7 @@ export default function Component() {
                 <div>
                   <Link href="/learning/frontend/details">
                     <p className="font-semibold">
-                      Conform a Derived Type Without Losing Its Literal Values
+                      What are HTML links & Images
                     </p>
                     <p className="text-sm text-zinc-600">1 min</p>
                   </Link>
@@ -316,20 +319,7 @@ export default function Component() {
                 <PlayCircle className="w-8 h-8 text-zinc-500" />
                 <div>
                   <Link href="/learning/frontend/details">
-                    <p className="font-semibold">
-                      Conform a Derived Type Without Losing Its Literal Values
-                    </p>
-                    <p className="text-sm text-zinc-600">1 min</p>
-                  </Link>
-                </div>
-              </div>
-              <div className="flex items-center space-x-4">
-                <PlayCircle className="w-8 h-8 text-zinc-500" />
-                <div>
-                  <Link href="/learning/frontend/details">
-                    <p className="font-semibold">
-                      Conform a Derived Type Without Losing Its Literal Values
-                    </p>
+                    <p className="font-semibold">Practical Session</p>
                     <p className="text-sm text-zinc-600">1 min</p>
                   </Link>
                 </div>
