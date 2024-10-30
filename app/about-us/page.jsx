@@ -8,17 +8,13 @@ import HelpUsBring from "@/components/sections/HelpUsBring";
 export default function About() {
   return (
     <div className="bg-white min-h-screen flex flex-col items-center justify-center p-4 mt-16 relative ">
-      {/* Decorative elements */}
       <div className="absolute top-4 left-4 w-16 h-6 border-2 border-cyan-400 rotate-45"></div>
       <div className="absolute top-8 left-8 w-4 h-1 bg-green-900 -rotate-45"></div>
       <div className="absolute top-4 right-4 w-4 h-4 bg-yellow-400"></div>
       <div className="absolute top-8 right-8 w-6 h-6">
         <Square className="text-green-900" />
       </div>
-
-      {/* Main content */}
       <div className="text-center max-w-2xl">
-        {/* Logo */}
         <div className="mb-4 flex justify-center">
           <div className="text-4xl text-green-950 font-bold">
             {"{"}
@@ -27,10 +23,7 @@ export default function About() {
             {"}"}
           </div>
         </div>
-
         <h1 className="text-5xl font-bold text-green-950 mb-4">Lupleg</h1>
-
-        {/* Wavy line */}
         <div className="flex justify-center mb-6">
           <svg
             width="60"
@@ -46,14 +39,11 @@ export default function About() {
             />
           </svg>
         </div>
-
         <p className="text-xl text-black-900 mb-8">
           We're building a place where anyone can learn and master
           <br />
           programming for free, without ever feeling lost or stupid.
         </p>
-
-        {/* Integrate with any platform for sponsor */}
         <Link href="mailto:payment@lupleg.website">
           <button className="bg-green-950 text-white px-6 py-3 rounded-full text-lg font-semibold flex items-center justify-center transition-all hover:bg-green-950 hover:shadow-lg">
             Donate to Lupleg
