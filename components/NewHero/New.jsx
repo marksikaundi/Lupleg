@@ -25,7 +25,7 @@ export default function New() {
             >
               <span className="sm:hidden">Public Beta</span>
               <span className="hidden sm:inline">
-                New experimental learning platform
+                New experimental mentor platform
               </span>
               <ArrowRight className="ml-1 h-3 w-3 sm:h-4 sm:w-4 flex-shrink-0" />
             </Link>
@@ -44,15 +44,15 @@ export default function New() {
           hackathons and more.
         </p>
 
-        <div className="flex flex-col items-center space-y-4">
+        <div className="flex flex-col items-center space-y-4 p-4">
           <Link
             href="/programs"
-            className="bg-white text-green-950 font-semibold px-6 sm:px-8 py-2 sm:py-3 rounded-full text-base sm:text-lg hover:bg-purple-100 transition duration-300"
+            className="bg-white text-green-950 font-semibold px-6 sm:px-8 py-0 sm:py-3 rounded-full text-base sm:text-lg hover:bg-purple-100 transition duration-300"
           >
             Get Started
           </Link>
 
-          <div className="bg-green-800 rounded-lg p-2 flex items-center space-x-2 max-w-full overflow-x-auto">
+          {/* <div className="bg-green-800 rounded-lg p-2 flex items-center space-x-2 max-w-full overflow-x-auto">
             <code className="text-purple-200 font-mono text-xs sm:text-sm whitespace-nowrap">
               mark@lupleg.org
             </code>
@@ -67,7 +67,7 @@ export default function New() {
                 <Copy className="h-4 w-4 sm:h-5 sm:w-5" />
               )}
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
