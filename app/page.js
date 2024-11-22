@@ -10,8 +10,8 @@ export default function Home() {
     <div className="bg-[#FFFFFF]">
       <New />
       <Programming />
-      <WelcomeHero />
-      <WhatWeDo />
+      {/* <WelcomeHero /> */}
+      {/* <WhatWeDo /> */}
       <DemoView />
       <ShortMentorships />
     </div>
