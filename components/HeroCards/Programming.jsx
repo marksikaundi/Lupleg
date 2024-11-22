@@ -68,7 +68,7 @@ export default function Programming() {
           <div className="flex items-center mb-4">
             <HashIcon className="w-8 h-8 text-green-600 mr-2  border rounded-full" />
             <h2 className="text-2xl font-bold text-green-950">
-              Deepen your knowledge with human mentoring, for free.
+              Deepen your knowledge with human mentoring.
             </h2>
           </div>
           <p className="text-gray-700 mb-4">
