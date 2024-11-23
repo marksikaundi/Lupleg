@@ -21,7 +21,7 @@ export default function MentorHeader() {
                 </p>
               </div>
               <div className="w-full max-w-sm space-y-2">
-                <Link href="https://app.lupleg.website">
+                <Link href="https://app.lupleg.org">
                   <Button variant="secondary" className="w-full">
                     Apply Now
                   </Button>

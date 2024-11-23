@@ -1,16 +1,16 @@
-"use client"
-import { useState, useEffect } from 'react'
-import { motion } from 'framer-motion'
-import { ArrowRight, CheckCircle } from 'lucide-react'
-import { Button } from "@/components/ui/button"
-import Link from 'next/link'
+"use client";
+import { useState, useEffect } from "react";
+import { motion } from "framer-motion";
+import { ArrowRight, CheckCircle } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function Component() {
-  const [mounted, setMounted] = useState(false)
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setMounted(true)
-  }, [])
+    setMounted(true);
+  }, []);
 
   return (
     <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-gradient-to-r from-background to-secondary/20">
@@ -22,24 +22,25 @@ export default function Component() {
                 Streamline Your Workflow with Our SaaS Solution
               </h1>
               <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                Boost productivity, collaborate seamlessly, and scale your business with our all-in-one platform.
+                Boost productivity, collaborate seamlessly, and scale your
+                business with our all-in-one platform.
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
-              
-
-              <Link href="https://app.lupleg.website">
-              <Button className="inline-flex h-10 items-center justify-center rounded-full bg-green-950 px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-green-950">
-                Get Started
-                <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
+              <Link href="https://app.lupleg.org">
+                <Button className="inline-flex h-10 items-center justify-center rounded-full bg-green-950 px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-green-950">
+                  Get Started
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Button>
               </Link>
-              
 
               <Link href="resources/session">
-              <Button variant="outline" className="inline-flex h-10 items-center justify-center rounded-full border border-input px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground">
-                Book a Demo
-              </Button>
+                <Button
+                  variant="outline"
+                  className="inline-flex h-10 items-center justify-center rounded-full border border-input px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground"
+                >
+                  Book a Demo
+                </Button>
               </Link>
             </div>
             <div className="flex items-center space-x-4 text-sm">
@@ -68,5 +69,5 @@ export default function Component() {
         </div>
       </div>
     </section>
-  )
+  );
 }

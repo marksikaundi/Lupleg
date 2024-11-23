@@ -16,15 +16,15 @@ export default function Terms() {
         </p>
         <h2 className="font-mono font-bold my-6 ">1. Introduction</h2>
         <p>
-          By using lupleg.website you confirm your acceptance of, and agree to
-          be bound by, these term and conditions.
+          By using lupleg.org you confirm your acceptance of, and agree to be
+          bound by, these term and conditions.
         </p>
         <h2 className="font-mono font-bold my-6 ">
           2. Agreement to Terms and Conditions
         </h2>
         <p>
           This Agreement takes effect on the date on which you first use the
-          lupleg.website application.
+          lupleg.org application.
         </p>
         <h2 className="font-mono font-bold my-6 ">
           3. PRO / premium features{" "}
@@ -37,17 +37,16 @@ export default function Terms() {
         <h2 className="font-mono font-bold my-6 ">4. Refund Policy </h2>
         <p>
           We allow refunds within 14 days of purchase. Contact us via email at
-          payment@lupleg.website or in our Slack Cmmunity and we will give you a
+          payment@lupleg.org or in our Slack Cmmunity and we will give you a
           refund.
         </p>
         <h2 className="font-mono font-bold my-6 ">5. Product usage</h2>
         <p>
-          By using lupleg.website, you agree to receive important product
-          updates, newsletters, marketing or promotional materials and other
-          information that may be of interest to you. You may opt out of
-          receiving any, or all, of these communications from us by following
-          the unsubscribe link or instructions provided in any email we send or
-          by contacting us.
+          By using lupleg.org, you agree to receive important product updates,
+          newsletters, marketing or promotional materials and other information
+          that may be of interest to you. You may opt out of receiving any, or
+          all, of these communications from us by following the unsubscribe link
+          or instructions provided in any email we send or by contacting us.
         </p>
         <h2 className="font-mono font-bold my-6 ">6. Disclaimer</h2>
         <p>
@@ -64,25 +63,25 @@ export default function Terms() {
           7. Warranties and Limitation of Liability
         </h2>
         <p>
-          lupleg.website does not give any warranty, guarantee or other term as
-          to the quality, fitness for purpose or otherwise of the software.
-          lupleg.website shall not be liable to you by reason of any
-          representation (unless fraudulent), or any implied warranty, condition
-          or other term, or any duty at common law, for any loss of profit or
-          any indirect, special or consequential loss, damage, costs, expenses
-          or other claims (whether caused by Lupleg &#x27;s negligence or the
-          negligence of its servants or agents or otherwise) which arise out of
-          or in connection with the provision of any goods or services by
-          lupleg.website. lupleg.website shall not be liable or deemed to be in
-          breach of contract by reason of any delay in performing, or failure to
-          perform, any of its obligations if the delay or failure was due to any
-          cause beyond its reasonable control. Notwithstanding contrary clauses
-          in this Agreement, in the event that lupleg.website are deemed liable
-          to you for breach of this Agreement, you agree that lupleg.website
-          &#x27;s liability is limited to the amount actually paid by you for
-          your services or software, which amount calculated in reliance upon
-          this clause. You hereby release lupleg.website from any and all
-          obligations, liabilities and claims in excess of this limitation.
+          lupleg.org does not give any warranty, guarantee or other term as to
+          the quality, fitness for purpose or otherwise of the software.
+          lupleg.org shall not be liable to you by reason of any representation
+          (unless fraudulent), or any implied warranty, condition or other term,
+          or any duty at common law, for any loss of profit or any indirect,
+          special or consequential loss, damage, costs, expenses or other claims
+          (whether caused by Lupleg &#x27;s negligence or the negligence of its
+          servants or agents or otherwise) which arise out of or in connection
+          with the provision of any goods or services by lupleg.org. lupleg.org
+          shall not be liable or deemed to be in breach of contract by reason of
+          any delay in performing, or failure to perform, any of its obligations
+          if the delay or failure was due to any cause beyond its reasonable
+          control. Notwithstanding contrary clauses in this Agreement, in the
+          event that lupleg.org are deemed liable to you for breach of this
+          Agreement, you agree that lupleg.org &#x27;s liability is limited to
+          the amount actually paid by you for your services or software, which
+          amount calculated in reliance upon this clause. You hereby release
+          lupleg.org from any and all obligations, liabilities and claims in
+          excess of this limitation.
         </p>
         <h2 className="font-mono font-bold my-6 ">8. Changes</h2>
         <p>

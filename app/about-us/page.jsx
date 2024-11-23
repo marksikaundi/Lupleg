@@ -44,7 +44,7 @@ export default function About() {
           <br />
           programming for free, without ever feeling lost or stupid.
         </p>
-        <Link href="mailto:payment@lupleg.website">
+        <Link href="mailto:payment@lupleg.org">
           <button className="bg-green-950 text-white px-6 py-3 rounded-full text-lg font-semibold flex items-center justify-center transition-all hover:bg-green-950 hover:shadow-lg">
             Donate to Lupleg
             <ArrowRight className="ml-2" />

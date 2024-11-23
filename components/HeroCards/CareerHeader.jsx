@@ -19,7 +19,7 @@ export default function CareerHeader() {
                 </p>
               </div>
               <div className="w-full max-w-sm space-y-2">
-                <Link href="mailto:recruit@lupleg.website">
+                <Link href="mailto:recruit@lupleg.org">
                   <Button variant="secondary" className="w-full">
                     Apply Now
                   </Button>
