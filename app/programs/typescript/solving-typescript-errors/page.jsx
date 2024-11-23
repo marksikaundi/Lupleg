@@ -36,7 +36,7 @@ export default function STError() {
                 <span>Mark Sikaundi</span>
               </div>
               <div className="flex space-x-4">
-                <Link href="https://app.lupleg.website">
+                <Link href="https://app.lupleg.org">
                   <Button className="bg-green-400 hover:bg-green-500 text-green-900">
                     Start Learning
                   </Button>

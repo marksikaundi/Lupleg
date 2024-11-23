@@ -23,7 +23,7 @@ export default function BgTypescript() {
           <div className="md:flex md:justify-between md:items-center">
             <div>
               <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              Beginner's TypeScript
+                Beginner's TypeScript
               </h1>
               <div className="flex items-center mb-6">
                 <Image
@@ -36,7 +36,7 @@ export default function BgTypescript() {
                 <span>Mark Sikaundi</span>
               </div>
               <div className="flex space-x-4">
-                <Link href="https://app.lupleg.website">
+                <Link href="https://app.lupleg.org">
                   <Button className="bg-green-400 hover:bg-green-500 text-green-900">
                     Start Learning
                   </Button>

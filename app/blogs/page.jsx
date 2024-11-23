@@ -94,7 +94,7 @@ export default function Blogs() {
           <p className="text-sm text-gray-500 font-thin border mr-9 border-gray-200 rounded-full p-2">
             Subscribe via{" "}
             <Link
-              href="mailto:writer@lupleg.website"
+              href="mailto:writer@lupleg.org"
               className="text-green-900 hover:underline"
             >
               email

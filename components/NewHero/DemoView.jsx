@@ -21,7 +21,7 @@ export default function DemoView() {
             enterprise integrations.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Link href="https://docs.lupleg.website">
+            <Link href="https://docs.lupleg.org">
               <Button className="bg-[#F3A833] text-green-950 hover:bg-[#F3A833] w-full sm:w-auto">
                 Read the docs
               </Button>

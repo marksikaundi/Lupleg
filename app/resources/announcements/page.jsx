@@ -38,7 +38,7 @@ export default function Announcements() {
         demand skills in the ecosystem of technology. So if you someone who can
         revelage this opportunity, you can reachout or email us once the program
         is rolled out. To apply simply follow this link here:{" "}
-        <Link href="mailto:writer@lupleg.website">
+        <Link href="mailto:writer@lupleg.org">
           <span className="text-[#F3A833]">
             Apply now to join our Mentorships25
           </span>

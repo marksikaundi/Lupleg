@@ -54,7 +54,7 @@ export default function MoreFQA() {
     {
       question: "Where can i make payment from?",
       answer:
-        "To make your payment you can simply reachout to us via payment@lupleg.website and you will be provided with relevants details for belling",
+        "To make your payment you can simply reachout to us via payment@lupleg.org and you will be provided with relevants details for belling",
     },
   ];
   const [searchTerm, setSearchTerm] = useState("");
