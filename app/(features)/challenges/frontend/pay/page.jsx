@@ -45,7 +45,7 @@ export default function Pay() {
       </p>
 
       <h2 className="text-2xl font-bold text-gray-900 mb-4">
-        ThE Credit Card Form includes the following features:
+        The Credit Card Form includes the following features:
       </h2>
 
       <ul className="list-disc list-inside text-gray-700 mb-8">
@@ -85,7 +85,7 @@ export default function Pay() {
         responsive and work on all screen sizes. The form should include a
         submit button that displays a success message when the form is submitted
         successfully. Feel free to customize the design and functionality to
-        suit your needs
+        suit your needs.
         
       </p>
 

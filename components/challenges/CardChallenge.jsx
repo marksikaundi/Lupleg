@@ -11,7 +11,7 @@ export default function Component() {
           <Card className="bg-gradient-to-r from-yellow-600 to-yellow-800 text-white lg:col-span-2">
             <CardContent className="p-4 flex flex-col justify-between h-full">
               <div>
-                <p className="text-sm">ENDS SEP</p>
+                <p className="text-sm">ENDS DEC</p>
                 <p className="text-4xl font-bold">23</p>
               </div>
               <div>
