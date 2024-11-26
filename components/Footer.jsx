@@ -37,7 +37,7 @@ const footerData = [
 export default function Footer() {
   return (
     <div className="pt-28">
-      <footer className="bg-green-950 p-10 text-white">
+      <footer className="bg-[#2D1537] p-10 text-white">
         <div className="mx-auto grid max-w-7xl grid-cols-2 gap-10 md:grid-cols-4">
           {footerData.map((section, index) => (
             <div key={index}>
