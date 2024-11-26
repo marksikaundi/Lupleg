@@ -34,13 +34,8 @@ export default function Component() {
     { name: "Contributing", link: "/contributing", items: [] },
     {
       name: "Resources",
-      link: "#resources",
-      items: [
-        { name: "Mentoring", link: "/mentorships/mentoring" },
-        { name: "Articles", link: "/blogs" },
-        { name: "Books", link: "/resources/books" },
-        { name: "Podcasts", link: "/resources/podcasts" },
-      ],
+      link: "resources",
+      items: [],
     },
     { name: "Pricing", link: "/premium", items: [] },
   ];
@@ -94,7 +89,6 @@ export default function Component() {
       <div className="flex items-center space-x-4">
         {/* <Link href="https://mentor.lupleg.org/" className="hidden md:block"> TODO */}
         <Link href="/programs" className="hidden md:block">
-
           <Button className="bg-green-950 hover:bg-green-950 text-white">
             Get Started
           </Button>
