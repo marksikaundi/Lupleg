@@ -25,7 +25,7 @@ export default function HomeHero() {
                 Join Mentorship
               </Link>
               <Link
-                href="#"
+                href="https://wa.me/+260776578583"
                 className="inline-flex h-12 items-center justify-center rounded-md border border-white/20 bg-white/10 px-6 text-sm text-white hover:bg-white/20"
               >
                 Talk to us

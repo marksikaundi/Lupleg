@@ -49,7 +49,7 @@ export default function Nav() {
               Premium
             </Link>
             <Link
-              href="#"
+              href="https://wa.me/+260776578583"
               className="hidden md:inline-flex h-9 items-center justify-center rounded-md border border-white  px-4 text-sm text-white"
             >
               Talk to us
