@@ -10,11 +10,11 @@ export default function Nav() {
           <div className="flex items-center gap-8">
             <Link href="/" className="flex items-center">
               <Image
-                src="/lupleg.svg"
+                src="/xlogo.svg"
                 alt="Lupleg Logo"
                 width={150}
                 height={100}
-                className="h-16 w-auto"
+                className="h-12 w-auto"
               />
             </Link>
             <div className="hidden md:flex items-center gap-6">
@@ -58,7 +58,7 @@ export default function Nav() {
               href="#"
               className="inline-flex h-9 items-center justify-center rounded-md bg-white px-4 text-sm font-medium text-[#2D1537] hover:bg-white/90"
             >
-              Join Mentorship
+               Mentorship
             </Link>
           </div>
         </nav>
