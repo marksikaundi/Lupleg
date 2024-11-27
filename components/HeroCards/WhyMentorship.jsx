@@ -22,10 +22,11 @@ export default function WhyMentorship() {
           />
         </svg>
       </div>
+      bg-[#2D1537]
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="flex flex-col items-start">
-          <div className="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center mb-4">
-            <QuoteIcon className="w-6 h-6 text-green-600" />
+          <div className="w-12 h-12 rounded-full bg-[#82698d] flex items-center justify-center mb-4">
+            <QuoteIcon className="w-6 h-6 text-[#2D1537]" />
           </div>
           <h3 className="text-xl font-semibold text-green-950 mb-2">
             You don't know what you don't know
@@ -38,8 +39,8 @@ export default function WhyMentorship() {
           </p>
         </div>
         <div className="flex flex-col items-start">
-          <div className="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center mb-4">
-            <PenLine className="w-6 h-6 text-green-600" />
+          <div className="w-12 h-12 rounded-full bg-[#82698d] flex items-center justify-center mb-4">
+            <PenLine className="w-6 h-6 text-[#2D1537]" />
           </div>
           <h3 className="text-xl font-semibold text-greeb-950 mb-2">
             Learn language-specific conventions
@@ -52,8 +53,8 @@ export default function WhyMentorship() {
           </p>
         </div>
         <div className="flex flex-col items-start">
-          <div className="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center mb-4">
-            <MessageCircleIcon className="w-6 h-6 text-green-600" />
+          <div className="w-12 h-12 rounded-full bg-[#82698d] flex items-center justify-center mb-4">
+            <MessageCircleIcon className="w-6 h-6 text-[#2D1537]" />
           </div>
           <h3 className="text-xl font-semibold text-green-950 mb-2">
             Learning with others is fun
