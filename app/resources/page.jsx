@@ -1,5 +1,5 @@
+import CheckResource from "@/components/Resource/CheckResources";
 import { Users, FileText, HelpCircle } from "lucide-react";
-import GetResources from "@/components/contribute/GetResources";
 import Link from "next/link";
 import { BsDatabaseGear } from "react-icons/bs";
 
@@ -97,7 +97,7 @@ export default function Resources() {
           </div>
         </section>
       </main>
-      <GetResources />
+      <CheckResource />
     </div>
   );
 }
