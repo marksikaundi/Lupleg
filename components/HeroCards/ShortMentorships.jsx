@@ -6,7 +6,7 @@ export default function ShortCourseCard() {
       <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
-            <h1 className="text-3xl font-extrabold tracking-tight text-gray-900">
+            <h1 className="text-3xl font-extrabold tracking-tight text-[#2D1537] ">
               Easy short Courses
             </h1>
             <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
@@ -16,8 +16,8 @@ export default function ShortCourseCard() {
               more.
             </p>
           </div>
-          <div className="bg-gradient-to-br from-[#fde68a] to-[#fca5a5] p-8 rounded-xl border-green-950 border-b-8 ">
-            <h2 className="text-3xl font-extrabold text-gray-900">
+          <div className="bg-gradient-to-br from-[#fde68a] to-[#fca5a5] p-8 rounded-xl border-[#2D1537] border-b-8 ">
+            <h2 className="text-3xl font-extrabold text-[#2D1537] ">
               At your own pace or with a mentor
             </h2>
             <p className="mt-4 text-lg text-gray-900">
