@@ -22,8 +22,8 @@ const resourcesOption = [
   },
   {
     imageUrl: "/icons/improve.svg",
-    title: "Improve a concept or exercise",
-    level: "Intermediary",
+    title: "Promblem Solving",
+    level: "Challenges",
     description:
       "Fix bugs and make improvements to concepts and exercise across Lupleg. Help students have a smooth and error-free experience.",
     issuesCount: 0,
