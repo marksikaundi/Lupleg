@@ -67,7 +67,7 @@ const contributionOptions = [
       "Representers help us spot identical solutions so that we can reuse feedback. Simpler than analyzers but fun and interesting to reason about.",
     issuesCount: 0,
     exploreLink: "Explore  issues",
-    languages: ["Go", "CFML", "Groovy", "ReasonML"],
+    languages: ["Go", "JavaScript", "Groovy", "ReasonML"],
   },
 ];
 
