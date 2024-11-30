@@ -1,5 +1,5 @@
+import CheckResource from "@/components/Resource/CheckResources";
 import { Users, FileText, HelpCircle } from "lucide-react";
-import GetResources from "@/components/contribute/GetResources";
 import Link from "next/link";
 import { BsDatabaseGear } from "react-icons/bs";
 
@@ -82,7 +82,7 @@ export default function Resources() {
 
         <section>
           <h2 className="text-2xl md:text-4xl font-bold text-[#2D1537] text-center mt-6 mb-8">
-            How you can help us build Lupleg
+              Key resources you can find here
           </h2>
           <div className="flex justify-center">
             <svg viewBox="0 0 100 20" className="w-24">
@@ -97,7 +97,7 @@ export default function Resources() {
           </div>
         </section>
       </main>
-      <GetResources />
+      <CheckResource />
     </div>
   );
 }
