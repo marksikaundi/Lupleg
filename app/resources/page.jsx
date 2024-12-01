@@ -22,18 +22,15 @@ export default function Resources() {
         <div className="flex flex-col md:flex-row items-center justify-between mb-12">
           <div className="md:w-1/2 mb-8 md:mb-0">
             <h1 className="text-3xl md:text-5xl font-bold text-[#2D1537] mb-4">
-              Let's build the best coding education platform, together
+              Welcome to Lupleg Resources 
             </h1>
             <p className="text-gray-600 mb-4">
               Lupleg is a{" "}
               <span className="text-[#2D1537]">
                 platform entirely developed, to help
               </span>{" "}
-              people from all backgrounds with Tech skills. With over one
-              hundred dedicated maintainers and thousands of contributors, our
-              goal is to create the best, affordable, code learning platform on
-              the web. All of our code is open source and we love to have you
-              help us build it.
+              developers, designers, and other tech enthusiasts to contribute to real world products.
+
             </p>
           </div>
           <div className="md:w-1/2 flex justify-center">
@@ -82,7 +79,7 @@ export default function Resources() {
 
         <section>
           <h2 className="text-2xl md:text-4xl font-bold text-[#2D1537] text-center mt-6 mb-8">
-            How you can help us build Lupleg
+              Key resources you can find here
           </h2>
           <div className="flex justify-center">
             <svg viewBox="0 0 100 20" className="w-24">

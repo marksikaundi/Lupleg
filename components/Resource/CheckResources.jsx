@@ -15,7 +15,7 @@ const resourcesOption = [
     title: "Books and Articles",
     level: "Free",
     description:
-      "Never contributed to an open source project? Give this a go. We'll help you submit your first pull request.",
+      "Write articles and books to help students learn to code. This is a great way to share your knowledge and help others.",
     issuesCount: 0,
     exploreLink: "Explore 0 issues",
     languages: [],
@@ -25,10 +25,10 @@ const resourcesOption = [
     title: "Promblem Solving",
     level: "Challenges",
     description:
-      "Fix bugs and make improvements to concepts and exercise across Lupleg. Help students have a smooth and error-free experience.",
+      "Solve problems on our platform and help others solve them. This is a great way to learn and teach.",
     issuesCount: 0,
     exploreLink: "Explore  issues",
-    languages: ["Cairo", "Delphi Pascal", "Bash", "Nim"],
+    languages: ["JavaScript", "Ruby", "Rust", "Scala"],
   },
   {
     imageUrl: "/icons/create.svg",
@@ -42,13 +42,13 @@ const resourcesOption = [
   },
   {
     imageUrl: "/icons/dev.svg",
-    title: "Develop a test runner",
+    title: "Machine Learning",
     level: "Project",
     description:
-      "Test runners power our online editor. All tracks have basic test runners, but many need more advanced features and functionality adding.",
+      "Machine learning is a powerful tool that can help students learn to code. Help us build out new machine learning models.",
     issuesCount: 0,
     exploreLink: "Explore  issues",
-    languages: ["Fortran", "Gleam", "Lisp Flavoured Erlang", "D"],
+    languages: ["Python", "TypeScript", "Swift", "Kotlin"],
   },
   {
     imageUrl: "/icons/analize.svg",
@@ -62,13 +62,13 @@ const resourcesOption = [
   },
   {
     imageUrl: "/icons/represent.svg",
-    title: "Develop a representer",
+    title: "Mentorships",
     level: "Project",
     description:
-      "Representers help us spot identical solutions so that we can reuse feedback. Simpler than analyzers but fun and interesting to reason about.",
+      "Mentorships are a way to help students learn and grow. You'll be helping students learn to code and build projects.",
     issuesCount: 0,
     exploreLink: "Explore  issues",
-    languages: ["Go", "CFML", "Groovy", "ReasonML"],
+    languages: ["C", "C++", "C#", "D"],
   },
 ];
 

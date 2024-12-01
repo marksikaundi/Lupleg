@@ -3,19 +3,19 @@ export default function sitemap() {
     {
       url: "https://www.lupleg.org",
       lastModified: new Date(),
-      changeFrequency: "yearly",
+      changeFrequency: "weekly",
       priority: 1,
     },
     {
       url: "https://www.lupleg.org/challenges/frontend",
       lastModified: new Date(),
-      changeFrequency: "monthly",
+      changeFrequency: "weekly",
       priority: 1.5,
     },
     {
       url: "https://www.lupleg.org/programs",
       lastModified: new Date(),
-      changeFrequency: "monthly",
+      changeFrequency: "weekly",
       priority: 2,
     },
     {
@@ -35,6 +35,12 @@ export default function sitemap() {
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 3.5,
+    },
+    {
+      url: "https://www.lupleg.org/mentorships/mentoring",
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 4,
     },
   ];
 }
