@@ -11,7 +11,7 @@ export default function LuplegMentoring() {
             <span className="text-white text-2xl">{"}"}</span>
           </div>
           <div>
-            <div className="bg-green-700 text-white text-sm font-bold py-1 px-3 rounded-full">
+            <div className="bg-[#2D1537] text-white text-sm font-bold py-1 px-3 rounded-full">
               Become a Lupleg mentor
             </div>
             <div className=" text-white text-xs py-0.5 px-2  mt-1">Lupleg</div>
@@ -42,7 +42,7 @@ export default function LuplegMentoring() {
               Mark Sikaundi
             </div>
             <div className="text-white text-2xl font-bold mt-2">
-              Lupleg CEO and Co-founder
+              Lupleg Founder and CEO 
             </div>
           </div>
           <div className="absolute bottom-4 right-4">
