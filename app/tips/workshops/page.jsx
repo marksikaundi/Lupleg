@@ -37,7 +37,7 @@ export default function Workshops() {
                 TypeScript Pro Essentials
               </h2>
               <div className="flex flex-wrap justify-center sm:justify-start gap-2">
-                <span className="bg-green-500 text-black text-xs font-bold px-2 py-1 rounded">
+                <span className="bg-[#2D1537] text-black text-xs font-bold px-2 py-1 rounded">
                   NEW
                 </span>
                 <span className="text-gray-400 text-xs sm:text-sm">
@@ -71,7 +71,7 @@ export default function Workshops() {
                 TypeScript Pro Essentials
               </h2>
               <div className="flex flex-wrap justify-center sm:justify-start gap-2">
-                <span className="bg-green-500 text-black text-xs font-bold px-2 py-1 rounded">
+                <span className="bg-[#2D1537] text-black text-xs font-bold px-2 py-1 rounded">
                   NEW
                 </span>
                 <span className="text-gray-400 text-xs sm:text-sm">
@@ -105,7 +105,7 @@ export default function Workshops() {
                 TypeScript Pro Essentials
               </h2>
               <div className="flex flex-wrap justify-center sm:justify-start gap-2">
-                <span className="bg-green-500 text-black text-xs font-bold px-2 py-1 rounded">
+                <span className="bg-[#2D1537] text-black text-xs font-bold px-2 py-1 rounded">
                   NEW
                 </span>
                 <span className="text-gray-400 text-xs sm:text-sm">
@@ -139,7 +139,7 @@ export default function Workshops() {
                 TypeScript Pro Essentials
               </h2>
               <div className="flex flex-wrap justify-center sm:justify-start gap-2">
-                <span className="bg-green-500 text-black text-xs font-bold px-2 py-1 rounded">
+                <span className="bg-[#2D1537] text-black text-xs font-bold px-2 py-1 rounded">
                   NEW
                 </span>
                 <span className="text-gray-400 text-xs sm:text-sm">
@@ -173,7 +173,7 @@ export default function Workshops() {
                 TypeScript Pro Essentials
               </h2>
               <div className="flex flex-wrap justify-center sm:justify-start gap-2">
-                <span className="bg-green-500 text-black text-xs font-bold px-2 py-1 rounded">
+                <span className="bg-[#2D1537] text-black text-xs font-bold px-2 py-1 rounded">
                   NEW
                 </span>
                 <span className="text-gray-400 text-xs sm:text-sm">
