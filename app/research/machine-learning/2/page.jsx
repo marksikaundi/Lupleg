@@ -1,9 +1,7 @@
-import { QuoteIcon, ShareIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import BackCard from "../backCard";
 import SharePost from "../shareCard";
 import Link from "next/link";
-import { FaQuoteLeft, FaReadme } from "react-icons/fa6";
+import { FaQuoteLeft } from "react-icons/fa6";
 import { IoOpen } from "react-icons/io5";
 
 export default function Component() {
