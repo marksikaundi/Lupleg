@@ -34,12 +34,12 @@ const newsItems = [
   },
 ];
 
-export default function LatestNews() {
+export default function LatestNews() {  
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="flex justify-between items-center mb-6">
         <h2 className="text-3xl font-bold">Latest updates</h2>
-        <Link href="#/all-posts" className="text-green-600 hover:underline">
+        <Link href="#/all-posts" className="text-[#2D1537] hover:underline">
           Repository
         </Link>
       </div>
@@ -69,7 +69,7 @@ export default function LatestNews() {
                 <p className="text-sm text-gray-500">{item.date}</p>
                 <Link
                   href={item.link}
-                  className="text-green-600 hover:underline"
+                  className="text-[#2D1537] hover:underline"
                 >
                   <p className="">Read more</p>
                 </Link>
