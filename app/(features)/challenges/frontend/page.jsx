@@ -72,7 +72,7 @@ const challenges = [
   },
 ];
 
-export default function UIOview() {
+export default function UIOview() {   
   return (
     <div className="flex flex-col min-h-screen">
       <FrontendHero />
@@ -98,7 +98,7 @@ export default function UIOview() {
                   </CardContent>
                   <CardFooter>
                     <Link href={challenge.link || "#"}>
-                      <Button className="w-full bg-green-950 hover:bg-green-950">
+                      <Button className="w-full bg-[#2D1537] hover:bg-[#2D1537]">
                         Start Challenge
                         <ArrowRight className="w-4 h-4 ml-2" />
                       </Button>
