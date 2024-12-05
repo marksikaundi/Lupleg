@@ -14,12 +14,13 @@ export default function FrontendHero() {
   };
 
   return (
-    <section className="w-full min-h-screen flex flex-col items-center justify-center text-center px-4 py-12 bg-gradient-to-br from-black via-black to-green-900">
+    // bg-gradient-to-br from-black via-black to-[#2D1537]
+    <section className="w-full min-h-screen flex flex-col items-center justify-center text-center px-4 py-12 bg-[#2D1537] ">
       <div className="max-w-4xl mx-auto">
         <div className="mb-8 flex justify-center">
-          <div className="bg-green-700 text-white text-xs sm:text-sm font-medium px-3 py-2 rounded-full flex flex-wrap items-center justify-center gap-2 max-w-full">
+          <div className="bg-white text-[#2D1537] text-xs sm:text-sm font-medium px-3 py-2 rounded-full flex flex-wrap items-center justify-center gap-2 max-w-full">
             <span className="whitespace-nowrap">Free</span>
-            <div className="hidden sm:block w-px h-4 bg-green-500"></div>
+            <div className="hidden sm:block w-px h-4 bg-white"></div>
             <Link
               href="#ui"
               className="flex items-center hover:underline whitespace-nowrap"
@@ -48,7 +49,7 @@ export default function FrontendHero() {
         <div className="flex flex-col items-center space-y-4">
           <Link
             href="#ui"
-            className="bg-white text-green-950 font-semibold px-6 sm:px-8 py-2 sm:py-3 rounded-full text-base sm:text-lg hover:bg-purple-100 transition duration-300"
+            className="bg-white text-[#2D1537] font-semibold px-6 sm:px-8 py-2 sm:py-3 rounded-full text-base sm:text-lg hover:bg-purple-100 transition duration-300"
           >
             Join Now
           </Link>
