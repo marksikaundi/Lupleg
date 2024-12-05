@@ -7,25 +7,25 @@ export default function Contributing() {
   return (
     <div className="min-h-screen bg-white p-4 mt-16 md:p-8">
       <header className="flex justify-between items-center mb-8">
-        <div className="text-green-600">
+        <div className="text-[#2D1537] ">
           <Users size={32} />
         </div>
         <div className="flex space-x-4">
           <div className="w-6 h-6 bg-yellow-400 rounded-sm"></div>
           <div className="w-6 h-6 bg-gray-200 rounded-sm"></div>
-          <div className="w-6 h-6 bg-emerald-400 rounded-sm"></div>
+          <div className="w-6 h-6 bg-[#2D1537] rounded-sm"></div>
         </div>
       </header>
 
       <main className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between mb-12">
           <div className="md:w-1/2 mb-8 md:mb-0">
-            <h1 className="text-3xl md:text-5xl font-bold text-green-950 mb-4">
-              Let's build the best coding education platform, together
+            <h1 className="text-3xl md:text-5xl font-bold text-[#2D1537] mb-4">
+              Let's build the best coding education platform, together   
             </h1>
             <p className="text-gray-600 mb-4">
               Lupleg is a{" "}
-              <span className="text-green-600">
+              <span className="text-[#2D1537]">
                 platform entirely developed, to help
               </span>{" "}
               people from all backgrounds with Tech skills. With over one
@@ -46,7 +46,7 @@ export default function Contributing() {
 
         <nav className="flex flex-wrap justify-between items-center border-b border-gray-200 pb-4 mb-8">
           <Link href="#">
-            <button className="flex items-center space-x-2 text-green-600 font-semibold pb-4 border-b-2 border-green-600">
+            <button className="flex items-center space-x-2 text-[#2D1537] font-semibold pb-4 border-b-2 border-[#2D1537]">
               <FileText size={20} />
               <span>Getting Started</span>
             </button>
@@ -80,7 +80,7 @@ export default function Contributing() {
         </nav>
 
         <section>
-          <h2 className="text-2xl md:text-4xl font-bold text-green-950 text-center mt-6 mb-8">
+          <h2 className="text-2xl md:text-4xl font-bold text-[#2D1537] text-center mt-6 mb-8">
             How you can help us build Lupleg
           </h2>
           <div className="flex justify-center">
