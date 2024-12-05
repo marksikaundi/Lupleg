@@ -1,9 +1,7 @@
-import { QuoteIcon, ShareIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import BackCard from "../backCard";
 import SharePost from "../shareCard";
 import Link from "next/link";
-import { FaQuoteLeft, FaReadme } from "react-icons/fa6";
+import { FaQuoteLeft } from "react-icons/fa6";
 import { IoOpen } from "react-icons/io5";
 
 export default function Component() {
@@ -114,8 +112,8 @@ export default function Component() {
           Everything else was too complicated.
         </p>
 
-        <FaQuoteLeft className="text-2xl text-green-600" />
-        <p className="text-2xl text-green-600">
+        <FaQuoteLeft className="text-2xl text-[#2D1537]" />
+        <p className="text-2xl text-[#2D1537]">
           The underlying physical laws necessary for the mathematical theory of
           a large part of physics and the whole of chemistry are thus completely
           known, and the difficulty is only that the exact application of these
@@ -308,27 +306,27 @@ export default function Component() {
           matter interacts with light.
         </p>
 
-        <Button className="bg-green-200  hover:bg-green-200 rounded-full ">
+        <Button className="bg-[#c296d4]  hover:bg-[#c296d4]  rounded-full ">
           <Link
-            className="p-2 text-green-950 flex items-center"
+            className="p-2 text-[#2D1537] flex items-center"
             href="https://www.science.org/doi/abs/10.1126/science.adn0137"
           >
             Read our latest paper in Science
             <IoOpen className="ml-2" />
           </Link>
         </Button>
-        <Button className="bg-green-200 mx-6 hover:bg-green-200 rounded-full ">
+        <Button className="bg-[#c296d4]  mx-6 hover:bg-[#c296d4]  rounded-full ">
           <Link
-            className="p-2 text-green-950 flex items-center"
+            className="p-2 text-[#2D1537] flex items-center"
             href="https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.033429"
           >
             Read original paper
             <IoOpen className="ml-2" />
           </Link>
         </Button>
-        <Button className="bg-green-200  hover:bg-green-200 rounded-full ">
+        <Button className="bg-[#c296d4]   hover:bg-[#c296d4]  rounded-full ">
           <Link
-            className="p-2 text-green-950 flex items-center"
+            className="p-2 text-[#2D1537] flex items-center"
             href="https://github.com/google-deepmind/ferminet"
           >
             Download the code

@@ -111,7 +111,7 @@ export default function Component() {
               The future of technology is here, we are introducing ML at Lupleg.
             </h1>
             <Link href="/resources/machine-learning">
-              <Button className="bg-green-950 hover:bg-green-950 text-white font-bold py-2 px-4 mt-6 rounded">
+              <Button className="bg-[#2D1537] hover:bg-[#2D1537] text-white font-bold py-2 px-4 mt-6 rounded">
                 Learn more
               </Button>
             </Link>

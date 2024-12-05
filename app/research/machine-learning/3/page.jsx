@@ -1,6 +1,3 @@
-import { ShareIcon } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import BackCard from "../backCard";
 import SharePost from "../shareCard";
 import Link from "next/link";
 import Image from "next/image";
