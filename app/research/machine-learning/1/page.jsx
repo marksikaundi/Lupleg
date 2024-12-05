@@ -146,9 +146,9 @@ export default function Component() {
           for the community.
         </p>
 
-        <Button className="bg-green-200  hover:bg-green-200 rounded-full ">
+        <Button className="bg-[#c296d4]    hover:bg-[#c296d4]   rounded-full ">
           <Link
-            className="p-2 text-green-950 flex items-center"
+            className="p-2 text-[#2D1537] flex items-center"
             href="https://arxiv.org/abs/2409.08022"
           >
             Read our whitepaper

@@ -59,7 +59,7 @@ export default function SharePost({
 
   return (
     <div className="flex flex-col items-center space-y-4 p-4 bg-background rounded-lg shadow">
-      <h2 className="text-xl font-semibold mb-2 text-green-800">
+      <h2 className="text-xl font-semibold mb-2 text-[#2D1537]">
         Share this post
       </h2>
       <div className="flex space-x-2">
