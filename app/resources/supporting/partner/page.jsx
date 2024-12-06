@@ -21,15 +21,15 @@ export default function Partner() {
               className="rounded-full w-20 h-20 mr-3 sm:mr-6"
             />
             <div className="flex-grow text-center sm:text-left mb-4 sm:mb-0">
-              <h2 className="text-2xl font-bold text-green-950">
+              <h2 className="text-2xl font-bold text-[#2D1537]">
                 Want to discuss how you can help Lupleg?
               </h2>
-              <p className="text-green-700">
+              <p className="text-[#37273e]">
                 Get in touch with Mark Sikaundi, Lupleg's CEO.
               </p>
             </div>
             <Link href="mailto:mark@lupleg.org">
-              <Button className="w-full sm:w-auto bg-green-950 hover:bg-green-950 text-white">
+              <Button className="w-full sm:w-auto bg-[#2D1537] hover:bg-[#2D1537] text-white">
                 <Mail className="mr-2 h-4 w-4" />
                 mark@lupleg.org
               </Button>
@@ -40,8 +40,8 @@ export default function Partner() {
         <div className="flex flex-col md:flex-row items-center md:items-start space-y-6 md:space-y-0 md:space-x-6">
           <div className="w-full md:w-2/3 space-y-4">
             <div className="flex items-center space-x-4">
-              <Target className="text-green-500 h-8 w-8" />
-              <h2 className="text-3xl font-bold text-green-950">
+              <Target className="text-[#2D1537] h-8 w-8" />
+              <h2 className="text-3xl font-bold text-[#2D1537]">
                 Support from our funders is crucial to achieving Lupleg's goals
               </h2>
             </div>

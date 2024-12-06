@@ -19,7 +19,7 @@ export default function BottomSection() {
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
-            className="text-green-600"
+            className="text-[#2D1537]"
           >
             <path d="M18 8h1a4 4 0 0 1 0 8h-1" />
             <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z" />
@@ -28,11 +28,11 @@ export default function BottomSection() {
             <line x1="14" y1="1" x2="14" y2="4" />
           </svg>
         </div>
-        <h2 className="text-2xl font-bold text-green-900 sm:text-3xl">
+        <h2 className="text-2xl font-bold text-[#2D1537] sm:text-3xl">
           Lupleg is also supported by
         </h2>
-        <p className="text-4xl font-bold text-green-900 sm:text-5xl">
-          4054 generous individuals
+        <p className="text-4xl font-bold text-[#2D1537] sm:text-5xl">
+          4054 generous individuals  
         </p>
         <div className="flex justify-center">
           <svg
@@ -46,7 +46,7 @@ export default function BottomSection() {
             <path d="M28 1L32 8L36 1" stroke="#122E17" strokeWidth="2" />
           </svg>
         </div>
-        <Button variant="link" className="text-green-600 hover:text-green-800">
+        <Button variant="link" className="text-[#2D1537] hover:text-[#2D1537]">
           See all of our individual supporters
           <ChevronRight className="ml-1 h-4 w-4" />
         </Button>
@@ -75,7 +75,7 @@ export default function BottomSection() {
           </div>
         </div>
         <Link href="mailto:mark@lupleg.org">
-          <Button className="w-full sm:w-auto bg-green-950 hover:bg-green-950 text-white">
+          <Button className="w-full sm:w-auto bg-[#2D1537] hover:bg-[#2D1537] text-white">
             <Mail className="mr-2 h-4 w-4" />
             mark@lupleg.org
           </Button>

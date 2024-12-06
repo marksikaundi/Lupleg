@@ -1,4 +1,4 @@
-import { EnvelopeIcon, RocketIcon, SquareIcon } from "lucide-react"
+import {  RocketIcon, SquareIcon } from "lucide-react"
 import Image from "next/image"
 
 export default function TopSection() {
@@ -11,10 +11,10 @@ export default function TopSection() {
       </div>
       
       <div className="mt-12 md:mt-16 text-center">
-        <h1 className="text-3xl md:text-5xl font-bold text-green-950 mb-4">
+        <h1 className="text-3xl md:text-5xl font-bold text-[#2D1537] mb-4">
           Become <span className="bg-yellow-300 px-2">rocket fuel</span> for our mission
         </h1>
-        <p className="text-lg md:text-xl text-green-700 mb-8 max-w-3xl mx-auto">
+        <p className="text-lg md:text-xl text-[#3f3145] mb-8 max-w-3xl mx-auto">
           Partner with us or donate to support our mission to bringing free
           code learning and practice to the world.
         </p>
