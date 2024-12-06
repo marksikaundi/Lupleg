@@ -18,7 +18,7 @@ export default function HelpUsBring() {
               strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"
-              className="text-green-500"
+              className="text-[#2D1537]"
             >
               <path d="M21 10V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l2-1.14" />
               <path d="M16.5 9.4 7.55 4.24" />
@@ -27,7 +27,7 @@ export default function HelpUsBring() {
               <circle cx="18.5" cy="15.5" r="2.5" />
               <path d="M20.27 17.27 22 19" />
             </svg>
-            <h2 className="text-2xl font-bold text-green-950">
+            <h2 className="text-2xl font-bold text-[#2D1537]">
               Help us bring the joy of programming to everyone, everywhere
               <span className="text-yellow-400">✨</span>
             </h2>
@@ -38,12 +38,12 @@ export default function HelpUsBring() {
             mission?
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button className="bg-green-950 hover:bg-green-950 text-white">
+            <Button className="bg-[#2D1537] hover:bg-[#2D1537] text-white">
               Donate to Lupleg
             </Button>
             <Button
               variant="outline"
-              className="text-green-950 border-purple-300 hover:bg-purple-100"
+              className="text-[#2D1537] border-purple-300 hover:bg-purple-100"
             >
               See tasks that need help <span className="ml-2">→</span>
             </Button>

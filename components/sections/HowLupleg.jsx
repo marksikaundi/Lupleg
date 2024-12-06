@@ -11,7 +11,7 @@ export default function HowLupleg() {
         />
       </div>
       <div className="w-full md:w-2/3 space-y-6">
-        <div className="flex items-center gap-2 text-green-950">
+        <div className="flex items-center gap-2 text-[#2D1537]">
           <Users size={24} />
           <h1 className="text-2xl font-bold">How Lupleg is run</h1>
         </div>
@@ -21,7 +21,7 @@ export default function HowLupleg() {
           their taking time over, and so we think hard before we act.
         </p>
         <div className="space-y-4">
-          <h2 className="text-xl font-semibold text-green-950">Reflective</h2>
+          <h2 className="text-xl font-semibold text-[#2D1537]">Reflective</h2>
           <p className="text-gray-700">
             We focus on being strategy-driven and product-driven, looking to the
             long term, not just the immediate impact, and considering the
@@ -32,7 +32,7 @@ export default function HowLupleg() {
           </p>
         </div>
         <div className="space-y-4">
-          <h2 className="text-xl font-semibold text-green-950">
+          <h2 className="text-xl font-semibold text-[#2D1537]">
             A small team with a big vision
           </h2>
           <p className="text-gray-700">
@@ -47,7 +47,7 @@ export default function HowLupleg() {
           </p>
         </div>
         <div className="space-y-4">
-          <h2 className="text-xl font-semibold text-green-950">
+          <h2 className="text-xl font-semibold text-[#2D1537]">
             Grounded in ethics
           </h2>
           <p className="text-gray-700">
