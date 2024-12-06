@@ -38,7 +38,7 @@ export default function Component() {
           }
         ].map((card, index) => (
           <div key={index} className="bg-white p-6 rounded-lg shadow-sm">
-            <div className="w-8 h-8 bg-green-100 text-[#2D1537] rounded-sm flex items-center justify-center font-bold mb-4">
+            <div className="w-8 h-8 bg-[#c9c0cd] text-[#2D1537] rounded-sm flex items-center justify-center font-bold mb-4">
               {card.number}
             </div>
             <h3 className="text-lg font-bold text-[#2D1537] mb-2">{card.title}</h3>

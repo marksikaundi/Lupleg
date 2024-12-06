@@ -9,16 +9,16 @@ function FAQ() {
           <div className="pb-5">
             <h2 className="font-semibold text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl">
               Frequently Asked{" "}
-              <span className=" text-green-600">Questions</span>
+              <span className=" text-[#4e315a]">Questions</span>
             </h2>
           </div>
-          <div className="text-green-900 gap-4 flex flex-col">
+          <div className="text-[#2D1537] gap-4 flex flex-col">
             <div className="flex gap-2">
               <h3 className="md:text-xl lg:text-2xl text-black text-lg font-bold">
                 How can you ensure we find the best candidates aligned with our
                 specific needs?{" "}
               </h3>
-              <div className="bg-green-200 text-black  text-xs md:text-sm px-4 py-2 rounded-2xl">
+              <div className="bg-[#7a717d] text-white  text-xs md:text-sm px-4 py-2 rounded-2xl">
                 Business
               </div>
             </div>
@@ -32,7 +32,7 @@ function FAQ() {
               forward.
             </p>
           </div>
-          <div className="text-green-900 gap-4 flex flex-col">
+          <div className="text-[#2D1537] gap-4 flex flex-col">
             <div className="flex gap-2">
               <h3 className="md:text-xl text-black lg:text-2xl text-lg font-bold">
                 How do I start as a complete beginner?
@@ -48,13 +48,13 @@ function FAQ() {
               go. Sign up and get started today!
             </p>
           </div>
-          <div className="text-green-900 gap-4 flex flex-col">
+          <div className="text-[#2D1537] gap-4 flex flex-col">
             <div className="flex gap-2">
               <h3 className="md:text-xl text-black lg:text-2xl text-lg font-bold">
                 Any limitations on people we can assist due to resource
                 constraints?
               </h3>
-              <div className="bg-green-200 text-black text-xs md:text-sm px-4 py-2 rounded-2xl">
+              <div className="bg-[#7a717d] text-white text-xs md:text-sm px-4 py-2 rounded-2xl">
                 NGOs
               </div>
             </div>
@@ -65,7 +65,7 @@ function FAQ() {
               to support.
             </p>
           </div>
-          <div className="text-green-900 gap-4 flex flex-col">
+          <div className="text-[#2D1537] gap-4 flex flex-col">
             <div className="flex gap-2">
               <h3 className="md:text-xl text-black lg:text-2xl text-lg font-bold">
                 How much does it cost to use Mentor Management System?
@@ -82,7 +82,7 @@ function FAQ() {
             </p>
           </div>
         </div>
-        <div className="md:w-2/5 bg-green-300 rounded-md">
+        <div className="md:w-2/5 bg-[#2D1537] rounded-md">
           <img
             src="https://assets-global.website-files.com/63e4cc8d2ac61a3dee9bb0ee/63e56544e17a293a19177f89_faq%20img-p-500.webp"
             className="object-cover"
@@ -95,16 +95,16 @@ function FAQ() {
 
       <div className="flex flex-col py-16">
         <div className="flex flex-col gap-4 md:mb-10 mb-6">
-          <h3 className="text-center text-green-900">Helpdesk</h3>
+          <h3 className="text-center text-[#2D1537]">Helpdesk</h3>
           <p className="text-center text-black md:text-5xl text-3xl font-bold">
             Need some more help? <br />
             Visit our help support
           </p>
         </div>
-        <div className="bg-green-800 rounded-lg transition hover:-translate-y-1 w-max mx-auto group cursor-pointer">
-          <div className="animated-border after:opacity-100 before:opacity-100 p-0.5 rounded-lg text-green-300 flex justify-center items-center">
+        <div className="bg-[#2D1537] rounded-lg transition hover:-translate-y-1 w-max mx-auto group cursor-pointer">
+          <div className="animated-border after:opacity-100 before:opacity-100 p-0.5 rounded-lg text-[#2D1537] flex justify-center items-center">
             <a
-              className="bg-green-800 text-white text-lg font-bold py-2 px-8 cursor-pointer relative w-full rounded-lg group-hover:bg-green-700 z-10"
+              className="bg-[#2D1537] text-white text-lg font-bold py-2 px-8 cursor-pointer relative w-full rounded-lg group-hover:bg-[#2D1537] z-10"
               href="https://github.com/orgs/Lupleg/discussions/categories/q-a"
             >
               Go to Help Support

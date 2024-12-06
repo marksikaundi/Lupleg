@@ -1,9 +1,9 @@
 export default function Terms() {
   return (
     <div class="flex flex-col items-center container px-4 mx-auto">
-      <h1 class="text-black text-center text-4xl font-bold tracking-tight md:text-5xl mt-10 mb-12">
+      <h1 class="text-[#2D1537] text-center text-4xl font-bold tracking-tight md:text-5xl mt-10 mb-12">
         Terms and Conditions
-        <hr className="m-6 border-green-950 border-b-1" />
+        <hr className="m-6 border-[#2D1537] border-b-1" />
       </h1>
 
       <div class=" max-w-2xl ml-4 flex-1 [&amp;&gt;p]:mb-12 [&amp;&gt;h2]:text-xl [&amp;&gt;h2]:font-bold">
@@ -11,7 +11,7 @@ export default function Terms() {
           These Terms and Conditions (&quot;Terms &quot;, &quot;Terms and
           Conditions &quot;) govern your relationship with Lupleg (the
           &quot;Service &quot;) operated by{" "}
-          <span className="font-bold text-green-900">Lupleg</span> (&quot;us
+          <span className="font-bold text-[#2D1537]">Lupleg</span> (&quot;us
           &quot;, &quot;we &quot;, or &quot;our &quot;).
         </p>
         <h2 className="font-mono font-bold my-6 ">1. Introduction</h2>
@@ -27,11 +27,11 @@ export default function Terms() {
           lupleg.org application.
         </p>
         <h2 className="font-mono font-bold my-6 ">
-          3. PRO / premium features{" "}
+          3. PRO/premium features{" "}
         </h2>
         <p>
-          You will be able to use all (or some of) the PRO features after you
-          purchase a PRO tier. The details of the PRO features are available on
+          You will be able to use all (or some of) the PRO/Premium features after you
+          purchase a PRO/Premium tier. The details of the PRO/Premium features are available on
           the premium page.
         </p>
         <h2 className="font-mono font-bold my-6 ">4. Refund Policy </h2>
@@ -108,7 +108,7 @@ export default function Terms() {
         </p>
         <br />
         <hr />
-        <p className="font-semibold py-4">Last Updated: 30 July, 2024</p>
+        <p className="font-semibold py-4">Last Updated: 08 December, 2024</p>
       </div>
     </div>
   );
