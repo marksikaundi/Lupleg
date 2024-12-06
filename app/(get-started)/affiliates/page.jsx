@@ -5,7 +5,7 @@ export default function Affiliates() {
     <div className=" p-10">
       <div className="flex flex-col gap-2 text-center">
         <div className="space-y-2">
-          <div className="mt-10 inline-block rounded bg-green-100 px-3 py-2 text-sm dark:bg-gray-800">
+          <div className="mt-10 inline-block rounded text-white bg-[#2D1537] px-3 py-2 text-sm dark:bg-gray-800">
             Affordable Plans
           </div>
           <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
@@ -80,7 +80,7 @@ export default function Affiliates() {
             </div>
             <div className="p-4">
               <Link
-                className="inline-flex w-full items-center justify-center rounded-b-md bg-green-950 px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50"
+                className="inline-flex w-full items-center justify-center rounded-b-md bg-[#2D1537] px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50"
                 href="https://hostinger.com?REFERRALCODE=1EMMANUELMA82"
               >
                 Choose Plan
@@ -92,7 +92,7 @@ export default function Affiliates() {
               </p>
             </div>
           </div>
-          <div className="flex flex-col overflow-hidden rounded-lg border-2  border-green-950 bg-green-950 shadow-lg  dark:border-gray-100 dark:bg-gray-950">
+          <div className="flex flex-col overflow-hidden rounded-lg border-2  border-[#2D1537] bg-[#2D1537] shadow-lg  dark:border-gray-100 dark:bg-gray-950">
             <div className="border-b border-white  px-4 py-4">
               <h3 className="text-xl font-semibold  text-white tracking-wide">
                 Cloud Hosting
@@ -195,7 +195,7 @@ export default function Affiliates() {
             </div>
             <div className="p-4">
               <Link
-                className="inline-flex w-full items-center justify-center rounded-b-md bg-green-950 px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+                className="inline-flex w-full items-center justify-center rounded-b-md bg-[#2D1537] px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
                 href="https://hostinger.com?REFERRALCODE=1EMMANUELMA82"
               >
                 Choose Plan
