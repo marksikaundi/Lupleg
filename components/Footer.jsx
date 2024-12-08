@@ -66,20 +66,6 @@ export default function Footer() {
           {/* Support */}
           <div>
             <h5 className="mb-4 font-bold">Support us</h5>
-            {/* <div className="flex flex-col items-center space-y-2 md:flex-row md:space-x-2 md:space-y-0">
-              <Input
-                className="rounded-md text-black"
-                placeholder="Enter Your Email Here"
-                type="text"
-              />
-              <Button
-                type="submit"
-                className="w-full md:w-auto bg-[#F3A833] hover:bg-[#F3A833]"
-              >
-                Subscribe
-              </Button>
-            </div> */}
-
             <div className="mt-8">
               <Button className="bg-[#F3A833] hover:bg-[#F3A833]">
                 <DonateIcon className="mr-2" />
@@ -115,7 +101,7 @@ export default function Footer() {
             </Link>
           </div>
           <div className="mt-4 text-center md:mt-0 md:text-left">
-            <p>© Copyright 2024, All Rights Reserved</p>
+            <p>© Copyright {new Date().getFullYear()}, All Rights Reserved</p>
           </div>
         </div>
         <div className="mt-4 text-center text-xs text-white">
