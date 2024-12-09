@@ -19,6 +19,7 @@ const footerData = [
       { name: "Affiliates", path: "/affiliates" },
       { name: "Partner with Us", path: "/resources/supporting/partner" },
       { name: "Research", path: "/research" },
+      { name: "Publications", path: "/publications" },
       { name: "Changelog", path: "/changelogs" },
     ],
   },

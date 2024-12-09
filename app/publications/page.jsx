@@ -1,25 +1,12 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { Overlay } from "@radix-ui/react-dialog";
-import {
-  Play,
-  Pause,
-  Volume2,
-  VolumeX,
-  Maximize,
-  Minimize,
-} from "lucide-react";
 import React, { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import LatestPub from "@/components/pub/LatestPub";
 
 export default function Publications() {
   const [isPlaying, setIsPlaying] = useState(false);
-  const [volume, setVolume] = useState(1);
-  const [currentTime, setCurrentTime] = useState(0);
-  const [duration, setDuration] = useState(0);
-  const [isFullscreen, setIsFullscreen] = useState(false);
   const videoRef = useRef(null);
   const playerRef = useRef(null);
 
@@ -35,25 +22,6 @@ export default function Publications() {
     }
   }, []);
 
-  const togglePlay = () => {
-    if (videoRef.current) {
-      if (isPlaying) {
-        videoRef.current.pause();
-      } else {
-        videoRef.current.play();
-      }
-      setIsPlaying(!isPlaying);
-    }
-  };
-
-  const handleVolumeChange = (e) => {
-    const newVolume = parseFloat(e.target.value);
-    setVolume(newVolume);
-    if (videoRef.current) {
-      videoRef.current.volume = newVolume;
-    }
-  };
-
   const handleTimeUpdate = () => {
     if (videoRef.current) {
       setCurrentTime(videoRef.current.currentTime);
@@ -64,30 +32,6 @@ export default function Publications() {
     if (videoRef.current) {
       setDuration(videoRef.current.duration);
     }
-  };
-
-  const handleProgressChange = (e) => {
-    const time = parseFloat(e.target.value);
-    setCurrentTime(time);
-    if (videoRef.current) {
-      videoRef.current.currentTime = time;
-    }
-  };
-
-  const toggleFullscreen = () => {
-    if (!document.fullscreenElement) {
-      playerRef.current?.requestFullscreen();
-      setIsFullscreen(true);
-    } else {
-      document.exitFullscreen();
-      setIsFullscreen(false);
-    }
-  };
-
-  const formatTime = (time) => {
-    const minutes = Math.floor(time / 60);
-    const seconds = Math.floor(time % 60);
-    return `${minutes}:${seconds.toString().padStart(2, "0")}`;
   };
 
   return (
@@ -105,7 +49,7 @@ export default function Publications() {
         <main className="relative z-20 flex items-center justify-center min-h-screen">
           <div className="text-center text-white px-4">
             <span className="inline-block bg-[#F3A833] text-xs font-semibold px-2 py-1 rounded mb-4">
-            PUBLICATIONS TECHNOLOGY
+              PUBLICATIONS TECHNOLOGY
             </span>
             <h1 className="text-4xl md:text-6xl font-bold mb-4 max-w-4xl mx-auto">
               Explore most latest Publications in Tech space here at Lupleg.
