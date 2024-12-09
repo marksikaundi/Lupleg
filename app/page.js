@@ -14,7 +14,7 @@ export default function Home() {
       <Programming />
       {/* <WelcomeHero /> */}
       {/* <WhatWeDo /> */}
-      <DemoView />
+      {/* <DemoView /> */}
       <ShortMentorships />
     </div>
   );
