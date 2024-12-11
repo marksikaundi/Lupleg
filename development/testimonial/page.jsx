@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { PlayCircle } from "lucide-react";
 // import Video from 'next-video';
-import Dm from "/videos/dm.mov";
+// import Dm from "/videos/dm.mov";
 import TMCard from "./tm-card";
 
 export default function TestimonialPage() {
