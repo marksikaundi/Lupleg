@@ -56,31 +56,31 @@ export default function Community() {
           <nav className="space-y-4">
             <div className="space-y-2">
               <Link
-                href="/contact"
+                href="#community"
                 className="block px-4 py-2 text-gray-600 hover:text-gray-900"
               >
                 Community
               </Link>
               <Link
-                href="/report-abuse"
+                href="#contributors"
                 className="block px-4 py-2 text-gray-600 hover:text-gray-900"
               >
                 Contributors
               </Link>
               <Link
-                href="/getting-started"
+                href="#maintainers"
                 className="block px-4 py-2 text-gray-600 hover:text-gray-900"
               >
                 Maintainers
               </Link>
               <Link
-                href="/faq"
+                href="#administrators"
                 className="block px-4 py-2 text-gray-600 hover:text-gray-900"
               >
                 Administrators
               </Link>
               <Link
-                href="/faq"
+                href="#gmember"
                 className="flex items-center px-4 py-2 text-gray-600 hover:text-gray-900"
               >
                 Good Member
@@ -113,7 +113,31 @@ export default function Community() {
               </svg>
             </div>
 
-            <p className="text-gray-700 mb-8">
+            <p id="community" className="text-gray-700 mb-8">
+              This section covers various things to know about the Lupleg
+              community, looking at how to be a good community member, and
+              understanding the roles different people fulfill.
+            </p>
+
+            <p id="contributors" className="text-gray-700 mb-8">
+              This section covers various things to know about the Lupleg
+              community, looking at how to be a good community member, and
+              understanding the roles different people fulfill.
+            </p>
+
+            <p id="maintainers" className="text-gray-700 mb-8">
+              This section covers various things to know about the Lupleg
+              community, looking at how to be a good community member, and
+              understanding the roles different people fulfill.
+            </p>
+
+            <p id="administrators" className="text-gray-700 mb-8">
+              This section covers various things to know about the Lupleg
+              community, looking at how to be a good community member, and
+              understanding the roles different people fulfill.
+            </p>
+
+            <p id="gmember" className="text-gray-700 mb-8">
               This section covers various things to know about the Lupleg
               community, looking at how to be a good community member, and
               understanding the roles different people fulfill.
