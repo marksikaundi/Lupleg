@@ -95,10 +95,10 @@ export default function Community() {
         <main className="flex-1 p-8">
           <div className="max-w-4xl">
             <h1 className="text-4xl font-bold text-[#2D1537] mb-4">
-              Community
+              Contributors
             </h1>
             <p className="text-xl text-gray-600 mb-8">
-              Learn how Lupleg's community works
+              Learn about Lupleg's Contributors
             </p>
 
             {/* Decorative Wave */}
@@ -113,10 +113,35 @@ export default function Community() {
               </svg>
             </div>
 
-            <p id="community" className="text-gray-700 mb-8">
-              This section covers various things to know about the Lupleg
-              community, looking at how to be a good community member, and
-              understanding the roles different people fulfill.
+            <p className="text-xl text-gray-600 mb-8">
+              Lupleg's Contributors are the people that help build Lupleg's
+              language tracks and tooling.
+            </p>
+
+            <p className="text-xl text-gray-600 mb-8">
+              Anyone can be an Lupleg Contributor — there are no prerequisites
+              or going requirements, and we actively welcome people from all
+              backgrounds. Over 4,000 people have helped build Lupleg so far!
+            </p>
+
+            <p className="text-xl text-gray-600 mb-8">
+              There are lots of different ways to help with Lupleg:
+            </p>
+
+            <ul className="text-xl text-gray-600 mb-8">
+              <li>Write Exercises</li>
+              <li>Develop a Track's Concepts</li>
+              <li>Improve documentation</li>
+              <li>
+                Build missing tooling (e.g. Test Runners or Code Analyzers)
+              </li>
+              <li>Fix bugs</li>
+              <li>Improve a Track's content.</li>
+            </ul>
+
+            <p className="text-xl text-gray-600 mb-8">
+              Visit our dedicated Contributing Section to explore all the tasks
+              that currently need doing.
             </p>
           </div>
         </main>
