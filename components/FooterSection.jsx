@@ -16,7 +16,7 @@ export default function FooterSection() {
       </div>
 
       {/* Divider */}
-      <div className="max-w-7xl mx-auto border-t border-purple-700 mb-16"></div>
+      <div className="max-w-7xl mx-auto border-t border-gray-600 mb-16"></div>
 
       {/* Footer Links */}
       {/* <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 mb-16">
