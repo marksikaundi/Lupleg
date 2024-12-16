@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { Button } from "./ui/button";
+import FooterSection from "./FooterSection";
 
 const footerData = [
   {
@@ -30,7 +31,7 @@ const footerData = [
       { name: "Sitemap", path: "/sitemap" },
       { name: "Tips", path: "/tips" },
       { name: "Projects", path: "https://projects.lupleg.org" },
-      { name: "Docs", path: "https://docs.lupleg.org" },
+      { name: "Docs", path: "/docs" },
     ],
   },
 ];
@@ -39,6 +40,7 @@ export default function Footer() {
   return (
     <div className="pt-28">
       <footer className="bg-[#2D1537] p-10 text-white">
+        <FooterSection/>
         <div className="mx-auto grid max-w-7xl grid-cols-2 gap-10 md:grid-cols-4">
           {footerData.map((section, index) => (
             <div key={index}>

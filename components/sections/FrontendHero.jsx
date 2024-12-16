@@ -14,7 +14,6 @@ export default function FrontendHero() {
   };
 
   return (
-    // bg-gradient-to-br from-black via-black to-[#2D1537]
     <section className="w-full min-h-screen flex flex-col items-center justify-center text-center px-4 py-12 bg-[#2D1537] ">
       <div className="max-w-4xl mx-auto">
         <div className="mb-8 flex justify-center">
