@@ -139,6 +139,86 @@ export default function Tips() {
               memory. And, by having the suggestions in one place, you can keep
               refining them over time to make them clearer.
             </p>
+            <p id="community" className="text-gray-700 mb-8">
+              You can also use the notes to keep track of the solutions you've
+              mentored, so you can see how a student's work has progressed over
+              time.
+            </p>
+            <h1>Be Kind</h1>
+            <p id="community" className="text-gray-700 mb-8">
+              Remember that the person you're mentoring is a human being with
+              feelings. Be kind and respectful in your feedback. Remember that
+              the goal is to help them improve, not to make them feel bad.
+            </p>
+            <h1>Ask Questions</h1>
+            <p id="community" className="text-gray-700 mb-8">
+              When you're mentoring, ask questions to help the person you're
+              mentoring think through the problem. This can help them learn more
+              effectively than just giving them the answer.
+            </p>
+            <h1>Be Specific</h1>
+            <p id="community" className="text-gray-700 mb-8">
+              When giving feedback, be specific. Instead of saying "this is
+              wrong", say "this part of your solution is incorrect because...".{" "}
+              <br />
+              <br />
+              Specific feedback helps the person you're mentoring understand
+              what they need to improve and how to do it.
+            </p>
+            <h1>Be Constructive</h1>
+            <p id="community" className="text-gray-700 mb-8">
+              When giving feedback, be constructive. Instead of just pointing
+              out what's wrong, suggest ways to improve. This helps the person
+              you're mentoring learn how to improve their work.
+            </p>
+            <h1>Be Patient</h1>
+            <p id="community" className="text-gray-700 mb-8">
+              Remember that learning takes time. Be patient with the person
+              you're mentoring and give them the time they need to learn and
+              improve.
+            </p>
+            <h1>Be Encouraging</h1>
+            <p id="community" className="text-gray-700 mb-8">
+              Encourage the person you're mentoring. Let them know when they're
+              doing well and when they're making progress. This can help keep
+              them motivated and engaged.
+            </p>
+            <h1>Be Available</h1>
+            <p id="community" className="text-gray-700 mb-8">
+              Be available to the person you're mentoring. Answer their
+              questions, provide feedback, and offer support when they need it.
+              This can help them feel supported and motivated to learn.
+            </p>
+            <h1>Be Flexible</h1>
+            <p id="community" className="text-gray-700 mb-8">
+              Be flexible in your mentoring approach. Everyone learns
+              differently, so be willing to adapt your mentoring style to meet
+              the needs of the person you're mentoring.
+            </p>
+            <h1>Be Positive</h1>
+            <p id="community" className="text-gray-700 mb-8">
+              Be positive in your mentoring. Focus on the person's strengths and
+              help them build on them. This can help boost their confidence and
+              motivation to learn.
+            </p>
+            <h1>Be Supportive</h1>
+            <p id="community" className="text-gray-700 mb-8">
+              Be supportive of the person you're mentoring. Offer encouragement,
+              guidance, and assistance when they need it. This can help them
+              feel supported and motivated to learn.
+            </p>
+            <h1>Be Respectful</h1>
+            <p id="community" className="text-gray-700 mb-8">
+              Be respectful of the person you're mentoring. Treat them with
+              kindness, empathy, and understanding. This can help create a
+              positive and supportive learning environment.
+            </p>
+            <h1>Be Empathetic</h1>
+            <p id="community" className="text-gray-700 mb-8">
+              Be empathetic to the person you're mentoring. Try to understand
+              their perspective, feelings, and challenges. This can help you
+              provide more effective support and guidance.
+            </p>
           </div>
         </main>
       </div>
