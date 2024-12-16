@@ -62,31 +62,49 @@ export default function Mentoring() {
                 mentoring
               </Link>
               <Link
-                href="/docs/mentoring/contributors"
+                href="/docs/mentoring/choosing"
                 className="block px-4 py-2 text-gray-600 hover:text-gray-900"
               >
-                Contributors
+                Choosing a Solution
               </Link>
               <Link
-                href="/docs/mentoring/maintainers"
+                href="/docs/mentoring/feedback"
                 className="block px-4 py-2 text-gray-600 hover:text-gray-900"
               >
-                Maintainers
+                How to give great feedback
               </Link>
               <Link
-                href="/docs/mentoring/administrators"
+                href="/docs/mentoring/mentoring-faq"
                 className="block px-4 py-2 text-gray-600 hover:text-gray-900"
               >
-                Administrators
+                Mentoring FAQ
               </Link>
               <Link
-                href="/docs/mentoring/gmember"
-                className="flex items-center px-4 py-2 text-gray-600 hover:text-gray-900"
+                href="/docs/mentoring/representations"
+                className="block px-4 py-2 text-gray-600 hover:text-gray-900"
               >
-                Good Member
-                <span className="text-[#2D1537]">
-                  <Plus />
-                </span>
+                How to give feedback on representations
+                
+              </Link>
+              <Link
+                href="/docs/mentoring/markdown"
+                className="block px-4 py-2 text-gray-600 hover:text-gray-900"
+              >
+                How to use Markdown in mentoring
+              </Link>
+
+              <Link
+                href="/docs/mentoring/mindset"
+                className="block px-4 py-2 text-gray-600 hover:text-gray-900"
+              >
+                The Mentoring Mindset
+              </Link>
+
+              <Link
+                href="/docs/mentoring/tips"
+                className="block px-4 py-2 text-gray-600 hover:text-gray-900"
+              >
+                Mentoring Tips
               </Link>
             </div>
           </nav>
@@ -120,25 +138,25 @@ export default function Mentoring() {
 
             <ul className="list-disc list-inside mb-8">
               <li>
-                <a href="">Choosing a Solution</a>
+                <a href="/docs/mentoring/choosing">Choosing a Solution</a>
               </li>
               <li>
-                <a href="">How to give great feedback</a>
+                <a href="/docs/mentoring/feedback">How to give great feedback</a>
               </li>
               <li>
-                <a href="">Mentoring FAQ</a>
+                <a href="/docs/mentoring/mentoring-faq">Mentoring FAQ</a>
               </li>
               <li>
-                <a href="">How to give feedback on representations</a>
+                <a  href="/docs/mentoring/representations">How to give feedback on representations</a>
               </li>
               <li>
-                <a href="">How to use Markdown in mentoring</a>
+                <a href="/docs/mentoring/markdown">How to use Markdown in mentoring</a>
               </li>
               <li>
-                <a href="">The Mentoring Mindset</a>
+                <a href="/docs/mentoring/mindset">The Mentoring Mindset</a>
               </li>
               <li>
-                <a href="">Mentoring Tips</a>
+                <a href="/docs/mentoring/tips">Mentoring Tips</a>
               </li>
             </ul>
           </div>
