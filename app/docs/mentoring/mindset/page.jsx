@@ -2,7 +2,7 @@ import { Plus } from "lucide-react";
 import Link from "next/link";
 import { IoHome } from "react-icons/io5";
 
-export default function Mentoring() {
+export default function Mindset() {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Top Navigation */}
@@ -68,7 +68,6 @@ export default function Mentoring() {
                 Choosing a Solution
 
 
-                mkdir choosing feedback mentoring-faq representations markdown mindset tips
               </Link>
               <Link
                 href="/docs/mentoring/feedback"
@@ -116,11 +115,12 @@ export default function Mentoring() {
         <main className="flex-1 p-8">
           <div className="max-w-4xl">
             <h1 className="text-4xl font-bold text-[#2D1537] mb-4">
-              Mentoring Guides
+            The Mentoring Mindset
             </h1>
             <p className="text-xl text-gray-600 mb-8">
-              Learn how to make the most of our mentoring on Lupleg
-            </p>
+            An examination of the mentoring mindset
+
+</p>
 
             {/* Decorative Wave */}
             <div className="mb-8">
@@ -134,34 +134,13 @@ export default function Mentoring() {
               </svg>
             </div>
 
+            <h1> What is a mindset?</h1>
+
             <p id="community" className="text-gray-700 mb-8">
-              Welcome to the Lupleg Mentoring Team. Follow the links below for
-              guides on how to get started with mentoring on Lupleg!
+            Before examining the mentoring mindset, it may be helpful to understand what a mindset is. According to the Oxford English Dictionary, Mindset is an "established set of attitudes, esp. regarded as typical of a particular group's social or cultural values." A person may have an individual motivation for engaging in an activity, but a mindset directs that the motivation is in line with a group's values. For the Exercism mentor, that means approaching the mentoring process within the spirit of the Exercism community.
             </p>
 
-            <ul className="list-disc list-inside mb-8">
-              <li>
-                <a href="/docs/mentoring/choosing">Choosing a Solution</a>
-              </li>
-              <li>
-                <a href="/docs/mentoring/feedback">How to give great feedback</a>
-              </li>
-              <li>
-                <a href="/docs/mentoring/mentoring-faq">Mentoring FAQ</a>
-              </li>
-              <li>
-                <a  href="/docs/mentoring/representations">How to give feedback on representations</a>
-              </li>
-              <li>
-                <a href="/docs/mentoring/markdown">How to use Markdown in mentoring</a>
-              </li>
-              <li>
-                <a href="/docs/mentoring/mindset">The Mentoring Mindset</a>
-              </li>
-              <li>
-                <a href="/docs/mentoring/tips">Mentoring Tips</a>
-              </li>
-            </ul>
+            
           </div>
         </main>
       </div>

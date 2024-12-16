@@ -2,7 +2,7 @@ import { Plus } from "lucide-react";
 import Link from "next/link";
 import { IoHome } from "react-icons/io5";
 
-export default function Mentoring() {
+export default function Markdown() {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Top Navigation */}
@@ -66,9 +66,6 @@ export default function Mentoring() {
                 className="block px-4 py-2 text-gray-600 hover:text-gray-900"
               >
                 Choosing a Solution
-
-
-                mkdir choosing feedback mentoring-faq representations markdown mindset tips
               </Link>
               <Link
                 href="/docs/mentoring/feedback"
@@ -87,7 +84,6 @@ export default function Mentoring() {
                 className="block px-4 py-2 text-gray-600 hover:text-gray-900"
               >
                 How to give feedback on representations
-                
               </Link>
               <Link
                 href="/docs/mentoring/markdown"
@@ -116,11 +112,11 @@ export default function Mentoring() {
         <main className="flex-1 p-8">
           <div className="max-w-4xl">
             <h1 className="text-4xl font-bold text-[#2D1537] mb-4">
-              Mentoring Guides
+              How to use Markdown in mentoring
             </h1>
-            <p className="text-xl text-gray-600 mb-8">
+            {/* <p className="text-xl text-gray-600 mb-8">
               Learn how to make the most of our mentoring on Lupleg
-            </p>
+            </p> */}
 
             {/* Decorative Wave */}
             <div className="mb-8">
@@ -135,33 +131,21 @@ export default function Mentoring() {
             </div>
 
             <p id="community" className="text-gray-700 mb-8">
-              Welcome to the Lupleg Mentoring Team. Follow the links below for
-              guides on how to get started with mentoring on Lupleg!
+              You can use markdown in your mentoring comments on GitHub. This
+              allows you to embed code snippets, add headings, bold, italic,
+              lists, etc, and quote previous sentences.
             </p>
 
-            <ul className="list-disc list-inside mb-8">
-              <li>
-                <a href="/docs/mentoring/choosing">Choosing a Solution</a>
-              </li>
-              <li>
-                <a href="/docs/mentoring/feedback">How to give great feedback</a>
-              </li>
-              <li>
-                <a href="/docs/mentoring/mentoring-faq">Mentoring FAQ</a>
-              </li>
-              <li>
-                <a  href="/docs/mentoring/representations">How to give feedback on representations</a>
-              </li>
-              <li>
-                <a href="/docs/mentoring/markdown">How to use Markdown in mentoring</a>
-              </li>
-              <li>
-                <a href="/docs/mentoring/mindset">The Mentoring Mindset</a>
-              </li>
-              <li>
-                <a href="/docs/mentoring/tips">Mentoring Tips</a>
-              </li>
-            </ul>
+            <p id="community" className="text-gray-700 mb-8">
+              We also allow some elements of "Github-flavoured Markdown" on
+              Exercism, specifically syntax highlighting, tables, and
+              strike-through.
+            </p>
+
+            <p id="community" className="text-gray-700 mb-8">
+              If you're not familiar with Markdown or the GitHub extras, we
+              recommend reading the
+            </p>
           </div>
         </main>
       </div>

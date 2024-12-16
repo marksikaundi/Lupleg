@@ -2,7 +2,7 @@ import { Plus } from "lucide-react";
 import Link from "next/link";
 import { IoHome } from "react-icons/io5";
 
-export default function Mentoring() {
+export default function MentoringFAQ() {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Top Navigation */}
@@ -68,7 +68,6 @@ export default function Mentoring() {
                 Choosing a Solution
 
 
-                mkdir choosing feedback mentoring-faq representations markdown mindset tips
               </Link>
               <Link
                 href="/docs/mentoring/feedback"
@@ -116,11 +115,12 @@ export default function Mentoring() {
         <main className="flex-1 p-8">
           <div className="max-w-4xl">
             <h1 className="text-4xl font-bold text-[#2D1537] mb-4">
-              Mentoring Guides
+            Frequently asked mentoring questions
             </h1>
             <p className="text-xl text-gray-600 mb-8">
-              Learn how to make the most of our mentoring on Lupleg
-            </p>
+            An assortment of commonly asked questions related to mentoring
+
+</p>
 
             {/* Decorative Wave */}
             <div className="mb-8">
@@ -139,29 +139,7 @@ export default function Mentoring() {
               guides on how to get started with mentoring on Lupleg!
             </p>
 
-            <ul className="list-disc list-inside mb-8">
-              <li>
-                <a href="/docs/mentoring/choosing">Choosing a Solution</a>
-              </li>
-              <li>
-                <a href="/docs/mentoring/feedback">How to give great feedback</a>
-              </li>
-              <li>
-                <a href="/docs/mentoring/mentoring-faq">Mentoring FAQ</a>
-              </li>
-              <li>
-                <a  href="/docs/mentoring/representations">How to give feedback on representations</a>
-              </li>
-              <li>
-                <a href="/docs/mentoring/markdown">How to use Markdown in mentoring</a>
-              </li>
-              <li>
-                <a href="/docs/mentoring/mindset">The Mentoring Mindset</a>
-              </li>
-              <li>
-                <a href="/docs/mentoring/tips">Mentoring Tips</a>
-              </li>
-            </ul>
+            
           </div>
         </main>
       </div>
