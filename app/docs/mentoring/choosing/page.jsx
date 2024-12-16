@@ -132,8 +132,15 @@ export default function Choosing() {
             </div>
 
             <p id="community" className="text-gray-700 mb-8">
-              Welcome to the Lupleg Mentoring Team. Follow the links below for
-              guides on how to get started with mentoring on Lupleg!
+              <Plus className="h-5 w-5 inline-block" />
+              <span className="ml-2">Table of Contents</span>
+            </p>
+
+            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
+              Choosing a solution to mentor
+            </h2>
+            <p className="text-xl text-gray-600 mb-8">
+              Decide which solution is right for you
             </p>
           </div>
         </main>
