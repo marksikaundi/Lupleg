@@ -117,6 +117,30 @@ export default function Mentoring() {
               Welcome to the Lupleg Mentoring Team. Follow the links below for
               guides on how to get started with mentoring on Lupleg!
             </p>
+
+            <ul className="list-disc list-inside mb-8">
+              <li>
+                <a href="">Choosing a Solution</a>
+              </li>
+              <li>
+                <a href="">How to give great feedback</a>
+              </li>
+              <li>
+                <a href="">Mentoring FAQ</a>
+              </li>
+              <li>
+                <a href="">How to give feedback on representations</a>
+              </li>
+              <li>
+                <a href="">How to use Markdown in mentoring</a>
+              </li>
+              <li>
+                <a href="">The Mentoring Mindset</a>
+              </li>
+              <li>
+                <a href="">Mentoring Tips</a>
+              </li>
+            </ul>
           </div>
         </main>
       </div>
