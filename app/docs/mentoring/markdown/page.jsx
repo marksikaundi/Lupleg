@@ -146,6 +146,29 @@ export default function Markdown() {
               If you're not familiar with Markdown or the GitHub extras, we
               recommend reading the
             </p>
+
+            <p id="community" className="text-gray-700 mb-8">
+              <a
+                href="https://guides.github.com/features/mastering-markdown/"
+                className="text-blue-600 hover:underline"
+              >
+                GitHub guide to mastering Markdown
+              </a>
+            </p>
+
+            <p id="community" className="text-gray-700 mb-8">
+              <a
+                href="https://guides.github.com/features/mastering-markdown/"
+                className="text-blue-600 hover:underline"
+              >
+                GitHub guide to mastering Markdown
+              </a>
+            </p>
+
+            <p id="community" className="text-gray-700 mb-8">
+              If you're not familiar with Markdown or the GitHub extras, we
+              recommend reading the GitHub guide to mastering Markdown.
+            </p>
           </div>
         </main>
       </div>
