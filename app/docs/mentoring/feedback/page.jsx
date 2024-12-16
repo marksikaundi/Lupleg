@@ -132,11 +132,69 @@ export default function Feedback() {
             </div>
 
             <p id="community" className="text-gray-700 mb-8">
-              Welcome to the Lupleg Mentoring Team. Follow the links below for
-              guides on how to get started with mentoring on Lupleg!
+              Giving feedback is a key part of mentoring. It's how you help
+              someone learn and grow. Here are some tips to help you give great
+              feedback.
             </p>
 
-            
+            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
+              Be specific
+            </h2>
+
+            <p className="text-gray-700 mb-8">
+              When you're giving feedback, be specific. Instead of saying "good
+              job", say "I like how you used a loop to solve this problem". This
+              helps the person you're mentoring understand what they did well.
+            </p>
+
+            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">Be kind</h2>
+
+            <p className="text-gray-700 mb-8">
+              Feedback should be kind and encouraging. Remember that everyone
+              makes mistakes, and that's how we learn. Be kind and supportive
+              when you're giving feedback.
+            </p>
+
+            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
+              Be constructive
+            </h2>
+
+            <p className="text-gray-700 mb-8">
+              Feedback should be constructive. Instead of just saying "this is
+              wrong", explain why it's wrong and how it can be improved. This
+              helps the person you're mentoring learn and grow.
+            </p>
+
+            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
+              Be honest
+            </h2>
+
+            <p className="text-gray-700 mb-8">
+              Feedback should be honest. If you think something could be
+              improved, say so. Honesty helps the person you're mentoring learn
+              and grow.
+            </p>
+
+            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
+              Be timely
+            </h2>
+
+            <p className="text-gray-700 mb-8">
+              Feedback should be timely. Try to give feedback as soon as
+              possible after the person you're mentoring has completed an
+              exercise. This helps them learn and grow while the exercise is
+              still fresh in their mind.
+            </p>
+
+            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
+              Be balanced
+            </h2>
+
+            <p className="text-gray-700 mb-8">
+              Feedback should be balanced. Try to give both positive and
+              negative feedback. This helps the person you're mentoring
+              understand what they're doing well and what they can improve.
+            </p>
           </div>
         </main>
       </div>
