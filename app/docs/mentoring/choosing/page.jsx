@@ -29,13 +29,13 @@ export default function Choosing() {
             </Link>
             <Link
               href="/docs/mentoring"
-              className="text-gray-600 hover:text-gray-900 h-full flex items-center flex-shrink-0"
+              className=" text-[#2D1537] border-b-2 border-[#2D1537] hover:text-gray-900 h-full flex items-center flex-shrink-0"
             >
               Mentoring
             </Link>
             <Link
               href="/docs/community"
-              className=" text-[#2D1537] border-b-2 border-[#2D1537] hover:text-gray-900 h-full flex items-center flex-shrink-0"
+              className="text-gray-600 hover:text-gray-900 h-full flex items-center flex-shrink-0"
             >
               Community
             </Link>
@@ -59,7 +59,7 @@ export default function Choosing() {
                 href="/docs/mentoring"
                 className="block px-4 py-2 text-gray-600 hover:text-gray-900"
               >
-                mentoring
+                Mentoring
               </Link>
               <Link
                 href="/docs/mentoring/choosing"
