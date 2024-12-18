@@ -59,7 +59,7 @@ export default function Mentoring() {
                 href="/docs/mentoring"
                 className="block px-4 py-2 text-gray-600 hover:text-gray-900"
               >
-                mentoring
+                Mentoring
               </Link>
               <Link
                 href="/docs/mentoring/choosing"
@@ -68,7 +68,6 @@ export default function Mentoring() {
                 Choosing a Solution
 
 
-                mkdir choosing feedback mentoring-faq representations markdown mindset tips
               </Link>
               <Link
                 href="/docs/mentoring/feedback"
