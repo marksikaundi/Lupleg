@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { IoHome } from "react-icons/io5";
 
-export default function Abuse() {
+export default function CodeOfConduct() {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Top Navigation */}
@@ -112,7 +112,7 @@ export default function Abuse() {
         <main className="flex-1 p-8">
           <div className="max-w-4xl">
             <h1 className="text-4xl font-bold text-purple-900 mb-4">
-              Report Abuse
+              Code of Conduct
             </h1>
             <p className="text-xl text-gray-600 mb-8"></p>
 
@@ -127,46 +127,48 @@ export default function Abuse() {
                 />
               </svg>
             </div>
-
-            <p className="text-gray-700 mb-8">
-              Feeling uncomfortable? Had a worrying or uncomfortable interaction
-              with someone on the site? Has something written on Lupleg
-              concerned or upset you?
-              <br />
-              Please reach out to us and we will try to fix or resolve the issue
-              respecting both you and your privacy. The best way to contact us
-              is to email us at abuse@lupleg.org.
-              <br />
-              In addition to reporting abuse community members are welcome to
-              refer users to the{" "}
-              <Link
-                className="text-xl font-bold text-purple-900"
-                href="/docs/using/conducts"
-              >
-                Code of Conduct
-              </Link>{" "}
-              if they feel safe doing so. Keep in mind that this type of action
-              is meant to resolve issues. As such, it is better to pose it as a
-              question, eg. "Do you feel like that comment is aligned to
-              Lupleg's COC" rather than "You're in violation of the COC"
+            <h1 className="text-2xl font-bold text-purple-900 mb-4">
+              Introductions
+            </h1>
+            <p className="text-xl text-gray-600 mb-8">
+              Lupleg is a platform centered around empathetic conversation. We
+              have a low tolerance for communication that makes anyone feel
+              unwelcome, unsupported, insulted or discriminated against.
             </p>
 
-            <h2 className="text-2xl font-bold text-purple-900 mb-4">
-              What to include in your report of abuse or harassment on Lupleg
-            </h2>
-            <p className="text-gray-700 mb-8">
-              When reporting abuse or harassment, please include the following
+            <h1 className="text-2xl font-bold text-purple-900 mb-4">
+              Seen or experienced something uncomfortable?
+            </h1>
+
+            <p className="text-xl text-gray-600 mb-8">
+              If you see or experience abuse, harassment, discrimination, or
+              feel unsafe or upset, please email abuse@lupleg.org. We will take
+              your report seriously.
             </p>
 
-            <ul className="list-disc list-inside">
-              <li> Your name and contact information</li>
-              <li> The name of the person who is harassing you</li>
-              <li> The name of the person who is being harassed</li>
-              <li> A description of the incident</li>
-              <li> The date and time of the incident</li>
-              <li> The location of the incident</li>
-              <li> Any other information that you think is relevant</li>
-            </ul>
+            <h1 className="text-2xl font-bold text-purple-900 mb-4">
+              Enforcement
+            </h1>
+
+            <p className="text-xl text-gray-600 mb-8">
+              We actively monitor for Code of Conduct (CoC) violations and take
+              any reports of violations extremely seriously. We have banned
+              contributors, mentors and users due to violations.
+              <br />
+              After we receive a report of a CoC violation, we view that
+              person's conversation history on Lupleg and related communication
+              channels and attempt to understand whether someone has
+              deliberately broken the CoC, or accidentally crossed a line. We
+              generally reach out to the person who has been reported to discuss
+              any concerns we have and warn them that repeated violations will
+              result in a ban. Sometimes we decide that no violation has
+              occurred and that no action is required and sometimes we will also
+              ban people on a first offense. We strive to be fair, but will err
+              on the side of protecting the culture of our community.
+              <br />
+              Lupleg's leadership reserve the right to take whatever action they
+              feel appropriate with regards to CoC violations.
+            </p>
           </div>
         </main>
       </div>
