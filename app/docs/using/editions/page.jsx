@@ -1,9 +1,7 @@
 import Link from "next/link";
-import { ChevronDown, Home } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import { IoHome } from "react-icons/io5";
 
-export default function Using() {
+export default function Editions() {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Top Navigation */}
@@ -114,11 +112,9 @@ export default function Using() {
         <main className="flex-1 p-8">
           <div className="max-w-4xl">
             <h1 className="text-4xl font-bold text-purple-900 mb-4">
-              Using Lupleg
+              Code of Conduct
             </h1>
-            <p className="text-xl text-gray-600 mb-8">
-              Learn how to make the most of our experience on Lupleg
-            </p>
+            <p className="text-xl text-gray-600 mb-8"></p>
 
             {/* Decorative Wave */}
             <div className="mb-8">
@@ -131,78 +127,48 @@ export default function Using() {
                 />
               </svg>
             </div>
-
-            <p className="text-gray-700 mb-8">
-              These documents describe how to make the most of your experience
-              on Lupleg.
+            <h1 className="text-2xl font-bold text-purple-900 mb-4">
+              Introductions
+            </h1>
+            <p className="text-xl text-gray-600 mb-8">
+              Lupleg is a platform centered around empathetic conversation. We
+              have a low tolerance for communication that makes anyone feel
+              unwelcome, unsupported, insulted or discriminated against.
             </p>
 
-            <ul className="space-y-4">
-              <li>
-                <Link
-                  href="/getting-started"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Getting Started
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/faq"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Frequently Asked Questions
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/solving-exercises"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Solving Exercises
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/getting-feedback"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Getting Feedback
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/product"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Product
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/contact"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Contact
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/report-abuse"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Report Abuse
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/legal-policies"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Legal Policies
-                </Link>
-              </li>
-            </ul>
+            <h1 className="text-2xl font-bold text-purple-900 mb-4">
+              Seen or experienced something uncomfortable?
+            </h1>
+
+            <p className="text-xl text-gray-600 mb-8">
+              If you see or experience abuse, harassment, discrimination, or
+              feel unsafe or upset, please email abuse@lupleg.org. We will take
+              your report seriously.
+            </p>
+
+            <h1 className="text-2xl font-bold text-purple-900 mb-4">
+              Enforcement
+            </h1>
+
+            <p className="text-xl text-gray-600 mb-8">
+              We actively monitor for Code of Conduct (CoC) violations and take
+              any reports of violations extremely seriously. We have banned
+              contributors, mentors and users due to violations.
+              <br />
+              After we receive a report of a CoC violation, we view that
+              person's conversation history on Lupleg and related communication
+              channels and attempt to understand whether someone has
+              deliberately broken the CoC, or accidentally crossed a line. We
+              generally reach out to the person who has been reported to discuss
+              any concerns we have and warn them that repeated violations will
+              result in a ban. Sometimes we decide that no violation has
+              occurred and that no action is required and sometimes we will also
+              ban people on a first offense. We strive to be fair, but will err
+              on the side of protecting the culture of our community.
+              <br />
+              Lupleg's leadership reserve the right to take whatever action they
+              feel appropriate with regards to CoC violations.
+            </p>
           </div>
         </main>
       </div>

@@ -1,9 +1,7 @@
 import Link from "next/link";
-import { ChevronDown, Home } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import { IoHome } from "react-icons/io5";
 
-export default function Using() {
+export default function Abuse() {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Top Navigation */}
@@ -114,11 +112,9 @@ export default function Using() {
         <main className="flex-1 p-8">
           <div className="max-w-4xl">
             <h1 className="text-4xl font-bold text-purple-900 mb-4">
-              Using Lupleg
+              Report Abuse
             </h1>
-            <p className="text-xl text-gray-600 mb-8">
-              Learn how to make the most of our experience on Lupleg
-            </p>
+            <p className="text-xl text-gray-600 mb-8"></p>
 
             {/* Decorative Wave */}
             <div className="mb-8">
@@ -133,75 +129,43 @@ export default function Using() {
             </div>
 
             <p className="text-gray-700 mb-8">
-              These documents describe how to make the most of your experience
-              on Lupleg.
+              Feeling uncomfortable? Had a worrying or uncomfortable interaction
+              with someone on the site? Has something written on Lupleg
+              concerned or upset you?
+              <br />
+              Please reach out to us and we will try to fix or resolve the issue
+              respecting both you and your privacy. The best way to contact us
+              is to email us at abuse@lupleg.org.
+              <br />
+              In addition to reporting abuse community members are welcome to
+              refer users to the{" "}
+              <Link
+                className="text-xl font-bold text-purple-900"
+                href="/docs/using/conducts"
+              >
+                Code of Conduct
+              </Link>{" "}
+              if they feel safe doing so. Keep in mind that this type of action
+              is meant to resolve issues. As such, it is better to pose it as a
+              question, eg. "Do you feel like that comment is aligned to
+              Lupleg's COC" rather than "You're in violation of the COC"
             </p>
 
-            <ul className="space-y-4">
-              <li>
-                <Link
-                  href="/getting-started"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Getting Started
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/faq"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Frequently Asked Questions
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/solving-exercises"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Solving Exercises
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/getting-feedback"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Getting Feedback
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/product"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Product
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/contact"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Contact
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/report-abuse"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Report Abuse
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/legal-policies"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Legal Policies
-                </Link>
-              </li>
+            <h2 className="text-2xl font-bold text-purple-900 mb-4">
+              What to include in your report of abuse or harassment on Lupleg
+            </h2>
+            <p className="text-gray-700 mb-8">
+              When reporting abuse or harassment, please include the following
+            </p>
+
+            <ul className="list-disc list-inside">
+              <li> Your name and contact information</li>
+              <li> The name of the person who is harassing you</li>
+              <li> The name of the person who is being harassed</li>
+              <li> A description of the incident</li>
+              <li> The date and time of the incident</li>
+              <li> The location of the incident</li>
+              <li> Any other information that you think is relevant</li>
             </ul>
           </div>
         </main>
