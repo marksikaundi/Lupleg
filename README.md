@@ -1,7 +1,3 @@
-# Lupleg Website
-
-create for me a README file for Lupleg Repository for our Lupleg Community with all informations about the project and how to use it and even how one can contribute to it.
-
 # Lupleg Repository
 
 Welcome to the FE-Lupleg Repository! This repository is dedicated to the development and maintenance of the front-end for the Lupleg Community. Below you will find all the necessary information about the project, how to use it, and how you can contribute to it.
