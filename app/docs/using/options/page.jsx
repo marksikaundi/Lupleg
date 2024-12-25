@@ -1,9 +1,7 @@
 import Link from "next/link";
-import { ChevronDown, Home } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import { IoHome } from "react-icons/io5";
 
-export default function Using() {
+export default function Option() {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Top Navigation */}
@@ -113,16 +111,16 @@ export default function Using() {
         {/* Main Content */}
         <main className="flex-1 p-8">
           <div className="max-w-4xl">
-            <h1 className="text-4xl font-bold text-purple-900 mb-4">
-              Using Lupleg
+            <h1 className="text-4xl font-bold text-[#2D1537] mb-4">
+              Settings and options
             </h1>
             <p className="text-xl text-gray-600 mb-8">
-              Learn how to make the most of our experience on Lupleg
+              Learn about the settings and options you can use on Lupleg
             </p>
 
             {/* Decorative Wave */}
             <div className="mb-8">
-              <svg className="text-purple-600" viewBox="0 0 100 20" width="100">
+              <svg className="text-[#2D1537]" viewBox="0 0 100 20" width="100">
                 <path
                   d="M0 10 Q25 20 50 10 T100 10"
                   fill="none"
@@ -133,76 +131,26 @@ export default function Using() {
             </div>
 
             <p className="text-gray-700 mb-8">
-              These documents describe how to make the most of your experience
-              on Lupleg.
+              There are various settings and profile options you can change
+              within Lupleg:
             </p>
 
-            <ul className="space-y-4">
-              <li>
-                <Link
-                  href="/getting-started"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Getting Started
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/faq"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Frequently Asked Questions
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/solving-exercises"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Solving Exercises
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/getting-feedback"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Getting Feedback
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/product"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Product
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/contact"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Contact
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/report-abuse"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Report Abuse
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/legal-policies"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Legal Policies
-                </Link>
-              </li>
+            <ul className="list-disc list-inside text-gray-700 mb-8">
+              <li>Change your profile picture</li>
+              <li>Change your username</li>
+              <li>Change your email address</li>
+              <li>Change your password</li>
+              <li>Change your notification settings</li>
+              <li>Change your privacy settings</li>
+              <li>Change your theme settings</li>
+              <li>Change your language settings</li>
             </ul>
+
+            <p className="text-gray-700 mb-8">
+              You can access these settings by clicking on your profile icon in
+              the top right corner of the screen. From there, you can navigate
+              to the settings page and make the changes you want.
+            </p>
           </div>
         </main>
       </div>
