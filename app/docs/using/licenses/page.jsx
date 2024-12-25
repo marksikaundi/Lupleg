@@ -3,7 +3,7 @@ import { ChevronDown, Home } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { IoHome } from "react-icons/io5";
 
-export default function Using() {
+export default function Licenses() {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Top Navigation */}
@@ -113,16 +113,15 @@ export default function Using() {
         {/* Main Content */}
         <main className="flex-1 p-8">
           <div className="max-w-4xl">
-            <h1 className="text-4xl font-bold text-purple-900 mb-4">
-              Using Lupleg
+            <h1 className="text-4xl font-bold text-[#2D1537] mb-4">
+              Licenses used on Lupleg
             </h1>
             <p className="text-xl text-gray-600 mb-8">
-              Learn how to make the most of our experience on Lupleg
+              A copy of the various licenses used on Lupleg
             </p>
-
             {/* Decorative Wave */}
             <div className="mb-8">
-              <svg className="text-purple-600" viewBox="0 0 100 20" width="100">
+              <svg className="text-[#2D1537]" viewBox="0 0 100 20" width="100">
                 <path
                   d="M0 10 Q25 20 50 10 T100 10"
                   fill="none"
@@ -131,78 +130,21 @@ export default function Using() {
                 />
               </svg>
             </div>
-
             <p className="text-gray-700 mb-8">
-              These documents describe how to make the most of your experience
-              on Lupleg.
+              Lupleg uses various licenses for different repositories and
+              content. We provide a central copy of them here.
             </p>
 
-            <ul className="space-y-4">
-              <li>
-                <Link
-                  href="/getting-started"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Getting Started
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/faq"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Frequently Asked Questions
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/solving-exercises"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Solving Exercises
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/getting-feedback"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Getting Feedback
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/product"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Product
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/contact"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Contact
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/report-abuse"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Report Abuse
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/legal-policies"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Legal Policies
-                </Link>
-              </li>
-            </ul>
+            <Button className="p-6 bg-[#2D1537]" href="#">
+              MIT
+            </Button>
+            <Button className="p-6 bg-[#2D1537]" href="#">
+              AGPL 3.0
+            </Button>
+            <Button className="p-6 bg-[#2D1537]" href="#">
+              Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+              International
+            </Button>
           </div>
         </main>
       </div>
