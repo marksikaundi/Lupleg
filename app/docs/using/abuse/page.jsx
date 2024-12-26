@@ -111,14 +111,14 @@ export default function Abuse() {
         {/* Main Content */}
         <main className="flex-1 p-8">
           <div className="max-w-4xl">
-            <h1 className="text-4xl font-bold text-purple-900 mb-4">
+            <h1 className="text-4xl font-bold text-[#2D1537] mb-4">
               Report Abuse
             </h1>
             <p className="text-xl text-gray-600 mb-8"></p>
 
             {/* Decorative Wave */}
             <div className="mb-8">
-              <svg className="text-purple-600" viewBox="0 0 100 20" width="100">
+              <svg className="text-" viewBox="0 0 100 20" width="100">
                 <path
                   d="M0 10 Q25 20 50 10 T100 10"
                   fill="none"
@@ -140,7 +140,7 @@ export default function Abuse() {
               In addition to reporting abuse community members are welcome to
               refer users to the{" "}
               <Link
-                className="text-xl font-bold text-purple-900"
+                className="text-xl font-bold text-[#2D1537]"
                 href="/docs/using/conducts"
               >
                 Code of Conduct
@@ -151,7 +151,7 @@ export default function Abuse() {
               Lupleg's COC" rather than "You're in violation of the COC"
             </p>
 
-            <h2 className="text-2xl font-bold text-purple-900 mb-4">
+            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
               What to include in your report of abuse or harassment on Lupleg
             </h2>
             <p className="text-gray-700 mb-8">
