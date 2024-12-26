@@ -1,9 +1,7 @@
 import Link from "next/link";
-import { ChevronDown, Home } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import { IoHome } from "react-icons/io5";
 
-export default function Using() {
+export default function Solving() {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Top Navigation */}
@@ -113,16 +111,16 @@ export default function Using() {
         {/* Main Content */}
         <main className="flex-1 p-8">
           <div className="max-w-4xl">
-            <h1 className="text-4xl font-bold text-purple-900 mb-4">
-              Using Lupleg
+            <h1 className="text-4xl font-bold text-[#2D1537] mb-4">
+              Solving exercises
             </h1>
             <p className="text-xl text-gray-600 mb-8">
-              Learn how to make the most of our experience on Lupleg
+              Learn how to solve exercises on Lupleg
             </p>
 
             {/* Decorative Wave */}
             <div className="mb-8">
-              <svg className="text-purple-600" viewBox="0 0 100 20" width="100">
+              <svg className="text-[#2D1537]" viewBox="0 0 100 20" width="100">
                 <path
                   d="M0 10 Q25 20 50 10 T100 10"
                   fill="none"
@@ -137,72 +135,82 @@ export default function Using() {
               on Lupleg.
             </p>
 
-            <ul className="space-y-4">
-              <li>
-                <Link
-                  href="/getting-started"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Getting Started
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/faq"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Frequently Asked Questions
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/solving-exercises"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Solving Exercises
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/getting-feedback"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Getting Feedback
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/product"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Product
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/contact"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Contact
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/report-abuse"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Report Abuse
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/legal-policies"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Legal Policies
-                </Link>
-              </li>
-            </ul>
+            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
+              Solving exercises
+            </h2>
+            <p className="text-gray-700 mb-8">
+              Learn how to solve exercises on Lupleg
+            </p>
+
+            <h3 className="text-xl font-bold text-[#2D1537] mb-4">
+              How to solve exercises on Lupleg ?
+            </h3>
+            <p className="text-gray-700 mb-8">
+              To solve exercises on Lupleg, you need to follow these steps:
+            </p>
+
+            <ol className="list-decimal list-inside text-gray-700 mb-8">
+              <li>Go to the exercise page</li>
+              <li>Read the exercise description</li>
+              <li>Write your solution</li>
+              <li>Submit your solution</li>
+              <li>Wait for the result</li>
+            </ol>
+
+            <h3 className="text-xl font-bold text-[#2D1537] mb-4">
+              How to go to the exercise page ?
+            </h3>
+
+            <p className="text-gray-700 mb-8">
+              To go to the exercise page, you need to follow these steps:
+            </p>
+
+            <ol className="list-decimal list-inside text-gray-700 mb-8">
+              <li>Go to the home page</li>
+              <li>Click on the exercise you want to solve</li>
+            </ol>
+
+            <h3 className="text-xl font-bold text-[#2D1537] mb-4">
+              How to read the exercise description ?
+            </h3>
+
+            <p className="text-gray-700 mb-8">
+              To read the exercise description, you need to follow these steps:
+            </p>
+
+            <ol className="list-decimal list-inside text-gray-700 mb-8">
+              <li>Go to the exercise page</li>
+              <li>Read the exercise description</li>
+            </ol>
+
+            <h3 className="text-xl font-bold text-[#2D1537] mb-4">
+              How to write your solution ?
+            </h3>
+
+            <p className="text-gray-700 mb-8">
+              To write your solution, you need to follow these steps:
+            </p>
+
+            <ol className="list-decimal list-inside text-gray-700 mb-8">
+              <li>Go to the exercise page</li>
+              <li>Read the exercise description</li>
+              <li>Write your solution</li>
+            </ol>
+
+            <h3 className="text-xl font-bold text-[#2D1537] mb-4">
+              How to submit your solution ?
+            </h3>
+
+            <p className="text-gray-700 mb-8">
+              To submit your solution, you need to follow these steps:
+            </p>
+
+            <ol className="list-decimal list-inside text-gray-700 mb-8">
+              <li>Go to the exercise page</li>
+              <li>Read the exercise description</li>
+              <li>Write your solution</li>
+              <li>Submit your solution</li>
+            </ol>
           </div>
         </main>
       </div>

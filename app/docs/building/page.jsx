@@ -23,7 +23,7 @@ export default function Building() {
               Using Lupleg
             </Link>
             <Link
-              href="/docs/building"
+              href="/docs/docs/building/"
               className=" text-[#2D1537] border-b-2 border-[#2D1537] hover:text-gray-900 h-full flex items-center flex-shrink-0"
             >
               Building Lupleg
@@ -56,76 +56,47 @@ export default function Building() {
         {/* Sidebar */}
         <aside className="w-64 border-r p-4 hidden md:block">
           <nav className="space-y-4">
-            <div className="font-semibold text-purple-600">Using Lupleg</div>
             <div className="space-y-2">
-              <Button variant="ghost" className="w-full justify-between">
-                Settings and options
-                <ChevronDown className="h-4 w-4" />
-              </Button>
-              <Button variant="ghost" className="w-full justify-between">
-                Getting Feedback
-                <ChevronDown className="h-4 w-4" />
-              </Button>
-              <Button variant="ghost" className="w-full justify-between">
-                Solving exercises
-                <ChevronDown className="h-4 w-4" />
-              </Button>
-              <Button variant="ghost" className="w-full justify-between">
-                Legal Information
-                <ChevronDown className="h-4 w-4" />
-              </Button>
               <Link
-                href="/contact"
+                href="/docs/building/contribute"
                 className="block px-4 py-2 text-gray-600 hover:text-gray-900"
               >
-                Contact Us
+                Contribute 
               </Link>
               <Link
-                href="/report-abuse"
+                href="/docs/building/configlet"
                 className="block px-4 py-2 text-gray-600 hover:text-gray-900"
               >
-                Report Abuse
+                Configlet
               </Link>
               <Link
-                href="/getting-started"
+                href="/docs/building/github"
                 className="block px-4 py-2 text-gray-600 hover:text-gray-900"
               >
-                Getting Started
+                Github
               </Link>
               <Link
-                href="/faq"
+                href="/docs/building/markdown"
                 className="block px-4 py-2 text-gray-600 hover:text-gray-900"
               >
-                Frequently asked questions
+                Markdown
               </Link>
-              <Button variant="ghost" className="w-full justify-between">
-                Licenses used on Lupleg
-                <ChevronDown className="h-4 w-4" />
-              </Button>
-              <Button variant="ghost" className="w-full justify-between">
-                The Various editions of Lupleg
-                <ChevronDown className="h-4 w-4" />
-              </Button>
-              <Button variant="ghost" className="w-full justify-between">
-                Product
-                <ChevronDown className="h-4 w-4" />
-              </Button>
             </div>
           </nav>
         </aside>
         {/* Main Content */}
         <main className="flex-1 p-8">
           <div className="max-w-4xl">
-            <h1 className="text-4xl font-bold text-purple-900 mb-4">
-              Using Lupleg
+            <h1 className="text-4xl font-bold text-[#2D1537] mb-4">
+              Contributing to Lupleg
             </h1>
             <p className="text-xl text-gray-600 mb-8">
-              Learn how to make the most of our experience on Lupleg
+              An overview on how to contribute to Lupleg.
             </p>
 
             {/* Decorative Wave */}
             <div className="mb-8">
-              <svg className="text-purple-600" viewBox="0 0 100 20" width="100">
+              <svg className="text-[#2D1537]" viewBox="0 0 100 20" width="100">
                 <path
                   d="M0 10 Q25 20 50 10 T100 10"
                   fill="none"
@@ -135,77 +106,103 @@ export default function Building() {
               </svg>
             </div>
 
-            <p className="text-gray-700 mb-8">
-              These documents describe how to make the most of your experience
-              on Lupleg.
+            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">Overview</h2>
+            <p className="text-xl text-gray-600 mb-8">
+              Lupleg is an open-source project and we welcome contributions from
+              the community. This document explains how to contribute to the
+              project.
             </p>
 
-            <ul className="space-y-4">
+            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
+              Getting Started
+            </h2>
+            <p className="text-xl text-gray-600 mb-8">
+              To get started, you need to fork the repository on GitHub. You can
+              then clone the repository to your local machine and start making
+              changes. Once you are done, you can create a pull request to merge
+              your changes back into the main repository.
+            </p>
+
+            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
+              Creating a Pull Request
+            </h2>
+            <p className="text-xl text-gray-600 mb-8">
+              To create a pull request, follow these steps:
+            </p>
+            <ol className="list-decimal list-inside text-xl text-gray-600 mb-8">
+              <li>Fork the repository on GitHub.</li>
+              <li>Clone the repository to your local machine.</li>
+              <li>Create a new branch for your changes.</li>
+              <li>Make your changes and commit them to your branch.</li>
+              <li>Push your changes to your fork on GitHub.</li>
+              <li>Create a pull request on GitHub.</li>
+            </ol>
+
+            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
+              Code of Conduct
+            </h2>
+            <p className="text-xl text-gray-600 mb-8">
+              All contributors are expected to adhere to the project's code of
+              conduct. Please read the code of conduct before contributing to
+              the project.
+            </p>
+
+            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">License</h2>
+            <p className="text-xl text-gray-600 mb-8">
+              By contributing to the project, you agree to license your
+              contributions under the project's license. Please read the license
+              before contributing to the project.
+            </p>
+
+            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
+              Questions
+            </h2>
+            <p className="text-xl text-gray-600 mb-8">
+              If you have any questions about contributing to the project,
+              please contact us at{" "}
+              <a href="mailto:support@lupleg.org">Support Email</a>.
+            </p>
+
+            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
+              Resources
+            </h2>
+            <p className="text-xl text-gray-600 mb-8">
+              For more information on contributing to the project, please refer
+              to the following resources:
+            </p>
+
+            <ul className="list-disc list-inside text-xl text-gray-600 mb-8">
               <li>
-                <Link
-                  href="/getting-started"
-                  className="text-purple-600 hover:text-purple-700"
+                <a
+                  href=" https://opensource.guide/how-to-contribute/"
+                  className="text-[#2D1537] hover:text-gray-900"
                 >
-                  Getting Started
-                </Link>
+                  How to Contribute to Open Source
+                </a>
               </li>
               <li>
-                <Link
-                  href="/faq"
-                  className="text-purple-600 hover:text-purple-700"
+                <a
+                  href="https://www.contributor-covenant.org/"
+                  className="text-[#2D1537] hover:text-gray-900"
                 >
-                  Frequently Asked Questions
-                </Link>
+                  Contributor Covenant
+                </a>
               </li>
               <li>
-                <Link
-                  href="/solving-exercises"
-                  className="text-purple-600 hover:text-purple-700"
+                <a
+                  href="https://choosealicense.com/"
+                  className="text-[#2D1537] hover:text-gray-900"
                 >
-                  Solving Exercises
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/getting-feedback"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Getting Feedback
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/product"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Product
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/contact"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Contact
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/report-abuse"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Report Abuse
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/legal-policies"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Legal Policies
-                </Link>
+                  Choose a License
+                </a>
               </li>
             </ul>
+
+            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">Feedback</h2>
+            <p className="text-xl text-gray-600 mb-8">
+              We welcome feedback on how we can improve the contribution
+              process. If you have any suggestions, please let us know.
+            </p>
           </div>
         </main>
       </div>

@@ -1,9 +1,8 @@
 import Link from "next/link";
-import { ChevronDown, Home } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { IoHome } from "react-icons/io5";
 
-export default function Using() {
+export default function Licenses() {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Top Navigation */}
@@ -113,16 +112,15 @@ export default function Using() {
         {/* Main Content */}
         <main className="flex-1 p-8">
           <div className="max-w-4xl">
-            <h1 className="text-4xl font-bold text-purple-900 mb-4">
-              Using Lupleg
+            <h1 className="text-4xl font-bold text-[#2D1537] mb-4">
+              Licenses used on Lupleg
             </h1>
             <p className="text-xl text-gray-600 mb-8">
-              Learn how to make the most of our experience on Lupleg
+              A copy of the various licenses used on Lupleg
             </p>
-
             {/* Decorative Wave */}
             <div className="mb-8">
-              <svg className="text-purple-600" viewBox="0 0 100 20" width="100">
+              <svg className="text-[#2D1537]" viewBox="0 0 100 20" width="100">
                 <path
                   d="M0 10 Q25 20 50 10 T100 10"
                   fill="none"
@@ -131,78 +129,58 @@ export default function Using() {
                 />
               </svg>
             </div>
-
             <p className="text-gray-700 mb-8">
-              These documents describe how to make the most of your experience
-              on Lupleg.
+              Lupleg uses various licenses for different repositories and
+              content. We provide a central copy of them here.
             </p>
 
-            <ul className="space-y-4">
-              <li>
-                <Link
-                  href="/getting-started"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Getting Started
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/faq"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Frequently Asked Questions
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/solving-exercises"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Solving Exercises
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/getting-feedback"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Getting Feedback
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/product"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Product
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/contact"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Contact
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/report-abuse"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Report Abuse
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/legal-policies"
-                  className="text-purple-600 hover:text-purple-700"
-                >
-                  Legal Policies
-                </Link>
-              </li>
-            </ul>
+            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
+              MIT License
+            </h2>
+            <p className="text-gray-700 mb-8">
+              The MIT License is a permissive free software license originating
+              at the Massachusetts Institute of Technology. As a permissive
+              license, it puts only very limited restriction on reuse and has,
+              therefore, high license compatibility.
+            </p>
+
+            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
+              Apache License 2.0
+            </h2>
+            <p className="text-gray-700 mb-8">
+              The Apache License is a permissive free software license written
+              by the Apache Software Foundation. It allows users to use the
+              software for any purpose, to distribute it, to modify it, and to
+              distribute modified versions of the software under the terms of
+              the license.
+            </p>
+
+            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
+              GNU General Public License v3.0
+            </h2>
+            <p className="text-gray-700 mb-8">
+              The GNU General Public License is a series of widely used free
+              software licenses that guarantee end users the freedom to run,
+              study, share, and modify the software. The licenses were
+              originally written by Richard Stallman, former head of the Free
+              Software Foundation (FSF), for the GNU Project.
+            </p>
+
+            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
+              Creative Commons License
+            </h2>
+            <p className="text-gray-700 mb-8">
+              A Creative Commons (CC) license is one of several public copyright
+              licenses that enable the free distribution of an otherwise
+              copyrighted work.
+            </p>
+
+            <Button
+              href="/docs/using/feedbacks"
+              className="mt-8 bg-[#2D1537] hover:bg-[#2D1537]"
+            >
+              Feedbacks
+            </Button>
           </div>
         </main>
       </div>
