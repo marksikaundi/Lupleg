@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { ChevronDown, Home } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { IoHome } from "react-icons/io5";
 
@@ -135,15 +134,52 @@ export default function Licenses() {
               content. We provide a central copy of them here.
             </p>
 
-            <Button className="p-6 bg-[#2D1537]" href="#">
-              MIT
-            </Button>
-            <Button className="p-6 bg-[#2D1537]" href="#">
-              AGPL 3.0
-            </Button>
-            <Button className="p-6 bg-[#2D1537]" href="#">
-              Creative Commons Attribution-NonCommercial-ShareAlike 4.0
-              International
+            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
+              MIT License
+            </h2>
+            <p className="text-gray-700 mb-8">
+              The MIT License is a permissive free software license originating
+              at the Massachusetts Institute of Technology. As a permissive
+              license, it puts only very limited restriction on reuse and has,
+              therefore, high license compatibility.
+            </p>
+
+            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
+              Apache License 2.0
+            </h2>
+            <p className="text-gray-700 mb-8">
+              The Apache License is a permissive free software license written
+              by the Apache Software Foundation. It allows users to use the
+              software for any purpose, to distribute it, to modify it, and to
+              distribute modified versions of the software under the terms of
+              the license.
+            </p>
+
+            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
+              GNU General Public License v3.0
+            </h2>
+            <p className="text-gray-700 mb-8">
+              The GNU General Public License is a series of widely used free
+              software licenses that guarantee end users the freedom to run,
+              study, share, and modify the software. The licenses were
+              originally written by Richard Stallman, former head of the Free
+              Software Foundation (FSF), for the GNU Project.
+            </p>
+
+            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
+              Creative Commons License
+            </h2>
+            <p className="text-gray-700 mb-8">
+              A Creative Commons (CC) license is one of several public copyright
+              licenses that enable the free distribution of an otherwise
+              copyrighted work.
+            </p>
+
+            <Button
+              href="/docs/using/feedbacks"
+              className="mt-8 bg-[#2D1537] hover:bg-[#2D1537]"
+            >
+              Feedbacks
             </Button>
           </div>
         </main>
