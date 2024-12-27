@@ -1,6 +1,4 @@
 import Link from "next/link";
-import { ChevronDown, Home } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import { IoHome } from "react-icons/io5";
 
 export default function Using() {
@@ -113,7 +111,7 @@ export default function Using() {
         {/* Main Content */}
         <main className="flex-1 p-8">
           <div className="max-w-4xl">
-            <h1 className="text-4xl font-bold text-purple-900 mb-4">
+            <h1 className="text-4xl font-bold text-[#2D1537] mb-4">
               Using Lupleg
             </h1>
             <p className="text-xl text-gray-600 mb-8">
@@ -122,7 +120,7 @@ export default function Using() {
 
             {/* Decorative Wave */}
             <div className="mb-8">
-              <svg className="text-purple-600" viewBox="0 0 100 20" width="100">
+              <svg className="text-[#2D1537]" viewBox="0 0 100 20" width="100">
                 <path
                   d="M0 10 Q25 20 50 10 T100 10"
                   fill="none"
@@ -140,64 +138,82 @@ export default function Using() {
             <ul className="space-y-4">
               <li>
                 <Link
-                  href="/getting-started"
-                  className="text-purple-600 hover:text-purple-700"
+                  href="/docs/using/solving"
+                  className="text-[#2D1537] hover:text-[#2D1537]"
                 >
-                  Getting Started
+                  Solving Problems
                 </Link>
               </li>
               <li>
                 <Link
+                  href="/docs/using/options"
+                  className="text-[#2D1537] hover:text-[#2D1537]"
+                >
+                  Options
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                  href="/docs/using/editions"
+                  className="text-[#2D1537] hover:text-[#2D1537]"
+                >
+                  Edition Specifics
+                </Link>
+              </li>
+
+              <li>
+                <Link
                   href="/faq"
-                  className="text-purple-600 hover:text-purple-700"
+                  className="text-[#2D1537] hover:text-[#2D1537]"
                 >
                   Frequently Asked Questions
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/solving-exercises"
-                  className="text-purple-600 hover:text-purple-700"
+                  href="/docs/using/conduct"
+                  className="text-[#2D1537] hover:text-[#2D1537]"
                 >
-                  Solving Exercises
+                  Code of Conduct
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/getting-feedback"
-                  className="text-purple-600 hover:text-purple-700"
+                  href="/docs/using/feedbacks"
+                  className="text-[#2D1537] hover:text-[#2D1537]"
                 >
                   Getting Feedback
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/product"
-                  className="text-purple-600 hover:text-purple-700"
+                  href="/docs/using/lecenses"
+                  className="text-[#2D1537] hover:text-[#2D1537]"
                 >
-                  Product
+                  Licenses and Options
                 </Link>
               </li>
               <li>
                 <Link
                   href="/contact"
-                  className="text-purple-600 hover:text-purple-700"
+                  className="text-[#2D1537] hover:text-[#2D1537]"
                 >
                   Contact
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/report-abuse"
-                  className="text-purple-600 hover:text-purple-700"
+                  href="/docs/using/abuse"
+                  className="text-[#2D1537] hover:text-[#2D1537]"
                 >
                   Report Abuse
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/legal-policies"
-                  className="text-purple-600 hover:text-purple-700"
+                  href="/docs/using/legal"
+                  className="text-[#2D1537] hover:text-[#2D1537]"
                 >
                   Legal Policies
                 </Link>
