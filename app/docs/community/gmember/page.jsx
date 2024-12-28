@@ -2,7 +2,7 @@ import { Plus } from "lucide-react";
 import Link from "next/link";
 import { IoHome } from "react-icons/io5";
 
-export default function Community() {
+export default function GoodMember() {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Top Navigation */}
@@ -95,10 +95,11 @@ export default function Community() {
         <main className="flex-1 p-8">
           <div className="max-w-4xl">
             <h1 className="text-4xl font-bold text-[#2D1537] mb-4">
-              Community
+              Good Member Guide
             </h1>
             <p className="text-xl text-gray-600 mb-8">
-              Learn how Lupleg's community works
+              This guide covers the basics of being a good community member in
+              the Lupleg community.
             </p>
 
             {/* Decorative Wave */}
@@ -114,9 +115,43 @@ export default function Community() {
             </div>
 
             <p id="community" className="text-gray-700 mb-8">
-              This section covers various things to know about the Lupleg
-              community, looking at how to be a good community member, and
-              understanding the roles different people fulfill.
+              Being a good member of the Lupleg community is important to us.
+              Here are some tips to help you be a good member of the community.
+            </p>
+
+            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
+              Be Respectful
+            </h2>
+            <p className="text-gray-700 mb-8">
+              Being respectful to other community members is important. We want
+              to create a welcoming and inclusive community where everyone feels
+              safe and respected.
+            </p>
+
+            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
+              Be Helpful
+            </h2>
+            <p className="text-gray-700 mb-8">
+              Helping others in the community is a great way to contribute. If
+              you see someone asking for help, try to help them out. If you have
+              a question, don't be afraid to ask for help.
+            </p>
+
+            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
+              Be Positive
+            </h2>
+            <p className="text-gray-700 mb-8">
+              Being positive and encouraging is important. We want to create a
+              positive and supportive community where everyone feels welcome.
+            </p>
+
+            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
+              Be Open-Minded
+            </h2>
+            <p className="text-gray-700 mb-8">
+              Being open-minded and willing to listen to others is important. We
+              want to create a community where everyone feels heard and
+              respected.
             </p>
           </div>
         </main>

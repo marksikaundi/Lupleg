@@ -2,7 +2,7 @@ import { Plus } from "lucide-react";
 import Link from "next/link";
 import { IoHome } from "react-icons/io5";
 
-export default function Community() {
+export default function Administrators() {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Top Navigation */}
@@ -95,10 +95,12 @@ export default function Community() {
         <main className="flex-1 p-8">
           <div className="max-w-4xl">
             <h1 className="text-4xl font-bold text-[#2D1537] mb-4">
-              Community
+              Administrators
             </h1>
             <p className="text-xl text-gray-600 mb-8">
-              Learn how Lupleg's community works
+              This section covers various things to know about the Lupleg
+              administrators, looking at how to be a good administrator, and
+              understanding the roles different people fulfill in the community.
             </p>
 
             {/* Decorative Wave */}
@@ -114,9 +116,74 @@ export default function Community() {
             </div>
 
             <p id="community" className="text-gray-700 mb-8">
-              This section covers various things to know about the Lupleg
-              community, looking at how to be a good community member, and
-              understanding the roles different people fulfill.
+              Administrators are the people that help manage the Lupleg
+              community and ensure that it runs smoothly. They are responsible
+              for enforcing the rules and guidelines of the community, as well
+              as helping to resolve disputes and conflicts that may arise. They
+              are also responsible for making decisions about the direction and
+              future of the community, and for ensuring that it remains a safe
+              and welcoming place for all members.{" "}
+            </p>
+
+            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">Roles</h2>
+            <p className="text-gray-700 mb-8">
+              Administrators have a number of different roles within the
+              community. Some of the key roles that administrators fulfill
+              include:
+            </p>
+
+            <ul className="list-disc pl-8 mb-8">
+              <li className="text-gray-700">
+                Enforcing the rules and guidelines of the community
+              </li>
+              <li className="text-gray-700">
+                Resolving disputes and conflicts between community members
+              </li>
+              <li className="text-gray-700">
+                Making decisions about the direction and future of the community
+              </li>
+              <li className="text-gray-700">
+                Ensuring that the community remains a safe and welcoming place
+              </li>
+            </ul>
+
+            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
+              How to be a Good Administrator
+            </h2>
+            <p className="text-gray-700 mb-8">
+              Being a good administrator is important to the success of the
+              community. Here are some tips to help you be a good administrator:
+            </p>
+
+            <ul className="list-disc pl-8 mb-8">
+              <li className="text-gray-700">
+                Be fair and consistent in enforcing the rules and guidelines of
+                the community
+              </li>
+              <li className="text-gray-700">
+                Listen to the concerns and feedback of community members
+              </li>
+              <li className="text-gray-700">
+                Be open and transparent in your decision-making process
+              </li>
+              <li className="text-gray-700">
+                Lead by example and set a positive tone for the community
+              </li>
+              <li className="text-gray-700">
+                Be willing to admit when you make a mistake and learn from it
+              </li>
+            </ul>
+
+            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
+              Conclusion
+            </h2>
+
+            <p className="text-gray-700 mb-8">
+              Administrators play a crucial role in the Lupleg community,
+              helping to ensure that it remains a safe and welcoming place for
+              all members. By following the tips outlined in this guide, you can
+              help to be a good administrator and contribute to the success of
+              the community.
             </p>
           </div>
         </main>
