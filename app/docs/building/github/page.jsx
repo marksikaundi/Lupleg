@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { IoHome } from "react-icons/io5";
 
-export default function Building() {
+export default function Github() {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Top Navigation */}
@@ -59,7 +59,7 @@ export default function Building() {
                 href="/docs/building/contribute"
                 className="block px-4 py-2 text-gray-600 hover:text-gray-900"
               >
-                Contribute 
+                Contribute
               </Link>
               <Link
                 href="/docs/building/configlet"
@@ -86,10 +86,12 @@ export default function Building() {
         <main className="flex-1 p-8">
           <div className="max-w-4xl">
             <h1 className="text-4xl font-bold text-[#2D1537] mb-4">
-              Contributing to Lupleg
+              Github Contribution Guide
             </h1>
             <p className="text-xl text-gray-600 mb-8">
-              An overview on how to contribute to Lupleg.
+              Lupleg is an open-source project and we welcome contributions from
+              the community. This document explains how to contribute to the
+              project.
             </p>
 
             {/* Decorative Wave */}
@@ -106,100 +108,87 @@ export default function Building() {
 
             <h2 className="text-2xl font-bold text-[#2D1537] mb-4">Overview</h2>
             <p className="text-xl text-gray-600 mb-8">
-              Lupleg is an open-source project and we welcome contributions from
-              the community. This document explains how to contribute to the
-              project.
+              The Lupleg project is hosted on GitHub. You can contribute to the
+              project by creating issues, submitting pull requests, and
+              participating in discussions. This document explains how you can
+              contribute to the project.
             </p>
 
             <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
-              Getting Started
+              Creating an Issue
             </h2>
             <p className="text-xl text-gray-600 mb-8">
-              To get started, you need to fork the repository on GitHub. You can
-              then clone the repository to your local machine and start making
-              changes. Once you are done, you can create a pull request to merge
-              your changes back into the main repository.
+              If you find a bug or have a feature request, you can create an
+              issue on GitHub. To create an issue, follow these steps:
             </p>
 
-            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
-              Creating a Pull Request
-            </h2>
-            <p className="text-xl text-gray-600 mb-8">
-              To create a pull request, follow these steps:
-            </p>
             <ol className="list-decimal list-inside text-xl text-gray-600 mb-8">
-              <li>Fork the repository on GitHub.</li>
-              <li>Clone the repository to your local machine.</li>
-              <li>Create a new branch for your changes.</li>
-              <li>Make your changes and commit them to your branch.</li>
-              <li>Push your changes to your fork on GitHub.</li>
-              <li>Create a pull request on GitHub.</li>
+              <li>Go to the Lupleg GitHub repository.</li>
+              <li>Click on the "Issues" tab.</li>
+              <li>Click on the "New issue" button.</li>
+              <li>Fill out the issue template.</li>
+              <li>Click on the "Submit new issue" button.</li>
             </ol>
 
             <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
-              Code of Conduct
+              Submitting a Pull Request
             </h2>
+
             <p className="text-xl text-gray-600 mb-8">
-              All contributors are expected to adhere to the project's code of
-              conduct. Please read the code of conduct before contributing to
-              the project.
+              If you want to contribute code to the project, you can submit a
+              pull request on GitHub. To submit a pull request, follow these
+              steps:
             </p>
 
-            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">License</h2>
-            <p className="text-xl text-gray-600 mb-8">
-              By contributing to the project, you agree to license your
-              contributions under the project's license. Please read the license
-              before contributing to the project.
-            </p>
+            <ol className="list-decimal list-inside text-xl text-gray-600 mb-8">
+              <li>Fork the Lupleg repository.</li>
+              <li>Create a new branch.</li>
+              <li>Make your changes.</li>
+              <li>Push your changes to your fork.</li>
+              <li>Create a pull request.</li>
+            </ol>
 
             <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
-              Questions
+              Participating in Discussions
             </h2>
+
             <p className="text-xl text-gray-600 mb-8">
-              If you have any questions about contributing to the project,
-              please contact us at{" "}
-              <a href="mailto:support@lupleg.org">Support Email</a>.
+              You can participate in discussions on GitHub by commenting on
+              issues and pull requests. To participate in a discussion, follow
+              these steps:
+            </p>
+
+            <ol className="list-decimal list-inside text-xl text-gray-600 mb-8">
+              <li>Go to the Lupleg GitHub repository.</li>
+              <li>Click on an issue or pull request.</li>
+              <li>Scroll down to the comment box.</li>
+              <li>Write your comment.</li>
+              <li>Click on the "Comment" button.</li>
+            </ol>
+
+            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
+              Conclusion
+            </h2>
+
+            <p className="text-xl text-gray-600 mb-8">
+              Contributing to an open-source project like Lupleg is a rewarding
+              experience. By creating issues, submitting pull requests, and
+              participating in discussions, you can help improve the project and
+              make it better for everyone. We welcome contributions from the
+              community and look forward to your contributions.
             </p>
 
             <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
               Resources
             </h2>
-            <p className="text-xl text-gray-600 mb-8">
-              For more information on contributing to the project, please refer
-              to the following resources:
-            </p>
 
-            <ul className="list-disc list-inside text-xl text-gray-600 mb-8">
-              <li>
-                <a
-                  href=" https://opensource.guide/how-to-contribute/"
-                  className="text-[#2D1537] hover:text-gray-900"
-                >
-                  How to Contribute to Open Source
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.contributor-covenant.org/"
-                  className="text-[#2D1537] hover:text-gray-900"
-                >
-                  Contributor Covenant
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://choosealicense.com/"
-                  className="text-[#2D1537] hover:text-gray-900"
-                >
-                  Choose a License
-                </a>
-              </li>
-            </ul>
-
-            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">Feedback</h2>
             <p className="text-xl text-gray-600 mb-8">
-              We welcome feedback on how we can improve the contribution
-              process. If you have any suggestions, please let us know.
+              If you have any questions or need help getting started
+              contributing to the project, please contact us at{" "}
+              <a href="mailto:support@lupleg.org">Support</a>. We are here to
+              help and answer any questions you may have. You can also find more
+              information about contributing to the project on the{" "}
+              <a href="/docs/building/contribute">contribution</a> page.
             </p>
           </div>
         </main>

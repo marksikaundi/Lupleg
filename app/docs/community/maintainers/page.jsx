@@ -2,7 +2,7 @@ import { Plus } from "lucide-react";
 import Link from "next/link";
 import { IoHome } from "react-icons/io5";
 
-export default function Community() {
+export default function Maintainer() {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Top Navigation */}
@@ -95,10 +95,14 @@ export default function Community() {
         <main className="flex-1 p-8">
           <div className="max-w-4xl">
             <h1 className="text-4xl font-bold text-[#2D1537] mb-4">
-              Maintainers(Incomplete)
+              Maintainers of Lupleg
             </h1>
             <p className="text-xl text-gray-600 mb-8">
-              Learn about Lupleg's Maintainers
+              Maintainers are volunteers that manage the different parts of our
+              ecosystem. They are senior members of our community who have
+              demonstrated their alignment to Lupleg's values, the quality of
+              their work, and a level of commitment to spending time working on
+              Lupleg.
             </p>
 
             {/* Decorative Wave */}
@@ -118,12 +122,42 @@ export default function Community() {
             </h1>
 
             <p className="text-gray-700 mb-8">
-              Lupleg's Maintainers are volunteers that manage the different
-              parts of our ecosystem. They are senior members of our community
-              who have demonstrated their alignment to Lupleg's values, the
-              quality of their work, and a level of commitment to spending time
-              working on Lupleg.
+              Maintainers are responsible for ensuring that a Track works well
+              within Lupleg, and continues to grow and develop. That
+              specifically means that Maintainers:
             </p>
+
+            <ul className="text-md mb-4">
+              <li>
+                Set technical direction for a Track: Choosing the right language
+                versions, tooling, etc.
+              </li>
+              <li>
+                Manage the syllabus of a Track: Designing, choosing and defining
+                the right Concepts and Exercises for a Track, and ensuring they
+                are linked and structured appropriately.
+              </li>
+              <li>
+                Ensure a Track works well: Ensuring the Track is up to date,
+                that its test-runner is fast, etc.
+              </li>
+              <li>
+                Ensure the Track conforms to Lupleg's standards: Lupleg has
+                specifications and standards for each language Track to ensure a
+                degree of consistency within the platform. While Maintainers
+                have free reign over much of the Track, all Tracks must conform
+                to Lupleg's standards.
+              </li>
+
+              <li>
+                Maintainers are also responsible for interacting with our
+                contributor community. They review PRs from the community,
+                acting as gatekeepers, shepherds, and cheerleaders for Lupleg.
+                They are responsible for keeping documentation and contribution
+                guidelines up to date, and ensure that there are relevant open
+                issues for potential contributors to action.
+              </li>
+            </ul>
 
             <p className="text-md text-gray-700 mb-8">
               This document outlines a formal process to become and remain a
@@ -188,6 +222,66 @@ export default function Community() {
               kindness, and maintain the high standards we want to build into
               our educational platform.
             </p>
+
+            <h1 className="text-2xl font-bold text-[#2D1537] mb-4">
+              How to become a Maintainer
+            </h1>
+            <p className="text-md mb-4">
+              The process to become a Maintainer is designed to be achievable
+              and fair for everyone. The process is as follows:
+            </p>
+            <ul className="text-md mb-4">
+              <li>
+                <b>Step 1:</b> Contribute to the Track you want to maintain.
+              </li>
+              <li>
+                <b>Step 2:</b> Contribute to the Lupleg platform.
+              </li>
+              <li>
+                <b>Step 3:</b> Apply to become a Maintainer.
+              </li>
+              <li>
+                <b>Step 4:</b> Review by the current Maintainers.
+              </li>
+              <li>
+                <b>Step 5:</b> Decision by the current Maintainers.
+              </li>
+            </ul>
+
+            <h1 className="text-2xl font-bold text-[#2D1537] mb-4">
+              Step 1: Contribute to the Track you want to maintain
+            </h1>
+            <p className="text-md mb-4">
+              The first step to becoming a Maintainer is to contribute to the
+              Track you want to maintain. This could be by:
+            </p>
+            <ul className="text-md mb-4">
+              <li>Adding new exercises to the Track.</li>
+              <li>Improving existing exercises.</li>
+              <li>Improving the documentation.</li>
+              <li>Improving the test suite.</li>
+              <li>Improving the test runner.</li>
+              <li>Improving the configuration.</li>
+              <li>Improving the CI setup.</li>
+              <li>Improving the platform.</li>
+              <li>Improving the website.</li>
+              <li>Improving the infrastructure.</li>
+              <li>Improving the community.</li>
+            </ul>
+
+            <h1 className="text-2xl font-bold text-[#2D1537] mb-4">
+              Step 2: Contribute to the Lupleg platform
+            </h1>
+            <p className="text-md mb-4">
+              The second step to becoming a Maintainer is to contribute to the
+              Lupleg platform. This could be by:
+            </p>
+            <ul className="text-md mb-4">
+              <li>Improving the platform.</li>
+              <li>Improving the website.</li>
+              <li>Improving the infrastructure.</li>
+              <li>Improving the community.</li>
+            </ul>
           </div>
         </main>
       </div>

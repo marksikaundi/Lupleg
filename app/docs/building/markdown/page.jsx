@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { IoHome } from "react-icons/io5";
 
-export default function Building() {
+export default function Markdown() {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Top Navigation */}
@@ -59,7 +59,7 @@ export default function Building() {
                 href="/docs/building/contribute"
                 className="block px-4 py-2 text-gray-600 hover:text-gray-900"
               >
-                Contribute 
+                Contribute
               </Link>
               <Link
                 href="/docs/building/configlet"
@@ -86,10 +86,12 @@ export default function Building() {
         <main className="flex-1 p-8">
           <div className="max-w-4xl">
             <h1 className="text-4xl font-bold text-[#2D1537] mb-4">
-              Contributing to Lupleg
+              Markdown Guide
             </h1>
             <p className="text-xl text-gray-600 mb-8">
-              An overview on how to contribute to Lupleg.
+              This is a guide to using Markdown in Lupleg. Markdown is a
+              lightweight markup language that is easy to read and write. It is
+              used to format text on the web.
             </p>
 
             {/* Decorative Wave */}
@@ -106,100 +108,109 @@ export default function Building() {
 
             <h2 className="text-2xl font-bold text-[#2D1537] mb-4">Overview</h2>
             <p className="text-xl text-gray-600 mb-8">
-              Lupleg is an open-source project and we welcome contributions from
-              the community. This document explains how to contribute to the
-              project.
+              Markdown is a lightweight markup language that is easy to read and
+              write. It is used to format text on the web. Markdown is often
+              used to format README files, for writing messages in online
+              discussion forums, and to create rich text using a plain text
+              editor.
             </p>
 
-            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
-              Getting Started
-            </h2>
+            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">Syntax</h2>
             <p className="text-xl text-gray-600 mb-8">
-              To get started, you need to fork the repository on GitHub. You can
-              then clone the repository to your local machine and start making
-              changes. Once you are done, you can create a pull request to merge
-              your changes back into the main repository.
+              Markdown uses a simple syntax to format text. Here are some common
+              elements:
             </p>
-
-            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
-              Creating a Pull Request
-            </h2>
-            <p className="text-xl text-gray-600 mb-8">
-              To create a pull request, follow these steps:
-            </p>
-            <ol className="list-decimal list-inside text-xl text-gray-600 mb-8">
-              <li>Fork the repository on GitHub.</li>
-              <li>Clone the repository to your local machine.</li>
-              <li>Create a new branch for your changes.</li>
-              <li>Make your changes and commit them to your branch.</li>
-              <li>Push your changes to your fork on GitHub.</li>
-              <li>Create a pull request on GitHub.</li>
-            </ol>
-
-            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
-              Code of Conduct
-            </h2>
-            <p className="text-xl text-gray-600 mb-8">
-              All contributors are expected to adhere to the project's code of
-              conduct. Please read the code of conduct before contributing to
-              the project.
-            </p>
-
-            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">License</h2>
-            <p className="text-xl text-gray-600 mb-8">
-              By contributing to the project, you agree to license your
-              contributions under the project's license. Please read the license
-              before contributing to the project.
-            </p>
-
-            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
-              Questions
-            </h2>
-            <p className="text-xl text-gray-600 mb-8">
-              If you have any questions about contributing to the project,
-              please contact us at{" "}
-              <a href="mailto:support@lupleg.org">Support Email</a>.
-            </p>
+            <ul className="list-disc list-inside text-lg text-gray-600 mb-8">
+              <li>Headings</li>
+              <li>Paragraphs</li>
+              <li>Lists</li>
+              <li>Links</li>
+              <li>Images</li>
+              <li>Code Blocks</li>
+              <li>Blockquotes</li>
+              <li>Horizontal Rules</li>
+            </ul>
 
             <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
               Resources
             </h2>
             <p className="text-xl text-gray-600 mb-8">
-              For more information on contributing to the project, please refer
-              to the following resources:
+              Here are some resources to help you learn more about Markdown:
             </p>
+            <ul className="list-disc list-inside text-lg text-gray-600 mb-8">
+              <li>
+                <a
+                  href="https://www.markdownguide.org/"
+                  className="text-[#2D1537] hover:text-gray-900"
+                >
+                  The Markdown Guide
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.markdownguide.org/basic-syntax/"
+                  className="text-[#2D1537] hover:text-gray-900"
+                >
+                  Basic Syntax
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.markdownguide.org/extended-syntax/"
+                  className="text-[#2D1537] hover:text-gray-900"
+                >
+                  Extended Syntax
+                </a>
+              </li>
 
-            <ul className="list-disc list-inside text-xl text-gray-600 mb-8">
               <li>
                 <a
-                  href=" https://opensource.guide/how-to-contribute/"
+                  href="https://www.markdownguide.org/tools/"
                   className="text-[#2D1537] hover:text-gray-900"
                 >
-                  How to Contribute to Open Source
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.contributor-covenant.org/"
-                  className="text-[#2D1537] hover:text-gray-900"
-                >
-                  Contributor Covenant
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://choosealicense.com/"
-                  className="text-[#2D1537] hover:text-gray-900"
-                >
-                  Choose a License
+                  Tools
                 </a>
               </li>
             </ul>
 
-            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">Feedback</h2>
+            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">Examples</h2>
             <p className="text-xl text-gray-600 mb-8">
-              We welcome feedback on how we can improve the contribution
-              process. If you have any suggestions, please let us know.
+              Here are some examples of Markdown syntax:
+            </p>
+            <pre className="bg-gray-100 p-4 rounded text-gray-600">
+              {`# Heading 1
+## Heading 2
+### Heading 3
+
+
+- List Item 1
+- List Item 2
+- List Item 3
+
+
+[Link Text](https://www.example.com)
+
+
+![Image Alt Text](https://www.example.com/image.jpg)
+
+
+\`\`\`javascript
+console.log('Hello, World!');
+\`\`\`
+
+> Blockquote
+
+---`}
+            </pre>
+
+            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
+              Conclusion
+            </h2>
+            <p className="text-xl text-gray-600 mb-8">
+              Markdown is a simple and easy-to-use markup language that is
+              widely used on the web. It is a great way to format text without
+              having to use a complex editor. We hope this guide has helped you
+              learn more about Markdown and how to use it in Lupleg.
             </p>
           </div>
         </main>

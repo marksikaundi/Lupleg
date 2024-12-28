@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { IoHome } from "react-icons/io5";
 
-export default function Building() {
+export default function Configlet() {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Top Navigation */}
@@ -59,7 +59,7 @@ export default function Building() {
                 href="/docs/building/contribute"
                 className="block px-4 py-2 text-gray-600 hover:text-gray-900"
               >
-                Contribute 
+                Contribute
               </Link>
               <Link
                 href="/docs/building/configlet"
@@ -86,10 +86,13 @@ export default function Building() {
         <main className="flex-1 p-8">
           <div className="max-w-4xl">
             <h1 className="text-4xl font-bold text-[#2D1537] mb-4">
-              Contributing to Lupleg
+              Configlet
             </h1>
             <p className="text-xl text-gray-600 mb-8">
-              An overview on how to contribute to Lupleg.
+              Configlet is a tool that helps you manage configuration files in
+              your project. It allows you to define configuration settings in a
+              single file and then generate configuration files for different
+              environments based on that file.
             </p>
 
             {/* Decorative Wave */}
@@ -106,100 +109,74 @@ export default function Building() {
 
             <h2 className="text-2xl font-bold text-[#2D1537] mb-4">Overview</h2>
             <p className="text-xl text-gray-600 mb-8">
-              Lupleg is an open-source project and we welcome contributions from
-              the community. This document explains how to contribute to the
-              project.
+              Configlet is designed to be simple to use and easy to integrate
+              into your project. It is ideal for projects that have multiple
+              environments (e.g., development, staging, production) and need to
+              manage configuration settings for each environment.
             </p>
 
             <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
               Getting Started
             </h2>
             <p className="text-xl text-gray-600 mb-8">
-              To get started, you need to fork the repository on GitHub. You can
-              then clone the repository to your local machine and start making
-              changes. Once you are done, you can create a pull request to merge
-              your changes back into the main repository.
+              To get started with Configlet, you need to create a configuration
+              file in your project. This file should contain all the
+              configuration settings that you want to manage. You can define
+              settings for different environments by using the environment
+              keyword. For example:
+            </p>
+
+            <pre className="bg-gray-100 p-4 rounded-md text-sm">
+              {`{
+  "development": {
+    "apiUrl": "http://localhost:300
+  },
+  "staging": {
+    "apiUrl": "https://staging.example.com"
+  },
+  "production": {
+    "apiUrl": "https://api.example.com"
+  }
+}`}
+            </pre>
+
+            <p className="text-xl text-gray-600 mt-8">
+              In this example, we have defined configuration settings for three
+              environments: development, staging, and production. Each
+              environment has its own set of settings, such as the API URL. You
+              can define as many settings as you need for each environment.
+            </p>
+
+            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">Usage</h2>
+            <p className="text-xl text-gray-600 mb-8">
+              Once you have created your configuration file, you can use
+              Configlet to generate configuration files for different
+              environments. To do this, run the following command in your
+              project directory:
+            </p>
+
+            <pre className="bg-gray-100 p-4 rounded-md text-sm">
+              {`configlet generate`}
+            </pre>
+
+            <p className="text-xl text-gray-600 mt-8">
+              This command will generate configuration files for all the
+              environments defined in your configuration file. The generated
+              files will be saved in a directory called configlet in your
+              project directory. You can then use these files in your project to
+              load the configuration settings for the appropriate environment.
             </p>
 
             <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
-              Creating a Pull Request
+              Conclusion
             </h2>
             <p className="text-xl text-gray-600 mb-8">
-              To create a pull request, follow these steps:
-            </p>
-            <ol className="list-decimal list-inside text-xl text-gray-600 mb-8">
-              <li>Fork the repository on GitHub.</li>
-              <li>Clone the repository to your local machine.</li>
-              <li>Create a new branch for your changes.</li>
-              <li>Make your changes and commit them to your branch.</li>
-              <li>Push your changes to your fork on GitHub.</li>
-              <li>Create a pull request on GitHub.</li>
-            </ol>
-
-            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
-              Code of Conduct
-            </h2>
-            <p className="text-xl text-gray-600 mb-8">
-              All contributors are expected to adhere to the project's code of
-              conduct. Please read the code of conduct before contributing to
-              the project.
-            </p>
-
-            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">License</h2>
-            <p className="text-xl text-gray-600 mb-8">
-              By contributing to the project, you agree to license your
-              contributions under the project's license. Please read the license
-              before contributing to the project.
-            </p>
-
-            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
-              Questions
-            </h2>
-            <p className="text-xl text-gray-600 mb-8">
-              If you have any questions about contributing to the project,
-              please contact us at{" "}
-              <a href="mailto:support@lupleg.org">Support Email</a>.
-            </p>
-
-            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
-              Resources
-            </h2>
-            <p className="text-xl text-gray-600 mb-8">
-              For more information on contributing to the project, please refer
-              to the following resources:
-            </p>
-
-            <ul className="list-disc list-inside text-xl text-gray-600 mb-8">
-              <li>
-                <a
-                  href=" https://opensource.guide/how-to-contribute/"
-                  className="text-[#2D1537] hover:text-gray-900"
-                >
-                  How to Contribute to Open Source
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.contributor-covenant.org/"
-                  className="text-[#2D1537] hover:text-gray-900"
-                >
-                  Contributor Covenant
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://choosealicense.com/"
-                  className="text-[#2D1537] hover:text-gray-900"
-                >
-                  Choose a License
-                </a>
-              </li>
-            </ul>
-
-            <h2 className="text-2xl font-bold text-[#2D1537] mb-4">Feedback</h2>
-            <p className="text-xl text-gray-600 mb-8">
-              We welcome feedback on how we can improve the contribution
-              process. If you have any suggestions, please let us know.
+              Configlet is a simple and easy-to-use tool for managing
+              configuration files in your project. It allows you to define
+              configuration settings in a single file and generate configuration
+              files for different environments based on that file. Configlet is
+              ideal for projects that have multiple environments and need to
+              manage configuration settings for each environment.
             </p>
           </div>
         </main>

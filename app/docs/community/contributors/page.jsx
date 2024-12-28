@@ -2,7 +2,7 @@ import { Plus } from "lucide-react";
 import Link from "next/link";
 import { IoHome } from "react-icons/io5";
 
-export default function Community() {
+export default function Contributors() {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Top Navigation */}
@@ -142,6 +142,22 @@ export default function Community() {
             <p className="text-xl text-gray-600 mb-8">
               Visit our dedicated Contributing Section to explore all the tasks
               that currently need doing.
+            </p>
+
+            <p className="text-xl text-gray-600 mb-8">
+              If you're interested in contributing, we recommend joining the
+              Lupleg Discord community. There you can ask questions, get help,
+              and find out more about how to get involved.
+            </p>
+
+            <p className="text-xl text-gray-600 mb-8">
+              We also have a dedicated Contributors section in the community
+              forum where you can ask questions and get help.
+            </p>
+
+            <p className="text-xl text-gray-600 mb-8">
+              We have a dedicated Contributors section in the community forum
+              where you can ask questions and get help.
             </p>
           </div>
         </main>
