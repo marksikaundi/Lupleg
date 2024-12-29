@@ -123,8 +123,8 @@ function ViewTransitionsIcon() {
       <div className="bg-green-700 rounded aspect-square" />
       <div className="bg-green-900 rounded aspect-square" />
       <div className="bg-green-700 rounded aspect-square" />
-      <div className="bg-green-800 rounded col-span-2 aspect-[2/1]" />
-      <div className="bg-green-400 rounded aspect-square" />
+      <div className="bg-[#2D1537] rounded col-span-2 aspect-[2/1]" />
+      <div className="bg-[#2D1537] rounded aspect-square" />
     </div>
   );
 }

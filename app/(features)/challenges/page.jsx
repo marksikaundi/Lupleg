@@ -33,7 +33,7 @@ function Challenges() {
             </div>
           </div>
         </div>
-        <div className="bg-green-800 text-white p-4 rounded-md w-full lg:max-w-[800px]">
+        <div className="bg-[#2D1537] text-white p-4 rounded-md w-full lg:max-w-[800px]">
           <div className="relative h-96 lg:h-[450px] 2xl:h-[600px] pb-12">
             <div className="bg-[#C24229] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-3/4 md:scale-[1.5] opacity-75 blur-3xl -z-10 w-96 h-96 rounded-full"></div>
             <p className="text-lg text-center mb-4">

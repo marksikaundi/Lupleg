@@ -126,7 +126,7 @@ export default function TipsPage() {
       <div className="w-full max-w-3xl space-y-8">
         {/* Comet image placeholder */}
         <div className="h-40 flex items-center justify-center">
-          <div className="w-20 h-20 bg-green-400 rounded-full blur-2xl opacity-50"></div>
+          <div className="w-20 h-20 bg-[#2D1537] rounded-full blur-2xl opacity-50"></div>
         </div>
 
         <h1 className="text-5xl font-bold text-center">
