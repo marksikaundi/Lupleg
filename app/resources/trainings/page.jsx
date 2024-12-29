@@ -46,19 +46,19 @@ export default function Trainings() {
                     </h3>
                     <ul className="mt-4 space-y-2 text-sm text-gray-500 dark:text-gray-400">
                       <li>
-                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
+                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#2D1537]" />
                         React.js & Nextjs
                       </li>
                       <li>
-                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
+                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#2D1537]" />
                         CSS Frameworks (Tailwind, Bootstrap)
                       </li>
                       <li>
-                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
+                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#2D1537]" />
                         Responsive Design
                       </li>
                       <li>
-                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
+                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#2D1537]" />
                         State Management
                       </li>
                     </ul>
@@ -70,19 +70,19 @@ export default function Trainings() {
                     </h3>
                     <ul className="mt-4 space-y-2 text-sm text-gray-500 dark:text-gray-400">
                       <li>
-                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
+                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#2D1537]" />
                         Node.js
                       </li>
                       <li>
-                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
+                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#2D1537]" />
                         Express.js
                       </li>
                       <li>
-                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
+                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#2D1537]" />
                         Database Integration (SQL, NoSQL)
                       </li>
                       <li>
-                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
+                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#2D1537]" />
                         API Development
                       </li>
                     </ul>
@@ -93,19 +93,19 @@ export default function Trainings() {
                     </h3>
                     <ul className="mt-4 space-y-2 text-sm text-gray-500 dark:text-gray-400">
                       <li>
-                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
+                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#2D1537]" />
                         CI/CD Pipelines
                       </li>
                       <li>
-                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
+                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#2D1537]" />
                         Cloud Deployment (AWS, Azure, GCP)
                       </li>
                       <li>
-                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
+                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#2D1537]" />
                         Containerization (Docker)
                       </li>
                       <li>
-                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
+                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#2D1537]" />
                         Infrastructure as Code
                       </li>
                     </ul>
@@ -131,19 +131,19 @@ export default function Trainings() {
                     <h3 className="text-lg font-semibold">Data Pipelines</h3>
                     <ul className="mt-4 space-y-2 text-sm text-gray-500 dark:text-gray-400">
                       <li>
-                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
+                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#2D1537]" />
                         ETL Processes
                       </li>
                       <li>
-                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
+                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#2D1537]" />
                         Data Transformation
                       </li>
                       <li>
-                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
+                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#2D1537]" />
                         Batch and Streaming Data
                       </li>
                       <li>
-                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
+                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#2D1537]" />
                         Data Orchestration
                       </li>
                     </ul>
@@ -152,19 +152,19 @@ export default function Trainings() {
                     <h3 className="text-lg font-semibold">Data Warehousing</h3>
                     <ul className="mt-4 space-y-2 text-sm text-gray-500 dark:text-gray-400">
                       <li>
-                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
+                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#2D1537]" />
                         Data Modeling
                       </li>
                       <li>
-                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
+                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#2D1537]" />
                         Dimensional Modeling
                       </li>
                       <li>
-                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
+                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#2D1537]" />
                         Data Partitioning
                       </li>
                       <li>
-                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
+                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#2D1537]" />
                         Data Optimization
                       </li>
                     </ul>
@@ -173,19 +173,19 @@ export default function Trainings() {
                     <h3 className="text-lg font-semibold">Data Analytics</h3>
                     <ul className="mt-4 space-y-2 text-sm text-gray-500 dark:text-gray-400">
                       <li>
-                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
+                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#2D1537]" />
                         Data Visualization
                       </li>
                       <li>
-                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
+                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#2D1537]" />
                         Predictive Analytics
                       </li>
                       <li>
-                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
+                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#2D1537]" />
                         Machine Learning
                       </li>
                       <li>
-                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
+                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#2D1537]" />
                         Business Intelligence
                       </li>
                     </ul>
@@ -214,19 +214,19 @@ export default function Trainings() {
                     </h3>
                     <ul className="mt-4 space-y-2 text-sm text-gray-500 dark:text-gray-400">
                       <li>
-                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
+                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#2D1537]" />
                         Cloud Computing Concepts
                       </li>
                       <li>
-                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
+                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#2D1537]" />
                         Cloud Service Models ( PaaS, SaaS)
                       </li>
                       <li>
-                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
+                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#2D1537]" />
                         Cloud Deployment Models
                       </li>
                       <li>
-                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
+                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#2D1537]" />
                         Cloud Security and Compliance
                       </li>
                     </ul>
@@ -237,19 +237,19 @@ export default function Trainings() {
                     </h3>
                     <ul className="mt-4 space-y-2 text-sm text-gray-500 dark:text-gray-400">
                       <li>
-                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
+                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#2D1537]" />
                         Serverless Computing
                       </li>
                       <li>
-                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
+                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#2D1537]" />
                         Microservices Architecture
                       </li>
                       <li>
-                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
+                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#2D1537]" />
                         High Availability and Scalability
                       </li>
                       <li>
-                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
+                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#2D1537]" />
                         Disaster Recovery and Backup
                       </li>
                     </ul>
@@ -258,7 +258,7 @@ export default function Trainings() {
                     <h3 className="text-lg font-semibold">Cloud Operations</h3>
                     <ul className="mt-4 space-y-2 text-sm text-gray-500 dark:text-gray-400">
                       <li>
-                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
+                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-[#2D1537]" />
                         Infrastructure as Code
                       </li>
                     </ul>

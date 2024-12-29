@@ -116,7 +116,7 @@ export default function Podcasts() {
                   experts to keep you up-to-date on the latest trends and
                   innovations.
                 </div>
-                <div className="flex items-center gap-2 text-green-600 dark:text-gray-400">
+                <div className="flex items-center gap-2 text-[#2D1537] dark:text-gray-400">
                   <TwitterIcon className="w-5 h-5" />
                   <Link
                     href="https://x.com/Alisikaundi"
@@ -126,7 +126,7 @@ export default function Podcasts() {
                     @Alisikaundi
                   </Link>
                 </div>
-                <div className="flex items-center gap-2 text-green-600 dark:text-gray-400">
+                <div className="flex items-center gap-2 text-[#2D1537] dark:text-gray-400">
                   <LinkedinIcon className="w-5 h-5" />
                   <Link
                     href="https://linkedin.com/in/marksikaundi"
@@ -200,7 +200,7 @@ export default function Podcasts() {
                 experts to keep you up to date on the latest trends and
                 innovations.
               </div>
-              <div className="flex items-center gap-2 text-green-600 dark:text-gray-400">
+              <div className="flex items-center gap-2 text-[#2D1537] dark:text-gray-400">
                 <TwitterIcon className="w-5 h-5" />
                 <Link
                   href="https://x.com/Alisikaundi"
@@ -210,7 +210,7 @@ export default function Podcasts() {
                   @Alisikaundi
                 </Link>
               </div>
-              <div className="flex items-center gap-2 text-green-600 dark:text-gray-400">
+              <div className="flex items-center gap-2 text-[#2D1537] dark:text-gray-400">
                 <LinkedinIcon className="w-5 h-5" />
                 <Link
                   href="https://linkedin.com/in/marksikaundi"
@@ -240,7 +240,7 @@ export default function Podcasts() {
               <CardTitle>Follow Us</CardTitle>
             </CardHeader>
             <CardContent className="space-y-2">
-              <div className="flex items-center gap-2 text-green-600 dark:text-gray-400">
+              <div className="flex items-center gap-2 text-[#2D1537] dark:text-gray-400">
                 <TwitterIcon className="w-5 h-5" />
                 <Link
                   href="https://x.com/Alisikaundi"
@@ -250,7 +250,7 @@ export default function Podcasts() {
                   @lupleg
                 </Link>
               </div>
-              <div className="flex items-center gap-2 text-green-600 dark:text-gray-400">
+              <div className="flex items-center gap-2 text-[#2D1537] dark:text-gray-400">
                 <InstagramIcon className="w-5 h-5" />
                 <Link
                   href="https://intagram.com/marksikaundi"
@@ -260,7 +260,7 @@ export default function Podcasts() {
                   Lupleg
                 </Link>
               </div>
-              <div className="flex items-center gap-2 text-green-600 dark:text-gray-400">
+              <div className="flex items-center gap-2 text-[#2D1537] dark:text-gray-400">
                 <YoutubeIcon className="w-5 h-5" />
                 <Link
                   href="https://youtube.com/@Lupleg"
