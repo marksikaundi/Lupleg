@@ -16,7 +16,7 @@ export default function LuplegFeatures() {
     <div>
       <div className="bg-[#071109] mt-0 text-white min-h-screen p-8">
         <div className="mb-20">
-          <p className="text-green-500 mb-2 mt-20">Everything you need</p>
+          <p className="text-[#2D1537] mb-2 mt-20">Everything you need</p>
           <h1 className="text-5xl font-bold mb-4">Fully Featured</h1>
           <p className="text-gray-400 mb-12 max-w-2xl">
             Our programs comes with everything you need to build a modern
@@ -35,8 +35,8 @@ export default function LuplegFeatures() {
                 <FileText className="text-gray-600" />
                 <FileText className="text-blue-500" />
                 <div className="relative">
-                  <X className="absolute -top-2 -left-2 w-4 h-4 text-green-500" />
-                  <X className="absolute -top-2 left-6 w-4 h-4 text-green-500" />
+                  <X className="absolute -top-2 -left-2 w-4 h-4 text-[#2D1537]" />
+                  <X className="absolute -top-2 left-6 w-4 h-4 text-[#2D1537]" />
                   <Check className="absolute -top-2 right-2 w-4 h-4 text-blue-500" />
                 </div>
               </div>

@@ -136,7 +136,7 @@ export default function Sitemap() {
                 Sign up to get notified for any latest.
                 <Link
                   href="/terms"
-                  className="underline underline-offset-2 text-green-700"
+                  className="underline underline-offset-2 text-[#2D1537]"
                   prefetch={false}
                 >
                   Terms &amp; Conditions

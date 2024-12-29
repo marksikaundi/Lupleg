@@ -115,7 +115,7 @@ function FeatureItem({ feature }) {
   return (
     <li className="flex items-center">
       {feature.included ? (
-        <Check className="text-green-500 mr-2 h-5 w-5 flex-shrink-0" />
+        <Check className="text-[#2D1537] mr-2 h-5 w-5 flex-shrink-0" />
       ) : (
         <X className="text-red-500 mr-2 h-5 w-5 flex-shrink-0" />
       )}

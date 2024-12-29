@@ -8,8 +8,8 @@ function Challenges() {
       <div className="min-h-screen flex flex-col items-center mt-10">
         <h1 className="text-3xl md:text-5xl font-bold text-black drop-shadow-lg text-center max-w-3xl">
           Challenges you can solve to
-          <span className="text-green-900"> improve </span>your
-          <span className="text-green-900"> coding </span>skills!
+          <span className="text-[#2D1537]"> improve </span>your
+          <span className="text-[#2D1537]"> coding </span>skills!
         </h1>
         <div className="relative my-16 text-center z-20">
           <p className="text-green-950 text-lg mt-4 mb-8 w-96 max-w-full">
@@ -23,7 +23,7 @@ function Challenges() {
             supercharging their coding skills by building projects.
           </p>
           <div className="bg-[#C24229] rounded-lg transition hover:-translate-y-1 w-max mx-auto group cursor-pointer">
-            <div className="animated-border after:opacity-100 before:opacity-100 p-0.5 rounded-lg text-green-900 flex justify-center items-center">
+            <div className="animated-border after:opacity-100 before:opacity-100 p-0.5 rounded-lg text-[#2D1537] flex justify-center items-center">
               <Link
                 className="bg-[#C24229] text-white text-lg font-bold py-4 px-8 cursor-pointer relative w-full rounded-lg group-hover:bg-[#C24229] z-10"
                 href="/challenges/frontend"
@@ -81,7 +81,7 @@ function Challenges() {
                     }}
                   />
                 </span>
-                <span className="flex justify-center items-center absolute top-4 right-4 bg-white w-10 h-10 rounded-full text-green-800 hover:scale-105 hover:text-green-900 transition">
+                <span className="flex justify-center items-center absolute top-4 right-4 bg-white w-10 h-10 rounded-full text-[#2D1537] hover:scale-105 hover:text-[#2D1537] transition">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -105,7 +105,7 @@ function Challenges() {
           </div>
         </div>
       </div>
-      <div className="bg-white text-green-900 flex flex-col items-center justify-center pb-24 pt-48 p-4 w-full -mt-24 md:-mt-36">
+      <div className="bg-white text-[#2D1537] flex flex-col items-center justify-center pb-24 pt-48 p-4 w-full -mt-24 md:-mt-36">
         <small className="uppercase font-bold">features</small>
         <h2 className="text-4xl text-center font-bold mt-2 text-black">
           What makes LupLeg special
