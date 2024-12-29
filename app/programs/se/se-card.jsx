@@ -25,7 +25,7 @@ export default function SeCard() {
                     NEW
                   </span>
                 </div>
-                <p className="text-green-400 text-sm mb-3 text-center sm:text-left">
+                <p className="text-[#2D1537] text-sm mb-3 text-center sm:text-left">
                   06 Modules
                 </p>
                 <p className="text-sm text-gray-300 mb-4 text-center sm:text-left">
@@ -63,7 +63,7 @@ export default function SeCard() {
                     NEW
                   </span>
                 </div>
-                <p className="text-green-400 text-sm mb-3 text-center sm:text-left">
+                <p className="text-[#2D1537] text-sm mb-3 text-center sm:text-left">
                   04 Modules
                 </p>
                 <p className="text-sm text-gray-300 mb-4 text-center sm:text-left">
@@ -101,7 +101,7 @@ export default function SeCard() {
                     NEW
                   </span>
                 </div>
-                <p className="text-green-400 text-sm mb-3 text-center sm:text-left">
+                <p className="text-[#2D1537] text-sm mb-3 text-center sm:text-left">
                   02 Modules
                 </p>
                 <p className="text-sm text-gray-300 mb-4 text-center sm:text-left">
@@ -139,7 +139,7 @@ export default function SeCard() {
                     NEW
                   </span>
                 </div>
-                <p className="text-green-400 text-sm mb-3 text-center sm:text-left">
+                <p className="text-[#2D1537] text-sm mb-3 text-center sm:text-left">
                   04 Modules
                 </p>
                 <p className="text-sm text-gray-300 mb-4 text-center sm:text-left">

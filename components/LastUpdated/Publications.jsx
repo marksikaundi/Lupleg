@@ -11,7 +11,7 @@ export default function Publications() {
           publications every 3 months to ensure that the information is accurate
           and relevant. If you have any questions or feedback, please feel free
           to:{" "}
-          <Link href="/contact" className="text-green-700">
+          <Link href="/contact" className="text-[#2D1537]">
             Contact us here
           </Link>
         </p>

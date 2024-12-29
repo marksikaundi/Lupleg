@@ -17,7 +17,7 @@ export default function GSuits() {
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
             <Link
               href="/programs/digital-skills"
-              className="inline-flex items-center text-sm text-green-400 mb-6"
+              className="inline-flex items-center text-sm text-[#2D1537] mb-6"
             >
               <ArrowLeft className="w-4 h-4 mr-2" />
               All Programs

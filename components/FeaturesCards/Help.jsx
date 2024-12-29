@@ -8,17 +8,18 @@ export default function AnnounceCard() {
       <div className="grid md:grid-cols-2 gap-4 my-8">
         <div className="bg-white p-6 rounded-lg shadow-md">
           <div className="flex items-center mb-4">
-            <Code className="text-green-900 w-6 h-6 mr-2" />
-            <h3 className="text-lg font-semibold text-green-900">
+            <Code className="text-[#2D1537] w-6 h-6 mr-2" />
+            <h3 className="text-lg font-semibold text-[#2D1537]">
               Are you stuck?
             </h3>
           </div>
           <p className="text-gray-600 mb-4">
-            You can view our solutions just for you to have an idea how we did it.
+            You can view our solutions just for you to have an idea how we did
+            it.
           </p>
           <Link
             href="/challenges/solutions"
-            className="text-green-900 hover:text-green-800 inline-flex items-center"
+            className="text-[#2D1537] hover:text-[#2D1537] inline-flex items-center"
           >
             View solutions
             <ChevronRight className="ml-1 w-4 h-4" />
@@ -26,15 +27,17 @@ export default function AnnounceCard() {
         </div>
         <div className="bg-white p-6 rounded-lg shadow-md">
           <div className="flex items-center mb-4">
-            <HelpCircle className="text-green-900 w-6 h-6 mr-2" />
-            <h3 className="text-lg font-semibold text-green-900">Need Assistance</h3>
+            <HelpCircle className="text-[#2D1537] w-6 h-6 mr-2" />
+            <h3 className="text-lg font-semibold text-[#2D1537]">
+              Need Assistance
+            </h3>
           </div>
           <p className="text-gray-600 mb-4">
-            Our team of experts is here to help you with any questions you have.           
+            Our team of experts is here to help you with any questions you have.
           </p>
           <Link
             href="https://github.com/orgs/Lupleg/discussions"
-            className="text-green-900 hover:text-green-800 inline-flex items-center"
+            className="text-[#2D1537] hover:text-[#2D1537] inline-flex items-center"
           >
             Ask for help
             <ChevronRight className="ml-1 w-4 h-4" />

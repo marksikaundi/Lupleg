@@ -8,8 +8,8 @@ export default function AnnounceCard() {
       <div className="grid md:grid-cols-2 gap-4 my-8">
         <div className="bg-white p-6 rounded-lg shadow-md">
           <div className="flex items-center mb-4">
-            <Users className="text-green-900 w-6 h-6 mr-2" />
-            <h3 className="text-lg font-semibold text-green-900">
+            <Users className="text-[#2D1537] w-6 h-6 mr-2" />
+            <h3 className="text-lg font-semibold text-[#2D1537]">
               We're hiring
             </h3>
           </div>
@@ -18,7 +18,7 @@ export default function AnnounceCard() {
           </p>
           <Link
             href="/careers"
-            className="text-green-900 hover:text-green-800 inline-flex items-center"
+            className="text-[#2D1537] hover:text-[#2D1537] inline-flex items-center"
           >
             View open roles
             <ChevronRight className="ml-1 w-4 h-4" />
@@ -26,16 +26,15 @@ export default function AnnounceCard() {
         </div>
         <div className="bg-white p-6 rounded-lg shadow-md">
           <div className="flex items-center mb-4">
-            <Building className="text-green-900 w-6 h-6 mr-2" />
-            <h3 className="text-lg font-semibold text-green-900">About us</h3>
+            <Building className="text-[#2D1537] w-6 h-6 mr-2" />
+            <h3 className="text-lg font-semibold text-[#2D1537]">About us</h3>
           </div>
           <p className="text-gray-600 mb-4">
             Find out more about our company, our team, and our mission.
-           
           </p>
           <Link
             href="/about-us"
-            className="text-green-900 hover:text-green-800 inline-flex items-center"
+            className="text-[#2D1537] hover:text-[#2D1537] inline-flex items-center"
           >
             Learn more
             <ChevronRight className="ml-1 w-4 h-4" />

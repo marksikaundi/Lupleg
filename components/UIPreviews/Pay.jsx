@@ -84,7 +84,7 @@ export default function PayCard() {
                 <Input id="cvc" placeholder="CVC" className="mt-1" />
               </div>
             </div>
-            <Button className="w-full bg-green-500 hover:bg-green-600">
+            <Button className="w-full bg-green-500 hover:bg-[#2D1537]">
               PAY NOW
             </Button>
           </form>
@@ -120,7 +120,7 @@ export default function PayCard() {
               <AmericaExpressIcon cardNumber="h-8" />
             </div>
             <div className="flex items-center gap-2 text-sm text-gray-600 bg-gray-100 p-3 rounded-md">
-              <Lock size={20} className="text-green-500" />
+              <Lock size={20} className="text-[#2D1537]" />
               <div>
                 <div className="font-semibold">SSL Secure payment</div>
                 <div>

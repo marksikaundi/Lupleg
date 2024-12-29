@@ -44,9 +44,9 @@ export default function Component() {
               </Link>
             </div>
             <div className="flex items-center space-x-4 text-sm">
-              <CheckCircle className="text-green-500" />
+              <CheckCircle className="text-[#2D1537]" />
               <span>14-day free trial</span>
-              <CheckCircle className="text-green-500" />
+              <CheckCircle className="text-[#2D1537]" />
               <span>No credit card required</span>
             </div>
           </div>

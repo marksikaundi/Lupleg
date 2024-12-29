@@ -1,7 +1,12 @@
-import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card"
-import { CheckIcon, XIcon } from "lucide-react"
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardFooter,
+  CardHeader,
+} from "@/components/ui/card";
+import { CheckIcon, XIcon } from "lucide-react";
 
 const plans = [
   {
@@ -74,34 +79,62 @@ const plans = [
       "Priority support",
     ],
   },
-]
+];
 
 export default function Component() {
   return (
     <div className=" p-4 sm:p-6">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {plans.map((plan, index) => (
-          <Card key={plan.name} className={`bg-gray-800 border-gray-700 ${plan.popular ? 'border-[#F3A833]' : ''}`}>
+          <Card
+            key={plan.name}
+            className={`bg-gray-800 border-gray-700 ${
+              plan.popular ? "border-[#F3A833]" : ""
+            }`}
+          >
             {plan.popular && (
               <div className="bg-[#F3A833] text-white text-center py-1 text-xs sm:text-sm font-semibold">
                 MOST POPULAR
               </div>
             )}
             <CardHeader className="space-y-1">
-              <h2 className="text-xl sm:text-2xl font-bold text-white">{plan.name}</h2>
-              <p className="text-sm sm:text-base text-gray-400">{plan.description}</p>
+              <h2 className="text-xl sm:text-2xl font-bold text-white">
+                {plan.name}
+              </h2>
+              <p className="text-sm sm:text-base text-gray-400">
+                {plan.description}
+              </p>
             </CardHeader>
             <CardContent className="space-y-4">
               <div>
-                <div className="text-xs sm:text-sm text-gray-400 line-through">${plan.originalPrice.toFixed(2)}</div>
-                <div className="flex items-center gap-2 flex-wrap">
-                  <span className="text-3xl sm:text-4xl font-bold text-white">${plan.price.toFixed(2)}</span>
-                  <span className="text-sm sm:text-base text-gray-400">/mo</span>
-                  <Badge variant="secondary" className="bg-[#F3A833] text-white text-xs sm:text-sm">Save {plan.discount}%</Badge>
+                <div className="text-xs sm:text-sm text-gray-400 line-through">
+                  ${plan.originalPrice.toFixed(2)}
                 </div>
-                <div className="text-xs sm:text-sm text-gray-400">{plan.period}</div>
+                <div className="flex items-center gap-2 flex-wrap">
+                  <span className="text-3xl sm:text-4xl font-bold text-white">
+                    ${plan.price.toFixed(2)}
+                  </span>
+                  <span className="text-sm sm:text-base text-gray-400">
+                    /mo
+                  </span>
+                  <Badge
+                    variant="secondary"
+                    className="bg-[#F3A833] text-white text-xs sm:text-sm"
+                  >
+                    Save {plan.discount}%
+                  </Badge>
+                </div>
+                <div className="text-xs sm:text-sm text-gray-400">
+                  {plan.period}
+                </div>
               </div>
-              <Button className={`w-full ${plan.popular ? 'bg-[#F3A833] hover:bg-purple-600' : 'bg-white text-black hover:bg-gray-200'}`}>
+              <Button
+                className={`w-full ${
+                  plan.popular
+                    ? "bg-[#F3A833] hover:bg-purple-600"
+                    : "bg-white text-black hover:bg-gray-200"
+                }`}
+              >
                 Choose plan
               </Button>
               <div className="text-xs sm:text-sm text-gray-400">
@@ -110,22 +143,31 @@ export default function Component() {
               <div className="space-y-2 text-sm sm:text-base">
                 {plan.features.map((feature, featureIndex) => (
                   <div key={featureIndex} className="flex items-start gap-2">
-                    {typeof feature === 'string' ? (
-                      <CheckIcon className="h-4 w-4 sm:h-5 sm:w-5 text-green-500 flex-shrink-0 mt-0.5" />
+                    {typeof feature === "string" ? (
+                      <CheckIcon className="h-4 w-4 sm:h-5 sm:w-5 text-[#2D1537] flex-shrink-0 mt-0.5" />
                     ) : feature.included ? (
-                      <CheckIcon className="h-4 w-4 sm:h-5 sm:w-5 text-green-500 flex-shrink-0 mt-0.5" />
+                      <CheckIcon className="h-4 w-4 sm:h-5 sm:w-5 text-[#2D1537] flex-shrink-0 mt-0.5" />
                     ) : (
                       <XIcon className="h-4 w-4 sm:h-5 sm:w-5 text-gray-500 flex-shrink-0 mt-0.5" />
                     )}
-                    <span className={`${typeof feature === 'string' || feature.included ? 'text-gray-300' : 'text-gray-500'} break-words`}>
-                      {typeof feature === 'string' ? feature : feature.name}
+                    <span
+                      className={`${
+                        typeof feature === "string" || feature.included
+                          ? "text-gray-300"
+                          : "text-gray-500"
+                      } break-words`}
+                    >
+                      {typeof feature === "string" ? feature : feature.name}
                     </span>
                   </div>
                 ))}
               </div>
             </CardContent>
             <CardFooter>
-              <Button variant="link" className="w-full text-white text-sm sm:text-base">
+              <Button
+                variant="link"
+                className="w-full text-white text-sm sm:text-base"
+              >
                 See all features
               </Button>
             </CardFooter>
@@ -133,5 +175,5 @@ export default function Component() {
         ))}
       </div>
     </div>
-  )
+  );
 }

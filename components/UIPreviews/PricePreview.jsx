@@ -79,10 +79,10 @@ export default function InteractivePricing() {
             {["Unlimited websites", "100% data ownership", "Email reports"].map(
               (feature, index) => (
                 <li key={index} className="flex items-center">
-                  <Check className="w-5 h-5 text-green-500 mr-2" />
+                  <Check className="w-5 h-5 text-[#2D1537] mr-2" />
                   {feature}
                 </li>
-              ),
+              )
             )}
           </ul>
           <Button className="w-full">Start free trial</Button>
