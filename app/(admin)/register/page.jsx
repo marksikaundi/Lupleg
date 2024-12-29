@@ -64,7 +64,7 @@ export default function Register() {
             </p>
           </div>
 
-          <Button className="w-full mt-4 bg-green-950 hover:bg-green-950">
+          <Button className="w-full mt-4 bg-[#2D1537] hover:bg-[#2D1537]">
             Submit
           </Button>
         </form>

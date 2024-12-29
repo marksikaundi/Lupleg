@@ -70,12 +70,12 @@ export default function Plan() {
             <Link
               href="#"
               size="lg"
-              className="inline-flex items-center justify-center h-10 p-6 rounded bg-green-950 text-white font-bold"
+              className="inline-flex items-center justify-center h-10 p-6 rounded bg-[#2D1537] text-white font-bold"
             >
               Get Started
             </Link>
           </Card>
-          <Card className="bg-green-950 p-6 flex flex-col gap-4 text-primary-foreground">
+          <Card className="bg-[#2D1537] p-6 flex flex-col gap-4 text-primary-foreground">
             <div className="grid gap-2">
               <h3 className="text-2xl font-bold">PRO Gold </h3>
               <p className="text-primary-foreground">
@@ -190,7 +190,7 @@ export default function Plan() {
             <Link
               href="#"
               size="lg"
-              className="inline-flex items-center justify-center h-10 p-6 rounded bg-green-950 text-white font-bold"
+              className="inline-flex items-center justify-center h-10 p-6 rounded bg-[#2D1537] text-white font-bold"
             >
               Get Started
             </Link>

@@ -18,7 +18,7 @@ export default function Component() {
             Quickly enable full user lifecycle management by syncing your app
             with dozens of enterprise employee directory systems.
           </p>
-          <Button className="bg-green-950 hover:bg-green-900 text-white px-6 py-3 rounded-full text-md font-thin">
+          <Button className="bg-[#2D1537] hover:bg-green-900 text-white px-6 py-3 rounded-full text-md font-thin">
             Get Started
           </Button>
 

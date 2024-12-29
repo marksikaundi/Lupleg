@@ -4,7 +4,6 @@ import CylinderImage from "@/assets/cylinder.png";
 import CogImage from "@/assets/cog.png";
 import NoodleImage from "@/assets/noodle.png";
 
-
 export default function Hero() {
   return (
     <section className="pt-8 pb-20 md:pt-5 md:pb-10 bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#183EC2,#EAEEFE_100%)] ">
@@ -22,7 +21,7 @@ export default function Hero() {
               your progress and help you reach your goals.
             </p>
             <div className="flex gap-1 items-center mt-[30px] mb-20 ">
-              <button className="bg-green-950 p-3 rounded text-white ">
+              <button className="bg-[#2D1537] p-3 rounded text-white ">
                 Get for free
               </button>
             </div>
@@ -43,10 +42,10 @@ export default function Hero() {
             />
 
             <Image
-            src={NoodleImage}
-            width={220}
-            alt="noodle"
-            className="hidden lg:block absolute top-[524px] left-[448px] "
+              src={NoodleImage}
+              width={220}
+              alt="noodle"
+              className="hidden lg:block absolute top-[524px] left-[448px] "
             />
           </div>
         </div>

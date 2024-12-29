@@ -28,7 +28,7 @@ export default function Component() {
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
               <Link href="https://app.lupleg.org">
-                <Button className="inline-flex h-10 items-center justify-center rounded-full bg-green-950 px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-green-950">
+                <Button className="inline-flex h-10 items-center justify-center rounded-full bg-[#2D1537] px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-[#2D1537]">
                   Get Started
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>

@@ -90,7 +90,10 @@ export default function BookSession() {
                 </div>
               </CardContent>
               <CardFooter>
-                <Button type="submit" className="w-full bg-green-950 hover:bg-green-950">
+                <Button
+                  type="submit"
+                  className="w-full bg-[#2D1537] hover:bg-[#2D1537]"
+                >
                   Book Mentorship
                 </Button>
               </CardFooter>

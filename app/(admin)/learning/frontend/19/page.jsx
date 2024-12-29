@@ -221,7 +221,7 @@ export default function Component() {
                 <Input placeholder="Preferred name" className="flex-grow" />
                 <Input placeholder="you@example.com" className="flex-grow" />
               </div>
-              <Button className="w-full mt-2 bg-green-950">
+              <Button className="w-full mt-2 bg-[#2D1537]">
                 Subscribe to LuplegX for more tips
               </Button>
             </CardContent>

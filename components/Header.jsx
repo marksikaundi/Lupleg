@@ -89,7 +89,7 @@ export default function Component() {
       <div className="flex items-center space-x-4">
         {/* <Link href="https://mentor.lupleg.org/" className="hidden md:block"> TODO */}
         <Link href="/programs" className="hidden md:block">
-          <Button className="bg-green-950 hover:bg-green-950 text-white">
+          <Button className="bg-[#2D1537] hover:bg-[#2D1537] text-white">
             Get Started
           </Button>
         </Link>
@@ -137,7 +137,7 @@ export default function Component() {
               </Accordion>
               <Link href="/programs">
                 <Button
-                  className="w-full bg-green-950 hover:bg-green-950 text-white"
+                  className="w-full bg-[#2D1537] hover:bg-[#2D1537] text-white"
                   onClick={handleLinkClick}
                 >
                   Get Started
