@@ -49,7 +49,7 @@ export default function TsHero() {
           </div>
           <div className="flex space-x-4">
             <Link href="https://app.lupleg.org">
-              <Button className="bg-green-400 hover:bg-green-500 text-green-900">
+              <Button className="bg-[#2D1537] hover:bg-green-500 text-green-900">
                 Start Learning
               </Button>
             </Link>

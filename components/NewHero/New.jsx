@@ -52,7 +52,7 @@ export default function New() {
             Get Started
           </Link>
 
-          {/* <div className="bg-green-800 rounded-lg p-2 flex items-center space-x-2 max-w-full overflow-x-auto">
+          {/* <div className="bg-[#2D1537] rounded-lg p-2 flex items-center space-x-2 max-w-full overflow-x-auto">
             <code className="text-purple-200 font-mono text-xs sm:text-sm whitespace-nowrap">
               mark@lupleg.org
             </code>

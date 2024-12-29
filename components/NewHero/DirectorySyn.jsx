@@ -23,7 +23,7 @@ export default function Component() {
           </Button>
 
           <div className="absolute top-0 right-0 w-96 h-96 hidden lg:block">
-            <div className="absolute top-4 right-4 w-12 h-12 bg-green-800 rounded-full flex items-center justify-center">
+            <div className="absolute top-4 right-4 w-12 h-12 bg-[#2D1537] rounded-full flex items-center justify-center">
               <UserIcon className="text-white w-6 h-6" />
             </div>
             <div className="absolute bottom-24 right-48 w-12 h-12 bg-[#F3A833] rounded-full flex items-center justify-center">

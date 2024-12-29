@@ -39,7 +39,7 @@ export default function WhatWeDo() {
             durring our programs.
           </p>
           <Link href="/lupleg-features">
-            <Button className="bg-green-950 hover:bg-green-800 text-white px-6 py-3 font-thin rounded-full text-lg">
+            <Button className="bg-green-950 hover:bg-[#2D1537] text-white px-6 py-3 font-thin rounded-full text-lg">
               Learn More
             </Button>
           </Link>
