@@ -37,7 +37,7 @@ export default function PyBeginner() {
               </div>
               <div className="flex space-x-4">
                 <Link href="https://app.lupleg.org">
-                  <Button className="bg-[#2D1537] hover:bg-green-500 text-green-900">
+                  <Button className="bg-[#2D1537] hover:bg-green-500 text-[#2D1537]">
                     Start Learning
                   </Button>
                 </Link>
