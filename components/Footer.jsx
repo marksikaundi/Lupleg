@@ -39,7 +39,7 @@ export default function Footer() {
   return (
     <div className="pt-28">
       <footer className="bg-[#2D1537] p-10 text-white">
-        <FooterSection/>
+        <FooterSection />
         <div className="mx-auto grid max-w-7xl grid-cols-2 gap-10 md:grid-cols-4">
           {footerData.map((section, index) => (
             <div key={index}>
@@ -80,7 +80,7 @@ export default function Footer() {
                   Careers
                 </Link>
                 <span className="relative flex h-4 w-4">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#2D1537] opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-4 w-4 bg-green-500"></span>
                 </span>
               </Button>
