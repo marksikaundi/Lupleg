@@ -2,7 +2,14 @@
 
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { ScrollArea } from "@/components/ui/scroll-area";
@@ -73,7 +80,9 @@ export default function QuizPage() {
 
   const calculateScore = () => {
     return userAnswers.reduce((score, answer, index) => {
-      return score + (answer === selectedQuiz.questions[index].correctAnswer ? 1 : 0);
+      return (
+        score + (answer === selectedQuiz.questions[index].correctAnswer ? 1 : 0)
+      );
     }, 0);
   };
 
@@ -96,7 +105,9 @@ export default function QuizPage() {
                 <CardDescription>{quiz.description}</CardDescription>
               </CardHeader>
               <CardFooter className="mt-auto">
-                <Button onClick={() => handleQuizSelect(quiz)}>Start Quiz</Button>
+                <Button onClick={() => handleQuizSelect(quiz)}>
+                  Start Quiz
+                </Button>
               </CardFooter>
             </Card>
           ))}
@@ -106,7 +117,8 @@ export default function QuizPage() {
           <CardHeader>
             <CardTitle>Quiz Results</CardTitle>
             <CardDescription>
-              You scored {calculateScore()} out of {selectedQuiz.questions.length}
+              You scored {calculateScore()} out of{" "}
+              {selectedQuiz.questions.length}
             </CardDescription>
           </CardHeader>
           <CardContent>
@@ -117,10 +129,11 @@ export default function QuizPage() {
                   <p className="text-sm">
                     Your answer: {question.options[userAnswers[index]]}
                     {userAnswers[index] === question.correctAnswer ? (
-                      <span className="text-green-500 ml-2">Correct</span>
+                      <span className="text-[#2D1537] ml-2">Correct</span>
                     ) : (
                       <span className="text-red-500 ml-2">
-                        Incorrect (Correct: {question.options[question.correctAnswer]})
+                        Incorrect (Correct:{" "}
+                        {question.options[question.correctAnswer]})
                       </span>
                     )}
                   </p>
@@ -141,14 +154,23 @@ export default function QuizPage() {
             </CardDescription>
           </CardHeader>
           <CardContent>
-            <p className="font-semibold mb-4">{selectedQuiz.questions[currentQuestion].text}</p>
-            <RadioGroup onValueChange={(value) => handleAnswerSelect(parseInt(value))}>
-              {selectedQuiz.questions[currentQuestion].options.map((option, index) => (
-                <div key={index} className="flex items-center space-x-2">
-                  <RadioGroupItem value={index.toString()} id={`option-${index}`} />
-                  <Label htmlFor={`option-${index}`}>{option}</Label>
-                </div>
-              ))}
+            <p className="font-semibold mb-4">
+              {selectedQuiz.questions[currentQuestion].text}
+            </p>
+            <RadioGroup
+              onValueChange={(value) => handleAnswerSelect(parseInt(value))}
+            >
+              {selectedQuiz.questions[currentQuestion].options.map(
+                (option, index) => (
+                  <div key={index} className="flex items-center space-x-2">
+                    <RadioGroupItem
+                      value={index.toString()}
+                      id={`option-${index}`}
+                    />
+                    <Label htmlFor={`option-${index}`}>{option}</Label>
+                  </div>
+                )
+              )}
             </RadioGroup>
           </CardContent>
         </Card>

@@ -24,7 +24,7 @@ export default function WhatWeDo() {
     <div className=" px-4 py-12 sm:px-6 lg:px-8 ">
       <div className="flex flex-col md:flex-row items-center justify-between mb-20">
         <div className="md:w-1/2 mb-8 md:mb-0">
-          <h2 className="text-green-900 text-lg font-semibold mb-2">
+          <h2 className="text-[#2D1537] text-lg font-semibold mb-2">
             The all-in-one solution
           </h2>
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
@@ -39,7 +39,7 @@ export default function WhatWeDo() {
             durring our programs.
           </p>
           <Link href="/lupleg-features">
-            <Button className="bg-green-950 hover:bg-green-800 text-white px-6 py-3 font-thin rounded-full text-lg">
+            <Button className="bg-green-950 hover:bg-[#2D1537] text-white px-6 py-3 font-thin rounded-full text-lg">
               Learn More
             </Button>
           </Link>

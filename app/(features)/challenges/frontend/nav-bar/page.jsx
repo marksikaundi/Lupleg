@@ -9,13 +9,16 @@ export default function Navbar() {
     <div className="max-w-2xl mx-auto px-4 py-8">
       <Link
         href="/challenges/frontend"
-        className="inline-flex items-center text-sm text-green-900 hover:text-green-800 mb-6"
+        className="inline-flex items-center text-sm text-[#2D1537] hover:text-[#2D1537] mb-6"
       >
         <ArrowLeft className="mr-2 h-4 w-4" />
         Back
       </Link>
 
-      <h1 className="text-4xl font-bold text-gray-900 mb-6"> Responsive Navigation bar   </h1>
+      <h1 className="text-4xl font-bold text-gray-900 mb-6">
+        {" "}
+        Responsive Navigation bar{" "}
+      </h1>
 
       <div className="flex items-center mb-6">
         <Image

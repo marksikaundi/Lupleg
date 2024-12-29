@@ -90,17 +90,17 @@ export default function Blogs() {
     <div className="container mx-auto px-4 py-8">
       <header className="mb-16 mt-20">
         <div className="flex justify-between items-baseline">
-          <h1 className="text-4xl  font-bold text-green-900">Blogs</h1>
+          <h1 className="text-4xl  font-bold text-[#2D1537]">Blogs</h1>
           <p className="text-sm text-gray-500 font-thin border mr-9 border-gray-200 rounded-full p-2">
             Subscribe via{" "}
             <Link
               href="mailto:writer@lupleg.org"
-              className="text-green-900 hover:underline"
+              className="text-[#2D1537] hover:underline"
             >
               email
             </Link>{" "}
             or{" "}
-            <Link href="#" className="text-green-900 hover:underline">
+            <Link href="#" className="text-[#2D1537] hover:underline">
               RSS
             </Link>
           </p>
@@ -140,7 +140,7 @@ export default function Blogs() {
 
                 <Link
                   href={post.link || ""}
-                  className="text-green-800 hover:underline"
+                  className="text-[#2D1537] hover:underline"
                 >
                   Read more
                 </Link>

@@ -7,7 +7,7 @@ export default function MoreAboutUs() {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <div className="inline-block rounded-lg bg-green-400 px-4 py-4 text-md font-mono text-green-900">
+              <div className="inline-block rounded-lg bg-[#2D1537] px-4 py-4 text-md font-mono text-[#2D1537]">
                 Our Services
               </div>
               <h2 className="text-3xl font-bold tracking-tighter text-gray-900 dark:text-white sm:text-5xl py-4">
@@ -104,7 +104,7 @@ export default function MoreAboutUs() {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <div className="inline-block rounded-lg bg-green-400 px-4 py-4 text-md font-mono text-green-900">
+              <div className="inline-block rounded-lg bg-[#2D1537] px-4 py-4 text-md font-mono text-[#2D1537]">
                 Why Choose Us?
               </div>
               <h2 className="text-3xl font-bold tracking-tighter text-gray-900 dark:text-white sm:text-5xl">

@@ -24,7 +24,7 @@ export default function Problemsets() {
               </div>
             </CardContent>
           </Card>
-          <Card className="bg-green-600 text-white">
+          <Card className="bg-[#2D1537] text-white">
             <CardContent className="p-4">
               <h2 className="text-xl font-bold mb-2">
                 Lupleg's Interview Crash Course:

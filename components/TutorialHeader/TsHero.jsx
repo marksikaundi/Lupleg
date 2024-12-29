@@ -28,7 +28,7 @@ export default function TsHero() {
         <div className="space-y-6">
           <a
             href="/typescript"
-            className="text-green-400 hover:text-green-300 transition-colors"
+            className="text-[#2D1537] hover:text-[#2D1537] transition-colors"
           >
             ← All Tutorials
           </a>
@@ -49,7 +49,7 @@ export default function TsHero() {
           </div>
           <div className="flex space-x-4">
             <Link href="https://app.lupleg.org">
-              <Button className="bg-green-400 hover:bg-green-500 text-green-900">
+              <Button className="bg-[#2D1537] hover:bg-green-500 text-[#2D1537]">
                 Start Learning
               </Button>
             </Link>

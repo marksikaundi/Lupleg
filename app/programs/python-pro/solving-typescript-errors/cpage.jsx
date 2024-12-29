@@ -5,12 +5,12 @@ import TsHero from "@/components/TutorialHeader/TsHero";
 
 export default function STError() {
   return (
-    <div >
+    <div>
       <TsHero />
       <div className="min-h-screen bg-gray-900 text-gray-100 p-4 md:p-8">
         <div className="max-w-7xl mx-auto grid gap-8 md:grid-cols-2">
           <div className="space-y-6">
-            <h1 className="text-2xl font-bold text-green-400">
+            <h1 className="text-2xl font-bold text-[#2D1537]">
               TypeScript Error Handling Tutorial
             </h1>
             <p>
@@ -73,7 +73,7 @@ export default function STError() {
           <div className="space-y-8">
             <Card className="bg-gray-800 border-gray-700">
               <CardHeader>
-                <CardTitle className="text-green-400">Contents</CardTitle>
+                <CardTitle className="text-[#2D1537]">Contents</CardTitle>
               </CardHeader>
               <CardContent>
                 <ScrollArea className="h-[300px] pr-6">
@@ -94,10 +94,10 @@ export default function STError() {
             </Card>
             <Card className="bg-gray-800 border-gray-700">
               <CardHeader>
-                <CardTitle className="text-green-400">Coming Soon</CardTitle>
+                <CardTitle className="text-[#2D1537]">Coming Soon</CardTitle>
               </CardHeader>
               <CardContent className="flex flex-col items-center justify-center h-[200px] bg-gradient-to-br from-blue-900 to-purple-900 rounded-lg">
-                <LockIcon className="w-10 h-10 text-green-500 mb-4" />
+                <LockIcon className="w-10 h-10 text-[#2D1537] mb-4" />
                 <p className="text-center text-white text-sm">
                   Complete all lessons to unlock this certificate.
                 </p>

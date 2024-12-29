@@ -9,7 +9,7 @@ export default function Pay() {
     <div className="max-w-2xl mx-auto px-4 py-8">
       <Link
         href="/challenges/frontend"
-        className="inline-flex items-center text-sm text-green-900 hover:text-green-800 mb-6"
+        className="inline-flex items-center text-sm text-[#2D1537] hover:text-[#2D1537] mb-6"
       >
         <ArrowLeft className="mr-2 h-4 w-4" />
         Back
@@ -86,7 +86,6 @@ export default function Pay() {
         submit button that displays a success message when the form is submitted
         successfully. Feel free to customize the design and functionality to
         suit your needs.
-        
       </p>
 
       <Help />

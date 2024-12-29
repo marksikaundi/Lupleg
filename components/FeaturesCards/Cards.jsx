@@ -10,14 +10,14 @@ export default function Cards() {
               Technical Content:
             </h1>
             <p className="mt-4 max-w-2xl text-xl text-gray-700 lg:mx-auto">
-              <span className="font-bold text-green-900">
+              <span className="font-bold text-[#2D1537]">
                 ✅ In-depth Tutorials:
               </span>{" "}
               Create detailed guides on specific technologies, frameworks, or
               coding challenges relevant to your development projects.
             </p>
             <p className="mt-4 max-w-2xl text-xl text-gray-700 lg:mx-auto">
-              <span className="font-bold text-green-900">
+              <span className="font-bold text-[#2D1537]">
                 ✅ Code Examples and Solutions:
               </span>{" "}
               Share code snippets or open-source projects that showcase best
@@ -53,7 +53,7 @@ export default function Cards() {
               Community-Driven Content
             </h1>
             <p className="mt-4 max-w-2xl text-xl text-gray-700 lg:mx-auto">
-              <span className="font-bold text-green-900">
+              <span className="font-bold text-[#2D1537]">
                 ✅ Developer Interviews:
               </span>{" "}
               Feature interviews with talented developers from our team or in
@@ -61,7 +61,7 @@ export default function Cards() {
               and insights in Tech industry.
             </p>
             <p className="mt-4 max-w-2xl text-xl text-gray-700 lg:mx-auto">
-              <span className="font-bold text-green-900">
+              <span className="font-bold text-[#2D1537]">
                 ✅ Hackathons and Challenges:
               </span>{" "}
               Organize coding challenges or hackathons with specific themes or
@@ -76,7 +76,7 @@ export default function Cards() {
             </h2>
             <p className="mt-4 text-lg text-black">
               We have a{" "}
-              <Link className="text-green-500" href="#">
+              <Link className="text-[#2D1537]" href="#">
                 <span className="border-20 rounded-sm bg-black">👉</span>{" "}
                 program
               </Link>{" "}
@@ -101,17 +101,17 @@ export default function Cards() {
         <div className="grid grid-cols-1 items-center gap-16 lg:grid-cols-2">
           <div>
             <h1 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-5xl">
-            Challenge
+              Challenge
             </h1>
             <p className="mt-4 max-w-2xl text-xl text-gray-700 lg:mx-auto">
-              <span className="font-bold text-green-900">✅ Hack Code 60:</span>{" "}
+              <span className="font-bold text-[#2D1537]">✅ Hack Code 60:</span>{" "}
               is a 60-day coding challenge that will help you improve your
               coding skills through a series of real-world projects. You will be
               given a new project every 2 days, and you will have 2 days to
               complete it.
             </p>
             <p className="mt-4 max-w-2xl text-xl text-gray-700 lg:mx-auto">
-              <span className="font-bold text-green-900">
+              <span className="font-bold text-[#2D1537]">
                 ✅ How the challenge works:
               </span>{" "}
               The projects are designed to help you learn new skills and improve
