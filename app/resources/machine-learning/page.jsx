@@ -11,9 +11,7 @@ import {
   BookOpenIcon,
   CodeIcon,
   GraduationCapIcon,
-  MenuIcon,
 } from "lucide-react";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import Link from "next/link";
 
 export default function MachineLearning() {
@@ -65,7 +63,7 @@ export default function MachineLearning() {
   return (
     <div className="flex flex-col min-h-screen  ">
       <main className="flex-1">
-        <section className="w-full bg-green-950 py-12 md:py-24 lg:py-32 xl:py-48 px-4 md:px-6">
+        <section className="w-full bg-[#2D1537] py-12 md:py-24 lg:py-32 xl:py-48 px-4 md:px-6">
           <div className="container">
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
@@ -126,19 +124,6 @@ export default function MachineLearning() {
           </div>
         </section>
       </main>
-      {/* <footer className="w-full shrink-0 border-t px-4 py-6 sm:px-6 lg:px-8">
-        <div className="container flex flex-col items-center gap-2 sm:flex-row sm:justify-between">
-          <p className="text-xs text-muted-foreground">© 2024 ML Notebooks. All rights reserved.</p>
-          <nav className="flex gap-4 sm:gap-6">
-            <Link className="text-xs hover:underline underline-offset-4" href="#">
-              Terms of Service
-            </Link>
-            <Link className="text-xs hover:underline underline-offset-4" href="#">
-              Privacy
-            </Link>
-          </nav>
-        </div>
-      </footer> */}
     </div>
   );
 }
