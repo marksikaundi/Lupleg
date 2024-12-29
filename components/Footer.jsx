@@ -20,14 +20,13 @@ const footerData = [
       { name: "Affiliates", path: "/affiliates" },
       { name: "Partner with Us", path: "/resources/supporting/partner" },
       { name: "Research", path: "/research" },
-      { name: "Publications", path: "/publications/tech-news" },
       { name: "Changelog", path: "/changelogs" },
     ],
   },
   {
     title: "Resources",
     links: [
-      { name: "Web Editor", path: "https://web.lupleg.org" },
+      { name: "Books", path: "/resources/books" },
       { name: "Sitemap", path: "/sitemap" },
       { name: "Tips", path: "/tips" },
       { name: "Projects", path: "https://projects.lupleg.org" },
