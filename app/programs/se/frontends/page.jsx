@@ -39,7 +39,7 @@ export default function Frontend() {
                 </div>
                 <div className="flex space-x-4">
                   <Link href="/learning/frontend">
-                    <Button className="bg-green-400 hover:bg-green-500 text-green-900">
+                    <Button className="bg-[#2D1537] hover:bg-green-500 text-green-900">
                       Start Learning
                     </Button>
                   </Link>
@@ -170,7 +170,7 @@ export default function Frontend() {
               <div className="bg-gray-800 rounded-lg p-4">
                 <h2 className="text-xl font-semibold mb-4">Coming soon</h2>
                 <div className="bg-gray-700 rounded-lg p-8 flex flex-col items-center justify-center">
-                  <div className="bg-green-600 rounded-full p-4 mb-4">
+                  <div className="bg-[#2D1537] rounded-full p-4 mb-4">
                     <Lock className="w-8 h-8 " />
                   </div>
                   <p className="text-center">
