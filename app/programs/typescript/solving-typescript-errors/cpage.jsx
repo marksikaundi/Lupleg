@@ -5,7 +5,7 @@ import TsHero from "@/components/TutorialHeader/TsHero";
 
 export default function STError() {
   return (
-    <div >
+    <div>
       <TsHero />
       <div className="min-h-screen bg-gray-900 text-gray-100 p-4 md:p-8">
         <div className="max-w-7xl mx-auto grid gap-8 md:grid-cols-2">
@@ -97,7 +97,7 @@ export default function STError() {
                 <CardTitle className="text-green-400">Coming Soon</CardTitle>
               </CardHeader>
               <CardContent className="flex flex-col items-center justify-center h-[200px] bg-gradient-to-br from-blue-900 to-purple-900 rounded-lg">
-                <LockIcon className="w-10 h-10 text-green-500 mb-4" />
+                <LockIcon className="w-10 h-10 text-[#2D1537] mb-4" />
                 <p className="text-center text-white text-sm">
                   Complete all lessons to unlock this certificate.
                 </p>
