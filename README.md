@@ -1,6 +1,6 @@
 # Lupleg Repository
 
-Welcome to the FE-Lupleg Repository! This repository is dedicated to the development and maintenance of the front-end for the Lupleg Community. Below you will find all the necessary information about the project, how to use it, and how you can contribute to it.
+Welcome to the Lupleg Repository! This repository is dedicated to the development and maintenance of the front-end for the Lupleg Community. Below you will find all the necessary information about the project, how to use it, and how you can contribute to it.
 
 ## Table of Contents
 
@@ -17,11 +17,11 @@ Welcome to the FE-Lupleg Repository! This repository is dedicated to the develop
 
 ## Project Overview
 
-The FE-Lupleg Repository is the front-end codebase for the Lupleg Community platform. Our goal is to create a user-friendly and responsive interface that allows community members to interact, share information, and collaborate effectively. The project is built using modern web technologies to ensure a seamless user experience.
+The Lupleg Repository is the front-end codebase for the Lupleg Community platform. Our goal is to create a user-friendly and responsive interface that allows community members to interact, share information, and collaborate effectively. The project is built using modern web technologies to ensure a seamless user experience.
 
 ## Getting Started
 
-To get started with the FE-Lupleg project, follow the instructions below.
+To get started with the Lupleg project, follow the instructions below.
 
 ### Prerequisites
 
@@ -71,7 +71,7 @@ The build artifacts will be stored in the `build/` directory.
 
 ## Contributing
 
-We welcome contributions from the community! To contribute to the FE-Lupleg project, please follow the guidelines below.
+We welcome contributions from the community! To contribute to the Lupleg project, please follow the guidelines below.
 
 ### Code of Conduct
 
@@ -111,10 +111,10 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 If you have any questions, suggestions, or feedback, please feel free to reach out to us:
 
-- Email: support@luplegcommunity.com
-- GitHub Issues: [FE-Lupleg Issues](https://github.com/your-username/FE-Lupleg/issues)
+- Email: support@lupleg.org
+- GitHub Issues: [Lupleg Issues](https://github.com/your-username/Lupleg/issues)
 
-Thank you for being a part of the Lupleg Community and contributing to the FE-Lupleg project!
+Thank you for being a part of the Lupleg Community and contributing to the Lupleg project!
 
 ---
 
