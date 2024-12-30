@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 export default function Books() {
   return (
     <div className="flex flex-col min-h-dvh">
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-green-950 ">
+      <section className="w-full py-12 md:py-24 lg:py-32 bg-[#2D1537] ">
         <div className="container px-4 md:px-6 text-center">
           <div className="space-y-4">
             <h1 className="text-4xl font-bold text-white md:text-4xl lg:text-6xl">
@@ -17,7 +17,7 @@ export default function Books() {
             </p>
             <Link
               href="#books"
-              className="inline-flex h-10 items-center justify-center rounded-md border px-8 py-6 text-md font-medium text-white shadow transition-colors hover:bg-green-950 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+              className="inline-flex h-10 items-center justify-center rounded-md border px-8 py-6 text-md font-medium text-white shadow transition-colors hover:bg-[#2D1537] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
               prefetch={false}
             >
               Browse Books

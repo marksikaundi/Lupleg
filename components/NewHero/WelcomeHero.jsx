@@ -19,7 +19,7 @@ export default function WelcomeHero() {
         </p>
         <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-6 sm:space-y-0 sm:space-x-4 mb-6 sm:mb-8">
           <Link href="/programs">
-            <Button className="w-full sm:w-auto bg-green-950 hover:bg-green-950 text-white px-6 py-3 rounded-full text-md">
+            <Button className="w-full sm:w-auto bg-[#2D1537] hover:bg-[#2D1537] text-white px-6 py-3 rounded-full text-md">
               Get started
             </Button>
           </Link>
