@@ -44,7 +44,7 @@ export default function SeCard() {
           </CardContent>
         </Card>
 
-        <Card className="bg-[#13132B] my-8 border-gray-700">
+        <Card className="bg-[#2D1537] my-8 border-[#2D1537]">
           <CardContent className="p-4 sm:p-6">
             <div className="flex flex-col sm:flex-row items-center">
               <img
@@ -82,7 +82,7 @@ export default function SeCard() {
           </CardContent>
         </Card>
 
-        <Card className="bg-[#13132B] my-8 border-gray-700">
+        <Card className="bg-[#2D1537] my-8 border-[#2D1537]">
           <CardContent className="p-4 sm:p-6">
             <div className="flex flex-col sm:flex-row items-center">
               <img
@@ -120,7 +120,7 @@ export default function SeCard() {
           </CardContent>
         </Card>
 
-        <Card className="bg-[#13132B] my-8 border-gray-700">
+        <Card className="bg-[#2D1537] my-8 border-[#2D1537]">
           <CardContent className="p-4 sm:p-6">
             <div className="flex flex-col sm:flex-row items-center">
               <img
