@@ -7,7 +7,7 @@ import { FaFire } from "react-icons/fa";
 
 import Image from "next/image";
 
-export default function Docs() {
+export default function CodeDaysChallenges() {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Top Navigation */}
