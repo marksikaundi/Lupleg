@@ -63,11 +63,11 @@ export default function TipsPage() {
           <div className="w-20 h-20 bg-[#2D1537] rounded-full blur-2xl opacity-50"></div>
         </div>
 
-        <h1 className="text-5xl font-bold text-center text-[#2D1537] ">TypeScript Tips</h1>
+        <h1 className="text-5xl font-bold text-center text-[#2D1537] ">Deep Learning Tips</h1>
         <p className="text-lg text-center text-[#2D1537] ">
           A collection of useful tips that you wish you
           <br />
-          knew when you started using TypeScript.
+          knew when you started cracking Deep learning.
         </p>
 
         <div className="relative">
