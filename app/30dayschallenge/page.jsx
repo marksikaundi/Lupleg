@@ -3,8 +3,6 @@ import { Button } from "@/components/ui/button";
 import { IoHome } from "react-icons/io5";
 import { FaFire } from "react-icons/fa";
 
-
-
 import Image from "next/image";
 
 export default function CodeDaysChallenges() {
@@ -50,11 +48,9 @@ export default function CodeDaysChallenges() {
               href="/30dayschallenge/hack"
               className="text-[#2D1537] hover:text-black font-extrabold h-full flex items-center flex-shrink-0"
             >
-            Hack
-            <FaFire/>
-
+              Hack
+              <FaFire />
             </Link>
-           
           </div>
         </div>
       </nav>
@@ -62,17 +58,17 @@ export default function CodeDaysChallenges() {
       {/* Main Content */}
       <main className="flex-1 container mx-auto px-4 py-16">
         <div className="max-w-4xl mx-auto text-center">
-          {/* Using Lupleg Section */}
+          {/* Machine Learning Section */}
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-1/2 text-left">
               <h2 className="text-3xl font-bold text-[#2D1537] mb-4">
-                Using Lupleg
+                Machine Learning
               </h2>
               <p className="text-gray-600 mb-8">
-                Learn how to make the make the most from your time on Lupleg.
-                Find answers to all your questions, understand how to make the
-                most out of mentoring, and discover how to be a great Lupleg
-                citizen.
+                Key concept of Machine Learning, how to get started, and how to
+                make the most of your time on Lupleg. Find answers to all your
+                questions, understand how to make the most out of mentoring, and
+                discover how to be a great Lupleg citizen.
               </p>
               <Button
                 asChild
@@ -92,11 +88,11 @@ export default function CodeDaysChallenges() {
             </div>
           </div>
 
-          {/* Building Lupleg Section */}
+          {/* Deep Learning Section */}
           <div className="flex flex-col md:flex-row items-center gap-12 mt-16">
             <div className="md:w-1/2 text-left">
               <h2 className="text-3xl font-bold text-[#2D1537] mb-4">
-                Building Lupleg
+                Deep Learning
               </h2>
               <p className="text-gray-600 mb-8">
                 Learn how to make the make the most from your time on Lupleg.
@@ -122,11 +118,11 @@ export default function CodeDaysChallenges() {
             </div>
           </div>
 
-          {/* Mentoring Section */}
+          {/* Tensorflow Section */}
           <div className="flex flex-col md:flex-row items-center gap-12 mt-16">
             <div className="md:w-1/2 text-left">
               <h2 className="text-3xl font-bold text-[#2D1537] mb-4">
-                Mentoring
+                Tensorflow & Keras
               </h2>
               <p className="text-gray-600 mb-8">
                 Learn how to make the make the most from your time on Lupleg.
@@ -152,11 +148,41 @@ export default function CodeDaysChallenges() {
             </div>
           </div>
 
-          {/* Community Section */}
+          {/* Pytorch Section */}
           <div className="flex flex-col md:flex-row items-center gap-12 mt-16">
             <div className="md:w-1/2 text-left">
               <h2 className="text-3xl font-bold text-[#2D1537] mb-4">
-                Community
+                PyTorch & FastAI
+              </h2>
+              <p className="text-gray-600 mb-8">
+                Learn how the community works, how to get involved, and how to
+                make the most of your time on Lupleg. Find answers to all your
+                questions, understand how to make the most out of mentoring, and
+                discover how to be a great Lupleg citizen.
+              </p>
+              <Button
+                asChild
+                className="bg-[#2D1537] hover:bg-[#2D1537] text-white px-8 py-6 rounded-lg text-lg"
+              >
+                <Link href="/docs/community">Get started →</Link>
+              </Button>
+            </div>
+            <div className="md:w-1/2">
+              <Image
+                src="/docs/community.svg"
+                height="100"
+                width="100"
+                alt="Illustration of person using laptop"
+                className="w-full max-w-md mx-auto"
+              />
+            </div>
+          </div>
+
+          {/* Hackathon Section */}
+          <div className="flex flex-col md:flex-row items-center gap-12 mt-16">
+            <div className="md:w-1/2 text-left">
+              <h2 className="text-3xl font-bold text-[#2D1537] mb-4">
+                Lupleg Hackathon
               </h2>
               <p className="text-gray-600 mb-8">
                 Learn how the community works, how to get involved, and how to
