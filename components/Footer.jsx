@@ -29,6 +29,8 @@ const footerData = [
       { name: "Books", path: "/resources/books" },
       { name: "Sitemap", path: "/sitemap" },
       { name: "Tips", path: "/tips" },
+      { name: "30daysChallenge", path: "/30dayschallenge" },
+      { name: "Blog", path: "/blog" },
       { name: "Projects", path: "https://projects.lupleg.org" },
       { name: "Docs", path: "/docs" },
     ],
