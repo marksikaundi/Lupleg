@@ -95,10 +95,11 @@ export default function CodeDaysChallenges() {
                 Deep Learning
               </h2>
               <p className="text-gray-600 mb-8">
-                Learn how to make the make the most from your time on Lupleg.
-                Find answers to all your questions, understand how to make the
-                most out of mentoring, and discover how to be a great Lupleg
-                citizen.
+                Solve real-world problems with Deep Learning, how to get started
+                with Deep Learning, and how to make the most of your time on the
+                platform. Find answers to all your questions, understand how to
+                make the most out of mentoring, and discover how to be a great
+                Lupleg citizen.
               </p>
               <Button
                 asChild
@@ -125,10 +126,10 @@ export default function CodeDaysChallenges() {
                 Tensorflow & Keras
               </h2>
               <p className="text-gray-600 mb-8">
-                Learn how to make the make the most from your time on Lupleg.
-                Find answers to all your questions, understand how to make the
-                most out of mentoring, and discover how to be a great Lupleg
-                citizen.
+                Learn how to build models with Tensorflow & Keras, how to get
+                started, and how to make the most of your time on Lupleg. Find
+                answers to all your questions, understand how to make the most
+                out of mentoring, and discover how to be a great Lupleg citizen.
               </p>
               <Button
                 asChild
@@ -155,10 +156,10 @@ export default function CodeDaysChallenges() {
                 PyTorch & FastAI
               </h2>
               <p className="text-gray-600 mb-8">
-                Learn how the community works, how to get involved, and how to
-                make the most of your time on Lupleg. Find answers to all your
-                questions, understand how to make the most out of mentoring, and
-                discover how to be a great Lupleg citizen.
+                Learn how to build models with PyTorch & FastAI, how to get
+                started, and how to make the most of your time on Lupleg. Find
+                answers to all your questions, understand how to make the most
+                out of mentoring, and discover how to be a great Lupleg citizen.
               </p>
               <Button
                 asChild
@@ -185,10 +186,11 @@ export default function CodeDaysChallenges() {
                 Lupleg Hackathon
               </h2>
               <p className="text-gray-600 mb-8">
-                Learn how the community works, how to get involved, and how to
-                make the most of your time on Lupleg. Find answers to all your
-                questions, understand how to make the most out of mentoring, and
-                discover how to be a great Lupleg citizen.
+                This is the Lupleg Hackathon, where you can participate in
+                coding challenges, hackathons, and other events to win prizes.
+                Find answers to all your questions, understand how to make the
+                most out of mentoring, and discover how to be a great Lupleg
+                citizen.
               </p>
               <Button
                 asChild
