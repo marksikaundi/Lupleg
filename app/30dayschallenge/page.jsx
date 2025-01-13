@@ -79,7 +79,7 @@ export default function CodeDaysChallenges() {
             </div>
             <div className="md:w-1/2">
               <Image
-                src="/docs/hacker.svg"
+                src="/30/Machine.png"
                 height="100"
                 width="100"
                 alt="Illustration of person using laptop"
@@ -110,7 +110,7 @@ export default function CodeDaysChallenges() {
             </div>
             <div className="md:w-1/2">
               <Image
-                src="/docs/build.svg"
+                src="/30/Deep.svg"
                 height="100"
                 width="100"
                 alt="Illustration of person using laptop"
@@ -140,7 +140,7 @@ export default function CodeDaysChallenges() {
             </div>
             <div className="md:w-1/2">
               <Image
-                src="/docs/mentor.svg"
+                src="/30/Tensorflow.png"
                 height="100"
                 width="100"
                 alt="Illustration of person using laptop"
@@ -170,7 +170,7 @@ export default function CodeDaysChallenges() {
             </div>
             <div className="md:w-1/2">
               <Image
-                src="/docs/community.svg"
+                src="/30/Pytorch.webp"
                 height="100"
                 width="100"
                 alt="Illustration of person using laptop"
