@@ -20,14 +20,14 @@ const footerData = [
       { name: "Affiliates", path: "/affiliates" },
       { name: "Partner with Us", path: "/resources/supporting/partner" },
       { name: "Research", path: "/research" },
+      { name: "Sitemap", path: "/sitemap" },
       { name: "Changelog", path: "/changelogs" },
     ],
   },
   {
     title: "Resources",
     links: [
-      { name: "Books", path: "/resources/books" },
-      { name: "Sitemap", path: "/sitemap" },
+      { name: "Books", path: "/resources/books" }, 
       { name: "Tips", path: "/tips" },
       { name: "30daysChallenge", path: "/30dayschallenge" },
       { name: "Blog", path: "/blog" },
