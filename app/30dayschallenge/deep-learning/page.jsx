@@ -7,40 +7,157 @@ import Link from "next/link";
 
 const allTips = [
   { 
-    title: "Type Predicates", 
-    duration: "1 min", 
-    link: "/tips/quick-access/1" },
-  {
-    title: "TypeScript 5.1 Beta is OUT!",
-    duration: "2 mins",
-    link: "/tips/quick-access/2",
+    title: "Introduction to Deep Learning", 
+    duration: "2 hrs", 
+    link: "/30dayschallenge/deep-learning/days/01/" 
+  },
+  { 
+    title: "Mathematics for Deep Learning: Linear Algebra", 
+    duration: "3 hrs", 
+    link: "/30dayschallenge/deep-learning/days/02/" 
   },
   {
-    title: "How to Name your Types",
-    duration: "4 mins",
-    link: "/tips/quick-access/3",
+    title: "Mathematics for Deep Learning: Calculus",
+    duration: "3 hrs",
+    link: "/30dayschallenge/deep-learning/days/03/",
   },
   {
-    title: "Don't use return types, unless...",
-    duration: "4 mins",
-    link: "/tips/quick-access/4",
+    title: "Mathematics for Deep Learning: Probability and Statistics",
+    duration: "3 hrs",
+    link: "/30dayschallenge/deep-learning/days/04/",
   },
   {
-    title: "Understanding Generic Types",
-    duration: "3 mins",
-    link: "/tips/quick-access/5",
+    title: "Neural Networks Basics: Perceptrons and Activation Functions",
+    duration: "3 hrs",
+    link: "/30dayschallenge/deep-learning/days/05/",
   },
   {
-    title: "Advanced TypeScript Interfaces",
-    duration: "5 mins",
-    link: "/tips/quick-access/6",
+    title: "Neural Networks Basics: Network Architecture and Layers",
+    duration: "3 hrs",
+    link: "/30dayschallenge/deep-learning/days/06/",
   },
   {
-    title: "Mastering Union and Intersection Types",
-    duration: "4 mins",
-    link: "/tips/quick-access/7",
+    title: "Training Neural Networks: Forward Propagation and Loss Functions",
+    duration: "3 hrs",
+    link: "/30dayschallenge/deep-learning/days/07/",
   },
+  {
+    title: "Training Neural Networks: Backpropagation and Gradient Descent",
+    duration: "3 hrs",
+    link: "/30dayschallenge/deep-learning/days/08/",
+  },
+  {
+    title: "Optimization Techniques: Advanced Optimizers (Adam, RMSprop)",
+    duration: "3 hrs",
+    link: "/30dayschallenge/deep-learning/days/09/",
+  },
+  {
+    title: "Regularization Techniques: Dropout and L2/L1 Regularization",
+    duration: "3 hrs",
+    link: "/30dayschallenge/deep-learning/days/10/",
+  },
+  {
+    title: "Regularization Techniques: Batch Normalization",
+    duration: "3 hrs",
+    link: "/30dayschallenge/deep-learning/days/11/",
+  },
+  {
+    title: "Hyperparameter Tuning: Grid Search and Random Search",
+    duration: "3 hrs",
+    link: "/30dayschallenge/deep-learning/days/12/",
+  },
+  {
+    title: "Hyperparameter Tuning: Bayesian Optimization",
+    duration: "3 hrs",
+    link: "/30dayschallenge/deep-learning/days/13/",
+  },
+  {
+    title: "Deep Learning Frameworks: Introduction to TensorFlow and Keras",
+    duration: "3 hrs",
+    link: "/30dayschallenge/deep-learning/days/14/",
+  },
+  {
+    title: "Convolutional Neural Networks (CNNs): Architecture and Convolutional Layers",
+    duration: "4 hrs",
+    link: "/30dayschallenge/deep-learning/days/15/",
+  },
+  {
+    title: "Convolutional Neural Networks (CNNs): Pooling Layers and Applications",
+    duration: "4 hrs",
+    link: "/30dayschallenge/deep-learning/days/16/",
+  },
+  {
+    title: "Advanced CNN Architectures: ResNet and Inception",
+    duration: "4 hrs",
+    link: "/30dayschallenge/deep-learning/days/17/",
+  },
+  {
+    title: "Advanced CNN Architectures: MobileNet and EfficientNet",
+    duration: "4 hrs",
+    link: "/30dayschallenge/deep-learning/days/18/",
+  },
+  {
+    title: "Recurrent Neural Networks (RNNs): Architecture and Applications",
+    duration: "4 hrs",
+    link: "/30dayschallenge/deep-learning/days/19/",
+  },
+  {
+    title: "Long Short-Term Memory (LSTM) Networks: Architecture and Applications",
+    duration: "4 hrs",
+    link: "/30dayschallenge/deep-learning/days/20/",
+  },
+  {
+    title: "Gated Recurrent Units (GRUs): Architecture and Applications",
+    duration: "4 hrs",
+    link: "/30dayschallenge/deep-learning/days/21/",
+  },
+  {
+    title: "Natural Language Processing (NLP): Tokenization and Embeddings",
+    duration: "4 hrs",
+    link: "/30dayschallenge/deep-learning/days/22/",
+  },
+  {
+    title: "Transformers and Attention Mechanisms: Self-Attention and BERT",
+    duration: "4 hrs",
+    link: "/30dayschallenge/deep-learning/days/23/",
+  },
+  {
+    title: "Generative Adversarial Networks (GANs): Architecture and Training",
+    duration: "4 hrs",
+    link: "/30dayschallenge/deep-learning/days/24/",
+  },
+  {
+    title: "Autoencoders: Architecture and Applications",
+    duration: "4 hrs",
+    link: "/30dayschallenge/deep-learning/days/25/",
+  },
+  {
+    title: "Variational Autoencoders (VAEs): Architecture and Applications",
+    duration: "4 hrs",
+    link: "/30dayschallenge/deep-learning/days/26/",
+  },
+  {
+    title: "Reinforcement Learning: Basics and Q-Learning",
+    duration: "4 hrs",
+    link: "/30dayschallenge/deep-learning/days/27/",
+  },
+  {
+    title: "Deep Reinforcement Learning: DQN and Policy Gradients",
+    duration: "4 hrs",
+    link: "/30dayschallenge/deep-learning/days/28/",
+  },
+  {
+    title: "Transfer Learning: Pre-Trained Models and Fine-Tuning",
+    duration: "4 hrs",
+    link: "/30dayschallenge/deep-learning/days/29/",
+  },
+  {
+    title: "Project Work: Implement a Deep Learning Project",
+    duration: "6 hrs",
+    link: "/30dayschallenge/deep-learning/days/30/",
+  }
 ];
+
 
 export default function TipsPage() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -73,7 +190,7 @@ export default function TipsPage() {
         <div className="relative">
           <Input
             className="search-input w-full bg-[#2D1537] border-none text-white placeholder-white pl-10 pr-4 py-2 rounded-md"
-            placeholder={`Search through ${allTips.length} tips`}
+            placeholder={`Search through ${allTips.length} challenges available`}
             value={searchQuery}
             onChange={handleSearch}
           />
