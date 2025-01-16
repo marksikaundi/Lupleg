@@ -105,7 +105,7 @@ export default function CodeDaysChallenges() {
                 asChild
                 className="bg-[#2D1537] hover:bg-[#2D1537] text-white px-8 py-6 rounded-lg text-lg"
               >
-                <Link href="/docs/building">Get started →</Link>
+                <Link href="/30dayschallenge/deep-learning">Get started →</Link>
               </Button>
             </div>
             <div className="md:w-1/2">

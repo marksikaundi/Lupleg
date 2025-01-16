@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { toast } from "@/components/ui/toast";
 import { CreditCard } from 'lucide-react';
+import { toast } from '@/hooks/use-toast';
 
 export default function DonateForm() {
   const [amount, setAmount] = useState('');
