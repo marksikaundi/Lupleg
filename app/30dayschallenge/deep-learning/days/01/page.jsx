@@ -69,7 +69,7 @@ export default function Component() {
           <Card>
             <CardHeader>
               <CardTitle>
-                A Comprehensive Introduction to Neural Networks and Deep Learning
+                A Comprehensive Introduction to Neural Networks
               </CardTitle>
             </CardHeader>
             <CardContent>
