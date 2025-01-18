@@ -164,13 +164,12 @@ export default function Component() {
               </p>
               <p className="text-sm">
                 Integers are whole numbers, such as 1, 2, 3, 4, 5, and so on.
-                You can perform arithmetic operations on integers, such as adding
-                them together, subtracting them, multiplying them, and so on.
+                You can perform arithmetic operations on integers, such as
+                adding them together, subtracting them, multiplying them, and so
+                on.
               </p>
 
-              <p className="text-sm">
-                How to run an integer in Python
-              </p>
+              <p className="text-sm">How to run an integer in Python</p>
               <pre className="bg-gray-100 p-4 rounded-md text-sm">
                 {`
                 x = 5
@@ -191,6 +190,20 @@ export default function Component() {
                 and so on. You can perform arithmetic operations on floats as
                 well, just like you can with integers.
               </p>
+              <p className="text-sm">How to run an float in Python</p>
+              <pre className="bg-gray-100 p-4 rounded-md text-sm">
+                {`
+                x = 1.5
+                y = 2.5
+
+                z = x + y
+
+                print(z)
+                4.0
+
+                `}
+              </pre>
+
               <p className="text-sm">
                 <span className="font-semibold">Strings</span>
               </p>
@@ -200,6 +213,19 @@ export default function Component() {
                 strings, such as concatenating them together, splitting them
                 apart, and so on.
               </p>
+              <p className="text-sm">How to run a string in Python</p>
+              <pre className="bg-gray-100 p-4 rounded-md text-sm">
+                {`
+                x = "Hello"
+                y = "World"
+
+                z = x + " " + y
+
+                print(z)
+                Hello World
+                `}
+              </pre>
+
               <p className="text-sm">
                 <span className="font-semibold">Lists</span>
               </p>
@@ -208,16 +234,43 @@ export default function Component() {
                 You can add items to a list, remove items from a list, and
                 perform other operations on lists as well.
               </p>
+
+              <p className="text-sm">How to run a list in Python</p>
+              <pre className="bg-gray-100 p-4 rounded-md text-sm">
+                {`
+                x = [1, 2, 3, 4, 5]
+                y = [6, 7, 8, 9, 10]
+
+                z = x + y
+
+                print(z)
+                [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+                `}
+              </pre>
+
               <p className="text-sm">
                 <span className="font-semibold">Dictionaries</span>
               </p>
               <p className="text-sm">
                 Dictionaries are collections of key-value pairs, such as
-                {"{"}{" "}
-                "name": "Alice", "age": 30, "city": "New York" {"}"}.
+                {"{"} "name": "Alice", "age": 30, "city": "New York" {"}"}.
                 Dictionaries are useful for storing structured data and
                 retrieving it quickly.
               </p>
+              <p className="text-sm">How to run a disctionary in Python</p>
+
+              <pre className="bg-gray-100 p-4 rounded-md text-sm">
+                {`
+                x = {"name": "Alice", "age": 30, "city": "New York"}
+                y = {"name": "Bob", "age": 25, "city": "Los Angeles"}
+
+                z = x["name"] + " is " + str(x["age"]) + " years old."
+
+                print(z)
+                Alice is 30 years old.
+                `}
+              </pre>
+
               <p className="text-sm">
                 <span className="font-semibold">Tuples</span>
               </p>
@@ -226,6 +279,22 @@ export default function Component() {
                 they are immutable, meaning you cannot change the items in a
                 tuple once it has been created.
               </p>
+
+              <p className="text-sm">How to run a Tuples in Python</p>
+
+              <pre className="bg-gray-100 p-4 rounded-md text-sm">
+                {`
+                x = (1, 2, 3, 4, 5)
+                y = (6, 7, 8, 9, 10)
+
+                z = x + y
+
+                print(z)
+                (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+
+                `}
+              </pre>
+
               <p className="text-sm">
                 <span className="font-semibold">Sets</span>
               </p>
@@ -234,15 +303,50 @@ export default function Component() {
                 {"{"}1, 2, 3, 4, 5{"}"}. Sets are useful for performing set
                 operations, such as union, intersection, and difference.
               </p>
+              <p className="text-sm">How to run Sets in Python</p>
+
+              <pre className="bg-gray-100 p-4 rounded-md text-sm">
+                {`
+                x = {1, 2, 3, 4, 5}
+                y = {4, 5, 6, 7, 8}
+
+                z = x.union(y)
+
+                print(z)
+
+                {1, 2, 3, 4, 5, 6, 7, 8}
+
+                `}
+              </pre>
+
               <p className="text-sm">
                 <span className="font-semibold">Booleans</span>
               </p>
               <p className="text-sm">
                 Booleans are values that can be either True or False. Booleans
-                are useful for representing the truth value of an expression, and
-                for controlling the flow of a program with conditional
+                are useful for representing the truth value of an expression,
+                and for controlling the flow of a program with conditional
                 statements.
               </p>
+
+              <p className="text-sm">How to run Booleans in Python</p>
+
+              <pre className="bg-gray-100 p-4 rounded-md text-sm">
+                {`
+                x = True
+                y = False
+
+                if x:
+                  print("x is True")
+                else:
+                  print("x is False")
+
+                if y:
+                  print("y is True")
+                else:
+                  print("y is False")
+                `}
+              </pre>
 
               <h4 className="font-semibold">Control Structures</h4>
               <p className="text-sm">
@@ -253,23 +357,81 @@ export default function Component() {
                 use if statements to check if a condition is True or False, and
                 execute different code based on the result.
               </p>
+
+              <p className="text-sm">How to run a if statements in Python</p>
+
+              <pre className="bg-gray-100 p-4 rounded-md text-sm">
+                {`
+                x = 5
+
+                if x > 0:
+                  print("x is positive")
+
+                if x < 0:
+
+                  
+                  print("x is negative")
+
+                if x == 0:
+
+                  print("x is zero")
+
+                `}
+              </pre>
+
               <p className="text-sm">
                 <span className="font-semibold">For loops</span>
               </p>
               <p className="text-sm">
-                For loops are used to iterate over a sequence of items, such as a
-                list or a string. You can use for loops to perform the same
+                For loops are used to iterate over a sequence of items, such as
+                a list or a string. You can use for loops to perform the same
                 operation on each item in the sequence.
               </p>
+
+              <p className="text-sm">How to run a for loop in Python</p>
+
+              <pre className="bg-gray-100 p-4 rounded-md text-sm">
+                {`
+                x = [1, 2, 3, 4, 5]
+
+                for item in x:
+                  print(item)
+
+                1
+                2
+                3
+                4
+                5
+                  
+                `}
+              </pre>
+
               <p className="text-sm">
                 <span className="font-semibold">While loops</span>
               </p>
               <p className="text-sm">
                 While loops are used to repeat a block of code as long as a
-
                 condition is True. You can use while loops to perform an
                 operation repeatedly until a certain condition is met.
               </p>
+              <p className="text-sm">How to run a while loop in Python</p>
+
+              <pre className="bg-gray-100 p-4 rounded-md text-sm">
+                {`
+                x = 0
+
+                while x < 5:
+                  print(x)
+                  x += 1
+
+                0
+                1
+                2
+                3
+                4
+                `}
+              </pre>
+
               <p className="text-sm">
                 <span className="font-semibold">Functions</span>
               </p>
@@ -279,6 +441,19 @@ export default function Component() {
                 throughout your program. Functions are useful for organizing
                 your code and making it more readable.
               </p>
+              <p className="text-sm">How to run a function in Python</p>
+
+              <pre className="bg-gray-100 p-4 rounded-md text-sm">
+                {`
+                def greet(name):
+                  print("Hello, " + name + "!")
+
+                greet("Alice")
+                greet("Bob")
+                greet("Charlie")
+                `}
+              </pre>
+
               <p className="text-sm">
                 <span className="font-semibold">Classes</span>
               </p>
@@ -288,15 +463,46 @@ export default function Component() {
                 objects from that class. Classes are useful for modeling real-
                 world objects and their behavior.
               </p>
+              <p className="text-sm">How to run a class in Python</p>
+
+              <pre className="bg-gray-100 p-4 rounded-md text-sm">
+                {`
+                class Person:
+                  def __init__(self, name, age):
+                    self.name = name
+                    self.age = age
+
+                  def greet(self):
+                    print("Hello, am" + self.name + " and I am " + str(self.age) + " years old.")
+
+                alice = Person("Alice", 30)
+                bob = Person("Bob", 25)
+
+                alice.greet()
+                bob.greet()
+                `}
+              </pre>
+
               <p className="text-sm">
                 <span className="font-semibold">Modules</span>
               </p>
               <p className="text-sm">
                 Modules are files that contain Python code. You can import
                 modules into your program and use the functions and classes
-                defined in them. Modules are useful for organizing your code into
-                separate files and reusing code across multiple programs.
+                defined in them. Modules are useful for organizing your code
+                into separate files and reusing code across multiple programs.
               </p>
+              <p className="text-sm">How to run a module in Python</p>
+
+              <pre className="bg-gray-100 p-4 rounded-md text-sm">
+                {`
+                # mymodule.py
+
+                def greet(name):
+                  print("Hello, " + name + "!")
+                `}
+              </pre>
+
               <p className="text-sm">
                 <span className="font-semibold">Packages</span>
               </p>
@@ -307,25 +513,80 @@ export default function Component() {
                 for organizing your code into a hierarchical structure and
                 reusing code across multiple programs.
               </p>
+              <p className="text-sm">How to run a package in Python</p>
+
+              <pre className="bg-gray-100 p-4 rounded-md text-sm">
+                {`
+                # mypackage/__init__.py
+
+                from .mymodule import greet
+                `}
+
+                {`
+                # mypackage/mymodule.py
+
+                def greet(name):
+                  print("Hello, " + name + "!")
+                `}
+
+                {`
+                # main.py
+
+                from mypackage import greet
+
+                greet("Alice")
+                `}
+              </pre>
+
               <p className="text-sm">
                 <span className="font-semibold">Error Handling</span>
               </p>
               <p className="text-sm">
                 Error handling is the process of dealing with errors that occur
                 in a program. You can use try-except blocks to catch and handle
-                errors in your code. Error handling is useful for preventing your
-                program from crashing when an error occurs.
+                errors in your code. Error handling is useful for preventing
+                your program from crashing when an error occurs.
               </p>
+              <p className="text-sm">How to run a error handling in Python</p>
+
+              <pre className="bg-gray-100 p-4 rounded-md text-sm">
+                {`
+                try:
+                  x = 1 / 0
+                except ZeroDivisionError:
+                  print("Cannot divide by zero!")
+                `}
+              </pre>
+
               <p className="text-sm">
                 <span className="font-semibold">File Handling</span>
               </p>
               <p className="text-sm">
-                File handling is the process of reading from and writing to files
-                on your computer. You can use the built-in open function to open
-                a file, read from it, write to it, and close it when you're done.
-                File handling is useful for working with data stored in files on
-                your computer.
+                File handling is the process of reading from and writing to
+                files on your computer. You can use the built-in open function
+                to open a file, read from it, write to it, and close it when
+                you're done. File handling is useful for working with data
+                stored in files on your computer.
               </p>
+
+              <p className="text-sm">How to run a file handling in Python</p>
+
+              <pre className="bg-gray-100 p-4 rounded-md text-sm">
+                {`
+                # Write to a file
+                with open("example.txt", "w") as file:
+                  file.write("Hello, World!")
+
+                # Read from a file
+                with open("example.txt", "r") as file:
+                  content = file.read()
+
+                print(content)
+                Hello, World!
+
+                `}
+              </pre>
+
               <p className="text-sm">
                 <span className="font-semibold">Conclusion</span>
               </p>
@@ -334,34 +595,28 @@ export default function Component() {
                 widely used in the software development industry. In this guide,
                 we covered the basics of Python, including how to install it,
                 data types, control structures, functions, classes, modules,
-                packages, error handling, and file handling. With this knowledge,
-                you can start writing your own Python programs and take your
-                programming skills to the next level.
+                packages, error handling, and file handling. With this
+                knowledge, you can start writing your own Python programs and
+                take your programming skills to the next level.
               </p>
 
               <Button size="sm" className="bg-[#2D1537]">
                 <FaGithub className="w-4 h-4 mr-2" />
-                Discuss on Github 
+                Discuss on Github
               </Button>
-
-              
-
-              
-
-
             </CardContent>
           </Card>
         </div>
         <div className="space-y-6">
           <Card>
             <CardHeader>
-              <CardTitle>More Tips</CardTitle>
+              <CardTitle>Table of content</CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="flex items-center space-x-4">
                 <PlayCircle className="w-8 h-8 text-zinc-500" />
                 <div>
-                  <p className="font-semibold">Type Predicates</p>
+                  <p className="font-semibold"> </p>
                   <p className="text-sm text-zinc-600">1 min</p>
                 </div>
               </div>
