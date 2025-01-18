@@ -167,6 +167,22 @@ export default function Component() {
                 You can perform arithmetic operations on integers, such as adding
                 them together, subtracting them, multiplying them, and so on.
               </p>
+
+              <p className="text-sm">
+                How to run an integer in Python
+              </p>
+              <pre className="bg-gray-100 p-4 rounded-md text-sm">
+                {`
+                x = 5
+                y = 10
+
+                z = x + y
+
+                print(z)
+                15
+                `}
+              </pre>
+
               <p className="text-sm">
                 <span className="font-semibold">Floats</span>
               </p>
