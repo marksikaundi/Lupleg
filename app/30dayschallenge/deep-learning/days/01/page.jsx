@@ -518,12 +518,6 @@ export default function Component() {
 
               <pre className="bg-gray-100 p-4 rounded-md text-sm">
                 {`
-                # mypackage/__init__.py
-
-                from .mymodule import greet
-                `}
-
-                {`
                 # mypackage/mymodule.py
 
                 def greet(name):
@@ -631,9 +625,7 @@ export default function Component() {
               <div className="flex items-center space-x-4">
                 <PlayCircle className="w-8 h-8 text-zinc-500" />
                 <Link href="#integers">
-                <p className="font-semibold">
-                  Integers
-                  </p>
+                  <p className="font-semibold">Integers</p>
                   <p className="text-sm text-zinc-600">5 mins</p>
                 </Link>
               </div>
@@ -647,36 +639,28 @@ export default function Component() {
               <div className="flex items-center space-x-4">
                 <PlayCircle className="w-8 h-8 text-zinc-500" />
                 <Link href="#strings">
-                  <p className="font-semibold">
-                    Strings
-                  </p>
+                  <p className="font-semibold">Strings</p>
                   <p className="text-sm text-zinc-600">1 min</p>
                 </Link>
               </div>
               <div className="flex items-center space-x-4">
                 <PlayCircle className="w-8 h-8 text-zinc-500" />
                 <div>
-                  <p className="font-semibold">
-                    Lists
-                  </p>
+                  <p className="font-semibold">Lists</p>
                   <p className="text-sm text-zinc-600">1 min</p>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
                 <PlayCircle className="w-8 h-8 text-zinc-500" />
                 <Link href="#dictionaries">
-                  <p className="font-semibold">
-                  Dictionaries
-                  </p>
+                  <p className="font-semibold">Dictionaries</p>
                   <p className="text-sm text-zinc-600">1 min</p>
                 </Link>
               </div>
               <div className="flex items-center space-x-4">
                 <PlayCircle className="w-8 h-8 text-zinc-500" />
                 <Link href="#tuples">
-                  <p className="font-semibold">
-                    Tuples
-                  </p>
+                  <p className="font-semibold">Tuples</p>
                   <p className="text-sm text-zinc-600">1 min</p>
                 </Link>
               </div>
