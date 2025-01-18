@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { PlayCircle } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import { BsFillThreadsFill } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
@@ -127,7 +128,7 @@ export default function Component() {
                 You can now start writing Python programs on your computer.
               </p>
               <h4 className="font-semibold">Getting Started</h4>
-              <p className="text-sm">
+              <p id="basics" className="text-sm">
                 <span className="font-semibold">0:10</span>
                 Once you have installed Python, you can start writing your first
                 Python program. Here's an example of a simple "Hello, World!"
@@ -142,7 +143,7 @@ export default function Component() {
               You get a "Hello, World!" message in the console when you run this program.
               `}
               </pre>
-              <p className="text-sm">
+              <p id="data-types" className="text-sm">
                 <span className="font-semibold">Data types in python</span>
                 Python has several built-in data types that you can use to store
                 different types of data. Some of the most common data types in
@@ -159,7 +160,7 @@ export default function Component() {
                 <li>Booleans</li>
               </ul>
 
-              <p className="text-sm">
+              <p id="integers" className="text-sm">
                 <span className="font-semibold">Integers</span>
               </p>
               <p className="text-sm">
@@ -182,7 +183,7 @@ export default function Component() {
                 `}
               </pre>
 
-              <p className="text-sm">
+              <p id="float" className="text-sm">
                 <span className="font-semibold">Floats</span>
               </p>
               <p className="text-sm">
@@ -204,7 +205,7 @@ export default function Component() {
                 `}
               </pre>
 
-              <p className="text-sm">
+              <p id="strings" className="text-sm">
                 <span className="font-semibold">Strings</span>
               </p>
               <p className="text-sm">
@@ -226,7 +227,7 @@ export default function Component() {
                 `}
               </pre>
 
-              <p className="text-sm">
+              <p id="lists" className="text-sm">
                 <span className="font-semibold">Lists</span>
               </p>
               <p className="text-sm">
@@ -248,7 +249,7 @@ export default function Component() {
                 `}
               </pre>
 
-              <p className="text-sm">
+              <p id="dictionaries" className="text-sm">
                 <span className="font-semibold">Dictionaries</span>
               </p>
               <p className="text-sm">
@@ -271,7 +272,7 @@ export default function Component() {
                 `}
               </pre>
 
-              <p className="text-sm">
+              <p id="tuples" className="text-sm">
                 <span className="font-semibold">Tuples</span>
               </p>
               <p className="text-sm">
@@ -615,83 +616,83 @@ export default function Component() {
             <CardContent className="space-y-4">
               <div className="flex items-center space-x-4">
                 <PlayCircle className="w-8 h-8 text-zinc-500" />
-                <div>
-                  <p className="font-semibold"> </p>
+                <Link href="#basics">
+                  <p className="font-semibold">Get started </p>
                   <p className="text-sm text-zinc-600">1 min</p>
-                </div>
+                </Link>
               </div>
               <div className="flex items-center space-x-4">
                 <PlayCircle className="w-8 h-8 text-zinc-500" />
-                <div>
-                  <p className="font-semibold">How to Name your Types</p>
-                  <p className="text-sm text-zinc-600">4 mins</p>
-                </div>
+                <Link href="#data-types">
+                  <p className="font-semibold">Data types in python</p>
+                  <p className="text-sm text-zinc-600">2 mins</p>
+                </Link>
               </div>
               <div className="flex items-center space-x-4">
                 <PlayCircle className="w-8 h-8 text-zinc-500" />
-                <div>
-                  <p className="font-semibold">
-                    Don't use return types, unless...
+                <Link href="#integers">
+                <p className="font-semibold">
+                  Integers
                   </p>
                   <p className="text-sm text-zinc-600">5 mins</p>
-                </div>
+                </Link>
               </div>
               <div className="flex items-center space-x-4">
                 <PlayCircle className="w-8 h-8 text-zinc-500" />
-                <div>
-                  <p className="font-semibold">TypeScript 5.0 Beta Deep Dive</p>
+                <Link href="#float">
+                  <p className="font-semibold"> Floats </p>
                   <p className="text-sm text-zinc-600">6 mins</p>
-                </div>
+                </Link>
+              </div>
+              <div className="flex items-center space-x-4">
+                <PlayCircle className="w-8 h-8 text-zinc-500" />
+                <Link href="#strings">
+                  <p className="font-semibold">
+                    Strings
+                  </p>
+                  <p className="text-sm text-zinc-600">1 min</p>
+                </Link>
               </div>
               <div className="flex items-center space-x-4">
                 <PlayCircle className="w-8 h-8 text-zinc-500" />
                 <div>
                   <p className="font-semibold">
-                    Conform a Derived Type Without Losing Its Literal Values
+                    Lists
                   </p>
                   <p className="text-sm text-zinc-600">1 min</p>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
                 <PlayCircle className="w-8 h-8 text-zinc-500" />
-                <div>
+                <Link href="#dictionaries">
                   <p className="font-semibold">
-                    Conform a Derived Type Without Losing Its Literal Values
+                  Dictionaries
                   </p>
                   <p className="text-sm text-zinc-600">1 min</p>
-                </div>
+                </Link>
               </div>
               <div className="flex items-center space-x-4">
                 <PlayCircle className="w-8 h-8 text-zinc-500" />
-                <div>
+                <Link href="#tuples">
                   <p className="font-semibold">
-                    Conform a Derived Type Without Losing Its Literal Values
+                    Tuples
                   </p>
                   <p className="text-sm text-zinc-600">1 min</p>
-                </div>
-              </div>
-              <div className="flex items-center space-x-4">
-                <PlayCircle className="w-8 h-8 text-zinc-500" />
-                <div>
-                  <p className="font-semibold">
-                    Conform a Derived Type Without Losing Its Literal Values
-                  </p>
-                  <p className="text-sm text-zinc-600">1 min</p>
-                </div>
+                </Link>
               </div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-4">
               <h3 className="font-semibold mb-2">
-                New TypeScript tips delivered to your inbox:
+                Subscribe to our newsletter for better experience
               </h3>
               <div className="flex space-x-2">
                 <Input placeholder="Preferred name" className="flex-grow" />
                 <Input placeholder="you@example.com" className="flex-grow" />
               </div>
               <Button className="w-full mt-2">
-                Subscribe for TypeScript tips
+                Subscribe for Deep learning tips
               </Button>
             </CardContent>
           </Card>
