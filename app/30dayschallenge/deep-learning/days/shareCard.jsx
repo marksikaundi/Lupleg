@@ -3,11 +3,11 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Linkedin, Link } from "lucide-react";
-import { toast } from "@/components/ui/toast";
 import { FaFacebook } from "react-icons/fa6";
 import { IoReturnUpBack } from "react-icons/io5";
 import { FaXTwitter } from "react-icons/fa6";
 import { useRouter } from "next/navigation";
+import { toast } from "@/hooks/use-toast";
 
 export default function SharePost({
   title = "Check out this post!",

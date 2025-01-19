@@ -6,10 +6,10 @@ const newsItems = [
   {
     category: "RESEARCH",
     title:
-      "AlphaProteo generates novel proteins for biology and health research",
+      "Basics of Python and Machine Learning All you need know",
     description:
-      "New AI system designs proteins that successfully bind to target molecules, with...",
-    date: "5 SEPTEMBER 2024",
+      "Basic Python syntax, covering variables, data types, loops, and conditionals with examples and explanations.",
+    date: "19 JANUARY 2025",
     image: "https://www.lupleg.org/ml/alpha.webp",
     link: "/30dayschallenge/deep-learning/days/1",
   },
