@@ -110,7 +110,7 @@ export default function Component() {
             <h1 className="text-4xl md:text-6xl font-bold mb-4 max-w-4xl mx-auto">
               The future of technology is here, we are introducing ML at Lupleg.
             </h1>
-            <Link href="/resources/machine-learning">
+            <Link href="/30dayschallenge/deep-learning/">
               <Button className="bg-[#2D1537] hover:bg-[#2D1537] text-white font-bold py-2 px-4 mt-6 rounded">
                 Learn more
               </Button>
