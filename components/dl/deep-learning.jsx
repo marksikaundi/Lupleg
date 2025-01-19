@@ -20,6 +20,26 @@ const newsItems = [
       "Using deep learning to solve fundamental problems in computational quantum...",
     date: "22 AUGUST 2024",
     image: "https://www.lupleg.org/ml/FermiNet.webp",
+    link: "/30dayschallenge/deep-learning/days/1",
+  },
+  {
+    category: "COMPANY",
+    title:
+      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+    description:
+      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
+    date: "5 AUGUST 2024",
+    image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
+    link: "/30dayschallenge/deep-learning/days/2",
+  },
+  {
+    category: "COMPANY",
+    title:
+      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+    description:
+      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
+    date: "5 AUGUST 2024",
+    image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
     link: "/30dayschallenge/deep-learning/days/2",
   },
   {
@@ -42,19 +62,264 @@ const newsItems = [
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
     link: "/30dayschallenge/deep-learning/days/3",
   },
+  {
+    category: "COMPANY",
+    title:
+      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+    description:
+      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
+    date: "5 AUGUST 2024",
+    image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
+    link: "/30dayschallenge/deep-learning/days/4",
+  },
+  {
+    category: "COMPANY",
+    title:
+      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+    description:
+      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
+    date: "5 AUGUST 2024",
+    image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
+    link: "/30dayschallenge/deep-learning/days/4",
+  },
+  {
+    category: "COMPANY",
+    title:
+      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+    description:
+      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
+    date: "5 AUGUST 2024",
+    image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
+    link: "/30dayschallenge/deep-learning/days/5",
+  },
+  {
+    category: "COMPANY",
+    title:
+      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+    description:
+      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
+    date: "5 AUGUST 2024",
+    image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
+    link: "/30dayschallenge/deep-learning/days/5",
+  },
+  {
+    category: "COMPANY",
+    title:
+      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+    description:
+      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
+    date: "5 AUGUST 2024",
+    image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
+    link: "/30dayschallenge/deep-learning/days/3",
+  },
+  {
+    category: "COMPANY",
+    title:
+      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+    description:
+      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
+    date: "5 AUGUST 2024",
+    image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
+    link: "/30dayschallenge/deep-learning/days/6",
+  },
+  {
+    category: "COMPANY",
+    title:
+      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+    description:
+      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
+    date: "5 AUGUST 2024",
+    image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
+    link: "/30dayschallenge/deep-learning/days/6",
+  },
+  {
+    category: "COMPANY",
+    title:
+      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+    description:
+      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
+    date: "5 AUGUST 2024",
+    image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
+    link: "/30dayschallenge/deep-learning/days/7",
+  },
+  {
+    category: "COMPANY",
+    title:
+      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+    description:
+      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
+    date: "5 AUGUST 2024",
+    image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
+    link: "/30dayschallenge/deep-learning/days/7",
+  },
+  {
+    category: "COMPANY",
+    title:
+      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+    description:
+      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
+    date: "5 AUGUST 2024",
+    image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
+    link: "/30dayschallenge/deep-learning/days/8",
+  },
+  {
+    category: "COMPANY",
+    title:
+      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+    description:
+      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
+    date: "5 AUGUST 2024",
+    image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
+    link: "/30dayschallenge/deep-learning/days/8",
+  },
+  {
+    category: "COMPANY",
+    title:
+      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+    description:
+      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
+    date: "5 AUGUST 2024",
+    image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
+    link: "/30dayschallenge/deep-learning/days/9",
+  },
+  {
+    category: "COMPANY",
+    title:
+      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+    description:
+      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
+    date: "5 AUGUST 2024",
+    image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
+    link: "/30dayschallenge/deep-learning/days/9",
+  },
+  {
+    category: "COMPANY",
+    title:
+      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+    description:
+      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
+    date: "5 AUGUST 2024",
+    image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
+    link: "/30dayschallenge/deep-learning/days/10",
+  },
+  {
+    category: "COMPANY",
+    title:
+      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+    description:
+      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
+    date: "5 AUGUST 2024",
+    image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
+    link: "/30dayschallenge/deep-learning/days/10",
+  },
+  {
+    category: "COMPANY",
+    title:
+      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+    description:
+      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
+    date: "5 AUGUST 2024",
+    image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
+    link: "/30dayschallenge/deep-learning/days/11",
+  },
+  {
+    category: "COMPANY",
+    title:
+      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+    description:
+      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
+    date: "5 AUGUST 2024",
+    image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
+    link: "/30dayschallenge/deep-learning/days/11",
+  },
+  {
+    category: "COMPANY",
+    title:
+      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+    description:
+      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
+    date: "5 AUGUST 2024",
+    image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
+    link: "/30dayschallenge/deep-learning/days/12",
+  },
+  {
+    category: "COMPANY",
+    title:
+      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+    description:
+      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
+    date: "5 AUGUST 2024",
+    image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
+    link: "/30dayschallenge/deep-learning/days/12",
+  },
+  {
+    category: "COMPANY",
+    title:
+      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+    description:
+      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
+    date: "5 AUGUST 2024",
+    image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
+    link: "/30dayschallenge/deep-learning/days/13",
+  },
+  {
+    category: "COMPANY",
+    title:
+      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+    description:
+      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
+    date: "5 AUGUST 2024",
+    image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
+    link: "/30dayschallenge/deep-learning/days/13",
+  },
+  {
+    category: "COMPANY",
+    title:
+      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+    description:
+      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
+    date: "5 AUGUST 2024",
+    image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
+    link: "/30dayschallenge/deep-learning/days/14",
+  },
+  {
+    category: "COMPANY",
+    title:
+      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+    description:
+      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
+    date: "5 AUGUST 2024",
+    image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
+    link: "/30dayschallenge/deep-learning/days/14",
+  },
+  {
+    category: "PROJECTS IDEAS",
+    title:
+      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+    description:
+      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
+    date: "5 AUGUST 2024",
+    image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
+    link: "/30dayschallenge/deep-learning/days/15",
+  },
 ];
 
-export default function DeepLearning() {  
+export default function DeepLearning() {
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="flex justify-between items-center mb-6">
-        <h2 className="text-3xl font-bold">Latest updates</h2>
-        <Link href="#/all-posts" className="text-[#2D1537] hover:underline">
-          Repository
+        <h2 className="text-5xl text-[#2D1537] font-bold border border-[#2D1537] p-4 ">
+          Latest challenge
+        </h2>
+        <Link
+          href="https://github.com/Lupleg/30DaysOfDeepLearning"
+          className="text-[#2D1537] hover:underline"
+        >
+          Markdown Repository
         </Link>
       </div>
       <p className="text-gray-600 mb-8">
-        Discover our latest AI breakthroughs and updates from the Lupleg lab
+        Everything you need to know about deep learning in 30 days.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {newsItems.map((item, index) => (

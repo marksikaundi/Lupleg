@@ -8,7 +8,7 @@ export default function BackCard() {
   const router = useRouter();
 
   const handleBack = () => {
-    router.push("/research");
+    router.push("/30dayschallenge/deep-learning");
   };
 
   return (

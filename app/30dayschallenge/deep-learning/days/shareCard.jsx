@@ -11,7 +11,7 @@ import { useRouter } from "next/navigation";
 
 export default function SharePost({
   title = "Check out this post!",
-  url = "https://lupleg.org/research",
+  url = "https://lupleg.org//30dayschallenge/deep-learning",
 }) {
   const [isCopied, setIsCopied] = useState(false);
 
@@ -43,7 +43,7 @@ export default function SharePost({
   const router = useRouter();
 
   const handleBack = () => {
-    router.push("/research");
+    router.push("/30dayschallenge/deep-learning");
   };
 
   const copyToClipboard = () => {

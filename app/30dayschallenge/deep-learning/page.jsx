@@ -106,10 +106,10 @@ export default function Component() {
         <main className="relative z-20 flex items-center justify-center min-h-screen">
           <div className="text-center text-white px-4">
             <span className="inline-block bg-[#F3A833] text-xs font-semibold px-2 py-1 rounded mb-4">
-              TECHNOLOGY
+              DEEP LEARNING
             </span>
             <h1 className="text-4xl md:text-6xl font-bold mb-4 max-w-4xl mx-auto">
-              The future of technology is here, we are introducing ML at Lupleg.
+              30DaysChallenge to deep learning with all key concepts.
             </h1>
             <Link href="/30dayschallenge/deep-learning/">
               <Button className="bg-[#2D1537] hover:bg-[#2D1537] text-white font-bold py-2 px-4 mt-6 rounded">
