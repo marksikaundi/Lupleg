@@ -1,236 +1,126 @@
 "use client";
 
-import { useState } from "react";
-import { Search } from "lucide-react";
-import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
+import { Overlay } from "@radix-ui/react-dialog";
+import {
+  Play,
+  Pause,
+  Volume2,
+  VolumeX,
+  Maximize,
+  Minimize,
+} from "lucide-react";
+import React, { useState, useRef, useEffect } from "react";
+import Overview from "@/components/ml/Overview";
 import Link from "next/link";
 
-const allTips = [
-  { 
-    title: "Introduction to Deep Learning", 
-    duration: "2 hrs", 
-    link: "/30dayschallenge/deep-learning/days/01/" 
-  },
-  { 
-    title: "Mathematics for Deep Learning: Linear Algebra", 
-    duration: "3 hrs", 
-    link: "/30dayschallenge/deep-learning/days/02/" 
-  },
-  {
-    title: "Mathematics for Deep Learning: Calculus",
-    duration: "3 hrs",
-    link: "/30dayschallenge/deep-learning/days/03/",
-  },
-  {
-    title: "Mathematics for Deep Learning: Probability and Statistics",
-    duration: "3 hrs",
-    link: "/30dayschallenge/deep-learning/days/04/",
-  },
-  {
-    title: "Neural Networks Basics: Perceptrons and Activation Functions",
-    duration: "3 hrs",
-    link: "/30dayschallenge/deep-learning/days/05/",
-  },
-  {
-    title: "Neural Networks Basics: Network Architecture and Layers",
-    duration: "3 hrs",
-    link: "/30dayschallenge/deep-learning/days/06/",
-  },
-  {
-    title: "Training Neural Networks: Forward Propagation and Loss Functions",
-    duration: "3 hrs",
-    link: "/30dayschallenge/deep-learning/days/07/",
-  },
-  {
-    title: "Training Neural Networks: Backpropagation and Gradient Descent",
-    duration: "3 hrs",
-    link: "/30dayschallenge/deep-learning/days/08/",
-  },
-  {
-    title: "Optimization Techniques: Advanced Optimizers (Adam, RMSprop)",
-    duration: "3 hrs",
-    link: "/30dayschallenge/deep-learning/days/09/",
-  },
-  {
-    title: "Regularization Techniques: Dropout and L2/L1 Regularization",
-    duration: "3 hrs",
-    link: "/30dayschallenge/deep-learning/days/10/",
-  },
-  {
-    title: "Regularization Techniques: Batch Normalization",
-    duration: "3 hrs",
-    link: "/30dayschallenge/deep-learning/days/11/",
-  },
-  {
-    title: "Hyperparameter Tuning: Grid Search and Random Search",
-    duration: "3 hrs",
-    link: "/30dayschallenge/deep-learning/days/12/",
-  },
-  {
-    title: "Hyperparameter Tuning: Bayesian Optimization",
-    duration: "3 hrs",
-    link: "/30dayschallenge/deep-learning/days/13/",
-  },
-  {
-    title: "Deep Learning Frameworks: Introduction to TensorFlow and Keras",
-    duration: "3 hrs",
-    link: "/30dayschallenge/deep-learning/days/14/",
-  },
-  {
-    title: "Convolutional Neural Networks (CNNs): Architecture and Convolutional Layers",
-    duration: "4 hrs",
-    link: "/30dayschallenge/deep-learning/days/15/",
-  },
-  {
-    title: "Convolutional Neural Networks (CNNs): Pooling Layers and Applications",
-    duration: "4 hrs",
-    link: "/30dayschallenge/deep-learning/days/16/",
-  },
-  {
-    title: "Advanced CNN Architectures: ResNet and Inception",
-    duration: "4 hrs",
-    link: "/30dayschallenge/deep-learning/days/17/",
-  },
-  {
-    title: "Advanced CNN Architectures: MobileNet and EfficientNet",
-    duration: "4 hrs",
-    link: "/30dayschallenge/deep-learning/days/18/",
-  },
-  {
-    title: "Recurrent Neural Networks (RNNs): Architecture and Applications",
-    duration: "4 hrs",
-    link: "/30dayschallenge/deep-learning/days/19/",
-  },
-  {
-    title: "Long Short-Term Memory (LSTM) Networks: Architecture and Applications",
-    duration: "4 hrs",
-    link: "/30dayschallenge/deep-learning/days/20/",
-  },
-  {
-    title: "Gated Recurrent Units (GRUs): Architecture and Applications",
-    duration: "4 hrs",
-    link: "/30dayschallenge/deep-learning/days/21/",
-  },
-  {
-    title: "Natural Language Processing (NLP): Tokenization and Embeddings",
-    duration: "4 hrs",
-    link: "/30dayschallenge/deep-learning/days/22/",
-  },
-  {
-    title: "Transformers and Attention Mechanisms: Self-Attention and BERT",
-    duration: "4 hrs",
-    link: "/30dayschallenge/deep-learning/days/23/",
-  },
-  {
-    title: "Generative Adversarial Networks (GANs): Architecture and Training",
-    duration: "4 hrs",
-    link: "/30dayschallenge/deep-learning/days/24/",
-  },
-  {
-    title: "Autoencoders: Architecture and Applications",
-    duration: "4 hrs",
-    link: "/30dayschallenge/deep-learning/days/25/",
-  },
-  {
-    title: "Variational Autoencoders (VAEs): Architecture and Applications",
-    duration: "4 hrs",
-    link: "/30dayschallenge/deep-learning/days/26/",
-  },
-  {
-    title: "Reinforcement Learning: Basics and Q-Learning",
-    duration: "4 hrs",
-    link: "/30dayschallenge/deep-learning/days/27/",
-  },
-  {
-    title: "Deep Reinforcement Learning: DQN and Policy Gradients",
-    duration: "4 hrs",
-    link: "/30dayschallenge/deep-learning/days/28/",
-  },
-  {
-    title: "Transfer Learning: Pre-Trained Models and Fine-Tuning",
-    duration: "4 hrs",
-    link: "/30dayschallenge/deep-learning/days/29/",
-  },
-  {
-    title: "Project Work: Implement a Deep Learning Project",
-    duration: "6 hrs",
-    link: "/30dayschallenge/deep-learning/days/30/",
-  }
-];
+export default function Component() {
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [volume, setVolume] = useState(1);
+  const [currentTime, setCurrentTime] = useState(0);
+  const [duration, setDuration] = useState(0);
+  const [isFullscreen, setIsFullscreen] = useState(false);
+  const videoRef = useRef(null);
+  const playerRef = useRef(null);
 
+  useEffect(() => {
+    const video = videoRef.current;
+    if (video) {
+      video.addEventListener("timeupdate", handleTimeUpdate);
+      video.addEventListener("loadedmetadata", handleLoadedMetadata);
+      return () => {
+        video.removeEventListener("timeupdate", handleTimeUpdate);
+        video.removeEventListener("loadedmetadata", handleLoadedMetadata);
+      };
+    }
+  }, []);
 
-export default function TipsPage() {
-  const [searchQuery, setSearchQuery] = useState("");
-  const [tips, setTips] = useState(allTips);
+  const togglePlay = () => {
+    if (videoRef.current) {
+      if (isPlaying) {
+        videoRef.current.pause();
+      } else {
+        videoRef.current.play();
+      }
+      setIsPlaying(!isPlaying);
+    }
+  };
 
-  const handleSearch = () => {
-    const query = event.target.value.toLowerCase();
-    setSearchQuery(query);
-    const filteredTips = allTips.filter((tip) =>
-      tip.title.toLowerCase().includes(query)
-    );
-    setTips(filteredTips);
+  const handleVolumeChange = (e) => {
+    const newVolume = parseFloat(e.target.value);
+    setVolume(newVolume);
+    if (videoRef.current) {
+      videoRef.current.volume = newVolume;
+    }
+  };
+
+  const handleTimeUpdate = () => {
+    if (videoRef.current) {
+      setCurrentTime(videoRef.current.currentTime);
+    }
+  };
+
+  const handleLoadedMetadata = () => {
+    if (videoRef.current) {
+      setDuration(videoRef.current.duration);
+    }
+  };
+
+  const handleProgressChange = (e) => {
+    const time = parseFloat(e.target.value);
+    setCurrentTime(time);
+    if (videoRef.current) {
+      videoRef.current.currentTime = time;
+    }
+  };
+
+  const toggleFullscreen = () => {
+    if (!document.fullscreenElement) {
+      playerRef.current?.requestFullscreen();
+      setIsFullscreen(true);
+    } else {
+      document.exitFullscreen();
+      setIsFullscreen(false);
+    }
+  };
+
+  const formatTime = (time) => {
+    const minutes = Math.floor(time / 60);
+    const seconds = Math.floor(time % 60);
+    return `${minutes}:${seconds.toString().padStart(2, "0")}`;
   };
 
   return (
-    <div className="min-h-screen  text-white  mb-10 p-8 flex flex-col items-center justify-start">
-      <div className="w-full max-w-3xl space-y-8">
-        {/* Comet image placeholder */}
-        <div className="h-40 flex items-center justify-center">
-          <div className="w-20 h-20 bg-[#2D1537] rounded-full blur-2xl opacity-50"></div>
-        </div>
+    <div>
+      <div className="relative min-h-screen overflow-hidden bg-teal-800">
+        <video
+          ref={videoRef}
+          className="absolute inset-0 object-cover w-full h-full z-0"
+          src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+          autoPlay
+          loop
+          muted
+        />
+        <div className="absolute inset-0 bg-teal-800 opacity-50 z-10"></div>
+        <main className="relative z-20 flex items-center justify-center min-h-screen">
+          <div className="text-center text-white px-4">
+            <span className="inline-block bg-[#F3A833] text-xs font-semibold px-2 py-1 rounded mb-4">
+              TECHNOLOGY
+            </span>
+            <h1 className="text-4xl md:text-6xl font-bold mb-4 max-w-4xl mx-auto">
+              The future of technology is here, we are introducing ML at Lupleg.
+            </h1>
+            <Link href="/resources/machine-learning">
+              <Button className="bg-[#2D1537] hover:bg-[#2D1537] text-white font-bold py-2 px-4 mt-6 rounded">
+                Learn more
+              </Button>
+            </Link>
+          </div>
+        </main>
+      </div>
 
-        <h1 className="text-5xl font-bold text-center text-[#2D1537] ">30Days of Deep Learning</h1>
-        <p className="text-lg text-center text-[#2D1537] ">
-          A collection of useful tips that you wish you
-          <br />
-          knew when you started cracking Deep learning.
-        </p>
-
-        <div className="relative">
-          <Input
-            className="search-input w-full bg-[#2D1537] border-none text-white placeholder-white pl-10 pr-4 py-2 rounded-md"
-            placeholder={`Search through ${allTips.length} challenges available`}
-            value={searchQuery}
-            onChange={handleSearch}
-          />
-          <Search
-            className="absolute left-3 top-1/2 transform -translate-y-1/2 text-white"
-            size={20}
-          />
-          <span className="absolute right-3 top-1/2 transform -translate-y-1/2 text-white text-sm">
-            ⌘K
-          </span>
-        </div>
-
-        <div className="space-y-4">
-          {tips.map((tip, index) => (
-            <div
-              key={index}
-              className="flex items-center space-x-4 bg-[#2D1537] p-4 rounded-md"
-            >
-              <div className="w-12 h-12 bg-[#ac67ca] rounded-md flex items-center justify-center">
-                <span className="text-2xl">▶️</span>
-              </div>
-              <div className="flex-grow">
-                <h3 className="text-lg font-semibold">
-                  {tip.link ? (
-                    <Link href={tip.link}>{tip.title}</Link>
-                  ) : (
-                    <span>{tip.title}</span>
-                  )}
-                </h3>
-              </div>
-              <span className="text-sm text-white">{tip.duration}</span>
-            </div>
-          ))}
-        </div>
-
-        {tips.length === 0 && (
-          <p className="text-center text-[#2D1537]">
-            No tips found matching your search.
-          </p>
-        )}
+      <div className="my-10">
+        <Overview />
       </div>
     </div>
   );
