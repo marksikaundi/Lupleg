@@ -13,6 +13,7 @@ import {
 import React, { useState, useRef, useEffect } from "react";
 import Overview from "@/components/ml/Overview";
 import Link from "next/link";
+import DeepLearning from "@/components/dl/deep-learning";
 
 export default function Component() {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -120,7 +121,7 @@ export default function Component() {
       </div>
 
       <div className="my-10">
-        <Overview />
+        <DeepLearning />
       </div>
     </div>
   );
