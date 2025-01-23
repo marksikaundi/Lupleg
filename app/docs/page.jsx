@@ -22,13 +22,13 @@ export default function Docs() {
               href="/docs/using"
               className="text-gray-600 hover:text-gray-900 h-full flex items-center flex-shrink-0"
             >
-              Using Lupleg
+              Using 
             </Link>
             <Link
               href="/docs/building"
               className="text-gray-600 hover:text-gray-900 h-full flex items-center flex-shrink-0"
             >
-              Building Lupleg
+              Building 
             </Link>
             <Link
               href="/docs/mentoring"
