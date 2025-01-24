@@ -9,12 +9,12 @@ export default function Component() {
         RESEARCH
       </div>
       <h1 className="text-4xl font-bold mb-2 text-center">
-        A new generation of African talent brings cutting-edge AI to scientific
-        challenges
+        The basics of using Matplotlib and Seaborn for data visualization
       </h1>
       <div className="text-center text-gray-500 mb-4">24 JANUARY 2025</div>
       <div className="text-center text-gray-700 mb-6">
-        Obum Ekeke OBE, Head of Education Partnerships
+        We'll cover how to create basic plots such as line plots, bar plots, and
+        scatter plots.
       </div>
       <div className="flex justify-center mb-8">
         <SharePost className="w-4 h-4 mr-2" />

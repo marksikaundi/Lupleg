@@ -24,10 +24,10 @@ const newsItems = [
   {
     category: "RESEARCH",
     title:
-      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+      "The basics of using Matplotlib and Seaborn for data visualization",
     description:
-      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
-    date: "5 AUGUST 2024",
+      "We'll cover how to create basic plots such as line plots, bar plots...",
+    date: "24 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
     link: "/30dayschallenge/deep-learning/days/3",
   },
