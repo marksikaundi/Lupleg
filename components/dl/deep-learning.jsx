@@ -15,12 +15,12 @@ const newsItems = [
   },
   {
     category: "RESEARCH",
-    title: "FermiNet: Quantum physics and chemistry from first principles",
+    title: "Setting up a Python environment in all operating systems",
     description:
-      "Using deep learning to solve fundamental problems in computational quantum...",
-    date: "22 AUGUST 2024",
+      "How can you set up a Python environment in all operating systems?",
+    date: "24 JANUARY 2025",
     image: "https://www.lupleg.org/ml/FermiNet.webp",
-    link: "/30dayschallenge/deep-learning/days/1",
+    link: "/30dayschallenge/deep-learning/days/2",
   },
   {
     category: "COMPANY",
