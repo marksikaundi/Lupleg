@@ -243,7 +243,7 @@ plt.show()
           target and the feature(s) is modeled using the logistic function,
           which outputs probabilities. Evaluated using metrics like accuracy,
           precision, recall, and F1 score.
-          <hr className="my-4" />
+          <br className="my-4" />
           These examples provide a comprehensive introduction to implementing
           and evaluating linear and logistic regression models using
           Scikit-Learn. You can further enhance these models by performing

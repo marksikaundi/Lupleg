@@ -41,7 +41,7 @@ const newsItems = [
     link: "/30dayschallenge/deep-learning/days/4",
   },
   {
-    category: "COMPANY",
+    category: "RESEARCH",
     title:
       "Linear Regression and Logistic Regression, including their concepts",
     description:
@@ -51,14 +51,14 @@ const newsItems = [
     link: "/30dayschallenge/deep-learning/days/5",
   },
   {
-    category: "COMPANY",
+    category: "RESEARCH",
     title:
-      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+      "Basic steps to implement a Logistic Regression model using Scikit-Learn",
     description:
-      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
-    date: "5 AUGUST 2024",
+      "For dataset, will use Iris dataset, which is commonly used for classification tasks",
+    date: "24 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
-    link: "/30dayschallenge/deep-learning/days/3",
+    link: "/30dayschallenge/deep-learning/days/6",
   },
   {
     category: "COMPANY",
