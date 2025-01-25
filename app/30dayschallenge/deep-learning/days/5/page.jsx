@@ -12,7 +12,7 @@ export default function Component() {
         A new generation of African talent brings cutting-edge AI to scientific
         challenges
       </h1>
-      <div className="text-center text-gray-500 mb-4">5 AUGUST 2024</div>
+      <div className="text-center text-gray-500 mb-4">26 JANUARY 2025</div>
       <div className="text-center text-gray-700 mb-6">
         Obum Ekeke OBE, Head of Education Partnerships
       </div>
