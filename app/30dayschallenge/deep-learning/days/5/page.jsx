@@ -12,7 +12,7 @@ export default function Component() {
         Linear Regression and Logistic Regression, including their concepts,
         mathematical foundations
       </h1>
-      <div className="text-center text-gray-500 mb-4">26 JANUARY 2025</div>
+      <div className="text-center text-gray-500 mb-4">24 JANUARY 2025</div>
       <div className="text-center text-gray-700 mb-6">
         Exploring the mathematical foundations of linear and logistic regression
         in machine learning
