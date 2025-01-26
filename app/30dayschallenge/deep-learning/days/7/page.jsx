@@ -183,15 +183,71 @@ print("One-Hot Encoded Data:\n", one_hot_encoded_data)
         </h2>
         <p> Let's apply these preprocessing techniques to a sample dataset.</p>
 
+        <pre className="bg-gray-100 p-4 rounded-lg">
+          <code className="text-sm">
+            {`
+            import pandas as pd
+from sklearn.model_selection import train_test_split
+
+# Example dataset
+data = {
+    'age': [25, 45, 35, 50, 23],
+    'salary': [50000, 100000, 75000, 120000, 45000],
+    'city': ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix']
+}
+
+df = pd.DataFrame(data)
+
+# Splitting the dataset into features and target
+X = df[['age', 'salary', 'city']]
+y = [1, 0, 1, 0, 1]  # Example target variable
+
+# Splitting the dataset into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Applying scaling to numerical features
+scaler = StandardScaler()
+X_train[['age', 'salary']] = scaler.fit_transform(X_train[['age', 'salary']])
+X_test[['age', 'salary']] = scaler.transform(X_test[['age', 'salary']])
+
+# Applying one-hot encoding to categorical features
+one_hot_encoder = OneHotEncoder(sparse=False)
+X_train_city_encoded = one_hot_encoder.fit_transform(X_train[['city']])
+X_test_city_encoded = one_hot_encoder.transform(X_test[['city']])
+
+# Concatenating the encoded categorical features with the scaled numerical features
+X_train_preprocessed = np.hstack((X_train[['age', 'salary']], X_train_city_encoded))
+X_test_preprocessed = np.hstack((X_test[['age', 'salary']], X_test_city_encoded))
+
+print("Preprocessed Training Data:\n", X_train_preprocessed)
+print("Preprocessed Testing Data:\n", X_test_preprocessed)
+          `}
+          </code>
+        </pre>
+
+        <p>
+          In this example, we first split the dataset into training and testing
+          sets. We then applied standard scaling to the numerical features (age
+          and salary) and one-hot encoding to the categorical feature (city).
+          Finally, we concatenated the preprocessed numerical and categorical
+          features to form the final preprocessed dataset.
+        </p>
+
+        <p>
+          These preprocessing steps are essential for preparing data for machine
+          learning models, ensuring that the data is in a suitable format and
+          scale for the algorithms to learn effectively.
+        </p>
+
         <div>
           <h2></h2>
           <p>
-            Credit source from:
+            Explore more on 
             <Link
               className="ml-4 font-bold italic"
-              href="https://deepmind.google/discover/blog/a-new-generation-of-african-talent-brings-cutting-edge-ai-to-scientific-challenges/"
+              href="https://github.com/Lupleg/30DaysOfDeepLearning/blob/main/07/Introduction.md"
             >
-              Google DeepMind
+              Lupleg Community
             </Link>
           </p>
         </div>
