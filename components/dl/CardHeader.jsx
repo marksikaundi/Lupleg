@@ -71,14 +71,13 @@ const newsItems = [
     link: "/30dayschallenge/deep-learning/days/7",
   },
   {
-    category: "COMPANY",
-    title:
-      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+    category: "RESEARCH",
+    title: "Basics of Neural Networks and understand the key components",
     description:
-      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
-    date: "5 AUGUST 2024",
+      "A neural network is a computational model inspired by the way biological neural networks..",
+    date: "26 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
-    link: "/30dayschallenge/deep-learning/days/4",
+    link: "/30dayschallenge/deep-learning/days/8",
   },
   {
     category: "COMPANY",
