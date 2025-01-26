@@ -93,7 +93,12 @@ export default function Component() {
         <h1 className="my-4 font-bold">
           Mathematically, a neuron can be represented as:
         </h1>
-        <p>y = f(w1x1 + w2x2 + ... + wnxn + b)</p>{" "}
+        <p>y = f(w1x1 + w2x2 + ... + wnxn + b)</p>
+        <p>
+          Where y is the output of the neuron, f is the activation function, w1,
+          w2, ..., wn are the weights of the connections, x1, x2, ..., xn are
+          the inputs to the neuron, and b is the bias term. The weights and bias
+        </p>
         <h1 className="my-4 font-bold">Layers</h1>
         <p>
           Layers are groups of neurons that process data in parallel and
@@ -114,6 +119,31 @@ export default function Component() {
           Activation functions introduce non-linearity into the neural network,
           allowing it to learn complex patterns. Some common activation
           functions include:
+        </p>
+        <ul>
+          <li>Sigmoid function</li>
+          <li>Tanh function</li>
+          <li>ReLU function</li>
+        </ul>
+        <h1 className="my-4 font-bold">
+          Lets undertand how Sigmoid function function works
+        </h1>
+        <p>
+          The sigmoid function is a type of activation function that produces an
+          S-shaped curve. It is defined as: f(x) = 1 / (1 + e^-x) The sigmoid
+          function takes an input x and produces an output between 0 and 1. It
+          is often used in binary classification tasks, where the goal is to
+          predict whether an input belongs to one of two classes. The sigmoid
+          function is differentiable and monotonic, making it well-suited for
+          training neural networks using gradient-based optimization algorithms.
+        </p>{" "}
+        <h1 className="my-4 font-bold">Loss functions</h1>
+        <p>
+          Loss functions measure the difference between the network's output and
+          the desired output, providing feedback for training. There are several
+          types of loss functions, including mean squared error, cross-entropy,
+          and hinge loss. Each loss function has its own properties and is
+          suited to different types of tasks.
         </p>
         <p>
           There are many different types of neural networks, each with its own
@@ -145,12 +175,12 @@ export default function Component() {
         <div>
           <h2></h2>
           <p>
-            Credit source from:
+            Explore more on:
             <Link
               className="ml-4 font-bold italic"
               href="https://deepmind.google/discover/blog/a-new-generation-of-african-talent-brings-cutting-edge-ai-to-scientific-challenges/"
             >
-              Google DeepMind
+              Lupleg Community
             </Link>
           </p>
         </div>
