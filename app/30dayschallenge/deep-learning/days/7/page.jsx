@@ -181,7 +181,7 @@ print("One-Hot Encoded Data:\n", one_hot_encoded_data)
         <h2 className="text-2xl font-bold mb-4">
           Applying Preprocessing to a Dataset
         </h2>
-        <p>                                                                             Let's apply these preprocessing techniques to a sample dataset.</p>
+        <p> Let's apply these preprocessing techniques to a sample dataset.</p>
 
         <div>
           <h2></h2>
