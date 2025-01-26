@@ -61,11 +61,11 @@ const newsItems = [
     link: "/30dayschallenge/deep-learning/days/6",
   },
   {
-    category: "COMPANY",
+    category: "RESEARCH",
     title:
-      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+      " Data preprocessing is a crucial step in the data analysis and machine learning pipeline",
     description:
-      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
+      "Common preprocessing techniques include scaling, normalization, and encoding.......",
     date: "24 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
     link: "/30dayschallenge/deep-learning/days/7",
