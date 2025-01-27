@@ -33,7 +33,7 @@ export default function Component() {
         guide with detailed comments and explanations.
       </p>
       <div className="space-y-4 text-gray-700">
-        <h2>Step 1: Import Libraries</h2>
+        <h2 className="my-4 font-bold">Step 1: Import Libraries</h2>
         <pre>
           <code>
             {`import tensorflow as tf
@@ -42,7 +42,7 @@ import numpy as np
 import matplotlib.pyplot as plt`}
           </code>
         </pre>
-        <h2>Step 2: Load the MNIST dataset</h2>
+        <h2 className="my-4 font-bold">Step 2: Load the MNIST dataset</h2>
         <pre>
           <code>
             {`
@@ -59,7 +59,7 @@ y_test = to_categorical(y_test, 10)
             `}
           </code>
         </pre>
-        <h2>Step 3: Build the Neural Network</h2>
+        <h2 className="my-4 font-bold">Step 3: Build the Neural Network</h2>
         <pre>
           <code>
             {`
@@ -78,7 +78,7 @@ model.add(Dense(10, activation='softmax'))
             `}
           </code>
         </pre>
-        <h2>Step 4: Compile the Model</h2>
+        <h2 className="my-4 font-bold">Step 4: Compile the Model</h2>
         <pre>
           <code>
             {`
@@ -89,7 +89,7 @@ model.compile(optimizer='adam',
             `}
           </code>
         </pre>
-        <h2>Step 5: Train the Model</h2>
+        <h2 className="my-4 font-bold">Step 5: Train the Model</h2>
         <pre>
           <code>
             {`
@@ -98,7 +98,7 @@ history = model.fit(x_train, y_train, epochs=10, batch_size=32, validation_split
             `}
           </code>
         </pre>
-        <h2>Step 6: Evaluate the Model</h2>
+        <h2 className="my-4 font-bold">Step 6: Evaluate the Model</h2>
         <pre>
           <code>{`
 # Evaluate the model on the test data
@@ -107,7 +107,7 @@ test_loss, test_accuracy = model.evaluate(x_test, y_test)
 print(f'Test loss: {test_loss}')
 print(f'Test accuracy: {test_accuracy}')`}</code>
         </pre>
-        <h2>Step 7: Visualize Training History</h2>
+        <h2 className="my-4 font-bold">Step 7: Visualize Training History</h2>
         <pre>
           <code>
             {`
@@ -136,7 +136,7 @@ plt.show()
            `}
           </code>
         </pre>
-        <h2>Conclusion</h2>
+        <h2 className="my-4 font-bold">Conclusion</h2>
         <p>
           In this tutorial, we built and trained a simple neural network using
           the MNIST dataset. We used TensorFlow and Keras to build the model and
@@ -146,7 +146,7 @@ plt.show()
           network. You can further improve the model by experimenting with
           different architectures, hyperparameters, and optimization algorithms.
         </p>
-        <h2>Access to full source codes</h2>
+        <h2 className="my-4 font-bold">Access to full source codes</h2>
         <p>
           You can access the full source code for this tutorial on our GitHub
           repository. Feel free to fork the repository and experiment with the
@@ -161,7 +161,7 @@ plt.show()
         <br />
 
         <div>
-          <h2></h2>
+          <h2 className="my-4 font-bold"></h2>
           <p>
             Credit source from:
             <Link
