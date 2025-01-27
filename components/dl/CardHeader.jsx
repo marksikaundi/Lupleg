@@ -23,271 +23,269 @@ const newsItems = [
   },
   {
     category: "RESEARCH",
-    title:
-      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+    title: "The basics of using Matplotlib and Seaborn for data visualization",
     description:
-      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
-    date: "5 AUGUST 2024",
+      "We'll cover how to create basic plots such as line plots, bar plots...",
+    date: "24 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
     link: "/30dayschallenge/deep-learning/days/3",
   },
   {
-    category: "COMPANY",
+    category: "RESEARCH",
     title:
-      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+      "Introduction to Machine Learning with some key concepts and examples",
     description:
-      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
-    date: "5 AUGUST 2024",
-    image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
-    link: "/30dayschallenge/deep-learning/days/2",
-  },
-  {
-    category: "COMPANY",
-    title:
-      "A new generation of African talent brings cutting-edge AI to scientific challenges",
-    description:
-      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
-    date: "5 AUGUST 2024",
-    image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
-    link: "/30dayschallenge/deep-learning/days/3",
-  },
-  {
-    category: "COMPANY",
-    title:
-      "A new generation of African talent brings cutting-edge AI to scientific challenges",
-    description:
-      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
-    date: "5 AUGUST 2024",
-    image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
-    link: "/30dayschallenge/deep-learning/days/3",
-  },
-  {
-    category: "COMPANY",
-    title:
-      "A new generation of African talent brings cutting-edge AI to scientific challenges",
-    description:
-      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
-    date: "5 AUGUST 2024",
+      "We'll cover the basics of machine learning, and then we'll walk through ...",
+    date: "24 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
     link: "/30dayschallenge/deep-learning/days/4",
   },
   {
-    category: "COMPANY",
+    category: "RESEARCH",
     title:
-      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+      "Linear Regression and Logistic Regression, including their concepts",
     description:
-      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
-    date: "5 AUGUST 2024",
-    image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
-    link: "/30dayschallenge/deep-learning/days/4",
-  },
-  {
-    category: "COMPANY",
-    title:
-      "A new generation of African talent brings cutting-edge AI to scientific challenges",
-    description:
-      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
-    date: "5 AUGUST 2024",
+      "Exploring the mathematical foundations of linear and logistic regression in ...",
+    date: "24 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
     link: "/30dayschallenge/deep-learning/days/5",
   },
   {
-    category: "COMPANY",
+    category: "RESEARCH",
+    title:
+      "Basic steps to implement a Logistic Regression model using Scikit-Learn",
+    description:
+      "For dataset, will use Iris dataset, which is commonly used for classification tasks",
+    date: "24 JANUARY 2025",
+    image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
+    link: "/30dayschallenge/deep-learning/days/6",
+  },
+  {
+    category: "RESEARCH",
+    title:
+      " Data preprocessing is a crucial step in the data analysis and machine learning pipeline",
+    description:
+      "Common preprocessing techniques include scaling, normalization, and encoding.......",
+    date: "24 JANUARY 2025",
+    image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
+    link: "/30dayschallenge/deep-learning/days/7",
+  },
+  {
+    category: "RESEARCH",
+    title: "Basics of Neural Networks and understand the key components",
+    description:
+      "A neural network is a computational model inspired by the way biological neural networks..",
+    date: "26 JANUARY 2025",
+    image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
+    link: "/30dayschallenge/deep-learning/days/8",
+  },
+  {
+    category: "RESEARCH",
     title:
       "A new generation of African talent brings cutting-edge AI to scientific challenges",
     description:
       "Food security, healthcare and exploring the cosmos are among the ways students of a...",
-    date: "5 AUGUST 2024",
+    date: "26 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
     link: "/30dayschallenge/deep-learning/days/5",
   },
   {
-    category: "COMPANY",
+    category: "RESEARCH",
     title:
       "A new generation of African talent brings cutting-edge AI to scientific challenges",
     description:
       "Food security, healthcare and exploring the cosmos are among the ways students of a...",
-    date: "5 AUGUST 2024",
+    date: "26 JANUARY 2025",
+    image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
+    link: "/30dayschallenge/deep-learning/days/5",
+  },
+  {
+    category: "RESEARCH",
+    title:
+      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+    description:
+      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
+    date: "26 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
     link: "/30dayschallenge/deep-learning/days/3",
   },
   {
-    category: "COMPANY",
+    category: "RESEARCH",
     title:
       "A new generation of African talent brings cutting-edge AI to scientific challenges",
     description:
       "Food security, healthcare and exploring the cosmos are among the ways students of a...",
-    date: "5 AUGUST 2024",
+    date: "26 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
     link: "/30dayschallenge/deep-learning/days/6",
   },
   {
-    category: "COMPANY",
+    category: "RESEARCH",
     title:
       "A new generation of African talent brings cutting-edge AI to scientific challenges",
     description:
       "Food security, healthcare and exploring the cosmos are among the ways students of a...",
-    date: "5 AUGUST 2024",
+    date: "26 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
     link: "/30dayschallenge/deep-learning/days/6",
   },
   {
-    category: "COMPANY",
+    category: "RESEARCH",
     title:
       "A new generation of African talent brings cutting-edge AI to scientific challenges",
     description:
       "Food security, healthcare and exploring the cosmos are among the ways students of a...",
-    date: "5 AUGUST 2024",
+    date: "26 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
     link: "/30dayschallenge/deep-learning/days/7",
   },
   {
-    category: "COMPANY",
+    category: "RESEARCH",
     title:
       "A new generation of African talent brings cutting-edge AI to scientific challenges",
     description:
       "Food security, healthcare and exploring the cosmos are among the ways students of a...",
-    date: "5 AUGUST 2024",
+    date: "26 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
     link: "/30dayschallenge/deep-learning/days/7",
   },
   {
-    category: "COMPANY",
+    category: "RESEARCH",
     title:
       "A new generation of African talent brings cutting-edge AI to scientific challenges",
     description:
       "Food security, healthcare and exploring the cosmos are among the ways students of a...",
-    date: "5 AUGUST 2024",
+    date: "26 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
     link: "/30dayschallenge/deep-learning/days/8",
   },
   {
-    category: "COMPANY",
+    category: "RESEARCH",
     title:
       "A new generation of African talent brings cutting-edge AI to scientific challenges",
     description:
       "Food security, healthcare and exploring the cosmos are among the ways students of a...",
-    date: "5 AUGUST 2024",
+    date: "26 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
     link: "/30dayschallenge/deep-learning/days/8",
   },
   {
-    category: "COMPANY",
+    category: "RESEARCH",
     title:
       "A new generation of African talent brings cutting-edge AI to scientific challenges",
     description:
       "Food security, healthcare and exploring the cosmos are among the ways students of a...",
-    date: "5 AUGUST 2024",
+    date: "26 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
     link: "/30dayschallenge/deep-learning/days/9",
   },
   {
-    category: "COMPANY",
+    category: "RESEARCH",
     title:
-      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+      "Basic Classification with a Neural Network with Keras and TensorFlow",
     description:
-      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
-    date: "5 AUGUST 2024",
+      "Keras models are typically built using the Sequential API or the Functional API",
+    date: "27 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
     link: "/30dayschallenge/deep-learning/days/9",
   },
   {
-    category: "COMPANY",
+    category: "RESEARCH",
     title:
       "A new generation of African talent brings cutting-edge AI to scientific challenges",
     description:
       "Food security, healthcare and exploring the cosmos are among the ways students of a...",
-    date: "5 AUGUST 2024",
+    date: "26 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
     link: "/30dayschallenge/deep-learning/days/10",
   },
   {
-    category: "COMPANY",
+    category: "RESEARCH",
     title:
       "A new generation of African talent brings cutting-edge AI to scientific challenges",
     description:
       "Food security, healthcare and exploring the cosmos are among the ways students of a...",
-    date: "5 AUGUST 2024",
+    date: "26 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
     link: "/30dayschallenge/deep-learning/days/10",
   },
   {
-    category: "COMPANY",
+    category: "RESEARCH",
     title:
       "A new generation of African talent brings cutting-edge AI to scientific challenges",
     description:
       "Food security, healthcare and exploring the cosmos are among the ways students of a...",
-    date: "5 AUGUST 2024",
+    date: "26 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
     link: "/30dayschallenge/deep-learning/days/11",
   },
   {
-    category: "COMPANY",
+    category: "RESEARCH",
     title:
       "A new generation of African talent brings cutting-edge AI to scientific challenges",
     description:
       "Food security, healthcare and exploring the cosmos are among the ways students of a...",
-    date: "5 AUGUST 2024",
+    date: "26 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
     link: "/30dayschallenge/deep-learning/days/11",
   },
   {
-    category: "COMPANY",
+    category: "RESEARCH",
     title:
       "A new generation of African talent brings cutting-edge AI to scientific challenges",
     description:
       "Food security, healthcare and exploring the cosmos are among the ways students of a...",
-    date: "5 AUGUST 2024",
+    date: "26 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
     link: "/30dayschallenge/deep-learning/days/12",
   },
   {
-    category: "COMPANY",
+    category: "RESEARCH",
     title:
       "A new generation of African talent brings cutting-edge AI to scientific challenges",
     description:
       "Food security, healthcare and exploring the cosmos are among the ways students of a...",
-    date: "5 AUGUST 2024",
+    date: "26 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
     link: "/30dayschallenge/deep-learning/days/12",
   },
   {
-    category: "COMPANY",
+    category: "RESEARCH",
     title:
       "A new generation of African talent brings cutting-edge AI to scientific challenges",
     description:
       "Food security, healthcare and exploring the cosmos are among the ways students of a...",
-    date: "5 AUGUST 2024",
+    date: "26 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
     link: "/30dayschallenge/deep-learning/days/13",
   },
   {
-    category: "COMPANY",
+    category: "RESEARCH",
     title:
       "A new generation of African talent brings cutting-edge AI to scientific challenges",
     description:
       "Food security, healthcare and exploring the cosmos are among the ways students of a...",
-    date: "5 AUGUST 2024",
+    date: "26 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
     link: "/30dayschallenge/deep-learning/days/13",
   },
   {
-    category: "COMPANY",
+    category: "RESEARCH",
     title:
       "A new generation of African talent brings cutting-edge AI to scientific challenges",
     description:
       "Food security, healthcare and exploring the cosmos are among the ways students of a...",
-    date: "5 AUGUST 2024",
+    date: "26 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
     link: "/30dayschallenge/deep-learning/days/14",
   },
   {
-    category: "COMPANY",
+    category: "RESEARCH",
     title:
       "A new generation of African talent brings cutting-edge AI to scientific challenges",
     description:
       "Food security, healthcare and exploring the cosmos are among the ways students of a...",
-    date: "5 AUGUST 2024",
+    date: "26 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
     link: "/30dayschallenge/deep-learning/days/14",
   },
@@ -297,7 +295,7 @@ const newsItems = [
       "A new generation of African talent brings cutting-edge AI to scientific challenges",
     description:
       "Food security, healthcare and exploring the cosmos are among the ways students of a...",
-    date: "5 AUGUST 2024",
+    date: "26 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
     link: "/30dayschallenge/deep-learning/days/15",
   },

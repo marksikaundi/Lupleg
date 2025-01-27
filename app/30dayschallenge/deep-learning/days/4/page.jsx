@@ -9,12 +9,12 @@ export default function Component() {
         RESEARCH
       </div>
       <h1 className="text-4xl font-bold mb-2 text-center">
-        A new generation of African talent brings cutting-edge AI to scientific
-        challenges
+        Introduction to machine learning with some key concepts and examples
       </h1>
-      <div className="text-center text-gray-500 mb-4">5 AUGUST 2024</div>
+      <div className="text-center text-gray-500 mb-4">24 JANUARY 2025</div>
       <div className="text-center text-gray-700 mb-6">
-        Obum Ekeke OBE, Head of Education Partnerships
+        We'll cover the basics of machine learning, and then we'll walk through
+        a simple example using Python
       </div>
       <div className="flex justify-center mb-8">
         <SharePost className="w-4 h-4 mr-2" />
@@ -27,132 +27,235 @@ export default function Component() {
         className="w-full rounded-lg mb-8"
       />
       <p className="font-mono text-lg mb-6">
-        Food security, healthcare and exploring the cosmos are among the ways
-        students of a new pan-African Master’s program aspire to apply AI
+        Machine learning is a subset of artificial intelligence that focuses on
+        developing algorithms that allow computers to learn from and make
+        predictions based on data. These algorithms can be used to make
+        predictions or decisions without being explicitly programmed to perform
+        the task. Machine learning is used in a wide range of applications,
+        including image recognition, natural language processing, and
+        recommendation systems.
       </p>
       <div className="space-y-4 text-gray-700">
         <p>
-          At Google DeepMind, we’re committed to supporting the next generation
-          of artificial intelligence (AI) leaders to help build a stronger, more
-          diverse and inclusive global AI community. This includes increasing
-          access to AI and science through education.
+          There are three main types of machine learning algorithms: supervised
+          learning, unsupervised learning, and reinforcement learning. In
+          supervised learning, the algorithm is trained on a labeled dataset,
+          where the correct output is known. The algorithm learns to map inputs
+          to outputs based on the training data. In unsupervised learning, the
+          algorithm is trained on an unlabeled dataset, where the correct output
+          is not known. The algorithm learns to find patterns or structure in
+          the data. In reinforcement learning, the algorithm learns to make
+          decisions by interacting with an environment and receiving feedback in
+          the form of rewards or penalties.
         </p>{" "}
         <p>
-          Last year, we partnered with the African Institute for Mathematical
-          Sciences (AIMS), Africa’s first network of centers of excellence in
-          mathematical sciences, to launch an AI for Science Master’s program,
-          with a $4.5M grant from Google DeepMind.
-        </p>{" "}
-        <p>
-          This funding helps AIMS provide full scholarships, equipment and
-          compute to talented local students, giving them access to advanced
-          studies in mathematics, AI and machine learning from world-class
-          academics at AIMS South Africa. Students have the opportunity to
-          accelerate scientific discovery, with mentoring and support from
-          Google DeepMind’s researchers and engineers.
+          Machine learning algorithms can be further categorized into two main
+          types: classification and regression. In classification, the algorithm
+          learns to predict a discrete output, such as whether an email is spam
+          or not. In regression, the algorithm learns to predict a continuous
+          output, such as the price of a house based on its features.
         </p>
         <h2 className="my-4 font-bold">
-          {" "}
-          Béria: Innovating for better food security
+          Classification of machine learning algorithms
         </h2>
         <p>
-          Sustainability is a top priority for Béria, originally from Chad. “I
-          hope to develop solutions for sustainable agricultural development
-          that will benefit both people and the planet by integrating principles
-          of renewable energy, precision farming, and ecological preservation in
-          my work,” he says.
-        </p>{" "}
+          Machine learning algorithms can be classified into several categories
+          based on the type of learning they use, the type of data they work
+          with, and the task they are designed to perform. Some common
+          categories of machine learning algorithms include:
+        </p>
+        <ul className="list-disc list-inside">
+          <li>Supervised learning algorithms</li>
+          <li>Unsupervised learning algorithms</li>
+          <li>Reinforcement learning algorithms</li>
+          <li>Classification algorithms</li>
+          <li>Regression algorithms</li>
+          <li>Clustering algorithms</li>
+          <li>Dimensionality reduction algorithms</li>
+          <li>Ensemble algorithms</li>
+        </ul>
+        <h2 className="my-4 font-bold">Supervised learning algorithms</h2>
         <p>
-          “Beyond agriculture, AI offers significant potential to enhance the
-          resilience of Africa's natural environments,” Béria adds. “By
-          implementing AI-powered monitoring and decision-support systems, we
-          can safeguard Africa's precious green areas and biodiversity for
-          future generations.”
+          Supervised learning algorithms learn to map inputs to outputs based on
+          a labeled dataset. Some common supervised learning algorithms include
+          linear regression, logistic regression, support vector machines, and
+          decision trees.
+        </p>
+        <h2 className="my-4 font-bold">Unsupervised learning algorithms</h2>
+        <p>
+          Unsupervised learning algorithms learn to find patterns or structure
+          in an unlabeled dataset. Some common unsupervised learning algorithms
+          include k-means clustering, hierarchical clustering, and principal
+          component analysis.
+        </p>
+        <p>
+          Machine learning algorithms can be implemented using a variety of
+          programming languages, libraries, and frameworks. Python is a popular
+          programming language for machine learning due to its simplicity and
+          flexibility. There are several libraries and frameworks available in
+          Python for implementing machine learning algorithms, including
+          scikit-learn, TensorFlow, and PyTorch.
+        </p>
+        <h2 className="my-4 font-bold">Requirement for machine learning</h2>
+        <p>
+          In order to get started with machine learning, you'll need to have a
+          basic understanding of programming and mathematics. You should be
+          familiar with concepts such as variables, loops, functions, and
+          conditional statements in a programming language. You should also have
+          a good understanding of linear algebra, calculus, and probability
+          theory.
         </p>
         <h2 className="my-4 font-bold">
-          Olivier: Pioneering virus transmission research through the lens of
-          climate change
+          Basic steps in a machine learning project
         </h2>
         <p>
-          Olivier’s passion for applying mathematics to complex problems led him
-          to AIMS South Africa: “Throughout my academic journey, I’ve been
-          fascinated by the power of mathematics, particularly in addressing
-          real-world challenges through AI,” he says. “A solid foundation in
-          mathematical sciences is crucial for driving progress in areas such as
-          healthcare, climate science and technology — and I’m eager to be at
-          the forefront of these advancements.”
-        </p>{" "}
+          There are several steps involved in a typical machine learning
+          project:
+        </p>
+        <ul className="list-disc list-inside">
+          <li>
+            Data collection: Collecting and preparing the data for analysis.
+          </li>
+          <li>
+            Data preprocessing: Cleaning, transforming, and scaling the data.
+          </li>
+          <li>
+            Model selection: Choosing the appropriate machine learning
+            algorithm.
+          </li>
+          <li>Model training: Training the algorithm on the training data.</li>
+          <li>
+            Model evaluation: Evaluating the algorithm's performance on the
+            testing data.
+          </li>
+          <li>
+            Model deployment: Deploying the algorithm in a production
+            environment.
+          </li>
+        </ul>
+        <h2 className="my-4 font-bold">Key concepts in Machine Learning</h2>
         <p>
-          Originally from Benin, Olivier now looks to apply this approach to
-          data from African countries to help understand the spread of dengue
-          fever. “Using advanced AI techniques, I hope to create more accurate
-          prediction models to inform public health strategies and
-          interventions, ultimately contributing to the control and prevention
-          of this viral disease.”
-        </p>{" "}
+          There are several key concepts in machine learning that you should be
+          familiar with:
+        </p>
+        <ul className="list-disc list-inside">
+          <li>
+            Feature: A feature is an input variable used to make predictions.
+          </li>
+          <li>
+            Label: A label is the output variable that the algorithm is trying
+            to predict.
+          </li>
+          <li>
+            Training data: The data used to train the machine learning
+            algorithm.
+          </li>
+          <li>
+            Testing data: The data used to evaluate the algorithm's performance.
+          </li>
+          <li>
+            Overfitting: Overfitting occurs when the algorithm learns the
+            training data too well and performs poorly on new data.
+          </li>
+          <li>
+            Underfitting: Underfitting occurs when the algorithm is too simple
+            to capture the underlying patterns in the data.
+          </li>
+          <li>
+            Hyperparameter: A hyperparameter is a parameter that controls the
+            behavior of the algorithm.
+          </li>
+        </ul>
+        <h2 className="my-4 font-bold">
+          Get started with machine learning in Python
+        </h2>
         <p>
-          Discussing the personal impact of his scholarship, Olivier recounts,
-          “Without it, pursuing advanced studies at such a prestigious
-          institution would have been financially unattainable for me. This
-          support enabled me to fully immerse myself in AIMS' rigorous academic
-          environment, so I could engage deeply in coursework, collaborate with
-          professors and peers, and contribute meaningfully to research
-          projects.”
+          Will look at how scikit-learning can be used to implement machine
+          learning algorithms in Python.
+        </p>
+        <h2 className="my-4 font-bold">What is scikit-learn?</h2>
+        <p>
+          Scikit-learn is a popular machine learning library in Python that
+          provides a wide range of algorithms for classification, regression,
+          clustering, dimensionality reduction, and more. Scikit-learn is built
+          on top of NumPy, SciPy, and Matplotlib, making it easy to integrate
+          with other scientific computing libraries in Python.
+        </p>
+        <h2 className="my-4 font-bold">How can one use scikit-learn?</h2>
+        <p>
+          To use scikit-learn, you first need to install the library using pip,
+          the Python package manager. Run the following command in your
+          terminal:
+        </p>
+        <pre className="bg-gray-100 p-4 rounded-lg">
+          <code>{`pip install scikit-learn`}</code>
+        </pre>
+        <p>
+          In this article, we'll walk through a simple example of implementing a
+          machine learning algorithm in Python using scikit-learn. We'll use the
+          Iris dataset, which is a popular dataset for machine learning
+          beginners. The Iris dataset contains 150 samples of iris flowers, each
+          with four features: sepal length, sepal width, petal length, and petal
+          width. The goal is to predict the species of the iris flower based on
+          these features.
         </p>
         <h2 className="my-4 font-bold">
-          {" "}
-          Diffo: Unraveling the secrets of our universe
+          Example: Implementing a machine learning algorithm in Python
         </h2>
         <p>
-          Diffo, from Cameroon, is fascinated by the big questions beyond Earth
-          — which is what drew her to the Square Kilometre Array (SKA), the
-          largest and most sensitive radio telescope on the planet.
-        </p>{" "}
-        <p>
-          “Understanding the 21cm line provides insights into the early
-          universe, the formation of the first stars and galaxies, and the
-          structure of the cosmos,” Diffo explains. “By applying Markov chain
-          Monte Carlo (MCMC) techniques, I hope to improve the accuracy and
-          efficiency of extracting these faint signals from SKA data,
-          potentially leading to more precise cosmological models and a deeper
-          understanding of the future evolution of the universe.”
-        </p>{" "}
-        <p>
-          For those considering similar studies, Diffo offers a few words of
-          advice: “Stay curious, be persistent and embrace interdisciplinary
-          learning. Engaging in hands-on projects, collaborating with peers, and
-          seeking mentorship from AI experts can greatly benefit your learning
-          experience and career prospects.”
+          First, we'll import the necessary libraries and load the Iris dataset
+          using scikit-learn. We'll then split the dataset into training and
+          testing sets and train a machine learning model on the training data.
+          Finally, we'll evaluate the model on the testing data and make
+          predictions.
         </p>
-        <h2 className="my-4 font-bold">Supporting AI education in Africa</h2>
+        <pre className="bg-gray-100 p-4 rounded-lg">
+          <code>
+            {`import numpy as np
+import pandas as pd
+from sklearn.datasets import load_iris
+from sklearn.model_selection import train_test_split
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.metrics import accuracy_score
+
+# Load the Iris dataset
+iris = load_iris()
+X = iris.data
+y = iris.target
+
+# Split the dataset into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state
+=42)
+
+# Train a K-Nearest Neighbors classifier
+knn = KNeighborsClassifier(n_neighbors=3)
+knn.fit(X_train, y_train)
+
+# Make predictions on the testing data
+y_pred = knn.predict(X_test)
+
+# Evaluate the model
+accuracy = accuracy_score(y_test, y_pred)
+print('Accuracy:', accuracy)
+`}
+          </code>
+        </pre>
         <p>
-          This work builds on our existing commitments in the region, including
-          our support of the Deep Learning Indaba through volunteering and
-          funding since its inception in 2017, the recent launch of our
-          Experience AI education program across Africa, which has already
-          engaged local educators working with more than 30,000 young people,
-          and additional educational funding, which has been used by three
-          further African universities to offer a total of over 40 postgraduate
-          scholarships since 2020.
-        </p>{" "}
-        <p>
-          Increasing representation in the field of AI research offers a
-          much-needed opportunity to bring diverse values, perspectives, and
-          concerns into conversations about the design and deployment of this
-          transformative technology. We hope our support for AIMS not only
-          serves to build a more global and inclusive AI ecosystem, but also
-          helps students make new scientific discoveries that benefit their
-          local communities and the entire globe.
+          In this example, we loaded the Iris dataset using scikit-learn and
+          split it into training and testing sets. We then trained a K-Nearest
+          Neighbors classifier on the training data and made predictions on the
+          testing data. Finally, we evaluated the model's accuracy on the
+          testing data.
         </p>
         <div>
           <h2></h2>
           <p>
-            Credit source from:
+            Explore more with Examples
             <Link
               className="ml-4 font-bold italic"
-              href="https://deepmind.google/discover/blog/a-new-generation-of-african-talent-brings-cutting-edge-ai-to-scientific-challenges/"
+              href="https://github.com/Lupleg/30DaysOfDeepLearning/blob/main/04/introduction.md"
             >
-              Google DeepMind
+              Lupleg Community
             </Link>
           </p>
         </div>

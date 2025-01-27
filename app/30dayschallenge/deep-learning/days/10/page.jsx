@@ -9,12 +9,11 @@ export default function Component() {
         RESEARCH
       </div>
       <h1 className="text-4xl font-bold mb-2 text-center">
-        A new generation of African talent brings cutting-edge AI to scientific
-        challenges
+        BuildingSimple Neural Network(NN) from Scratch
       </h1>
-      <div className="text-center text-gray-500 mb-4">5 AUGUST 2024</div>
+      <div className="text-center text-gray-500 mb-4">27 JANUARY 2025</div>
       <div className="text-center text-gray-700 mb-6">
-        Obum Ekeke OBE, Head of Education Partnerships
+        Mark Sikaundi - Data Scientist at Maya Innovations
       </div>
       <div className="flex justify-center mb-8">
         <SharePost className="w-4 h-4 mr-2" />
@@ -27,125 +26,142 @@ export default function Component() {
         className="w-full rounded-lg mb-8"
       />
       <p className="font-mono text-lg mb-6">
-        Food security, healthcare and exploring the cosmos are among the ways
-        students of a new pan-African Master’s program aspire to apply AI
+        Today we are going to build and train a simple neural network using the
+        MNIST dataset. The MNIST dataset consists of 60,000 training images and
+        10,000 testing images of handwritten digits (0-9). We'll use TensorFlow
+        and Keras to build and train our neural network. Below is a step-by-step
+        guide with detailed comments and explanations.
       </p>
       <div className="space-y-4 text-gray-700">
+        <h2 className="my-4 font-bold">Step 1: Import Libraries</h2>
+        <pre>
+          <code>
+            {`import tensorflow as tf
+from tensorflow import keras
+import numpy as np
+import matplotlib.pyplot as plt`}
+          </code>
+        </pre>
+        <h2 className="my-4 font-bold">Step 2: Load the MNIST dataset</h2>
+        <pre>
+          <code>
+            {`
+# Load the MNIST dataset
+(x_train, y_train), (x_test, y_test) = mnist.load_data()
+
+# Normalize the images to values between 0 and 1
+x_train = x_train / 255.0
+x_test = x_test / 255.0
+
+# Convert labels to one-hot encoding
+y_train = to_categorical(y_train, 10)
+y_test = to_categorical(y_test, 10)
+            `}
+          </code>
+        </pre>
+        <h2 className="my-4 font-bold">Step 3: Build the Neural Network</h2>
+        <pre>
+          <code>
+            {`
+# Initialize the model
+model = Sequential()
+
+# Flatten the input data (28x28 images) to a 1D array of 784 elements
+model.add(Flatten(input_shape=(28, 28)))
+
+# Add a dense layer with 128 neurons and ReLU activation function
+model.add(Dense(128, activation='relu'))
+
+# Add an output layer with 10 neurons (one for each digit) and softmax activation function
+model.add(Dense(10, activation='softmax'))
+            
+            `}
+          </code>
+        </pre>
+        <h2 className="my-4 font-bold">Step 4: Compile the Model</h2>
+        <pre>
+          <code>
+            {`
+# Compile the model
+model.compile(optimizer='adam',
+              loss='categorical_crossentropy',
+              metrics=['accuracy'])
+            `}
+          </code>
+        </pre>
+        <h2 className="my-4 font-bold">Step 5: Train the Model</h2>
+        <pre>
+          <code>
+            {`
+# Train the model
+history = model.fit(x_train, y_train, epochs=10, batch_size=32, validation_split=0.2)
+            `}
+          </code>
+        </pre>
+        <h2 className="my-4 font-bold">Step 6: Evaluate the Model</h2>
+        <pre>
+          <code>{`
+# Evaluate the model on the test data
+test_loss, test_accuracy = model.evaluate(x_test, y_test)
+
+print(f'Test loss: {test_loss}')
+print(f'Test accuracy: {test_accuracy}')`}</code>
+        </pre>
+        <h2 className="my-4 font-bold">Step 7: Visualize Training History</h2>
+        <pre>
+          <code>
+            {`
+# Plot training & validation accuracy values
+plt.figure(figsize=(12, 4))
+
+plt.subplot(1, 2, 1)
+plt.plot(history.history['accuracy'])
+plt.plot(history.history['val_accuracy'])
+plt.title('Model accuracy')
+plt.ylabel('Accuracy')
+plt.xlabel('Epoch')
+plt.legend(['Train', 'Validation'], loc='upper left')
+
+# Plot training & validation loss values
+plt.subplot(1, 2, 2)
+plt.plot(history.history['loss'])
+plt.plot(history.history['val_loss'])
+plt.title('Model loss')
+plt.ylabel('Loss')
+plt.xlabel('Epoch')
+plt.legend(['Train', 'Validation'], loc='upper left')
+
+plt.show()
+            
+           `}
+          </code>
+        </pre>
+        <h2 className="my-4 font-bold">Conclusion</h2>
         <p>
-          At Google DeepMind, we’re committed to supporting the next generation
-          of artificial intelligence (AI) leaders to help build a stronger, more
-          diverse and inclusive global AI community. This includes increasing
-          access to AI and science through education.
-        </p>{" "}
-        <p>
-          Last year, we partnered with the African Institute for Mathematical
-          Sciences (AIMS), Africa’s first network of centers of excellence in
-          mathematical sciences, to launch an AI for Science Master’s program,
-          with a $4.5M grant from Google DeepMind.
-        </p>{" "}
-        <p>
-          This funding helps AIMS provide full scholarships, equipment and
-          compute to talented local students, giving them access to advanced
-          studies in mathematics, AI and machine learning from world-class
-          academics at AIMS South Africa. Students have the opportunity to
-          accelerate scientific discovery, with mentoring and support from
-          Google DeepMind’s researchers and engineers.
+          In this tutorial, we built and trained a simple neural network using
+          the MNIST dataset. We used TensorFlow and Keras to build the model and
+          train it on the training data. We then evaluated the model on the test
+          data and visualized the training history. We achieved an accuracy of
+          over 98% on the test data, which is quite good for a simple neural
+          network. You can further improve the model by experimenting with
+          different architectures, hyperparameters, and optimization algorithms.
         </p>
-        <h2 className="my-4 font-bold">
-          {" "}
-          Béria: Innovating for better food security
-        </h2>
+        <h2 className="my-4 font-bold">Access to full source codes</h2>
         <p>
-          Sustainability is a top priority for Béria, originally from Chad. “I
-          hope to develop solutions for sustainable agricultural development
-          that will benefit both people and the planet by integrating principles
-          of renewable energy, precision farming, and ecological preservation in
-          my work,” he says.
-        </p>{" "}
-        <p>
-          “Beyond agriculture, AI offers significant potential to enhance the
-          resilience of Africa's natural environments,” Béria adds. “By
-          implementing AI-powered monitoring and decision-support systems, we
-          can safeguard Africa's precious green areas and biodiversity for
-          future generations.”
+          You can access the full source code for this tutorial on our GitHub
+          repository. Feel free to fork the repository and experiment with the
+          code on your own.
         </p>
-        <h2 className="my-4 font-bold">
-          Olivier: Pioneering virus transmission research through the lens of
-          climate change
-        </h2>
-        <p>
-          Olivier’s passion for applying mathematics to complex problems led him
-          to AIMS South Africa: “Throughout my academic journey, I’ve been
-          fascinated by the power of mathematics, particularly in addressing
-          real-world challenges through AI,” he says. “A solid foundation in
-          mathematical sciences is crucial for driving progress in areas such as
-          healthcare, climate science and technology — and I’m eager to be at
-          the forefront of these advancements.”
-        </p>{" "}
-        <p>
-          Originally from Benin, Olivier now looks to apply this approach to
-          data from African countries to help understand the spread of dengue
-          fever. “Using advanced AI techniques, I hope to create more accurate
-          prediction models to inform public health strategies and
-          interventions, ultimately contributing to the control and prevention
-          of this viral disease.”
-        </p>{" "}
-        <p>
-          Discussing the personal impact of his scholarship, Olivier recounts,
-          “Without it, pursuing advanced studies at such a prestigious
-          institution would have been financially unattainable for me. This
-          support enabled me to fully immerse myself in AIMS' rigorous academic
-          environment, so I could engage deeply in coursework, collaborate with
-          professors and peers, and contribute meaningfully to research
-          projects.”
-        </p>
-        <h2 className="my-4 font-bold">
-          {" "}
-          Diffo: Unraveling the secrets of our universe
-        </h2>
-        <p>
-          Diffo, from Cameroon, is fascinated by the big questions beyond Earth
-          — which is what drew her to the Square Kilometre Array (SKA), the
-          largest and most sensitive radio telescope on the planet.
-        </p>{" "}
-        <p>
-          “Understanding the 21cm line provides insights into the early
-          universe, the formation of the first stars and galaxies, and the
-          structure of the cosmos,” Diffo explains. “By applying Markov chain
-          Monte Carlo (MCMC) techniques, I hope to improve the accuracy and
-          efficiency of extracting these faint signals from SKA data,
-          potentially leading to more precise cosmological models and a deeper
-          understanding of the future evolution of the universe.”
-        </p>{" "}
-        <p>
-          For those considering similar studies, Diffo offers a few words of
-          advice: “Stay curious, be persistent and embrace interdisciplinary
-          learning. Engaging in hands-on projects, collaborating with peers, and
-          seeking mentorship from AI experts can greatly benefit your learning
-          experience and career prospects.”
-        </p>
-        <h2 className="my-4 font-bold">Supporting AI education in Africa</h2>
-        <p>
-          This work builds on our existing commitments in the region, including
-          our support of the Deep Learning Indaba through volunteering and
-          funding since its inception in 2017, the recent launch of our
-          Experience AI education program across Africa, which has already
-          engaged local educators working with more than 30,000 young people,
-          and additional educational funding, which has been used by three
-          further African universities to offer a total of over 40 postgraduate
-          scholarships since 2020.
-        </p>{" "}
-        <p>
-          Increasing representation in the field of AI research offers a
-          much-needed opportunity to bring diverse values, perspectives, and
-          concerns into conversations about the design and deployment of this
-          transformative technology. We hope our support for AIMS not only
-          serves to build a more global and inclusive AI ecosystem, but also
-          helps students make new scientific discoveries that benefit their
-          local communities and the entire globe.
-        </p>
+        <Link
+          href="https://github.com/Lupleg/30DaysOfDeepLearning/blob/main/10/BuildingSimple_Neural_Network.md#full-code"
+          className="font-bold italic"
+        >
+          GitHub Repository
+        </Link>
+        <br />
+
         <div>
-          <h2></h2>
+          <h2 className="my-4 font-bold"></h2>
           <p>
             Credit source from:
             <Link

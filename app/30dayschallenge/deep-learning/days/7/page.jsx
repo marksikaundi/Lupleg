@@ -9,12 +9,12 @@ export default function Component() {
         RESEARCH
       </div>
       <h1 className="text-4xl font-bold mb-2 text-center">
-        A new generation of African talent brings cutting-edge AI to scientific
-        challenges
+        Data preprocessing is a crucial step in the data analysis and machine
+        learning pipeline
       </h1>
-      <div className="text-center text-gray-500 mb-4">5 AUGUST 2024</div>
+      <div className="text-center text-gray-500 mb-4">26 JANUARY 2025</div>
       <div className="text-center text-gray-700 mb-6">
-        Obum Ekeke OBE, Head of Education Partnerships
+        Mark Sikaundi - Data Scientist at Maya Innovations
       </div>
       <div className="flex justify-center mb-8">
         <SharePost className="w-4 h-4 mr-2" />
@@ -27,132 +27,227 @@ export default function Component() {
         className="w-full rounded-lg mb-8"
       />
       <p className="font-mono text-lg mb-6">
-        Food security, healthcare and exploring the cosmos are among the ways
-        students of a new pan-African Master’s program aspire to apply AI
+        Data preprocessing is a crucial step in the data analysis and machine
+        learning pipeline. It involves transforming raw data into a format that
+        is more suitable for analysis and modeling.
       </p>
       <div className="space-y-4 text-gray-700">
         <p>
-          At Google DeepMind, we’re committed to supporting the next generation
-          of artificial intelligence (AI) leaders to help build a stronger, more
-          diverse and inclusive global AI community. This includes increasing
-          access to AI and science through education.
-        </p>{" "}
-        <p>
-          Last year, we partnered with the African Institute for Mathematical
-          Sciences (AIMS), Africa’s first network of centers of excellence in
-          mathematical sciences, to launch an AI for Science Master’s program,
-          with a $4.5M grant from Google DeepMind.
-        </p>{" "}
-        <p>
-          This funding helps AIMS provide full scholarships, equipment and
-          compute to talented local students, giving them access to advanced
-          studies in mathematics, AI and machine learning from world-class
-          academics at AIMS South Africa. Students have the opportunity to
-          accelerate scientific discovery, with mentoring and support from
-          Google DeepMind’s researchers and engineers.
+          Common preprocessing techniques include scaling, normalization, and
+          encoding. Below, are techniques and provide example code for each.
         </p>
-        <h2 className="my-4 font-bold">
-          {" "}
-          Béria: Innovating for better food security
+
+        <h2 className="text-2xl font-bold mb-4">Scaling</h2>
+        <p>
+          Scaling is a technique used to standardize the range of independent
+          variables or features of data. It is an important step in data
+          preprocessing as it helps to normalize the data within a particular
+          range. This is particularly important for algorithms that are
+          sensitive to the scale of the input data, such as support vector
+          machines and k-nearest neighbors.
+        </p>
+
+        <pre className="bg-gray-100 p-4 rounded-lg">
+          <code className="text-sm">
+            {`
+          import numpy as np
+from sklearn.preprocessing import StandardScaler
+
+# Example data
+data = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+
+# Initialize the scaler
+scaler = StandardScaler()
+
+# Fit and transform the data
+scaled_data = scaler.fit_transform(data)
+
+print("Standardized Data:\n", scaled_data)
+          `}
+          </code>
+        </pre>
+
+        <p>
+          Min-Max Scaling: Min-Max scaling scales the data to a fixed range,
+          usually [0, 1].
+        </p>
+
+        <pre className="bg-gray-100 p-4 rounded-lg">
+          <code className="text-sm">
+            {`
+from sklearn.preprocessing import MinMaxScaler
+
+# Initialize the scaler
+min_max_scaler = MinMaxScaler()
+
+# Fit and transform the data
+min_max_scaled_data = min_max_scaler.fit_transform(data)
+
+print("Min-Max Scaled Data:\n", min_max_scaled_data)
+          `}
+          </code>
+        </pre>
+
+        <h2 className="text-2xl font-bold mb-4">Normalization</h2>
+        <p>
+          Normalization is a technique used to scale the data in such a way that
+          it falls within a specific range, typically 0 and 1. It is useful when
+          the features have different units or scales. Normalization helps to
+          improve the convergence of the machine learning algorithms and speeds
+          up training.
+        </p>
+        <p>
+          Normalization adjusts the values of numeric columns in the dataset to
+          a common scale, without distorting differences in the ranges of
+          values. It typically scales the data to have a unit norm (e.g., L2
+          norm).
+        </p>
+
+        <pre className="bg-gray-100 p-4 rounded-lg">
+          <code className="text-sm">
+            {`
+            from sklearn.preprocessing import Normalizer
+
+# Initialize the normalizer
+normalizer = Normalizer()
+
+# Fit and transform the data
+normalized_data = normalizer.fit_transform(data)
+
+print("Normalized Data:\n", normalized_data)
+          `}
+          </code>
+        </pre>
+
+        <h2 className="text-2xl font-bold mb-4">Encoding</h2>
+        <p>
+          Encoding is a technique used to convert categorical data into a
+          numerical format that can be used for machine learning algorithms.
+          There are different encoding techniques, such as one-hot encoding and
+          label encoding. One-hot encoding is used when the categories are not
+          ordinal, while label encoding is used when the categories have an
+          ordinal relationship.
+        </p>
+
+        <p>
+          Label Encoding: Label encoding assigns a unique integer to each
+          category.
+        </p>
+
+        <pre className="bg-gray-100 p-4 rounded-lg">
+          <code className="text-sm">
+            {`
+from sklearn.preprocessing import LabelEncoder
+
+# Example categorical data
+categories = ['cat', 'dog', 'fish', 'cat', 'dog']
+
+# Initialize the encoder
+label_encoder = LabelEncoder()
+
+# Fit and transform the data
+encoded_labels = label_encoder.fit_transform(categories)
+
+print("Label Encoded Data:\n", encoded_labels)
+          `}
+          </code>
+        </pre>
+
+        <p>
+          One-Hot Encoding: One-hot encoding creates a binary column for each
+          category and returns a sparse matrix or dense array.
+        </p>
+
+        <pre className="bg-gray-100 p-4 rounded-lg">
+          <code className="text-sm">
+            {`
+            
+from sklearn.preprocessing import OneHotEncoder
+
+# Example categorical data
+categories = np.array(['cat', 'dog', 'fish', 'cat', 'dog']).reshape(-1, 1)
+
+# Initialize the encoder
+one_hot_encoder = OneHotEncoder(sparse=False)
+
+# Fit and transform the data
+one_hot_encoded_data = one_hot_encoder.fit_transform(categories)
+
+print("One-Hot Encoded Data:\n", one_hot_encoded_data)
+          `}
+          </code>
+        </pre>
+
+        <h2 className="text-2xl font-bold mb-4">
+          Applying Preprocessing to a Dataset
         </h2>
+        <p> Let's apply these preprocessing techniques to a sample dataset.</p>
+
+        <pre className="bg-gray-100 p-4 rounded-lg">
+          <code className="text-sm">
+            {`
+            import pandas as pd
+from sklearn.model_selection import train_test_split
+
+# Example dataset
+data = {
+    'age': [25, 45, 35, 50, 23],
+    'salary': [50000, 100000, 75000, 120000, 45000],
+    'city': ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix']
+}
+
+df = pd.DataFrame(data)
+
+# Splitting the dataset into features and target
+X = df[['age', 'salary', 'city']]
+y = [1, 0, 1, 0, 1]  # Example target variable
+
+# Splitting the dataset into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Applying scaling to numerical features
+scaler = StandardScaler()
+X_train[['age', 'salary']] = scaler.fit_transform(X_train[['age', 'salary']])
+X_test[['age', 'salary']] = scaler.transform(X_test[['age', 'salary']])
+
+# Applying one-hot encoding to categorical features
+one_hot_encoder = OneHotEncoder(sparse=False)
+X_train_city_encoded = one_hot_encoder.fit_transform(X_train[['city']])
+X_test_city_encoded = one_hot_encoder.transform(X_test[['city']])
+
+# Concatenating the encoded categorical features with the scaled numerical features
+X_train_preprocessed = np.hstack((X_train[['age', 'salary']], X_train_city_encoded))
+X_test_preprocessed = np.hstack((X_test[['age', 'salary']], X_test_city_encoded))
+
+print("Preprocessed Training Data:\n", X_train_preprocessed)
+print("Preprocessed Testing Data:\n", X_test_preprocessed)
+          `}
+          </code>
+        </pre>
+
         <p>
-          Sustainability is a top priority for Béria, originally from Chad. “I
-          hope to develop solutions for sustainable agricultural development
-          that will benefit both people and the planet by integrating principles
-          of renewable energy, precision farming, and ecological preservation in
-          my work,” he says.
-        </p>{" "}
-        <p>
-          “Beyond agriculture, AI offers significant potential to enhance the
-          resilience of Africa's natural environments,” Béria adds. “By
-          implementing AI-powered monitoring and decision-support systems, we
-          can safeguard Africa's precious green areas and biodiversity for
-          future generations.”
+          In this example, we first split the dataset into training and testing
+          sets. We then applied standard scaling to the numerical features (age
+          and salary) and one-hot encoding to the categorical feature (city).
+          Finally, we concatenated the preprocessed numerical and categorical
+          features to form the final preprocessed dataset.
         </p>
-        <h2 className="my-4 font-bold">
-          Olivier: Pioneering virus transmission research through the lens of
-          climate change
-        </h2>
+
         <p>
-          Olivier’s passion for applying mathematics to complex problems led him
-          to AIMS South Africa: “Throughout my academic journey, I’ve been
-          fascinated by the power of mathematics, particularly in addressing
-          real-world challenges through AI,” he says. “A solid foundation in
-          mathematical sciences is crucial for driving progress in areas such as
-          healthcare, climate science and technology — and I’m eager to be at
-          the forefront of these advancements.”
-        </p>{" "}
-        <p>
-          Originally from Benin, Olivier now looks to apply this approach to
-          data from African countries to help understand the spread of dengue
-          fever. “Using advanced AI techniques, I hope to create more accurate
-          prediction models to inform public health strategies and
-          interventions, ultimately contributing to the control and prevention
-          of this viral disease.”
-        </p>{" "}
-        <p>
-          Discussing the personal impact of his scholarship, Olivier recounts,
-          “Without it, pursuing advanced studies at such a prestigious
-          institution would have been financially unattainable for me. This
-          support enabled me to fully immerse myself in AIMS' rigorous academic
-          environment, so I could engage deeply in coursework, collaborate with
-          professors and peers, and contribute meaningfully to research
-          projects.”
+          These preprocessing steps are essential for preparing data for machine
+          learning models, ensuring that the data is in a suitable format and
+          scale for the algorithms to learn effectively.
         </p>
-        <h2 className="my-4 font-bold">
-          {" "}
-          Diffo: Unraveling the secrets of our universe
-        </h2>
-        <p>
-          Diffo, from Cameroon, is fascinated by the big questions beyond Earth
-          — which is what drew her to the Square Kilometre Array (SKA), the
-          largest and most sensitive radio telescope on the planet.
-        </p>{" "}
-        <p>
-          “Understanding the 21cm line provides insights into the early
-          universe, the formation of the first stars and galaxies, and the
-          structure of the cosmos,” Diffo explains. “By applying Markov chain
-          Monte Carlo (MCMC) techniques, I hope to improve the accuracy and
-          efficiency of extracting these faint signals from SKA data,
-          potentially leading to more precise cosmological models and a deeper
-          understanding of the future evolution of the universe.”
-        </p>{" "}
-        <p>
-          For those considering similar studies, Diffo offers a few words of
-          advice: “Stay curious, be persistent and embrace interdisciplinary
-          learning. Engaging in hands-on projects, collaborating with peers, and
-          seeking mentorship from AI experts can greatly benefit your learning
-          experience and career prospects.”
-        </p>
-        <h2 className="my-4 font-bold">Supporting AI education in Africa</h2>
-        <p>
-          This work builds on our existing commitments in the region, including
-          our support of the Deep Learning Indaba through volunteering and
-          funding since its inception in 2017, the recent launch of our
-          Experience AI education program across Africa, which has already
-          engaged local educators working with more than 30,000 young people,
-          and additional educational funding, which has been used by three
-          further African universities to offer a total of over 40 postgraduate
-          scholarships since 2020.
-        </p>{" "}
-        <p>
-          Increasing representation in the field of AI research offers a
-          much-needed opportunity to bring diverse values, perspectives, and
-          concerns into conversations about the design and deployment of this
-          transformative technology. We hope our support for AIMS not only
-          serves to build a more global and inclusive AI ecosystem, but also
-          helps students make new scientific discoveries that benefit their
-          local communities and the entire globe.
-        </p>
+
         <div>
           <h2></h2>
           <p>
-            Credit source from:
+            Explore more on 
             <Link
               className="ml-4 font-bold italic"
-              href="https://deepmind.google/discover/blog/a-new-generation-of-african-talent-brings-cutting-edge-ai-to-scientific-challenges/"
+              href="https://github.com/Lupleg/30DaysOfDeepLearning/blob/main/07/Introduction.md"
             >
-              Google DeepMind
+              Lupleg Community
             </Link>
           </p>
         </div>
