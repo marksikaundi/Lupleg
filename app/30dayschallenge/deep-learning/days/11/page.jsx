@@ -245,7 +245,7 @@ print(f'Test accuracy: {test_acc}')
         <div>
           <h2 className="my-4 font-bold"></h2>
           <p>
-            Credit source from:
+            Learn more about Practical Concepts in Deep Learning for Beginners:
             <Link
               className="ml-4 font-bold italic"
               href="https://github.com/marksikaundi/30DaysOfDeepLearning/blob/main/11/PracticalConcept.md"
