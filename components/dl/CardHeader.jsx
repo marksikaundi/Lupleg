@@ -103,7 +103,7 @@ const newsItems = [
     title:
       "Practical Concepts in Deep Learning for Beginners with TensorFlow and Keras",
     description:
-      "We'll cover the basics of deep learning, and then we'll walk through ...",
+      "We'll cover the basics of deep learning, and then we'll walk through...",
     date: "26 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
     link: "/30dayschallenge/deep-learning/days/11",
@@ -111,9 +111,9 @@ const newsItems = [
   {
     category: "RESEARCH",
     title:
-      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+      "Implementation of dropout and batch normalization in a neural network model",
     description:
-      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
+      "We'll cover the basics of dropout and batch normalization, and then we'll walk through...",
     date: "26 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
     link: "/30dayschallenge/deep-learning/days/12",
