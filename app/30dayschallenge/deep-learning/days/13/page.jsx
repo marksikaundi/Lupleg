@@ -27,9 +27,9 @@ export default function Component() {
         className="w-full rounded-lg mb-8"
       />
       <p className="font-mono text-lg mb-6">
-        Mastering Convolutional Neural Networks (CNNs) involves understanding
-        both the theoretical concepts and practical implementation details. Here
-        are key areas and best practices to focus on.
+        Convolutional Neural Networks (CNNs) involves understanding both the
+        theoretical concepts and practical implementation details. Here are key
+        areas and best practices to focus on.
       </p>
       <div className="space-y-4 text-gray-700">
         <p>
