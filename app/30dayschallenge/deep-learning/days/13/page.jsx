@@ -121,6 +121,13 @@ export default function Component() {
           challenging projects together.
         </p>
 
+        <p>
+          <strong>15. Share your knowledge</strong> with the community by
+          writing blog posts, giving talks, and contributing to open-source
+          projects. Teaching others is a great way to solidify your own
+          understanding.
+        </p>
+
         <div>
           <h2></h2>
           <p>
