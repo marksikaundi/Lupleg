@@ -39,6 +39,20 @@ export default function Component() {
           recommender systems, and natural language processing.
         </p>
 
+        <h2 className="my-4 font-bold">How can run CNNs</h2>
+
+        <pre>
+          <code>
+            {`
+            
+            
+
+
+
+              `}
+          </code>
+        </pre>
+
         <p>
           <strong>2. CNNs are composed of layers</strong> that transform the
           input data into useful representations. The most common layers are
