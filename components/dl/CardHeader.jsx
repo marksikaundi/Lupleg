@@ -123,7 +123,7 @@ const newsItems = [
     title:
       "Convolutional Neural Networks (CNNs) are a powerful type of Neural Network",
     description:
-      " ",
+      "Let's build and train a simple CNN using Python and the popular deep learning library... ",
     date: "26 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
     link: "/30dayschallenge/deep-learning/days/13",
