@@ -9,11 +9,12 @@ export default function Component() {
         RESEARCH
       </div>
       <h1 className="text-4xl font-bold mb-2 text-center">
-        
+        Convolutional Neural Networks (CNNs) are a powerful type of Neural
+        Network
       </h1>
       <div className="text-center text-gray-500 mb-4">29 JANUARY 2025</div>
       <div className="text-center text-gray-700 mb-6">
-       Mark Sikaundi - Data Scientist and AI Researcher.
+        Mark Sikaundi - Data Scientist and AI Researcher.
       </div>
       <div className="flex justify-center mb-8">
         <SharePost className="w-4 h-4 mr-2" />
@@ -146,12 +147,12 @@ export default function Component() {
         <div>
           <h2></h2>
           <p>
-            Credit source from:
+            Explore on from our:
             <Link
               className="ml-4 font-bold italic"
-              href="https://deepmind.google/discover/blog/a-new-generation-of-african-talent-brings-cutting-edge-ai-to-scientific-challenges/"
+              href="https://github.com/Lupleg/30DaysOfDeepLearning/blob/main/13/Into_CNN.md"
             >
-              Google DeepMind
+              Lupleg Community
             </Link>
           </p>
         </div>

@@ -121,9 +121,9 @@ const newsItems = [
   {
     category: "RESEARCH",
     title:
-      "",
+      "Convolutional Neural Networks (CNNs) are a powerful type of Neural Network",
     description:
-      "",
+      " ",
     date: "26 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
     link: "/30dayschallenge/deep-learning/days/13",
