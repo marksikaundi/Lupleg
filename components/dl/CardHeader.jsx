@@ -121,12 +121,12 @@ const newsItems = [
   {
     category: "RESEARCH",
     title:
-      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+      "",
     description:
-      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
+      "",
     date: "26 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
-    link: "/30dayschallenge/deep-learning/days/6",
+    link: "/30dayschallenge/deep-learning/days/13",
   },
   {
     category: "RESEARCH",
