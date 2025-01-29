@@ -45,7 +45,34 @@ export default function Component() {
           <code>
             {`
             
-            
+import tensorflow as tf
+from tensorflow.keras import layers, models
+
+# Define a simple CNN model
+model = models.Sequential()
+model.add(layers.Conv2D(16, (3, 3), activation='relu', input_shape=(28, 28, 1)))
+model.add(layers.MaxPooling2D((2, 2)))
+model.add(layers.Conv2D(32, (3, 3), activation='relu'))
+model.add(layers.MaxPooling2D((2, 2)))
+model.add(layers.Flatten())
+model.add(layers.Dense(128, activation='relu'))
+model.add(layers.Dense(10, activation='softmax'))
+
+# Compile the model
+model.compile(optimizer='adam',
+              loss='categorical_crossentropy',
+              metrics=['accuracy'])
+
+# Dummy data for demonstration purposes
+import numpy as np
+xs = np.random.random((100, 28, 28, 1))
+ys = tf.keras.utils.to_categorical(np.random.randint(10, size=(100, 1)), num_classes=10)
+
+# Train the model
+model.fit(xs, ys, epochs=10, batch_size=32)
+
+print('Model training complete')
+
 
 
 
