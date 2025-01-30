@@ -26,29 +26,23 @@ export default function Component() {
         className="w-full rounded-lg mb-8"
       />
       <p className="font-mono text-lg mb-6">
-        Convolutional Neural Networks (CNNs) involves understanding both the
-        theoretical concepts and practical implementation details. Here are key
-        areas and best practices to focus on.
+        A confusion matrix is a table that is often used to describe the
+        performance of a classification model on a set of test data for which
+        the true values are known. It allows you to see the number of correct
+        and incorrect predictions made by the model compared to the actual
+        classifications in the test data.
       </p>
       <div className="space-y-4 text-gray-700">
+        <h2 className="my-4 font-bold">Confusion Matrix</h2>
+       
         <p>
-          <strong>1. Convolutional Neural Networks (CNNs)</strong> are a
-          powerful type of Neural Network that can learn useful features from
-          raw data. They are widely used in image and video recognition,
-          recommender systems, and natural language processing.
-        </p>{" "}
-        <p>
-          <strong>2. How to run CNNs</strong> involves understanding both the
-          theoretical concepts and practical implementation details. Here are
-          key areas and best practices to focus on. Convolutional Neural Networks
-          (CNNs) are a powerful type of Neural Network that can learn useful
-          features from raw data. They are widely used in image and video
-          recognition, recommender systems, and natural language processing.
-          </p>{" "}
-          
+          The confusion matrix is a 2x2 table that contains 4 outputs provided
+          by the binary classifier. Various measures, such as error-rate,
+          accuracy, specificity, sensitivity, precision, and recall, can be
+          derived from the confusion matrix.
+        </p>
 
-
-
+        <h2 className="my-4 font-bold">How to run CNNs</h2>
 
         <h2 className="my-4 font-bold">How can run CNNs</h2>
         <ul className="list-disc ml-8">
@@ -59,15 +53,8 @@ export default function Component() {
           <li>Evaluate the model</li>
         </ul>
 
-
         <h2 className="my-4 font-bold">How to run CNNs</h2>
-        
 
-
-
-
-
-        
         <div>
           <h2></h2>
           <p>
