@@ -131,12 +131,12 @@ const newsItems = [
   {
     category: "RESEARCH",
     title:
-      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+      "Evaluating the performance of a Convolutional Neural Network (CNN)",
     description:
-      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
+      "Evaluating the performance of a CNN is crucial to understand how well the model is performing...",
     date: "26 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
-    link: "/30dayschallenge/deep-learning/days/7",
+    link: "/30dayschallenge/deep-learning/days/14",
   },
   {
     category: "RESEARCH",
