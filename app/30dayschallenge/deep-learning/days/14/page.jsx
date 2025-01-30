@@ -93,15 +93,168 @@ export default function Component() {
           </tbody>
         </table>
 
+        <h2 className="my-4 font-bold">
+          Metrics Derived from Confusion Matrix:
+        </h2>
+        <ul>
+          <li>
+            <strong>Accuracy:</strong> The proportion of correctly classified
+            instances.
+          </li>
+          <li>
+            <strong>Error Rate:</strong> The proportion of incorrectly
+            classified instances.
+          </li>
+          <li>
+            <strong>True Positive Rate (TPR):</strong> The proportion of actual
+            positive instances that are correctly classified as positive.
+          </li>
+          <li>
+            <strong>False Positive Rate (FPR):</strong> The proportion of actual
+            negative instances that are incorrectly classified as positive.
+          </li>
+        </ul>
+
+        <h2 className="my-4 font-bold">Visualization</h2>
+        <p>
+          The confusion matrix can be visualized using a heatmap to provide a
+          clear and intuitive representation of the model's performance. This
+          visualization can help identify patterns and trends in the model's
+          predictions and highlight areas for improvement.
+        </p>
+
+        <pre>
+          <code>
+            {`
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.metrics import confusion_matrix
+
+# Assuming y_true are the true labels and y_pred are the predicted labels
+conf_matrix = confusion_matrix(y_true, y_pred)
+
+plt.figure(figsize=(10, 7))
+sns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues')
+plt.xlabel('Predicted')
+plt.ylabel('Actual')
+plt.title('Confusion Matrix')
+plt.show()
+            `}
+          </code>
+        </pre>
+
+        <p>
+          By analyzing the confusion matrix and the derived metrics, you can
+          gain valuable insights into the performance of your classification
+          model and make informed decisions about how to improve its accuracy
+          and reliability.
+        </p>
+
+        <h2 className="my-4 font-bold">2. Classification Report</h2>
+        <p>
+          A classification report provides a comprehensive overview of the main
+          classification metrics: precision, recall, and F1 score for each
+          class. This is particularly useful for multi-class classification
+          problems.
+        </p>
+
+        <pre>
+          <code>
+            {`
+from sklearn.metrics import classification_report
+
+# Assuming y_true are the true labels and y_pred are the predicted labels
+report = classification_report(y_true, y_pred, target_names=['Cat', 'Dog'])
+print(report)
+
+            `}
+          </code>
+        </pre>
+
+        <h2 className="my-4 font-bold">Explanation of Metrics:</h2>
+        <p>
+          <strong>Precision:</strong> The proportion of positive instances that
+          were correctly classified. It is calculated as TP / (TP + FP).
+        </p>
+        <p>
+          <strong>Recall:</strong> The proportion of actual positive instances
+          that were correctly classified. It is calculated as TP / (TP + FN).
+        </p>
+        <p>
+          <strong>F1 Score:</strong> The harmonic mean of precision and recall.
+          It is calculated as 2 * (precision * recall) / (precision + recall).
+        </p>
+
+        <h2 className="my-4 font-bold">Putting It All Together</h2>
+        <p>
+          By combining the confusion matrix, classification report, and other
+          evaluation metrics, you can gain a comprehensive understanding of your
+          classification model's performance. This information can help you
+          identify areas for improvement and make informed decisions about how
+          to optimize your model for better results.
+        </p>
+        <p>
+          Let's assume we have a trained CNN model and we want to evaluate its
+          performance on a test dataset. We can use the confusion matrix, the
+          classification report, and other evaluation metrics to assess the
+          model's accuracy, precision, recall, and other key performance
+          indicators.
+        </p>
+
+        <pre>
+          <code>
+            {`
+import numpy as np
+from sklearn.metrics import confusion_matrix, classification_report
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Assuming we have a trained model and test data
+# X_test, y_test = ... (your test data)
+# model = ... (your trained CNN model)
+
+# Predicting the labels for the test set
+y_pred = model.predict(X_test)
+y_pred_classes = np.argmax(y_pred, axis=1)
+y_true = np.argmax(y_test, axis=1)
+
+# Confusion Matrix
+conf_matrix = confusion_matrix(y_true, y_pred_classes)
+
+plt.figure(figsize=(10, 7))
+sns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues')
+plt.xlabel('Predicted')
+plt.ylabel('Actual')
+plt.title('Confusion Matrix')
+plt.show()
+
+# Classification Report
+report = classification_report(y_true, y_pred_classes, target_names=['Class1', 'Class2', 'Class3'])
+print(report)
+
+            `}
+          </code>
+        </pre>
+
+        <h2 className="my-4 font-bold">Conclusion</h2>
+        <p>
+          Evaluating the performance of a Convolutional Neural Network (CNN) is
+          essential to ensure that it meets the desired accuracy and reliability
+          levels. By using tools such as the confusion matrix, classification
+          report, and other evaluation metrics, you can gain valuable insights
+          into your model's performance and make informed decisions about how to
+          optimize it for better results.
+        </p>
+
         <div>
           <h2></h2>
           <p>
-            Credit source from:
+            Learn more from
             <Link
               className="ml-4 font-bold italic"
               href="https://deepmind.google/discover/blog/a-new-generation-of-african-talent-brings-cutting-edge-ai-to-scientific-challenges/"
             >
-              Google DeepMind
+              Lupleg Community
             </Link>
           </p>
         </div>
