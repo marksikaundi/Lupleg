@@ -9,12 +9,11 @@ export default function Component() {
         RESEARCH
       </div>
       <h1 className="text-4xl font-bold mb-2 text-center">
-        A new generation of African talent brings cutting-edge AI to scientific
-        challenges
+        Practical Concepts in Deep Learning for Beginners
       </h1>
-      <div className="text-center text-gray-500 mb-4">5 AUGUST 2024</div>
+      <div className="text-center text-gray-500 mb-4">29 JANUARY 2025</div>
       <div className="text-center text-gray-700 mb-6">
-        Obum Ekeke OBE, Head of Education Partnerships
+        Mark Sikaundi - Data Scientist and AI Researcher.{" "}
       </div>
       <div className="flex justify-center mb-8">
         <SharePost className="w-4 h-4 mr-2" />
@@ -27,132 +26,231 @@ export default function Component() {
         className="w-full rounded-lg mb-8"
       />
       <p className="font-mono text-lg mb-6">
-        Food security, healthcare and exploring the cosmos are among the ways
-        students of a new pan-African Master’s program aspire to apply AI
+        Data Preprocessing is a crucial step in the data science pipeline. It is
+        the process of converting raw data into a well-readable format for the
+        machine learning model. The data preprocessing step is essential because
+        it helps to clean and prepare the data for the model. In this article,
+        we will discuss the importance of data preprocessing and some common
+        techniques used in data preprocessing.
       </p>
       <div className="space-y-4 text-gray-700">
         <p>
-          At Google DeepMind, we’re committed to supporting the next generation
-          of artificial intelligence (AI) leaders to help build a stronger, more
-          diverse and inclusive global AI community. This includes increasing
-          access to AI and science through education.
-        </p>{" "}
-        <p>
-          Last year, we partnered with the African Institute for Mathematical
-          Sciences (AIMS), Africa’s first network of centers of excellence in
-          mathematical sciences, to launch an AI for Science Master’s program,
-          with a $4.5M grant from Google DeepMind.
-        </p>{" "}
-        <p>
-          This funding helps AIMS provide full scholarships, equipment and
-          compute to talented local students, giving them access to advanced
-          studies in mathematics, AI and machine learning from world-class
-          academics at AIMS South Africa. Students have the opportunity to
-          accelerate scientific discovery, with mentoring and support from
-          Google DeepMind’s researchers and engineers.
+          <strong>Importance of Data Preprocessing</strong>
         </p>
+        <p>
+          Data preprocessing is an essential step in the data science pipeline
+          because it helps to clean and prepare the data for the machine
+          learning model. The quality of the data used to train the model
+          directly impacts the performance of the model. If the data is noisy,
+          missing, or inconsistent, the model will not be able to learn
+          effectively from the data. Data preprocessing helps to address these
+          issues by cleaning the data and preparing it for the model.
+        </p>
+
+        <p>
+          <strong>Common Techniques in Data Preprocessing</strong>
+        </p>
+        <p>
+          There are several common techniques used in data preprocessing. Some
+          of the most common techniques include:
+        </p>
+
+        <h2 className="my-4 font-bold">Normalization/Standardization</h2>
+        <p>
+          Normalization and standardization are two common techniques used to
+          scale the data. Normalization scales the data to a range of 0 to 1,
+          while standardization scales the data to have a mean of 0 and a
+          standard deviation of 1. These techniques help to ensure that the
+          features are on a similar scale, which can improve the performance of
+          the model.
+        </p>
+
+        <h2 className="my-4 font-bold">Handling Missing Values</h2>
+        <p>
+          Missing values are a common issue in real-world datasets. There are
+          several techniques for handling missing values, including imputation,
+          deletion, and prediction. Imputation involves filling in the missing
+          values with a value, such as the mean or median of the column.
+          Deletion involves removing the rows or columns with missing values.
+          Prediction involves using a machine learning model to predict the
+          missing values based on the other features in the dataset.
+        </p>
+
+        <h2 className="my-4 font-bold">Handling Categorical Data</h2>
+        <p>
+          Categorical data is data that represents categories or labels. There
+          are several techniques for handling categorical data, including
+          one-hot encoding, label encoding, and target encoding. One-hot
+          encoding involves creating dummy variables for each category in the
+          dataset. Label encoding involves converting the categories into
+          numerical values. Target encoding involves encoding the categories
+          based on the target variable in the dataset.
+        </p>
+
+        <h2 className="my-4 font-bold">Model Architecture</h2>
+        <p>
+          The model architecture is the structure of the machine learning model.
+          There are several common architectures used in deep learning,
+          including feedforward neural networks, convolutional neural networks,
+          and recurrent neural networks. Each architecture has its strengths and
+          weaknesses, and the choice of architecture depends on the specific
+          problem being solved.
+        </p>
+
+        <ul className="list-disc list-inside">
+          <li>Handling Missing Values</li>
+          <li>Handling Categorical Data</li>
+          <li>Feature Scaling</li>
+          <li>Feature Selection</li>
+          <li>Dimensionality Reduction</li>
+          <li>Normalization</li>
+          <li>Standardization</li>
+        </ul>
+
+        <h2 className="my-4 font-bold"> Handling Missing Values</h2>
+        <p>
+          Missing values are a common issue in real-world datasets. There are
+          several techniques for handling missing values, including imputation,
+          deletion, and prediction. Imputation involves filling in the missing
+          values with a value, such as the mean or median of the column.
+          Deletion involves removing the rows or columns with missing values.
+          Prediction involves using a machine learning model to predict the
+          missing values based on the other features in the dataset.
+        </p>
+
+        <h2 className="my-4 font-bold">Handling Categorical Data</h2>
+        <p>
+          Categorical data is data that represents categories or labels. There
+          are several techniques for handling categorical data, including
+          one-hot encoding, label encoding, and target encoding. One-hot
+          encoding involves creating dummy variables for each category in the
+          dataset. Label encoding involves converting the categories into
+          numerical values. Target encoding involves encoding the categories
+          based on the target variable in the dataset.
+        </p>
+
+        <h2 className="my-4 font-bold">Feature Scaling</h2>
+        <p>
+          Feature scaling is the process of scaling the features in the dataset
+          to a similar scale. This is important because features that are on
+          different scales can affect the performance of the model. There are
+          several techniques for feature scaling, including min-max scaling and
+          standardization.
+        </p>
+
+        <h2 className="my-4 font-bold">Feature Selection</h2>
+        <p>
+          Feature selection is the process of selecting the most relevant
+          features in the dataset. This is important because using too many
+          features can lead to overfitting, while using too few features can
+          lead to underfitting. There are several techniques for feature
+          selection, including filter methods, wrapper methods, and embedded
+          methods.
+        </p>
+
+        <h2 className="my-4 font-bold">Dimensionality Reduction</h2>
+        <p>
+          Dimensionality reduction is the process of reducing the number of
+          features in the dataset. This is important because high-dimensional
+          data can be difficult to visualize and analyze. There are several
+          techniques for dimensionality reduction, including principal component
+          analysis (PCA) and t-distributed stochastic neighbor embedding
+          (t-SNE).
+        </p>
+
+        <h2 className="my-4 font-bold">Normalization</h2>
+        <p>
+          Normalization is the process of scaling the data to a range of 0 to 1.
+          This is important because it helps to ensure that the features are on
+          a similar scale, which can improve the performance of the model. There
+          are several techniques for normalization, including min-max scaling
+          and z-score normalization.
+        </p>
+
+        <h2 className="my-4 font-bold">Standardization</h2>
+        <p>
+          Standardization is the process of scaling the data to have a mean of 0
+          and a standard deviation of 1. This is important because it helps to
+          ensure that the features are on a similar scale, which can improve the
+          performance of the model. There are several techniques for
+          standardization, including z-score normalization and robust
+          standardization.
+        </p>
+
         <h2 className="my-4 font-bold">
-          {" "}
-          Béria: Innovating for better food security
+          Practical Example: Training a CNN on CIFAR-10
         </h2>
+        <pre>
+          <code>
+            {`
+import tensorflow as tf
+from tensorflow.keras import datasets, layers, models
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+
+# Load and preprocess the CIFAR-10 dataset
+(train_images, train_labels), (test_images, test_labels) = datasets.cifar10.load_data()
+train_images, test_images = train_images / 255.0, test_images / 255.0
+
+# Data augmentation
+datagen = ImageDataGenerator(
+    rotation_range=20,
+    width_shift_range=0.2,
+    height_shift_range=0.2,
+    horizontal_flip=True
+)
+datagen.fit(train_images)
+
+# Build the CNN model
+model = models.Sequential([
+    layers.Conv2D(32, (3, 3), activation='relu', input_shape=(32, 32, 3)),
+    layers.MaxPooling2D((2, 2)),
+    layers.Conv2D(64, (3, 3), activation='relu'),
+    layers.MaxPooling2D((2, 2)),
+    layers.Conv2D(64, (3, 3), activation='relu'),
+    layers.Flatten(),
+    layers.Dense(64, activation='relu'),
+    layers.Dense(10)
+])
+
+# Compile the model
+model.compile(optimizer='adam',
+              loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
+              metrics=['accuracy'])
+
+# Train the model
+history = model.fit(datagen.flow(train_images, train_labels, batch_size=64),
+                    epochs=10,
+                    validation_data=(test_images, test_labels))
+
+# Evaluate the model
+test_loss, test_acc = model.evaluate(test_images, test_labels, verbose=2)
+print(f'Test accuracy: {test_acc}')
+            `}
+          </code>
+        </pre>
+
+        <h2 className="my-4 font-bold">Summary</h2>
         <p>
-          Sustainability is a top priority for Béria, originally from Chad. “I
-          hope to develop solutions for sustainable agricultural development
-          that will benefit both people and the planet by integrating principles
-          of renewable energy, precision farming, and ecological preservation in
-          my work,” he says.
-        </p>{" "}
-        <p>
-          “Beyond agriculture, AI offers significant potential to enhance the
-          resilience of Africa's natural environments,” Béria adds. “By
-          implementing AI-powered monitoring and decision-support systems, we
-          can safeguard Africa's precious green areas and biodiversity for
-          future generations.”
+          Data preprocessing is an essential step in the data science pipeline.
+          It helps to clean and prepare the data for the machine learning model,
+          which directly impacts the performance of the model. There are several
+          common techniques used in data preprocessing, including normalization,
+          standardization, handling missing values, handling categorical data,
+          feature scaling, feature selection, dimensionality reduction, and
+          model architecture. By using these techniques, data scientists can
+          improve the quality of the data and build more accurate and reliable
+          machine learning models.
         </p>
-        <h2 className="my-4 font-bold">
-          Olivier: Pioneering virus transmission research through the lens of
-          climate change
-        </h2>
-        <p>
-          Olivier’s passion for applying mathematics to complex problems led him
-          to AIMS South Africa: “Throughout my academic journey, I’ve been
-          fascinated by the power of mathematics, particularly in addressing
-          real-world challenges through AI,” he says. “A solid foundation in
-          mathematical sciences is crucial for driving progress in areas such as
-          healthcare, climate science and technology — and I’m eager to be at
-          the forefront of these advancements.”
-        </p>{" "}
-        <p>
-          Originally from Benin, Olivier now looks to apply this approach to
-          data from African countries to help understand the spread of dengue
-          fever. “Using advanced AI techniques, I hope to create more accurate
-          prediction models to inform public health strategies and
-          interventions, ultimately contributing to the control and prevention
-          of this viral disease.”
-        </p>{" "}
-        <p>
-          Discussing the personal impact of his scholarship, Olivier recounts,
-          “Without it, pursuing advanced studies at such a prestigious
-          institution would have been financially unattainable for me. This
-          support enabled me to fully immerse myself in AIMS' rigorous academic
-          environment, so I could engage deeply in coursework, collaborate with
-          professors and peers, and contribute meaningfully to research
-          projects.”
-        </p>
-        <h2 className="my-4 font-bold">
-          {" "}
-          Diffo: Unraveling the secrets of our universe
-        </h2>
-        <p>
-          Diffo, from Cameroon, is fascinated by the big questions beyond Earth
-          — which is what drew her to the Square Kilometre Array (SKA), the
-          largest and most sensitive radio telescope on the planet.
-        </p>{" "}
-        <p>
-          “Understanding the 21cm line provides insights into the early
-          universe, the formation of the first stars and galaxies, and the
-          structure of the cosmos,” Diffo explains. “By applying Markov chain
-          Monte Carlo (MCMC) techniques, I hope to improve the accuracy and
-          efficiency of extracting these faint signals from SKA data,
-          potentially leading to more precise cosmological models and a deeper
-          understanding of the future evolution of the universe.”
-        </p>{" "}
-        <p>
-          For those considering similar studies, Diffo offers a few words of
-          advice: “Stay curious, be persistent and embrace interdisciplinary
-          learning. Engaging in hands-on projects, collaborating with peers, and
-          seeking mentorship from AI experts can greatly benefit your learning
-          experience and career prospects.”
-        </p>
-        <h2 className="my-4 font-bold">Supporting AI education in Africa</h2>
-        <p>
-          This work builds on our existing commitments in the region, including
-          our support of the Deep Learning Indaba through volunteering and
-          funding since its inception in 2017, the recent launch of our
-          Experience AI education program across Africa, which has already
-          engaged local educators working with more than 30,000 young people,
-          and additional educational funding, which has been used by three
-          further African universities to offer a total of over 40 postgraduate
-          scholarships since 2020.
-        </p>{" "}
-        <p>
-          Increasing representation in the field of AI research offers a
-          much-needed opportunity to bring diverse values, perspectives, and
-          concerns into conversations about the design and deployment of this
-          transformative technology. We hope our support for AIMS not only
-          serves to build a more global and inclusive AI ecosystem, but also
-          helps students make new scientific discoveries that benefit their
-          local communities and the entire globe.
-        </p>
+
         <div>
-          <h2></h2>
+          <h2 className="my-4 font-bold"></h2>
           <p>
-            Credit source from:
+            Learn more about Practical Concepts in Deep Learning for Beginners:
             <Link
               className="ml-4 font-bold italic"
-              href="https://deepmind.google/discover/blog/a-new-generation-of-african-talent-brings-cutting-edge-ai-to-scientific-challenges/"
+              href="https://github.com/marksikaundi/30DaysOfDeepLearning/blob/main/11/PracticalConcept.md"
             >
-              Google DeepMind
+              Lupleg Community
             </Link>
           </p>
         </div>

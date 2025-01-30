@@ -13,8 +13,7 @@ export default function Component() {
       </h1>
       <div className="text-center text-gray-500 mb-4">24 JANUARY 2025</div>
       <div className="text-center text-gray-700 mb-6">
-        We'll cover the basics of machine learning, and then we'll walk through
-        a simple example using Python
+        Mark Sikaundi - Data Scientist and AI Researcher.{" "}
       </div>
       <div className="flex justify-center mb-8">
         <SharePost className="w-4 h-4 mr-2" />

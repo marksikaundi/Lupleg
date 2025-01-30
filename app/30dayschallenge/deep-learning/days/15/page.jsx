@@ -9,12 +9,11 @@ export default function Component() {
         RESEARCH
       </div>
       <h1 className="text-4xl font-bold mb-2 text-center">
-        A new generation of African talent brings cutting-edge AI to scientific
-        challenges
+        Improving the performance and robustness of machine learning models
       </h1>
-      <div className="text-center text-gray-500 mb-4">5 AUGUST 2024</div>
+      <div className="text-center text-gray-500 mb-4">30 JANUARY 2025</div>
       <div className="text-center text-gray-700 mb-6">
-        Obum Ekeke OBE, Head of Education Partnerships
+        Mark Sikaundi - Data Scientist and AI Researcher.{" "}
       </div>
       <div className="flex justify-center mb-8">
         <SharePost className="w-4 h-4 mr-2" />
@@ -27,132 +26,225 @@ export default function Component() {
         className="w-full rounded-lg mb-8"
       />
       <p className="font-mono text-lg mb-6">
-        Food security, healthcare and exploring the cosmos are among the ways
-        students of a new pan-African Master’s program aspire to apply AI
+        Machine learning models are becoming increasingly complex and
+        sophisticated, making them more challenging to interpret and understand.
+        Here are some strategies to improve the performance and robustness of
+        your machine learning models.
       </p>
       <div className="space-y-4 text-gray-700">
         <p>
-          At Google DeepMind, we’re committed to supporting the next generation
-          of artificial intelligence (AI) leaders to help build a stronger, more
-          diverse and inclusive global AI community. This includes increasing
-          access to AI and science through education.
+          <strong>1. Data Augmentation:</strong> Data augmentation is a
+          technique used to artificially increase the size of a training dataset
+          by applying various transformations to the existing data, such as
+          rotation, flipping, and scaling. This can help improve the
+          generalization and robustness of your model by exposing it to a wider
+          range of variations in the input data.
         </p>{" "}
         <p>
-          Last year, we partnered with the African Institute for Mathematical
-          Sciences (AIMS), Africa’s first network of centers of excellence in
-          mathematical sciences, to launch an AI for Science Master’s program,
-          with a $4.5M grant from Google DeepMind.
+          <strong>2. Regularization:</strong> Regularization is a technique used
+          to prevent overfitting in machine learning models by adding a penalty
+          term to the loss function that discourages the model from learning
+          complex patterns in the training data that may not generalize well to
+          unseen data. Common regularization techniques include L1 and L2
+          regularization, dropout, and early stopping.
         </p>{" "}
         <p>
-          This funding helps AIMS provide full scholarships, equipment and
-          compute to talented local students, giving them access to advanced
-          studies in mathematics, AI and machine learning from world-class
-          academics at AIMS South Africa. Students have the opportunity to
-          accelerate scientific discovery, with mentoring and support from
-          Google DeepMind’s researchers and engineers.
+          <strong>3. Hyperparameter Tuning:</strong> Hyperparameter tuning
+          involves optimizing the hyperparameters of a machine learning model to
+          improve its performance. This can be done manually by adjusting the
+          hyperparameters based on trial and error, or automatically using
+          techniques such as grid search, random search, and Bayesian
+          optimization.
         </p>
+        <h2 className="my-4 font-bold">Why Use Data Augmentation?</h2>
+        <p>
+          Data augmentation is a powerful technique that can help improve the
+          performance and robustness of machine learning models by exposing them
+          to a wider range of variations in the input data. This can help the
+          model learn more generalizable features and reduce overfitting,
+          leading to better performance on unseen data.
+        </p>
+        <p>
+          Data augmentation is particularly useful in scenarios where the
+          training dataset is limited or imbalanced, as it can help artificially
+          increase the size of the dataset and create a more diverse and
+          representative training set.
+        </p>
+        <p>
+          By applying various transformations to the input data, such as
+          rotation, flipping, and scaling, data augmentation can help the model
+          learn invariant features that are robust to these variations,
+          improving its performance and generalization capabilities.
+        </p>
+        <h2 className="my-4 font-bold">Common Data Augmentation Techniques</h2>
+        <p>
+          There are several common data augmentation techniques that are widely
+          used in machine learning, including:
+        </p>
+        <ul className="list-disc list-inside">
+          <li>Rotation</li>
+          <li>Flipping</li>
+          <li>Scaling</li>
+          <li>Translation</li>
+          <li>Shearing</li>
+          <li>Color Jittering</li>
+          <li>Adding Noise</li>
+        </ul>
+        <h2 className="my-4 font-bold">Applying Data Augmentation</h2>
+        <p>
+          Data augmentation can be easily applied to a training dataset using
+          libraries like TensorFlow and PyTorch, which provide built-in
+          functions for applying various transformations to the input data.
+        </p>
+        <p>
+          By augmenting the training data with these transformations, you can
+          create a more diverse and representative dataset that can help improve
+          the performance and generalization capabilities of your machine
+          learning model.
+        </p>
+        <p>
+          Let's apply data augmentation to an image dataset using Python and the
+          `torchvision` library, which is part of the PyTorch ecosystem.
+        </p>
+        <h2 className="my-4 font-bold">Step 1: Install Required Libraries</h2>
+        <pre>
+          <code>
+            {`
+# Install PyTorch and torchvision
+pip install torch torchvision
+            `}
+          </code>
+        </pre>
+        <h2 className="my-4 font-bold">Step 2: Import Libraries</h2>
+        <pre>
+          <code>
+            {`
+import torch
+import torchvision
+from torchvision import transforms
+            `}
+          </code>
+        </pre>
         <h2 className="my-4 font-bold">
-          {" "}
-          Béria: Innovating for better food security
+          Step 3: Define Data Augmentation Transformations
         </h2>
-        <p>
-          Sustainability is a top priority for Béria, originally from Chad. “I
-          hope to develop solutions for sustainable agricultural development
-          that will benefit both people and the planet by integrating principles
-          of renewable energy, precision farming, and ecological preservation in
-          my work,” he says.
-        </p>{" "}
-        <p>
-          “Beyond agriculture, AI offers significant potential to enhance the
-          resilience of Africa's natural environments,” Béria adds. “By
-          implementing AI-powered monitoring and decision-support systems, we
-          can safeguard Africa's precious green areas and biodiversity for
-          future generations.”
-        </p>
+        <pre>
+          <code>
+            {`
+# Define a series of data augmentation transformations
+transform = transforms.Compose([
+    transforms.RandomHorizontalFlip(),  # Randomly flip the image horizontally
+    transforms.RandomRotation(10),      # Randomly rotate the image by 10 degrees
+    transforms.RandomResizedCrop(224),  # Randomly crop and resize the image to 224x224
+    transforms.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2, hue=0.2),  # Randomly change brightness, contrast, saturation, and hue
+    transforms.ToTensor()               # Convert the image to a PyTorch tensor
+])
+            `}
+          </code>
+        </pre>
         <h2 className="my-4 font-bold">
-          Olivier: Pioneering virus transmission research through the lens of
-          climate change
+          Step 4: Load the Dataset with Augmentations
         </h2>
-        <p>
-          Olivier’s passion for applying mathematics to complex problems led him
-          to AIMS South Africa: “Throughout my academic journey, I’ve been
-          fascinated by the power of mathematics, particularly in addressing
-          real-world challenges through AI,” he says. “A solid foundation in
-          mathematical sciences is crucial for driving progress in areas such as
-          healthcare, climate science and technology — and I’m eager to be at
-          the forefront of these advancements.”
-        </p>{" "}
-        <p>
-          Originally from Benin, Olivier now looks to apply this approach to
-          data from African countries to help understand the spread of dengue
-          fever. “Using advanced AI techniques, I hope to create more accurate
-          prediction models to inform public health strategies and
-          interventions, ultimately contributing to the control and prevention
-          of this viral disease.”
-        </p>{" "}
-        <p>
-          Discussing the personal impact of his scholarship, Olivier recounts,
-          “Without it, pursuing advanced studies at such a prestigious
-          institution would have been financially unattainable for me. This
-          support enabled me to fully immerse myself in AIMS' rigorous academic
-          environment, so I could engage deeply in coursework, collaborate with
-          professors and peers, and contribute meaningfully to research
-          projects.”
-        </p>
+        <pre>
+          <code>
+            {`
+# Load the dataset with the defined transformations
+dataset = datasets.CIFAR10(root='./data', train=True, download=True, transform=transform)
+
+# Create a DataLoader to iterate through the dataset
+dataloader = torch.utils.data.DataLoader(dataset, batch_size=32, shuffle=True)
+            `}
+          </code>
+        </pre>
+        <h2 className="my-4 font-bold">Step 5: Visualize Augmented Images</h2>
+        <pre>
+          <code>
+            {`
+# Function to show an image
+def imshow(img):
+    img = img / 2 + 0.5  # Unnormalize
+    npimg = img.numpy()
+    plt.imshow(np.transpose(npimg, (1, 2, 0)))
+    plt.show()
+
+# Get a batch of training data
+dataiter = iter(dataloader)
+images, labels = dataiter.next()
+
+# Show images
+imshow(torchvision.utils.make_grid(images))
+            `}
+          </code>
+        </pre>
         <h2 className="my-4 font-bold">
-          {" "}
-          Diffo: Unraveling the secrets of our universe
+          Step 6: Train Your Model with Augmented Data
         </h2>
-        <p>
-          Diffo, from Cameroon, is fascinated by the big questions beyond Earth
-          — which is what drew her to the Square Kilometre Array (SKA), the
-          largest and most sensitive radio telescope on the planet.
-        </p>{" "}
-        <p>
-          “Understanding the 21cm line provides insights into the early
-          universe, the formation of the first stars and galaxies, and the
-          structure of the cosmos,” Diffo explains. “By applying Markov chain
-          Monte Carlo (MCMC) techniques, I hope to improve the accuracy and
-          efficiency of extracting these faint signals from SKA data,
-          potentially leading to more precise cosmological models and a deeper
-          understanding of the future evolution of the universe.”
-        </p>{" "}
-        <p>
-          For those considering similar studies, Diffo offers a few words of
-          advice: “Stay curious, be persistent and embrace interdisciplinary
-          learning. Engaging in hands-on projects, collaborating with peers, and
-          seeking mentorship from AI experts can greatly benefit your learning
-          experience and career prospects.”
-        </p>
-        <h2 className="my-4 font-bold">Supporting AI education in Africa</h2>
-        <p>
-          This work builds on our existing commitments in the region, including
-          our support of the Deep Learning Indaba through volunteering and
-          funding since its inception in 2017, the recent launch of our
-          Experience AI education program across Africa, which has already
-          engaged local educators working with more than 30,000 young people,
-          and additional educational funding, which has been used by three
-          further African universities to offer a total of over 40 postgraduate
-          scholarships since 2020.
-        </p>{" "}
-        <p>
-          Increasing representation in the field of AI research offers a
-          much-needed opportunity to bring diverse values, perspectives, and
-          concerns into conversations about the design and deployment of this
-          transformative technology. We hope our support for AIMS not only
-          serves to build a more global and inclusive AI ecosystem, but also
-          helps students make new scientific discoveries that benefit their
-          local communities and the entire globe.
-        </p>
+        <pre>
+          <code>
+            {`
+            import torch.nn as nn
+import torch.optim as optim
+
+# Define a simple CNN model
+class SimpleCNN(nn.Module):
+    def __init__(self):
+        super(SimpleCNN, self).__init__()
+        self.conv1 = nn.Conv2d(3, 32, 3, padding=1)
+        self.conv2 = nn.Conv2d(32, 64, 3, padding=1)
+        self.pool = nn.MaxPool2d(2, 2)
+        self.fc1 = nn.Linear(64 * 8 * 8, 512)
+        self.fc2 = nn.Linear(512, 10)
+
+    def forward(self, x):
+        x = self.pool(F.relu(self.conv1(x)))
+        x = self.pool(F.relu(self.conv2(x)))
+        x = x.view(-1, 64 * 8 * 8)
+        x = F.relu(self.fc1(x))
+        x = self.fc2(x)
+        return x
+
+# Initialize the model, loss function, and optimizer
+model = SimpleCNN()
+criterion = nn.CrossEntropyLoss()
+optimizer = optim.SGD(model.parameters(), lr=0.001, momentum=0.9)
+
+# Train the model
+for epoch in range(10):  # Loop over the dataset multiple times
+    running_loss = 0.0
+    for i, data in enumerate(dataloader, 0):
+        inputs, labels = data
+
+        # Zero the parameter gradients
+        optimizer.zero_grad()
+
+        # Forward pass
+        outputs = model(inputs)
+        loss = criterion(outputs, labels)
+
+        # Backward pass and optimize
+        loss.backward()
+        optimizer.step()
+
+        # Print statistics
+        running_loss += loss.item()
+        if i % 200 == 199:  # Print every 200 mini-batches
+            print(f'[Epoch {epoch + 1}, Batch {i + 1}] loss: {running_loss / 200:.3f}')
+            running_loss = 0.0
+
+print('Finished Training')
+
+            `}
+          </code>
+        </pre>
         <div>
           <h2></h2>
           <p>
-            Credit source from:
+            Learn more from
             <Link
               className="ml-4 font-bold italic"
-              href="https://deepmind.google/discover/blog/a-new-generation-of-african-talent-brings-cutting-edge-ai-to-scientific-challenges/"
+              href="https://github.com/Lupleg/30DaysOfDeepLearning"
             >
-              Google DeepMind
+              Lupleg Community
             </Link>
           </p>
         </div>

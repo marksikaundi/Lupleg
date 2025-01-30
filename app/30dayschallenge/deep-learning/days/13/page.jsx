@@ -9,12 +9,12 @@ export default function Component() {
         RESEARCH
       </div>
       <h1 className="text-4xl font-bold mb-2 text-center">
-        A new generation of African talent brings cutting-edge AI to scientific
-        challenges
+        Convolutional Neural Networks (CNNs) are a powerful type of Neural
+        Network
       </h1>
-      <div className="text-center text-gray-500 mb-4">5 AUGUST 2024</div>
+      <div className="text-center text-gray-500 mb-4">29 JANUARY 2025</div>
       <div className="text-center text-gray-700 mb-6">
-        Obum Ekeke OBE, Head of Education Partnerships
+        Mark Sikaundi - Data Scientist and AI Researcher.{" "}
       </div>
       <div className="flex justify-center mb-8">
         <SharePost className="w-4 h-4 mr-2" />
@@ -27,132 +27,157 @@ export default function Component() {
         className="w-full rounded-lg mb-8"
       />
       <p className="font-mono text-lg mb-6">
-        Food security, healthcare and exploring the cosmos are among the ways
-        students of a new pan-African Master’s program aspire to apply AI
+        Convolutional Neural Networks (CNNs) involves understanding both the
+        theoretical concepts and practical implementation details. Here are key
+        areas and best practices to focus on.
       </p>
       <div className="space-y-4 text-gray-700">
         <p>
-          At Google DeepMind, we’re committed to supporting the next generation
-          of artificial intelligence (AI) leaders to help build a stronger, more
-          diverse and inclusive global AI community. This includes increasing
-          access to AI and science through education.
-        </p>{" "}
-        <p>
-          Last year, we partnered with the African Institute for Mathematical
-          Sciences (AIMS), Africa’s first network of centers of excellence in
-          mathematical sciences, to launch an AI for Science Master’s program,
-          with a $4.5M grant from Google DeepMind.
-        </p>{" "}
-        <p>
-          This funding helps AIMS provide full scholarships, equipment and
-          compute to talented local students, giving them access to advanced
-          studies in mathematics, AI and machine learning from world-class
-          academics at AIMS South Africa. Students have the opportunity to
-          accelerate scientific discovery, with mentoring and support from
-          Google DeepMind’s researchers and engineers.
+          <strong>1. Convolutional Neural Networks (CNNs)</strong> are a
+          powerful type of Neural Network that can learn useful features from
+          raw data. They are widely used in image and video recognition,
+          recommender systems, and natural language processing.
         </p>
-        <h2 className="my-4 font-bold">
-          {" "}
-          Béria: Innovating for better food security
-        </h2>
+
+        <h2 className="my-4 font-bold">How can run CNNs</h2>
+
+        <pre>
+          <code>
+            {`
+            
+import tensorflow as tf
+from tensorflow.keras import layers, models
+
+# Define a simple CNN model
+model = models.Sequential()
+model.add(layers.Conv2D(16, (3, 3), activation='relu', input_shape=(28, 28, 1)))
+model.add(layers.MaxPooling2D((2, 2)))
+model.add(layers.Conv2D(32, (3, 3), activation='relu'))
+model.add(layers.MaxPooling2D((2, 2)))
+model.add(layers.Flatten())
+model.add(layers.Dense(128, activation='relu'))
+model.add(layers.Dense(10, activation='softmax'))
+
+# Compile the model
+model.compile(optimizer='adam',
+              loss='categorical_crossentropy',
+              metrics=['accuracy'])
+
+# Dummy data for demonstration purposes
+import numpy as np
+xs = np.random.random((100, 28, 28, 1))
+ys = tf.keras.utils.to_categorical(np.random.randint(10, size=(100, 1)), num_classes=10)
+
+# Train the model
+model.fit(xs, ys, epochs=10, batch_size=32)
+
+print('Model training complete')
+
+
+
+
+              `}
+          </code>
+        </pre>
+
         <p>
-          Sustainability is a top priority for Béria, originally from Chad. “I
-          hope to develop solutions for sustainable agricultural development
-          that will benefit both people and the planet by integrating principles
-          of renewable energy, precision farming, and ecological preservation in
-          my work,” he says.
-        </p>{" "}
-        <p>
-          “Beyond agriculture, AI offers significant potential to enhance the
-          resilience of Africa's natural environments,” Béria adds. “By
-          implementing AI-powered monitoring and decision-support systems, we
-          can safeguard Africa's precious green areas and biodiversity for
-          future generations.”
+          <strong>2. CNNs are composed of layers</strong> that transform the
+          input data into useful representations. The most common layers are
+          Convolutional Layers, Pooling Layers, and Fully Connected Layers.
         </p>
-        <h2 className="my-4 font-bold">
-          Olivier: Pioneering virus transmission research through the lens of
-          climate change
-        </h2>
+
         <p>
-          Olivier’s passion for applying mathematics to complex problems led him
-          to AIMS South Africa: “Throughout my academic journey, I’ve been
-          fascinated by the power of mathematics, particularly in addressing
-          real-world challenges through AI,” he says. “A solid foundation in
-          mathematical sciences is crucial for driving progress in areas such as
-          healthcare, climate science and technology — and I’m eager to be at
-          the forefront of these advancements.”
-        </p>{" "}
-        <p>
-          Originally from Benin, Olivier now looks to apply this approach to
-          data from African countries to help understand the spread of dengue
-          fever. “Using advanced AI techniques, I hope to create more accurate
-          prediction models to inform public health strategies and
-          interventions, ultimately contributing to the control and prevention
-          of this viral disease.”
-        </p>{" "}
-        <p>
-          Discussing the personal impact of his scholarship, Olivier recounts,
-          “Without it, pursuing advanced studies at such a prestigious
-          institution would have been financially unattainable for me. This
-          support enabled me to fully immerse myself in AIMS' rigorous academic
-          environment, so I could engage deeply in coursework, collaborate with
-          professors and peers, and contribute meaningfully to research
-          projects.”
+          <strong>3. Convolutional Layers</strong> apply filters to the input
+          data to extract features. The filters are learned during training and
+          can capture patterns like edges, textures, and shapes.
         </p>
-        <h2 className="my-4 font-bold">
-          {" "}
-          Diffo: Unraveling the secrets of our universe
-        </h2>
+
         <p>
-          Diffo, from Cameroon, is fascinated by the big questions beyond Earth
-          — which is what drew her to the Square Kilometre Array (SKA), the
-          largest and most sensitive radio telescope on the planet.
-        </p>{" "}
-        <p>
-          “Understanding the 21cm line provides insights into the early
-          universe, the formation of the first stars and galaxies, and the
-          structure of the cosmos,” Diffo explains. “By applying Markov chain
-          Monte Carlo (MCMC) techniques, I hope to improve the accuracy and
-          efficiency of extracting these faint signals from SKA data,
-          potentially leading to more precise cosmological models and a deeper
-          understanding of the future evolution of the universe.”
-        </p>{" "}
-        <p>
-          For those considering similar studies, Diffo offers a few words of
-          advice: “Stay curious, be persistent and embrace interdisciplinary
-          learning. Engaging in hands-on projects, collaborating with peers, and
-          seeking mentorship from AI experts can greatly benefit your learning
-          experience and career prospects.”
+          <strong>4. Pooling Layers</strong> reduce the spatial dimensions of
+          the data by aggregating information. Common pooling operations include
+          max pooling and average pooling.
         </p>
-        <h2 className="my-4 font-bold">Supporting AI education in Africa</h2>
+
         <p>
-          This work builds on our existing commitments in the region, including
-          our support of the Deep Learning Indaba through volunteering and
-          funding since its inception in 2017, the recent launch of our
-          Experience AI education program across Africa, which has already
-          engaged local educators working with more than 30,000 young people,
-          and additional educational funding, which has been used by three
-          further African universities to offer a total of over 40 postgraduate
-          scholarships since 2020.
-        </p>{" "}
-        <p>
-          Increasing representation in the field of AI research offers a
-          much-needed opportunity to bring diverse values, perspectives, and
-          concerns into conversations about the design and deployment of this
-          transformative technology. We hope our support for AIMS not only
-          serves to build a more global and inclusive AI ecosystem, but also
-          helps students make new scientific discoveries that benefit their
-          local communities and the entire globe.
+          <strong>5. Fully Connected Layers</strong> connect every neuron in one
+          layer to every neuron in the next layer. They are used to make
+          predictions based on the learned features.
         </p>
+
+        <p>
+          <strong>6. Training a CNN involves</strong> feeding data through the
+          network, computing the loss, and updating the weights using
+          backpropagation. Common optimization algorithms include Stochastic
+          Gradient Descent and Adam.
+        </p>
+
+        <p>
+          <strong>7. Regularization techniques</strong> like Dropout and Batch
+          Normalization can help prevent overfitting and improve generalization
+          performance.
+        </p>
+
+        <p>
+          <strong>8. Hyperparameter tuning</strong> is essential for optimizing
+          the performance of a CNN. Key hyperparameters include the learning
+          rate, batch size, and network architecture.
+        </p>
+
+        <p>
+          <strong>9. Transfer learning</strong> is a powerful technique that
+          leverages pre-trained models to solve new tasks. It can save time and
+          computational resources while improving performance.
+        </p>
+
+        <p>
+          <strong>10. Understanding the theory behind CNNs</strong> is crucial
+          for effectively applying them to real-world problems. Resources like
+          research papers, textbooks, and online courses can help deepen your
+          understanding.
+        </p>
+
+        <p>
+          <strong>
+            11. Implementing CNNs in popular deep learning frameworks
+          </strong>{" "}
+          like TensorFlow and PyTorch can help you quickly prototype and
+          experiment with different architectures.
+        </p>
+
+        <p>
+          <strong>12. Stay up to date with the latest research</strong> in the
+          field of Convolutional Neural Networks. Follow conferences like
+          NeurIPS, CVPR, and ICCV, and read papers from top researchers.
+        </p>
+
+        <p>
+          <strong>13. Practice, practice, practice!</strong> Building and
+          training CNNs on real datasets is the best way to develop your skills
+          and gain practical experience.
+        </p>
+
+        <p>
+          <strong>14. Collaborate with others</strong> in the field of Deep
+          Learning to exchange ideas, learn from each other, and work on
+          challenging projects together.
+        </p>
+
+        <p>
+          <strong>15. Share your knowledge</strong> with the community by
+          writing blog posts, giving talks, and contributing to open-source
+          projects. Teaching others is a great way to solidify your own
+          understanding.
+        </p>
+
         <div>
           <h2></h2>
           <p>
-            Credit source from:
+            Explore on from our:
             <Link
               className="ml-4 font-bold italic"
-              href="https://deepmind.google/discover/blog/a-new-generation-of-african-talent-brings-cutting-edge-ai-to-scientific-challenges/"
+              href="https://github.com/Lupleg/30DaysOfDeepLearning/blob/main/13/Into_CNN.md"
             >
-              Google DeepMind
+              Lupleg Community
             </Link>
           </p>
         </div>

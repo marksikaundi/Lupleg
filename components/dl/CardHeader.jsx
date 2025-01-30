@@ -82,72 +82,71 @@ const newsItems = [
   {
     category: "RESEARCH",
     title:
-      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+      "Basic Classification with a Neural Network with Keras and TensorFlow",
     description:
-      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
+      "Keras models are typically built using the Sequential API or the Functional API",
     date: "26 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
-    link: "/30dayschallenge/deep-learning/days/5",
+    link: "/30dayschallenge/deep-learning/days/9",
+  },
+  {
+    category: "RESEARCH",
+    title: "Building Simple Neural Network(NN) from Scratch with Python",
+    description:
+      "Today we are going to build and train a simple neural network using the MNIST dataset...",
+    date: "26 JANUARY 2025",
+    image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
+    link: "/30dayschallenge/deep-learning/days/10",
   },
   {
     category: "RESEARCH",
     title:
-      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+      "Practical Concepts in Deep Learning for Beginners with TensorFlow and Keras",
     description:
-      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
+      "We'll cover the basics of deep learning, and then we'll walk through...",
     date: "26 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
-    link: "/30dayschallenge/deep-learning/days/5",
+    link: "/30dayschallenge/deep-learning/days/11",
   },
   {
     category: "RESEARCH",
     title:
-      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+      "Implementation of dropout and batch normalization in a neural network model",
     description:
-      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
+      "We'll cover the basics of dropout and batch normalization, and then we'll walk through...",
     date: "26 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
-    link: "/30dayschallenge/deep-learning/days/3",
+    link: "/30dayschallenge/deep-learning/days/12",
   },
   {
     category: "RESEARCH",
     title:
-      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+      "Convolutional Neural Networks (CNNs) are a powerful type of Neural Network",
     description:
-      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
+      "Let's build and train a simple CNN using Python and the popular deep learning library... ",
     date: "26 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
-    link: "/30dayschallenge/deep-learning/days/6",
+    link: "/30dayschallenge/deep-learning/days/13",
   },
   {
     category: "RESEARCH",
     title:
-      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+      "Evaluating the performance of a Convolutional Neural Network (CNN)",
     description:
-      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
+      "Evaluating the performance of a CNN is crucial to understand how well the model is performing...",
     date: "26 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
-    link: "/30dayschallenge/deep-learning/days/6",
+    link: "/30dayschallenge/deep-learning/days/14",
   },
   {
     category: "RESEARCH",
     title:
-      "A new generation of African talent brings cutting-edge AI to scientific challenges",
+      "Improving the performance and robustness of machine learning model",
     description:
-      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
+      "Data augmentation is a technique used to artificially increase the size of a dataset...",
     date: "26 JANUARY 2025",
     image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
-    link: "/30dayschallenge/deep-learning/days/7",
-  },
-  {
-    category: "RESEARCH",
-    title:
-      "A new generation of African talent brings cutting-edge AI to scientific challenges",
-    description:
-      "Food security, healthcare and exploring the cosmos are among the ways students of a...",
-    date: "26 JANUARY 2025",
-    image: "https://www.lupleg.org/_next/image?url=%2Fml%2Fnew.webp&w=828&q=75",
-    link: "/30dayschallenge/deep-learning/days/7",
+    link: "/30dayschallenge/deep-learning/days/15",
   },
   {
     category: "RESEARCH",
