@@ -34,7 +34,6 @@ export default function Component() {
       </p>
       <div className="space-y-4 text-gray-700">
         <h2 className="my-4 font-bold">Confusion Matrix</h2>
-       
         <p>
           The confusion matrix is a 2x2 table that contains 4 outputs provided
           by the binary classifier. Various measures, such as error-rate,
@@ -42,18 +41,57 @@ export default function Component() {
           derived from the confusion matrix.
         </p>
 
-        <h2 className="my-4 font-bold">How to run CNNs</h2>
+        <h2 className="my-4 font-bold">Components of a Confusion Matrix:</h2>
+        <p>
+          <strong>True Positives (TP):</strong> The number of positive instances
+          correctly classified as positive.
+        </p>
+        <p>
+          <strong>True Negatives (TN):</strong> The number of negative instances
+          correctly classified as negative.
+        </p>
+        <p>
+          <strong>False Positives (FP):</strong> The number of negative
+          instances incorrectly classified as positive.
+        </p>
+        <p>
+          <strong>False Negatives (FN):</strong> The number of positive
+          instances incorrectly classified as negative.
+        </p>
+        <p>
+          The confusion matrix is a powerful tool for evaluating the performance
+          of a classification model. It provides a clear picture of the model's
+          performance and helps identify areas for improvement. By analyzing the
+          confusion matrix, you can gain insights into the model's strengths and
+          weaknesses and make informed decisions about how to optimize its
+          performance.
+        </p>
 
-        <h2 className="my-4 font-bold">How can run CNNs</h2>
-        <ul className="list-disc ml-8">
-          <li>Define a simple CNN model</li>
-          <li>Add layers to the model</li>
-          <li>Compile the model</li>
-          <li>Train the model</li>
-          <li>Evaluate the model</li>
-        </ul>
+        <h2 className="my-4 font-bold">Example:</h2>
+        <p>
+          Suppose we have a binary classification model that predicts whether a
+          patient has a particular disease based on a set of symptoms. The
+          confusion matrix for this model might look like this:
+        </p>
+        <table className="w-full border-collapse border border-gray-400">
+          <thead>
+            <tr>
+              <th className="border border-gray-400 p-2">Actual</th>
+              <th className="border border-gray-400 p-2">Predicted</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="border border-gray-400 p-2">Disease</td>
+              <td className="border border-gray-400 p-2">Positive</td>
+            </tr>
 
-        <h2 className="my-4 font-bold">How to run CNNs</h2>
+            <tr>
+              <td className="border border-gray-400 p-2">No Disease</td>
+              <td className="border border-gray-400 p-2">Negative</td>
+            </tr>
+          </tbody>
+        </table>
 
         <div>
           <h2></h2>
