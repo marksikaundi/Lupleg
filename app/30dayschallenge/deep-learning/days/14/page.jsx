@@ -252,7 +252,7 @@ print(report)
             Learn more from
             <Link
               className="ml-4 font-bold italic"
-              href="https://deepmind.google/discover/blog/a-new-generation-of-african-talent-brings-cutting-edge-ai-to-scientific-challenges/"
+              href="https://github.com/Lupleg/30DaysOfDeepLearning/blob/main/14/Evaluation.md"
             >
               Lupleg Community
             </Link>
