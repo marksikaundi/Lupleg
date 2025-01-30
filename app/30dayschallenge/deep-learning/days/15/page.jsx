@@ -13,7 +13,7 @@ export default function Component() {
       </h1>
       <div className="text-center text-gray-500 mb-4">30 JANUARY 2025</div>
       <div className="text-center text-gray-700 mb-6">
-        Mark Sikaundi - Data Scientist and AI Researcher.
+        Mark Sikaundi - Data Scientist and AI Researcher.{" "}
       </div>
       <div className="flex justify-center mb-8">
         <SharePost className="w-4 h-4 mr-2" />
@@ -244,7 +244,7 @@ print('Finished Training')
               className="ml-4 font-bold italic"
               href="https://github.com/Lupleg/30DaysOfDeepLearning"
             >
-             Lupleg Community
+              Lupleg Community
             </Link>
           </p>
         </div>
