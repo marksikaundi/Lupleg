@@ -151,7 +151,6 @@ export default function BlogPage() {
                         {post.category}
                       </Badge>
                     </div>
-                    
 
                     <div className="flex items-center space-x-4">
   <Image
@@ -159,14 +158,13 @@ export default function BlogPage() {
     alt={post.author.name}
     width={40}
     height={40}
-    className="rounded-full"
+    className="rounded-full object-cover"
   />
   <div>
     <div className="font-medium">{post.author.name}</div>
     <div className="text-sm text-gray-400">{post.date}</div>
   </div>
 </div>
-
                   </div>
                 </div>
               </CardContent>
