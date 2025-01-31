@@ -203,8 +203,13 @@ export default function BlogPost({ params }) {
   return (
     <article className="container mx-auto px-4 py-16 max-w-4xl">
       <div className="mb-8">
-      <IoIosArrowRoundBack />
-        <h2>Back to all posts</h2>
+        <Link
+          href="/blogs"
+          className="inline-flex items-center text-sm text-[#2D1537] hover:text-[#2D1537] mb-6"
+        >
+          <IoIosArrowRoundBack className="mr-2 h-4 w-4" />
+          Back to all posts
+        </Link>
         <Badge
           variant="secondary"
           className="bg-gray-800 text-gray-300 mb-6 hover:bg-[#2D1537] p-2 "
