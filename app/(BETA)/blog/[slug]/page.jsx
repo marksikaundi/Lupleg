@@ -32,7 +32,7 @@ function getPost(slug) {
       image:
         "https://sjc.microlink.io/dzzPYDNUjRE-ZJDrx92QWIsZJunE4XrQZG4cgJyO7KQzfMTozL_Mr5PPN4F1qHqZHE92k1eThc98ojhw3mBjkg.jpeg",
       author: {
-        name: "Vanessa Greene",
+        name: "Mark Sikaundi",
         avatar: "/placeholder.svg",
       },
       date: "January 14, 2025",
@@ -66,49 +66,57 @@ export default function BlogPost({ params }) {
 
   if (!post) {
     return (
-        <div className="container mx-auto px-4 py-16 text-center">
-          <h1 className="text-4xl font-bold mb-4">Post not found</h1>
-          <p className="text-gray-400">
-            The blog post you're looking for doesn't exist.
-          </p>
-        </div>
+      <div className="container mx-auto px-4 py-16 text-center">
+        <h1 className="text-4xl font-bold mb-4">Post not found</h1>
+        <p className="text-gray-400">
+          The blog post you're looking for doesn't exist.
+        </p>
+      </div>
     );
   }
 
   return (
-      <article className="container mx-auto px-4 py-16 max-w-4xl">
-        <div className="mb-8">
-          <Badge variant="secondary" className="bg-gray-800 text-gray-300 mb-6">
-            {post.category}
-          </Badge>
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">{post.title}</h1>
-          <div className="flex items-center gap-3">
-            <Image
+    <article className="container mx-auto px-4 py-16 max-w-4xl">
+      <div className="mb-8">
+        <Badge variant="secondary" className="bg-gray-800 text-gray-300 mb-6">
+          {post.category}
+        </Badge>
+        <h1 className="text-4xl md:text-5xl font-bold mb-6">{post.title}</h1>
+        <div className="flex items-center gap-3">
+          {/* <Image
               src={post.author.avatar || "/placeholder.svg"}
               alt={post.author.name}
               width={48}
               height={48}
               className="rounded-full"
-            />
-            <div>
-              <div className="font-medium">{post.author.name}</div>
-              <div className="text-sm text-gray-400">{post.date}</div>
-            </div>
+            /> */}
+          <Image
+            src="/mark.jpg"
+            alt={post.author.name}
+            width={40}
+            height={40}
+            className="rounded-full object-cover"
+            style={{ borderRadius: "50%", width: 40, height: 40 }}
+          />
+          <div>
+            <div className="font-medium">{post.author.name}</div>
+            <div className="text-sm text-gray-400">{post.date}</div>
           </div>
         </div>
+      </div>
 
-        <div className="aspect-[16/9] relative mb-8">
-          <Image
-            src={post.image || "/placeholder.svg"}
-            alt={post.title}
-            fill
-            className="object-cover rounded-lg"
-          />
-        </div>
+      <div className="aspect-[16/9] relative mb-8">
+        <Image
+          src={post.image || "/placeholder.svg"}
+          alt={post.title}
+          fill
+          className="object-cover rounded-lg"
+        />
+      </div>
 
-        <div className="prose prose-invert max-w-none">
-          {formatContent(post.content)}
-        </div>
-      </article>
+      <div className="prose prose-invert max-w-none">
+        {formatContent(post.content)}
+      </div>
+    </article>
   );
 }
