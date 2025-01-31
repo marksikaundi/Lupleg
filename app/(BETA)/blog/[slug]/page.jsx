@@ -202,6 +202,7 @@ export default function BlogPost({ params }) {
   return (
     <article className="container mx-auto px-4 py-16 max-w-4xl">
       <div className="mb-8">
+        <h2>Back to all posts</h2>
         <Badge
           variant="secondary"
           className="bg-gray-800 text-gray-300 mb-6 hover:bg-[#2D1537] p-2 "
