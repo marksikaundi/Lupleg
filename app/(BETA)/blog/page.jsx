@@ -2,6 +2,7 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
 import Link from "next/link";
+import { FaUserCircle } from "react-icons/fa";
 
 const categories = [
   { name: "Author's Corner", slug: "authors-corner" },
@@ -154,8 +155,13 @@ export default function BlogPage() {
                         </Badge>
                       </div>
                       <div className="flex items-center gap-3">
+                        <FaUserCircle
+                        width={40}
+                        height={40}
+                        className="rounded-full"
+                        />
                         <Image
-                          src={post.author.avatar || "/placeholder.svg"}
+                          src={post.author.avatar || "/mark.jpg"}
                           alt={post.author.name}
                           width={40}
                           height={40}
