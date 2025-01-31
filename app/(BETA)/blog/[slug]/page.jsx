@@ -1,4 +1,5 @@
 import { Badge } from "@/components/ui/badge";
+import { IoIosArrowRoundBack } from "react-icons/io";
 import Image from "next/image";
 
 function getPost(slug) {
@@ -202,6 +203,7 @@ export default function BlogPost({ params }) {
   return (
     <article className="container mx-auto px-4 py-16 max-w-4xl">
       <div className="mb-8">
+      <IoIosArrowRoundBack />
         <h2>Back to all posts</h2>
         <Badge
           variant="secondary"
