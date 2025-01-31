@@ -43,7 +43,7 @@ const posts = [
     title: "From Kata to Career: Success Stories",
     excerpt:
       "Meet developers who transformed their careers through consistent practice and dedication to coding challenges.",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "https://sjc.microlink.io/dzzPYDNUjRE-ZJDrx92QWIsZJunE4XrQZG4cgJyO7KQzfMTozL_Mr5PPN4F1qHqZHE92k1eThc98ojhw3mBjkg.jpeg",
     author: {
       name: "Sarah Johnson",
       avatar: "/placeholder.svg",
@@ -56,7 +56,7 @@ const posts = [
     id: 4,
     title: "Python Best Practices: Lessons from Top Kata Solutions",
     excerpt: "Learn Python best practices and clean coding techniques from the most elegant kata solutions.",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "https://sjc.microlink.io/dzzPYDNUjRE-ZJDrx92QWIsZJunE4XrQZG4cgJyO7KQzfMTozL_Mr5PPN4F1qHqZHE92k1eThc98ojhw3mBjkg.jpeg",
     author: {
       name: "Michael Zhang",
       avatar: "/placeholder.svg",
@@ -69,7 +69,7 @@ const posts = [
     id: 5,
     title: "Building Your Developer Portfolio with Codewars",
     excerpt: "How to leverage your kata solutions and achievements to create a compelling developer portfolio.",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "https://sjc.microlink.io/dzzPYDNUjRE-ZJDrx92QWIsZJunE4XrQZG4cgJyO7KQzfMTozL_Mr5PPN4F1qHqZHE92k1eThc98ojhw3mBjkg.jpeg",
     author: {
       name: "Emma Rodriguez",
       avatar: "/placeholder.svg",
@@ -82,7 +82,7 @@ const posts = [
     id: 6,
     title: "The Art of Creating Kata: A Guide for Authors",
     excerpt: "Expert tips and guidelines for creating challenging and educational kata that engage the community.",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "https://sjc.microlink.io/dzzPYDNUjRE-ZJDrx92QWIsZJunE4XrQZG4cgJyO7KQzfMTozL_Mr5PPN4F1qHqZHE92k1eThc98ojhw3mBjkg.jpeg",
     author: {
       name: "James Wilson",
       avatar: "/placeholder.svg",
