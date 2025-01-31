@@ -151,19 +151,22 @@ export default function BlogPage() {
                         {post.category}
                       </Badge>
                     </div>
-                    <div className="flex items-center gap-3">
-                      <Image
-                        src= "/mark.jpg"
-                        alt={post.author.name}
-                        width={40}
-                        height={40}
-                        className="rounded-full"
-                      />
-                      <div>
-                        <div className="font-medium">{post.author.name}</div>
-                        <div className="text-sm text-gray-400">{post.date}</div>
-                      </div>
-                    </div>
+                    
+
+                    <div className="flex items-center space-x-4">
+  <Image
+    src="/mark.jpg"
+    alt={post.author.name}
+    width={40}
+    height={40}
+    className="rounded-full"
+  />
+  <div>
+    <div className="font-medium">{post.author.name}</div>
+    <div className="text-sm text-gray-400">{post.date}</div>
+  </div>
+</div>
+
                   </div>
                 </div>
               </CardContent>
