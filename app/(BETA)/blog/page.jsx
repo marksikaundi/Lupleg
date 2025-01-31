@@ -153,18 +153,19 @@ export default function BlogPage() {
                     </div>
 
                     <div className="flex items-center space-x-4">
-  <Image
-    src="/mark.jpg"
-    alt={post.author.name}
-    width={40}
-    height={40}
-    className="rounded-full object-cover"
-  />
-  <div>
-    <div className="font-medium">{post.author.name}</div>
-    <div className="text-sm text-gray-400">{post.date}</div>
-  </div>
-</div>
+                      <Image
+                        src="/mark.jpg"
+                        alt={post.author.name}
+                        width={40}
+                        height={40}
+                        className="rounded-full object-cover"
+                        style={{ borderRadius: '50%', width: 40, height: 40 }}
+                      />
+                      <div>
+                        <div className="font-medium">{post.author.name}</div>
+                        <div className="text-sm text-gray-400">{post.date}</div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </CardContent>
