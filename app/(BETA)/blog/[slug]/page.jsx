@@ -1,4 +1,3 @@
-import Layout from "@/development/dms";
 import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
 
@@ -67,19 +66,16 @@ export default function BlogPost({ params }) {
 
   if (!post) {
     return (
-      <Layout>
         <div className="container mx-auto px-4 py-16 text-center">
           <h1 className="text-4xl font-bold mb-4">Post not found</h1>
           <p className="text-gray-400">
             The blog post you're looking for doesn't exist.
           </p>
         </div>
-      </Layout>
     );
   }
 
   return (
-    <Layout>
       <article className="container mx-auto px-4 py-16 max-w-4xl">
         <div className="mb-8">
           <Badge variant="secondary" className="bg-gray-800 text-gray-300 mb-6">
@@ -114,6 +110,5 @@ export default function BlogPost({ params }) {
           {formatContent(post.content)}
         </div>
       </article>
-    </Layout>
   );
 }

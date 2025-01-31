@@ -1,4 +1,3 @@
-import Layout from "@/development/dms";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
@@ -105,7 +104,6 @@ const posts = [
 
 export default function BlogPage() {
   return (
-    <Layout>
       <div className="container mx-auto px-4 py-16 md:py-24">
         <div className="max-w-4xl mx-auto text-center mb-16">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
@@ -178,6 +176,5 @@ export default function BlogPage() {
           ))}
         </div>
       </div>
-    </Layout>
   );
 }
