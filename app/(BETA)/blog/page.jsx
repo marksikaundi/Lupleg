@@ -111,7 +111,7 @@ export default function BlogPage() {
           Developer Blog
         </h1>
         <p className="text-black text-lg mb-8">
-          Developer resources & insights from the Codewars team and our partners
+          Developer resources & insights from the Lupleg team and our partners
         </p>
         <div className="flex flex-wrap justify-center gap-2">
           {categories.map((category) => (
