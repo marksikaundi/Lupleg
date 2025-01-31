@@ -1,6 +1,6 @@
-import Layout from "@/components/layout"
-import { Badge } from "@/components/ui/badge"
-import Image from "next/image"
+import Layout from "@/development/dms";
+import { Badge } from "@/components/ui/badge";
+import Image from "next/image";
 
 function getPost(slug) {
   const posts = [
@@ -40,9 +40,9 @@ function getPost(slug) {
       category: "Author's Corner",
     },
     // Add more posts as needed
-  ]
+  ];
 
-  return posts.find((post) => post.slug === slug) || null
+  return posts.find((post) => post.slug === slug) || null;
 }
 
 function formatContent(content) {
@@ -52,28 +52,30 @@ function formatContent(content) {
         <h2 key={index} className="text-2xl font-bold mt-8 mb-4">
           {paragraph.replace("## ", "")}
         </h2>
-      )
+      );
     }
     return (
       <p key={index} className="mb-4">
         {paragraph}
       </p>
-    )
-  })
+    );
+  });
 }
 
 export default function BlogPost({ params }) {
-  const post = getPost(params.slug)
+  const post = getPost(params.slug);
 
   if (!post) {
     return (
       <Layout>
         <div className="container mx-auto px-4 py-16 text-center">
           <h1 className="text-4xl font-bold mb-4">Post not found</h1>
-          <p className="text-gray-400">The blog post you're looking for doesn't exist.</p>
+          <p className="text-gray-400">
+            The blog post you're looking for doesn't exist.
+          </p>
         </div>
       </Layout>
-    )
+    );
   }
 
   return (
@@ -100,12 +102,18 @@ export default function BlogPost({ params }) {
         </div>
 
         <div className="aspect-[16/9] relative mb-8">
-          <Image src={post.image || "/placeholder.svg"} alt={post.title} fill className="object-cover rounded-lg" />
+          <Image
+            src={post.image || "/placeholder.svg"}
+            alt={post.title}
+            fill
+            className="object-cover rounded-lg"
+          />
         </div>
 
-        <div className="prose prose-invert max-w-none">{formatContent(post.content)}</div>
+        <div className="prose prose-invert max-w-none">
+          {formatContent(post.content)}
+        </div>
       </article>
     </Layout>
-  )
+  );
 }
-
