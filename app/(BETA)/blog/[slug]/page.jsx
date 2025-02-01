@@ -37,7 +37,7 @@ function getPost(slug) {
         name: "Mark Sikaundi",
         avatar: "/placeholder.svg",
       },
-      date: "January 14, 2025",
+      date: "January 30, 2025",
       category: "Author's Corner",
     },
     {

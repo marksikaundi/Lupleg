@@ -22,9 +22,9 @@ const posts = [
       name: "Mark Sikaundi",
       avatar: "/placeholder.svg",
     },
-    date: "January 14, 2025",
+    date: "January 30, 2025",
     slug: "how-do-you-fight-the-urge-to-procrastinate",
-    category: "Self-Improvement",
+    category: "Author's Corner",
   },
   {
     id: 2,
