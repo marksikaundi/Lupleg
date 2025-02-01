@@ -7,30 +7,30 @@ function getPost(slug) {
   const posts = [
     {
       slug: "kata-completion-2024",
-      title: "How many Kata did you complete in 2024?",
-      content: `2024 was one of our busiest years yet; let's take a moment to celebrate it.
+      title: "How do you fight the urge to procrastinate?",
+      content: `Procrastination is a common problem that affects many people. It can be difficult to overcome, but there are strategies you can use to help you stay focused and productive.
                 
-        In this retrospective, we'll explore the incredible achievements of our community members and highlight some of the most popular and challenging kata that defined the year.
+        ## Reflect on Your Goals
+
+        One of the most effective ways to combat procrastination is to reflect on your goals and priorities. By reminding yourself of what you hope to achieve, you can stay motivated and focused on the task at hand.
                 
-        ## Community Achievements
+        ## Break Tasks into Smaller Steps
                 
-        This year saw unprecedented engagement levels, with developers from around the world pushing their limits and helping others grow. Here are some highlights:
+        Large tasks can be overwhelming, leading to procrastination. Break down your tasks into smaller, more manageable steps to make them less daunting.
+        
+        ## Reward Yourself
+
+        Rewarding yourself for completing tasks can help you stay motivated and avoid procrastination. Consider treating yourself to something you enjoy after finishing a task.
                 
-        - Over 1 million kata completed
-        - 50,000 new warriors joined our community
-        - 5,000 new kata created by our dedicated authors
-                
-        ## Most Popular Kata
-                
-        The following kata received the highest participation and positive feedback:
-                
-        1. "Advanced Array Methods"
-        2. "Functional Programming Basics"
-        3. "Algorithm Optimization Challenges"
-                
-        ## Looking Forward
-                
-        As we move into 2025, we're excited to announce new features and challenges that will help you continue your coding journey.`,
+        ## Seek Accountability
+
+        Sharing your goals with others can help you stay accountable and motivated. Consider finding a friend or mentor who can help keep you on track.
+
+        ## Conclusion
+
+        Procrastination is a common challenge, but with the right strategies, you can overcome it and achieve your goals. By reflecting on your goals, breaking tasks into smaller steps, rewarding yourself, and seeking accountability, you can stay focused and productive. 
+        
+        `,
       image:
         "https://www.lupleg.org/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F7c679591-6991-4402-bc63-0ee97010fc6f-1g.png&w=640&q=75",
       author: {
