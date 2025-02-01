@@ -23,8 +23,8 @@ const posts = [
       avatar: "/placeholder.svg",
     },
     date: "January 14, 2025",
-    slug: "kata-completion-2024",
-    category: "Author's Corner",
+    slug: "how-do-you-fight-the-urge-to-procrastinate",
+    category: "Self-Improvement",
   },
   {
     id: 2,

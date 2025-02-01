@@ -6,7 +6,7 @@ import { Badge } from "@/components/ui/badge";
 function getPost(slug) {
   const posts = [
     {
-      slug: "kata-completion-2024",
+      slug: "how-do-you-fight-the-urge-to-procrastinate",
       title: "How do you fight the urge to procrastinate?",
       content: `Procrastination is a common problem that affects many people. It can be difficult to overcome, but there are strategies you can use to help you stay focused and productive.
                 
