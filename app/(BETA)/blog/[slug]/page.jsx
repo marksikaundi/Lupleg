@@ -32,7 +32,7 @@ function getPost(slug) {
                 
         As we move into 2025, we're excited to announce new features and challenges that will help you continue your coding journey.`,
       image:
-        "",
+        "https://www.lupleg.org/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F7c679591-6991-4402-bc63-0ee97010fc6f-1g.png&w=640&q=75",
       author: {
         name: "Mark Sikaundi",
         avatar: "/placeholder.svg",
@@ -57,7 +57,7 @@ function getPost(slug) {
         
         Promises and async/await have revolutionized how we handle asynchronous operations. We'll tackle some challenging kata in this area.`,
       image:
-        "",
+        "https://www.lupleg.org/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F7c679591-6991-4402-bc63-0ee97010fc6f-1g.png&w=640&q=75",
       author: {
         name: "Mark Sikaundi",
         avatar: "/placeholder.svg",
@@ -82,7 +82,7 @@ function getPost(slug) {
         
         Many developers report that skills honed through kata directly translate to improved performance in their jobs.`,
       image:
-        "",
+        "https://www.lupleg.org/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F7c679591-6991-4402-bc63-0ee97010fc6f-1g.png&w=640&q=75",
       author: {
         name: "Mark Sikaundi",
         avatar: "/placeholder.svg",
@@ -107,7 +107,7 @@ function getPost(slug) {
         
         Clear, readable code is crucial. We'll examine kata solutions that exemplify excellent code organization and documentation.`,
       image:
-        "",
+        "https://www.lupleg.org/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F7c679591-6991-4402-bc63-0ee97010fc6f-1g.png&w=640&q=75",
       author: {
         name: "Mark Sikaundi",
         avatar: "/placeholder.svg",
@@ -132,7 +132,7 @@ function getPost(slug) {
         
         Discover how to effectively link your Codewars profile with your GitHub projects for a comprehensive portfolio.`,
       image:
-        "",
+        "https://www.lupleg.org/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F7c679591-6991-4402-bc63-0ee97010fc6f-1g.png&w=640&q=75",
       author: {
         name: "Mark Sikaundi",
         avatar: "/placeholder.svg",
@@ -157,7 +157,7 @@ function getPost(slug) {
         
         Discover how to create robust test cases that cover edge cases and provide meaningful feedback to users.`,
       image:
-        "",
+        "https://www.lupleg.org/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F7c679591-6991-4402-bc63-0ee97010fc6f-1g.png&w=640&q=75",
       author: {
         name: "Mark Sikaundi",
         avatar: "/placeholder.svg",
