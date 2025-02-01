@@ -13,9 +13,9 @@ const categories = [
 const posts = [
   {
     id: 1,
-    title: "How many Kata did you complete in 2024?",
+    title: "How ?",
     excerpt:
-      "2024 was one of our busiest years yet; let's take a moment to celebrate it.",
+      "2025 has come on  ",
     image:
       "https://www.lupleg.org/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F7c679591-6991-4402-bc63-0ee97010fc6f-1g.png&w=640&q=75",
     author: {
