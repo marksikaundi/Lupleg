@@ -17,7 +17,7 @@ const posts = [
     excerpt:
       "2024 was one of our busiest years yet; let's take a moment to celebrate it.",
     image:
-      "https://sjc.microlink.io/dzzPYDNUjRE-ZJDrx92QWIsZJunE4XrQZG4cgJyO7KQzfMTozL_Mr5PPN4F1qHqZHE92k1eThc98ojhw3mBjkg.jpeg",
+      "https://www.lupleg.org/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F7c679591-6991-4402-bc63-0ee97010fc6f-1g.png&w=640&q=75",
     author: {
       name: "Mark Sikaundi",
       avatar: "/placeholder.svg",
@@ -32,7 +32,7 @@ const posts = [
     excerpt:
       "Deep dive into advanced JavaScript concepts through practical kata examples and expert solutions.",
     image:
-      "https://sjc.microlink.io/dzzPYDNUjRE-ZJDrx92QWIsZJunE4XrQZG4cgJyO7KQzfMTozL_Mr5PPN4F1qHqZHE92k1eThc98ojhw3mBjkg.jpeg",
+      "https://www.lupleg.org/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F7c679591-6991-4402-bc63-0ee97010fc6f-1g.png&w=640&q=75",
     author: {
       name: "Mark Sikaundi",
       avatar: "/placeholder.svg",
@@ -47,7 +47,7 @@ const posts = [
     excerpt:
       "Meet developers who transformed their careers through consistent practice and dedication to coding challenges.",
     image:
-      "https://sjc.microlink.io/dzzPYDNUjRE-ZJDrx92QWIsZJunE4XrQZG4cgJyO7KQzfMTozL_Mr5PPN4F1qHqZHE92k1eThc98ojhw3mBjkg.jpeg",
+      "https://www.lupleg.org/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F7c679591-6991-4402-bc63-0ee97010fc6f-1g.png&w=640&q=75",
     author: {
       name: "Mark Sikaundi",
       avatar: "/placeholder.svg",
@@ -62,7 +62,7 @@ const posts = [
     excerpt:
       "Learn Python best practices and clean coding techniques from the most elegant kata solutions.",
     image:
-      "https://sjc.microlink.io/dzzPYDNUjRE-ZJDrx92QWIsZJunE4XrQZG4cgJyO7KQzfMTozL_Mr5PPN4F1qHqZHE92k1eThc98ojhw3mBjkg.jpeg",
+      "https://www.lupleg.org/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F7c679591-6991-4402-bc63-0ee97010fc6f-1g.png&w=640&q=75",
     author: {
       name: "Mark Sikaundi",
       avatar: "/placeholder.svg",
@@ -77,7 +77,7 @@ const posts = [
     excerpt:
       "How to leverage your kata solutions and achievements to create a compelling developer portfolio.",
     image:
-      "https://sjc.microlink.io/dzzPYDNUjRE-ZJDrx92QWIsZJunE4XrQZG4cgJyO7KQzfMTozL_Mr5PPN4F1qHqZHE92k1eThc98ojhw3mBjkg.jpeg",
+      "https://www.lupleg.org/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F7c679591-6991-4402-bc63-0ee97010fc6f-1g.png&w=640&q=75",
     author: {
       name: "Mark Sikaundi",
       avatar: "/placeholder.svg",
@@ -92,7 +92,7 @@ const posts = [
     excerpt:
       "Expert tips and guidelines for creating challenging and educational kata that engage the community.",
     image:
-      "https://sjc.microlink.io/dzzPYDNUjRE-ZJDrx92QWIsZJunE4XrQZG4cgJyO7KQzfMTozL_Mr5PPN4F1qHqZHE92k1eThc98ojhw3mBjkg.jpeg",
+      "https://www.lupleg.org/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F7c679591-6991-4402-bc63-0ee97010fc6f-1g.png&w=640&q=75",
     author: {
       name: "Mark Sikaundi",
       avatar: "/placeholder.svg",

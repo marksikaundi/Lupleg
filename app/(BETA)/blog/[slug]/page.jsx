@@ -213,7 +213,7 @@ export default function BlogPost({ params }) {
         </Link>
         <Badge
           variant="secondary"
-          className="bg-gray-800 text-gray-300 mb-6 hover:bg-[#2D1537] p-2 ml-4 "
+          className="bg-[#c3aacd] hover:bg-[#2D1537] hover:text-white text-[#2D1537] p-2 ml-4"
         >
           {post.category}
         </Badge>
@@ -221,13 +221,6 @@ export default function BlogPost({ params }) {
           {post.title}
         </h1>
         <div className="flex items-center gap-3">
-          {/* <Image
-              src={post.author.avatar || "/placeholder.svg"}
-              alt={post.author.name}
-              width={48}
-              height={48}
-              className="rounded-full"
-            /> */}
           <Image
             src="/mark.jpg"
             alt={post.author.name}
