@@ -11,7 +11,7 @@ const poppins = Poppins({
 export const metadata = {
   title: "Building Africa's Tech Future",
   description:
-    "Join us in shaping the future of technology in Africa! Our developer community empowers Africans with the skills and resources to solve problems, drive innovation, and create a more sustainable future.",
+  "Join us in shaping the future of technology! Our developer community empowers individuals with the skills, resources, and support needed to tackle challenges, drive innovation, and build a more sustainable future."
 };
 
 export default function RootLayout({ children }) {
