@@ -2,7 +2,7 @@
 import { Poppins } from "next/font/google";
 
 import "./globals.css";
-import TopNav from "@/components/TopNav";
+import Nav from "@/components/Nav";
 import MainFooter from "@/components/MainFooter";
 
 // const inter = Inter({ subsets: ["latin"] });
@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={poppins.className}>
-        <TopNav />
+        <Nav />
         {children}
         <MainFooter />
       </body>

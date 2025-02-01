@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Star } from "lucide-react";
 
-export default function TopNav() {
+export default function Nav() {
   return (
     <div className="bg-[#2D1537] ">
       <header className="container mx-auto px-4">
