@@ -205,7 +205,7 @@ export default function BlogPost({ params }) {
     <article className="container mx-auto px-4 py-16 max-w-4xl">
       <div className="mb-8">
         <Link
-          href="/blogs"
+          href="/blog"
           className="inline-flex items-center text-sm text-[#2D1537] hover:text-[#2D1537] mb-6"
         >
           <IoIosArrowRoundBack className="mr-2 h-4 w-4" />
@@ -213,7 +213,7 @@ export default function BlogPost({ params }) {
         </Link>
         <Badge
           variant="secondary"
-          className="bg-gray-800 text-gray-300 mb-6 hover:bg-[#2D1537] p-2 "
+          className="bg-gray-800 text-gray-300 mb-6 hover:bg-[#2D1537] p-2 ml-4 "
         >
           {post.category}
         </Badge>
