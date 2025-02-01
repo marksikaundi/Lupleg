@@ -51,12 +51,16 @@ function getPost(slug) {
         
         ## Functional Programming
         
-        Functional programming techniques can lead to cleaner, more maintainable code. We'll look at some kata that exercise these skills.
+        Functional programming techniques can lead to cleaner, more maintainable code. We'll look at some kata that exercise these skills.  
         
         ## Asynchronous JavaScript
         
         Promises and async/await have revolutionized how we handle asynchronous operations. We'll tackle some challenging kata in this area.
         
+        ## Conclusion
+
+        By mastering these advanced JavaScript concepts through kata practice, you'll become a more confident and capable developer.
+
         `,
       image:
         "https://www.lupleg.org/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F7c679591-6991-4402-bc63-0ee97010fc6f-1g.png&w=640&q=75",
