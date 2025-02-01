@@ -1,7 +1,7 @@
-import { Badge } from "@/components/ui/badge";
 import { IoIosArrowRoundBack } from "react-icons/io";
 import Image from "next/image";
 import Link from "next/link";
+import { Badge } from "@/components/ui/badge";
 
 function getPost(slug) {
   const posts = [
