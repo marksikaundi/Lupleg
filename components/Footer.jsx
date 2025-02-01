@@ -37,7 +37,7 @@ const footerData = [
   },
 ];
 
-export default function Footer() {
+export default function MainFooter() {
   return (
     <div className="pt-28">
       <footer className="bg-[#2D1537] p-10 text-white">
