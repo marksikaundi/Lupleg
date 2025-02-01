@@ -25,7 +25,7 @@ export default function sitemap() {
       priority: 2.5,
     },
     {
-      url: "https://www.lupleg.org/blogs",
+      url: "https://www.lupleg.org/blog",
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 3,
