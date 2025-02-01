@@ -32,7 +32,7 @@ function getPost(slug) {
                 
         As we move into 2025, we're excited to announce new features and challenges that will help you continue your coding journey.`,
       image:
-        "https://sjc.microlink.io/dzzPYDNUjRE-ZJDrx92QWIsZJunE4XrQZG4cgJyO7KQzfMTozL_Mr5PPN4F1qHqZHE92k1eThc98ojhw3mBjkg.jpeg",
+        "",
       author: {
         name: "Mark Sikaundi",
         avatar: "/placeholder.svg",
@@ -57,7 +57,7 @@ function getPost(slug) {
         
         Promises and async/await have revolutionized how we handle asynchronous operations. We'll tackle some challenging kata in this area.`,
       image:
-        "https://sjc.microlink.io/dzzPYDNUjRE-ZJDrx92QWIsZJunE4XrQZG4cgJyO7KQzfMTozL_Mr5PPN4F1qHqZHE92k1eThc98ojhw3mBjkg.jpeg",
+        "",
       author: {
         name: "Mark Sikaundi",
         avatar: "/placeholder.svg",
@@ -82,7 +82,7 @@ function getPost(slug) {
         
         Many developers report that skills honed through kata directly translate to improved performance in their jobs.`,
       image:
-        "https://sjc.microlink.io/dzzPYDNUjRE-ZJDrx92QWIsZJunE4XrQZG4cgJyO7KQzfMTozL_Mr5PPN4F1qHqZHE92k1eThc98ojhw3mBjkg.jpeg",
+        "",
       author: {
         name: "Mark Sikaundi",
         avatar: "/placeholder.svg",
@@ -107,7 +107,7 @@ function getPost(slug) {
         
         Clear, readable code is crucial. We'll examine kata solutions that exemplify excellent code organization and documentation.`,
       image:
-        "https://sjc.microlink.io/dzzPYDNUjRE-ZJDrx92QWIsZJunE4XrQZG4cgJyO7KQzfMTozL_Mr5PPN4F1qHqZHE92k1eThc98ojhw3mBjkg.jpeg",
+        "",
       author: {
         name: "Mark Sikaundi",
         avatar: "/placeholder.svg",
@@ -132,7 +132,7 @@ function getPost(slug) {
         
         Discover how to effectively link your Codewars profile with your GitHub projects for a comprehensive portfolio.`,
       image:
-        "https://sjc.microlink.io/dzzPYDNUjRE-ZJDrx92QWIsZJunE4XrQZG4cgJyO7KQzfMTozL_Mr5PPN4F1qHqZHE92k1eThc98ojhw3mBjkg.jpeg",
+        "",
       author: {
         name: "Mark Sikaundi",
         avatar: "/placeholder.svg",
@@ -157,7 +157,7 @@ function getPost(slug) {
         
         Discover how to create robust test cases that cover edge cases and provide meaningful feedback to users.`,
       image:
-        "https://sjc.microlink.io/dzzPYDNUjRE-ZJDrx92QWIsZJunE4XrQZG4cgJyO7KQzfMTozL_Mr5PPN4F1qHqZHE92k1eThc98ojhw3mBjkg.jpeg",
+        "",
       author: {
         name: "Mark Sikaundi",
         avatar: "/placeholder.svg",
