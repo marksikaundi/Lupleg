@@ -55,7 +55,9 @@ function getPost(slug) {
         
         ## Asynchronous JavaScript
         
-        Promises and async/await have revolutionized how we handle asynchronous operations. We'll tackle some challenging kata in this area.`,
+        Promises and async/await have revolutionized how we handle asynchronous operations. We'll tackle some challenging kata in this area.
+        
+        `,
       image:
         "https://www.lupleg.org/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F7c679591-6991-4402-bc63-0ee97010fc6f-1g.png&w=640&q=75",
       author: {
