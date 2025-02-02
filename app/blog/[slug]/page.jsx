@@ -50,7 +50,10 @@ function getPost(slug) {
 Understanding closures is crucial for mastering JavaScript. A closure is formed when a function retains access to variables in its outer (enclosing) lexical scope, even after the outer function has returned. This powerful feature enables data privacy and state preservation in JavaScript applications.
 
 Closures are particularly useful for creating private variables and implementing the module pattern. For example, consider a counter function:
+
  <pre class="font-mono text-sm text-gray-800 bg-red-800">
+       
+        
             function createCounter() {
                 let count = 0;
                 return {
@@ -63,7 +66,8 @@ Closures are particularly useful for creating private variables and implementing
             console.log(counter.increment()); // 1
             console.log(counter.increment()); // 2
             console.log(counter.getCount()); // 2
-        </pre>
+        
+    </pre>
 
 Here, the count variable remains private and can only be accessed through the returned methods, demonstrating encapsulation through closures.
 
