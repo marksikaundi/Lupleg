@@ -51,22 +51,22 @@ Understanding closures is crucial for mastering JavaScript. A closure is formed 
 
 Closures are particularly useful for creating private variables and implementing the module pattern. For example, consider a counter function:
 
-<pre style={{ backgroundColor: '#f5f5f5', padding: '10px', borderRadius: '5px', overflowX: 'auto' }}>
-    <code style={{ fontFamily: 'Courier New, Courier, monospace', fontSize: '14px', color: '#333' }}>
-        function createCounter() {
-            let count = 0;
-            return {
-                increment: () => ++count,
-                getCount: () => count
-            };
-        }
+ <pre class="font-mono text-sm text-gray-800 bg-red-800">
+        <code>
+            function createCounter() {
+                let count = 0;
+                return {
+                    increment: () => ++count,
+                    getCount: () => count
+                };
+            }
 
-        const counter = createCounter();
-        console.log(counter.increment()); // 1
-        console.log(counter.increment()); // 2
-        console.log(counter.getCount()); // 2
-    </code>
-</pre>
+            const counter = createCounter();
+            console.log(counter.increment()); // 1
+            console.log(counter.increment()); // 2
+            console.log(counter.getCount()); // 2
+        </code>
+    </pre>
 
 Here, the count variable remains private and can only be accessed through the returned methods, demonstrating encapsulation through closures.
 
