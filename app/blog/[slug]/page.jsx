@@ -108,7 +108,7 @@ Example using async/await:
 
 <pre>
 <code>
-
+{
 async function fetchUserData() {
     try {
         const response = await fetch('api/users');
@@ -119,6 +119,7 @@ async function fetchUserData() {
     }
 }
 
+    }
 <pre>
 <code>
 
