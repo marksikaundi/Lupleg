@@ -106,9 +106,7 @@ Promises have three states:
 
 Example using async/await:
 
-<pre>
-<code>
-{
+\`\`\`jsx
 async function fetchUserData() {
     try {
         const response = await fetch('api/users');
@@ -118,10 +116,7 @@ async function fetchUserData() {
         console.error('Error fetching user data:', error);
     }
 }
-
-    }
-<pre>
-<code>
+\`\`\`
 
 
 Error handling becomes more straightforward with try/catch blocks, and the code reads more like synchronous operations.
