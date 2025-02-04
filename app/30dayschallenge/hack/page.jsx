@@ -33,11 +33,11 @@ export default function ChallengePage() {
 
       {/* Challenges Section */}
       <div className="mb-8">
-        <h1 className="text-2xl font-bold text-purple-900 mb-6">Open Challenges: 7</h1>
+        <h1 className="text-2xl font-bold text-purple-900 mb-6">Open Challenges: 3</h1>
         <div className="grid gap-6">
           <HackCard
             title="CGIAR Root Volume Estimation Challenge"
-            image="/placeholder.svg?height=300&width=400"
+            image="/30/xl.svg" 
             prize="$15 000 USD"
             region="Helping Africa"
             participants={555}
@@ -46,7 +46,7 @@ export default function ChallengePage() {
           />
           <HackCard
             title="Inundata: Mapping Floods in South Africa"
-            image="/placeholder.svg?height=300&width=400"
+            image="/30/xl.svg" 
             prize="$10 000 USD"
             region="Helping South Africa"
             participants={1170}
@@ -56,7 +56,7 @@ export default function ChallengePage() {
           />
           <HackCard
             title="Telangana Crop Health Challenge"
-            image="/placeholder.svg?height=300&width=400"
+            image="/30/xl.svg" 
             prize="€6 900 EUR"
             region="Helping India"
             participants={1008}
