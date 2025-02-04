@@ -13,7 +13,7 @@ export default function ChallengePage() {
           <input
             type="search"
             placeholder="Search challenges, hackathons and practice by difficulty, industry, skills and country"
-            className="w-full pl-10 pr-4 py-2 rounded-md border border-gray-200 focus:outline-none focus:ring-2 focus:ring-purple-500"
+            className="w-full pl-10 pr-4 py-2 rounded-md border border-gray-200 focus:outline-none focus:ring-2 focus:[#2D1537]"
           />
         </div>
         <Select defaultValue="prize">
@@ -33,7 +33,7 @@ export default function ChallengePage() {
 
       {/* Challenges Section */}
       <div className="mb-8">
-        <h1 className="text-2xl font-bold text-purple-900 mb-6">Open Challenges: 3</h1>
+        <h1 className="text-2xl font-bold text-[#2D1537] mb-6">Open Challenges: 3</h1>
         <div className="grid gap-6">
           <HackCard
             title="CGIAR Root Volume Estimation Challenge"

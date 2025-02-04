@@ -22,7 +22,7 @@ export function HackCard({
         <div className="flex-1 p-6">
           <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
             <div className="space-y-2">
-              <Link href={href} className="text-xl font-semibold text-purple-900 hover:text-purple-700">
+              <Link href={href} className="text-xl font-semibold text-[#2D1537] hover:text-[#2D1537] ">
                 {title}
               </Link>
               <p className="text-gray-600">{region}</p>
@@ -34,7 +34,7 @@ export function HackCard({
             </div>
             <div className="flex flex-col items-start gap-4">
               <p className="text-2xl font-bold text-teal-500">{prize}</p>
-              <Button variant="default" className="bg-purple-900 hover:bg-purple-800">
+              <Button variant="default" className="bg-[#2D1537] hover:bg-[#2D1537] ">
                 Join
               </Button>
             </div>

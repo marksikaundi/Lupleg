@@ -9,7 +9,7 @@ export function NotificationBanner() {
         <div>
           <Link
             href="/practice"
-            className="text-lg font-semibold text-purple-900 hover:text-purple-700 flex items-center gap-2"
+            className="text-lg font-semibold text-[#2D1537] hover:text-[#2D1537] flex items-center gap-2"
           >
             Get started with practice challenges
             <span className="text-xl">→</span>
