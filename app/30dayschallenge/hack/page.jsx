@@ -1,7 +1,7 @@
 import { Search } from "lucide-react"
-import { NotificationBanner } from "@/components/notification-banner"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { HackCard } from "@/components/challenges/HackCard"
+import { NotificationBanner } from "@/components/challenges/NotificationBanner"
 
 export default function ChallengePage() {
   return (
