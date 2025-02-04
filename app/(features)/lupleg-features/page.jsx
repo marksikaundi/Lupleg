@@ -14,9 +14,9 @@ import MoreFQA from "@/components/FeaturesCards/MoreFAQ";
 export default function LuplegFeatures() {
   return (
     <div>
-      <div className="bg-[#071109] mt-0 text-white min-h-screen p-8">
+      <div className="bg-[#2D1537] mt-0 text-white min-h-screen p-8">
         <div className="mb-20">
-          <p className="text-[#2D1537] mb-2 mt-20">Everything you need</p>
+          <p className="text-white mb-2 mt-20">Everything you need</p>
           <h1 className="text-5xl font-bold mb-4">Fully Featured</h1>
           <p className="text-gray-400 mb-12 max-w-2xl">
             Our programs comes with everything you need to build a modern
@@ -99,7 +99,7 @@ export default function LuplegFeatures() {
 
 function FeatureCard({ icon, title, description, children }) {
   return (
-    <div className="bg-[#16161b] rounded-lg p-6 flex flex-col">
+    <div className="bg-[#45364b] rounded-lg p-6 flex flex-col">
       <div className="mb-4">{icon}</div>
       <h3 className="text-xl font-semibold mb-2">{title}</h3>
       <p className="text-gray-400 flex-grow">{description}</p>
