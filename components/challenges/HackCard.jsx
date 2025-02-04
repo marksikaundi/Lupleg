@@ -17,7 +17,7 @@ export function HackCard({
     <div className="bg-white rounded-lg shadow overflow-hidden">
       <div className="flex flex-col md:flex-row">
         <div className="md:w-1/3 relative h-48 md:h-auto">
-          <Image src={image || "/placeholder.svg"} alt={title} fill className="object-cover" />
+          <Image src={image || "github.png"} alt={title} fill className="object-cover" />
         </div>
         <div className="flex-1 p-6">
           <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
