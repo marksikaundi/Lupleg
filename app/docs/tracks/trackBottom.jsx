@@ -8,7 +8,7 @@ export default function TrackBottom() {
   const router = useRouter();
 
   const handleSignUp = () => {
-    router.push("https://mentor.lupleg.org");
+    router.push("https://mentor.lupleg.org/join/kn7cgky38v0nd89j0z17kgfesd74jj3t");
   };
 
   const handleExplore = () => {
