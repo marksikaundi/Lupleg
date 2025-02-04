@@ -1,7 +1,7 @@
 import { Search } from "lucide-react"
-import { ChallengeCard } from "@/components/challenge-card"
 import { NotificationBanner } from "@/components/notification-banner"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import { HackCard } from "@/components/challenges/HackCard"
 
 export default function ChallengePage() {
   return (
@@ -35,7 +35,7 @@ export default function ChallengePage() {
       <div className="mb-8">
         <h1 className="text-2xl font-bold text-purple-900 mb-6">Open Challenges: 7</h1>
         <div className="grid gap-6">
-          <ChallengeCard
+          <HackCard
             title="CGIAR Root Volume Estimation Challenge"
             image="/placeholder.svg?height=300&width=400"
             prize="$15 000 USD"
@@ -44,7 +44,7 @@ export default function ChallengePage() {
             timeLeft="~1 month left"
             href="/challenges/cgiar-root-volume"
           />
-          <ChallengeCard
+          <HackCard
             title="Inundata: Mapping Floods in South Africa"
             image="/placeholder.svg?height=300&width=400"
             prize="$10 000 USD"
@@ -54,7 +54,7 @@ export default function ChallengePage() {
             urgent
             href="/challenges/inundata-floods"
           />
-          <ChallengeCard
+          <HackCard
             title="Telangana Crop Health Challenge"
             image="/placeholder.svg?height=300&width=400"
             prize="€6 900 EUR"
