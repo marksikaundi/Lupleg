@@ -23,7 +23,7 @@ export default function About() {
             {"}"}
           </div>
         </div>
-        <h1 className="text-5xl font-bold text-[#2D1537] mb-4">US</h1>
+        <h1 className="text-5xl font-bold text-[#2D1537] mb-4">Lupleg</h1>
         <div className="flex justify-center mb-6">
           <svg
             width="60"
