@@ -18,7 +18,7 @@ export default function Nav() {
               />
             </Link>
             <div className="hidden md:flex items-center gap-6">
-              <Link href="/programs" className="text-white/80 hover:text-white">
+              <Link href="/#programs" className="text-white/80 hover:text-white">
                 Programs
               </Link>
               <Link
