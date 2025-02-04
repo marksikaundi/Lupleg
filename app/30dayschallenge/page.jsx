@@ -74,7 +74,7 @@ export default function CodeDaysChallenges() {
                 asChild
                 className="bg-[#2D1537] hover:bg-[#2D1537] text-white px-8 py-6 rounded-lg text-lg"
               >
-                <Link href="/docs/using">Get started →</Link>
+                <Link href="#">Get started →</Link>
               </Button>
             </div>
             <div className="md:w-1/2">
@@ -135,7 +135,7 @@ export default function CodeDaysChallenges() {
                 asChild
                 className="bg-[#2D1537] hover:bg-[#2D1537] text-white px-8 py-6 rounded-lg text-lg"
               >
-                <Link href="/docs/mentoring">Get started →</Link>
+                <Link href="#">Get started →</Link>
               </Button>
             </div>
             <div className="md:w-1/2">
@@ -165,7 +165,7 @@ export default function CodeDaysChallenges() {
                 asChild
                 className="bg-[#2D1537] hover:bg-[#2D1537] text-white px-8 py-6 rounded-lg text-lg"
               >
-                <Link href="/docs/community">Get started →</Link>
+                <Link href="#">Get started →</Link>
               </Button>
             </div>
             <div className="md:w-1/2">
@@ -196,7 +196,7 @@ export default function CodeDaysChallenges() {
                 asChild
                 className="bg-[#2D1537] hover:bg-[#2D1537] text-white px-8 py-6 rounded-lg text-lg"
               >
-                <Link href="/docs/community">Get started →</Link>
+                <Link href="#">Get started →</Link>
               </Button>
             </div>
             <div className="md:w-1/2">
