@@ -45,7 +45,7 @@ export default function CodeDaysChallenges() {
             </Link>
 
             <Link
-              href="/30dayschallenge/hack"
+              href="/30dayschallenge/#hack"
               className="text-[#2D1537] hover:text-black font-extrabold h-full flex items-center flex-shrink-0"
             >
               Hack
