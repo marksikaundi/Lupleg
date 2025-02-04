@@ -3,13 +3,21 @@ import Image from "next/image"
 import { Users } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-
-export function HackCard() {
+export function HackCard({
+  title,
+  image,
+  prize,
+  region,
+  participants,
+  timeLeft,
+  urgent,
+  href,
+}) {
   return (
     <div className="bg-white rounded-lg shadow overflow-hidden">
       <div className="flex flex-col md:flex-row">
         <div className="md:w-1/3 relative h-48 md:h-auto">
-          <Image src="/placeholder.svg" alt="" fill className="object-cover" />
+          <Image src={image || "/placeholder.svg"} alt={title} fill className="object-cover" />
         </div>
         <div className="flex-1 p-6">
           <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
