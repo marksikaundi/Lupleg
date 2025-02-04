@@ -22,13 +22,13 @@ export default function Docs() {
               href="/docs/using"
               className="text-gray-600 hover:text-gray-900 h-full flex items-center flex-shrink-0"
             >
-              Using 
+              Using
             </Link>
             <Link
               href="/docs/building"
               className="text-gray-600 hover:text-gray-900 h-full flex items-center flex-shrink-0"
             >
-              Building 
+              Building
             </Link>
             <Link
               href="/docs/mentoring"
@@ -58,9 +58,7 @@ export default function Docs() {
           {/* Using Lupleg Section */}
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-1/2 text-left">
-              <h2 className="text-3xl font-bold text-[#2D1537] mb-4">
-                Using Lupleg
-              </h2>
+              <h2 className="text-3xl font-bold text-[#2D1537] mb-4">Using</h2>
               <p className="text-gray-600 mb-8">
                 Learn how to make the make the most from your time on Lupleg.
                 Find answers to all your questions, understand how to make the
@@ -89,7 +87,7 @@ export default function Docs() {
           <div className="flex flex-col md:flex-row items-center gap-12 mt-16">
             <div className="md:w-1/2 text-left">
               <h2 className="text-3xl font-bold text-[#2D1537] mb-4">
-                Building Lupleg
+                Building
               </h2>
               <p className="text-gray-600 mb-8">
                 Learn how to make the make the most from your time on Lupleg.
