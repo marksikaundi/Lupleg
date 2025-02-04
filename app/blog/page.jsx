@@ -37,7 +37,7 @@ const posts = [
       name: "Mark Sikaundi",
       avatar: "/placeholder.svg",
     },
-    date: "January 10, 2025",
+    date: "February 01, 2025",
     slug: "mastering-javascript-kata",
     category: "Programming",
   },
