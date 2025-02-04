@@ -8,7 +8,9 @@ export default function TrackBottom() {
   const router = useRouter();
 
   const handleSignUp = () => {
-    router.push("https://mentor.lupleg.org");
+    router.push(
+      "https://mentor.lupleg.org/join/kn7cgky38v0nd89j0z17kgfesd74jj3t"
+    );
   };
 
   const handleExplore = () => {
@@ -27,7 +29,7 @@ export default function TrackBottom() {
             <p className="text-[#2D1537] text-lg md:text-xl opacity-90">
               Develop fluency in programming languages with our unique blend of
               learning, practice and mentoring. Lupleg is fun, effective and
-              100% free, for basics use.
+              free 15 days JOIN with <code className="font-mono">B0798T</code>.
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-4">
@@ -36,7 +38,7 @@ export default function TrackBottom() {
               size="lg"
               className="bg-[#2D1537] hover:bg-[#2D1537] text-white"
             >
-              Sign up for free
+              15 days free trial
             </Button>
             <Button
               onClick={handleExplore}
