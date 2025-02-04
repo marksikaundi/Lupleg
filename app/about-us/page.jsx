@@ -42,7 +42,7 @@ export default function About() {
         <p className="text-xl text-black-900 mb-8">
           We're building a place where anyone can learn and master
           <br />
-          programming for free, without ever feeling lost or stupid.
+          tech skills at balanced, without ever feeling lost or stupid.
         </p>
         <Link href="mailto:payment@lupleg.org">
           <button className="bg-[#2D1537] text-white px-6 py-3 rounded-full text-lg font-semibold flex items-center justify-center transition-all hover:bg-[#2D1537] hover:shadow-lg">
@@ -54,7 +54,7 @@ export default function About() {
       <AboutSection />
       <AboutPurpose />
       <HowLupleg />
-      <HelpUsBring />   
+      <HelpUsBring />
     </div>
   );
 }
