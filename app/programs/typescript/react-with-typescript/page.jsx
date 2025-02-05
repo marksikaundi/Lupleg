@@ -1,10 +1,10 @@
 import { Button } from "@/components/ui/button";
-import { ChevronDown, Lock, ArrowLeft, Github } from "lucide-react";
+import { ChevronDown, Lock, ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { FaGithub } from "react-icons/fa6";
 
-export default function RWTypescript() {
+export default function ReactWithTypescript() {
   return (
     <div className="min-h-screen bg-[#2D1537] text-gray-100">
       <header className="relative overflow-hidden">
@@ -15,7 +15,7 @@ export default function RWTypescript() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
           <a
             href="/programs/typescript/"
-            className="inline-flex items-center text-sm text-[#2D1537] mb-6"
+            className="inline-flex items-center text-sm text-white mb-6"
           >
             <ArrowLeft className="w-4 h-4 mr-2" />
             All Tutorials
