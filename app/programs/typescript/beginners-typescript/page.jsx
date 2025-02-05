@@ -37,12 +37,12 @@ export default function BgTypescript() {
               </div>
               <div className="flex space-x-4">
                 <Link href="https://app.lupleg.org">
-                  <Button className="bg-[#2D1537] hover:bg-green-500 text-[#2D1537]">
+                  <Button className="bg-white hover:bg-white text-[#2D1537]">
                     Start Learning
                   </Button>
                 </Link>
                 <Link href="https://github.com/Lupleg">
-                  <Button className=" border border-green-500 text-white hover:bg-gray-800">
+                  <Button className=" bg-[#F3A833] text-white hover:bg-[#F3A833]">
                     <FaGithub className="mr-2 h-4 w-4" />
                     Code
                   </Button>
