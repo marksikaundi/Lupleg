@@ -39,7 +39,7 @@ export default function Office365() {
                   <span>Mark Sikaundi</span>
                 </div>
                 <div className="flex space-x-4">
-                  <Link href="https://forum.devcircleafrica.com/">
+                  <Link href="https://forum.devcircleafrica.com/forum/office365/">
                     <Button className="bg-[#ffffff] hover:bg-white text-[#2D1537]">
                       Start Learning
                     </Button>
