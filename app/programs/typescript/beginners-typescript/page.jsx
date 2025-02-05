@@ -36,7 +36,7 @@ export default function BgTypescript() {
                 <span>Mark Sikaundi</span>
               </div>
               <div className="flex space-x-4">
-                <Link href="https://app.lupleg.org">
+                <Link href="https://forum.devcircleafrica.com/forum/programming/">
                   <Button className="bg-white hover:bg-white text-[#2D1537]">
                     Start Learning
                   </Button>
