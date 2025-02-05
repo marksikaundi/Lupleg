@@ -6,7 +6,7 @@ export default function TsCard() {
   return (
     <div className="min-h-screen  text-white p-4 sm:p-6 md:p-8 flex flex-col items-center">
       <div className="w-full max-w-4xl">
-        <Card className="bg-[#13132B] my-8 border-gray-700">
+        <Card className="bg-[#2D1537] my-8 border-[#2D1537] ">
           <CardContent className="p-4 sm:p-6">
             <div className="flex flex-col sm:flex-row items-center">
               <img
@@ -45,7 +45,7 @@ export default function TsCard() {
           </CardContent>
         </Card>
 
-        <Card className="bg-[#13132B] my-8 border-gray-700">
+        <Card className="bg-[#2D1537] my-8 border-[#2D1537] ">
           <CardContent className="p-4 sm:p-6">
             <div className="flex flex-col sm:flex-row items-center">
               <img
@@ -84,7 +84,7 @@ export default function TsCard() {
           </CardContent>
         </Card>
 
-        <Card className="bg-[#13132B] my-8 border-gray-700">
+        <Card className="bg-[#2D1537] my-8 border-[#2D1537] ">
           <CardContent className="p-4 sm:p-6">
             <div className="flex flex-col sm:flex-row items-center">
               <img
@@ -123,7 +123,7 @@ export default function TsCard() {
           </CardContent>
         </Card>
 
-        <Card className="bg-[#13132B] my-8 border-gray-700">
+        <Card className="bg-[#2D1537] my-8 border-[#2D1537] ">
           <CardContent className="p-4 sm:p-6">
             <div className="flex flex-col sm:flex-row items-center">
               <img
@@ -142,7 +142,7 @@ export default function TsCard() {
                     NEW
                   </span>
                 </div>
-                <p className="text-[#2D1537] text-sm mb-3 text-center sm:text-left">
+                <p className="text-[#F3A833] text-sm mb-3 text-center sm:text-left">
                   10 EXERCISES
                 </p>
                 <p className="text-sm text-gray-300 mb-4 text-center sm:text-left">
