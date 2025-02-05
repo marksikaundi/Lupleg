@@ -3,9 +3,7 @@
 ### COLOUR CODES:
 
     - DEFAULT: #2D1537
-
-    - RED: Not started
-    - ORANGE: In progress
+    - ORANGE: #F3A833
     - GREEN: Completed
 
 
