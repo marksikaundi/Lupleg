@@ -6,16 +6,16 @@ import { FaGithub } from "react-icons/fa6";
 
 export default function BgTypescript() {
   return (
-    <div className="min-h-screen bg-gray-900 text-gray-100">
+    <div className="min-h-screen bg-[#2D1537] text-white">
       <header className="relative overflow-hidden">
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-[url('/placeholder.svg')] bg-cover bg-center opacity-20"></div>
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent to-gray-900"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#2D1537]"></div>
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
           <a
             href="/typescript"
-            className="inline-flex items-center text-sm text-[#2D1537] mb-6"
+            className="inline-flex items-center text-sm text-white mb-6"
           >
             <ArrowLeft className="w-4 h-4 mr-2" />
             All Tutorials
