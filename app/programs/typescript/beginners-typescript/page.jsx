@@ -119,7 +119,7 @@ export default function BgTypescript() {
             </div>
           </div>
           <div className="space-y-6">
-            <div className="bg-gray-800 rounded-lg p-4">
+            <div className="bg-[#56425F] rounded-lg p-4">
               <h2 className="text-xl font-semibold mb-4 flex justify-between items-center">
                 Contents
                 <span className="text-sm font-normal">3 Sections</span>
@@ -129,7 +129,7 @@ export default function BgTypescript() {
                   <span>Introduction</span>
                   <ChevronDown className="w-5 h-5" />
                 </div>
-                <div className="pl-4 space-y-2 text-gray-400">
+                <div className="pl-4 space-y-2 text-white">
                   <p>1. Adding React to a TypeScript Project</p>
                   <p>2. TypeScript in React Frameworks</p>
                   <p>3. Navigating JSX Types</p>
@@ -144,10 +144,10 @@ export default function BgTypescript() {
                 <ChevronDown className="w-5 h-5" />
               </div>
             </div>
-            <div className="bg-gray-800 rounded-lg p-4">
+            <div className=" bg-[#56425F] rounded-lg p-4">
               <h2 className="text-xl font-semibold mb-4">Coming soon</h2>
-              <div className="bg-gray-700 rounded-lg p-8 flex flex-col items-center justify-center">
-                <div className="bg-[#2D1537] rounded-full p-4 mb-4">
+              <div className="bg-[#2D1537] rounded-lg p-8 flex flex-col items-center justify-center">
+                <div className=" bg-[#56425F] rounded-full p-4 mb-4">
                   <Lock className="w-8 h-8 " />
                 </div>
                 <p className="text-center">
