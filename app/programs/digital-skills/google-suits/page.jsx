@@ -38,12 +38,12 @@ export default function GSuits() {
                   <span>Mark Sikaundi</span>
                 </div>
                 <div className="flex space-x-4">
-                  <Link href="/programs/digital-skills/sources/2">
+                  <Link href="https://forum.devcircleafrica.com/forum/office365/">
                     <Button className="bg-white hover:bg-white text-[#2D1537]">
                       Start Learning
                     </Button>
                   </Link>
-                  <Link href="https://forum.devcircleafrica.com/forum/office365/">
+                  <Link href=" https://github.com/orgs/Lupleg/discussions">
                     <Button className=" text-white hover:bg-black bg-black ">
                       <FaSimplybuilt className="mr-2 h-4 w-4" />
                       Join Community
