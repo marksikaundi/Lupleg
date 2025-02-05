@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ChevronDown, Lock, ArrowLeft, Github } from "lucide-react";
+import { ChevronDown, Lock, ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { FaGithub } from "react-icons/fa6";
