@@ -6,7 +6,7 @@ export default function AsCard() {
   return (
     <div className="min-h-screen  text-white p-4 sm:p-6 md:p-8 flex flex-col items-center">
       <div className="w-full max-w-4xl">
-        <Card className="bg-[#13132B] my-8 border-gray-700">
+        <Card className="bg-[#2D1537] my-8 border-gray-700">
           <CardContent className="p-4 sm:p-6">
             <div className="flex flex-col sm:flex-row items-center">
               <img
@@ -44,7 +44,7 @@ export default function AsCard() {
           </CardContent>
         </Card>
 
-        <Card className="bg-[#13132B] my-8 border-gray-700">
+        <Card className="bg-[#2D1537] my-8 border-gray-700">
           <CardContent className="p-4 sm:p-6">
             <div className="flex flex-col sm:flex-row items-center">
               <img
@@ -82,7 +82,7 @@ export default function AsCard() {
           </CardContent>
         </Card>
 
-        <Card className="bg-[#13132B] my-8 border-gray-700">
+        <Card className="bg-[#2D1537] my-8 border-gray-700">
           <CardContent className="p-4 sm:p-6">
             <div className="flex flex-col sm:flex-row items-center">
               <img
@@ -120,7 +120,7 @@ export default function AsCard() {
           </CardContent>
         </Card>
 
-        <Card className="bg-[#13132B] my-8 border-gray-700">
+        <Card className="bg-[#2D1537] my-8 border-gray-700">
           <CardContent className="p-4 sm:p-6">
             <div className="flex flex-col sm:flex-row items-center">
               <img
