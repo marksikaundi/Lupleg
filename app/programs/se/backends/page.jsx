@@ -2,8 +2,8 @@ import { Button } from "@/components/ui/button";
 import { ChevronDown, Lock, ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaGithub, FaSimplybuilt } from "react-icons/fa6";
 import FAQCard from "../faq-card";
+import { FaNodeJs } from "react-icons/fa";
 
 export default function Backend() {
   return (
@@ -45,7 +45,7 @@ export default function Backend() {
                   </Link>
                   <Link href="https://mentor.lupleg.org">
                     <Button className=" bg-[#F3A833] text-white hover:bg-[#F3A833]">
-                      <FaSimplybuilt className="mr-2 h-4 w-4" />
+                      <FaNodeJs className="mr-2 h-4 w-4" />
                       Join Community
                     </Button>
                   </Link>
@@ -125,7 +125,7 @@ export default function Backend() {
               <p>12 weeks</p>
             </div>
             <div className="space-y-6">
-              <div className="bg-gray-800 rounded-lg p-4">
+              <div className="bg-[#56425F] rounded-lg p-4">
                 <h2 className="text-xl font-semibold mb-4 flex justify-between items-center">
                   Contents
                   <span className="text-sm font-normal"> Sections</span>
@@ -135,7 +135,7 @@ export default function Backend() {
                     <span>Introduction</span>
                     <ChevronDown className="w-5 h-5" />
                   </div>
-                  <div className="pl-4 space-y-2 text-gray-400">
+                  <div className="pl-4 space-y-2 text-white">
                     <p>Get started with nodejs </p>
                     <p> Express basics</p>
                     <p> Implementing routes</p>
@@ -171,10 +171,10 @@ export default function Backend() {
                   <ChevronDown className="w-5 h-5" />
                 </div>
               </div>
-              <div className="bg-gray-800 rounded-lg p-4">
+              <div className="bg-[#56425F] rounded-lg p-4">
                 <h2 className="text-xl font-semibold mb-4">Coming soon</h2>
-                <div className="bg-gray-700 rounded-lg p-8 flex flex-col items-center justify-center">
-                  <div className="bg-[#2D1537] rounded-full p-4 mb-4">
+                <div className="bg-[#2D1537] rounded-lg p-8 flex flex-col items-center justify-center">
+                  <div className=" bg-[#56425F] rounded-full p-4 mb-4">
                     <Lock className="w-8 h-8 " />
                   </div>
                   <p className="text-center">
