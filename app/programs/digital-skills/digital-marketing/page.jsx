@@ -44,7 +44,7 @@ export default function DigitalMarketing() {
                     </Button>
                   </Link>
                   <Link href="https://mentor.lupleg.org">
-                    <Button className=" text-white bg-black hover:bg-black">
+                    <Button className=" bg-[#F3A833] text-white hover:bg-[#F3A833]">
                       <MdForum className="mr-2 h-4 w-4" />
                       Join Community
                     </Button>

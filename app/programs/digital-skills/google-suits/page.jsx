@@ -45,7 +45,7 @@ export default function GSuits() {
                     </Button>
                   </Link>
                   <Link href=" https://github.com/orgs/Lupleg/discussions">
-                    <Button className=" text-white hover:bg-black bg-black ">
+                    <Button className=" bg-[#F3A833] text-white hover:bg-[#F3A833]">
                       <FaGithub className="mr-2 h-4 w-4" />
                       Join Community
                     </Button>

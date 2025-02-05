@@ -44,7 +44,7 @@ export default function Freelance() {
                     </Button>
                   </Link>
                   <Link href="https://mentor.lupleg.org">
-                    <Button className=" bg-black text-white hover:bg-black">
+                    <Button className=" bg-[#F3A833] text-white hover:bg-[#F3A833]">
                       <SiFreelancer className="mr-2 h-4 w-4" />
                       Join Community
                     </Button>
