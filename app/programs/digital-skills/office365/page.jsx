@@ -46,7 +46,8 @@ export default function Office365() {
                   </Link>
                   <Link href="https://github.com/orgs/Lupleg/discussions"> 
                     <Button className=" bg-[#F3A833] text-white hover:bg-[#F3A833]">
-                      <FaGithub className="mr-2 h-4 w-4" />
+                      <import { FaMicrosoft } from "react-icons/fa";
+ className="mr-2 h-4 w-4" />
                       Join Community
                     </Button>
                   </Link>

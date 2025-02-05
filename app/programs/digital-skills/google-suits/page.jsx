@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ChevronDown, Lock, ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaGithub } from "react-icons/fa";
+import { FcGoogle } from "react-icons/fc";
 
 import FAQCard from "../faq-card";
 
@@ -44,9 +44,9 @@ export default function GSuits() {
                       Start Learning
                     </Button>
                   </Link>
-                  <Link href=" https://github.com/orgs/Lupleg/discussions">
+                  <Link href=" https://mentor.lupleg.org">
                     <Button className=" bg-[#F3A833] text-white hover:bg-[#F3A833]">
-                      <FaGithub className="mr-2 h-4 w-4" />
+                      <FcGoogle className="mr-2 h-4 w-4" />
                       Join Community
                     </Button>
                   </Link>
