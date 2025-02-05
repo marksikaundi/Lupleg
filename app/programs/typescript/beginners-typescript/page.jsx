@@ -14,7 +14,7 @@ export default function BgTypescript() {
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
           <a
-            href="/typescript"
+            href="/programs/typescript/"
             className="inline-flex items-center text-sm text-white mb-6"
           >
             <ArrowLeft className="w-4 h-4 mr-2" />
