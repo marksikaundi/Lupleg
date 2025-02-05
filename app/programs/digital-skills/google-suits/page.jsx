@@ -2,7 +2,9 @@ import { Button } from "@/components/ui/button";
 import { ChevronDown, Lock, ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaGithub, FaSimplybuilt } from "react-icons/fa6";
+import { FaSimplybuilt } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
+
 import FAQCard from "../faq-card";
 
 export default function GSuits() {
@@ -45,7 +47,7 @@ export default function GSuits() {
                   </Link>
                   <Link href=" https://github.com/orgs/Lupleg/discussions">
                     <Button className=" text-white hover:bg-black bg-black ">
-                      <FaSimplybuilt className="mr-2 h-4 w-4" />
+                      <FaGithub className="mr-2 h-4 w-4" />
                       Join Community
                     </Button>
                   </Link>
