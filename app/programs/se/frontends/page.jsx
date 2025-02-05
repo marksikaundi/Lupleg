@@ -2,8 +2,9 @@ import { Button } from "@/components/ui/button";
 import { ChevronDown, Lock, ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaGithub, FaSimplybuilt } from "react-icons/fa6";
 import FAQCard from "../faq-card";
+import { FaJs } from "react-icons/fa";
+
 
 export default function Frontend() {
   return (
@@ -45,7 +46,7 @@ export default function Frontend() {
                   </Link>
                   <Link href="https://mentor.lupleg.org">
                     <Button className=" bg-[#F3A833] text-white hover:bg-[#F3A833]">
-                      <FaSimplybuilt className="mr-2 h-4 w-4" />
+                      <FaJs className="mr-2 h-4 w-4" />
                       Join Community
                     </Button>
                   </Link>
