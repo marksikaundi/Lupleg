@@ -44,7 +44,7 @@ export default function Office365() {
                     </Button>
                   </Link>
                   <Link href="https://forum.devcircleafrica.com/forum/office365/">
-                    <Button className=" border border-green-500 text-white hover:bg-black">
+                    <Button className=" border border-black text-white hover:bg-black bg-black ">
                       <FaSimplybuilt className="mr-2 h-4 w-4" />
                       Join Community
                     </Button>
