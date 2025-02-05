@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ChevronDown, Lock, ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaGithub, FaSimplybuilt } from "react-icons/fa6";
+import { SiFreelancer } from "react-icons/si";
 import FAQCard from "../faq-card";
 
 export default function Freelance() {
@@ -38,14 +38,14 @@ export default function Freelance() {
                   <span>Mark Sikaundi</span>
                 </div>
                 <div className="flex space-x-4">
-                  <Link href="/programs/digital-skills/sources/4">
+                  <Link href="https://forum.devcircleafrica.com/forum/freelancing-gigs">
                     <Button className="bg-white hover:bg-white text-[#2D1537]">
                       Start Learning
                     </Button>
                   </Link>
-                  <Link href="https://forum.devcircleafrica.com/forum/freelancing-gigs/">
+                  <Link href="https://mentor.lupleg.org">
                     <Button className=" bg-black text-white hover:bg-black">
-                      <FaSimplybuilt className="mr-2 h-4 w-4" />
+                      <SiFreelancer className="mr-2 h-4 w-4" />
                       Join Community
                     </Button>
                   </Link>
