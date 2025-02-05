@@ -38,12 +38,12 @@ export default function Frontend() {
                   <span>Mark Sikaundi</span>
                 </div>
                 <div className="flex space-x-4">
-                  <Link href="/learning/frontend">
+                  <Link href="https://forum.devcircleafrica.com/forum/programming/">
                     <Button className="bg-white hover:bg-white text-[#2D1537]">
                       Start Learning
                     </Button>
                   </Link>
-                  <Link href="https://forum.devcircleafrica.com/forum/programming/">
+                  <Link href="https://mentor.lupleg.org">
                     <Button className=" bg-[#F3A833] text-white hover:bg-[#F3A833]">
                       <FaSimplybuilt className="mr-2 h-4 w-4" />
                       Join Community
