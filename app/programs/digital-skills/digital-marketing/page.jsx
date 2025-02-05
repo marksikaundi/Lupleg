@@ -3,7 +3,7 @@ import { ChevronDown, Lock, ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import FAQCard from "../faq-card";
-import { FaSimplybuilt } from "react-icons/fa6";
+import { MdForum } from "react-icons/md";
 
 export default function DigitalMarketing() {
   return (
@@ -45,7 +45,7 @@ export default function DigitalMarketing() {
                   </Link>
                   <Link href="https://mentor.lupleg.org">
                     <Button className=" text-white bg-black hover:bg-black">
-                      <FaSimplybuilt className="mr-2 h-4 w-4" />
+                      <MdForum className="mr-2 h-4 w-4" />
                       Join Community
                     </Button>
                   </Link>
