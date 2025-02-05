@@ -2,8 +2,9 @@ import { Button } from "@/components/ui/button";
 import { ChevronDown, Lock, ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaGithub, FaSimplybuilt } from "react-icons/fa6";
 import FAQCard from "../faq-card";
+import { FaGithub } from "react-icons/fa";
+
 
 export default function Office365() {
   return (
@@ -38,14 +39,14 @@ export default function Office365() {
                   <span>Mark Sikaundi</span>
                 </div>
                 <div className="flex space-x-4">
-                  <Link href="/programs/digital-skills/sources/1">
+                  <Link href="https://github.com/orgs/Lupleg/discussions">
                     <Button className="bg-[#ffffff] hover:bg-white text-[#2D1537]">
                       Start Learning
                     </Button>
                   </Link>
                   <Link href="https://forum.devcircleafrica.com/forum/office365/">
                     <Button className=" border border-black text-white hover:bg-black bg-black ">
-                      <FaSimplybuilt className="mr-2 h-4 w-4" />
+                      <FaGithub className="mr-2 h-4 w-4" />
                       Join Community
                     </Button>
                   </Link>
