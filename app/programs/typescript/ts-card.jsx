@@ -21,11 +21,11 @@ export default function TsCard() {
                   <h2 className="text-xl sm:text-2xl text-white font-bold mb-2 sm:mb-0 sm:mr-3 text-center sm:text-left">
                     Solving TypeScript Errors
                   </h2>
-                  <span className="bg-green-500 text-black text-xs font-bold px-2 py-1 rounded">
+                  <span className="bg-[#F3A833] text-black text-xs font-bold px-2 py-1 rounded">
                     NEW
                   </span>
                 </div>
-                <p className="text-[#2D1537] text-sm mb-3 text-center sm:text-left">
+                <p className="text-[#F3A833] text-sm mb-3 text-center sm:text-left">
                   10 EXERCISES
                 </p>
                 <p className="text-sm text-gray-300 mb-4 text-center sm:text-left">
@@ -60,11 +60,11 @@ export default function TsCard() {
                   <h2 className="text-xl sm:text-2xl text-white font-bold mb-2 sm:mb-0 sm:mr-3 text-center sm:text-left">
                     React with TypeScript
                   </h2>
-                  <span className="bg-green-500 text-black text-xs font-bold px-2 py-1 rounded">
+                  <span className="bg-[#F3A833] text-black text-xs font-bold px-2 py-1 rounded">
                     NEW
                   </span>
                 </div>
-                <p className="text-[#2D1537] text-sm mb-3 text-center sm:text-left">
+                <p className="text-[#F3A833] text-sm mb-3 text-center sm:text-left">
                   21 EXERCISES
                 </p>
                 <p className="text-sm text-gray-300 mb-4 text-center sm:text-left">
@@ -99,11 +99,11 @@ export default function TsCard() {
                   <h2 className="text-xl sm:text-2xl text-white font-bold mb-2 sm:mb-0 sm:mr-3 text-center sm:text-left">
                     Beginner's TypeScript
                   </h2>
-                  <span className="bg-green-500 text-black text-xs font-bold px-2 py-1 rounded">
+                  <span className="bg-[#F3A833] text-black text-xs font-bold px-2 py-1 rounded">
                     NEW
                   </span>
                 </div>
-                <p className="text-[#2D1537] text-sm mb-3 text-center sm:text-left">
+                <p className="text-[#F3A833] text-sm mb-3 text-center sm:text-left">
                   18 EXERCISES
                 </p>
                 <p className="text-sm text-gray-300 mb-4 text-center sm:text-left">
@@ -138,7 +138,7 @@ export default function TsCard() {
                   <h2 className="text-xl sm:text-2xl text-white font-bold mb-2 sm:mb-0 sm:mr-3 text-center sm:text-left">
                     Zod Tutorial
                   </h2>
-                  <span className="bg-green-500 text-black text-xs font-bold px-2 py-1 rounded">
+                  <span className="bg-[#F3A833] text-black text-xs font-bold px-2 py-1 rounded">
                     NEW
                   </span>
                 </div>
