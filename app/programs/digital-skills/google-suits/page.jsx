@@ -118,7 +118,7 @@ export default function GSuits() {
               <p>04 weeks</p>
             </div>
             <div className="space-y-6">
-              <div className="bg-gray-800 rounded-lg p-4">
+              <div className="bg-[#56425F] rounded-lg p-4">
                 <h2 className="text-xl font-semibold mb-4 flex justify-between items-center">
                   Contents
                   <span className="text-sm font-normal"> Sections</span>
@@ -128,7 +128,7 @@ export default function GSuits() {
                     <span>Introduction</span>
                     <ChevronDown className="w-5 h-5" />
                   </div>
-                  <div className="pl-4 space-y-2 text-gray-400">
+                  <div className="pl-4 space-y-2 text-white">
                     <p>What is Google Workspace?</p>
                     <p>Why use Google Workspace?</p>
                   </div>
