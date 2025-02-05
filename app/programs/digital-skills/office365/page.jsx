@@ -39,12 +39,12 @@ export default function Office365() {
                   <span>Mark Sikaundi</span>
                 </div>
                 <div className="flex space-x-4">
-                  <Link href="https://github.com/orgs/Lupleg/discussions">
+                  <Link href="https://forum.devcircleafrica.com/">
                     <Button className="bg-[#ffffff] hover:bg-white text-[#2D1537]">
                       Start Learning
                     </Button>
                   </Link>
-                  <Link href="https://forum.devcircleafrica.com/forum/office365/">
+                  <Link href="https://github.com/orgs/Lupleg/discussions"> 
                     <Button className=" border border-black text-white hover:bg-black bg-black ">
                       <FaGithub className="mr-2 h-4 w-4" />
                       Join Community
