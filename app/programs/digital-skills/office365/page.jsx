@@ -3,7 +3,7 @@ import { ChevronDown, Lock, ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import FAQCard from "../faq-card";
-import { FaGithub } from "react-icons/fa";
+import { FaMicrosoft } from "react-icons/fa";
 
 
 export default function Office365() {
@@ -44,10 +44,9 @@ export default function Office365() {
                       Start Learning
                     </Button>
                   </Link>
-                  <Link href="https://github.com/orgs/Lupleg/discussions"> 
+                  <Link href="https://mentor.lupleg.org"> 
                     <Button className=" bg-[#F3A833] text-white hover:bg-[#F3A833]">
-                      <import { FaMicrosoft } from "react-icons/fa";
- className="mr-2 h-4 w-4" />
+                      <FaMicrosoft className="mr-2 h-4 w-4" />
                       Join Community
                     </Button>
                   </Link>
