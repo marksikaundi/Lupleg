@@ -4,7 +4,7 @@ import MoreFQA from "@/components/FeaturesCards/MoreFAQ";
 export default function AppliedDigitalSkills() {
   return (
     <div>
-      <div className="min-h-screen bg-[#0A0A1B] text-white p-4 sm:p-6 md:p-8 flex flex-col items-center">
+      <div className="min-h-screen bg-[#2D1537] text-white p-4 sm:p-6 md:p-8 flex flex-col items-center">
         <div className="w-full max-w-4xl">
           <div className="text-center mb-8 sm:mb-12">
             <img
