@@ -6,6 +6,43 @@ export default function PsCard() {
   return (
     <div className="min-h-screen  text-white p-4 sm:p-6 md:p-8 flex flex-col items-center">
       <div className="w-full max-w-4xl">
+
+      <Card className="bg-[#2D1537] my-8 border-gray-700">
+          <CardContent className="p-4 sm:p-6">
+            <div className="flex flex-col sm:flex-row items-center">
+              <img
+                src="/ts.webp"
+                alt="TypeScript logo with glowing effect"
+                className="mb-4 sm:mb-0 sm:mr-6 w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32"
+                width={120}
+                height={120}
+              />
+              <div>
+                <div className="flex flex-col sm:flex-row items-center sm:items-start mb-2">
+                  <h2 className="text-xl sm:text-2xl text-white font-bold mb-2 sm:mb-0 sm:mr-3 text-center sm:text-left">
+                    Deep Learning 101 
+                  </h2>
+                  <span className="bg-[#F3A833] text-black text-xs font-bold px-2 py-1 rounded">
+                    Coming soon
+                  </span>
+                </div>
+                <p className="text-[#F3A833] text-sm mb-3 text-center sm:text-left">
+                  6 Months Program
+                </p>
+                <p className="text-sm text-white mb-4 text-center sm:text-left">
+                  Deep Learning 101 is the ultimate guide to becoming a Deep Learning Wizard.
+                </p>
+                <div className="flex justify-center sm:justify-start">
+                  <Link href="/programs/#deeep-learning">
+                    <Button variant="secondary" size="sm">
+                      Learn More →
+                    </Button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
         <Card className="bg-[#2D1537] my-8 border-gray-700">
           <CardContent className="p-4 sm:p-6">
             <div className="flex flex-col sm:flex-row items-center">
@@ -19,15 +56,17 @@ export default function PsCard() {
               <div>
                 <div className="flex flex-col sm:flex-row items-center sm:items-start mb-2">
                   <h2 className="text-xl sm:text-2xl text-white font-bold mb-2 sm:mb-0 sm:mr-3 text-center sm:text-left">
-                    Software Engineering
+                    Software Engineering Essentials
                   </h2>
+                  {/* <span className="bg-[#F3A833] text-black text-xs font-bold px-2 py-1 rounded">
+                  </span> */}
                 </div>
                 <p className="text-[#F3A833] text-sm mb-3 text-center sm:text-left">
                   6 Months Program
                 </p>
                 <p className="text-sm text-white mb-4 text-center sm:text-left">
                   A complete practical course to become a software developer.
-                  From learning basic programming to building softwares.
+                  From learning basic programming to building softwares. 
                 </p>
                 <div className="flex justify-center sm:justify-start">
                   <Link href="/programs/se">
@@ -54,7 +93,7 @@ export default function PsCard() {
               <div>
                 <div className="flex flex-col sm:flex-row items-center sm:items-start mb-2">
                   <h2 className="text-xl sm:text-2xl text-white font-bold mb-2 sm:mb-0 sm:mr-3 text-center sm:text-left">
-                    TypeScript Pro
+                    TypeScript Pro Essentials
                   </h2>
                   <span className="bg-[#F3A833] text-black text-xs font-bold px-2 py-1 rounded">
                     Coming soon
@@ -92,7 +131,7 @@ export default function PsCard() {
               <div>
                 <div className="flex flex-col sm:flex-row items-center sm:items-start mb-2">
                   <h2 className="text-xl sm:text-2xl text-white font-bold mb-2 sm:mb-0 sm:mr-3 text-center sm:text-left">
-                    Python Pro
+                    Python Pro Essentials
                   </h2>
                   <span className="bg-[#F3A833] text-black text-xs font-bold px-2 py-1 rounded">
                     Coming soon

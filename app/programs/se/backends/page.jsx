@@ -2,22 +2,22 @@ import { Button } from "@/components/ui/button";
 import { ChevronDown, Lock, ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaGithub, FaSimplybuilt } from "react-icons/fa6";
 import FAQCard from "../faq-card";
+import { FaNodeJs } from "react-icons/fa";
 
 export default function Backend() {
   return (
     <div>
-      <div className="min-h-screen bg-gray-900 text-gray-100">
+      <div className="min-h-screen bg-[#2D1537] text-gray-100">
         <header className="relative overflow-hidden">
           <div className="absolute inset-0">
             <div className="absolute inset-0 bg-[url('/placeholder.svg')] bg-cover bg-center opacity-20"></div>
-            <div className="absolute inset-0 bg-gradient-to-b from-transparent to-gray-900"></div>
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#2D1537]"></div>
           </div>
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
             <Link
               href="/programs/se"
-              className="inline-flex items-center text-sm text-[#2D1537] mb-6"
+              className="inline-flex items-center text-sm text-white mb-6"
             >
               <ArrowLeft className="w-4 h-4 mr-2" />
               All Programs
@@ -38,14 +38,14 @@ export default function Backend() {
                   <span>Mark Sikaundi</span>
                 </div>
                 <div className="flex space-x-4">
-                  <Link href="/programs/se/sources/2">
-                    <Button className="bg-[#2D1537] hover:bg-green-500 text-[#2D1537]">
+                  <Link href="https://forum.devcircleafrica.com/forum/programming/">
+                    <Button className="bg-white hover:bg-white text-[#2D1537]">
                       Start Learning
                     </Button>
                   </Link>
-                  <Link href="https://forum.devcircleafrica.com/forum/programming/">
-                    <Button className=" border border-green-500 text-white hover:bg-gray-800">
-                      <FaSimplybuilt className="mr-2 h-4 w-4" />
+                  <Link href="https://mentor.lupleg.org">
+                    <Button className=" bg-[#F3A833] text-white hover:bg-[#F3A833]">
+                      <FaNodeJs className="mr-2 h-4 w-4" />
                       Join Community
                     </Button>
                   </Link>
@@ -125,7 +125,7 @@ export default function Backend() {
               <p>12 weeks</p>
             </div>
             <div className="space-y-6">
-              <div className="bg-gray-800 rounded-lg p-4">
+              <div className="bg-[#56425F] rounded-lg p-4">
                 <h2 className="text-xl font-semibold mb-4 flex justify-between items-center">
                   Contents
                   <span className="text-sm font-normal"> Sections</span>
@@ -135,7 +135,7 @@ export default function Backend() {
                     <span>Introduction</span>
                     <ChevronDown className="w-5 h-5" />
                   </div>
-                  <div className="pl-4 space-y-2 text-gray-400">
+                  <div className="pl-4 space-y-2 text-white">
                     <p>Get started with nodejs </p>
                     <p> Express basics</p>
                     <p> Implementing routes</p>
@@ -171,10 +171,10 @@ export default function Backend() {
                   <ChevronDown className="w-5 h-5" />
                 </div>
               </div>
-              <div className="bg-gray-800 rounded-lg p-4">
+              <div className="bg-[#56425F] rounded-lg p-4">
                 <h2 className="text-xl font-semibold mb-4">Coming soon</h2>
-                <div className="bg-gray-700 rounded-lg p-8 flex flex-col items-center justify-center">
-                  <div className="bg-[#2D1537] rounded-full p-4 mb-4">
+                <div className="bg-[#2D1537] rounded-lg p-8 flex flex-col items-center justify-center">
+                  <div className=" bg-[#56425F] rounded-full p-4 mb-4">
                     <Lock className="w-8 h-8 " />
                   </div>
                   <p className="text-center">
