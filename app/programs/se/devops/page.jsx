@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ChevronDown, Lock, ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaSimplybuilt } from "react-icons/fa6";
+import { FaCloud } from "react-icons/fa";
 import FAQCard from "../faq-card";
 
 export default function DevOps() {
@@ -45,7 +45,7 @@ export default function DevOps() {
                   </Link>
                   <Link href="https://forum.devcircleafrica.com/forum/programming/">
                     <Button className=" border border-green-500 text-white hover:bg-gray-800">
-                      <FaSimplybuilt className="mr-2 h-4 w-4" />
+                      <FaCloud className="mr-2 h-4 w-4" />
                       Join Community
                     </Button>
                   </Link>
