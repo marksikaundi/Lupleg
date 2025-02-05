@@ -12,7 +12,7 @@ export default function Office365() {
         <header className="relative overflow-hidden">
           <div className="absolute inset-0">
             <div className="absolute inset-0 bg-[url('/placeholder.svg')] bg-cover bg-center opacity-20"></div>
-            <div className="absolute inset-0 bg-gradient-to-b from-transparent to-gray-900"></div>
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#2D1537]"></div>
           </div>
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
             <Link
@@ -39,12 +39,12 @@ export default function Office365() {
                 </div>
                 <div className="flex space-x-4">
                   <Link href="/programs/digital-skills/sources/1">
-                    <Button className="bg-[#2D1537] hover:bg-green-500 text-[#2D1537]">
+                    <Button className="bg-[#ffffff] hover:bg-white text-[#2D1537]">
                       Start Learning
                     </Button>
                   </Link>
                   <Link href="https://forum.devcircleafrica.com/forum/office365/">
-                    <Button className=" border border-green-500 text-white hover:bg-gray-800">
+                    <Button className=" border border-green-500 text-white hover:bg-black">
                       <FaSimplybuilt className="mr-2 h-4 w-4" />
                       Join Community
                     </Button>
