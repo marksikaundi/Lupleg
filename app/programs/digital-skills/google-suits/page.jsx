@@ -26,7 +26,7 @@ export default function GSuits() {
             <div className="md:flex md:justify-between md:items-center">
               <div>
                 <h1 className="text-4xl md:text-5xl font-bold mb-4">
-                  Google Workspace 101
+                  Google Workspace
                 </h1>
                 <div className="flex items-center mb-6">
                   <Image
