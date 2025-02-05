@@ -19,10 +19,8 @@ export default function PsCard() {
               <div>
                 <div className="flex flex-col sm:flex-row items-center sm:items-start mb-2">
                   <h2 className="text-xl sm:text-2xl text-white font-bold mb-2 sm:mb-0 sm:mr-3 text-center sm:text-left">
-                    Software Engineering Essentials
+                    Software Engineering
                   </h2>
-                  {/* <span className="bg-[#F3A833] text-black text-xs font-bold px-2 py-1 rounded">
-                  </span> */}
                 </div>
                 <p className="text-[#F3A833] text-sm mb-3 text-center sm:text-left">
                   6 Months Program
@@ -56,7 +54,7 @@ export default function PsCard() {
               <div>
                 <div className="flex flex-col sm:flex-row items-center sm:items-start mb-2">
                   <h2 className="text-xl sm:text-2xl text-white font-bold mb-2 sm:mb-0 sm:mr-3 text-center sm:text-left">
-                    TypeScript Pro Essentials
+                    TypeScript Pro
                   </h2>
                   <span className="bg-[#F3A833] text-black text-xs font-bold px-2 py-1 rounded">
                     Coming soon
@@ -94,7 +92,7 @@ export default function PsCard() {
               <div>
                 <div className="flex flex-col sm:flex-row items-center sm:items-start mb-2">
                   <h2 className="text-xl sm:text-2xl text-white font-bold mb-2 sm:mb-0 sm:mr-3 text-center sm:text-left">
-                    Python Pro Essentials
+                    Python Pro
                   </h2>
                   <span className="bg-[#F3A833] text-black text-xs font-bold px-2 py-1 rounded">
                     Coming soon
