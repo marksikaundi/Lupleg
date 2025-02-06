@@ -3,10 +3,8 @@
 import { useState, useEffect } from "react";
 import { Input } from "@/components/ui/input";
 import { Card } from "@/components/ui/card";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { SearchIcon } from "lucide-react";
 import changelogData from "./data";
-import Link from "next/link";
 
 export default function Component() {
   const [searchTerm, setSearchTerm] = useState("");
