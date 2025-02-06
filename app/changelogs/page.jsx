@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Card } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { SearchIcon } from "lucide-react";
-import changelogData from "./data"; // Ensure this path is correct
+import changelogData from "./data";
 import Link from "next/link";
 
 export default function Component() {
