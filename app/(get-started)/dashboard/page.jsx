@@ -101,28 +101,7 @@ const mockData = [
     oneTime: 4500,
     other: 1200,
   },
-  // {
-  //   month: "Oct",
-  //   earnings: 13200,
-  //   subscriptions: 8000,
-  //   oneTime: 4000,
-  //   other: 1200,
-  // },
-  // {
-  //   month: "Nov",
-  //   earnings: 15800,
-  //   subscriptions: 9500,
-  //   oneTime: 4800,
-  //   other: 1500,
-  // },
-  // {
-  //   month: "Dec",
-  //   earnings: 18000,
-  //   subscriptions: 11000,
-  //   oneTime: 5500,
-  //   other: 1500,
-  // },
-];
+  ];
 
 const COLORS = ["#0088FE", "#00C49F", "#FFBB28"];
 
