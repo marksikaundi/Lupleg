@@ -236,7 +236,7 @@ function Challenges() {
           Join the challenge now!
         </h2>
         <a
-          className="inline-block bg-[#C24229]  text-white text-lg font-bold rounded-lg py-4 px-8 cursor-pointer hover:opacity-80"
+          className="inline-block bg-[#2D1537] text-white text-lg font-bold rounded-lg py-4 px-8 cursor-pointer hover:opacity-80"
           href="/challenges/frontend"
         >
           Join challenge
