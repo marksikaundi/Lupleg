@@ -52,7 +52,7 @@ export default function Programming() {
 
       <div className="flex justify-center mt-12">
         <Button variant="outline" className="text-primary">
-          See all 12 Language Tracks
+          Explore all languages
           <ChevronRight className="ml-2 h-4 w-4" />
         </Button>
       </div>
