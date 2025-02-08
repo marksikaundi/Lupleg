@@ -2,7 +2,7 @@ import MoreFQA from "@/components/FeaturesCards/MoreFAQ";
 import Link from "next/link";
 import React from "react";
 
-function Challenges() {
+export default function Challenges() {
   return (
     <div>
       <div className="min-h-screen flex flex-col items-center mt-10">
@@ -81,14 +81,14 @@ function Challenges() {
                     }}
                   />
                 </span>
-                <span className="flex justify-center items-center absolute top-4 right-4 bg-white w-10 h-10 rounded-full text-[#2D1537] hover:scale-105 hover:text-[#2D1537] transition">
+                <span className="flex justify-center items-center absolute top-4 right-4 bg-[#2D1537] w-10 h-10 rounded-full text-[#2D1537] hover:scale-105 hover:text-[#2D1537] transition">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
                     viewBox="0 0 24 24"
                     strokeWidth="2"
-                    stroke="currentColor"
+                    stroke="white"
                     fill="none"
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -112,14 +112,14 @@ function Challenges() {
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-8 container mt-24 mx-auto">
           <div className="text-center">
-            <span className="inline-block bg-green-200 rounded-xl p-3 mx-auto">
+            <span className="inline-block bg-[#2D1537] rounded-xl p-3 mx-auto">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="28"
                 height="28"
                 viewBox="0 0 24 24"
                 strokeWidth="2"
-                stroke="currentColor"
+                stroke="white"
                 fill="none"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -142,14 +142,14 @@ function Challenges() {
             </p>
           </div>
           <div className="text-center">
-            <span className="inline-block bg-green-200 rounded-xl p-2 mx-auto">
+            <span className="inline-block bg-[#2D1537] rounded-xl p-2 mx-auto">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="36"
                 height="36"
                 viewBox="0 0 24 24"
                 strokeWidth="2"
-                stroke="currentColor"
+                stroke="white"
                 fill="none"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -169,14 +169,14 @@ function Challenges() {
             </p>
           </div>
           <div className="text-center">
-            <span className="inline-block bg-green-200 rounded-xl p-3 mx-auto">
+            <span className="inline-block bg-[#2D1537] rounded-xl p-3 mx-auto">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="28"
                 height="28"
                 viewBox="0 0 24 24"
                 strokeWidth="2"
-                stroke="currentColor"
+                stroke="white"
                 fill="none"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -200,14 +200,14 @@ function Challenges() {
             </p>
           </div>
           <div className="text-center">
-            <span className="inline-block bg-[#97919a] rounded-xl p-3 mx-auto">
+            <span className="inline-block bg-[#2D1537] rounded-xl p-3 mx-auto">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="28"
                 height="28"
                 viewBox="0 0 24 24"
                 strokeWidth="2"
-                stroke="currentColor"
+                stroke="white"
                 fill="none"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -247,4 +247,3 @@ function Challenges() {
   );
 }
 
-export default Challenges;
