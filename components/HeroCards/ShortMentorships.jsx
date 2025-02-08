@@ -27,7 +27,7 @@ export default function ShortCourseCard() {
             </p>
             <Link
               className="mt-6 text-base font-semibold text-black hover:text-black"
-              href="#"
+              href="https://mentor.lupleg.org"
             >
               Learn more →
             </Link>
