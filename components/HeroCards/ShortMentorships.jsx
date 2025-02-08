@@ -10,10 +10,12 @@ export default function ShortCourseCard() {
               Short courses available
             </h1>
             <p className="mt-4 max-w-2xl text-xl text-black lg:mx-auto">
-              We have a variety of short courses that are designed to help you
-              to learn and grow in your career. We have courses in Data Science,
-              Machine Learning, Web Development, Mobile Development, Digital
-              Marketing Skills, Freelancing and Personal Development Skills.
+              Explore our diverse range of short courses, crafted to empower
+              you with the skills and knowledge to excel in your career. From
+              Data Science and Machine Learning to Web and Mobile Development,
+              Digital Marketing, Freelancing, and Personal Development, we offer
+              courses that support your professional growth and personal
+              success.
             </p>
           </div>
           <div className="bg-[#2D1537] p-8 rounded-xl border-[#2D1537] border-b-8 ">
