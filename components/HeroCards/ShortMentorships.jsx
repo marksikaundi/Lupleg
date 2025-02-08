@@ -7,13 +7,13 @@ export default function ShortCourseCard() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
             <h1 className="text-3xl font-extrabold tracking-tight text-[#2D1537] ">
-             Short courses available
+              Short courses available
             </h1>
             <p className="mt-4 max-w-2xl text-xl text-black lg:mx-auto">
               We have a variety of short courses that are designed to help you
               to learn and grow in your career. We have courses in Data Science,
-              Machine Learning, Web Development, Mobile Development, and many
-              more.
+              Machine Learning, Web Development, Mobile Development, Digital
+              Marketing Skills, Freelancing and Personal Development.
             </p>
           </div>
           <div className="bg-[#2D1537] p-8 rounded-xl border-[#2D1537] border-b-8 ">
