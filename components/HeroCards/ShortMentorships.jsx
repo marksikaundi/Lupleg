@@ -30,6 +30,7 @@ export default function ShortCourseCard() {
             <Link
               className="mt-6 text-base font-semibold text-white hover:text-white"
               href="https://mentor.lupleg.org"
+              target="_blank"
             >
               Learn more →
             </Link>
