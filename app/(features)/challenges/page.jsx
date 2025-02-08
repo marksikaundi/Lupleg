@@ -22,10 +22,10 @@ function Challenges() {
             </b>
             supercharging their coding skills by building projects.
           </p>
-          <div className="bg-[#C24229] rounded-lg transition hover:-translate-y-1 w-max mx-auto group cursor-pointer">
+          <div className="bg-[#2D1537] rounded-lg transition hover:-translate-y-1 w-max mx-auto group cursor-pointer">
             <div className="animated-border after:opacity-100 before:opacity-100 p-0.5 rounded-lg text-[#2D1537] flex justify-center items-center">
               <Link
-                className="bg-[#C24229] text-white text-lg font-bold py-4 px-8 cursor-pointer relative w-full rounded-lg group-hover:bg-[#C24229] z-10"
+                className="bg-[#2D1537] text-white text-lg font-bold py-4 px-8 cursor-pointer relative w-full rounded-lg group-hover:bg-[#C24229] z-10"
                 href="/challenges/frontend"
               >
                 Start coding

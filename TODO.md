@@ -10,5 +10,6 @@
 
 ### FIX IN PROGRESS:
 
-    - CHALLENGES(Thumbnails)
-    - PROGRAMS(Header)
+    - CHALLENGES(Thumbnails)Ccover images
+    - CHALLENGES(Contents) Styling 
+    
