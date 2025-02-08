@@ -13,7 +13,7 @@ export default function ShortCourseCard() {
               We have a variety of short courses that are designed to help you
               to learn and grow in your career. We have courses in Data Science,
               Machine Learning, Web Development, Mobile Development, Digital
-              Marketing Skills, Freelancing and Personal Development.
+              Marketing Skills, Freelancing and Personal Development Skills.
             </p>
           </div>
           <div className="bg-[#2D1537] p-8 rounded-xl border-[#2D1537] border-b-8 ">
