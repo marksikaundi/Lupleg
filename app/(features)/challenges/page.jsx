@@ -200,7 +200,7 @@ function Challenges() {
             </p>
           </div>
           <div className="text-center">
-            <span className="inline-block bg-green-200 rounded-xl p-3 mx-auto">
+            <span className="inline-block bg-[#97919a] rounded-xl p-3 mx-auto">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="28"
