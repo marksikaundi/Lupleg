@@ -25,7 +25,7 @@ function Challenges() {
           <div className="bg-[#2D1537] rounded-lg transition hover:-translate-y-1 w-max mx-auto group cursor-pointer">
             <div className="animated-border after:opacity-100 before:opacity-100 p-0.5 rounded-lg text-[#2D1537] flex justify-center items-center">
               <Link
-                className="bg-[#2D1537] text-white text-lg font-bold py-4 px-8 cursor-pointer relative w-full rounded-lg group-hover:bg-[#C24229] z-10"
+                className="bg-[#2D1537] text-white text-lg font-bold py-4 px-8 cursor-pointer relative w-full rounded-lg group-hover:bg-[#2D1537] z-10"
                 href="/challenges/frontend"
               >
                 Start coding
@@ -35,7 +35,7 @@ function Challenges() {
         </div>
         <div className="bg-[#2D1537] text-white p-4 rounded-md w-full lg:max-w-[800px]">
           <div className="relative h-96 lg:h-[450px] 2xl:h-[600px] pb-12">
-            <div className="bg-[#C24229] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-3/4 md:scale-[1.5] opacity-75 blur-3xl -z-10 w-96 h-96 rounded-full"></div>
+            <div className="bg-[#2D1537] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-3/4 md:scale-[1.5] opacity-75 blur-3xl -z-10 w-96 h-96 rounded-full"></div>
             <p className="text-lg text-center mb-4">
               <strong>Challenge</strong>
             </p>
