@@ -68,7 +68,7 @@ export default function Component() {
                 nice usability updates to functions returning undefined, and
                 some perf improvements.
               </p>
-              <Button variant="outline" size="sm" className="bg-[#2D1537] hover:">
+              <Button variant="outline" size="sm" className="bg-[#2D1537] hover:bg-[#2D1537] text-white hover:text-white">
                 <FaXTwitter className="w-4 h-4 mr-2" />
                 Discuss on Twitter
               </Button>
