@@ -24,7 +24,7 @@ const allTips = [
   {
     title: "Don't use return types, unless",
     duration: "4 mins",
-    link: "/tips/quick-access/4",
+    link: "/tips/quick-access/dont-use-return-types-unless",
   },
   {
     title: "Understanding Generic Types",
