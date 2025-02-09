@@ -95,7 +95,7 @@ export default function TipsPage() {
               key={index}
               className="flex items-center space-x-4 bg-[#2D1537] p-4 rounded-md"
             >
-              <div className="w-12 h-12 bg-[#ac67ca] rounded-md flex items-center justify-center">
+              <div className="w-12 h-12 bg-[#745f7d] rounded-md flex items-center justify-center">
                 <span className="text-2xl">▶️</span>
               </div>
               <div className="flex-grow">
