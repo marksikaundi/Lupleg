@@ -21,7 +21,7 @@ const allTips = [
     link: "/tips/quick-access/3",
   },
   {
-    title: "Don't use return types, unless...",
+    title: "Don't use return types, unless",
     duration: "4 mins",
     link: "/tips/quick-access/4",
   },

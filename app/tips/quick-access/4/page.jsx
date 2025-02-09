@@ -18,7 +18,7 @@ export default function Component() {
                 </div>
               </div>
               <h2 className="text-2xl font-bold mb-2">
-                Don't use return types, unless...
+                Don't use return types, unless
               </h2>
               <div className="flex items-center space-x-4 mb-4">
                 <Image
