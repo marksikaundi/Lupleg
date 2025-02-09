@@ -3,23 +3,22 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { PlayCircle } from "lucide-react";
 import Image from "next/image";
-import { FaTwitter } from "react-icons/fa6";
+import { FaXTwitter } from "react-icons/fa6";
+import { IoMdShare } from "react-icons/io";
 
 export default function Component() {
   return (
     <div className="container mx-auto p-4 space-y-6">
       <div className="grid gap-6 md:grid-cols-3">
         <div className="md:col-span-2 space-y-6">
-          <Card className="bg-zinc-900 text-white">
+          <Card className="bg-[#2D1537] text-white">
             <CardContent className="p-6">
-              <div className="aspect-video bg-zinc-800 rounded-lg mb-4 relative">
+              <div className="aspect-video bg-white rounded-lg mb-4 relative">
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <PlayCircle className="w-16 h-16 text-white opacity-50" />
+                  <PlayCircle className="w-16 h-16 text-[#2D1537] opacity-50" />
                 </div>
               </div>
-              <h2 className="text-2xl font-bold mb-2">
-                Understanding Generic Types
-              </h2>
+              <h2 className="mb-4">TypeScript 5.8 Beta is OUT!</h2>
               <div className="flex items-center space-x-4 mb-4">
                 <Image
                   src="/mark.jpg"
@@ -36,26 +35,36 @@ export default function Component() {
                 </div>
               </div>
               <p className="mb-4">
-                Today we're announcing our beta release of TypeScript 5.1!
+                Everything you need to know in latest TypeScript 5.8 Beta
               </p>
               <p className="mb-4">
                 To get started using the beta, you can get it through NuGet or
-                through npm with the following command:
+                through npm with the NPM command:
               </p>
+              <pre className="mb-4">
+                <code>{`npm install -D typescript@beta`}</code>
+              </pre>
+
               <div className="flex space-x-2">
-                <Button variant="outline" size="sm">
-                  <FaTwitter className="w-4 h-4 mr-2" />
+                <Button
+                  size="sm"
+                  className="bg-white hover:bg-white text-[#2D1537]  "
+                >
+                  <FaXTwitter className="w-4 h-4 mr-2" />
                   Tweet
                 </Button>
-                <Button variant="outline" size="sm">
-                  Share
+                <Button
+                  size="sm"
+                  className="bg-white hover:bg-white text-[#2D1537]  "
+                >
+                  <IoMdShare className="w-4 h-4 mr-2" /> Share
                 </Button>
               </div>
             </CardContent>
           </Card>
           <Card>
             <CardHeader>
-              <CardTitle>TypeScript 5.1 Beta is OUT!</CardTitle>
+              <CardTitle>TypeScript 5.8 Beta is OUT!</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-sm text-zinc-600 mb-4">
@@ -63,8 +72,12 @@ export default function Component() {
                 nice usability updates to functions returning undefined, and
                 some perf improvements.
               </p>
-              <Button variant="outline" size="sm">
-                <FaTwitter className="w-4 h-4 mr-2" />
+              <Button
+                variant="outline"
+                size="sm"
+                className="bg-[#2D1537] hover:bg-[#2D1537] text-white hover:text-white"
+              >
+                <FaXTwitter className="w-4 h-4 mr-2" />
                 Discuss on Twitter
               </Button>
             </CardContent>
@@ -108,21 +121,21 @@ export default function Component() {
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="flex items-center space-x-4">
-                <PlayCircle className="w-8 h-8 text-zinc-500" />
+                <PlayCircle className="w-8 h-8 text-[#2D1537]" />
                 <div>
                   <p className="font-semibold">Type Predicates</p>
                   <p className="text-sm text-zinc-600">1 min</p>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
-                <PlayCircle className="w-8 h-8 text-zinc-500" />
+                <PlayCircle className="w-8 h-8 text-[#2D1537]" />
                 <div>
                   <p className="font-semibold">How to Name your Types</p>
                   <p className="text-sm text-zinc-600">4 mins</p>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
-                <PlayCircle className="w-8 h-8 text-zinc-500" />
+                <PlayCircle className="w-8 h-8 text-[#2D1537]" />
                 <div>
                   <p className="font-semibold">
                     Don't use return types, unless...
@@ -131,46 +144,10 @@ export default function Component() {
                 </div>
               </div>
               <div className="flex items-center space-x-4">
-                <PlayCircle className="w-8 h-8 text-zinc-500" />
+                <PlayCircle className="w-8 h-8 text-[#2D1537]" />
                 <div>
                   <p className="font-semibold">TypeScript 5.0 Beta Deep Dive</p>
                   <p className="text-sm text-zinc-600">6 mins</p>
-                </div>
-              </div>
-              <div className="flex items-center space-x-4">
-                <PlayCircle className="w-8 h-8 text-zinc-500" />
-                <div>
-                  <p className="font-semibold">
-                    Conform a Derived Type Without Losing Its Literal Values
-                  </p>
-                  <p className="text-sm text-zinc-600">1 min</p>
-                </div>
-              </div>
-              <div className="flex items-center space-x-4">
-                <PlayCircle className="w-8 h-8 text-zinc-500" />
-                <div>
-                  <p className="font-semibold">
-                    Conform a Derived Type Without Losing Its Literal Values
-                  </p>
-                  <p className="text-sm text-zinc-600">1 min</p>
-                </div>
-              </div>
-              <div className="flex items-center space-x-4">
-                <PlayCircle className="w-8 h-8 text-zinc-500" />
-                <div>
-                  <p className="font-semibold">
-                    Conform a Derived Type Without Losing Its Literal Values
-                  </p>
-                  <p className="text-sm text-zinc-600">1 min</p>
-                </div>
-              </div>
-              <div className="flex items-center space-x-4">
-                <PlayCircle className="w-8 h-8 text-zinc-500" />
-                <div>
-                  <p className="font-semibold">
-                    Conform a Derived Type Without Losing Its Literal Values
-                  </p>
-                  <p className="text-sm text-zinc-600">1 min</p>
                 </div>
               </div>
             </CardContent>
@@ -184,7 +161,7 @@ export default function Component() {
                 <Input placeholder="Preferred name" className="flex-grow" />
                 <Input placeholder="you@example.com" className="flex-grow" />
               </div>
-              <Button className="w-full mt-2">
+              <Button className="w-full mt-2 bg-[#2D1537] hover:bg-[#2D1537] ">
                 Subscribe for TypeScript tips
               </Button>
             </CardContent>
