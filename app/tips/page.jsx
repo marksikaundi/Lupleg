@@ -6,39 +6,40 @@ import { Input } from "@/components/ui/input";
 import Link from "next/link";
 
 const allTips = [
-  { 
-    title: "Type Predicates", 
-    duration: "1 min", 
-    link: "/tips/quick-access/1" },
+  {
+    title: "Type Predicates",
+    duration: "1 min",
+    link: "/tips/ts/type-predicates",
+  },
   {
     title: "TypeScript 5.1 Beta is OUT!",
     duration: "2 mins",
-    link: "/tips/quick-access/2",
+    link: "/tips/ts/typeScript-beta-is-out",
   },
   {
     title: "How to Name your Types",
     duration: "4 mins",
-    link: "/tips/quick-access/3",
+    link: "/tips/ts/how-to-name-your-types",
   },
   {
-    title: "Don't use return types, unless...",
+    title: "Don't use return types, unless",
     duration: "4 mins",
-    link: "/tips/quick-access/4",
+    link: "/tips/ts/dont-use-return-types-unless",
   },
   {
     title: "Understanding Generic Types",
     duration: "3 mins",
-    link: "/tips/quick-access/5",
+    link: "/tips/ts/understanding-generic-types",
   },
   {
     title: "Advanced TypeScript Interfaces",
     duration: "5 mins",
-    link: "/tips/quick-access/6",
+    link: "/tips/ts/advanced-typescript-interfaces",
   },
   {
     title: "Mastering Union and Intersection Types",
     duration: "4 mins",
-    link: "/tips/quick-access/7",
+    link: "/tips/ts/mastering-union-and-intersection-types",
   },
 ];
 
@@ -63,11 +64,13 @@ export default function TipsPage() {
           <div className="w-20 h-20 bg-[#2D1537] rounded-full blur-2xl opacity-50"></div>
         </div>
 
-        <h1 className="text-5xl font-bold text-center text-[#2D1537] ">30Days of Deep Learning</h1>
+        <h1 className="text-5xl font-bold text-center text-[#2D1537] ">
+          TypeScript Tips
+        </h1>
         <p className="text-lg text-center text-[#2D1537] ">
           A collection of useful tips that you wish you
           <br />
-          knew when you started cracking Deep learning.
+          knew when you started using TypeScript.
         </p>
 
         <div className="relative">
@@ -92,7 +95,7 @@ export default function TipsPage() {
               key={index}
               className="flex items-center space-x-4 bg-[#2D1537] p-4 rounded-md"
             >
-              <div className="w-12 h-12 bg-[#ac67ca] rounded-md flex items-center justify-center">
+              <div className="w-12 h-12 bg-[#846e8e] rounded-md flex items-center justify-center">
                 <span className="text-2xl">▶️</span>
               </div>
               <div className="flex-grow">

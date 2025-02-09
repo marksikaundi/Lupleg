@@ -22,7 +22,7 @@ export default function Nav() {
                 Programs
               </Link>
               <Link
-                href="/challenges/frontend"
+                href="/challenges"
                 className="text-white/80 hover:text-white"
               >
                 Challenges

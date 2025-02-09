@@ -101,7 +101,7 @@ const mockData = [
     oneTime: 4500,
     other: 1200,
   },
-  ];
+];
 
 const COLORS = ["#0088FE", "#00C49F", "#FFBB28"];
 
@@ -135,6 +135,7 @@ export default function LuplegDasboard() {
                   <SelectValue placeholder="Select year" />
                 </SelectTrigger>
                 <SelectContent>
+                  <SelectItem value="2025">2025</SelectItem>
                   <SelectItem value="2024">2024</SelectItem>
                   <SelectItem value="2023">2023</SelectItem>
                   <SelectItem value="2022">2022</SelectItem>

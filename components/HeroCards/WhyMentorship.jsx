@@ -34,8 +34,7 @@ export default function WhyMentorship() {
           <p className="text-gray-600">
             When learning a new language, the hardest part is not being aware of
             the gaps in your knowledge. Our mentors can look at your code and
-            immediately see the ideas you're not familiar with and give you a
-            level-up by unlocking new knowledge.
+            immediately see the ideas you're not familiar with
           </p>
         </div>
         <div className="flex flex-col items-start">
