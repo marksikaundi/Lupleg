@@ -13,7 +13,7 @@ const allTips = [
   {
     title: "TypeScript 5.1 Beta is OUT!",
     duration: "2 mins",
-    link: "/tips/quick-access/2",
+    link: "/tips/quick-access/typeScript-beta-is-out",
   },
   {
     title: "How to Name your Types",
