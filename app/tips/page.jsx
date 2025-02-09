@@ -34,7 +34,7 @@ const allTips = [
   {
     title: "Advanced TypeScript Interfaces",
     duration: "5 mins",
-    link: "/tips/quick-access/6",
+    link: "/tips/quick-access/advanced-typescript-interfaces",
   },
   {
     title: "Mastering Union and Intersection Types",
