@@ -1,14 +1,21 @@
+# TIPS TODO
 
-type-predicates
+## CONTENT STRUCTURE:
 
-typeScript-beta-is-out
+---
 
-how-to-name-your-types
+## PROGRESS
 
-dont-use-return-types-unless
+    - SUMMARY
+    - MAIN CONTENT
+    - BUTTONS
+    - REDIRECTS
 
-understanding-generic-types
+## DRAFTS
 
-advanced-typescript-interfaces
+## [ TIMESTAMP ]
 
-mastering-union-and-intersection-types
+    - RIGHT SIDEBAR CONTENT LAYOUT
+    - SUBSCRIBE EMAIL CONTACT
+    - CONTENT THUMBNAILS(IMAGES)
+    - TIME INTERVALS

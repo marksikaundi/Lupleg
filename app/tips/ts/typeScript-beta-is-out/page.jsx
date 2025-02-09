@@ -3,7 +3,10 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { PlayCircle } from "lucide-react";
 import Image from "next/image";
-import { FaTwitter } from "react-icons/fa6";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaShareAlt } from "react-icons/fa";
+import { IoMdShare } from "react-icons/io";
+
 
 export default function Component() {
   return (
@@ -17,7 +20,7 @@ export default function Component() {
                   <PlayCircle className="w-16 h-16 text-white opacity-50" />
                 </div>
               </div>
-              <h2>TypeScript 5.1 Beta is OUT!</h2>
+              <h2 className="mb-4">TypeScript 5.8 Beta is OUT!</h2>
               <div className="flex items-center space-x-4 mb-4">
                 <Image
                   src="/mark.jpg"
@@ -34,7 +37,7 @@ export default function Component() {
                 </div>
               </div>
               <p className="mb-4">
-                Today we're announcing our beta release of TypeScript 5.1!
+                Everything you need to know in latest TypeScript 5.8 Beta
               </p>
               <p className="mb-4">
                 To get started using the beta, you can get it through NuGet or
@@ -42,18 +45,18 @@ export default function Component() {
               </p>
               <div className="flex space-x-2">
                 <Button variant="outline" size="sm">
-                  <FaTwitter className="w-4 h-4 mr-2" />
+                  <FaXTwitter className="w-4 h-4 mr-2" />
                   Tweet
                 </Button>
                 <Button variant="outline" size="sm">
-                  Share
+                  <FaShareAlt className="w-4 h-4 mr-2" /> Share
                 </Button>
               </div>
             </CardContent>
           </Card>
           <Card>
             <CardHeader>
-              <CardTitle>TypeScript 5.1 Beta is OUT!</CardTitle>
+              <CardTitle>TypeScript 5.8 Beta is OUT!</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-sm text-zinc-600 mb-4">
@@ -62,7 +65,7 @@ export default function Component() {
                 some perf improvements.
               </p>
               <Button variant="outline" size="sm">
-                <FaTwitter className="w-4 h-4 mr-2" />
+                <FaXTwitter className="w-4 h-4 mr-2" />
                 Discuss on Twitter
               </Button>
             </CardContent>
