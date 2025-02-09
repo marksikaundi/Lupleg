@@ -81,7 +81,7 @@ export default function Challenges() {
                     }}
                   />
                 </span>
-                <span className="flex justify-center items-center absolute top-4 right-4 bg-[#C9C0CD] w-10 h-10 rounded-full text-[#2D1537] hover:scale-105 hover:text-[#2D1537] transition">
+                <span className="flex justify-center items-center absolute top-4 right-4 bg-[#2D1537] w-10 h-10 rounded-full text-[#2D1537] hover:scale-105 hover:text-[#2D1537] transition">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -119,7 +119,7 @@ export default function Challenges() {
                 height="28"
                 viewBox="0 0 24 24"
                 strokeWidth="2"
-                stroke="white"
+                stroke="#C9C0CD"
                 fill="none"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -149,7 +149,7 @@ export default function Challenges() {
                 height="36"
                 viewBox="0 0 24 24"
                 strokeWidth="2"
-                stroke="white"
+                stroke="#C9C0CD"
                 fill="none"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -176,7 +176,7 @@ export default function Challenges() {
                 height="28"
                 viewBox="0 0 24 24"
                 strokeWidth="2"
-                stroke="white"
+                stroke="#C9C0CD"
                 fill="none"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -207,7 +207,7 @@ export default function Challenges() {
                 height="28"
                 viewBox="0 0 24 24"
                 strokeWidth="2"
-                stroke="white"
+                stroke="#C9C0CD"
                 fill="none"
                 strokeLinecap="round"
                 strokeLinejoin="round"
