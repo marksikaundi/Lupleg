@@ -9,6 +9,6 @@ dont-use-return-types-unless
 
 understanding-generic-types
 
-advanced-typeScript-interfaces
+advanced-typescript-interfaces
 
 mastering-union-and-intersection-types
