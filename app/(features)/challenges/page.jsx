@@ -12,7 +12,7 @@ export default function Challenges() {
           <span className="text-[#2D1537]"> coding </span>skills!
         </h1>
         <div className="relative my-16 text-center z-20">
-          <p className="text-green-950 text-lg mt-4 mb-8 w-96 max-w-full">
+          <p className="text-black text-lg mt-4 mb-8 w-96 max-w-full">
             Join{" "}
             <b>
               <a className="cursor-pointer" href="/challenges/frontend">
