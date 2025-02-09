@@ -119,7 +119,7 @@ export default function Challenges() {
                 height="28"
                 viewBox="0 0 24 24"
                 strokeWidth="2"
-                stroke="#C9C0CD"
+                stroke="white"
                 fill="none"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -149,7 +149,7 @@ export default function Challenges() {
                 height="36"
                 viewBox="0 0 24 24"
                 strokeWidth="2"
-                stroke="#C9C0CD"
+                stroke="white"
                 fill="none"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -176,7 +176,7 @@ export default function Challenges() {
                 height="28"
                 viewBox="0 0 24 24"
                 strokeWidth="2"
-                stroke="#C9C0CD"
+                stroke="white"
                 fill="none"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -207,7 +207,7 @@ export default function Challenges() {
                 height="28"
                 viewBox="0 0 24 24"
                 strokeWidth="2"
-                stroke="#C9C0CD"
+                stroke="white"
                 fill="none"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -246,4 +246,3 @@ export default function Challenges() {
     </div>
   );
 }
-
