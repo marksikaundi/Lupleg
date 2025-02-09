@@ -38,7 +38,7 @@ const allTips = [
   {
     title: "Mastering Union and Intersection Types",
     duration: "4 mins",
-    link: "/tips/quick-access/7",
+    link: "/tips/quick-access/mastering-union-and-intersection-types",
   },
 ];
 
