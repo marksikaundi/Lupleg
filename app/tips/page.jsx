@@ -65,12 +65,12 @@ export default function TipsPage() {
         </div>
 
         <h1 className="text-5xl font-bold text-center text-[#2D1537] ">
-        TypeScript Tips
+          TypeScript Tips
         </h1>
         <p className="text-lg text-center text-[#2D1537] ">
-        A collection of useful tips that you wish you
+          A collection of useful tips that you wish you
           <br />
-           knew when you started using TypeScript.
+          knew when you started using TypeScript.
         </p>
 
         <div className="relative">
