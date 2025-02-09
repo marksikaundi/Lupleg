@@ -1,7 +1,7 @@
 
 type-predicates
 
-typeScript-5-1-beta-is-out
+typeScript-beta-is-out
 
 how-to-name-your-types
 
