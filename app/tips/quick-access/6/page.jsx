@@ -17,7 +17,7 @@ export default function Component() {
                   <PlayCircle className="w-16 h-16 text-white opacity-50" />
                 </div>
               </div>
-              <h2 className="text-2xl font-bold mb-2">Announcing TypeScript 5.1 Beta</h2>
+              <h2 className="text-2xl font-bold mb-2">Advanced TypeScript Interfaces</h2>
               <div className="flex items-center space-x-4 mb-4">
               <Image
                   src="/mark.jpg"
