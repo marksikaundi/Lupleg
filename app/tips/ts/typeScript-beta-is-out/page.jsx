@@ -39,8 +39,14 @@ export default function Component() {
               </p>
               <p className="mb-4">
                 To get started using the beta, you can get it through NuGet or
-                through npm with the following command:
-              </p>
+                through npm with the  NPM command
+              </p> 
+              <pre className="mb-4">
+                <code>
+                  {`npm install -D typescript@beta`}
+                </code>
+              </pre>
+             
               <div className="flex space-x-2">
                 <Button
                   size="sm"
