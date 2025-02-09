@@ -16,8 +16,7 @@ export default function Component() {
                 <div className="absolute inset-0 flex items-center justify-center">
                   <PlayCircle className="w-16 h-16 text-white opacity-50" />
                 </div>
-              </div>
-              <h2 className="text-2xl font-bold mb-2">Announcing TypeScript 5.1 Beta</h2>
+              </div><h2>TypeScript 5.1 Beta is OUT!</h2>
               <div className="flex items-center space-x-4 mb-4">
               <Image
                   src="/mark.jpg"
@@ -28,7 +27,7 @@ export default function Component() {
                 />
                 <div>
                   <p className="font-semibold">Mark Sikaundi</p>
-                  <p className="text-sm text-zinc-400">July 18th, 2024 | 21:1 | 0</p>
+                  <p className="text-sm text-zinc-400">February 09th, 2025 | 21:1 | 0</p>
                 </div>
               </div>
               <p className="mb-4">
