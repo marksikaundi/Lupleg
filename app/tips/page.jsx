@@ -9,7 +9,7 @@ const allTips = [
   { 
     title: "Type Predicates", 
     duration: "1 min", 
-    link: "/tips/quick-access/1" },
+    link: "/tips/quick-access/type-predicates" },
   {
     title: "TypeScript 5.1 Beta is OUT!",
     duration: "2 mins",
