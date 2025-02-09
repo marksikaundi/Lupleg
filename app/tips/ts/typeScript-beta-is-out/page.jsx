@@ -142,42 +142,6 @@ export default function Component() {
                   <p className="text-sm text-zinc-600">6 mins</p>
                 </div>
               </div>
-              <div className="flex items-center space-x-4">
-                <PlayCircle className="w-8 h-8 text-zinc-500" />
-                <div>
-                  <p className="font-semibold">
-                    Conform a Derived Type Without Losing Its Literal Values
-                  </p>
-                  <p className="text-sm text-zinc-600">1 min</p>
-                </div>
-              </div>
-              <div className="flex items-center space-x-4">
-                <PlayCircle className="w-8 h-8 text-zinc-500" />
-                <div>
-                  <p className="font-semibold">
-                    Conform a Derived Type Without Losing Its Literal Values
-                  </p>
-                  <p className="text-sm text-zinc-600">1 min</p>
-                </div>
-              </div>
-              <div className="flex items-center space-x-4">
-                <PlayCircle className="w-8 h-8 text-zinc-500" />
-                <div>
-                  <p className="font-semibold">
-                    Conform a Derived Type Without Losing Its Literal Values
-                  </p>
-                  <p className="text-sm text-zinc-600">1 min</p>
-                </div>
-              </div>
-              <div className="flex items-center space-x-4">
-                <PlayCircle className="w-8 h-8 text-zinc-500" />
-                <div>
-                  <p className="font-semibold">
-                    Conform a Derived Type Without Losing Its Literal Values
-                  </p>
-                  <p className="text-sm text-zinc-600">1 min</p>
-                </div>
-              </div>
             </CardContent>
           </Card>
           <Card>
