@@ -68,7 +68,7 @@ export default function Component() {
                 nice usability updates to functions returning undefined, and
                 some perf improvements.
               </p>
-              <Button variant="outline" size="sm">
+              <Button variant="outline" size="sm" className="bg-[#2D1537] hover:">
                 <FaXTwitter className="w-4 h-4 mr-2" />
                 Discuss on Twitter
               </Button>
@@ -113,21 +113,21 @@ export default function Component() {
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="flex items-center space-x-4">
-                <PlayCircle className="w-8 h-8 text-zinc-500" />
+                <PlayCircle className="w-8 h-8 text-[#2D1537]" />
                 <div>
                   <p className="font-semibold">Type Predicates</p>
                   <p className="text-sm text-zinc-600">1 min</p>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
-                <PlayCircle className="w-8 h-8 text-zinc-500" />
+                <PlayCircle className="w-8 h-8 text-[#2D1537]" />
                 <div>
                   <p className="font-semibold">How to Name your Types</p>
                   <p className="text-sm text-zinc-600">4 mins</p>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
-                <PlayCircle className="w-8 h-8 text-zinc-500" />
+                <PlayCircle className="w-8 h-8 text-[#2D1537]" />
                 <div>
                   <p className="font-semibold">
                     Don't use return types, unless...
@@ -136,7 +136,7 @@ export default function Component() {
                 </div>
               </div>
               <div className="flex items-center space-x-4">
-                <PlayCircle className="w-8 h-8 text-zinc-500" />
+                <PlayCircle className="w-8 h-8 text-[#2D1537]" />
                 <div>
                   <p className="font-semibold">TypeScript 5.0 Beta Deep Dive</p>
                   <p className="text-sm text-zinc-600">6 mins</p>
