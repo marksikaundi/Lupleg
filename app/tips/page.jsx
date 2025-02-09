@@ -9,37 +9,37 @@ const allTips = [
   {
     title: "Type Predicates",
     duration: "1 min",
-    link: "/tips/docs/type-predicates",
+    link: "/tips/ts/type-predicates",
   },
   {
     title: "TypeScript 5.1 Beta is OUT!",
     duration: "2 mins",
-    link: "/tips/docs/typeScript-beta-is-out",
+    link: "/tips/ts/typeScript-beta-is-out",
   },
   {
     title: "How to Name your Types",
     duration: "4 mins",
-    link: "/tips/docs/how-to-name-your-types",
+    link: "/tips/ts/how-to-name-your-types",
   },
   {
     title: "Don't use return types, unless",
     duration: "4 mins",
-    link: "/tips/docs/dont-use-return-types-unless",
+    link: "/tips/ts/dont-use-return-types-unless",
   },
   {
     title: "Understanding Generic Types",
     duration: "3 mins",
-    link: "/tips/docs/understanding-generic-types",
+    link: "/tips/ts/understanding-generic-types",
   },
   {
     title: "Advanced TypeScript Interfaces",
     duration: "5 mins",
-    link: "/tips/docs/advanced-typescript-interfaces",
+    link: "/tips/ts/advanced-typescript-interfaces",
   },
   {
     title: "Mastering Union and Intersection Types",
     duration: "4 mins",
-    link: "/tips/docs/mastering-union-and-intersection-types",
+    link: "/tips/ts/mastering-union-and-intersection-types",
   },
 ];
 
