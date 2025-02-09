@@ -4,16 +4,14 @@ import { Input } from "@/components/ui/input";
 import { PlayCircle } from "lucide-react";
 import Image from "next/image";
 import { FaXTwitter } from "react-icons/fa6";
-import { FaShareAlt } from "react-icons/fa";
 import { IoMdShare } from "react-icons/io";
-
 
 export default function Component() {
   return (
     <div className="container mx-auto p-4 space-y-6">
       <div className="grid gap-6 md:grid-cols-3">
         <div className="md:col-span-2 space-y-6">
-          <Card className="bg-zinc-900 text-white">
+          <Card className="bg-[#2D1537] text-white">
             <CardContent className="p-6">
               <div className="aspect-video bg-zinc-800 rounded-lg mb-4 relative">
                 <div className="absolute inset-0 flex items-center justify-center">
@@ -49,7 +47,7 @@ export default function Component() {
                   Tweet
                 </Button>
                 <Button variant="outline" size="sm">
-                  <FaShareAlt className="w-4 h-4 mr-2" /> Share
+                  <IoMdShare className="w-4 h-4 mr-2" /> Share
                 </Button>
               </div>
             </CardContent>
