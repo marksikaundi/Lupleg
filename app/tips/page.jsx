@@ -29,7 +29,7 @@ const allTips = [
   {
     title: "Understanding Generic Types",
     duration: "3 mins",
-    link: "/tips/quick-access/5",
+    link: "/tips/quick-access/understanding-generic-types",
   },
   {
     title: "Advanced TypeScript Interfaces",
