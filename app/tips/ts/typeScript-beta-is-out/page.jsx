@@ -39,14 +39,12 @@ export default function Component() {
               </p>
               <p className="mb-4">
                 To get started using the beta, you can get it through NuGet or
-                through npm with the  NPM command
-              </p> 
+                through npm with the NPM command:
+              </p>
               <pre className="mb-4">
-                <code>
-                  {`npm install -D typescript@beta`}
-                </code>
+                <code>{`npm install -D typescript@beta`}</code>
               </pre>
-             
+
               <div className="flex space-x-2">
                 <Button
                   size="sm"
@@ -74,7 +72,11 @@ export default function Component() {
                 nice usability updates to functions returning undefined, and
                 some perf improvements.
               </p>
-              <Button variant="outline" size="sm" className="bg-[#2D1537] hover:bg-[#2D1537] text-white hover:text-white">
+              <Button
+                variant="outline"
+                size="sm"
+                className="bg-[#2D1537] hover:bg-[#2D1537] text-white hover:text-white"
+              >
                 <FaXTwitter className="w-4 h-4 mr-2" />
                 Discuss on Twitter
               </Button>
