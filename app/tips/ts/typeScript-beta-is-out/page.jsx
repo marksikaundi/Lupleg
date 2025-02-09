@@ -46,7 +46,7 @@ export default function Component() {
                   <FaXTwitter className="w-4 h-4 mr-2" />
                   Tweet
                 </Button>
-                <Button variant="outline" size="sm">
+                <Button variant="outline" size="sm" className="bg-white hover:bg-white  " >
                   <IoMdShare className="w-4 h-4 mr-2" /> Share
                 </Button>
               </div>
