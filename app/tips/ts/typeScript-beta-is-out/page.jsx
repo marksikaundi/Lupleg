@@ -13,9 +13,9 @@ export default function Component() {
         <div className="md:col-span-2 space-y-6">
           <Card className="bg-[#2D1537] text-white">
             <CardContent className="p-6">
-              <div className="aspect-video bg-zinc-800 rounded-lg mb-4 relative">
+              <div className="aspect-video bg-white rounded-lg mb-4 relative">
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <PlayCircle className="w-16 h-16 text-white opacity-50" />
+                  <PlayCircle className="w-16 h-16 text-[#2D1537] opacity-50" />
                 </div>
               </div>
               <h2 className="mb-4">TypeScript 5.8 Beta is OUT!</h2>
@@ -42,11 +42,17 @@ export default function Component() {
                 through npm with the following command:
               </p>
               <div className="flex space-x-2">
-                <Button variant="outline" size="sm">
+                <Button
+                  size="sm"
+                  className="bg-white hover:bg-white text-[#2D1537]  "
+                >
                   <FaXTwitter className="w-4 h-4 mr-2" />
                   Tweet
                 </Button>
-                <Button variant="outline" size="sm" className="bg-white hover:bg-white  " >
+                <Button
+                  size="sm"
+                  className="bg-white hover:bg-white text-[#2D1537]  "
+                >
                   <IoMdShare className="w-4 h-4 mr-2" /> Share
                 </Button>
               </div>
