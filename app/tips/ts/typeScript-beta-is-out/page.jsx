@@ -153,7 +153,7 @@ export default function Component() {
                 <Input placeholder="Preferred name" className="flex-grow" />
                 <Input placeholder="you@example.com" className="flex-grow" />
               </div>
-              <Button className="w-full mt-2">
+              <Button className="w-full mt-2 bg-[#2D1537] hover:bg-[#2D1537] ">
                 Subscribe for TypeScript tips
               </Button>
             </CardContent>
