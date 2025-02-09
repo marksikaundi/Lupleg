@@ -6,10 +6,11 @@ import { Input } from "@/components/ui/input";
 import Link from "next/link";
 
 const allTips = [
-  { 
-    title: "Type Predicates", 
-    duration: "1 min", 
-    link: "/tips/quick-access/type-predicates" },
+  {
+    title: "Type Predicates",
+    duration: "1 min",
+    link: "/tips/quick-access/type-predicates",
+  },
   {
     title: "TypeScript 5.1 Beta is OUT!",
     duration: "2 mins",
@@ -18,7 +19,7 @@ const allTips = [
   {
     title: "How to Name your Types",
     duration: "4 mins",
-    link: "/tips/quick-access/3",
+    link: "/tips/quick-access/how-to-name-your-types",
   },
   {
     title: "Don't use return types, unless",
@@ -63,7 +64,9 @@ export default function TipsPage() {
           <div className="w-20 h-20 bg-[#2D1537] rounded-full blur-2xl opacity-50"></div>
         </div>
 
-        <h1 className="text-5xl font-bold text-center text-[#2D1537] ">30Days of Deep Learning</h1>
+        <h1 className="text-5xl font-bold text-center text-[#2D1537] ">
+          30Days of Deep Learning
+        </h1>
         <p className="text-lg text-center text-[#2D1537] ">
           A collection of useful tips that you wish you
           <br />
