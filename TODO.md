@@ -12,4 +12,6 @@
 
     - CHALLENGES(Thumbnails)Ccover images
     - CHALLENGES(Contents) Styling 
-    
+
+### FONTS
+    - HEADINGS 20PX
