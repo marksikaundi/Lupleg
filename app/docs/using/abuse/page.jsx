@@ -140,7 +140,7 @@ export default function Abuse() {
               In addition to reporting abuse community members are welcome to
               refer users to the{" "}
               <Link
-                className="text-md font-bold text-[#2D1537] bg-[#2D1537] px-2 text-white"
+                className="text-md font-mono text-[#2D1537] bg-[#2D1537] px-2 text-white"
                 href="/docs/using/conducts"
               >
                 Code of Conduct
