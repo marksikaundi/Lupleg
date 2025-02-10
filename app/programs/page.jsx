@@ -23,7 +23,7 @@ export default function Programs() {
             </p>
           </div>
 
-          <PsCard />
+          <PsCard />                                                   
         </div>
       </div>
       <MoreFQA />
