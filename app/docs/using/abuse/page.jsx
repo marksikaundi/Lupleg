@@ -152,7 +152,7 @@ export default function Abuse() {
             </p>
 
             <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
-              What to include in your report of abuse or harassment on Lupleg
+              What to include in your report of abuse or harassment
             </h2>
             <p className="text-gray-700 mb-8">
               When reporting abuse or harassment, please include the following
