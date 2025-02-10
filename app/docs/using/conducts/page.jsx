@@ -157,9 +157,12 @@ export default function CodeOfConduct() {
             </h1>
 
             <p className="text-xl text-gray-600 mb-8">
-              We actively monitor for Code of Conduct (CoC) violations and take
-              any reports of violations extremely seriously. We have banned
-              contributors, mentors and users due to violations.
+              We actively monitor for{" "}
+              <a className=" font-mono bg-[#2D1537] px-2 text-white" href="">
+                Code of Conduct (CoC)
+              </a>{" "}
+              violations and take any reports of violations extremely seriously.
+              We have banned contributors, mentors and users due to violations.
               <br />
               After we receive a report of a CoC violation, we view that
               person's conversation history on Lupleg and related communication
