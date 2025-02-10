@@ -142,8 +142,14 @@ export default function CodeOfConduct() {
 
             <p className="text-xl text-gray-600 mb-8">
               If you see or experience abuse, harassment, discrimination, or
-              feel unsafe or upset, <a className=" font-mono bg-[#2D1537] px-2 text-white" href="mailto:abuse@lupleg.org">please email us </a>. We will take
-              your report seriously.
+              feel unsafe or upset,{" "}
+              <a
+                className=" font-mono bg-[#2D1537] px-2 text-white"
+                href="mailto:abuse@lupleg.org"
+              >
+                please email us
+              </a>
+              . We will take your report seriously.
             </p>
 
             <h1 className="text-2xl font-bold text-[#2D1537] mb-4">
