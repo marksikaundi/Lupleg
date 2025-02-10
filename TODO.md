@@ -20,3 +20,7 @@
 ### DEFECTS(BUGS)
 
     - CODE HIGHLIGHTS 
+
+### DONE
+
+    - Code of Conduct(DOCS)
