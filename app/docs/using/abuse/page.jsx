@@ -135,7 +135,7 @@ export default function Abuse() {
               <br />
               Please reach out to us and we will try to fix or resolve the issue
               respecting both you and your privacy. The best way to contact us
-              is through <a className="text-mono bg-[#2D1537] px-2 text-white" href="mailto:abuse@lupleg.org">Our Email </a>
+              is through <a className=" font-mono bg-[#2D1537] px-2 text-white" href="mailto:abuse@lupleg.org">Our Email </a>
               <br />
               In addition to reporting abuse community members are welcome to
               refer users to the{" "}
