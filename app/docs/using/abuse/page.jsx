@@ -140,11 +140,11 @@ export default function Abuse() {
               In addition to reporting abuse community members are welcome to
               refer users to the{" "}
               <Link
-                className="text-xl font-bold text-[#2D1537]"
+                className="text-md font-bold text-[#2D1537] bg-[#2D1537] px-2 text-white"
                 href="/docs/using/conducts"
               >
                 Code of Conduct
-              </Link>{" "}
+              </Link>
               if they feel safe doing so. Keep in mind that this type of action
               is meant to resolve issues. As such, it is better to pose it as a
               question, eg. "Do you feel like that comment is aligned to
