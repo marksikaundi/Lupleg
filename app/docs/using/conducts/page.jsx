@@ -111,14 +111,14 @@ export default function CodeOfConduct() {
         {/* Main Content */}
         <main className="flex-1 p-8">
           <div className="max-w-4xl">
-            <h1 className="text-4xl font-bold text-purple-900 mb-4">
+            <h1 className="text-4xl font-bold text-[#2D1537] mb-4">
               Code of Conduct
             </h1>
             <p className="text-xl text-gray-600 mb-8"></p>
 
             {/* Decorative Wave */}
             <div className="mb-8">
-              <svg className="text-purple-600" viewBox="0 0 100 20" width="100">
+              <svg className="text-[#2D1537]" viewBox="0 0 100 20" width="100">
                 <path
                   d="M0 10 Q25 20 50 10 T100 10"
                   fill="none"
@@ -127,7 +127,7 @@ export default function CodeOfConduct() {
                 />
               </svg>
             </div>
-            <h1 className="text-2xl font-bold text-purple-900 mb-4">
+            <h1 className="text-2xl font-bold text-[#2D1537] mb-4">
               Introductions
             </h1>
             <p className="text-xl text-gray-600 mb-8">
@@ -136,7 +136,7 @@ export default function CodeOfConduct() {
               unwelcome, unsupported, insulted or discriminated against.
             </p>
 
-            <h1 className="text-2xl font-bold text-purple-900 mb-4">
+            <h1 className="text-2xl font-bold text-[#2D1537] mb-4">
               Seen or experienced something uncomfortable?
             </h1>
 
@@ -146,7 +146,7 @@ export default function CodeOfConduct() {
               your report seriously.
             </p>
 
-            <h1 className="text-2xl font-bold text-purple-900 mb-4">
+            <h1 className="text-2xl font-bold text-[#2D1537] mb-4">
               Enforcement
             </h1>
 
