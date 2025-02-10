@@ -149,7 +149,6 @@ export default function Abuse() {
               is meant to resolve issues. As such, it is better to pose it as a
               question, eg. "Do you feel like that comment is aligned to
               Lupleg's COC" rather than "You're in violation of the COC"
-              <p>hey</p>
             </p>
 
             <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
