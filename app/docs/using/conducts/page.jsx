@@ -130,7 +130,7 @@ export default function CodeOfConduct() {
             <h1 className="text-2xl font-bold text-[#2D1537] mb-4">
               Introductions
             </h1>
-            <p className="text-xl text-gray-600 mb-8">
+            <p className="text-lg text-gray-600 mb-8">
               Lupleg is a platform centered around empathetic conversation. We
               have a low tolerance for communication that makes anyone feel
               unwelcome, unsupported, insulted or discriminated against.
@@ -140,7 +140,7 @@ export default function CodeOfConduct() {
               Seen or experienced something uncomfortable?
             </h1>
 
-            <p className="text-xl text-gray-600 mb-8">
+            <p className="text-lg text-gray-600 mb-8">
               If you see or experience abuse, harassment, discrimination, or
               feel unsafe or upset,{" "}
               <a
@@ -156,7 +156,7 @@ export default function CodeOfConduct() {
               Enforcement
             </h1>
 
-            <p className="text-xl text-gray-600 mb-8">
+            <p className="text-lg text-gray-600 mb-8">
               We actively monitor for{" "}
               <a
                 className=" font-mono bg-[#2D1537] px-2 text-white"
