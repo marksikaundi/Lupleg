@@ -10,8 +10,11 @@
 
 ### FIX IN PROGRESS:
 
-    - CHALLENGES(Thumbnails)Ccover images
+    - CHALLENGES(Thumbnails)Cover images
     - CHALLENGES(Contents) Styling 
 
 ### FONTS
     - HEADINGS 20PX
+
+
+### DEFECTS(BUGS)
