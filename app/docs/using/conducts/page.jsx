@@ -158,7 +158,10 @@ export default function CodeOfConduct() {
 
             <p className="text-xl text-gray-600 mb-8">
               We actively monitor for{" "}
-              <a className=" font-mono bg-[#2D1537] px-2 text-white" href="">
+              <a
+                className=" font-mono bg-[#2D1537] px-2 text-white"
+                href="/docs/using/conducts"
+              >
                 Code of Conduct (CoC)
               </a>{" "}
               violations and take any reports of violations extremely seriously.
