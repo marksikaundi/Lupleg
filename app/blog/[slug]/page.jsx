@@ -23,7 +23,7 @@ function getPost(slug) {
 
         Recognizing these underlying causes is the first step in addressing procrastination effectively.
         
-        
+
         ## 1. Break Tasks Into Smaller, Manageable Steps
 
         One of the most effective ways to combat procrastination is by breaking tasks into smaller, more manageable pieces. When a task feels overwhelming or too complex, it can trigger the urge to delay it. However, breaking it down makes it feel more achievable and less intimidating.
@@ -34,15 +34,18 @@ function getPost(slug) {
 
         The "Two-Minute Rule" involves committing to work on a task for just two minutes. If you still feel like stopping after that time, you’re free to do so. Most of the time, starting is the hardest part, and once you begin, you’re likely to keep going.
 
+        
         ## 2. Set Clear, Specific Goals
 
         Setting clear, specific goals helps eliminate ambiguity and makes it easier to stay focused. Vague goals such as “get started on the project” often lead to procrastination because they don’t provide a clear action plan.
 
         Instead, set SMART goals—goals that are Specific, Measurable, Achievable, Relevant, and Time-bound. For instance, rather than saying “work on the presentation,” set a goal like “finish the introduction of the presentation by 3:00 PM.” This goal is clear and offers a concrete target to work toward.
 
+
         ## Tip: Use the Pomodoro Technique
 
         The Pomodoro Technique is a time management method that involves working for 25 minutes, followed by a 5-minute break. After completing four "Pomodoros," take a longer break. This technique helps maintain focus and provides regular breaks, reducing the likelihood of burnout.
+
 
         ## 3. Identify and Address Your Procrastination Triggers
 
@@ -54,13 +57,16 @@ function getPost(slug) {
         - Difficulty: If the task feels too hard, break it into smaller, simpler tasks, or ask for help if needed.
         - Distractions: If distractions like social media or your phone are tempting you, consider using apps like "Forest" or "Focus@Will" to help you stay focused.
 
+
         ## Tip: Use a Procrastination Journal
 
         A procrastination journal is a tool where you record the reasons you procrastinate and the thoughts or feelings that arise when you delay tasks. By tracking these patterns, you can uncover deeper issues (e.g., fear of failure or perfectionism) and address them more effectively.
 
+
         ## 4. Change Your Environment
         
         Your physical environment plays a significant role in your ability to stay focused and productive. If you’re working in a cluttered, noisy, or distracting environment, you may feel more inclined to procrastinate. Creating a space that promotes focus and productivity can reduce distractions and help you get into a flow state.
+
 
         ## Tip: Organize Your Workspace
         
@@ -68,15 +74,18 @@ function getPost(slug) {
 
         Additionally, consider changing locations if necessary. For example, if you usually work at home and find yourself distracted, try working in a library, café, or coworking space to change the atmosphere.
 
+
         ## 5. Use Positive Self-Talk
         
         Negative self-talk and self-criticism are common triggers for procrastination. When you tell yourself “I’m too lazy,” or “I’ll never finish this on time,” it creates a mental barrier that makes starting difficult. Instead, focus on positive self-talk that encourages action.
 
         For instance, instead of saying, “I can’t do this,” try saying, “This may be challenging, but I’ll take it step by step.” Positive affirmations can shift your mindset from one of avoidance to one of determination.
 
+
         ## Tip: Visualize Success
         
         Visualization is a powerful tool to overcome procrastination. Picture yourself completing the task successfully and experiencing the sense of achievement that comes with it. This mental exercise can motivate you to take the first step.
+
 
         ## 6. Create a Routine and Stick to It
         
@@ -84,15 +93,18 @@ function getPost(slug) {
 
         Start by setting a schedule that includes time for work, breaks, exercise, and relaxation. Stick to it as much as possible to build discipline and minimize decision fatigue.
 
+
         ## Tip: Set Daily Priorities
         
         Each day, identify the most important tasks to accomplish and focus on those first. This approach, known as "eating the frog," involves tackling the most challenging task at the beginning of the day, giving you a sense of accomplishment early on.
+
 
         ## 7. Reward Yourself for Completing Tasks
         
         Another effective way to combat procrastination is to reward yourself for completing tasks, big or small. By offering incentives, you create positive reinforcement that makes it more enjoyable to take action.
 
         Rewards don’t have to be extravagant. A small treat, a relaxing activity, or even a few minutes of social media time can be a great incentive to keep you motivated.
+
 
         ## Tip: Use the "Habit Stacking" Technique
         
