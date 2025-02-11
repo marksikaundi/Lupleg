@@ -53,7 +53,7 @@ const posts = [
       avatar: "/placeholder.svg",
     },
     date: "February 13, 2025",
-    slug: "kata-success-stories",
+    slug: "lupa-success-stories",
     category: "Career Insights",
   },
   {

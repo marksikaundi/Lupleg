@@ -278,8 +278,8 @@ function getPost(slug) {
       category: "Programming",
     },
     {
-      slug: "kata-success-stories",
-      title: "From Kata to Career: Success Stories",
+      slug: "lupa-success-stories",
+      title: "From Lupa to Career: Success Stories",
       content: `Meet developers who transformed their careers through consistent practice and dedication to coding challenges.
         
         ## Sarah's Journey
