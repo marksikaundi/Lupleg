@@ -43,16 +43,16 @@ const posts = [
   },
   {
     id: 3,
-    title: "From Kata to Career: Success Stories",
+    title: "From Lupa to Career: Success Stories",
     excerpt:
       "Meet developers who transformed their careers through consistent practice and dedication to coding challenges.",
     image:
-      "https://www.lupleg.org/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F7c679591-6991-4402-bc63-0ee97010fc6f-1g.png&w=640&q=75",
+      "/blogs/procrastination.png",
     author: {
       name: "Mark Sikaundi",
       avatar: "/placeholder.svg",
     },
-    date: "January 7, 2025",
+    date: "February 13, 2025",
     slug: "kata-success-stories",
     category: "Career Insights",
   },
