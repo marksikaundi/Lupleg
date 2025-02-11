@@ -133,8 +133,8 @@ function getPost(slug) {
       category: "Author's Corner",
     },
     {
-      slug: "mastering-javascript-kata",
-      title: "Mastering JavaScript: Advanced Kata Techniques",
+      slug: "30-days-code-challenge",
+      title: "How to Complete the 30 Days Code Challenge",
       content: `Deep dive into advanced JavaScript concepts through practical kata examples and expert solutions.
         
         ## Closures and Scope

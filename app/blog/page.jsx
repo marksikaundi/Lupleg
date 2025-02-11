@@ -30,7 +30,7 @@ const posts = [
     id: 2,
     title: "How to Complete the 30 Days Code Challenge",
     excerpt:
-      "Deep dive into advanced JavaScript concepts through practical kata examples and expert solutions.",
+      "One of the best ways to stay motivated and improve your coding skills is by participating in a coding challenge.",
     image:
       "/blogs/procrastination.png",
     author: {
@@ -38,7 +38,7 @@ const posts = [
       avatar: "/placeholder.svg",
     },
     date: "February 12, 2025",
-    slug: "mastering-javascript-kata",
+    slug: "30-days-code-challenge",
     category: "Programming",
   },
   {
