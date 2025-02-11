@@ -43,7 +43,7 @@ const posts = [
   },
   {
     id: 3,
-    title: "From Lupa to Career: Success Stories",
+    title: "Transformation Through Lupa Coding Practice",
     excerpt:
       "Meet developers who transformed their careers through consistent practice and dedication to coding challenges.",
     image:
