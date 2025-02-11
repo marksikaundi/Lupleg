@@ -274,7 +274,7 @@ function getPost(slug) {
         name: "Mark Sikaundi",
         avatar: "/placeholder.svg",
       },
-      date: "January 10, 2025",
+      date: "February 12, 2025",
       category: "Programming",
     },
     {
@@ -283,8 +283,10 @@ function getPost(slug) {
       content: `Meet developers who transformed their careers through consistent practice and dedication to coding challenges.
         In the ever-evolving tech industry, the path to success is often defined by one key factor: consistent practice. Mark Sikaundi's journey is a prime example of how dedication to coding challenges, specifically through the Lupa platform, can propel a developer from being a complete beginner to a senior developer in just three years
         
+
         ## From Beginner to Senior Developer: Mark's Story
 
+        
         Mark Sikaundi’s story is one of remarkable transformation. Like many developers, Mark’s journey started with uncertainty and self-doubt. When he first started coding, he had little knowledge of the concepts and logic that form the backbone of software development. Despite these initial hurdles, Mark had a strong belief in one thing: persistence.
 
 
@@ -366,7 +368,7 @@ function getPost(slug) {
         name: "Mark Sikaundi",
         avatar: "/placeholder.svg",
       },
-      date: "January 7, 2025",
+      date: "February 13, 2025",
       category: "Career Insights",
     },
     {
