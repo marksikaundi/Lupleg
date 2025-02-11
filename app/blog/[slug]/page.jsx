@@ -115,7 +115,7 @@ function getPost(slug) {
 
         ## Tip: Use the "Habit Stacking" Technique
 
-        
+
         
         Habit stacking involves attaching a new habit to an existing one. For example, after you finish a task, reward yourself with something you enjoy, like watching a favorite show. Over time, this reinforces the habit of working before indulging in rewards.
 
@@ -124,7 +124,7 @@ function getPost(slug) {
         Fighting the urge to procrastinate requires self-awareness, discipline, and a commitment to creating a productive environment. By breaking tasks into smaller steps, setting clear goals, identifying triggers, and using positive reinforcement, you can reduce procrastination and increase your productivity. Remember, overcoming procrastination is a gradual process, so be patient with yourself as you work to develop better habits. With the right mindset and strategies, you’ll be well on your way to achieving your goals without delay.
         `,
       image:
-        "https://www.lupleg.org/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F7c679591-6991-4402-bc63-0ee97010fc6f-1g.png&w=640&q=75",
+        "/blogs/procrastination.png",
       author: {
         name: "Mark Sikaundi",
         avatar: "/placeholder.svg",

@@ -17,7 +17,7 @@ const posts = [
     excerpt:
       " Procrastination is a common problem that affects many people. It can be difficult to overcome, but there are strategies you can use to help you stay focused and productive.",
     image:
-      "https://www.lupleg.org/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F7c679591-6991-4402-bc63-0ee97010fc6f-1g.png&w=640&q=75",
+      "/blogs/procrastination.png",
     author: {
       name: "Mark Sikaundi",
       avatar: "/placeholder.svg",
