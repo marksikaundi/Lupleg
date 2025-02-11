@@ -373,7 +373,7 @@ function getPost(slug) {
     },
     {
       slug: "python-best-practices",
-      title: "Python Best Practices: Lessons from Top Kata Solutions",
+      title: "Python Best Practices Lessons",
       content: `Learn Python best practices and clean coding techniques from the most elegant kata solutions.
         
         ## Pythonic Code

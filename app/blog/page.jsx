@@ -58,7 +58,7 @@ const posts = [
   },
   {
     id: 4,
-    title: "Python Best Practices: Lessons from Top Kata Solutions",
+    title: "Python Best Practices",
     excerpt:
       "Learn Python best practices and clean coding techniques from the most elegant kata solutions.",
     image:
