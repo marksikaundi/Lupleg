@@ -28,11 +28,11 @@ const posts = [
   },
   {
     id: 2,
-    title: "Mastering JavaScript: Advanced Kata Techniques",
+    title: "Mastering JavaScript: Advanced Techniques",
     excerpt:
       "Deep dive into advanced JavaScript concepts through practical kata examples and expert solutions.",
     image:
-      "https://10fc6f-1g.png&w=640&q=75",
+      "/blogs/procrastination.png",
     author: {
       name: "Mark Sikaundi",
       avatar: "/placeholder.svg",
