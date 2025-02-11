@@ -134,7 +134,7 @@ function getPost(slug) {
     },
     {
       slug: "30-days-code-challenge",
-      title: "How to Complete the 30 Days Code Challenge",
+      title: "Complete the 30 Days Code Challenge guide",
       content: `
       In the world of programming, consistent practice is key to mastering new languages, frameworks, and concepts. One of the best ways to stay motivated and improve your coding skills is by participating in a coding challenge. If you're looking to push yourself and build solid habits, the 30 Days Code Challenge is an excellent way to do just that. Whether you’re a beginner looking to learn the ropes or an experienced developer trying to hone specific skills, this challenge can help you achieve your goals.
 
@@ -265,7 +265,7 @@ function getPost(slug) {
 
       So, are you ready to take on the challenge? Start your 30-day coding journey today, and you might just surprise yourself with what you can accomplish!
 
-      
+
       By following this guide, you can complete the 30 Days Code Challenge successfully, boost your programming skills, and stay motivated along the way. Consistency is key, and remember that progress, no matter how small, is still progress. Happy coding!
       `,
       image:

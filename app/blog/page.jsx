@@ -28,7 +28,7 @@ const posts = [
   },
   {
     id: 2,
-    title: "How to Complete the 30 Days Code Challenge",
+    title: "Complete the 30 Days Code Challenge guide",
     excerpt:
       "One of the best ways to stay motivated and improve your coding skills is by participating in a coding challenge.",
     image:
