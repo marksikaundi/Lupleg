@@ -282,15 +282,15 @@ function getPost(slug) {
       title: "From Lupa to Career: Success Stories",
       content: `Meet developers who transformed their careers through consistent practice and dedication to coding challenges.
         
-        ## Sarah's Journey
+        ## Mark's Journey
         
-        Sarah went from a complete beginner to a senior developer in just three years. She credits her success to daily kata practice.
+        Sarah went from a complete beginner to a senior developer in just three years. He's credits made success to daily Lupa practice.
         
         ## The Power of Persistence
         
-        John's story shows how tackling increasingly difficult kata can lead to breakthroughs in problem-solving skills.
+        John's story shows how tackling increasingly difficult lupa can lead to breakthroughs in problem-solving skills.
         
-        ## Kata in the Workplace
+        ## Lupa in the Workplace
         
         Many developers report that skills honed through kata directly translate to improved performance in their jobs.`,
       image:
