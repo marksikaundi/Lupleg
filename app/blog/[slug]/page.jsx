@@ -164,10 +164,21 @@ function getPost(slug) {
 
       ## Choose the Right Language or Framework
 
-      
+
       Decide whether you want to stick with a language you're familiar with or if you want to learn something new. For beginners, starting with a language like Python or JavaScript is ideal, as they are both versatile and widely used. For advanced developers, the challenge can be an opportunity to master more niche technologies, such as machine learning, React.js, or backend frameworks.
 
 
+      ## Break Down the 30 Days
+
+      Instead of simply coding for an hour each day, break down your challenge into manageable chunks. Here’s an example structure:
+
+      Week 1: Learn basic syntax and data structures.
+
+      Week 2: Work on coding challenges (e.g., LeetCode, HackerRank).
+
+      Week 3: Start a small project related to your chosen language or technology.
+      
+      Week 4: Polish your project and tackle more advanced coding problems.
 
       `,
       image:
