@@ -23,4 +23,4 @@
 
 ### DONE
 
-    - 
+    - GENERAL FIXED OF THE LAYOUTS IS FIXED
