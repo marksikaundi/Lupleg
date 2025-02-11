@@ -34,7 +34,7 @@ function getPost(slug) {
 
         The "Two-Minute Rule" involves committing to work on a task for just two minutes. If you still feel like stopping after that time, you’re free to do so. Most of the time, starting is the hardest part, and once you begin, you’re likely to keep going.
 
-        
+
         ## 2. Set Clear, Specific Goals
 
         Setting clear, specific goals helps eliminate ambiguity and makes it easier to stay focused. Vague goals such as “get started on the project” often lead to procrastination because they don’t provide a clear action plan.
@@ -64,11 +64,13 @@ function getPost(slug) {
 
 
         ## 4. Change Your Environment
+
         
         Your physical environment plays a significant role in your ability to stay focused and productive. If you’re working in a cluttered, noisy, or distracting environment, you may feel more inclined to procrastinate. Creating a space that promotes focus and productivity can reduce distractions and help you get into a flow state.
 
 
         ## Tip: Organize Your Workspace
+
         
         Clear your workspace of distractions and keep it organized. A tidy and dedicated workspace signals to your brain that it’s time to work. Try to make your workspace comfortable and inspiring, whether through natural light, plants, or motivational quotes.
 
@@ -76,6 +78,7 @@ function getPost(slug) {
 
 
         ## 5. Use Positive Self-Talk
+
         
         Negative self-talk and self-criticism are common triggers for procrastination. When you tell yourself “I’m too lazy,” or “I’ll never finish this on time,” it creates a mental barrier that makes starting difficult. Instead, focus on positive self-talk that encourages action.
 
@@ -83,11 +86,13 @@ function getPost(slug) {
 
 
         ## Tip: Visualize Success
+
         
         Visualization is a powerful tool to overcome procrastination. Picture yourself completing the task successfully and experiencing the sense of achievement that comes with it. This mental exercise can motivate you to take the first step.
 
 
         ## 6. Create a Routine and Stick to It
+
         
         Developing a consistent daily routine can help you form productive habits and reduce the temptation to procrastinate. Routines provide structure and make it easier to stay focused on your goals.
 
@@ -95,11 +100,13 @@ function getPost(slug) {
 
 
         ## Tip: Set Daily Priorities
+
         
         Each day, identify the most important tasks to accomplish and focus on those first. This approach, known as "eating the frog," involves tackling the most challenging task at the beginning of the day, giving you a sense of accomplishment early on.
 
 
         ## 7. Reward Yourself for Completing Tasks
+
         
         Another effective way to combat procrastination is to reward yourself for completing tasks, big or small. By offering incentives, you create positive reinforcement that makes it more enjoyable to take action.
 
@@ -107,6 +114,8 @@ function getPost(slug) {
 
 
         ## Tip: Use the "Habit Stacking" Technique
+
+        
         
         Habit stacking involves attaching a new habit to an existing one. For example, after you finish a task, reward yourself with something you enjoy, like watching a favorite show. Over time, this reinforces the habit of working before indulging in rewards.
 
