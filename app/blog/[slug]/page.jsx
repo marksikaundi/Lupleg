@@ -284,7 +284,7 @@ function getPost(slug) {
         
         ## Mark's Journey
         
-        Sarah went from a complete beginner to a senior developer in just three years. He's credits made success to daily Lupa practice.
+        Sarah went from a complete beginner to a senior developer in just three years. He's credits made him success to daily Lupa practice.
         
         ## The Power of Persistence
         
@@ -292,7 +292,7 @@ function getPost(slug) {
         
         ## Lupa in the Workplace
         
-        Many developers report that skills honed through kata directly translate to improved performance in their jobs.`,
+        Many developers report that skills honed through lupa directly translate to improved performance in their jobs.`,
       image:
         "https://www.lupleg.org/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F7c679591-6991-4402-bc63-0ee97010fc6f-1g.png&w=640&q=75",
       author: {
