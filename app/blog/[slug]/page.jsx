@@ -32,12 +32,37 @@ function getPost(slug) {
 
         The "Two-Minute Rule" involves committing to work on a task for just two minutes. If you still feel like stopping after that time, you’re free to do so. Most of the time, starting is the hardest part, and once you begin, you’re likely to keep going.
 
+        ## 2. Set Clear, Specific Goals
 
+        Setting clear, specific goals helps eliminate ambiguity and makes it easier to stay focused. Vague goals such as “get started on the project” often lead to procrastination because they don’t provide a clear action plan.
 
+        Instead, set SMART goals—goals that are Specific, Measurable, Achievable, Relevant, and Time-bound. For instance, rather than saying “work on the presentation,” set a goal like “finish the introduction of the presentation by 3:00 PM.” This goal is clear and offers a concrete target to work toward.
 
+        ## Tip: Use the Pomodoro Technique
 
+        The Pomodoro Technique is a time management method that involves working for 25 minutes, followed by a 5-minute break. After completing four "Pomodoros," take a longer break. This technique helps maintain focus and provides regular breaks, reducing the likelihood of burnout.
 
+        ## 3. Identify and Address Your Procrastination Triggers
+
+        To effectively fight procrastination, it's crucial to identify what triggers it. Are you procrastinating because you're bored? Is the task too difficult or uninteresting? Are you distracted by social media or other distractions? Once you identify your triggers, you can take steps to address them.
+
+        For example:
+
+        - Boredom: If you're putting off a task because it's boring, try to make it more engaging by connecting it to something you enjoy or by rewarding yourself for completing parts of it.
+        - Difficulty: If the task feels too hard, break it into smaller, simpler tasks, or ask for help if needed.
+        - Distractions: If distractions like social media or your phone are tempting you, consider using apps like "Forest" or "Focus@Will" to help you stay focused.
+
+        ## Tip: Use a Procrastination Journal
         
+        A procrastination journal is a tool where you record the reasons you procrastinate and the thoughts or feelings that arise when you delay tasks. By tracking these patterns, you can uncover deeper issues (e.g., fear of failure or perfectionism) and address them more effectively.
+
+
+
+
+
+
+
+
 
 
         `,
