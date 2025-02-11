@@ -28,7 +28,7 @@ const posts = [
   },
   {
     id: 2,
-    title: "Mastering JavaScript: Advanced Techniques",
+    title: "How to Complete the 30 Days Code Challenge",
     excerpt:
       "Deep dive into advanced JavaScript concepts through practical kata examples and expert solutions.",
     image:
