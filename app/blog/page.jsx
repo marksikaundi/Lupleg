@@ -2,7 +2,7 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
 import Link from "next/link";
-import { FaUserCircle } from "react-icons/fa";
+
 
 const categories = [
   { name: "Author's Corner", slug: "authors-corner" },
