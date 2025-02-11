@@ -5,7 +5,7 @@ export function NotificationBanner() {
   return (
     <div className="bg-teal-50 p-4 rounded-lg mb-8 relative">
       <div className="flex items-start gap-4">
-        <div className="h-10 w-10 bg-teal-500 rounded-lg flex items-center justify-center text-white">🎯</div>
+        <div className="h-10 w-10 bg-[#2D1537] rounded-lg flex items-center justify-center text-white">🎯</div>
         <div>
           <Link
             href="/practice"

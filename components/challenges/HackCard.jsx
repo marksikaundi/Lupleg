@@ -33,7 +33,7 @@ export function HackCard({
               <p className={urgent ? "text-red-500 font-medium" : "text-gray-600"}>{timeLeft}</p>
             </div>
             <div className="flex flex-col items-start gap-4">
-              <p className="text-2xl font-bold text-teal-500">{prize}</p>
+              <p className="text-2xl font-bold text-[#2D1537]">{prize}</p>
               <Button variant="default" className="bg-[#2D1537] hover:bg-[#2D1537] ">
                 Join
               </Button>

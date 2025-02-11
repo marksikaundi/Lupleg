@@ -111,14 +111,14 @@ export default function CodeOfConduct() {
         {/* Main Content */}
         <main className="flex-1 p-8">
           <div className="max-w-4xl">
-            <h1 className="text-4xl font-bold text-purple-900 mb-4">
+            <h1 className="text-4xl font-bold text-[#2D1537] mb-4">
               Code of Conduct
             </h1>
             <p className="text-xl text-gray-600 mb-8"></p>
 
             {/* Decorative Wave */}
             <div className="mb-8">
-              <svg className="text-purple-600" viewBox="0 0 100 20" width="100">
+              <svg className="text-[#2D1537]" viewBox="0 0 100 20" width="100">
                 <path
                   d="M0 10 Q25 20 50 10 T100 10"
                   fill="none"
@@ -127,33 +127,45 @@ export default function CodeOfConduct() {
                 />
               </svg>
             </div>
-            <h1 className="text-2xl font-bold text-purple-900 mb-4">
+            <h1 className="text-2xl font-bold text-[#2D1537] mb-4">
               Introductions
             </h1>
-            <p className="text-xl text-gray-600 mb-8">
+            <p className="text-lg text-gray-600 mb-8">
               Lupleg is a platform centered around empathetic conversation. We
               have a low tolerance for communication that makes anyone feel
               unwelcome, unsupported, insulted or discriminated against.
             </p>
 
-            <h1 className="text-2xl font-bold text-purple-900 mb-4">
+            <h1 className="text-2xl font-bold text-[#2D1537] mb-4">
               Seen or experienced something uncomfortable?
             </h1>
 
-            <p className="text-xl text-gray-600 mb-8">
+            <p className="text-lg text-gray-600 mb-8">
               If you see or experience abuse, harassment, discrimination, or
-              feel unsafe or upset, please email abuse@lupleg.org. We will take
-              your report seriously.
+              feel unsafe or upset,{" "}
+              <a
+                className=" font-mono bg-[#2D1537] px-2 text-white"
+                href="mailto:abuse@lupleg.org"
+              >
+                please email us
+              </a>
+              . We will take your report seriously.
             </p>
 
-            <h1 className="text-2xl font-bold text-purple-900 mb-4">
+            <h1 className="text-2xl font-bold text-[#2D1537] mb-4">
               Enforcement
             </h1>
 
-            <p className="text-xl text-gray-600 mb-8">
-              We actively monitor for Code of Conduct (CoC) violations and take
-              any reports of violations extremely seriously. We have banned
-              contributors, mentors and users due to violations.
+            <p className="text-lg text-gray-600 mb-8">
+              We actively monitor for{" "}
+              <a
+                className=" font-mono bg-[#2D1537] px-2 text-white"
+                href="/docs/using/conducts"
+              >
+                Code of Conduct (CoC)
+              </a>{" "}
+              violations and take any reports of violations extremely seriously.
+              We have banned contributors, mentors and users due to violations.
               <br />
               After we receive a report of a CoC violation, we view that
               person's conversation history on Lupleg and related communication

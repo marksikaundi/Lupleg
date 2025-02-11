@@ -135,16 +135,16 @@ export default function Abuse() {
               <br />
               Please reach out to us and we will try to fix or resolve the issue
               respecting both you and your privacy. The best way to contact us
-              is to email us at abuse@lupleg.org.
+              is through <a className=" font-mono bg-[#2D1537] px-2 text-white" href="mailto:abuse@lupleg.org">Our Email </a>
               <br />
               In addition to reporting abuse community members are welcome to
               refer users to the{" "}
               <Link
-                className="text-xl font-bold text-[#2D1537]"
+                className="text-md font-mono bg-[#2D1537] px-2 text-white"
                 href="/docs/using/conducts"
               >
                 Code of Conduct
-              </Link>{" "}
+              </Link>
               if they feel safe doing so. Keep in mind that this type of action
               is meant to resolve issues. As such, it is better to pose it as a
               question, eg. "Do you feel like that comment is aligned to
@@ -152,7 +152,7 @@ export default function Abuse() {
             </p>
 
             <h2 className="text-2xl font-bold text-[#2D1537] mb-4">
-              What to include in your report of abuse or harassment on Lupleg
+              What to include in your report of abuse or harassment
             </h2>
             <p className="text-gray-700 mb-8">
               When reporting abuse or harassment, please include the following
