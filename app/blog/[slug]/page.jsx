@@ -135,99 +135,41 @@ function getPost(slug) {
     {
       slug: "30-days-code-challenge",
       title: "How to Complete the 30 Days Code Challenge",
-      content: `Deep dive into advanced JavaScript concepts through practical kata examples and expert solutions.
-        
-        ## Closures and Scope
+      content: `
+      In the world of programming, consistent practice is key to mastering new languages, frameworks, and concepts. One of the best ways to stay motivated and improve your coding skills is by participating in a coding challenge. If you're looking to push yourself and build solid habits, the 30 Days Code Challenge is an excellent way to do just that. Whether you’re a beginner looking to learn the ropes or an experienced developer trying to hone specific skills, this challenge can help you achieve your goals.
 
-Understanding closures is crucial for mastering JavaScript. A closure is formed when a function retains access to variables in its outer (enclosing) lexical scope, even after the outer function has returned. This powerful feature enables data privacy and state preservation in JavaScript applications.
+      In this article, we'll walk you through how to complete the 30 Days Code Challenge, with tips for success, planning strategies, and common obstacles to avoid. Let’s dive in!
 
-Closures are particularly useful for creating private variables and implementing the module pattern. For example, consider a counter function:
-
- <pre class="font-mono text-sm text-gray-800 bg-red-800">
-       
-        
-            function createCounter() {
-                let count = 0;
-                return {
-                    increment: () => ++count,
-                    getCount: () => count
-                };
-            }
-
-            const counter = createCounter();
-            console.log(counter.increment()); // 1
-            console.log(counter.increment()); // 2
-            console.log(counter.getCount()); // 2
-        
-    </pre>
-
-Here, the count variable remains private and can only be accessed through the returned methods, demonstrating encapsulation through closures.
-
-## Functional Programming
-
-Functional programming techniques can lead to cleaner, more maintainable code. JavaScript's support for first-class functions and higher-order functions makes it well-suited for functional programming paradigms. Key concepts include:
-
-- Pure functions: Functions that always produce the same output for the same input and have no side effects
-- Immutability: Working with unchangeable data to prevent bugs and improve predictability
-- Higher-order functions: Functions that take other functions as arguments or return functions
-- Function composition: Building complex functions by combining simpler ones
-
-Common functional programming methods in JavaScript include map, reduce, and filter. These methods promote declarative programming and help avoid mutation of state:
-
-<pre>
-<code>
-
-const numbers = [1, 2, 3, 4, 5];
-const doubled = numbers.map(n => n * 2);
-const sum = numbers.reduce((acc, curr) => acc + curr, 0);
-
-const evenNumbers = numbers.filter(n => n % 2 === 0);
- 
-</code>
-</pre>
+      ## What is the 30 Days Code Challenge?
 
 
-## Asynchronous JavaScript
+      The 30 Days Code Challenge is a self-guided challenge where participants commit to coding every day for 30 consecutive days. The challenge is designed to help programmers at all levels build consistency, learn new skills, and complete small coding projects or exercises daily.
 
-Promises and async/await have revolutionized how we handle asynchronous operations in JavaScript. Promises provide a cleaner alternative to callback-based approaches, while async/await offers an even more intuitive way to work with asynchronous code.
 
-Promises have three states:
-- Pending: Initial state, neither fulfilled nor rejected
-- Fulfilled: Operation completed successfully
-- Rejected: Operation failed
+      The format of the challenge is flexible. You can focus on learning a new programming language, mastering algorithms, building small projects, or tackling coding exercises. The goal isn’t just to code every day—it’s to build a routine that helps you grow as a developer, one day at a time.
 
-Example using async/await:
 
-<pre>
-<code>
+      Many developers use this challenge to improve their productivity, learn new technologies, and become more disciplined. It’s a popular way to build a stronger coding habit and can be adapted to fit various learning styles and goals. Whether you're working on problem-solving, web development, or data science, you can tailor the challenge to your needs.
 
-async function fetchUserData() {
-    try {
-        const response = await fetch('api/users');
-        const data = await response.json();
-        return data;
-    } catch (error) {
-        console.error('Error fetching user data:', error);
-    }
-}
 
-fetchUserData().then(data => console.log(data));
+      ## How to Plan for the 30 Days Code Challenge
 
-</code>
-</pre>
+      One of the most important aspects of completing the 30 Days Code Challenge successfully is having a solid plan. If you dive in without a clear roadmap, it’s easy to get lost, frustrated, or overwhelmed. Here's how you can plan your 30-day journey:
+
+      ## Set Clear Goals
+
+
+      Begin by identifying what you want to achieve by the end of the 30 days. Are you focusing on a specific programming language, mastering algorithms, or building a particular project? Setting specific, measurable goals will help you stay motivated and track your progress.
+
+
+      ## Choose the Right Language or Framework
+
+      
+      Decide whether you want to stick with a language you're familiar with or if you want to learn something new. For beginners, starting with a language like Python or JavaScript is ideal, as they are both versatile and widely used. For advanced developers, the challenge can be an opportunity to master more niche technologies, such as machine learning, React.js, or backend frameworks.
 
 
 
-Error handling becomes more straightforward with try/catch blocks, and the code reads more like synchronous operations.
-
-## Conclusion
-
-By mastering these advanced JavaScript concepts through kata practice, you'll become a more confident and capable developer. Regular practice with closures helps understand scope and data privacy, while functional programming exercises improve code organization and maintainability. Working with asynchronous JavaScript challenges prepares you for real-world scenarios involving API calls and other async operations.
-
-Remember that these concepts are interconnected – closures often appear in functional programming patterns, and async functions frequently use closures behind the scenes. Continuous practice and application of these concepts in different contexts will strengthen your JavaScript expertise and make you a more effective programmer.
-
-As you continue your journey, focus on understanding not just how to use these features, but also why and when to apply them in your projects. This deeper understanding will help you write more elegant and efficient JavaScript code.
-        `,
+      `,
       image:
         "https://www.lupleg.org/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F7c679591-6991-4402-bc63-0ee97010fc6f-1g.png&w=640&q=75",
       author: {
