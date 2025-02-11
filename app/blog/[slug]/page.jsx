@@ -177,12 +177,16 @@ function getPost(slug) {
       Week 2: Work on coding challenges (e.g., LeetCode, HackerRank).
 
       Week 3: Start a small project related to your chosen language or technology.
-      
+
       Week 4: Polish your project and tackle more advanced coding problems.
+
+
+
+      
 
       `,
       image:
-        "https://www.lupleg.org/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F7c679591-6991-4402-bc63-0ee97010fc6f-1g.png&w=640&q=75",
+        "/blogs/procrastination.png",
       author: {
         name: "Mark Sikaundi",
         avatar: "/placeholder.svg",
