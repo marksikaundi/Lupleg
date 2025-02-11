@@ -32,7 +32,7 @@ const posts = [
     excerpt:
       "One of the best ways to stay motivated and improve your coding skills is by participating in a coding challenge.",
     image:
-      "/blogs/procrastination.png",
+      "/blogs/code.jpg",
     author: {
       name: "Mark Sikaundi",
       avatar: "/placeholder.svg",

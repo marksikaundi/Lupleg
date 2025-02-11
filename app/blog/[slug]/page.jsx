@@ -269,7 +269,7 @@ function getPost(slug) {
       By following this guide, you can complete the 30 Days Code Challenge successfully, boost your programming skills, and stay motivated along the way. Consistency is key, and remember that progress, no matter how small, is still progress. Happy coding!
       `,
       image:
-        "/blogs/procrastination.png",
+        "/blogs/code.jpg",
       author: {
         name: "Mark Sikaundi",
         avatar: "/placeholder.svg",
