@@ -363,7 +363,7 @@ function getPost(slug) {
         For developers looking to improve their coding skills and advance in their careers, Lupa offers a structured, supportive platform that can help them achieve their goals. Just like Mark, anyone who commits to daily practice can experience their own breakthrough in the world of programming.
       `,
       image:
-        "/blogs/procrastination.png",
+        "/blogs/mark.png",
       author: {
         name: "Mark Sikaundi",
         avatar: "/placeholder.svg",

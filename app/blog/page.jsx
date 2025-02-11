@@ -47,7 +47,7 @@ const posts = [
     excerpt:
       "Meet developers who transformed their careers through consistent practice and dedication to coding challenges.",
     image:
-      "/blogs/procrastination.png",
+      "/blogs/mark.png",
     author: {
       name: "Mark Sikaundi",
       avatar: "/placeholder.svg",
