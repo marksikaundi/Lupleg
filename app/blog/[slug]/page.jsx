@@ -274,7 +274,7 @@ function getPost(slug) {
         name: "Mark Sikaundi",
         avatar: "/placeholder.svg",
       },
-      date: "January 10, 2025",
+      date: "February 12, 2025",
       category: "Programming",
     },
     {
@@ -366,7 +366,7 @@ function getPost(slug) {
         name: "Mark Sikaundi",
         avatar: "/placeholder.svg",
       },
-      date: "January 7, 2025",
+      date: "February 13, 2025",
       category: "Career Insights",
     },
     {
