@@ -699,7 +699,7 @@ Building a developer portfolio with Lupleg is an excellent way to showcase your 
         
         `,
       image:
-        "https://www.lupleg.org/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F7c679591-6991-4402-bc63-0ee97010fc6f-1g.png&w=640&q=75",
+        "/blogs/portfolio.png",
       author: {
         name: "Mark Sikaundi",
         avatar: "/placeholder.svg",

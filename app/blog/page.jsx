@@ -77,7 +77,7 @@ const posts = [
     excerpt:
       "How to leverage your kata solutions and achievements to create a compelling developer portfolio.",
     image:
-      "https://www.lupleg.org/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F7c679591-6991-4402-bc63-0ee97010fc6f-1g.png&w=640&q=75",
+      "/blogs/portfolio.png",
     author: {
       name: "Mark Sikaundi",
       avatar: "/placeholder.svg",
