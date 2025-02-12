@@ -9,7 +9,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Driving Innovation for a Sustainable Future",
+  title: "Innovation for a Sustainable Future - Mark Sikaundi",
   description:
     "Join us in shaping the future of technology! Our developer community empowers individuals with the skills, resources, and support needed to tackle challenges, drive innovation, and build a more sustainable future.",
 };

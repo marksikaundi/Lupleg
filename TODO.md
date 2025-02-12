@@ -23,4 +23,4 @@
 
 ### DONE
 
-    - Code of Conduct(DOCS)
+    - GENERAL FIXED OF THE LAYOUTS IS FIXED

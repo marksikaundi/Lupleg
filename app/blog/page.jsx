@@ -2,7 +2,7 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
 import Link from "next/link";
-import { FaUserCircle } from "react-icons/fa";
+
 
 const categories = [
   { name: "Author's Corner", slug: "authors-corner" },
@@ -17,88 +17,88 @@ const posts = [
     excerpt:
       " Procrastination is a common problem that affects many people. It can be difficult to overcome, but there are strategies you can use to help you stay focused and productive.",
     image:
-      "https://www.lupleg.org/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F7c679591-6991-4402-bc63-0ee97010fc6f-1g.png&w=640&q=75",
+      "/blogs/procrastination.png",
     author: {
       name: "Mark Sikaundi",
       avatar: "/placeholder.svg",
     },
-    date: "January 30, 2025",
+    date: "February 11, 2025",
     slug: "how-do-you-fight-the-urge-to-procrastinate",
     category: "Author's Corner",
   },
   {
     id: 2,
-    title: "Mastering JavaScript: Advanced Kata Techniques",
+    title: "Complete the 30 Days Code Challenge guide",
     excerpt:
-      "Deep dive into advanced JavaScript concepts through practical kata examples and expert solutions.",
+      "One of the best ways to stay motivated and improve your coding skills is by participating in a coding challenge.",
     image:
-      "https://www.lupleg.org/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F7c679591-6991-4402-bc63-0ee97010fc6f-1g.png&w=640&q=75",
+      "/blogs/code.jpg",
     author: {
       name: "Mark Sikaundi",
       avatar: "/placeholder.svg",
     },
-    date: "February 01, 2025",
-    slug: "mastering-javascript-kata",
+    date: "February 12, 2025",
+    slug: "30-days-code-challenge",
     category: "Programming",
   },
   {
     id: 3,
-    title: "From Kata to Career: Success Stories",
+    title: "Transformation Through Lupa Coding Practice",
     excerpt:
       "Meet developers who transformed their careers through consistent practice and dedication to coding challenges.",
     image:
-      "https://www.lupleg.org/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F7c679591-6991-4402-bc63-0ee97010fc6f-1g.png&w=640&q=75",
+      "/blogs/mark.png",
     author: {
       name: "Mark Sikaundi",
       avatar: "/placeholder.svg",
     },
-    date: "January 7, 2025",
-    slug: "kata-success-stories",
+    date: "February 13, 2025",
+    slug: "lupa-success-stories",
     category: "Career Insights",
   },
   {
     id: 4,
-    title: "Python Best Practices: Lessons from Top Kata Solutions",
+    title: "Best Practices for Writing Clean",
     excerpt:
-      "Learn Python best practices and clean coding techniques from the most elegant kata solutions.",
+      "Explore key Python best practices that will help you write clean, effective code that is easy to maintain and understand.",
     image:
-      "https://www.lupleg.org/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F7c679591-6991-4402-bc63-0ee97010fc6f-1g.png&w=640&q=75",
+      "/blogs/python.png",
     author: {
       name: "Mark Sikaundi",
       avatar: "/placeholder.svg",
     },
-    date: "January 5, 2025",
-    slug: "python-best-practices",
+    date: "February 14, 2025",
+    slug: "clean-code-best-practices",
     category: "Programming",
   },
   {
     id: 5,
-    title: "Building Your Developer Portfolio with Codewars",
+    title: "Building Your Developer Portfolio with Lupleg",
     excerpt:
-      "How to leverage your kata solutions and achievements to create a compelling developer portfolio.",
+      "How to leverage your Lupa solutions and achievements to create a compelling developer portfolio.",
     image:
-      "https://www.lupleg.org/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F7c679591-6991-4402-bc63-0ee97010fc6f-1g.png&w=640&q=75",
+      "/blogs/portfolio.png",
     author: {
       name: "Mark Sikaundi",
       avatar: "/placeholder.svg",
     },
-    date: "January 3, 2025",
+    date: "February 15, 2025",
     slug: "portfolio-building",
     category: "Career Insights",
   },
   {
     id: 6,
-    title: "The Art of Creating Kata: A Guide for Authors",
+    title: "The Art of Creating Lupa: A Guide for Authors",
     excerpt:
-      "Expert tips and guidelines for creating challenging and educational kata that engage the community.",
+      "Expert tips and guidelines for creating challenging and educational Lupa that engage the community.",
     image:
-      "https://www.lupleg.org/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F7c679591-6991-4402-bc63-0ee97010fc6f-1g.png&w=640&q=75",
+      "/blogs/ll.png",
     author: {
       name: "Mark Sikaundi",
       avatar: "/placeholder.svg",
     },
-    date: "January 1, 2025",
-    slug: "creating-kata-guide",
+    date: "ebruary 16, 2025",
+    slug: "creating-lupa-guide",
     category: "Author's Corner",
   },
 ];
