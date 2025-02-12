@@ -75,7 +75,7 @@ const posts = [
     id: 5,
     title: "Building Your Developer Portfolio with Lupleg",
     excerpt:
-      "How to leverage your kata solutions and achievements to create a compelling developer portfolio.",
+      "How to leverage your Lupa solutions and achievements to create a compelling developer portfolio.",
     image:
       "/blogs/portfolio.png",
     author: {
