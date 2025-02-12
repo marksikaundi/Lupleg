@@ -144,7 +144,7 @@ export default function CheckResource() {
                 href={option.exploreLink}
                 className="text-sm font-semibold text-primary hover:underline"
               >
-                {option.exploreLink} →
+                Explore →
               </Link>
             </CardFooter>
           </Card>
