@@ -92,7 +92,7 @@ const posts = [
     excerpt:
       "Expert tips and guidelines for creating challenging and educational Lupa that engage the community.",
     image:
-      "https://www.lupleg.org/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F7c679591-6991-4402-bc63-0ee97010fc6f-1g.png&w=640&q=75",
+      "/blogs/ll.png",
     author: {
       name: "Mark Sikaundi",
       avatar: "/placeholder.svg",
