@@ -12,6 +12,7 @@
 
     - CHALLENGES(Thumbnails)Cover images
     - CHALLENGES(Contents) Styling 
+    - Lupleg Resources(Links)
 
 
 ### DEFECTS(BUGS)
