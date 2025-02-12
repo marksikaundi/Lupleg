@@ -588,7 +588,6 @@ Now that we know why Lupleg is a great platform for creating a developer portfol
 To begin building your developer portfolio with Lupleg, the first step is to sign up for an account. Visit the Lupleg website and create an account using your email address or social media accounts. The registration process is simple and quick. Once logged in, you’ll be taken to the Lupleg dashboard, where you can start building your portfolio from scratch.
 
 
-
 ## 2. Select a Template
 
 
