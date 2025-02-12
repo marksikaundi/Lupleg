@@ -547,14 +547,12 @@ function getPost(slug) {
 In this article, we’ll explore how to build a developer portfolio using Lupleg, highlighting its features, benefits, and how you can leverage it to stand out in the competitive job market.
 
 
-
 ## What is Lupleg?
 
 Lupleg is a modern, user-friendly platform designed to help developers create professional portfolios without needing advanced design or coding skills. It’s built to support the growing needs of developers by providing easy-to-use templates, integration with GitHub repositories, and tools to highlight your projects, blogs, and more.
 
 
 Lupleg is tailored specifically for developers, making it an ideal choice for those looking to showcase their skills, past projects, and contributions in the tech world. By offering customizations and allowing developers to focus on what matters the most — the work itself — Lupleg ensures that your portfolio stands out without unnecessary distractions.
-
 
 
 ## Why Choose Lupleg for Your Developer Portfolio?
@@ -564,7 +562,6 @@ Before diving into how to build your portfolio, it’s essential to understand w
 
 
 Ease of Use: Lupleg provides a user-friendly interface that allows developers to create and customize their portfolios quickly. No need to spend hours learning complex tools — Lupleg streamlines the process so you can focus on showcasing your work.
-
 
 
 GitHub Integration: Lupleg easily integrates with GitHub, which is one of the most widely used platforms for developers. This allows you to import your repositories, showcase your code directly, and demonstrate your active contributions to open-source projects.
@@ -585,12 +582,10 @@ Focus on Projects: Lupleg prioritizes project showcasing, which is the core of a
 Now that we know why Lupleg is a great platform for creating a developer portfolio, let’s dive into the steps to get started.
 
 
-
 ## 1. Sign Up and Get Started
 
 
 To begin building your developer portfolio with Lupleg, the first step is to sign up for an account. Visit the Lupleg website and create an account using your email address or social media accounts. The registration process is simple and quick. Once logged in, you’ll be taken to the Lupleg dashboard, where you can start building your portfolio from scratch.
-
 
 
 ## 2. Select a Template
@@ -599,9 +594,7 @@ To begin building your developer portfolio with Lupleg, the first step is to sig
 Lupleg offers a wide range of templates designed specifically for developers. These templates are modern, sleek, and customizable to meet your personal preferences. Browse through the available options, and select the one that best suits the kind of developer you are.
 
 
-
 If you prefer a minimalistic design that focuses entirely on your projects, choose a clean template. If you want something more dynamic, you can opt for templates that offer interactive elements. With Lupleg, you can preview each template before making a final decision.
-
 
 
 ## 3. Customize Your Portfolio
@@ -658,16 +651,13 @@ Tools and Technologies: Include tools like Docker, AWS, Git, etc.
 It’s important to be specific and up-to-date with your skills, as this will give recruiters a clear picture of your technical strengths.
 
 
-
 ## 6. Add a Blog (Optional)
 
 
 Adding a blog section is a great way to demonstrate your thought leadership, knowledge, and communication skills. You can write about technical topics, challenges you’ve faced, new technologies you’re exploring, or tutorials for other developers. A blog gives potential employers a better sense of who you are as a developer and shows your ability to share knowledge with the community.
 
 
-
 Lupleg makes it easy to integrate your blog posts within your portfolio, adding even more value and content to your profile.
-
 
 
 ## 7. Create an Engaging About Me Section
@@ -717,28 +707,148 @@ Building a developer portfolio with Lupleg is an excellent way to showcase your 
       category: "Career Insights",
     },
     {
-      slug: "creating-kata-guide",
-      title: "The Art of Creating Kata: A Guide for Authors",
-      content: `Expert tips and guidelines for creating challenging and educational kata that engage the community.
-        
-        ## Choosing the Right Difficulty
-        
-        We'll explore how to gauge the appropriate difficulty level for your kata to ensure it's both challenging and accessible.
-        
-        ## Writing Clear Instructions
-        
-        Learn the art of writing concise yet comprehensive instructions for your kata.
-        
-        ## Crafting Test Cases
-        
-        Discover how to create robust test cases that cover edge cases and provide meaningful feedback to users.`,
+      slug: "creating-lupa-guide",
+      title: "The Art of Creating Lupa: A Guide for Authors",
+      content: `
+      Creating Lupa—coding challenges on the Lupleg learning platform—offers a unique opportunity to engage and educate a community of learners. Whether you are an experienced problem setter or a newcomer to the platform, it's important to craft challenges that are both educational and engaging. This article will provide expert advice on how to create effective and challenging Lupa that not only help users grow their coding skills but also encourage active participation within the community.
+
+      
+1. Choosing the Right Difficulty
+One of the most important factors in crafting a successful Lupa is choosing the right difficulty. If the challenge is too easy, it may not provide enough value, leaving participants feeling unaccomplished. On the other hand, if it is too difficult, it may overwhelm users and lead to frustration. Striking the right balance is crucial for engagement and educational value.
+
+## Consider the Skill Level of Your Audience
+
+The first step in choosing an appropriate difficulty level is understanding the skill level of your target audience. On Lupleg, there is a broad range of participants, from beginners to advanced coders. A challenge that is too complex for a beginner can lead to discouragement, while a challenge that is too simple for an advanced coder may fail to stimulate them.
+
+Beginner Challenges: For novice coders, it's best to start with simple problems that focus on fundamental concepts such as loops, conditionals, and basic data structures. The challenge should encourage learners to get comfortable with syntax and basic algorithms.
+
+Intermediate Challenges: As learners progress, you can introduce more complex topics such as recursion, dynamic programming, or graph algorithms. These challenges should require users to think critically and build upon what they’ve learned in previous challenges.
+
+Advanced Challenges: For experienced coders, you can introduce problems that require deep understanding of algorithms, advanced data structures, or optimization techniques. The focus should be on solving real-world problems or optimizing existing solutions.
+
+Feedback Mechanism: Incorporating a feedback mechanism that gives users hints or explanations for each challenge can help them learn from their mistakes. This ensures that even if they fail at first, they can learn from the experience and come back stronger.
+
+
+## 2. Writing Clear Instructions
+
+
+Clear and concise instructions are paramount to the success of your Lupa. Even if the problem itself is intriguing and challenging, poor instructions can frustrate learners and hinder their understanding. When writing instructions, always aim for clarity, simplicity, and completeness.
+
+
+## Be Specific, Yet Concise
+
+Your instructions should clearly define the task at hand without overwhelming the reader with too much detail. It’s important to be specific about the input and output requirements. For instance, if a challenge asks the user to sort a list of numbers, specify if the numbers are positive, negative, or decimal. This can help avoid unnecessary ambiguity.
+
+Example:
+"Given a list of integers, return the list sorted in non-decreasing order."
+
+
+However, it's equally important not to over-explain the problem. Providing overly detailed descriptions can discourage users from trying to come up with their own solutions.
+
+
+## Include Examples and Edge Cases
+
+
+A good set of instructions will always come with clear examples to demonstrate how the solution should work. Including edge cases—uncommon but possible inputs—helps coders understand the scope of the problem. Make sure to explain any potential edge cases in the problem statement.
+
+
+Example:
+For a challenge involving an array, you could include edge cases such as:
+
+
+An empty array.
+
+An array containing a single element.
+
+An array containing duplicate elements.
+
+Describe Expected Output and Constraints
+
+
+One of the most critical aspects of instructions is explaining what kind of output is expected. This could range from numerical results to complex data structures such as lists, sets, or trees. If the problem has constraints (e.g., time or space limits), make sure to highlight these so that users can optimize their solutions.
+
+
+Example: "Return the sum of the array elements, ensuring your solution operates within O(n) time complexity."
+
+
+## 3. Crafting Test Cases
+
+
+Robust test cases are the backbone of a good Lupa. Test cases help to validate the correctness and efficiency of a solution. When designing test cases, consider a variety of factors including normal cases, edge cases, and performance under large inputs. Well-designed test cases can also guide users towards understanding the problem better.
+
+## Cover Different Scenarios
+
+
+A good set of test cases covers a wide range of input scenarios. Apart from the "normal" or typical cases, it is important to test edge cases, as they often reveal flaws in the algorithm. For example, if you’re testing a sorting algorithm, test cases could include:
+
+
+A list with one element.
+
+
+A list with multiple identical elements.
+
+A list that is already sorted.
+
+A list that is sorted in reverse order.
+
+## Test for Efficiency
+
+
+In addition to correctness, efficiency is key to most coding challenges. If your problem has constraints (like a time limit), make sure to test the solution under conditions that approach the upper bounds of the input size. This will force users to think about optimizing their code for both time and space.
+
+
+For instance, if the input size can be as large as 1,000,000 elements, the algorithm should ideally run in O(n log n) or better, rather than O(n^2), which would be too slow.
+
+
+## Provide Meaningful Feedback
+
+
+When users submit their solution, the feedback they receive should be detailed and educational. If their solution fails on a test case, explain why it failed and give hints or suggestions on how to fix it. Positive feedback for passing test cases can also help build user confidence.
+
+
+## Include a "Hidden" Test Set
+
+
+In addition to visible test cases, consider adding hidden test cases that are only evaluated after the user submits their solution. This ensures that users are solving the problem correctly and not just hard-coding the answers based on visible examples.
+
+
+## 4. Encouraging Community Engagement
+
+
+Creating a challenging and educational Lupa is just one part of the equation. The next step is to encourage the community to actively engage with the challenge. Here are a few tips for fostering engagement:
+
+
+## Create a Leaderboard
+
+
+Leaderboards are a great way to foster friendly competition. By allowing users to compare their scores and completion times, you can motivate participants to improve their solutions and reattempt challenges.
+
+
+## Allow Discussion and Collaboration
+
+
+Lupleg allows users to engage in discussions about specific Lupa. Encourage users to discuss strategies and share their approaches without giving away the full solution. Collaboration often helps learners grow and gain new insights.
+
+
+## Reward Contributions
+
+
+Recognize contributors who consistently create high-quality Lupa. Offer rewards or special mentions for those who consistently engage with the platform and contribute valuable challenges. This creates a sense of community and encourages more involvement.
+
+
+## Conclusion
+
+
+Creating challenging and educational Lupa on the Lupleg learning platform is a rewarding process that requires attention to detail and a deep understanding of your audience’s needs. By selecting the right difficulty, writing clear instructions, designing robust test cases, and fostering community engagement, you can create challenges that will help learners sharpen their coding skills and actively contribute to the community. When done right, your Lupa will not only educate but also inspire and engage the next generation of developers.
+      
+      `,
       image:
         "/blogs/ll.png",
       author: {
         name: "Mark Sikaundi",
         avatar: "/placeholder.svg",
       },
-      date: "January 1, 2025",
+      date: "February 15, 2025",
       category: "Author's Corner",
     },
   ];

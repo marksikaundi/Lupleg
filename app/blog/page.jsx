@@ -75,7 +75,7 @@ const posts = [
     id: 5,
     title: "Building Your Developer Portfolio with Lupleg",
     excerpt:
-      "How to leverage your kata solutions and achievements to create a compelling developer portfolio.",
+      "How to leverage your Lupa solutions and achievements to create a compelling developer portfolio.",
     image:
       "/blogs/portfolio.png",
     author: {
@@ -88,17 +88,17 @@ const posts = [
   },
   {
     id: 6,
-    title: "The Art of Creating Kata: A Guide for Authors",
+    title: "The Art of Creating Lupa: A Guide for Authors",
     excerpt:
-      "Expert tips and guidelines for creating challenging and educational kata that engage the community.",
+      "Expert tips and guidelines for creating challenging and educational Lupa that engage the community.",
     image:
       "/blogs/ll.png",
     author: {
       name: "Mark Sikaundi",
       avatar: "/placeholder.svg",
     },
-    date: "January 1, 2025",
-    slug: "creating-kata-guide",
+    date: "ebruary 16, 2025",
+    slug: "creating-lupa-guide",
     category: "Author's Corner",
   },
 ];
