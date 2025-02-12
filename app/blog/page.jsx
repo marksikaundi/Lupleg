@@ -60,7 +60,7 @@ const posts = [
     id: 4,
     title: "Best Practices for Writing Clean",
     excerpt:
-      "Learn Python best practices and clean coding techniques from the most elegant kata solutions.",
+      "Explore key Python best practices that will help you write clean, effective code that is easy to maintain and understand.",
     image:
       "/blogs/mark.png",
     author: {
