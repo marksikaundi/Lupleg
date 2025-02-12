@@ -547,14 +547,12 @@ function getPost(slug) {
 In this article, we’ll explore how to build a developer portfolio using Lupleg, highlighting its features, benefits, and how you can leverage it to stand out in the competitive job market.
 
 
-
 ## What is Lupleg?
 
 Lupleg is a modern, user-friendly platform designed to help developers create professional portfolios without needing advanced design or coding skills. It’s built to support the growing needs of developers by providing easy-to-use templates, integration with GitHub repositories, and tools to highlight your projects, blogs, and more.
 
 
 Lupleg is tailored specifically for developers, making it an ideal choice for those looking to showcase their skills, past projects, and contributions in the tech world. By offering customizations and allowing developers to focus on what matters the most — the work itself — Lupleg ensures that your portfolio stands out without unnecessary distractions.
-
 
 
 ## Why Choose Lupleg for Your Developer Portfolio?
@@ -564,7 +562,6 @@ Before diving into how to build your portfolio, it’s essential to understand w
 
 
 Ease of Use: Lupleg provides a user-friendly interface that allows developers to create and customize their portfolios quickly. No need to spend hours learning complex tools — Lupleg streamlines the process so you can focus on showcasing your work.
-
 
 
 GitHub Integration: Lupleg easily integrates with GitHub, which is one of the most widely used platforms for developers. This allows you to import your repositories, showcase your code directly, and demonstrate your active contributions to open-source projects.
@@ -585,7 +582,6 @@ Focus on Projects: Lupleg prioritizes project showcasing, which is the core of a
 Now that we know why Lupleg is a great platform for creating a developer portfolio, let’s dive into the steps to get started.
 
 
-
 ## 1. Sign Up and Get Started
 
 
@@ -599,9 +595,7 @@ To begin building your developer portfolio with Lupleg, the first step is to sig
 Lupleg offers a wide range of templates designed specifically for developers. These templates are modern, sleek, and customizable to meet your personal preferences. Browse through the available options, and select the one that best suits the kind of developer you are.
 
 
-
 If you prefer a minimalistic design that focuses entirely on your projects, choose a clean template. If you want something more dynamic, you can opt for templates that offer interactive elements. With Lupleg, you can preview each template before making a final decision.
-
 
 
 ## 3. Customize Your Portfolio
@@ -658,16 +652,13 @@ Tools and Technologies: Include tools like Docker, AWS, Git, etc.
 It’s important to be specific and up-to-date with your skills, as this will give recruiters a clear picture of your technical strengths.
 
 
-
 ## 6. Add a Blog (Optional)
 
 
 Adding a blog section is a great way to demonstrate your thought leadership, knowledge, and communication skills. You can write about technical topics, challenges you’ve faced, new technologies you’re exploring, or tutorials for other developers. A blog gives potential employers a better sense of who you are as a developer and shows your ability to share knowledge with the community.
 
 
-
 Lupleg makes it easy to integrate your blog posts within your portfolio, adding even more value and content to your profile.
-
 
 
 ## 7. Create an Engaging About Me Section
