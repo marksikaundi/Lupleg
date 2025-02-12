@@ -62,7 +62,7 @@ const posts = [
     excerpt:
       "Explore key Python best practices that will help you write clean, effective code that is easy to maintain and understand.",
     image:
-      "/blogs/mark.png",
+      "/blogs/python.png",
     author: {
       name: "Mark Sikaundi",
       avatar: "/placeholder.svg",

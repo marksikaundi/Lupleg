@@ -530,7 +530,7 @@ function getPost(slug) {
       
       `,
       image:
-        "/blogs/mark.png",
+        "/blogs/python.png",
       author: {
         name: "Mark Sikaundi",
         avatar: "/placeholder.svg",
