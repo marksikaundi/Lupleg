@@ -62,12 +62,12 @@ const posts = [
     excerpt:
       "Learn Python best practices and clean coding techniques from the most elegant kata solutions.",
     image:
-      "https://www.lupleg.org/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F7c679591-6991-4402-bc63-0ee97010fc6f-1g.png&w=640&q=75",
+      "/blogs/mark.png",
     author: {
       name: "Mark Sikaundi",
       avatar: "/placeholder.svg",
     },
-    date: "January 5, 2025",
+    date: "February 14, 2025",
     slug: "clean-code-best-practices",
     category: "Programming",
   },
