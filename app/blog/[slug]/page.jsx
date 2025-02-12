@@ -712,8 +712,8 @@ Building a developer portfolio with Lupleg is an excellent way to showcase your 
       content: `
       Creating Lupa—coding challenges on the Lupleg learning platform—offers a unique opportunity to engage and educate a community of learners. Whether you are an experienced problem setter or a newcomer to the platform, it's important to craft challenges that are both educational and engaging. This article will provide expert advice on how to create effective and challenging Lupa that not only help users grow their coding skills but also encourage active participation within the community.
 
-      
 1. Choosing the Right Difficulty
+
 One of the most important factors in crafting a successful Lupa is choosing the right difficulty. If the challenge is too easy, it may not provide enough value, leaving participants feeling unaccomplished. On the other hand, if it is too difficult, it may overwhelm users and lead to frustration. Striking the right balance is crucial for engagement and educational value.
 
 ## Consider the Skill Level of Your Audience
