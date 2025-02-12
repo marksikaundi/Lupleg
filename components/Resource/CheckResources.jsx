@@ -67,7 +67,7 @@ const resourcesOption = [
     description:
       "Mentorships are a way to help students learn and grow. You'll be helping students learn to code and build projects.",
     issuesCount: 0,
-    exploreLink: "/explore/mentorships",
+    exploreLink: "https://mentor.lupleg.org",
     languages: ["C", "C++", "C#", "D"],
   },
 ];
