@@ -88,17 +88,17 @@ const posts = [
   },
   {
     id: 6,
-    title: "The Art of Creating Kata: A Guide for Authors",
+    title: "The Art of Creating Lupa: A Guide for Authors",
     excerpt:
-      "Expert tips and guidelines for creating challenging and educational kata that engage the community.",
+      "Expert tips and guidelines for creating challenging and educational Lupa that engage the community.",
     image:
       "https://www.lupleg.org/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F7c679591-6991-4402-bc63-0ee97010fc6f-1g.png&w=640&q=75",
     author: {
       name: "Mark Sikaundi",
       avatar: "/placeholder.svg",
     },
-    date: "January 1, 2025",
-    slug: "creating-kata-guide",
+    date: "ebruary 16, 2025",
+    slug: "creating-lupa-guide",
     category: "Author's Corner",
   },
 ];

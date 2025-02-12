@@ -707,9 +707,9 @@ Building a developer portfolio with Lupleg is an excellent way to showcase your 
       category: "Career Insights",
     },
     {
-      slug: "creating-kata-guide",
-      title: "The Art of Creating Kata: A Guide for Authors",
-      content: `Expert tips and guidelines for creating challenging and educational kata that engage the community.
+      slug: "creating-lupa-guide",
+      title: "The Art of Creating Lupa: A Guide for Authors",
+      content: `Expert tips and guidelines for creating challenging and educational Lupa that engage the community.
         
         ## Choosing the Right Difficulty
         
@@ -728,7 +728,7 @@ Building a developer portfolio with Lupleg is an excellent way to showcase your 
         name: "Mark Sikaundi",
         avatar: "/placeholder.svg",
       },
-      date: "January 1, 2025",
+      date: "February 15, 2025",
       category: "Author's Corner",
     },
   ];
