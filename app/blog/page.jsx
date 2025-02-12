@@ -73,7 +73,7 @@ const posts = [
   },
   {
     id: 5,
-    title: "Building Your Developer Portfolio with Codewars",
+    title: "Building Your Developer Portfolio with Lupleg",
     excerpt:
       "How to leverage your kata solutions and achievements to create a compelling developer portfolio.",
     image:
@@ -82,7 +82,7 @@ const posts = [
       name: "Mark Sikaundi",
       avatar: "/placeholder.svg",
     },
-    date: "January 3, 2025",
+    date: "February 15, 2025",
     slug: "portfolio-building",
     category: "Career Insights",
   },

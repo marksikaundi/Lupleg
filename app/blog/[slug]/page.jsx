@@ -372,7 +372,7 @@ function getPost(slug) {
       category: "Career Insights",
     },
     {
-      slug: "best-practices-for-writing-clean",
+      slug: "clean-code-best-practices",
       title: "Best Practices for Writing Clean",
       content: `
       Python has become one of the most popular programming languages due to its simplicity, readability, and versatility. However, to truly harness the power of Python and develop maintainable, efficient code, it’s essential to follow best practices. In this article, we will explore key Python best practices that will help you write clean, effective, and scalable Python code.
@@ -540,27 +540,18 @@ function getPost(slug) {
     },
     {
       slug: "portfolio-building",
-      title: "Building Your Developer Portfolio with Codewars",
-      content: `How to leverage your kata solutions and achievements to create a compelling developer portfolio.
+      title: "Building Your Developer Portfolio with Lupleg",
+      content: `
+
         
-        ## Showcasing Your Skills
-        
-        Learn how to select and present your best kata solutions to demonstrate your coding abilities.
-        
-        ## Kata Difficulty Progression
-        
-        We'll discuss how to show your growth as a developer through your kata difficulty progression.
-        
-        ## Integrating Codewars with GitHub
-        
-        Discover how to effectively link your Codewars profile with your GitHub projects for a comprehensive portfolio.`,
+        `,
       image:
         "https://www.lupleg.org/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2F7c679591-6991-4402-bc63-0ee97010fc6f-1g.png&w=640&q=75",
       author: {
         name: "Mark Sikaundi",
         avatar: "/placeholder.svg",
       },
-      date: "January 3, 2025",
+      date: "February 15, 2025",
       category: "Career Insights",
     },
     {
