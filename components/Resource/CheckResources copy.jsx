@@ -17,17 +17,17 @@ const resourcesOption = [
     description:
       "Write articles and books to help students learn to code. This is a great way to share your knowledge and help others.",
     issuesCount: 0,
-    exploreLink: "/explore/books-and-articles",
+    exploreLink: "Explore 0 issues",
     languages: [],
   },
   {
     imageUrl: "/icons/improve.svg",
-    title: "Problem Solving",
+    title: "Promblem Solving",
     level: "Challenges",
     description:
       "Solve problems on our platform and help others solve them. This is a great way to learn and teach.",
     issuesCount: 0,
-    exploreLink: "/explore/problem-solving",
+    exploreLink: "Explore  issues",
     languages: ["JavaScript", "Ruby", "Rust", "Scala"],
   },
   {
@@ -37,7 +37,7 @@ const resourcesOption = [
     description:
       "Build out a new exercise or concept based on a track's roadmap. Have fun making interactive content that millions of people will use.",
     issuesCount: 0,
-    exploreLink: "/explore/create-exercise",
+    exploreLink: "Explore  issues",
     languages: ["Elixir", "Java", "Julia", "F#"],
   },
   {
@@ -47,7 +47,7 @@ const resourcesOption = [
     description:
       "Machine learning is a powerful tool that can help students learn to code. Help us build out new machine learning models.",
     issuesCount: 0,
-    exploreLink: "/explore/machine-learning",
+    exploreLink: "Explore  issues",
     languages: ["Python", "TypeScript", "Swift", "Kotlin"],
   },
   {
@@ -57,7 +57,7 @@ const resourcesOption = [
     description:
       "Analyzers give automated feedback to students through ASTs analysis. These are complex and deeply interesting pieces of software to develop.",
     issuesCount: 0,
-    exploreLink: "/explore/develop-analyzer",
+    exploreLink: "Explore  issues",
     languages: ["Ballerina", "Fortran", "Nim", "Clojure"],
   },
   {
@@ -67,7 +67,7 @@ const resourcesOption = [
     description:
       "Mentorships are a way to help students learn and grow. You'll be helping students learn to code and build projects.",
     issuesCount: 0,
-    exploreLink: "/explore/mentorships",
+    exploreLink: "Explore  issues",
     languages: ["C", "C++", "C#", "D"],
   },
 ];
@@ -141,7 +141,7 @@ export default function CheckResource() {
                 )}
               </div>
               <Link
-                href={option.exploreLink}
+                 href={option.exploreLink}
                 className="text-sm font-semibold text-primary hover:underline"
               >
                 {option.exploreLink} →
