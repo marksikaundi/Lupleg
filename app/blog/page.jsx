@@ -58,7 +58,7 @@ const posts = [
   },
   {
     id: 4,
-    title: "Python Best Practices",
+    title: "Best Practices for Writing Clean",
     excerpt:
       "Learn Python best practices and clean coding techniques from the most elegant kata solutions.",
     image:
@@ -68,7 +68,7 @@ const posts = [
       avatar: "/placeholder.svg",
     },
     date: "January 5, 2025",
-    slug: "python-best-practices",
+    slug: "clean-code-best-practices",
     category: "Programming",
   },
   {
