@@ -8,10 +8,10 @@ export default function HomeHero() {
       <section className="container mx-auto px-4 py-16 md:py-24">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#2D1537] leading-tight">
               The platform for learning, build and connect.
             </h1>
-            <p className="text-lg md:text-xl text-white/80 max-w-2xl">
+            <p className="text-lg md:text-xl text-[#2D1537] max-w-2xl">
               Join us in shaping the future of technology in Africa! Our
               developer community empowers Africans with the skills and
               resources to solve problems, drive innovation, and create a more
@@ -20,7 +20,7 @@ export default function HomeHero() {
             <div className="flex flex-wrap gap-4">
               <Link
                 href="#"
-                className="inline-flex h-12 items-center justify-center rounded-md bg-white px-6 text-sm font-medium text-[#2D1537] hover:bg-white/90"
+                className="inline-flex h-12 items-center justify-center rounded-md bg-[#2D1537] px-6 text-sm font-medium text-white hover:bg-[#2D1537]"
               >
                 Join Mentorship
               </Link>
