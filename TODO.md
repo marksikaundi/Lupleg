@@ -12,9 +12,7 @@
 
     - CHALLENGES(Thumbnails)Cover images
     - CHALLENGES(Contents) Styling 
-
-### FONTS
-    - HEADINGS 20PX
+    - Lupleg Resources(Links)
 
 
 ### DEFECTS(BUGS)
@@ -24,3 +22,6 @@
 ### DONE
 
     - GENERAL FIXED OF THE LAYOUTS IS FIXED
+    - BLOG THUMBNAILS FIXED
+    - BLOG CONTENTS FIXED
+    - BLOG POSTS FIXED
