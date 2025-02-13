@@ -4,7 +4,7 @@ import { Star } from "lucide-react";
 
 export default function HomeHero() {
   return (
-    <div className="bg-[#2D1537] min-h-screen">
+    <div className="bg-[#ffffff] min-h-screen">
       <section className="container mx-auto px-4 py-16 md:py-24">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
