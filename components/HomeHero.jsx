@@ -26,7 +26,7 @@ export default function HomeHero() {
               </Link>
               <Link
                 href="https://wa.me/+260776578583"
-                className="inline-flex h-12 items-center justify-center rounded-md border border-white/20 bg-white/10 px-6 text-sm text-white hover:bg-white/20"
+                className="inline-flex h-12 items-center justify-center rounded-md border border-[#2D1537] bg-white/10 px-6 text-sm text-[#2D1537] hover:bg-white/20"
               >
                 Talk to us
               </Link>
