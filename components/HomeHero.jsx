@@ -34,8 +34,8 @@ export default function HomeHero() {
             <div className="flex flex-wrap gap-6">
               <div className="flex items-center gap-2">
                 <Star className="h-5 w-5 fill-current text-yellow-400" />
-                <span className="text-white font-medium">4.7 stars</span>
-                <span className="text-white/60">
+                <span className="text-[#2D1537] font-medium">4.7 stars</span>
+                <span className="text-[#2D1537]">
                   {" "}
                   Trusted by over 1,000+ developers and communities
                 </span>
