@@ -38,6 +38,36 @@ export default function Showcase() {
       features: ["Reliable", "Fast", "Easy"],
       demoLink: "https://react-templates-demo.vercel.app",
     },
+    {
+        title: "Beautiful React Templates",
+        highlight: "for you.",
+        description:
+          "Our templates are easy to setup, understand and customize. Each packed with a variety of widgets and components.",
+        image:
+          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-02-15%20at%2012.17.36%20AM-yl90uTUaQSEVr54cGe5fo8UcxChx9y.png",
+        features: ["Reliable", "Fast", "Easy"],
+        demoLink: "https://react-templates-demo.vercel.app",
+      },
+      {
+        title: "Beautiful React Templates",
+        highlight: "for you.",
+        description:
+          "Our templates are easy to setup, understand and customize. Each packed with a variety of widgets and components.",
+        image:
+          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-02-15%20at%2012.17.36%20AM-yl90uTUaQSEVr54cGe5fo8UcxChx9y.png",
+        features: ["Reliable", "Fast", "Easy"],
+        demoLink: "https://react-templates-demo.vercel.app",
+      },
+      {
+        title: "Beautiful React Templates",
+        highlight: "for you.",
+        description:
+          "Our templates are easy to setup, understand and customize. Each packed with a variety of widgets and components.",
+        image:
+          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-02-15%20at%2012.17.36%20AM-yl90uTUaQSEVr54cGe5fo8UcxChx9y.png",
+        features: ["Reliable", "Fast", "Easy"],
+        demoLink: "https://react-templates-demo.vercel.app",
+      },
   ];
 
   return (
