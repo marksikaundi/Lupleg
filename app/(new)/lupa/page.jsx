@@ -8,7 +8,7 @@ export default function Lupa() {
         <div className="container mx-auto">
           <p className="text-orange-800 text-sm flex items-center gap-2">
             <span className="inline-block w-2 h-2 bg-orange-500 rounded-full animate-pulse" />
-            Last updated on 14th April, 2024 - Added support for React v18 and TailwindCSS v3!
+            Last updated on 14th February, 2025 - Added support for React v19 and TailwindCSS v3!
           </p>
         </div>
       </div>
@@ -16,7 +16,7 @@ export default function Lupa() {
       <div className="container mx-auto px-4 py-12 lg:py-16">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-purple-700">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-[#2D1537]">
               Free Modern React Templates for every need.
             </h1>
 
@@ -30,37 +30,37 @@ export default function Lupa() {
             <div className="grid sm:grid-cols-2 gap-4">
               <div className="space-y-3">
                 <div className="flex items-center gap-2">
-                  <Check className="text-purple-600 w-5 h-5" />
+                  <Check className="text-[#2D1537] w-5 h-5" />
                   <span>7 Landing Page Demos</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <Check className="text-purple-600 w-5 h-5" />
+                  <Check className="text-[#2D1537] w-5 h-5" />
                   <span>52 Components</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <Check className="text-purple-600 w-5 h-5" />
+                  <Check className="text-[#2D1537] w-5 h-5" />
                   <span>Fully Responsive</span>
                 </div>
               </div>
 
               <div className="space-y-3">
                 <div className="flex items-center gap-2">
-                  <Check className="text-purple-600 w-5 h-5" />
+                  <Check className="text-[#2D1537] w-5 h-5" />
                   <span>8 Inner Pages</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <Check className="text-purple-600 w-5 h-5" />
+                  <Check className="text-[#2D1537] w-5 h-5" />
                   <span>Uses TailwindCSS</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <Check className="text-purple-600 w-5 h-5" />
+                  <Check className="text-[#2D1537] w-5 h-5" />
                   <span>Fully Customizable</span>
                 </div>
               </div>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-purple-600 hover:bg-purple-700">
+              <Button size="lg" className="bg-[#2D1537] hover:bg-[#2D1537]">
                 Explore Demos
               </Button>
               <Button size="lg" variant="secondary">
