@@ -1,7 +1,7 @@
 import { Check } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-export default function Page() {
+export default function Lupa() {
   return (
     <div className="min-h-screen bg-white">
       <div className="w-full bg-orange-50 p-2">
