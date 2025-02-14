@@ -1,5 +1,6 @@
 import { Check } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Showcase from "./showcase"
 
 export default function Lupa() {
   return (
@@ -80,6 +81,7 @@ export default function Lupa() {
           </div>
         </div>
       </div>
+      <Showcase />
     </div>
   )
 }
