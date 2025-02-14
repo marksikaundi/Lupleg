@@ -1,17 +1,18 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { Button } from "@/components/ui/button"
-import { Clock, Shield, Smile, X } from "lucide-react"
+import { useState } from "react";
+import { Button } from "@/components/ui/button";
+import { Clock, Shield, Smile, X } from "lucide-react";
 
 export default function Showcase() {
-  const [selectedImage, setSelectedImage] = useState()
+  const [selectedImage, setSelectedImage] = useState();
 
   const templates = [
     {
       title: "Delicious & Affordable",
       highlight: "Meals Near You.",
-      description: "Find the best local restaurants and get your favorite meals delivered right to your doorstep.",
+      description:
+        "Find the best local restaurants and get your favorite meals delivered right to your doorstep.",
       image:
         "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-02-15%20at%2012.17.36%20AM-yl90uTUaQSEVr54cGe5fo8UcxChx9y.png",
       features: ["Online Menu", "Real-Time Orders", "Fast Delivery"],
@@ -20,7 +21,8 @@ export default function Showcase() {
     {
       title: "Find Perfect Hotels",
       highlight: "anywhere you go.",
-      description: "Get all kinds of accommodation options for your next trip that will delight your stay with us.",
+      description:
+        "Get all kinds of accommodation options for your next trip that will delight your stay with us.",
       image:
         "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-02-15%20at%2012.17.36%20AM-yl90uTUaQSEVr54cGe5fo8UcxChx9y.png",
       features: ["Secure", "24/7 Support", "Customizable"],
@@ -36,15 +38,28 @@ export default function Showcase() {
       features: ["Reliable", "Fast", "Easy"],
       demoLink: "https://react-templates-demo.vercel.app",
     },
-  ]
+  ];
 
   return (
     <>
       <div className="bg-gray-50 py-16 lg:py-24">
         <div className="container mx-auto px-4">
+          <div>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center tracking-tight text-[#2D1537]">
+              Landing Pages
+            </h1>
+            <p className="text-gray-600 text-center mx-32 text-lg leading-relaxed">
+              We have 7 premade landing pages. Click on the "View Live Demo"
+              button to see them in action. Customizing or Creating your own
+              custom landing page is really simple by using our UI components.
+            </p>
+          </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {templates.map((template, index) => (
-              <div key={index} className="bg-white rounded-2xl overflow-hidden shadow-lg">
+              <div
+                key={index}
+                className="bg-white rounded-2xl overflow-hidden shadow-lg"
+              >
                 {/* Header */}
                 <div className="p-6 space-y-4">
                   <h3 className="text-2xl font-bold">
@@ -60,10 +75,19 @@ export default function Showcase() {
                 <div className="px-6 pb-6">
                   <div className="flex gap-4 flex-wrap">
                     {template.features.map((feature, i) => (
-                      <div key={i} className="flex items-center gap-1 text-sm text-gray-600">
-                        {i === 0 && <Shield className="w-4 h-4 text-purple-600" />}
-                        {i === 1 && <Clock className="w-4 h-4 text-purple-600" />}
-                        {i === 2 && <Smile className="w-4 h-4 text-purple-600" />}
+                      <div
+                        key={i}
+                        className="flex items-center gap-1 text-sm text-gray-600"
+                      >
+                        {i === 0 && (
+                          <Shield className="w-4 h-4 text-purple-600" />
+                        )}
+                        {i === 1 && (
+                          <Clock className="w-4 h-4 text-purple-600" />
+                        )}
+                        {i === 2 && (
+                          <Smile className="w-4 h-4 text-purple-600" />
+                        )}
                         {feature}
                       </div>
                     ))}
@@ -76,8 +100,8 @@ export default function Showcase() {
                   onClick={() => setSelectedImage(template.image)}
                   onKeyDown={(e) => {
                     if (e.key === "Enter" || e.key === " ") {
-                      e.preventDefault()
-                      setSelectedImage(template.image)
+                      e.preventDefault();
+                      setSelectedImage(template.image);
                     }
                   }}
                   role="button"
@@ -85,7 +109,9 @@ export default function Showcase() {
                   aria-label="View larger image"
                 >
                   <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center z-10">
-                    <span className="text-white text-sm font-medium">Click to preview</span>
+                    <span className="text-white text-sm font-medium">
+                      Click to preview
+                    </span>
                   </div>
                   <img
                     src={template.image || "/placeholder.svg"}
@@ -133,6 +159,5 @@ export default function Showcase() {
         </div>
       )}
     </>
-  )
+  );
 }
-
