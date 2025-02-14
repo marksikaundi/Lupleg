@@ -40,7 +40,7 @@ export default function Showcase() {
               <div className="p-6 space-y-4">
                 <h3 className="text-2xl font-bold">
                   {template.title}{" "}
-                  <span className="bg-purple-600 text-white px-2 py-1 rounded-md inline-block">
+                  <span className="bg-[#2D1537] text-white px-2 py-1 rounded-md inline-block">
                     {template.highlight}
                   </span>
                 </h3>
@@ -52,9 +52,9 @@ export default function Showcase() {
                 <div className="flex gap-4 flex-wrap">
                   {template.features.map((feature, i) => (
                     <div key={i} className="flex items-center gap-1 text-sm text-gray-600">
-                      {i === 0 && <Shield className="w-4 h-4 text-purple-600" />}
-                      {i === 1 && <Clock className="w-4 h-4 text-purple-600" />}
-                      {i === 2 && <Smile className="w-4 h-4 text-purple-600" />}
+                      {i === 0 && <Shield className="w-4 h-4 text-[#2D1537]" />}
+                      {i === 1 && <Clock className="w-4 h-4 text-[#2D1537]" />}
+                      {i === 2 && <Smile className="w-4 h-4 text-[#2D1537]" />}
                       {feature}
                     </div>
                   ))}
@@ -72,7 +72,7 @@ export default function Showcase() {
 
               {/* Demo Button */}
               <div className="p-6">
-                <Button className="w-full bg-purple-600 hover:bg-purple-700">View Live Demo</Button>
+                <Button className="w-full bg-[#2D1537] hover:bg-[#2D1537]">View Live Demo</Button>
               </div>
             </div>
           ))}
