@@ -1,6 +1,6 @@
 # Lupleg Repository
 
-Welcome to the Lupleg Repository! This repository is dedicated to the development and maintenance of the front-end for the Lupleg Community. Below you will find all the necessary information about the project, how to use it, and how you can contribute to it.
+This repository is dedicated to the development and maintenance of the front-end for the Lupleg Community. Below you will find all the necessary information about the project, how to use it, and how you can contribute to it.
 
 ## Table of Contents
 
