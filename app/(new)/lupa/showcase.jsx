@@ -44,11 +44,11 @@ export default function Showcase() {
     <>
       <div className="bg-gray-50 py-16 lg:py-24">
         <div className="container mx-auto px-4">
-          <div>
+          <div className="mb-12">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center tracking-tight text-[#2D1537]">
               Landing Pages
             </h1>
-            <p className="text-gray-600 text-center mx-32 text-lg leading-relaxed">
+            <p className="text-gray-600 text-center mx-4 md:mx-16 lg:mx-32 text-lg leading-relaxed">
               We have 7 premade landing pages. Click on the "View Live Demo"
               button to see them in action. Customizing or Creating your own
               custom landing page is really simple by using our UI components.
