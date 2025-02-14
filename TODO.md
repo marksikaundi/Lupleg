@@ -13,6 +13,7 @@
     - CHALLENGES(Thumbnails)Cover images
     - CHALLENGES(Contents) Styling 
     - Lupleg Resources(Links)
+    - New setups for code challenges
 
 
 ### DEFECTS(BUGS)
