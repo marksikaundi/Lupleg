@@ -73,7 +73,7 @@ export default function Footer() {
             <div className="mt-8">
               <Button className="bg-[#F3A833] hover:bg-[#F3A833]">
                 <DonateIcon className="mr-2" />
-                Donate
+                Donate https://ko-fi.com/lupleg
               </Button>
             </div>
             <div className="pt-5">
