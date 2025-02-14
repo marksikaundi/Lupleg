@@ -45,7 +45,7 @@ export default function Showcase() {
       <div className="bg-gray-50 py-16 lg:py-24">
         <div className="container mx-auto px-4">
           <div className="mb-12">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center tracking-tight text-[#2D1537]">
+            <h1 className="text-4xl md:text-5xl mb-4 lg:text-6xl font-bold text-center tracking-tight text-[#2D1537]">
               Landing Pages
             </h1>
             <p className="text-gray-600 text-center mx-4 md:mx-16 lg:mx-32 text-lg leading-relaxed">
@@ -64,7 +64,7 @@ export default function Showcase() {
                 <div className="p-6 space-y-4">
                   <h3 className="text-2xl font-bold">
                     {template.title}{" "}
-                    <span className="bg-purple-600 text-white px-2 py-1 rounded-md inline-block">
+                    <span className="bg-[#2D1537] text-white px-2 py-1 rounded-md inline-block">
                       {template.highlight}
                     </span>
                   </h3>
@@ -80,13 +80,13 @@ export default function Showcase() {
                         className="flex items-center gap-1 text-sm text-gray-600"
                       >
                         {i === 0 && (
-                          <Shield className="w-4 h-4 text-purple-600" />
+                          <Shield className="w-4 h-4 text-[#2D1537]" />
                         )}
                         {i === 1 && (
-                          <Clock className="w-4 h-4 text-purple-600" />
+                          <Clock className="w-4 h-4 text-[#2D1537]" />
                         )}
                         {i === 2 && (
-                          <Smile className="w-4 h-4 text-purple-600" />
+                          <Smile className="w-4 h-4 text-[#2D1537]" />
                         )}
                         {feature}
                       </div>
@@ -123,7 +123,7 @@ export default function Showcase() {
                 {/* Demo Button */}
                 <div className="p-6">
                   <Button
-                    className="w-full bg-purple-600 hover:bg-purple-700"
+                    className="w-full bg-[#2D1537] hover:bg-[#2D1537]"
                     onClick={() => window.open(template.demoLink, "_blank")}
                   >
                     View Live Demo
