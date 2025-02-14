@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^5.1.5",
+    "@indieboosting/react": "^1.5.0",
     "@kinde-oss/kinde-auth-nextjs": "^2.3.6",
     "@monaco-editor/react": "^4.6.0",
     "@nivo/line": "^0.84.0",

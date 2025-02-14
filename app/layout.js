@@ -1,4 +1,5 @@
 import { Poppins } from "next/font/google";
+import "@indiebacklink/react/indieboosting.css";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
