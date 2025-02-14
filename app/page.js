@@ -3,6 +3,7 @@ import Programming from "@/components/HeroCards/Programming";
 import HomeHero from "@/components/HomeHero";
 import { IndieBoosting } from "@indieboosting/react";
 
+
 export default function Home() {
   return (
     <div className="bg-[#FFFFFF]">
