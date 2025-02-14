@@ -1,5 +1,6 @@
 import { Check } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import KofiWidget from "@/components/KofiWidget"
 
 export default function Lupa() {
   return (
@@ -79,6 +80,7 @@ export default function Lupa() {
             </div>
           </div>
         </div>
+        <KofiWidget />
       </div>
     </div>
   )
