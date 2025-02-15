@@ -185,19 +185,6 @@ export default function Showcase() {
               className="w-full h-auto rounded-lg shadow-2xl"
               style={{ maxHeight: "85vh", objectFit: "contain" }}
             />
-
-            <div className="mb-12">
-              <h1 className="text-4xl md:text-5xl mb-4 lg:text-6xl font-bold text-center tracking-tight text-[#2D1537]">
-                Component Blocks
-              </h1>
-              <p className="text-gray-600 text-center mx-4 md:mx-16 lg:mx-32 text-lg leading-relaxed">
-                We also provide 52 components along with the premade landing
-                pages so you can create your own landing page within minutes as
-                you see fit. You can combine these components to create 1000s of
-                unique attractive web pages.
-              </p>
-              <p>(Preview Panel below inspired by Tailwind UI)</p>
-            </div>
           </div>
         </div>
       )}

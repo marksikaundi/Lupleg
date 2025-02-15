@@ -1,6 +1,6 @@
-import { Check } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import Showcase from "./showcase"
+import { Check } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import Showcase from "./showcase";
 
 export default function Lupa() {
   return (
@@ -9,7 +9,8 @@ export default function Lupa() {
         <div className="container mx-auto">
           <p className="text-orange-800 text-sm flex items-center gap-2">
             <span className="inline-block w-2 h-2 bg-orange-500 rounded-full animate-pulse" />
-            Last updated on 14th February, 2025 - Added support for React v19 and TailwindCSS v3!
+            Last updated on 14th February, 2025 - Added support for React v19
+            and TailwindCSS v3!
           </p>
         </div>
       </div>
@@ -22,10 +23,11 @@ export default function Lupa() {
             </h1>
 
             <p className="text-gray-600 text-lg leading-relaxed">
-              Easily customizable modern React UI Templates and Components built using TailwindCSS which are also
-              lightweight and simple to setup. All components are modular and fully responsive for great mobile
-              experience as well as big desktop screens. Brand Colors are also fully customizable. Free for personal as
-              well as commercial use.
+              Easily customizable modern React UI Templates and Components built
+              using TailwindCSS which are also lightweight and simple to setup.
+              All components are modular and fully responsive for great mobile
+              experience as well as big desktop screens. Brand Colors are also
+              fully customizable. Free for personal as well as commercial use.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-4">
@@ -82,7 +84,21 @@ export default function Lupa() {
         </div>
       </div>
       <Showcase />
-    </div>
-  )
-}
 
+      <div className="mb-12">
+        <h1 className="text-4xl md:text-5xl mb-4 lg:text-6xl font-bold text-center tracking-tight text-[#2D1537]">
+          Component Blocks
+        </h1>
+        <p className="text-gray-600 text-center mx-4 md:mx-16 lg:mx-32 text-lg leading-relaxed">
+          We also provide 52 components along with the premade landing pages so
+          you can create your own landing page within minutes as you see fit.
+          You can combine these components to create 1000s of unique attractive
+          web pages.
+        </p>
+        <p className="text-gray-600 text-center mx-4 md:mx-16 lg:mx-32 text-md leading-relaxed">
+          (Preview Panel below inspired by Tailwind UI)
+        </p>
+      </div>
+    </div>
+  );
+}
