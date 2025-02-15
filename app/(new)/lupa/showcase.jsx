@@ -186,6 +186,17 @@ export default function Showcase() {
               style={{ maxHeight: "85vh", objectFit: "contain" }}
             />
           </div>
+
+          <div className="mb-12">
+            <h1 className="text-4xl md:text-5xl mb-4 lg:text-6xl font-bold text-center tracking-tight text-[#2D1537]">
+              Landing Pages
+            </h1>
+            <p className="text-gray-600 text-center mx-4 md:mx-16 lg:mx-32 text-lg leading-relaxed">
+              We have 7 premade landing pages. Click on the "View Live Demo"
+              button to see them in action. Customizing or Creating your own
+              custom landing page is really simple by using our UI components.
+            </p>
+          </div>
         </div>
       )}
     </>
