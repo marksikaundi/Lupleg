@@ -11,7 +11,7 @@ const blocks = [
           <div className="container mx-auto px-6 py-4">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
-                <div className="bg-purple-600 text-white w-8 h-8 flex items-center justify-center font-bold rounded">
+                <div className="bg-[#2D1537] text-white w-8 h-8 flex items-center justify-center font-bold rounded">
                   T
                 </div>
                 <span className="text-white font-semibold text-xl">Lupui</span>
@@ -24,7 +24,7 @@ const blocks = [
                     </a>
                   ))}
                 </nav>
-                <Button className="bg-purple-600 hover:bg-purple-700">Hire Us</Button>
+                <Button className="bg-[#2D1537] hover:bg-purple-700">Hire Us</Button>
               </div>
             </div>
           </div>
@@ -44,7 +44,7 @@ const blocks = [
                 </p>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white space-y-2">
                   <span className="block">Hire the best</span>
-                  <span className="bg-white text-purple-600 px-4 py-1 inline-block">Marketing Team.</span>
+                  <span className="bg-white text-[#2D1537] px-4 py-1 inline-block">Marketing Team.</span>
                 </h1>
                 <Button variant="secondary" size="lg">
                   Read Customer Stories
@@ -63,7 +63,7 @@ const blocks = [
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <div className="bg-purple-600 text-white w-8 h-8 flex items-center justify-center font-bold rounded">
+              <div className="bg-[#2D1537] text-white w-8 h-8 flex items-center justify-center font-bold rounded">
                 T
               </div>
               <span className="text-gray-900 font-semibold text-xl">Lupui</span>
@@ -78,21 +78,21 @@ const blocks = [
               </nav>
               <div className="flex items-center gap-4">
                 <Button variant="ghost">Login</Button>
-                <Button className="bg-purple-600 hover:bg-purple-700">Sign Up</Button>
+                <Button className="bg-[#2D1537] hover:bg-purple-700">Sign Up</Button>
               </div>
             </div>
           </div>
           <div className="grid lg:grid-cols-2 gap-12 items-center py-16">
             <div className="space-y-8">
               <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
-                Modern React Templates, <span className="text-purple-600">Just For You</span>
+                Modern React Templates, <span className="text-[#2D1537]">Just For You</span>
               </h1>
               <p className="text-gray-600 text-lg">
                 Our templates are easy to setup, understand and customize. Fully modular components with a variety of
                 pages and components.
               </p>
               <div className="flex items-center gap-4">
-                <Button size="lg" className="bg-purple-600 hover:bg-purple-700">
+                <Button size="lg" className="bg-[#2D1537] hover:bg-purple-700">
                   Get Started
                 </Button>
                 <Button size="lg" variant="outline" className="gap-2">
@@ -119,7 +119,7 @@ const blocks = [
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <div className="bg-purple-600 text-white w-8 h-8 flex items-center justify-center font-bold rounded">
+              <div className="bg-[#2D1537] text-white w-8 h-8 flex items-center justify-center font-bold rounded">
                 T
               </div>
               <span className="text-gray-900 font-semibold text-xl">Lupui</span>
@@ -134,28 +134,28 @@ const blocks = [
               </nav>
               <div className="flex items-center gap-4">
                 <Button variant="ghost">Login</Button>
-                <Button className="bg-purple-600 hover:bg-purple-700">Sign Up</Button>
+                <Button className="bg-[#2D1537] hover:bg-purple-700">Sign Up</Button>
               </div>
             </div>
           </div>
           <div className="grid lg:grid-cols-2 gap-12 items-center py-16">
             <div className="space-y-8">
               <h1 className="text-5xl font-bold">
-                <span className="text-purple-600">Better, Faster and</span>
+                <span className="text-[#2D1537]">Better, Faster and</span>
                 <br />
-                <span className="text-purple-600">Cheaper Cloud.</span>
+                <span className="text-[#2D1537]">Cheaper Cloud.</span>
               </h1>
               <p className="text-gray-600">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. Ut enim ad minim veniam.
               </p>
-              <Button size="lg" className="bg-purple-600 hover:bg-purple-700">
+              <Button size="lg" className="bg-[#2D1537] hover:bg-purple-700">
                 Get Started
               </Button>
               <div className="space-y-4 pt-4">
                 {["Available in 7 Locations", "Premium Internet Backbone", "99.99% Uptime SLA"].map((feature) => (
                   <div key={feature} className="flex items-center gap-2">
-                    <Check className="text-purple-600 w-5 h-5" />
+                    <Check className="text-[#2D1537] w-5 h-5" />
                     <span className="text-gray-600">{feature}</span>
                   </div>
                 ))}
@@ -167,7 +167,7 @@ const blocks = [
                 alt="Customer testimonial"
                 className="w-full rounded-lg"
               />
-              <div className="absolute bottom-8 right-8 bg-purple-600 p-6 rounded-lg max-w-md text-white">
+              <div className="absolute bottom-8 right-8 bg-[#2D1537] p-6 rounded-lg max-w-md text-white">
                 <p className="mb-4">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                   dolore magna aliqua.
@@ -190,7 +190,7 @@ const blocks = [
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <div className="bg-purple-600 text-white w-8 h-8 flex items-center justify-center font-bold rounded">
+              <div className="bg-[#2D1537] text-white w-8 h-8 flex items-center justify-center font-bold rounded">
                 T
               </div>
               <span className="text-gray-900 font-semibold text-xl">Lupui</span>
@@ -212,14 +212,14 @@ const blocks = [
               <h1 className="text-4xl md:text-5xl font-bold">
                 Find Perfect Hotels
                 <br />
-                <span className="text-purple-600">anywhere you go.</span>
+                <span className="text-[#2D1537]">anywhere you go.</span>
               </h1>
               <p className="text-gray-600 text-lg">
                 We've been in the hotels business across the world for 5 years now. We assure you that you will always
                 enjoy your stay with us.
               </p>
               <div className="flex gap-4">
-                <Button size="lg" className="bg-purple-600 hover:bg-purple-700">
+                <Button size="lg" className="bg-[#2D1537] hover:bg-purple-700">
                   Sign Up
                 </Button>
                 <Button size="lg" variant="secondary">
@@ -247,7 +247,7 @@ export default function BlocksSection() {
       <div className="container mx-auto px-4">
         <div className="space-y-8">
           <div className="space-y-4">
-            <h2 className="text-4xl font-bold text-purple-600 inline-block border-b-4 border-purple-600">
+            <h2 className="text-4xl font-bold text-[#2D1537] inline-block border-b-4 border-[#2D1537]">
               Hero Section
             </h2>
           </div>
@@ -257,7 +257,7 @@ export default function BlocksSection() {
               <div key={index} className="rounded-2xl overflow-hidden border shadow-lg">
                 <div className="flex items-center justify-between p-4 border-b bg-white">
                   <span className="text-gray-600">{block.title}</span>
-                  <Button variant="link" className="text-purple-600 font-medium">
+                  <Button variant="link" className="text-[#2D1537] font-medium">
                     View Live Demo
                     <ArrowRight className="w-4 h-4 ml-2" />
                   </Button>
