@@ -7,7 +7,7 @@ import FeaturesBlocks from "./features";
 import CardsBlocks from "./cards-blocks";
 import BlogBlocks from "./blog-blocks";
 
-export default function Lupa() {
+export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <div className="w-full bg-orange-50 p-2">
@@ -15,7 +15,7 @@ export default function Lupa() {
           <p className="text-orange-800 text-sm flex items-center gap-2">
             <span className="inline-block w-2 h-2 bg-orange-500 rounded-full animate-pulse" />
             Last updated on 14th February, 2025 - Added support for React v19
-            and TailwindCSS v3!
+            and TailwindCSS v4!
           </p>
         </div>
       </div>
