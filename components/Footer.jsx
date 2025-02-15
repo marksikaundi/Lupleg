@@ -26,9 +26,10 @@ const footerData = [
     ],
   },
   {
-    title: "Resources",
+    title: "Sources",
     links: [
       { name: "Books", path: "/resources/books" },
+      { name: "Resources", path: "/resources" },
       { name: "30daysChallenge", path: "/30dayschallenge" },
       { name: "Projects", path: "https://projects.lupleg.org" },
       { name: "Tips", path: "/tips" },
