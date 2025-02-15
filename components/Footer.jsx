@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { Button } from "./ui/button";
 import FooterSection from "./FooterSection";
+import { useRouter } from "next/navigation";
 
 const footerData = [
   {
@@ -38,6 +39,11 @@ const footerData = [
 ];
 
 export default function Footer() {
+  const router = useRouter();
+
+  const handleDonate = () => {
+    router.push("https://ko-fi.com/lupleg");
+  };
   return (
     <div className="pt-28">
       <footer className="bg-[#2D1537] p-10 text-white">
@@ -71,9 +77,9 @@ export default function Footer() {
           <div>
             <h5 className="mb-4 font-bold">Support us</h5>
             <div className="mt-8">
-              <Button className="bg-[#F3A833] hover:bg-[#F3A833]">
+              <Button onClick={handleDonate} className="bg-[#F3A833] hover:bg-[#F3A833]">
                 <DonateIcon className="mr-2" />
-                Donate
+                Donate 
               </Button>
             </div>
             <div className="pt-5">

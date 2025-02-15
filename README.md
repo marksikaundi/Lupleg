@@ -1,6 +1,6 @@
 # Lupleg Repository
 
-Welcome to the Lupleg Repository! This repository is dedicated to the development and maintenance of the front-end for the Lupleg Community. Below you will find all the necessary information about the project, how to use it, and how you can contribute to it.
+This repository is dedicated to the development and maintenance of the front-end for the Lupleg Community. Below you will find all the necessary information about the project, how to use it, and how you can contribute to it.
 
 ## Table of Contents
 
@@ -112,7 +112,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 If you have any questions, suggestions, or feedback, please feel free to reach out to us:
 
 - Email: support@lupleg.org
-- GitHub Issues: [Lupleg Issues](https://github.com/your-username/Lupleg/issues)
+- GitHub Issues: [Lupleg Issues](https://github.com/lupleg-dev/Lupleg/issues)
 
 Thank you for being a part of the Lupleg Community and contributing to the Lupleg project!
 

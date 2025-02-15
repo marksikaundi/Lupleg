@@ -13,6 +13,7 @@
     - CHALLENGES(Thumbnails)Cover images
     - CHALLENGES(Contents) Styling 
     - Lupleg Resources(Links)
+    - New setups for code challenges
 
 
 ### DEFECTS(BUGS)
@@ -25,3 +26,12 @@
     - BLOG THUMBNAILS FIXED
     - BLOG CONTENTS FIXED
     - BLOG POSTS FIXED
+
+## TOBE REMOVED
+
+/* Hard coded samples */
+.search-input::placeholder {
+  color: white;
+  font-style: normal;
+  opacity: 0.7;
+}
