@@ -85,7 +85,7 @@ export default function Lupa() {
       </div>
       <Showcase />
 
-      <div className="mb-12">
+      <div className="mb-12 mt-6">
         <h1 className="text-4xl md:text-5xl mb-4 lg:text-6xl font-bold text-center tracking-tight text-[#2D1537]">
           Component Blocks
         </h1>
