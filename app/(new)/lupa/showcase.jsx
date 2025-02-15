@@ -39,35 +39,35 @@ export default function Showcase() {
       demoLink: "https://react-templates-demo.vercel.app",
     },
     {
-        title: "Beautiful React Templates",
-        highlight: "for you.",
-        description:
-          "Our templates are easy to setup, understand and customize. Each packed with a variety of widgets and components.",
-        image:
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-02-15%20at%2012.17.36%20AM-yl90uTUaQSEVr54cGe5fo8UcxChx9y.png",
-        features: ["Reliable", "Fast", "Easy"],
-        demoLink: "https://react-templates-demo.vercel.app",
-      },
-      {
-        title: "Beautiful React Templates",
-        highlight: "for you.",
-        description:
-          "Our templates are easy to setup, understand and customize. Each packed with a variety of widgets and components.",
-        image:
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-02-15%20at%2012.17.36%20AM-yl90uTUaQSEVr54cGe5fo8UcxChx9y.png",
-        features: ["Reliable", "Fast", "Easy"],
-        demoLink: "https://react-templates-demo.vercel.app",
-      },
-      {
-        title: "Beautiful React Templates",
-        highlight: "for you.",
-        description:
-          "Our templates are easy to setup, understand and customize. Each packed with a variety of widgets and components.",
-        image:
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-02-15%20at%2012.17.36%20AM-yl90uTUaQSEVr54cGe5fo8UcxChx9y.png",
-        features: ["Reliable", "Fast", "Easy"],
-        demoLink: "https://react-templates-demo.vercel.app",
-      },
+      title: "Beautiful React Templates",
+      highlight: "for you.",
+      description:
+        "Our templates are easy to setup, understand and customize. Each packed with a variety of widgets and components.",
+      image:
+        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-02-15%20at%2012.17.36%20AM-yl90uTUaQSEVr54cGe5fo8UcxChx9y.png",
+      features: ["Reliable", "Fast", "Easy"],
+      demoLink: "https://react-templates-demo.vercel.app",
+    },
+    {
+      title: "Beautiful React Templates",
+      highlight: "for you.",
+      description:
+        "Our templates are easy to setup, understand and customize. Each packed with a variety of widgets and components.",
+      image:
+        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-02-15%20at%2012.17.36%20AM-yl90uTUaQSEVr54cGe5fo8UcxChx9y.png",
+      features: ["Reliable", "Fast", "Easy"],
+      demoLink: "https://react-templates-demo.vercel.app",
+    },
+    {
+      title: "Beautiful React Templates",
+      highlight: "for you.",
+      description:
+        "Our templates are easy to setup, understand and customize. Each packed with a variety of widgets and components.",
+      image:
+        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-02-15%20at%2012.17.36%20AM-yl90uTUaQSEVr54cGe5fo8UcxChx9y.png",
+      features: ["Reliable", "Fast", "Easy"],
+      demoLink: "https://react-templates-demo.vercel.app",
+    },
   ];
 
   return (
@@ -189,13 +189,15 @@ export default function Showcase() {
 
           <div className="mb-12">
             <h1 className="text-4xl md:text-5xl mb-4 lg:text-6xl font-bold text-center tracking-tight text-[#2D1537]">
-              Landing Pages
+              Component Blocks
             </h1>
             <p className="text-gray-600 text-center mx-4 md:mx-16 lg:mx-32 text-lg leading-relaxed">
-              We have 7 premade landing pages. Click on the "View Live Demo"
-              button to see them in action. Customizing or Creating your own
-              custom landing page is really simple by using our UI components.
+              We also provide 52 components along with the premade landing pages
+              so you can create your own landing page within minutes as you see
+              fit. You can combine these components to create 1000s of unique
+              attractive web pages.
             </p>
+            <p>(Preview Panel below inspired by Tailwind UI)</p>
           </div>
         </div>
       )}
