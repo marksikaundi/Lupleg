@@ -1,7 +1,7 @@
 import { Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Showcase from "./showcase";
-import BlocksSection from "./ComponentBlocks";
+import BlocksSection from "./blocks";
 
 export default function Lupa() {
   return (
