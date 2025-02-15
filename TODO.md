@@ -26,3 +26,12 @@
     - BLOG THUMBNAILS FIXED
     - BLOG CONTENTS FIXED
     - BLOG POSTS FIXED
+
+## TOBE REMOVED
+
+/* Hard coded samples */
+.search-input::placeholder {
+  color: white;
+  font-style: normal;
+  opacity: 0.7;
+}
