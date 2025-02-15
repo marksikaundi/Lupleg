@@ -4,6 +4,7 @@ import Showcase from "./showcase";
 import BlocksSection from "./blocks";
 import PricingBlocks from "./pricing";
 import FeaturesBlocks from "./features";
+import CardsBlocks from "./cards-blocks";
 
 export default function Lupa() {
   return (
@@ -107,6 +108,8 @@ export default function Lupa() {
       <PricingBlocks />
 
       <FeaturesBlocks />
+
+      <CardsBlocks />
     </div>
   );
 }
