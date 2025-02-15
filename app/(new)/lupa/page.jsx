@@ -1,6 +1,7 @@
 import { Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Showcase from "./showcase";
+import BlocksSection from "./ComponentBlocks";
 
 export default function Lupa() {
   return (
@@ -99,6 +100,7 @@ export default function Lupa() {
           (Preview Panel below inspired by Tailwind UI)
         </p>
       </div>
+      <BlocksSection />
     </div>
   );
 }
