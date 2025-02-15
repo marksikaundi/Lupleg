@@ -83,14 +83,14 @@
 
 @layer base {
   * {
-    @apply border-border;
+    border-color: var(--border);  /* Using the CSS variable directly */
   }
+  
   body {
     @apply bg-background text-foreground;
   }
 }
 
-/* Hard coded samples */
 .search-input::placeholder {
   color: white;
   font-style: normal;
