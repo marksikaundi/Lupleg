@@ -2,6 +2,7 @@ import { Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Showcase from "./showcase";
 import BlocksSection from "./blocks";
+import PricingBlocks from "./pricing";
 
 export default function Lupa() {
   return (
@@ -101,6 +102,8 @@ export default function Lupa() {
         </p>
       </div>
       <BlocksSection />
+
+      <PricingBlocks />
     </div>
   );
 }
