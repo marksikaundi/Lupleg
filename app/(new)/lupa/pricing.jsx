@@ -1,7 +1,7 @@
-"use client"
-import { Button } from "@/components/ui/button"
-import { ArrowRight, Check } from "lucide-react"
-import { Switch } from "@/components/ui/switch"
+"use client";
+import { Button } from "@/components/ui/button";
+import { ArrowRight, Check } from "lucide-react";
+import { Switch } from "@/components/ui/switch";
 
 const blocks = [
   {
@@ -10,10 +10,12 @@ const blocks = [
       <div className="bg-purple-600 text-white py-16">
         <div className="container mx-auto px-4">
           <div className="text-center space-y-4 mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold">Affordable Pricing</h2>
+            <h2 className="text-3xl md:text-4xl font-bold">
+              Affordable Pricing
+            </h2>
             <p className="text-purple-200">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna
-              aliqua.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore magna aliqua.
             </p>
           </div>
 
@@ -22,7 +24,13 @@ const blocks = [
               {
                 name: "PERSONAL",
                 price: "9",
-                features: ["2 Core Xeon CPU", "1 GB RAM", "30 GB SSD", "1 TB Transfer", "99.9% Uptime"],
+                features: [
+                  "2 Core Xeon CPU",
+                  "1 GB RAM",
+                  "30 GB SSD",
+                  "1 TB Transfer",
+                  "99.9% Uptime",
+                ],
               },
               {
                 name: "BUSINESS",
@@ -53,7 +61,10 @@ const blocks = [
                 ],
               },
             ].map((plan, index) => (
-              <div key={index} className="bg-white text-gray-900 rounded-lg overflow-hidden relative">
+              <div
+                key={index}
+                className="bg-white text-gray-900 rounded-lg overflow-hidden relative"
+              >
                 {plan.popular && (
                   <div className="absolute top-0 right-0 bg-green-500 text-white text-xs px-3 py-1 rounded-bl-lg">
                     MOST POPULAR
@@ -75,7 +86,9 @@ const blocks = [
                   </div>
                 </div>
                 <div className="p-6 border-t">
-                  <Button className="w-full bg-purple-600 hover:bg-purple-700">Create Server</Button>
+                  <Button className="w-full bg-purple-600 hover:bg-purple-700">
+                    Create Server
+                  </Button>
                 </div>
               </div>
             ))}
@@ -94,10 +107,12 @@ const blocks = [
 
         <div className="container mx-auto px-4 relative">
           <div className="text-center space-y-4 mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Flexible Plans.</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+              Flexible Plans.
+            </h2>
             <p className="text-gray-500">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna
-              aliqua.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore magna aliqua.
             </p>
             <div className="flex items-center justify-center gap-4 pt-4">
               <span className={`text-sm font-medium`}>Weekly</span>
@@ -112,7 +127,12 @@ const blocks = [
                 name: "Free Plan",
                 price: "0",
                 description: "For Personal blogs",
-                features: ["10 Templates", "2 Landing Pages", "5 Internal Pages", "Basic Assistance"],
+                features: [
+                  "10 Templates",
+                  "2 Landing Pages",
+                  "5 Internal Pages",
+                  "Basic Assistance",
+                ],
               },
               {
                 name: "Pro Plan",
@@ -144,7 +164,9 @@ const blocks = [
                       </div>
                     ))}
                   </div>
-                  <Button className="w-full mt-6 bg-purple-600 hover:bg-purple-700">Buy Now</Button>
+                  <Button className="w-full mt-6 bg-purple-600 hover:bg-purple-700">
+                    Buy Now
+                  </Button>
                 </div>
               </div>
             ))}
@@ -163,10 +185,12 @@ const blocks = [
 
         <div className="container mx-auto px-4 relative">
           <div className="text-center space-y-4 mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Flexible Plans.</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+              Flexible Plans.
+            </h2>
             <p className="text-gray-500">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna
-              aliqua.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore magna aliqua.
             </p>
           </div>
 
@@ -178,7 +202,12 @@ const blocks = [
                 description: "Suited for Personal Blogs",
                 color: "bg-teal-500",
                 hoverColor: "hover:bg-teal-600",
-                features: ["10 Templates", "2 Landing Pages", "10 Internal Pages", "Basic Assistance"],
+                features: [
+                  "10 Templates",
+                  "2 Landing Pages",
+                  "10 Internal Pages",
+                  "Basic Assistance",
+                ],
               },
               {
                 name: "BUSINESS",
@@ -186,7 +215,12 @@ const blocks = [
                 description: "Suited for Production Websites",
                 color: "bg-purple-600",
                 hoverColor: "hover:bg-purple-700",
-                features: ["40 Templates", "8 Landing Pages", "22 Internal Pages", "Priority Assistance"],
+                features: [
+                  "40 Templates",
+                  "8 Landing Pages",
+                  "22 Internal Pages",
+                  "Priority Assistance",
+                ],
               },
               {
                 name: "ENTERPRISE",
@@ -194,18 +228,27 @@ const blocks = [
                 description: "Suited for Big Companies",
                 color: "bg-pink-500",
                 hoverColor: "hover:bg-pink-600",
-                features: ["90 Templates", "22 Landing Pages", "37 Internal Pages", "Personal Assistance"],
+                features: [
+                  "90 Templates",
+                  "22 Landing Pages",
+                  "37 Internal Pages",
+                  "Personal Assistance",
+                ],
               },
             ].map((plan, index) => (
               <div key={index} className="bg-white rounded-lg p-8 shadow-lg">
                 <div className="space-y-4">
                   <div>
-                    <h3 className="font-bold text-sm text-gray-900">{plan.name}</h3>
+                    <h3 className="font-bold text-sm text-gray-900">
+                      {plan.name}
+                    </h3>
                     <div className="mt-2 flex items-baseline">
                       <span className="text-4xl font-bold">${plan.price}</span>
                       <span className="text-gray-500 ml-2">MONTHLY</span>
                     </div>
-                    <p className="text-sm text-gray-500 mt-2">{plan.description}</p>
+                    <p className="text-sm text-gray-500 mt-2">
+                      {plan.description}
+                    </p>
                   </div>
                   <div className="space-y-3 pt-4">
                     {plan.features.map((feature, i) => (
@@ -215,7 +258,11 @@ const blocks = [
                       </div>
                     ))}
                   </div>
-                  <Button className={`w-full mt-6 ${plan.color} ${plan.hoverColor} text-white`}>Buy Now</Button>
+                  <Button
+                    className={`w-full mt-6 ${plan.color} ${plan.hoverColor} text-white`}
+                  >
+                    Buy Now
+                  </Button>
                 </div>
               </div>
             ))}
@@ -224,7 +271,7 @@ const blocks = [
       </div>
     ),
   },
-]
+];
 
 export default function PricingBlocks() {
   return (
@@ -239,10 +286,16 @@ export default function PricingBlocks() {
 
           <div className="grid gap-8">
             {blocks.map((block, index) => (
-              <div key={index} className="rounded-2xl overflow-hidden border shadow-lg">
+              <div
+                key={index}
+                className="rounded-2xl overflow-hidden border shadow-lg"
+              >
                 <div className="flex items-center justify-between p-4 border-b bg-white">
                   <span className="text-gray-600">{block.title}</span>
-                  <Button variant="link" className="text-purple-600 font-medium">
+                  <Button
+                    variant="link"
+                    className="text-purple-600 font-medium"
+                  >
                     View Live Demo
                     <ArrowRight className="w-4 h-4 ml-2" />
                   </Button>
@@ -254,6 +307,5 @@ export default function PricingBlocks() {
         </div>
       </div>
     </div>
-  )
+  );
 }
-
