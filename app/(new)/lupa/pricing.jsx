@@ -7,7 +7,7 @@ const blocks = [
   {
     title: "Three Plans With Primary Background at Top",
     component: (
-      <div className="bg-purple-600 text-white py-16">
+      <div className="bg-[#2D1537] text-white py-16">
         <div className="container mx-auto px-4">
           <div className="text-center space-y-4 mb-12">
             <h2 className="text-3xl md:text-4xl font-bold">
@@ -79,14 +79,14 @@ const blocks = [
                   <div className="space-y-3">
                     {plan.features.map((feature, i) => (
                       <div key={i} className="flex items-center gap-2">
-                        <Check className="w-5 h-5 text-purple-600" />
+                        <Check className="w-5 h-5 text-[#2D1537]" />
                         <span>{feature}</span>
                       </div>
                     ))}
                   </div>
                 </div>
                 <div className="p-6 border-t">
-                  <Button className="w-full bg-purple-600 hover:bg-purple-700">
+                  <Button className="w-full bg-[#2D1537] hover:bg-purple-700">
                     Create Server
                   </Button>
                 </div>
@@ -159,12 +159,12 @@ const blocks = [
                   <div className="space-y-3 pt-4">
                     {plan.features.map((feature, i) => (
                       <div key={i} className="flex items-center gap-2">
-                        <Check className="w-5 h-5 text-purple-600" />
+                        <Check className="w-5 h-5 text-[#2D1537]" />
                         <span>{feature}</span>
                       </div>
                     ))}
                   </div>
-                  <Button className="w-full mt-6 bg-purple-600 hover:bg-purple-700">
+                  <Button className="w-full mt-6 bg-[#2D1537] hover:bg-purple-700">
                     Buy Now
                   </Button>
                 </div>
@@ -213,7 +213,7 @@ const blocks = [
                 name: "BUSINESS",
                 price: "37.99",
                 description: "Suited for Production Websites",
-                color: "bg-purple-600",
+                color: "bg-[#2D1537]",
                 hoverColor: "hover:bg-purple-700",
                 features: [
                   "40 Templates",
@@ -279,7 +279,7 @@ export default function PricingBlocks() {
       <div className="container mx-auto px-4">
         <div className="space-y-8">
           <div className="space-y-4">
-            <h2 className="text-4xl font-bold text-purple-600 inline-block border-b-4 border-purple-600">
+            <h2 className="text-4xl font-bold text-[#2D1537] inline-block border-b-4 border-[#2D1537]">
               Pricing Section
             </h2>
           </div>
@@ -292,10 +292,7 @@ export default function PricingBlocks() {
               >
                 <div className="flex items-center justify-between p-4 border-b bg-white">
                   <span className="text-gray-600">{block.title}</span>
-                  <Button
-                    variant="link"
-                    className="text-purple-600 font-medium"
-                  >
+                  <Button variant="link" className="text-[#2D1537] font-medium">
                     View Live Demo
                     <ArrowRight className="w-4 h-4 ml-2" />
                   </Button>
