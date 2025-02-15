@@ -1,5 +1,14 @@
-import { Button } from "@/components/ui/button"
-import { ArrowRight, Shield, Headphones, Settings, RefreshCcw, Zap, Users, DollarSign } from "lucide-react"
+import { Button } from "@/components/ui/button";
+import {
+  ArrowRight,
+  Shield,
+  Headphones,
+  Settings,
+  RefreshCcw,
+  Zap,
+  Users,
+  DollarSign,
+} from "lucide-react";
 
 const blocks = [
   {
@@ -12,26 +21,29 @@ const blocks = [
               {
                 icon: <Shield className="w-6 h-6" />,
                 title: "Secure",
-                description: "We strictly only deal with vendors that provide top notch security.",
+                description:
+                  "We strictly only deal with vendors that provide top notch security.",
               },
               {
                 icon: <Headphones className="w-6 h-6" />,
                 title: "24/7 Support",
-                description: "Lorem ipsum donor amet siti ceali placeholder text",
+                description:
+                  "Lorem ipsum donor amet siti ceali placeholder text",
               },
               {
                 icon: <Settings className="w-6 h-6" />,
                 title: "Customizable",
-                description: "Lorem ipsum donor amet siti ceali placeholder text",
+                description:
+                  "Lorem ipsum donor amet siti ceali placeholder text",
               },
             ].map((feature, index) => (
               <div key={index} className="text-center">
-                <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-purple-100 text-purple-600 mb-4">
+                <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-purple-100 text-[#2D1537] mb-4">
                   {feature.icon}
                 </div>
                 <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
                 <p className="text-gray-600 mb-4">{feature.description}</p>
-                <Button variant="link" className="text-purple-600">
+                <Button variant="link" className="text-[#2D1537]">
                   Learn More <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>
               </div>
@@ -49,25 +61,29 @@ const blocks = [
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <div className="space-y-4">
-                <p className="text-purple-600 font-medium">Our Expertise</p>
+                <p className="text-[#2D1537] font-medium">Our Expertise</p>
                 <h2 className="text-4xl font-bold text-gray-900">
-                  We have the most <span className="text-purple-600">professional</span> marketing team.
+                  We have the most{" "}
+                  <span className="text-[#2D1537]">professional</span> marketing
+                  team.
                 </h2>
                 <p className="text-gray-600">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
               </div>
               <div className="space-y-6">
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center">
-                    <Users className="w-6 h-6 text-purple-600" />
+                    <Users className="w-6 h-6 text-[#2D1537]" />
                   </div>
                   <div>
                     <h3 className="font-semibold">Professionalism</h3>
                     <p className="text-gray-600">
-                      We have the best professional marketing people across the globe just to work with you.
+                      We have the best professional marketing people across the
+                      globe just to work with you.
                     </p>
                   </div>
                 </div>
@@ -78,12 +94,15 @@ const blocks = [
                   <div>
                     <h3 className="font-semibold">Affordable</h3>
                     <p className="text-gray-600">
-                      We promise to offer you the best rate we can - at par with the industry standard.
+                      We promise to offer you the best rate we can - at par with
+                      the industry standard.
                     </p>
                   </div>
                 </div>
               </div>
-              <Button className="bg-purple-600 hover:bg-purple-700">See Our Portfolio</Button>
+              <Button className="bg-[#2D1537] hover:bg-[#2D1537]">
+                See Our Portfolio
+              </Button>
             </div>
             <div className="grid grid-cols-3 gap-4">
               {[...Array(8)].map((_, i) => (
@@ -109,11 +128,13 @@ const blocks = [
       <div className="bg-white py-16">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-2xl mx-auto mb-16">
-            <p className="text-purple-600 font-medium mb-2">Features</p>
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Amazing Features</h2>
+            <p className="text-[#2D1537] font-medium mb-2">Features</p>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">
+              Amazing Features
+            </h2>
             <p className="text-gray-600">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -121,37 +142,43 @@ const blocks = [
               {
                 icon: <Shield className="w-6 h-6" />,
                 title: "Secure",
-                description: "We strictly only deal with vendors that provide top notch security.",
+                description:
+                  "We strictly only deal with vendors that provide top notch security.",
               },
               {
                 icon: <Headphones className="w-6 h-6" />,
                 title: "24/7 Support",
-                description: "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.",
+                description:
+                  "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.",
               },
               {
                 icon: <Settings className="w-6 h-6" />,
                 title: "Customizable",
-                description: "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.",
+                description:
+                  "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.",
               },
               {
                 icon: <RefreshCcw className="w-6 h-6" />,
                 title: "Reliable",
-                description: "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.",
+                description:
+                  "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.",
               },
               {
                 icon: <Zap className="w-6 h-6" />,
                 title: "Fast",
-                description: "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.",
+                description:
+                  "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.",
               },
               {
                 icon: <Users className="w-6 h-6" />,
                 title: "Easy",
-                description: "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.",
+                description:
+                  "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.",
               },
             ].map((feature, index) => (
               <div key={index} className="flex items-start gap-4">
                 <div className="shrink-0">
-                  <div className="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center text-purple-600">
+                  <div className="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center text-[#2D1537]">
                     {feature.icon}
                   </div>
                 </div>
@@ -174,17 +201,21 @@ const blocks = [
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <div className="space-y-4">
-                <p className="text-purple-600 font-medium">Our Expertise</p>
+                <p className="text-[#2D1537] font-medium">Our Expertise</p>
                 <h2 className="text-4xl font-bold text-gray-900">
-                  Designed & Developed by <span className="text-purple-600">Professionals.</span>
+                  Designed & Developed by{" "}
+                  <span className="text-[#2D1537]">Professionals.</span>
                 </h2>
                 <p className="text-gray-600">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
               </div>
-              <Button className="bg-purple-600 hover:bg-purple-700">Learn More</Button>
+              <Button className="bg-[#2D1537] hover:bg-[#2D1537]">
+                Learn More
+              </Button>
             </div>
             <div className="grid grid-cols-3 gap-4">
               {[...Array(8)].map((_, i) => (
@@ -207,13 +238,13 @@ const blocks = [
   {
     title: "Three Column With Side Image With Primary Background",
     component: (
-      <div className="bg-purple-600 text-white py-16">
+      <div className="bg-[#2D1537] text-white py-16">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-2xl mx-auto mb-16">
             <h2 className="text-4xl font-bold mb-4">Amazing Features</h2>
             <p className="text-purple-100">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -221,32 +252,38 @@ const blocks = [
               {
                 icon: <Shield className="w-6 h-6" />,
                 title: "Secure",
-                description: "We strictly only deal with vendors that provide top notch security infrastructure.",
+                description:
+                  "We strictly only deal with vendors that provide top notch security infrastructure.",
               },
               {
                 icon: <Headphones className="w-6 h-6" />,
                 title: "24/7 Support",
-                description: "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.",
+                description:
+                  "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.",
               },
               {
                 icon: <Settings className="w-6 h-6" />,
                 title: "Customizable",
-                description: "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.",
+                description:
+                  "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.",
               },
               {
                 icon: <RefreshCcw className="w-6 h-6" />,
                 title: "Reliable",
-                description: "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.",
+                description:
+                  "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.",
               },
               {
                 icon: <Zap className="w-6 h-6" />,
                 title: "Fast",
-                description: "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.",
+                description:
+                  "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.",
               },
               {
                 icon: <Users className="w-6 h-6" />,
                 title: "Easy",
-                description: "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.",
+                description:
+                  "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.",
               },
             ].map((feature, index) => (
               <div key={index} className="flex items-start gap-4">
@@ -272,7 +309,7 @@ const blocks = [
       <div className="bg-white py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-center mb-16">
-            Our Professional <span className="text-purple-600">Services</span>
+            Our Professional <span className="text-[#2D1537]">Services</span>
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
@@ -313,11 +350,16 @@ const blocks = [
                   "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud. Sic Semper Tyrannis. Neoas Calie artel.",
               },
             ].map((service, index) => (
-              <div key={index} className="p-6 border-2 border-dashed border-purple-600 rounded-lg text-center">
-                <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-purple-100 text-purple-600 mb-4">
+              <div
+                key={index}
+                className="p-6 border-2 border-dashed border-[#2D1537] rounded-lg text-center"
+              >
+                <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-purple-100 text-[#2D1537] mb-4">
                   {service.icon}
                 </div>
-                <h3 className="text-xl font-semibold mb-2 text-purple-600">{service.title}</h3>
+                <h3 className="text-xl font-semibold mb-2 text-[#2D1537]">
+                  {service.title}
+                </h3>
                 <p className="text-gray-600">{service.description}</p>
               </div>
             ))}
@@ -326,7 +368,7 @@ const blocks = [
       </div>
     ),
   },
-]
+];
 
 export default function FeaturesBlocks() {
   return (
@@ -334,17 +376,20 @@ export default function FeaturesBlocks() {
       <div className="container mx-auto px-4">
         <div className="space-y-8">
           <div className="space-y-4">
-            <h2 className="text-4xl font-bold text-purple-600 inline-block border-b-4 border-purple-600">
+            <h2 className="text-4xl font-bold text-[#2D1537] inline-block border-b-4 border-[#2D1537]">
               Features Section
             </h2>
           </div>
 
           <div className="grid gap-8">
             {blocks.map((block, index) => (
-              <div key={index} className="rounded-2xl overflow-hidden border shadow-lg">
+              <div
+                key={index}
+                className="rounded-2xl overflow-hidden border shadow-lg"
+              >
                 <div className="flex items-center justify-between p-4 border-b bg-white">
                   <span className="text-gray-600">{block.title}</span>
-                  <Button variant="link" className="text-purple-600 font-medium">
+                  <Button variant="link" className="text-[#2D1537] font-medium">
                     View Live Demo
                     <ArrowRight className="w-4 h-4 ml-2" />
                   </Button>
@@ -356,6 +401,5 @@ export default function FeaturesBlocks() {
         </div>
       </div>
     </div>
-  )
+  );
 }
-

@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import Showcase from "./showcase";
 import BlocksSection from "./blocks";
 import PricingBlocks from "./pricing";
+import FeaturesBlocks from "./features";
 
 export default function Lupa() {
   return (
@@ -104,6 +105,8 @@ export default function Lupa() {
       <BlocksSection />
 
       <PricingBlocks />
+
+      <FeaturesBlocks />
     </div>
   );
 }
