@@ -1,4 +1,4 @@
-
+<p>Last updated: {new Date().toLocaleDateString()}</p>
 
 ### COLOUR CODES:
 
