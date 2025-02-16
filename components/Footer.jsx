@@ -17,7 +17,7 @@ const footerData = [
   {
     title: "Links",
     links: [
-      { name: "Challenge", path: "/challenges/frontend" },
+      { name: "Contributing", path: "/contributing" },
       { name: "Affiliates", path: "/affiliates" },
       { name: "Partner with Us", path: "/resources/supporting/partner" },
       { name: "Research", path: "/research" },
@@ -26,13 +26,14 @@ const footerData = [
     ],
   },
   {
-    title: "Resources",
+    title: "Sources",
     links: [
       { name: "Books", path: "/resources/books" },
+      { name: "Resources", path: "/resources" },
       { name: "30daysChallenge", path: "/30dayschallenge" },
       { name: "Projects", path: "https://projects.lupleg.org" },
       { name: "Tips", path: "/tips" },
-      { name: "Blogs", path: "/blog" },
+      { name: "Blogs", path: "/blogs" },
       { name: "Docs", path: "/docs" },
     ],
   },

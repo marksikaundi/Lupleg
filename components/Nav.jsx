@@ -29,16 +29,16 @@ export default function Nav() {
                 Challenges
               </Link>
               <Link
-                href="/resources"
+                href="/lupa"
                 className="text-[#2D1537] hover:text-[#2D1537]"
               >
-                Resources
+                Lupa
               </Link>
               <Link
-                href="/contributing"
+                href="/templates"
                 className="text-[#2D1537] hover:text-[#2D1537]"
               >
-                Contributing
+                Templates
               </Link>
             </div>
           </div>
