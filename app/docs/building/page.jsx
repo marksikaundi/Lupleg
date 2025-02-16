@@ -21,7 +21,7 @@ export default function Building() {
               Using Lupleg
             </Link>
             <Link
-              href="/docs/docs/building/"
+              href="/docs/building/"
               className=" text-[#2D1537] border-b-2 border-[#2D1537] hover:text-gray-900 h-full flex items-center flex-shrink-0"
             >
               Building Lupleg
