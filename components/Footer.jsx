@@ -33,7 +33,7 @@ const footerData = [
       { name: "30daysChallenge", path: "/30dayschallenge" },
       { name: "Projects", path: "https://projects.lupleg.org" },
       { name: "Tips", path: "/tips" },
-      { name: "Blogs", path: "/blog" },
+      { name: "Blogs", path: "/blogs" },
       { name: "Docs", path: "/docs" },
     ],
   },
