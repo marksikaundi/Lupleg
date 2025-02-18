@@ -40,7 +40,7 @@ export default function Showcase() {
     },
     {
       title: "Beautiful React Templates",
-      highlight: "for you.",
+      highlight: "lodging near",
       description:
         "Our templates are easy to setup, understand and customize. Each packed with a variety of widgets and components.",
       image:
@@ -50,7 +50,7 @@ export default function Showcase() {
     },
     {
       title: "Beautiful React Templates",
-      highlight: "for you.",
+      highlight: "take coffee",
       description:
         "Our templates are easy to setup, understand and customize. Each packed with a variety of widgets and components.",
       image:
@@ -60,7 +60,7 @@ export default function Showcase() {
     },
     {
       title: "Beautiful React Templates",
-      highlight: "for you.",
+      highlight: "nice view",
       description:
         "Our templates are easy to setup, understand and customize. Each packed with a variety of widgets and components.",
       image:
