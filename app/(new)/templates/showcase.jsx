@@ -42,7 +42,7 @@ export default function Showcase() {
       title: "Lodging React Templates",
       highlight: "lodging near",
       description:
-        "Our templates are easy to setup, understand and customize. Each packed with a variety of widgets and components.",
+        "Stress free you can always find lodges near incase you are stranded  ",
       image:
         "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-02-15%20at%2012.17.36%20AM-yl90uTUaQSEVr54cGe5fo8UcxChx9y.png",
       features: ["Reliable", "Fast", "Easy"],
