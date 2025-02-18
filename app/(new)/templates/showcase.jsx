@@ -39,7 +39,7 @@ export default function Showcase() {
       demoLink: "https://react-templates-demo.vercel.app",
     },
     {
-      title: "Beautiful React Templates",
+      title: "Lodging React Templates",
       highlight: "lodging near",
       description:
         "Our templates are easy to setup, understand and customize. Each packed with a variety of widgets and components.",
@@ -49,7 +49,7 @@ export default function Showcase() {
       demoLink: "https://react-templates-demo.vercel.app",
     },
     {
-      title: "Beautiful React Templates",
+      title: "Coffee React Templates",
       highlight: "take coffee",
       description:
         "Our templates are easy to setup, understand and customize. Each packed with a variety of widgets and components.",
@@ -59,7 +59,7 @@ export default function Showcase() {
       demoLink: "https://react-templates-demo.vercel.app",
     },
     {
-      title: "Beautiful React Templates",
+      title: "View React Templates",
       highlight: "nice view",
       description:
         "Our templates are easy to setup, understand and customize. Each packed with a variety of widgets and components.",
