@@ -14,10 +14,10 @@ export default function Challenges() {
         <div className="relative my-16 text-center z-20">
           <p className="text-black text-lg mt-4 mb-8 w-96 max-w-full">
             Join{" "}
-            <b>
-              <a className="cursor-pointer" href="/challenges/frontend">
+            <b className="mr-2">
+              <Link className="cursor-pointer" href="/challenges/frontend">
                 10240
-              </a>
+              </Link>
               + developers
             </b>
             supercharging their coding skills by building projects.
