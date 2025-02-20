@@ -128,7 +128,7 @@ export default function BlogPage() {
 
       <div className="grid gap-8">
         {posts.map((post) => (
-          <Link key={post.id} href={`/blog/${post.slug}`}>
+          <Link key={post.id} href={`/blogs/${post.slug}`}>
             <Card className="bg-[#2D1537] border-gray-800 overflow-hidden hover:border-gray-700 transition-colors">
               <CardContent className="p-0">
                 <div className="grid md:grid-cols-[1fr_1.5fr] gap-6">
