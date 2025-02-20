@@ -18,7 +18,7 @@ export default function Component() {
                   <PlayCircle className="w-16 h-16 text-[#2D1537] opacity-50" />
                 </div>
               </div>
-              <h2 className="mb-4">TypeScript 5.8 Beta is OUT!</h2>
+              <h2 className="mb-4">What Are Type Predicates?</h2>
               <div className="flex items-center space-x-4 mb-4">
                 <Image
                   src="/mark.jpg"
@@ -30,20 +30,27 @@ export default function Component() {
                 <div>
                   <p className="font-semibold">Mark Sikaundi</p>
                   <p className="text-sm text-zinc-400">
-                    February 09th, 2025 | 21:1 | 0
+                    February 20th, 2025 | 21:1 | 0
                   </p>
                 </div>
               </div>
               <p className="mb-4">
-                Everything you need to know in latest TypeScript 5.8 Beta
+                A type predicate is a special kind of return type annotation in
+                TypeScript that tells the compiler how to refine the type of a
+                variable based on a condition. It’s written in the form
+                parameterName is Type, where parameterName is the function’s
+                parameter, and Type is the type you’re asserting it to be. This
+                is especially useful when dealing with union types or when
+                TypeScript can’t infer the type narrowing on its own.
               </p>
+
               <p className="mb-4">
-                To get started using the beta, you can get it through NuGet or
-                through npm with the NPM command:
+                {" "}
+                Think of it as a way to "promise" TypeScript that if a function
+                returns true, the parameter is of a specific type. The compiler
+                trusts this promise and narrows the type accordingly in the
+                subsequent code.
               </p>
-              <pre className="mb-4">
-                <code>{`npm install -D typescript@beta`}</code>
-              </pre>
 
               <div className="flex space-x-2">
                 <Button
