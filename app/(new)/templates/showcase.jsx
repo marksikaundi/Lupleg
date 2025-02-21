@@ -39,30 +39,30 @@ export default function Showcase() {
       demoLink: "https://react-templates-demo.vercel.app",
     },
     {
-      title: "Beautiful React Templates",
-      highlight: "for you.",
+      title: "Lodging React Templates",
+      highlight: "lodging near",
       description:
-        "Our templates are easy to setup, understand and customize. Each packed with a variety of widgets and components.",
+        "Stress free you can always find lodges near incase you are stranded with just a single click  ",
       image:
         "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-02-15%20at%2012.17.36%20AM-yl90uTUaQSEVr54cGe5fo8UcxChx9y.png",
       features: ["Reliable", "Fast", "Easy"],
       demoLink: "https://react-templates-demo.vercel.app",
     },
     {
-      title: "Beautiful React Templates",
-      highlight: "for you.",
+      title: "Coffee React Templates",
+      highlight: "take coffee",
       description:
-        "Our templates are easy to setup, understand and customize. Each packed with a variety of widgets and components.",
+        "Looking for a coffee shop near you? We have a variety of coffee shops that you can choose from.",
       image:
         "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-02-15%20at%2012.17.36%20AM-yl90uTUaQSEVr54cGe5fo8UcxChx9y.png",
       features: ["Reliable", "Fast", "Easy"],
       demoLink: "https://react-templates-demo.vercel.app",
     },
     {
-      title: "Beautiful React Templates",
-      highlight: "for you.",
+      title: "View React Templates",
+      highlight: "nice view",
       description:
-        "Our templates are easy to setup, understand and customize. Each packed with a variety of widgets and components.",
+        "Find the best views near you. We have a variety of places that you can visit and enjoy the view.",
       image:
         "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-02-15%20at%2012.17.36%20AM-yl90uTUaQSEVr54cGe5fo8UcxChx9y.png",
       features: ["Reliable", "Fast", "Easy"],

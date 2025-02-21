@@ -1,4 +1,4 @@
-
+<p>Last updated: {new Date().toLocaleDateString()}</p>
 
 ### COLOUR CODES:
 
@@ -7,6 +7,11 @@
     - BUTTON: <Button className=" bg-[#F3A833] text-white hover:bg-[#F3A833]">
     - CARD SECTION: bg-[#56425F]
     - ICON BACKGROUND: bg-[#C9C0CD]
+### TODO
+    - TEMPLATES: THUMBNAILS
+    - TEMPLATES: CONTENTS
+    - FRONTEND: CHALLENGES
+
 
 ### FIX IN PROGRESS:
 

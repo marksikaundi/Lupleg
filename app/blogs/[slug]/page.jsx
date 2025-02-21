@@ -891,7 +891,7 @@ export default function BlogPost({ params }) {
     <article className="container mx-auto px-4 py-16 max-w-4xl">
       <div className="mb-8">
         <Link
-          href="/blog"
+          href="/blogs"
           className="inline-flex items-center text-sm text-[#2D1537] hover:text-[#2D1537] mb-6"
         >
           <IoIosArrowRoundBack className="mr-2 h-4 w-4" />
