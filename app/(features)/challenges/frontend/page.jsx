@@ -72,7 +72,7 @@ const challenges = [
   },
 ];
 
-export default function UIOview() {   
+export default function Page() {   
   return (
     <div className="flex flex-col min-h-screen">
       <FrontendHero />
