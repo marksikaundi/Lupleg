@@ -1,7 +1,7 @@
 import MoreFAQ from "@/components/FeaturesCards/MoreFAQ";
 import React from "react";
 
-function FAQ() {
+export default function FAQ() {
   return (
     <div className="w-full bg-transparent">
       <div className="flex flex-col  md:flex-row lg:gap-20 gap-8 md:gap-12 container mx-auto lg:py-16 py-10 px-8">
@@ -76,7 +76,7 @@ function FAQ() {
             </div>
 
             <p className="lg:text-sm text-black xl:text-lg 2xl:text-xl md:text-xs">
-              Lupleg MMS offers a range of flexible pricing plans to match the
+              At MMS offers a range of flexible pricing plans to match the
               unique needs of your organization. Whether you're a startup or a
               large enterprise, we have a solution that scales with you.
             </p>
@@ -116,4 +116,4 @@ function FAQ() {
   );
 }
 
-export default FAQ;
+

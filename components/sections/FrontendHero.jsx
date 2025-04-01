@@ -18,10 +18,10 @@ export default function FrontendHero() {
       <div className="max-w-4xl mx-auto">
         <div className="mb-8 flex justify-center">
           <div className="bg-white text-[#2D1537] text-xs sm:text-sm font-medium px-3 py-2 rounded-full flex flex-wrap items-center justify-center gap-2 max-w-full">
-            <span className="whitespace-nowrap">Free</span>
+            <span className="whitespace-nowrap"></span>
             <div className="hidden sm:block w-px h-4 bg-white"></div>
             <Link
-              href="#ui"
+              href="/lupa"
               className="flex items-center hover:underline whitespace-nowrap"
             >
               <span className="sm:hidden">no hustle</span>
