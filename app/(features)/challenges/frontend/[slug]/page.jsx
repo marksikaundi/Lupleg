@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 const challenges = {
   "responsive-portfolio-website": {
     title: "Responsive Portfolio Website",
-    difficulty: "Beginner",
+    level: "Beginner",
     description:
       "Create a personal portfolio website that showcases your projects and skills. The website should be fully responsive and implement modern design principles.",
     duration: "1-2 weeks",
@@ -23,7 +23,8 @@ const challenges = {
     steps: [
       {
         title: "Project Setup",
-        description: "Set up your development environment and project structure",
+        description:
+          "Set up your development environment and project structure",
       },
       {
         title: "HTML Structure",
@@ -35,7 +36,8 @@ const challenges = {
       },
       {
         title: "Interactivity",
-        description: "Add JavaScript functionality for enhanced user experience",
+        description:
+          "Add JavaScript functionality for enhanced user experience",
       },
       {
         title: "Testing & Optimization",
@@ -45,7 +47,7 @@ const challenges = {
   },
   "interactive-dashboard": {
     title: "Interactive Dashboard",
-    difficulty: "Intermediate",
+    level: "Intermediate",
     description:
       "Build a dynamic dashboard application with data visualization, real-time updates, and interactive features using modern frontend frameworks.",
     duration: "2-3 weeks",
@@ -87,7 +89,7 @@ const challenges = {
   },
   "e-commerce-product-page": {
     title: "E-commerce Product Page",
-    difficulty: "Intermediate",
+    level: "Intermediate",
     description:
       "Create a fully functional e-commerce product page with image gallery, cart functionality, and dynamic pricing updates.",
     duration: "1-2 weeks",
@@ -129,7 +131,7 @@ const challenges = {
   },
   "social-media-app-ui": {
     title: "Social Media App UI",
-    difficulty: "Advanced",
+    level: "Advanced",
     description:
       "Develop a complex social media application interface with real-time updates, infinite scroll, and interactive features.",
     duration: "3-4 weeks",
@@ -212,10 +214,12 @@ export default function ChallengePage({ params }) {
                 {challenge.title}
               </h1>
               <span className="px-4 py-2 text-sm font-semibold rounded-full bg-blue-100 text-blue-800">
-                {challenge.difficulty}
+                {challenge.level}
               </span>
             </div>
-            <p className="text-lg text-gray-600 mb-6">{challenge.description}</p>
+            <p className="text-lg text-gray-600 mb-6">
+              {challenge.description}
+            </p>
             <div className="text-sm text-gray-500">
               Expected Duration: {challenge.duration}
             </div>

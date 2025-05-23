@@ -44,7 +44,8 @@ export default function Frontend() {
             Frontend Development Challenges
           </h1>
           <p className="text-xl text-gray-600">
-            Master frontend development through hands-on challenges and modern UI/UX projects
+            Master frontend development through hands-on challenges and modern
+            UI/UX projects
           </p>
         </div>
 
