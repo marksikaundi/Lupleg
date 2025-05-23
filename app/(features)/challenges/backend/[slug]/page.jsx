@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import Link from 'next/link';
 
 const challenges = {
   'restful-api-development': {
@@ -178,6 +179,19 @@ export default function ChallengePage({ params }) {
   return (
     <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
+        {/* Back Button */}
+        <div className="mb-8">
+          <Link
+            href="/challenges/backend"
+            className="inline-flex items-center text-blue-600 hover:text-blue-800"
+          >
+            <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+            </svg>
+            Back to Challenges
+          </Link>
+        </div>
+
         <div className="mb-12">
           <div className="flex items-center justify-between mb-6">
             <h1 className="text-4xl font-bold text-gray-900">{challenge.title}</h1>
