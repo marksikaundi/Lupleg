@@ -12,54 +12,7 @@ import {
   Filter,
 } from "lucide-react";
 
-const templates = [
-  {
-    title: "Blog Template",
-    description:
-      "Modern blog layout with featured images, categories, and responsive design",
-    category: "Content",
-    icon: BookOpen,
-    gradient: "from-pink-500 to-rose-500",
-    demoUrl: "#",
-    preview: "/resources/blog-template.png",
-  },
-  {
-    title: "Portfolio Template",
-    description: "Showcase your work with this elegant portfolio design",
-    category: "Personal",
-    icon: PenTool,
-    gradient: "from-purple-500 to-indigo-500",
-    demoUrl: "#",
-    preview: "/resources/portfolio-template.png",
-  },
-  {
-    title: "Dashboard Template",
-    description: "Clean and modern admin dashboard with charts and widgets",
-    category: "Application",
-    icon: Laptop,
-    gradient: "from-blue-500 to-cyan-500",
-    demoUrl: "#",
-    preview: "/resources/dashboard-template.png",
-  },
-  {
-    title: "Documentation Template",
-    description: "Technical documentation layout with sidebar navigation",
-    category: "Documentation",
-    icon: Code,
-    gradient: "from-green-500 to-emerald-500",
-    demoUrl: "#",
-    preview: "/resources/docs-template.png",
-  },
-  {
-    title: "Landing Page Template",
-    description: "High-converting landing page with modern sections",
-    category: "Marketing",
-    icon: Layers,
-    gradient: "from-orange-500 to-yellow-500",
-    demoUrl: "#",
-    preview: "/resources/landing-template.png",
-  },
-];
+import { templates } from "./data";
 
 export default function TemplatesPage() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -157,7 +110,7 @@ export default function TemplatesPage() {
                 </p>
 
                 <Link
-                  href={template.demoUrl}
+                  href={`/templates/${template.id}`}
                   className="mt-4 inline-flex items-center text-sm font-medium text-indigo-300 hover:text-indigo-200 group/link"
                 >
                   <span className="relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-left after:scale-x-0 after:bg-indigo-300 after:transition-transform after:duration-300 group-hover/link:after:scale-x-100">
