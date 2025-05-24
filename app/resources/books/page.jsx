@@ -379,7 +379,7 @@ export default function Books() {
           open={!!selectedBook}
           onOpenChange={() => setSelectedBook(null)}
         >
-          <DialogContent className="max-w-4xl">
+          <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
             <DialogHeader>
               <DialogTitle className="text-2xl font-bold">
                 {selectedBook.title}
@@ -410,13 +410,14 @@ export default function Books() {
                     href={selectedBook.link}
                     className="flex-1 inline-flex items-center justify-center rounded-md bg-[#2D1537] px-6 py-3 text-white transition-colors hover:bg-[#3D1F47] hover:scale-[1.02]"
                     target="_blank"
+                    download
                     prefetch={false}
                   >
-                    Read Now
+                    Download
                   </Link>
                 </div>
               </div>
-              <div className="space-y-6">
+              <div className="space-y-4">
                 <div>
                   <h3 className="text-lg font-semibold mb-2">
                     About this Book
@@ -425,15 +426,13 @@ export default function Books() {
                     {selectedBook.description}
                   </p>
                 </div>
-                <div className="space-y-4">
-                  <div className="p-4 bg-gray-50 rounded-lg">
-                    <h4 className="text-sm font-medium text-gray-500 mb-2">
-                      Reading Format
-                    </h4>
-                    <p className="text-sm">
-                      {selectedBook.link.endsWith(".epub") ? "EPUB" : "PDF"}
-                    </p>
-                  </div>
+                <div className="p-4 bg-gray-50 rounded-lg">
+                  <h4 className="text-sm font-medium text-gray-500 mb-2">
+                    Reading Format
+                  </h4>
+                  <p className="text-sm">
+                    {selectedBook.link.endsWith(".epub") ? "EPUB" : "PDF"}
+                  </p>
                 </div>
               </div>
             </div>
