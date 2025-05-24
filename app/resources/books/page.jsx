@@ -42,7 +42,6 @@ export default function Books() {
                 Browse Books
               </Link>
               <Button
-                variant="outline"
                 className="h-12 rounded-full border-white text-white hover:bg-white/10"
               >
                 View Categories
@@ -88,7 +87,7 @@ export default function Books() {
                   className="w-full h-[400px] object-cover transition-transform group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                  <Button variant="secondary" className="text-white">
+                  <Button variant="secondary" className="text-[#2D1537]">
                     Preview Book
                   </Button>
                 </div>
@@ -128,7 +127,7 @@ export default function Books() {
                   className="w-full h-[400px] object-cover transition-transform group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                  <Button variant="secondary" className="text-white">
+                  <Button variant="secondary" className="text-[#2D1537]">
                     Preview Book
                   </Button>
                 </div>
@@ -164,7 +163,7 @@ export default function Books() {
                   className="w-full h-[400px] object-cover transition-transform group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                  <Button variant="secondary" className="text-white">
+                  <Button variant="secondary" className="text-[#2D1537]">
                     Preview Book
                   </Button>
                 </div>
@@ -202,7 +201,7 @@ export default function Books() {
                   className="w-full h-[400px] object-cover transition-transform group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                  <Button variant="secondary" className="text-white">
+                  <Button variant="secondary" className="text-[#2D1537]">
                     Preview Book
                   </Button>
                 </div>
@@ -240,7 +239,7 @@ export default function Books() {
                   className="w-full h-[400px] object-cover transition-transform group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                  <Button variant="secondary" className="text-white">
+                  <Button variant="secondary" className="text-[#2D1537]">
                     Preview Book
                   </Button>
                 </div>
@@ -278,7 +277,7 @@ export default function Books() {
                   className="w-full h-[400px] object-cover transition-transform group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                  <Button variant="secondary" className="text-white">
+                  <Button variant="secondary" className="text-[#2D1537]">
                     Preview Book
                   </Button>
                 </div>
@@ -315,7 +314,7 @@ export default function Books() {
                   className="w-full h-[400px] object-cover transition-transform group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                  <Button variant="secondary" className="text-white">
+                  <Button variant="secondary" className="text-[#2D1537]">
                     Preview Book
                   </Button>
                 </div>
@@ -353,7 +352,7 @@ export default function Books() {
                   className="w-full h-[400px] object-cover transition-transform group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                  <Button variant="secondary" className="text-white">
+                  <Button variant="secondary" className="text-[#2D1537]">
                     Preview Book
                   </Button>
                 </div>
