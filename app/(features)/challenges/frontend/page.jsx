@@ -1,115 +1,103 @@
-import { Button } from "@/components/ui/button";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { ArrowRight, Code2 } from "lucide-react";
 import Link from "next/link";
-import Image from "next/image";
-import FrontendHero from "@/components/sections/FrontendHero";
 
-const challenges = [
-  {
-    title: "Responsive Navigation Bar",
-    description:
-      "Create a responsive navigation bar that collapses into a hamburger menu on mobile devices.",
-    difficulty: "Beginner",
-    image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
-    link: "/challenges/frontend/nav-bar",
-  },
-  {
-    title: "Interactive Pricing Component",
-    description:
-      "Build an interactive pricing component with a toggle for monthly/yearly billing.",
-    difficulty: "Intermediate",
-    image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
-    link: "/challenges/frontend/pricing-card",
-  },
-  {
-    title: "Dark Mode Toggle",
-    description:
-      "Implement a dark mode toggle that switches between light and dark themes.",
-    difficulty: "Intermediate",
-    image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
-    link: "/challenges/frontend/dark-mode-toggle",
-  },
-  {
-    title: "Drag and Drop Area",
-    description:
-      "Create a drag and drop Area with functionality displaying name of file uploaded.",
-    difficulty: "Advanced",
-    image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
-    link: "/challenges/frontend/drag-and-drop",
-  },
-  {
-    title: "Animated Page Transitions",
-    description:
-      "Implement smooth page transitions using CSS animations or a animation library.",
-    difficulty: "Advanced",
-    image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
-    link: "/challenges/frontend/animation",
-  },
-  {
-    title: "Custom Video Player",
-    description:
-      "Build a custom video player with play, pause, seek, and volume controls.",
-    difficulty: "Intermediate",
-    image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
-    link: "/challenges/frontend/video-player",
-  },
-  {
-    title: "Pay Card Form",
-    description:
-      "Create a credit card form with card number, expiry date, and CVC code.",
-    difficulty: "Advanced",
-    image: "https://utfs.io/f/7c679591-6991-4402-bc63-0ee97010fc6f-1g.png",
-    link: "/challenges/frontend/pay",
-  },
-];
+export default function Frontend() {
+  const frontendChallenges = [
+    {
+      title: "Responsive Portfolio Website",
+      level: "Beginner",
+      description:
+        "Create a personal portfolio website that showcases your projects and skills. Focus on responsive design and modern CSS techniques.",
+      duration: "1-2 weeks",
+      techStack: ["HTML", "CSS", "JavaScript"],
+    },
+    {
+      title: "Interactive Dashboard",
+      level: "Intermediate",
+      description:
+        "Build a dynamic dashboard with real-time data visualization, filtering, and sorting capabilities using modern frontend frameworks.",
+      duration: "2-3 weeks",
+      techStack: ["React", "TypeScript", "Tailwind CSS", "Chart.js"],
+    },
+    {
+      title: "E-commerce Product Page",
+      level: "Intermediate",
+      description:
+        "Develop a fully functional product page with image gallery, cart functionality, and dynamic pricing updates.",
+      duration: "1-2 weeks",
+      techStack: ["Next.js", "React", "CSS Modules"],
+    },
+    {
+      title: "Social Media App UI",
+      level: "Advanced",
+      description:
+        "Create a complex social media application interface with real-time updates, infinite scroll, and interactive features.",
+      duration: "3-4 weeks",
+      techStack: ["React", "Redux", "Tailwind CSS", "Socket.io"],
+    },
+  ];
 
-export default function Page() {   
   return (
-    <div className="flex flex-col min-h-screen">
-      <FrontendHero />
-      <main className="flex-1">
-        <section id="ui" className="w-full py-12 md:py-24 lg:py-32">
-          <div className="container px-4 md:px-6">
-            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {challenges.map((challenge, index) => (
-                <Card key={index} className="overflow-hidden">
-                  <Image
-                    src={challenge.image}
-                    alt={challenge.title}
-                    width={400}
-                    height={200}
-                    className="w-full object-cover"
-                  />
-                  <CardHeader>
-                    <CardTitle>{challenge.title}</CardTitle>
-                    <CardDescription>{challenge.description}</CardDescription>
-                  </CardHeader>
-                  <CardContent>
-                    <Badge variant="secondary">{challenge.difficulty}</Badge>
-                  </CardContent>
-                  <CardFooter>
-                    <Link href={challenge.link || "#"}>
-                      <Button className="w-full bg-[#2D1537] hover:bg-[#2D1537]">
-                        Start Challenge
-                        <ArrowRight className="w-4 h-4 ml-2" />
-                      </Button>
-                    </Link>
-                  </CardFooter>
-                </Card>
-              ))}
+    <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto">
+        <div className="text-center mb-12">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">
+            Frontend Development Challenges
+          </h1>
+          <p className="text-xl text-gray-600">
+            Master frontend development through hands-on challenges and modern
+            UI/UX projects
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+          {frontendChallenges.map((challenge, index) => (
+            <div
+              key={index}
+              className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
+            >
+              <div className="p-6">
+                <div className="flex items-center justify-between mb-4">
+                  <h3 className="text-xl font-semibold text-gray-900">
+                    {challenge.title}
+                  </h3>
+                  <span className="px-3 py-1 text-sm font-medium rounded-full bg-blue-100 text-blue-800">
+                    {challenge.level}
+                  </span>
+                </div>
+                <p className="text-gray-600 mb-4">{challenge.description}</p>
+                <div className="mb-4">
+                  <span className="text-sm font-medium text-gray-500">
+                    Duration:{" "}
+                  </span>
+                  <span className="text-sm text-gray-900">
+                    {challenge.duration}
+                  </span>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  {challenge.techStack.map((tech, techIndex) => (
+                    <span
+                      key={techIndex}
+                      className="px-3 py-1 text-sm rounded-full bg-gray-100 text-gray-700"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+                <div className="mt-6">
+                  <Link
+                    href={`/challenges/frontend/${challenge.title
+                      .toLowerCase()
+                      .replace(/\s+/g, "-")}`}
+                    className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-[#2D1537] hover:bg-[#2D1537] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+                  >
+                    View Challenge
+                  </Link>
+                </div>
+              </div>
             </div>
-          </div>
-        </section>
-      </main>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }
