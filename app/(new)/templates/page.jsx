@@ -1,118 +1,207 @@
-import { Check } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import Showcase from "./showcase";
-import BlocksSection from "./blocks";
-import PricingBlocks from "./pricing";
-import FeaturesBlocks from "./features";
-import CardsBlocks from "./cards-blocks";
-import BlogBlocks from "./blog-blocks";
+"use client";
+import Link from "next/link";
+import { useState } from "react";
+import {
+  ArrowRight,
+  BookOpen,
+  Code,
+  Layers,
+  Laptop,
+  PenTool,
+  Search,
+  Filter,
+} from "lucide-react";
 
-export default function Page() {
+const templates = [
+  {
+    title: "Blog Template",
+    description:
+      "Modern blog layout with featured images, categories, and responsive design",
+    category: "Content",
+    icon: BookOpen,
+    gradient: "from-pink-500 to-rose-500",
+    demoUrl: "#",
+    preview: "/resources/blog-template.png",
+  },
+  {
+    title: "Portfolio Template",
+    description: "Showcase your work with this elegant portfolio design",
+    category: "Personal",
+    icon: PenTool,
+    gradient: "from-purple-500 to-indigo-500",
+    demoUrl: "#",
+    preview: "/resources/portfolio-template.png",
+  },
+  {
+    title: "Dashboard Template",
+    description: "Clean and modern admin dashboard with charts and widgets",
+    category: "Application",
+    icon: Laptop,
+    gradient: "from-blue-500 to-cyan-500",
+    demoUrl: "#",
+    preview: "/resources/dashboard-template.png",
+  },
+  {
+    title: "Documentation Template",
+    description: "Technical documentation layout with sidebar navigation",
+    category: "Documentation",
+    icon: Code,
+    gradient: "from-green-500 to-emerald-500",
+    demoUrl: "#",
+    preview: "/resources/docs-template.png",
+  },
+  {
+    title: "Landing Page Template",
+    description: "High-converting landing page with modern sections",
+    category: "Marketing",
+    icon: Layers,
+    gradient: "from-orange-500 to-yellow-500",
+    demoUrl: "#",
+    preview: "/resources/landing-template.png",
+  },
+];
+
+export default function TemplatesPage() {
+  const [searchQuery, setSearchQuery] = useState("");
+  const [selectedCategory, setSelectedCategory] = useState("All");
+
+  const categories = ["All", ...new Set(templates.map((t) => t.category))];
+
+  const filteredTemplates = templates.filter((template) => {
+    const matchesSearch =
+      template.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      template.description.toLowerCase().includes(searchQuery.toLowerCase());
+    const matchesCategory =
+      selectedCategory === "All" || template.category === selectedCategory;
+    return matchesSearch && matchesCategory;
+  });
+
   return (
-    <div className="min-h-screen bg-white">
-      <div className="w-full bg-orange-50 p-2">
-        <div className="container mx-auto">
-          <p className="text-orange-800 text-sm flex items-center gap-2">
-            <span className="inline-block w-2 h-2 bg-orange-500 rounded-full animate-pulse" />
-            Last updated on 14th February, 2025 - Added support for React v19
-            and TailwindCSS v4!
-          </p>
-        </div>
-      </div>
-
-      <div className="container mx-auto px-4 py-12 lg:py-16">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="space-y-8">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-[#2D1537]">
-              Free Modern React Templates for every need.
+    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
+      {/* Hero Section with Glassmorphism */}
+      <div className="relative overflow-hidden bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+        <div className="absolute inset-0 bg-grid-white/[0.2] bg-grid-pattern [mask-image:linear-gradient(0deg,transparent,black)]" />
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
+          <div className="text-center relative z-10">
+            <h1 className="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl [text-wrap:balance] bg-clip-text">
+              Stunning Website Templates
             </h1>
-
-            <p className="text-gray-600 text-lg leading-relaxed">
-              Easily customizable modern React UI Templates and Components built
-              using TailwindCSS which are also lightweight and simple to setup.
-              All components are modular and fully responsive for great mobile
-              experience as well as big desktop screens. Brand Colors are also
-              fully customizable. Free for personal as well as commercial use.
+            <p className="mt-6 max-w-md mx-auto text-lg text-white/90 sm:text-xl md:mt-8 md:max-w-3xl">
+              Discover our collection of professionally crafted templates.
+              Transform your ideas into reality with just a few clicks.
             </p>
 
-            <div className="grid sm:grid-cols-2 gap-4">
-              <div className="space-y-3">
-                <div className="flex items-center gap-2">
-                  <Check className="text-[#2D1537] w-5 h-5" />
-                  <span>7 Landing Page Demos</span>
+            {/* Search and Filter Bar */}
+            <div className="mt-10 max-w-2xl mx-auto">
+              <div className="flex gap-4 p-2 bg-white/10 backdrop-blur-lg rounded-full shadow-lg">
+                <div className="flex-1 relative">
+                  <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-white/60 w-5 h-5" />
+                  <input
+                    type="text"
+                    placeholder="Search templates..."
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                    className="w-full pl-10 pr-4 py-2 bg-white/10 border-0 rounded-full text-white placeholder-white/60 focus:ring-2 focus:ring-white/25 focus:outline-none"
+                  />
                 </div>
-                <div className="flex items-center gap-2">
-                  <Check className="text-[#2D1537] w-5 h-5" />
-                  <span>52 Components</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Check className="text-[#2D1537] w-5 h-5" />
-                  <span>Fully Responsive</span>
-                </div>
+                <select
+                  value={selectedCategory}
+                  onChange={(e) => setSelectedCategory(e.target.value)}
+                  className="px-4 py-2 bg-white/10 border-0 rounded-full text-white focus:ring-2 focus:ring-white/25 focus:outline-none appearance-none cursor-pointer"
+                >
+                  {categories.map((category) => (
+                    <option
+                      key={category}
+                      value={category}
+                      className="text-gray-900"
+                    >
+                      {category}
+                    </option>
+                  ))}
+                </select>
               </div>
-
-              <div className="space-y-3">
-                <div className="flex items-center gap-2">
-                  <Check className="text-[#2D1537] w-5 h-5" />
-                  <span>8 Inner Pages</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Check className="text-[#2D1537] w-5 h-5" />
-                  <span>Uses TailwindCSS</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Check className="text-[#2D1537] w-5 h-5" />
-                  <span>Fully Customizable</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-[#2D1537] hover:bg-[#2D1537]">
-                Explore Demos
-              </Button>
-              <Button size="lg" variant="secondary">
-                View Components
-              </Button>
-            </div>
-          </div>
-
-          <div className="relative">
-            <div className="relative w-full aspect-[4/3]">
-              <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-02-14%20at%2011.16.06%20PM-WbP0AaOpophrzOm65PYYnLmILo9ja9.png"
-                alt="React templates preview showing multiple screens with modern designs"
-                className="object-contain"
-              />
             </div>
           </div>
         </div>
       </div>
-      <Showcase />
 
-      <div className="mb-12 mt-6">
-        <h1 className="text-4xl md:text-5xl mb-4 lg:text-6xl font-bold text-center tracking-tight text-[#2D1537]">
-          Component Blocks
-        </h1>
-        <p className="text-gray-600 text-center mx-4 md:mx-16 lg:mx-32 text-lg leading-relaxed">
-          We also provide 52 components along with the premade landing pages so
-          you can create your own landing page within minutes as you see fit.
-          You can combine these components to create 1000s of unique attractive
-          web pages.
-        </p>
-        <p className="text-gray-600 text-center mx-4 md:mx-16 lg:mx-32 text-md leading-relaxed">
-          (Preview Panel below inspired by Tailwind UI)
-        </p>
+      {/* Templates Grid with Modern Cards */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+          {filteredTemplates.map((template, index) => (
+            <div
+              key={index}
+              className="group relative bg-white rounded-2xl shadow-sm hover:shadow-2xl transition-all duration-500 overflow-hidden"
+            >
+              {/* Preview Image with Gradient Overlay */}
+              <div className="aspect-w-16 aspect-h-9 bg-gray-100 relative overflow-hidden">
+                <div
+                  className={`absolute inset-0 bg-gradient-to-br ${template.gradient} opacity-90 transition-opacity group-hover:opacity-100`}
+                />
+                <template.icon className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-16 h-16 text-white opacity-25 transition-all duration-500 group-hover:scale-110 group-hover:opacity-40" />
+              </div>
+
+              {/* Content with Hover Effects */}
+              <div className="p-6 transition-transform duration-500 group-hover:transform group-hover:translate-y-[-4px]">
+                <div className="flex items-center space-x-2">
+                  <template.icon className="w-5 h-5 text-gray-400" />
+                  <span className="text-sm font-medium text-gray-500">
+                    {template.category}
+                  </span>
+                </div>
+                <h3 className="mt-2 text-xl font-bold text-gray-900">
+                  {template.title}
+                </h3>
+                <p className="mt-2 text-gray-500 line-clamp-2">
+                  {template.description}
+                </p>
+
+                {/* Action Button with Animation */}
+                <Link
+                  href={template.demoUrl}
+                  className="mt-4 inline-flex items-center text-sm font-medium text-indigo-600 hover:text-indigo-500 group/link"
+                >
+                  <span className="relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-left after:scale-x-0 after:bg-indigo-600 after:transition-transform after:duration-300 group-hover/link:after:scale-x-100">
+                    View Template
+                  </span>
+                  <ArrowRight className="ml-2 w-4 h-4 transition-transform duration-300 group-hover/link:translate-x-1" />
+                </Link>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
-      <BlocksSection />
 
-      <PricingBlocks />
-
-      <FeaturesBlocks />
-
-      <CardsBlocks />
-
-      <BlogBlocks />
+      {/* Modern Call to Action with Gradient */}
+      <div className="bg-gradient-to-r from-indigo-600 to-indigo-800 relative overflow-hidden">
+        <div className="absolute inset-0 bg-grid-white/[0.2] bg-grid-pattern [mask-image:linear-gradient(0deg,transparent,black)]" />
+        <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8 relative z-10">
+          <div className="bg-white/10 backdrop-blur-lg rounded-3xl p-8 lg:p-12">
+            <div className="lg:grid lg:grid-cols-2 lg:gap-8 items-center">
+              <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
+                <span className="block">Ready to transform your project?</span>
+                <span className="block mt-2 text-indigo-200 text-2xl">
+                  Choose from our premium collection of templates.
+                </span>
+              </h2>
+              <div className="mt-8 lg:mt-0 flex flex-col sm:flex-row gap-4">
+                <Link
+                  href="#"
+                  className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-full text-indigo-600 bg-white hover:bg-indigo-50 transition-colors duration-300 shadow-lg hover:shadow-xl"
+                >
+                  Browse All Templates
+                </Link>
+                <Link
+                  href="#"
+                  className="inline-flex items-center justify-center px-6 py-3 border-2 border-white text-base font-medium rounded-full text-white hover:bg-white/10 transition-colors duration-300"
+                >
+                  Learn More
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
