@@ -201,7 +201,7 @@ export default function SubscriptionPlans() {
       <div className="container mx-auto px-4 py-16">
         {/* Header Section */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-[#2D1537] to-pink-600 bg-clip-text text-transparent">
             Choose Your Learning Path
           </h1>
           <p className="text-lg text-slate-600 dark:text-slate-400 mb-8">
@@ -212,7 +212,7 @@ export default function SubscriptionPlans() {
           <div className="flex items-center justify-center gap-3 mb-8">
             <span
               className={`text-sm ${
-                !isAnnual ? "text-purple-600 font-medium" : "text-slate-600"
+                !isAnnual ? "text-[#2D1537] font-medium" : "text-slate-600"
               }`}
             >
               Monthly
@@ -220,11 +220,11 @@ export default function SubscriptionPlans() {
             <Switch
               checked={isAnnual}
               onCheckedChange={setIsAnnual}
-              className="bg-purple-600"
+              className="bg-[#2D1537]"
             />
             <span
               className={`text-sm ${
-                isAnnual ? "text-purple-600 font-medium" : "text-slate-600"
+                isAnnual ? "text-[#2D1537] font-medium" : "text-slate-600"
               }`}
             >
               Annually{" "}
@@ -240,13 +240,13 @@ export default function SubscriptionPlans() {
               key={plan.name}
               className={`relative overflow-hidden transition-all duration-300 hover:shadow-xl ${
                 selectedPlan === plan.name
-                  ? "border-purple-600 shadow-purple-100 dark:shadow-purple-900/20"
+                  ? "border-[#2D1537] shadow-purple-100 dark:shadow-purple-900/20"
                   : "border-slate-200 dark:border-slate-800"
               }`}
             >
               {plan.badge && (
                 <div className="absolute top-4 right-4">
-                  <span className="px-3 py-1 text-xs font-medium bg-purple-100 text-purple-600 rounded-full">
+                  <span className="px-3 py-1 text-xs font-medium bg-purple-100 text-[#2D1537] rounded-full">
                     {plan.badge}
                   </span>
                 </div>
@@ -318,7 +318,7 @@ export default function SubscriptionPlans() {
                 <Button
                   className={`w-full ${
                     plan.name === "Pro"
-                      ? "bg-purple-600 hover:bg-purple-700 text-white"
+                      ? "bg-[#2D1537] hover:bg-[#2D1537] text-white"
                       : "bg-white hover:bg-slate-50 text-slate-900 border border-slate-200"
                   }`}
                   onClick={() => setSelectedPlan(plan.name)}
