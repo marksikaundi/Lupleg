@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Check, HelpCircle, Zap } from "lucide-react";
+import { Check, HelpCircle, Zap, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -16,136 +16,322 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
+import { Switch } from "@/components/ui/switch";
 
 const plans = [
   {
     name: "Free",
-    price: "$0",
-    description: "Best for individuals and small teams",
+    price: { monthly: "$0", annual: "$0" },
+    description: "Perfect for getting started with learning",
+    badge: "",
     features: [
       {
-        name: "Free forever",
-        tooltip: "No credit card required",
+        category: "Learning Resources",
+        items: [
+          {
+            name: "Access to frontend challenges",
+            tooltip: "All frontend challenges available",
+            included: true,
+          },
+          {
+            name: "Basic learning materials",
+            tooltip: "Access to fundamental tutorials and guides",
+            included: true,
+          },
+          {
+            name: "Community forum access",
+            tooltip: "Connect and learn from other students",
+            included: true,
+          },
+        ],
       },
       {
-        name: "Access to frontend challenges",
-        tooltip: " All frontend challenges available ",
+        category: "Mentorship",
+        items: [
+          {
+            name: "15 days of basic mentorship",
+            tooltip: "Join Monday to Friday mentorship for 30 minutes",
+            included: true,
+          },
+          {
+            name: "Group learning sessions",
+            tooltip: "Join weekly group learning sessions",
+            included: true,
+          },
+        ],
       },
-
       {
-        name: "15 days of mentorship",
-        tooltip: "Join me from Monday to Friday mentorship 3o minutes",
+        category: "Projects & Practice",
+        items: [
+          {
+            name: "2 practice projects",
+            tooltip: "Access to 2 projects for 15 days",
+            included: true,
+          },
+          {
+            name: "Basic code reviews",
+            tooltip: "Get feedback on your code",
+            included: true,
+          },
+        ],
       },
-
       {
-        name: "15 days access to 2 projects",
-        tooltip: " Access to 2 projects for 15 days",
-      },
-
-      {
-        name: "CV/Resume review",
-        tooltip: " We help you review your CV/Resume",
+        category: "Career Support",
+        items: [
+          {
+            name: "CV/Resume review",
+            tooltip: "One-time review of your CV/Resume",
+            included: true,
+          },
+          {
+            name: "GitHub profile review",
+            tooltip: "Basic review of your GitHub profile",
+            included: true,
+          },
+        ],
       },
     ],
   },
   {
     name: "Pro",
-    price: "$29.99",
-    description: "Better for growing teams",
+    price: { monthly: "$29.99", annual: "$299.99" },
+    description: "For serious developers ready to excel",
+    badge: "Most Popular",
     features: [
       {
-        name: "All Free Plan features",
-        tooltip: "Everything in the Free Plan, plus more",
-      },
-
-      {
-        name: "Access to frontend challenges",
-        tooltip: " All frontend challenges available ",
-      },
-      {
-        name: "Access to backend challenges",
-        tooltip: " All backend challenges available ",
-      },
-      {
-        name: "Daily mentorship from Monday to Friday",
-        tooltip: " Join me from Monday to Friday mentorship 2hours",
-      },
-      {
-        name: " Access to all projects",
-        tooltip: " Solution avaialable to our challenges",
-      },
-      {
-        name: "Practical technical interviews",
-        tooltip: " We help you be accessed for the interview",
-      },
-      {
-        name: "Internship opportunity",
-        tooltip: " Earn your intership to work with real world products",
+        category: "Learning Resources",
+        items: [
+          {
+            name: "All Free Plan features",
+            tooltip: "Everything in the Free Plan, plus more",
+            included: true,
+          },
+          {
+            name: "Advanced frontend challenges",
+            tooltip: "Premium frontend challenges with modern technologies",
+            included: true,
+          },
+          {
+            name: "Backend challenges",
+            tooltip: "Comprehensive backend development challenges",
+            included: true,
+          },
+          {
+            name: "Architecture workshops",
+            tooltip: "Learn system design and architecture",
+            included: true,
+          },
+        ],
       },
       {
-        name: "Resume/CV review",
-        tooltip: " After completing will review your resume",
+        category: "Mentorship & Support",
+        items: [
+          {
+            name: "Daily mentorship (2 hours)",
+            tooltip: "Extended mentorship sessions Monday to Friday",
+            included: true,
+          },
+          {
+            name: "1-on-1 coding sessions",
+            tooltip: "Personal guidance on your projects",
+            included: true,
+          },
+          {
+            name: "Priority support",
+            tooltip: "Get answers within 24 hours",
+            included: true,
+          },
+        ],
+      },
+      {
+        category: "Projects & Practice",
+        items: [
+          {
+            name: "Unlimited project access",
+            tooltip: "Access to all projects and solutions",
+            included: true,
+          },
+          {
+            name: "Real-world projects",
+            tooltip: "Work on production-grade applications",
+            included: true,
+          },
+          {
+            name: "Advanced code reviews",
+            tooltip: "Detailed code reviews with best practices",
+            included: true,
+          },
+        ],
+      },
+      {
+        category: "Career Growth",
+        items: [
+          {
+            name: "Mock interviews",
+            tooltip: "Practice technical interviews with feedback",
+            included: true,
+          },
+          {
+            name: "Internship opportunity",
+            tooltip: "Priority access to internship positions",
+            included: true,
+          },
+          {
+            name: "Job search strategy",
+            tooltip: "Personalized career path guidance",
+            included: true,
+          },
+          {
+            name: "Portfolio development",
+            tooltip: "Help building a standout portfolio",
+            included: true,
+          },
+        ],
       },
     ],
   },
 ];
 
 export default function SubscriptionPlans() {
-  const [selectedPlan, setSelectedPlan] = useState();
+  const [selectedPlan, setSelectedPlan] = useState("");
+  const [isAnnual, setIsAnnual] = useState(false);
 
   return (
-    <div className="container mx-auto px-4 py-8 flex flex-col items-center">
-      <h2 className="text-3xl font-bold text-center mb-8">Choose Your Plan</h2>
-      <div className="grid md:grid-cols-2 gap-8 max-w-4xl w-full">
-        {plans.map((plan) => (
-          <Card
-            key={plan.name}
-            className={`flex flex-col w-full ${
-              selectedPlan === plan.name ? "border-primary" : ""
-            }`}
-          >
-            <CardHeader>
-              <CardTitle className="text-2xl">{plan.name}</CardTitle>
-              <CardDescription>{plan.description}</CardDescription>
-            </CardHeader>
-            <CardContent className="flex-grow">
-              <p className="text-4xl font-bold mb-4">
-                {plan.price}
-                <span className="text-sm font-normal">/month</span>
-              </p>
-              <ul className="space-y-2">
-                {plan.features.map((feature) => (
-                  <li key={feature.name} className="flex items-center">
-                    <Check className="h-5 w-5 text-[#2D1537] mr-2" />
-                    <span>{feature.name}</span>
-                    <TooltipProvider>
-                      <Tooltip>
-                        <TooltipTrigger>
-                          <HelpCircle className="h-4 w-4 text-muted-foreground ml-2" />
-                        </TooltipTrigger>
-                        <TooltipContent>
-                          <p>{feature.tooltip}</p>
-                        </TooltipContent>
-                      </Tooltip>
-                    </TooltipProvider>
-                  </li>
-                ))}
-              </ul>
-            </CardContent>
-            <div className="p-6 pt-0">
-              <Button
-                className="w-full"
-                variant={plan.name === "Pro" ? "default" : "outline"}
-                onClick={() => setSelectedPlan(plan.name)}
-              >
-                {plan.name === "Pro" && <Zap className="mr-2 h-4 w-4" />}
-                {selectedPlan === plan.name
-                  ? "Selected"
-                  : `Choose ${plan.name}`}
-              </Button>
-            </div>
-          </Card>
-        ))}
+    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-slate-100 dark:from-slate-950 dark:to-slate-900">
+      <div className="container mx-auto px-4 py-16">
+        {/* Header Section */}
+        <div className="text-center mb-16">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-[#2D1537] to-pink-600 bg-clip-text text-transparent">
+            Choose Your Learning Path
+          </h1>
+          <p className="text-lg text-slate-600 dark:text-slate-400 mb-8">
+            Unlock your potential with our comprehensive learning plans
+          </p>
+
+          {/* Billing Toggle */}
+          <div className="flex items-center justify-center gap-3 mb-8">
+            <span
+              className={`text-sm ${
+                !isAnnual ? "text-[#2D1537] font-medium" : "text-slate-600"
+              }`}
+            >
+              Monthly
+            </span>
+            <Switch
+              checked={isAnnual}
+              onCheckedChange={setIsAnnual}
+              className="bg-[#2D1537]"
+            />
+            <span
+              className={`text-sm ${
+                isAnnual ? "text-[#2D1537] font-medium" : "text-slate-600"
+              }`}
+            >
+              Annually{" "}
+              <span className="text-emerald-500 font-medium">(Save 20%)</span>
+            </span>
+          </div>
+        </div>
+
+        {/* Plans Grid */}
+        <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+          {plans.map((plan) => (
+            <Card
+              key={plan.name}
+              className={`relative overflow-hidden transition-all duration-300 hover:shadow-xl ${
+                selectedPlan === plan.name
+                  ? "border-[#2D1537] shadow-purple-100 dark:shadow-purple-900/20"
+                  : "border-slate-200 dark:border-slate-800"
+              }`}
+            >
+              {plan.badge && (
+                <div className="absolute top-4 right-4">
+                  <span className="px-3 py-1 text-xs font-medium bg-purple-100 text-[#2D1537] rounded-full">
+                    {plan.badge}
+                  </span>
+                </div>
+              )}
+
+              <CardHeader>
+                <CardTitle className="text-2xl font-bold">
+                  {plan.name}
+                </CardTitle>
+                <CardDescription className="text-slate-600 dark:text-slate-400">
+                  {plan.description}
+                </CardDescription>
+              </CardHeader>
+
+              <CardContent className="space-y-6">
+                <div className="space-y-2">
+                  <p className="text-4xl font-bold text-slate-900 dark:text-white">
+                    {isAnnual ? plan.price.annual : plan.price.monthly}
+                    <span className="text-base font-normal text-slate-600 dark:text-slate-400">
+                      /{isAnnual ? "year" : "month"}
+                    </span>
+                  </p>
+                  {isAnnual && plan.name === "Pro" && (
+                    <p className="text-sm text-emerald-500">
+                      Save $59.89 yearly
+                    </p>
+                  )}
+                </div>
+
+                <div className="space-y-6">
+                  {plan.features.map((category, idx) => (
+                    <div key={idx} className="space-y-3">
+                      <h3 className="text-sm font-medium text-slate-500 dark:text-slate-400 uppercase tracking-wider">
+                        {category.category}
+                      </h3>
+                      <ul className="space-y-3">
+                        {category.items.map((feature) => (
+                          <li
+                            key={feature.name}
+                            className="flex items-center gap-2"
+                          >
+                            <div className="flex-shrink-0">
+                              {feature.included ? (
+                                <Check className="h-5 w-5 text-emerald-500" />
+                              ) : (
+                                <X className="h-5 w-5 text-slate-300" />
+                              )}
+                            </div>
+                            <span className="text-slate-700 dark:text-slate-300">
+                              {feature.name}
+                            </span>
+                            <TooltipProvider>
+                              <Tooltip>
+                                <TooltipTrigger>
+                                  <HelpCircle className="h-4 w-4 text-slate-400" />
+                                </TooltipTrigger>
+                                <TooltipContent>
+                                  <p className="text-sm">{feature.tooltip}</p>
+                                </TooltipContent>
+                              </Tooltip>
+                            </TooltipProvider>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
+                </div>
+
+                <Button
+                  className={`w-full ${
+                    plan.name === "Pro"
+                      ? "bg-[#2D1537] hover:bg-[#2D1537] text-white"
+                      : "bg-white hover:bg-slate-50 text-slate-900 border border-slate-200"
+                  }`}
+                  onClick={() => setSelectedPlan(plan.name)}
+                >
+                  {plan.name === "Pro" && <Zap className="mr-2 h-4 w-4" />}
+                  {selectedPlan === plan.name
+                    ? "Selected"
+                    : `Choose ${plan.name}`}
+                </Button>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
       </div>
     </div>
   );
