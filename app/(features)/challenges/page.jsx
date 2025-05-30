@@ -26,7 +26,7 @@ export default function Challenges() {
             <div className="animated-border after:opacity-100 before:opacity-100 p-0.5 rounded-lg text-[#2D1537] flex justify-center items-center">
               <Link
                 className="bg-[#2D1537] text-white text-lg font-bold py-4 px-8 cursor-pointer relative w-full rounded-lg group-hover:bg-[#2D1537] z-10"
-                href="/challenges/frontend"
+                href="/challenges/start-coding"
               >
                 Start coding
               </Link>
