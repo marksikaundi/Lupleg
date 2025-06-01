@@ -85,7 +85,7 @@ export default function Sitemap() {
       <div className="container mx-auto px-4 py-16 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <div className="inline-flex items-center justify-center px-4 py-2 bg-green-100 rounded-full text-sm font-medium text-green-800 mb-4">
+          <div className="inline-flex items-center justify-center px-4 py-2 bg-green-100 rounded-full text-sm font-medium text-[#2D1537] mb-4">
             Site Navigation
           </div>
           <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
@@ -113,7 +113,7 @@ export default function Sitemap() {
                     href={item.href}
                     className="group block p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-200 border border-gray-100 hover:border-green-200"
                   >
-                    <h3 className="text-lg font-medium text-gray-900 group-hover:text-green-600">
+                    <h3 className="text-lg font-medium text-gray-900 group-hover:text-[#2D1537]">
                       {item.title}
                     </h3>
                     <p className="mt-1 text-sm text-gray-500 group-hover:text-gray-600">
@@ -130,8 +130,8 @@ export default function Sitemap() {
         <div className="mt-16 text-center">
           <div className="inline-flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="/contact"
-              className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-[#C24229] text-white hover:bg-[#B03220] transition-colors"
+              href="/programs"
+              className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-[#2D1537] text-white hover:bg-[#2D1537] transition-colors"
             >
               Get Started
             </Link>
