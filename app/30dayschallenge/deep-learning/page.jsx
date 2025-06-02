@@ -1,7 +1,6 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-
 import React, { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import CardHeader from "@/components/dl/CardHeader";
@@ -100,7 +99,7 @@ export default function DeepLearningSummary() {
               DEEP LEARNING
             </span>
             <h1 className="text-4xl md:text-6xl font-bold mb-4 max-w-4xl mx-auto">
-              30DaysChallenge to deep learning with all key concepts.
+              30 Days of deep learning with all key concepts.
             </h1>
             <Link href="/deep-learning/">
               <Button className="bg-[#2D1537] hover:bg-[#2D1537] text-white font-bold py-2 px-4 mt-6 rounded">
@@ -110,7 +109,6 @@ export default function DeepLearningSummary() {
           </div>
         </main>
       </div>
-
       <div className="my-10">
         <CardHeader/>
       </div>
