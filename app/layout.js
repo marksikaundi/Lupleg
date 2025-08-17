@@ -2,6 +2,7 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import Script from "next/script";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -18,6 +19,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={poppins.className}>
+         <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5141290108997002"
+          strategy="afterInteractive"
+          crossOrigin="anonymous"
+        />
         <Nav />
         {children}
         <Footer />
